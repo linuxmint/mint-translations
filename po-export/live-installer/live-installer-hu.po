@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: live-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2014-06-29 17:22+0000\n"
-"Last-Translator: jackson <Unknown>\n"
+"PO-Revision-Date: 2015-03-21 07:17+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-25 10:22+0000\n"
-"X-Generator: Launchpad (build 17355)\n"
+"X-Launchpad-Export-Date: 2015-06-02 10:10+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 "Language: hu\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr ""
+msgstr "%(partition)s formázása %(format)s fájlrendszerre…"
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
@@ -35,7 +35,7 @@ msgid ""
 "do a custom install!"
 msgstr ""
 "HIBA: Egyéni telepítéshez kézzel kell csatlakoztatni a cél fájlrendszert "
-"/target csatolási pont alá."
+"„/target” csatolási pont alá."
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -44,6 +44,10 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"HIBA: valami nincs rendben a telepítőlemezzel. Ez a problémát az LMDE-vel "
+"nem kompatibilis lemezíró (például: YUMI vagy más multiboot) programok "
+"okozhatják. Írja ki az ISO-lemezképet a DVD-re, USB pendrive-ra egy másik "
+"programmal."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -61,7 +65,7 @@ msgstr "Metaadatok visszaállítása ezen: %s"
 
 #: usr/lib/live-installer/installer.py:231
 msgid "Entering the system ..."
-msgstr ""
+msgstr "Belépés a rendszerbe…"
 
 #: usr/lib/live-installer/installer.py:273
 msgid "Removing live configuration (packages)"
@@ -69,11 +73,11 @@ msgstr "A Live beállítások eltávolítása (csomagok)"
 
 #: usr/lib/live-installer/installer.py:281
 msgid "Adding new user to the system"
-msgstr ""
+msgstr "Új felhasználó hozzáadása a rendszerhez"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr ""
+msgstr "Fájlrendszer csatolási információk írása a „/etc/fstab” fájlba"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
@@ -89,7 +93,7 @@ msgstr "Nyelvi csomagok"
 
 #: usr/lib/live-installer/installer.py:422
 msgid "Installing drivers"
-msgstr ""
+msgstr "Illesztőprogramok telepítése"
 
 #: usr/lib/live-installer/installer.py:437
 msgid "Setting keyboard options"
@@ -126,11 +130,11 @@ msgstr "Rendszerbetöltő ellenőrzése"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
-msgstr ""
+msgstr "Váratlan hiba"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
-msgstr ""
+msgstr "Telepítés nem sikerült a következő hiba miatt."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:75
 #: usr/lib/live-installer/frontend/gtk_interface.py:77
@@ -161,7 +165,7 @@ msgstr "Particionálás"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr ""
+msgstr "Valóban kézzel szeretné megadni a partíciókat?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -177,39 +181,39 @@ msgstr "Linux Mint telepítése…"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Installation paused: please finish the custom installation"
-msgstr ""
+msgstr "Telepítés megállítva az egyedi telepítés elvégzéséig."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:114
 msgid "Country"
-msgstr ""
+msgstr "Ország"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:126
 msgid "Click to change your picture"
-msgstr ""
+msgstr "Kattintson a kép megváltoztatásához"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:128
 msgid "Take a photo..."
-msgstr ""
+msgstr "Fénykép készítése…"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:131
 msgid "Browse for more pictures..."
-msgstr ""
+msgstr "További képek tallózása…"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:170
 msgid "Select timezone"
-msgstr ""
+msgstr "Válasszon időzónát"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
-msgstr ""
+msgstr "Partíciók szerkesztése"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:175
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:176
 msgid "Expert mode"
-msgstr ""
+msgstr "Haladó"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:220
 #: usr/lib/live-installer/frontend/gtk_interface.py:444
@@ -228,7 +232,7 @@ msgstr "Áttekintés"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr ""
+msgstr "Fájlok indexelése…"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -240,7 +244,7 @@ msgstr "Az Ön teljes neve"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Please enter your full name."
-msgstr ""
+msgstr "Adja meg a teljes nevét."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid "Your username"
@@ -248,7 +252,7 @@ msgstr "Az Ön felhasználói neve"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "This is the name you will use to log in to your computer."
-msgstr ""
+msgstr "Ezzel a névvel tud majd bejelentkezni a számítógépbe."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:394
 msgid "Your password"
@@ -257,6 +261,8 @@ msgstr "Az Ön jelszava"
 #: usr/lib/live-installer/frontend/gtk_interface.py:395
 msgid "Please enter your password twice to ensure it is correct."
 msgstr ""
+"Írja be a jelszavát kétszer, így biztos lehet bene, hogy jól adta meg a "
+"jelszavát."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Hostname"
@@ -265,20 +271,23 @@ msgstr "Gépnév"
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
 msgstr ""
+"Ez a gépnév lesz a számítógép neve, ahogyan majd a hálózaton is látszik."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
-msgstr ""
+msgstr "Automatikus bejelentkezés"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:399
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
 msgstr ""
+"Ha engedélyezi, a rendszer indításakor – a bejelentkező képernyő "
+"kihagyásával – automatikusan bejelentkezik a munkamenetbe."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
-msgstr ""
+msgstr "Automatikus bejelentkezés"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:403
 msgid "Your picture"
@@ -307,10 +316,11 @@ msgstr "GRUB telepítése"
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
 msgstr ""
+"A GROB rendszerbetöltőt a Linux kernel betöltésére használja rendszer."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr ""
+msgstr "Használja a szövegmezőt a billentyűzetkiosztás tesztelésére."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -327,20 +337,23 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
 msgstr ""
-"Folytatáshoz csatolja a cél fájlrendszert a /target csatolási pont alá."
+"Folytatáshoz csatolja a cél fájlrendszert a „/target” csatolási pont alá."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
-"Ne csatoljon fájlrendszert a virtuális eszközökre, például a /dev, /proc, "
-"/sys, stb. a /target csatolási pont alá."
+"Ne csatoljon fájlrendszert a virtuális eszközökre, például: „/dev”, „/proc”, "
+"„/sys”, stb. a „/target” csatolási pont alá."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
+"A telepítés során lesz ideje arra, hogy chroot paranccsal belépjen a "
+"„/target” helyre és telepítse mindazokat a csomagokat, amelyek kellenek az "
+"új rendszer elindulásához."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
@@ -352,11 +365,15 @@ msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
+"Ha bizonytalan abban, hogy ez mit jelent, akkor menjen vissza és ne válassza "
+"a kézi particionálást."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr ""
+"Tegye meg a következőt, mielőtt a „Folytatás” gombra kattint a telepítés "
+"befejezéséhez."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -364,10 +381,10 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
-"A /target/etc/fstab létrehozása a felcsatolandó fájlrendszerek számára, "
+"A „/target/etc/fstab” létrehozása a felcsatolandó fájlrendszerek számára, "
 "ahogy azok az új rendszerben csatolva lesznek. Ezek megegyeznek a jelenleg "
-"/target csatolási pont alá csatoltakkal (a /target előtag használata nélkül "
-"az elérési útban)."
+"„/target” csatolási pont alá csatoltakkal (a „/target” előtag használata "
+"nélkül az elérési útban)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -387,7 +404,7 @@ msgid ""
 msgstr ""
 "Figyeljen arra, hogy az „update-initramfs” helyes működéséhez bizonyos "
 "esetekben (például: dm-crypt) már most ugyanolyan néven kell csatolni a "
-"blokkeszközt, mint ahogy a /target/etc/fstab fájlban található."
+"blokkeszközt, mint ahogy a „/target/etc/fstab” fájlban található."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:431
 msgid ""
@@ -395,8 +412,8 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
-"Alaposan ellenőrizze a /target/etc/fstab fájl helyességét egyeztesse az új "
-"rendszer elindulásához szükséges meghajtók csatolva vannak-e a /target "
+"Alaposan ellenőrizze a „/target/etc/fstab” fájl helyességét egyeztesse az új "
+"rendszer elindulásához szükséges meghajtók csatolva vannak-e a „/target” "
 "csatolási pont alá."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
@@ -417,7 +434,7 @@ msgstr "Csatolási pont"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:439
 msgid "Format as"
-msgstr ""
+msgstr "Fájlrendszer"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:440
 msgid "Size"
@@ -430,19 +447,19 @@ msgstr "Szabad hely"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Quit?"
-msgstr ""
+msgstr "Kilép?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Are you sure you want to quit the installer?"
-msgstr ""
+msgstr "Biztosan ki akar lépni a telepítőből?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:686
 msgid "Passwords do not match."
-msgstr ""
+msgstr "A megadott jelszavak nem egyeznek."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:689
 msgid "Passwords match."
-msgstr ""
+msgstr "A jelszavak egyeznek."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 #: usr/lib/live-installer/frontend/gtk_interface.py:787
@@ -459,53 +476,54 @@ msgstr "Telepítőeszköz"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 msgid "Please choose a language"
-msgstr ""
+msgstr "Válasszon nyelvet"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr ""
+msgstr "Adja meg a teljes nevét."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr ""
+msgstr "Adja meg a felhasználónevét."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr ""
+msgstr "Adja meg a jelszót ehhez a felhasználónevéhez."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
-msgstr ""
+msgstr "A jelszavak nem egyeznek."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "Adja meg a gépnevet."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr ""
+msgstr "A felhasználónév csak kisbetűkből állhat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
 msgstr ""
+"A felhasználónév nem tartalmazhat szóközt és más helykitöltő karaktereket."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr ""
+msgstr "A gépnév csak kisbetűkből állhat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr ""
+msgstr "A gépnév nem tartalmazhat szóközt és más helykitöltő karaktereket."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
-msgstr ""
+msgstr "Folytatás előtt adja meg a root („/”) partíció fájlrendszerét."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr ""
+msgstr "Adja meg a root („/”) partíciót."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -516,6 +534,12 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"A root partícióra szükség van a Linux Mint telepítéséhez.\n"
+"\n"
+" - Csatolási pont: /\n"
+" - Ajánlott méret: 30GB\n"
+" - Ajánlott fájlrendszer: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
@@ -535,7 +559,7 @@ msgstr "Az EFI partíciót VFAT vagy FAT32 fájlrendszerre kell formázni."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr ""
+msgstr "Válassza ki az EFI partíciót."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -591,15 +615,15 @@ msgstr "Felhasználónév: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "Automatic login: "
-msgstr ""
+msgstr "Automatikus bejelentkezés: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "enabled"
-msgstr ""
+msgstr "engedélyezve"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "disabled"
-msgstr ""
+msgstr "letiltva"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:889
 msgid "System settings"
@@ -616,7 +640,7 @@ msgstr "Fájlrendszer műveletek"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr ""
+msgstr "Rendszerbetöltő telepítése ide: %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
@@ -624,17 +648,17 @@ msgstr "Ne telepítsen rendszerbetöltőt"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr ""
+msgstr "A már csatolt „/target” használata."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr ""
+msgstr "%(path)s formázása %(filesystem)s fájlrendszerre"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "Csatolás %(path)s a következő helyre: %(mount)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
@@ -645,63 +669,67 @@ msgstr "Telepítési hiba"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr ""
+msgstr "Telepítés megállítva"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
+"Telepítés megállítva. Olvassa el figyelmesen az utasításokat mielőtt a "
+"„Folytatás” gombra kattint a telepítés befejezéséhez."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
 msgstr ""
+"A telepítés befejeződött. Újra kívánja indítani a számítógépet az új "
+"rendszer elindításához?"
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "Hozzárendelés: „/”"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "Hozzárendelés: „/home”"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "Hozzárendelés: „/boot/efi”"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "kB"
-msgstr ""
+msgstr "KB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
-msgstr ""
+msgstr "Eltávolítható:"
 
 #: usr/lib/live-installer/partitioning.py:218
 #, python-format
@@ -710,31 +738,34 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"Nem található partíciós tábla a következő meghajtón: %s. Szeretné, hogy a "
+"telepítő létrehozza a partíciókat? Megjegyzés: a művelet MINDENT ADATOT "
+"TÖRÖL a lemezről."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "Logikai partíció"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
-msgstr ""
+msgstr "Kiterjesztett partíció"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"
-msgstr ""
+msgstr "Ismeretlen"
 
 #: usr/lib/live-installer/partitioning.py:436
 msgid "Edit partition"
-msgstr ""
+msgstr "Partíció szerkesztése"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"
-msgstr ""
+msgstr "Eszköz:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "Fájlrendszer"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "Csatolási pont:"

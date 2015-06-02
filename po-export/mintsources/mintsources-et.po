@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-11-03 10:14+0100\n"
-"PO-Revision-Date: 2014-12-24 21:37+0000\n"
-"Last-Translator: lyyser <Unknown>\n"
+"PO-Revision-Date: 2015-03-14 22:43+0000\n"
+"Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-25 10:24+0000\n"
-"X-Generator: Launchpad (build 17355)\n"
+"X-Launchpad-Export-Date: 2015-06-02 10:12+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:33
 msgid "Adding PPAs is not supported"
@@ -29,7 +29,7 @@ msgstr "PPA '%s' lisamine ebaõnnestus."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:44
 msgid "Adding private PPAs is not supported currently"
-msgstr "Eraalgatuslike PPA-de tugi hetkel puudub"
+msgstr "Privaatsete PPA-de tugi hetkel puudub"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:47
 msgid "You are about to add the following PPA to your system:"
@@ -46,7 +46,7 @@ msgstr "Jätkamiseks vajuta ENTER, lisamisest loobumiseks Ctrl-C"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:58
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr ""
+msgstr "Vastuse küsimine pole võimalik. Palun käivita võtmega -y"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:257
 #: usr/lib/linuxmint/mintSources/mintSources.py:285
@@ -55,7 +55,7 @@ msgstr "Allikad"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:263
 msgid "CD-ROM (Installation Disc)"
-msgstr "CD-ROM (paigaldus plaat)"
+msgstr "CD-ROM (paigaldusplaat)"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:304
 msgid ""
@@ -64,6 +64,10 @@ msgid ""
 "Unless you are participating in beta-testing, you should not enable this "
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
+"Linux Mint kasutab testimata pakettide avaldamiseks Romeod. Kui pakid on "
+"testitud, liiguvad need ametlikesse varamutesse. Kui sa just ei võta osa "
+"beeta-testimisest, ei peaks sa seda varamut lubama. Kas tahad kindlasti "
+"Romeo sisse lülitada?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:310
 msgid ""
@@ -75,6 +79,13 @@ msgid ""
 "backports until you have read this information. Are you sure you want to "
 "enable backports?"
 msgstr ""
+"Tagasi porditud tarkvara paketid pärinevad järgmistest Linux Minti "
+"väljalasetest. Kui tagasi porditud tarkvara on saadaval, avaldab "
+"arendusmeeskond selle aadressil http://blog.linuxmint.com. Teadaanne võib "
+"sisaldada olulist infot uute võimaluste, arendusotsuste või teadaolevate "
+"probleemide kohta, mis võivad sind mõjutada. Seetõttu pole soovitatav tagasi "
+"porditud tarkvara lubada enne selle info lugemist. Kas tahad kindlasti "
+"tagasi porditud tarkvara kasutamise lubada?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:366
 msgid "Other..."
@@ -116,7 +127,7 @@ msgstr "Tarkvaraallikad"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:557
 msgid "Backported packages"
-msgstr "Tagavarapaketid"
+msgstr "Uuest väljalaskest tagasi porditud paketid"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:559
 msgid "Unstable packages"
@@ -129,7 +140,7 @@ msgstr "Tegevus pole vajalik"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:574
 msgid "Official repositories"
-msgstr "Ametlik hoidlad"
+msgstr "Ametlikud varamud"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:575
 msgid "PPAs"
@@ -137,7 +148,7 @@ msgstr "PPAd"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:576
 msgid "Additional repositories"
-msgstr "Täiendavad hoidlad"
+msgstr "Täiendavad varamud"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:577
 msgid "Authentication keys"
@@ -162,7 +173,7 @@ msgstr "Baas"
 #: usr/lib/linuxmint/mintSources/mintSources.py:583
 #: usr/lib/linuxmint/mintSources/mintSources.py:584
 msgid "Select a faster server..."
-msgstr "Vali kiirem server..."
+msgstr "Vali kiireim server..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:586
 msgid "Optional components"
@@ -197,7 +208,7 @@ msgstr "Impordi võtmefail..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:598
 msgid "Download a key..."
-msgstr "Lae võti..."
+msgstr "Laadi võti alla..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:601
 msgid "Fix MergeList problems"
@@ -212,19 +223,18 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:603
 msgid "Purge residual configuration"
-msgstr "Puhastage allesjäänud konfiguratsioon"
+msgstr "Eemaldage allesjäänud seadistusfailid"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:604
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
 msgstr ""
-"Paketid jätavad vahepeal konfiguratsiooni failid süsteemi isegi pärast nende "
-"eemaldamist."
+"Paketid jätavad vahel isegi pärast eemaldamist süsteemi alles seadistusfaile."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:609
 msgid "Enable source code repositories"
-msgstr ""
+msgstr "Lähtekoodi varamute lubamine"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:619
 msgid ""
@@ -232,6 +242,9 @@ msgid ""
 "negatively impact your system. Please do not enable these options in Linux "
 "Mint unless it was suggested by the development team."
 msgstr ""
+"Hoiatus: tagasi porditud ja ebastabiilsed paketid võivad põhjustada "
+"probleeme ja mõjutada sinu süsteemi halvasti. Palun ära luba neid Linux "
+"Mintis, kui seda ei soovitanud teha arendusmeeskond."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:680
 #: usr/lib/linuxmint/mintSources/mintSources.py:704
@@ -244,7 +257,7 @@ msgstr "PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:710
 msgid "Repository"
-msgstr "Hoidla"
+msgstr "Varamu"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:726
 msgid "Key"
@@ -256,33 +269,35 @@ msgstr "Taasta vaikimisi seaded"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:740
 msgid "Restore the official repositories to their default settings"
-msgstr "Taastage ametlikud hoidlad nende vaikesätetele."
+msgstr "Ametlike varamute vaikesätete taastamine."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:805
 msgid "There is no more residual configuration on the system."
-msgstr ""
+msgstr "Süsteemis pole rohkem maja jäetud seadistusfaile."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:811
 msgid "The problem was fixed. Please reload the cache."
-msgstr "Probleem on parandatud. Palun laadige vahemälu uuesti."
+msgstr "Probleem on parandatud. Palun laadi vahemälu uuesti."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:837
 msgid "Open.."
-msgstr "Ava.."
+msgstr "Ava..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:853
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr ""
+"Palun sisesta avaliku võtme 8 märgi pikkune nimi, mida tahad alla laadida "
+"serverist keyserver.ubuntu.com:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:866
 msgid "Are you sure you want to permanently remove this key?"
-msgstr "Oled sa kindel, et soovid jäädavalt kustutada selle võtme?"
+msgstr "Kas oled kindel, et soovid selle võtme jäädavalt kustutada?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:874
 msgid "Please enter the name of the PPA you want to add:"
-msgstr "Palun sisesta PPA nimi mida soovite lisada:"
+msgstr "Palun sisesta PPA nimi, mida soovite lisada:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:925
 msgid "Edit the URL of the PPA"
@@ -290,19 +305,19 @@ msgstr "Muuda PPA veebilehe link"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:935
 msgid "Are you sure you want to permanently remove this PPA?"
-msgstr "Oled sa kindel, et soovid lõplikult kustutada selle PPA?"
+msgstr "Kas oled kindel, et soovid selle PPA lõplikult kustutada?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:944
 msgid "Please enter the name of the repository you want to add:"
-msgstr "Palun sisestage nimi varamule mida soovite lisada:"
+msgstr "Palun sisesta varamu nimi, mida soovid lisada:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:963
 msgid "Edit the URL of the repository"
-msgstr "Redigeeri hoidla URL-i"
+msgstr "Muuda varamu URL-i"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:973
 msgid "Are you sure you want to permanently remove this repository?"
-msgstr "Oled sa kindel, et soovid jäädavalt kustutada selle hoidla?"
+msgstr "Kas oled kindel, et soovid selle varamu jäädavalt kustutada?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1123
 msgid "Update the cache"
@@ -310,11 +325,11 @@ msgstr "Uuenda vahemälu"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1124
 msgid "Click here to update your APT cache with your new sources"
-msgstr ""
+msgstr "Klõpsa siia, et oma APT vahemälu uutest varamutest täiendada"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1130
 msgid "Your APT cache is up to date"
-msgstr ""
+msgstr "Sinu APTi vahemälu on kaasaegne"
 
 #: usr/bin/software-sources:9
 msgid "Please enter your password to configure the software sources"
@@ -330,4 +345,4 @@ msgstr "Tõrge: argumendiks peab olema tarkvaraallikas"
 
 #: generate_desktop_files:28 generate_desktop_files:44
 msgid "Configure the sources for installable software and updates"
-msgstr "Seadista allikaid paigaldatavale tarkvarale ja uuendustele"
+msgstr "Paigaldatava tarkvara ja uuenduste allikate seadistamine"

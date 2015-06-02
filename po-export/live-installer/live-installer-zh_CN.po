@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-02-24 10:49+0000\n"
+"PO-Revision-Date: 2015-02-27 02:47+0000\n"
 "Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-25 10:22+0000\n"
-"X-Generator: Launchpad (build 17355)\n"
+"X-Launchpad-Export-Date: 2015-06-02 10:10+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -127,7 +127,7 @@ msgstr "意外错误"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
-msgstr ""
+msgstr "安装程序失败，出现以下错误："
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:75
 #: usr/lib/live-installer/frontend/gtk_interface.py:77
@@ -198,15 +198,15 @@ msgstr "选择时区"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
-msgstr ""
+msgstr "编辑分区"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:175
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:176
 msgid "Expert mode"
-msgstr ""
+msgstr "专家模式"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:220
 #: usr/lib/live-installer/frontend/gtk_interface.py:444
@@ -271,7 +271,7 @@ msgstr "自动登录"
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
-msgstr ""
+msgstr "如果启用，系统启动时将跳过登录界面，您将会自动进入您的桌面会话。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
@@ -301,11 +301,11 @@ msgstr "安装 GRUB"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
-msgstr ""
+msgstr "GRUB 是一个用于加载 Linux 内核的启动引导程序。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr ""
+msgstr "用这个框来测试您的键盘布局。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -330,7 +330,7 @@ msgstr "请勿在/target/上挂载/dev， /proc， /sys 等虚拟驱动器。"
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
-msgstr ""
+msgstr "在安装过程中，您将有时间通过 chroot 进入 /target 来安装您启动新系统所需的包。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
@@ -341,12 +341,12 @@ msgstr "在安装程序执行时，你将需要编写你自己的/etc/fstab。"
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
-msgstr ""
+msgstr "如果您不确定它们的含义，请回到上一步并取消选择手动管理分区。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
-msgstr ""
+msgstr "请执行以下操作，然后点击前进以完成安装："
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -446,15 +446,15 @@ msgstr "请选择一种语言"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr ""
+msgstr "请输入您的全名。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr ""
+msgstr "请输入一个用户名。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr ""
+msgstr "请为您的帐号输入一个密码。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
@@ -462,7 +462,7 @@ msgstr "您的密码不匹配。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "请输入一个主机名。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
@@ -484,7 +484,7 @@ msgstr "主机名不能包括空格字符。"
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
-msgstr ""
+msgstr "请在继续之前指定一个文件系统以将根目录(/)格式化。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
@@ -499,6 +499,12 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"Linux Mint 需要安装在一个根分区上。\n"
+"\n"
+" -挂载点：/\n"
+" -建议的大小：30GB\n"
+" -建议的文件系统：ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
@@ -602,7 +608,7 @@ msgstr "不安装启动引导程序"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr ""
+msgstr "使用已经挂载的 /target"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
@@ -612,7 +618,7 @@ msgstr "将 %(path)s 格式化为 %(filesystem)s"
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "将 %(path)s 挂载到 %(mount)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
@@ -629,7 +635,7 @@ msgstr "安装暂停"
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
-msgstr ""
+msgstr "安装暂停。请在点击前进并结束安装之前仔细阅读页面上的说明。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
@@ -639,47 +645,47 @@ msgstr "安装完成。您要重启您的电脑以使用新系统吗？"
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "分配到 /"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "分配到 /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "分配到 /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
-msgstr ""
+msgstr "可移动的:"
 
 #: usr/lib/live-installer/partitioning.py:218
 #, python-format
@@ -687,32 +693,32 @@ msgid ""
 "No partition table was found on the hard drive: %s. Do you want the "
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
-msgstr ""
+msgstr "没有在硬盘中发现分区表： %s。您希望安装程序为您创建一组分区吗？注意：这将删除磁盘上的所有数据。"
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "逻辑分区"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
-msgstr ""
+msgstr "扩展分区"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: usr/lib/live-installer/partitioning.py:436
 msgid "Edit partition"
-msgstr ""
+msgstr "编辑分区"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"
-msgstr ""
+msgstr "设备："
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "格式化为："
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "挂载点："

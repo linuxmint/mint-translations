@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2014-12-08 09:08+0000\n"
+"PO-Revision-Date: 2015-03-17 23:20+0000\n"
 "Last-Translator: lyyser <Unknown>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-25 10:22+0000\n"
-"X-Generator: Launchpad (build 17355)\n"
+"X-Launchpad-Export-Date: 2015-06-02 10:10+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr ""
+msgstr "Partitsiooni %(partition)s vormindamine (%(format)s) ..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
@@ -33,6 +33,8 @@ msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
 msgstr ""
+"VIGA: kohandatud paigalduse jaoks pead kõigepealt haakima sihtfailisüsteemid "
+"/target kausta!"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -41,6 +43,10 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"VIGA: Midagi on valesti paigaldusmeediumiga. Tavaliselt põhjustab seda "
+"tööriistade kasutamine, mis ei ühildu LMDE-ga (YUMI või teised mitme "
+"süsteemi alglaadurid). Palun kirjuta ISO tõmmis DVD/USB-le kasutades mõnd "
+"teist tööriista."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -54,11 +60,11 @@ msgstr "%s kopeerimine"
 #: usr/lib/live-installer/installer.py:221
 #, python-format
 msgid "Restoring meta-information on %s"
-msgstr "Meta informatsiooni %s taastamine"
+msgstr "Metaandmete taastamine %s jaoks"
 
 #: usr/lib/live-installer/installer.py:231
 msgid "Entering the system ..."
-msgstr ""
+msgstr "Süsteemi sisenemine ..."
 
 #: usr/lib/live-installer/installer.py:273
 msgid "Removing live configuration (packages)"
@@ -66,11 +72,11 @@ msgstr "Live seadete eemaldamine (paketid)"
 
 #: usr/lib/live-installer/installer.py:281
 msgid "Adding new user to the system"
-msgstr ""
+msgstr "Uue kasutaja lisamine süsteemi"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr ""
+msgstr "Failisüsteemide haakimise andmete kirjutamine faili /etc/fstab"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
@@ -78,15 +84,15 @@ msgstr "Arvuti nime määramine"
 
 #: usr/lib/live-installer/installer.py:393
 msgid "Setting locale"
-msgstr "Asukoha määramine"
+msgstr "Lokaadi määramine"
 
 #: usr/lib/live-installer/installer.py:407
 msgid "Localizing packages"
-msgstr ""
+msgstr "Pakettide lokaliseerimine"
 
 #: usr/lib/live-installer/installer.py:422
 msgid "Installing drivers"
-msgstr ""
+msgstr "Ajurite paigaldamine"
 
 #: usr/lib/live-installer/installer.py:437
 msgid "Setting keyboard options"
@@ -111,7 +117,7 @@ msgstr "APTi puhastamine"
 #: usr/lib/live-installer/installer.py:522
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid "Installation finished"
-msgstr "Paigaldamine on valmis"
+msgstr "Paigaldamine on lõpetatud"
 
 #: usr/lib/live-installer/installer.py:532
 msgid "Configuring bootloader"
@@ -123,11 +129,11 @@ msgstr "Alglaaduri kontrollimine"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
-msgstr ""
+msgstr "Ootamatu viga"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
-msgstr ""
+msgstr "Paigaldamine luhtus järgneva veaga."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:75
 #: usr/lib/live-installer/frontend/gtk_interface.py:77
@@ -154,11 +160,11 @@ msgstr "Kasutaja info"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:96
 msgid "Partitioning"
-msgstr "Sektsioonimine"
+msgstr "Partitsioonid"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr ""
+msgstr "Kas tahad kindlasti partitsioone käsitsi muuta"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -170,43 +176,43 @@ msgstr "Kokkuvõte"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:100
 msgid "Installing Linux Mint..."
-msgstr "Paigaldan Linux Mint..."
+msgstr "Linux Minti paigaldamine..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Installation paused: please finish the custom installation"
-msgstr ""
+msgstr "Paigaldus on pausil: palun lõpeta kohandatud paigaldus"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:114
 msgid "Country"
-msgstr ""
+msgstr "Riik"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:126
 msgid "Click to change your picture"
-msgstr ""
+msgstr "Klõpsa, et oma pilti muuta"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:128
 msgid "Take a photo..."
-msgstr ""
+msgstr "Pildista..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:131
 msgid "Browse for more pictures..."
-msgstr ""
+msgstr "Sirvi rohkem pilte..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:170
 msgid "Select timezone"
-msgstr ""
+msgstr "Vali ajavöönd"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
-msgstr ""
+msgstr "Muuda partitsioone"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:175
 msgid "Refresh"
-msgstr ""
+msgstr "Värskenda"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:176
 msgid "Expert mode"
-msgstr ""
+msgstr "Ekspertrežiim"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:220
 #: usr/lib/live-installer/frontend/gtk_interface.py:444
@@ -225,7 +231,7 @@ msgstr "Ülevaade"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr ""
+msgstr "Failiindeksite arvutamine ..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -237,7 +243,7 @@ msgstr "Sinu täisnimi"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Please enter your full name."
-msgstr ""
+msgstr "Palun sisesta enda täisnimi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid "Your username"
@@ -245,7 +251,7 @@ msgstr "Sinu kasutajanimi"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "This is the name you will use to log in to your computer."
-msgstr ""
+msgstr "Selle nimega logid arvutisse sisse."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:394
 msgid "Your password"
@@ -253,7 +259,7 @@ msgstr "Sinu parool"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:395
 msgid "Please enter your password twice to ensure it is correct."
-msgstr ""
+msgstr "Palun sisesta parooli kaks korda, et see kindlasti saaks õigesti."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Hostname"
@@ -261,21 +267,23 @@ msgstr "Arvuti nimi"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr ""
+msgstr "Hostinimi on arvuti nimi võrgus."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
-msgstr ""
+msgstr "Automaatne sisselogimine"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:399
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
 msgstr ""
+"Kui lubatud, jäetakse arvuti käivitumisel sisselogimisekraan vahele ja "
+"logitakse automaatselt sinu töölauale sisse."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
-msgstr ""
+msgstr "Automaatne sisselogimine"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:403
 msgid "Your picture"
@@ -303,11 +311,11 @@ msgstr "Paigalda GRUB"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
-msgstr ""
+msgstr "GRUB on alglaagur, mis laadib Linuxi kerneli."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr ""
+msgstr "Siin kastis saab klaviatuuripaigutust testida."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -318,37 +326,45 @@ msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
 msgstr ""
+"Sa oled valinud partitsioonide käsitsi muutmise, see võimalus on ainult "
+"KOGENUD KASUTAJATELE."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
-msgstr ""
+msgstr "Enne jätkamist haagi palun sihtfailisüsteemid kausta /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
+"ÄRA haagi /target-i alla virtuaalseid seadmeid nagu /dev, /proc, /sys jt."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
+"Paigalduse ajal antakse sulle võimalus chroot-ida /target-isse ja paigaldada "
+"kõik uue süsteemi alglaadimiseks vajalikud paketid."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
-msgstr ""
+msgstr "Paigalduse ajal pead kirjutama ka enda /etc/fstab faili."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
+"Kui sa ei tea, mida see tähendab, siis mine tagasi ja ära kasuta käsitsi "
+"partitsioonide loomist."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr ""
+"Palun tee järgnevat ja seejärel klõpsa edasi, et paigaldusega jätkata:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -356,6 +372,9 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
+"Loo /target/etc/fstab kõigi failisüsteemide jaoks nii, nagu need uues "
+"süsteemis haagitakse, need peaksid vastama neile, mis praegu on /target alla "
+"haagitud (ilma /target prefiksita)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -363,6 +382,9 @@ msgid ""
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
 "get/aptitude installations."
 msgstr ""
+"Paigalda kõik paketid, mida on juba esimesel alglaadimisel vaja (mdadm, "
+"cryptsetup, dmraid jt) käivitades \"sudo chroot /target\" ning kõik vajaliku "
+"apt-get või aptitude käsud."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:430
 msgid ""
@@ -370,6 +392,9 @@ msgid ""
 "as dm-crypt), you may need to have drives currently mounted using the same "
 "block device name as they appear in /target/etc/fstab."
 msgstr ""
+"Pane tähele, et update-initramfs'i korrektseks töötamiseks on mõnel juhul "
+"(nt dm-crypt kasutamisel) vaja kettad haakida sama blokkseadme nimega, nagu "
+"need esinevad /target/etc/fstab failis."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:431
 msgid ""
@@ -377,6 +402,9 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
+"Kontrolli üle, et /target/etc/fstab oleks õige, vastaks uuele süsteemile, "
+"mis on esmakäivituse ajal ning seal oleks olemas kõik, mis praegu /target "
+"kaustas."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -396,7 +424,7 @@ msgstr "Haakepunkt"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:439
 msgid "Format as"
-msgstr ""
+msgstr "Vorminda kui"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:440
 msgid "Size"
@@ -409,19 +437,19 @@ msgstr "Vaba ruum"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Quit?"
-msgstr ""
+msgstr "Kas lõpetada?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Are you sure you want to quit the installer?"
-msgstr ""
+msgstr "Kas sa oled kindel, et tahad paigaldajast väljuda?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:686
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Paroolid ei klapi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:689
 msgid "Passwords match."
-msgstr ""
+msgstr "Paroolid kattuvad."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 #: usr/lib/live-installer/frontend/gtk_interface.py:787
@@ -438,43 +466,43 @@ msgstr "Paigaldustööriist"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 msgid "Please choose a language"
-msgstr ""
+msgstr "Palun vali keel"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr ""
+msgstr "Palun sisesta oma täisnimi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr ""
+msgstr "Palun sisesta kasutajanimi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr ""
+msgstr "Palun sisesta oma kasutajakonto jaoks parool."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
-msgstr ""
+msgstr "Sinu paroolid ei klapi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "Palun sisesta hostinimi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr ""
+msgstr "Kasutajanimi peab olema väikeste tähtedega."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr ""
+msgstr "Kasutajanimes ei tohi olla tühikuid."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr ""
+msgstr "Hostinimi peab olema väikeste tähtedega."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr ""
+msgstr "Hostinimes ei tohi olla tühikuid."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
@@ -557,15 +585,15 @@ msgstr "Kasutajanimi: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "Automatic login: "
-msgstr ""
+msgstr "Automaatne logimine: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "enabled"
-msgstr ""
+msgstr "lubatud"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "disabled"
-msgstr ""
+msgstr "keelatud"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:889
 msgid "System settings"
@@ -627,7 +655,7 @@ msgstr ""
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
-msgstr ""
+msgstr "Redigeeri"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
@@ -643,27 +671,27 @@ msgstr ""
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
@@ -683,24 +711,24 @@ msgstr ""
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
-msgstr ""
+msgstr "Laiendatud partitsioon"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"
-msgstr ""
+msgstr "Tundmatu"
 
 #: usr/lib/live-installer/partitioning.py:436
 msgid "Edit partition"
-msgstr ""
+msgstr "Muuda partitsiooni"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"
-msgstr ""
+msgstr "Seade:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "Vorminda kohas:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "Ühenduspunkt:"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-02-24 19:22+0000\n"
-"Last-Translator: Литвинчук Эдуард Сергеевич <vampirelower@gmail.com>\n"
+"PO-Revision-Date: 2015-05-15 11:22+0000\n"
+"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-25 10:22+0000\n"
-"X-Generator: Launchpad (build 17355)\n"
+"X-Launchpad-Export-Date: 2015-06-02 10:10+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -43,6 +43,10 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"ПОМИЛКА: Щось не так із середовищем встановлення! Зазвичай це стається через "
+"інструменти пропалювання, які не сумісні з LMDE (YUMI та інші multiboot-"
+"інструменти). Будь ласка, пропаліть ISO-образ на DVD/USB використовуючи "
+"інший інструмент."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -92,7 +96,7 @@ msgstr "Встановлення драйверів"
 
 #: usr/lib/live-installer/installer.py:437
 msgid "Setting keyboard options"
-msgstr "Налаштування параметрів клавіатури"
+msgstr "Налаштування параметрів клавіятури"
 
 #: usr/lib/live-installer/installer.py:476
 msgid "Installing bootloader"
@@ -148,7 +152,7 @@ msgstr "Часовий пояс"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:94
 msgid "Keyboard layout"
-msgstr "Розкладка клавіатури"
+msgstr "Розкладка клавіятури"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:95
 msgid "User info"
@@ -209,7 +213,7 @@ msgstr "Оновити"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:176
 msgid "Expert mode"
-msgstr "Режим експерта"
+msgstr "Режим фахівця"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:220
 #: usr/lib/live-installer/frontend/gtk_interface.py:444
@@ -219,7 +223,7 @@ msgstr "Розкладка"
 #: usr/lib/live-installer/frontend/gtk_interface.py:226
 #: usr/lib/live-installer/frontend/gtk_interface.py:445
 msgid "Variant"
-msgstr "Варіант"
+msgstr "Варіянт"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:235
 #: usr/lib/live-installer/frontend/gtk_interface.py:446
@@ -228,7 +232,7 @@ msgstr "Перегляд"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr ""
+msgstr "Обчислення індексів файлів"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -266,7 +270,7 @@ msgstr "Ім'я комп'ютера"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr ""
+msgstr "Це ім'я хосту буде ім'я комп'ютера у мережі."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
@@ -314,7 +318,7 @@ msgstr "Для завантаження ядра Linux використовує�
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr "Використовуйте це поле для перевірки розкладки клавіатури."
+msgstr "Використовуйте це поле для перевірки розкладки клавіятури."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -345,6 +349,8 @@ msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
+"Під час встановлення, час буде приділено chroot кореневим /target і "
+"встановлені усі пакунки, які будуть необхідні, щоб почати нову систему."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
@@ -357,7 +363,7 @@ msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
-"Якщо ви не впевнені, що все це означає, будь ласка, поверніться назад і "
+"Якщо ви не впевнені, що усе це означає, будь ласка, поверніться назад і "
 "скасуйте ручне керування розділами."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
@@ -383,7 +389,7 @@ msgid ""
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
 "get/aptitude installations."
 msgstr ""
-"Встановіть всі пакунки, які можуть бути потрібні для першого завантаження "
+"Встановіть усі пакунки, які можуть бути потрібні для першого завантаження "
 "(mdadm, cryptsetup, dmraid, інші) командою \"sudo chroot /target\" після "
 "встановлення apt-get/aptitude"
 
@@ -573,7 +579,7 @@ msgstr ""
 " - Файлова система: vfat або fat32\n"
 "\n"
 "Для забезпечення сумісності з Windows, ми рекомендуємо Вам використовувати "
-"перший розділ диска в якості системного розділу EFI.\n"
+"перший розділ диска у якості системного розділу EFI.\n"
 " "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:879
@@ -590,7 +596,7 @@ msgstr "Часовий пояс: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:882
 msgid "Keyboard layout: "
-msgstr "Розкладка клавіатури: "
+msgstr "Розкладка клавіятури: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:885
 msgid "User settings"
@@ -639,7 +645,7 @@ msgstr "Не встановлювати завантажувач"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr ""
+msgstr "Використання вже встановлений /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
@@ -684,15 +690,15 @@ msgstr "Редагувати"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "Призначити /"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "Призначити /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "Призначити /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
@@ -720,7 +726,7 @@ msgstr "Тб"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
-msgstr ""
+msgstr "Знімний:"
 
 #: usr/lib/live-installer/partitioning.py:218
 #, python-format
@@ -729,6 +735,9 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"На жорсткому диску: %s , не знайдено таблиці розділів. Бажаєте щоб "
+"встановлювач створив розділи за Вас? Зауваження: Це ЗІТРЕ УСЮ ІНФОРМАЦІЮ на "
+"цьому жорсткому диску."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"

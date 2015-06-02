@@ -8,31 +8,31 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2014-11-08 06:23+0000\n"
-"Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>\n"
+"PO-Revision-Date: 2015-03-24 10:07+0000\n"
+"Last-Translator: B. W. Knight <kbd0651@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-25 10:22+0000\n"
-"X-Generator: Launchpad (build 17355)\n"
+"X-Launchpad-Export-Date: 2015-06-02 10:10+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr ""
+msgstr "%(partition)s를 %(format)s로 포맷하는 중입니다 ..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
-msgstr "%(partition)s을(를) %(mountpoint)s에 마운트하고 있습니다"
+msgstr "%(partition)s를 %(mountpoint)s에 장착하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:127
 msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
-msgstr "오류: 수동으로 설치하시려면 우선 대상 장치 /target 의 파일 형식을 지정해 주셔야 합니다."
+msgstr "오류: 수동으로 설치하시려면 우선 대상 파일시스템(들)을 /target에 직접 장착해주셔야 합니다!"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -41,44 +41,46 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"오류: 설치 매체에 문제가 있는 것 같습니다! 이는 주로 LMDE와 호환이 되지 않는 굽기 도구로 인하여 발생합니다(YUMI나 다른 "
+"멀티부트 도구). 다른 도구를 사용하셔서 ISO 이미지를 DVD/USB에 구우십시오."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
-msgstr "파일 목록을 복사중..."
+msgstr "복사할 파일을 색인화하는 중입니다.."
 
 #: usr/lib/live-installer/installer.py:179
 #, python-format
 msgid "Copying %s"
-msgstr "%s를 복사중입니다"
+msgstr "%s를 복사하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:221
 #, python-format
 msgid "Restoring meta-information on %s"
-msgstr "%s의 메타 정보를 되돌리고 있습니다"
+msgstr "%s에 있는 메타-정보를 복원하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:231
 msgid "Entering the system ..."
-msgstr ""
+msgstr "시스템으로 진입하는 중입니다 ..."
 
 #: usr/lib/live-installer/installer.py:273
 msgid "Removing live configuration (packages)"
-msgstr "환경 설정을 삭제중..."
+msgstr "라이브 환경 설정을 제거하는 중입니다(패키지)"
 
 #: usr/lib/live-installer/installer.py:281
 msgid "Adding new user to the system"
-msgstr ""
+msgstr "시스템에 새로운 사용자를 추가하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr ""
+msgstr "/etc/fstab에 파일시스템 장착 정보를 쓰는 중입니다"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
-msgstr "호스트명 설정 중"
+msgstr "호스트 이름을 설정하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:393
 msgid "Setting locale"
-msgstr "로케일 설정 중"
+msgstr "로케일을 설정하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:407
 msgid "Localizing packages"
@@ -86,46 +88,46 @@ msgstr "지역화 패키지"
 
 #: usr/lib/live-installer/installer.py:422
 msgid "Installing drivers"
-msgstr ""
+msgstr "드라이버를 설치하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:437
 msgid "Setting keyboard options"
-msgstr "키보드 옵션 설정 중"
+msgstr "키보드 선택 사항을 설정하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:476
 msgid "Installing bootloader"
-msgstr "부트로더 설치 중"
+msgstr "부트로더를 설치하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:485
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
-msgstr "주의: grub 부트로더가 올바르게 매만져지지 않았습니다! 수동으로 매만지셔야 합니다."
+msgstr "주의: grub 부트로더가 올바르게 설정되지 않았습니다! 수동으로 설정하셔야 합니다."
 
 #: usr/lib/live-installer/installer.py:498
 msgid "Cleaning APT"
-msgstr "APT를 지우고 있습니다."
+msgstr "APT를 지우는 중입니다"
 
 #: usr/lib/live-installer/installer.py:522
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid "Installation finished"
-msgstr "설치 완료"
+msgstr "설치가 완료되었습니다"
 
 #: usr/lib/live-installer/installer.py:532
 msgid "Configuring bootloader"
-msgstr "부트로더를 매만지고 있습니다"
+msgstr "부트로더를 설정하는 중입니다"
 
 #: usr/lib/live-installer/installer.py:541
 msgid "Checking bootloader"
-msgstr "부트로더를 보고 있습니다"
+msgstr "부트로더를 확인하는 중입니다"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
-msgstr ""
+msgstr "예상치 않은 오류가 발생했습니다"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
-msgstr ""
+msgstr "설치 프로그램이 다음과 같은 오류와 함께 실패했습니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:75
 #: usr/lib/live-installer/frontend/gtk_interface.py:77
@@ -156,7 +158,7 @@ msgstr "파티션 만들기"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr ""
+msgstr "파티션을 수동으로 구성하는 걸 원하시는지 확인해주십시오"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -168,43 +170,43 @@ msgstr "개요"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:100
 msgid "Installing Linux Mint..."
-msgstr "리눅스 민트를 설치하고 있습니다..."
+msgstr "리눅스 민트를 설치하는 중입니다..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Installation paused: please finish the custom installation"
-msgstr ""
+msgstr "설치가 일시 정지되었습니다: 사용자 설정 설치를 완료해주십시오"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:114
 msgid "Country"
-msgstr ""
+msgstr "국가"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:126
 msgid "Click to change your picture"
-msgstr ""
+msgstr "누르셔서 사진을 바꾸십시오"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:128
 msgid "Take a photo..."
-msgstr ""
+msgstr "사진을 선택하십시오..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:131
 msgid "Browse for more pictures..."
-msgstr ""
+msgstr "더 많은 사진을 찾아보십시오..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:170
 msgid "Select timezone"
-msgstr ""
+msgstr "시간대 설정하기"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
-msgstr ""
+msgstr "파티션 편집하기"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:175
 msgid "Refresh"
-msgstr ""
+msgstr "새로 고침"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:176
 msgid "Expert mode"
-msgstr ""
+msgstr "전문가 모드"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:220
 #: usr/lib/live-installer/frontend/gtk_interface.py:444
@@ -223,7 +225,7 @@ msgstr "개요"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr ""
+msgstr "파일 색인을 계산하는 중입니다 ..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -235,45 +237,45 @@ msgstr "사용자의 실명"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Please enter your full name."
-msgstr ""
+msgstr "사용자의 실명을 입력해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid "Your username"
-msgstr "사용자명"
+msgstr "사용자 이름"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "This is the name you will use to log in to your computer."
-msgstr ""
+msgstr "이것은 사용자가 컴퓨터에 로그인하실 때 사용하실 이름입니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:394
 msgid "Your password"
-msgstr "암호"
+msgstr "비밀번호"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:395
 msgid "Please enter your password twice to ensure it is correct."
-msgstr ""
+msgstr "비밀번호가 올바른지 확인하기 위해 비밀번호를 두 번 입력해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Hostname"
-msgstr "호스트 명"
+msgstr "호스트 이름"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr ""
+msgstr "호스트 이름은 네트워크상에서의 컴퓨터 이름이 될 것입니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
-msgstr ""
+msgstr "자동 로그인"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:399
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
-msgstr ""
+msgstr "활성화가 되어 있다면, 시스템이 시작할 때 로그인 화면은 생략되며, 자동으로 데스크톱 세션에 로그인됩니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
-msgstr ""
+msgstr "자동으로 로그인합니다"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:403
 msgid "Your picture"
@@ -283,7 +285,7 @@ msgstr "여러분의 사진"
 msgid ""
 "This picture represents your user account. It is used in the login screen "
 "and a few other places."
-msgstr "이 사진은 사용자 계정에 이용됩니다. 로그인 화면과 다른 몇가지 장소에 이용될 겁니다."
+msgstr "이 사진은 사용자 계정에 이용됩니다. 로그인 화면과 다른 몇 가지 장소에 이용될 겁니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:407
 msgid "Selected timezone:"
@@ -295,15 +297,15 @@ msgstr "부트로더"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:411
 msgid "Install GRUB"
-msgstr "GRUB 설치"
+msgstr "GRUB 설치하기"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
-msgstr ""
+msgstr "GRUB은 리눅스 커널을 불러오기 위해 사용되는 부트로더입니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr ""
+msgstr "이 상자를 이용하셔서 키보드 배치를 시험해보십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -313,38 +315,40 @@ msgstr "모델"
 msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
-msgstr "수동으로 파티션 구성 하기를 선택하셨습니다, 이 작업은 고급사용자 모드입니다."
+msgstr "수동으로 파티션을 구성하기를 선택하셨습니다, 이 작업은 고급 사용자 모드입니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
-msgstr "작업을 계속하시기 전에, /target 장치의 파일 형식에 마운트 해주세요"
+msgstr "작업을 계속하시기 전에, /target에 대상 파일시스템(들)을 장착해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
-msgstr "대상 장치 /target/ 의 /dev, /proc, /sys 같은 가상 장치를 마운트 하지 말아 주세요."
+msgstr "/target/에 /dev, /proc, /sys, 등과 같은 가상 장치를 장착하지 말아 주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
+"설치하는 동안에, /target에 사용자가 chroot를 하는 것과 사용자의 새로운 시스템을 부트하는데 필요한 패키지를 설치할 시간이 "
+"주어집니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
-msgstr "설치 하는 동안에, /etc/fstab 에 사용자가 직접 등록해야 합니다."
+msgstr "설치하는 동안에, /etc/fstab에 사용자가 직접 등록해주셔야 합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
-msgstr ""
+msgstr "이 내용이 무엇을 의미하는지 잘 모르시겠다면, 뒤로 가셔서 수동 파티션 제어 설정을 선택 해제해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
-msgstr ""
+msgstr "다음과 같은 과정을 완료하신 다음에 계속하기를 누르셔서 설치를 완료해주십시오:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -352,8 +356,8 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
-"앞으로 쓰일 새로운 시스템을 위해 대상장치에 /target/etc/fstab 을 만드셔서, 지금 대상 장치 /target (마운트 경로 "
-"자체의 /target prefix 를 사용하지 않고)에 마운트 되어 있는 파일 시스템과 맞춥니다."
+"앞으로 새 시스템에 장착될 파일시스템용 /target/etc/fstab을 생성해서, 지금 /target에(장착 경로 자체의 /target "
+"prefix를 사용하지 않고) 장착된 파일시스템과 일치하도록 합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -361,8 +365,8 @@ msgid ""
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
 "get/aptitude installations."
 msgstr ""
-"첫 부팅에 필요할 (mdam, cryptsetup, dmraid, 등등) 패키지들을 \"sudo chroot /target\" 을 통해 "
-"알맞는 apt-get/aptitude 으로 설치해주세요."
+"첫 부팅에 필요할(mdam, cryptsetup, dmraid, 등등) 패키지들을 \"sudo chroot /target\"을 통해 "
+"알맞은 apt-get/aptitude로 설치해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:430
 msgid ""
@@ -370,8 +374,8 @@ msgid ""
 "as dm-crypt), you may need to have drives currently mounted using the same "
 "block device name as they appear in /target/etc/fstab."
 msgstr ""
-"다음(dm-crpyt) 처럼 update-initramfs 를 제대로 작동시키기 위해서, /target/etc/fstab에 등록된 것과 "
-"같은 블록 장치명을 갖는 드라이드가 있어야 할 수 있습니다."
+"몇몇 경우에서(dm-crpyt와 같은) update-initramfs를 제대로 작동시키기 위해서는, /target/etc/fstab에 "
+"등록된 것과 같은 블록 장치 이름을 사용하여 지금 장착된 하드 드라이브가 있어야 할 수 있습니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:431
 msgid ""
@@ -379,8 +383,8 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
-"/target/etc/fstab이 맞는지, 첫 부팅에서 새 시스템에 이용될 장치가 맞는지, 지금 /target 에 마운트된 장치가 "
-"맞는지를 한 번 더 확인해 주세요."
+"/target/etc/fstab이 맞는지, 첫 부팅에서 새 시스템에 이용될 장치가 일치하는지, 지금 /target에 장착된 장치가 "
+"일치하는지를 한 번 더 확인해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -388,7 +392,7 @@ msgstr "장치"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:436
 msgid "Type"
-msgstr "갈래"
+msgstr "유형"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:437
 msgid "Operating system"
@@ -396,11 +400,11 @@ msgstr "운영체제"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:438
 msgid "Mount point"
-msgstr "올릴 곳"
+msgstr "장착 지점"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:439
 msgid "Format as"
-msgstr ""
+msgstr "포맷하기"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:440
 msgid "Size"
@@ -409,23 +413,23 @@ msgstr "크기"
 #: usr/lib/live-installer/frontend/gtk_interface.py:441
 #: usr/lib/live-installer/partitioning.py:338
 msgid "Free space"
-msgstr "빈 자리"
+msgstr "남은 공간"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Quit?"
-msgstr ""
+msgstr "종료하시겠습니까?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Are you sure you want to quit the installer?"
-msgstr ""
+msgstr "정말 설치 프로그램을 종료하시겠습니까?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:686
 msgid "Passwords do not match."
-msgstr ""
+msgstr "비밀번호가 일치하지 않습니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:689
 msgid "Passwords match."
-msgstr ""
+msgstr "비밀번호가 일치합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 #: usr/lib/live-installer/frontend/gtk_interface.py:787
@@ -442,53 +446,53 @@ msgstr "설치 도구"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 msgid "Please choose a language"
-msgstr ""
+msgstr "언어를 선택해주십시오"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr ""
+msgstr "사용자의 실명을 입력해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr ""
+msgstr "사용자 이름을 입력해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr ""
+msgstr "사용자 계정에 대한 비밀번호를 입력해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
-msgstr ""
+msgstr "비밀번호가 일치하지 않습니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "호스트 이름을 입력해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr ""
+msgstr "사용자 이름은 소문자여야 합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr ""
+msgstr "사용자 이름은 공백 문자를 포함해서는 안됩니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr ""
+msgstr "호스트 이름은 소문자여야 합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr ""
+msgstr "호스트 이름은 공백 문자를 포함해서는 안됩니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
-msgstr ""
+msgstr "진행하기 전에 루트(/) 파티션으로 포맷할 파일시스템을 지정해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr ""
+msgstr "루트(/) 파티션을 선택해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -499,10 +503,16 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"루트 파티션은 리눅스 민트를 설치하는 데 필요합니다.\n"
+"\n"
+" - 장착 지점: /\n"
+" - 권장 크기: 30GB\n"
+" - 권장 파일시스템 형식: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
-msgstr "EFI 파티션이 부팅 불가능으로 되어있습니다. 파티션 플래그를 수정해주세요."
+msgstr "EFI 파티션이 부팅 불가능으로 되어있습니다. 파티션 플래그를 편집해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:816
 msgid "The EFI partition is too small. It must be at least 100MB."
@@ -511,11 +521,11 @@ msgstr "EFI 파티션이 너무 작습니다. 최소 100MB 이상이어야 합�
 #: usr/lib/live-installer/frontend/gtk_interface.py:821
 #: usr/lib/live-installer/frontend/gtk_interface.py:825
 msgid "The EFI partition must be formatted as vfat."
-msgstr "EFI 파티션은 vfat 형식 이어야 합니다."
+msgstr "EFI 파티션은 vfat 형식으로 포맷되어야 합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr ""
+msgstr "EFI 파티션을 선택해주십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -530,12 +540,12 @@ msgid ""
 "partition of the disk as the EFI system partition.\n"
 " "
 msgstr ""
-"EFi 시스템은 다음 설정 요건을 따릅니다:\n"
+"EFI 시스템은 다음 설정 요건을 따릅니다:\n"
 "\n"
-" - 마운트 포인트 : /boot/efi\n"
+" - 장착 지점: /boot/efi\n"
 " - 파티션 플래그: Bootable\n"
-" - 크기 : 100MB 이상\n"
-" - 포맷 : vfat, fat32\n"
+" - 크기: 100MB 이상\n"
+" - 형식: vfat, fat32\n"
 " "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:879
@@ -568,15 +578,15 @@ msgstr "사용자 이름: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "Automatic login: "
-msgstr ""
+msgstr "자동 로그인: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "enabled"
-msgstr ""
+msgstr "활성화됨"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "disabled"
-msgstr ""
+msgstr "비활성화됨"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:889
 msgid "System settings"
@@ -584,7 +594,7 @@ msgstr "시스템 설정"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:890
 msgid "Hostname: "
-msgstr "호스트명: "
+msgstr "호스트 이름: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:891
 msgid "Filesystem operations"
@@ -593,92 +603,93 @@ msgstr "파일시스템 작업"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr ""
+msgstr "%s에 부트로더를 설치합니다"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
-msgstr "부트로더를 설치하지 않음"
+msgstr "부트로더를 설치하지 않습니다"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr ""
+msgstr "이미-장착된 /target을 사용합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr ""
+msgstr "%(path)s를 %(filesystem)s로 포맷합니다"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "%(path)s를 %(mount)s로 장착합니다"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
 #: usr/lib/live-installer/frontend/gtk_interface.py:957
 #: usr/lib/live-installer/frontend/gtk_interface.py:965
 msgid "Installation error"
-msgstr "설치 에러"
+msgstr "설치 오류가 발생했습니다"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr ""
+msgstr "설치가 일시 정지되었습니다"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
+"지금 설치가 일시 정지되었습니다. 계속하기를 누르셔서 설치를 완료하시기 전에 이 페이지에 있는 지시문을 주의 깊게 읽으십시오."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
-msgstr ""
+msgstr "지금 설치가 완료되었습니다. 사용자의 컴퓨터를 다시 시작하셔서 새로운 시스템을 사용하시겠습니까?"
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
-msgstr ""
+msgstr "편집하기"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "/로 할당합니다"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "/home으로 할당합니다"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "/boot/efi로 할당합니다"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
-msgstr ""
+msgstr "이동식 매체:"
 
 #: usr/lib/live-installer/partitioning.py:218
 #, python-format
@@ -687,31 +698,33 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"하드 드라이브에서 파티션 테이블이 발견되지 않았습니다: %s. 설치 프로그램이 사용자를 위한 여러 개의 파티션을 생성하도록 하시겠습니까? "
+"참고: 이는 현재 디스크에 있는 모든 데이터를 지울 것입니다."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "논리 파티션"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
-msgstr ""
+msgstr "확장 파티션"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"
-msgstr ""
+msgstr "알 수 없음"
 
 #: usr/lib/live-installer/partitioning.py:436
 msgid "Edit partition"
-msgstr ""
+msgstr "파티션 편집하기"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"
-msgstr ""
+msgstr "장치:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "포맷하기:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "장착 지점:"

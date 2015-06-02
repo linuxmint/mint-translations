@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-11-03 10:14+0100\n"
-"PO-Revision-Date: 2013-05-13 06:16+0000\n"
+"PO-Revision-Date: 2015-03-13 08:33+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
 "Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-25 10:24+0000\n"
-"X-Generator: Launchpad (build 17355)\n"
+"X-Launchpad-Export-Date: 2015-06-02 10:12+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:33
 msgid "Adding PPAs is not supported"
-msgstr ""
+msgstr "Non se admite o engadido dos PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:40
 #: usr/lib/linuxmint/mintSources/mintSources.py:881
@@ -29,24 +29,24 @@ msgstr "Non é posíbel engadir o PPA: «%s»."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:44
 msgid "Adding private PPAs is not supported currently"
-msgstr ""
+msgstr "Actualmente non é posíbel engadir un PPA privado"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:47
 msgid "You are about to add the following PPA to your system:"
-msgstr ""
+msgstr "Está a piques de engadir o seguinte PPA ao seu sistema:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:50
 #, python-format
 msgid " More info: %s"
-msgstr ""
+msgstr " Máis información: %s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:54
 msgid "Press [ENTER] to continue or ctrl-c to cancel adding it"
-msgstr ""
+msgstr "Prema [INTRO] para continuar ou Ctrl-C para cancelar"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:58
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr ""
+msgstr "Non é posíbel solicitar respostas. Execúteo con -y"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:257
 #: usr/lib/linuxmint/mintSources/mintSources.py:285
@@ -55,7 +55,7 @@ msgstr "Orixes"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:263
 msgid "CD-ROM (Installation Disc)"
-msgstr ""
+msgstr "CD-ROM (Disco de instalación)"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:304
 msgid ""
@@ -64,6 +64,10 @@ msgid ""
 "Unless you are participating in beta-testing, you should not enable this "
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
+"Linux Mint utiliza Romeo para publicar paquetes que non foron probados. Unha "
+"vez probados estes paquetes, trasládanse aos repositorios oficiais. A non "
+"ser que vostede estea a participar en probas beta, non debe activar este "
+"repositorio. Confirma que quere activar o repositorio Romeo?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:310
 msgid ""
@@ -75,6 +79,13 @@ msgid ""
 "backports until you have read this information. Are you sure you want to "
 "enable backports?"
 msgstr ""
+"Os backports son paquetes procedentes de versións máis recentes de Linux "
+"Mint. Cando hai backports dispoñíbeis, o equipo de desenvolvemento publica "
+"un anuncio oficial en http://blog.linuxmint.com. Estes anuncios poden "
+"incluír información importante sobre as novas características, as decisións "
+"de deseño ou incluso problemas coñecidos que poden afectarlle. Polo tanto, "
+"recomendase encarecidamente non activar os backports ata que teña lído esta "
+"información. Confirma que quere activar os repositorio de backports?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:366
 msgid "Other..."
@@ -99,15 +110,15 @@ msgstr "Velocidade"
 #: usr/lib/linuxmint/mintSources/mintSources.py:447
 #: usr/lib/linuxmint/mintSources/mintSources.py:456
 msgid "kB/s"
-msgstr ""
+msgstr "kB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:450
 msgid "MB/s"
-msgstr ""
+msgstr "MB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:453
 msgid "GB/s"
-msgstr ""
+msgstr "GB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:540 generate_desktop_files:28
 #: generate_desktop_files:44
@@ -145,7 +156,7 @@ msgstr "Chaves de autenticación"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:578
 msgid "Maintenance"
-msgstr ""
+msgstr "Mantemento"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:580
 msgid "Mirrors"
@@ -232,6 +243,9 @@ msgid ""
 "negatively impact your system. Please do not enable these options in Linux "
 "Mint unless it was suggested by the development team."
 msgstr ""
+"Aviso: os Backports e paquetes inestábeis poden introducir regresións e "
+"afectar negativamente ao sistema. Non active estas opcións en Linux Mint a "
+"non ser por indicación do equipo de desenvolvemento."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:680
 #: usr/lib/linuxmint/mintSources/mintSources.py:704
@@ -324,11 +338,11 @@ msgstr "Escriba o seu contrasinal para configurar as orixes do software"
 
 #: usr/bin/add-apt-repository:10
 msgid "Error: must run as root"
-msgstr ""
+msgstr "Erro: debe executar isto como root"
 
 #: usr/bin/add-apt-repository:21
 msgid "Error: need a repository as argument"
-msgstr ""
+msgstr "Erro: fai falla un repositorio como argumento"
 
 #: generate_desktop_files:28 generate_desktop_files:44
 msgid "Configure the sources for installable software and updates"
