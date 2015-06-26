@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-30 16:37+0100\n"
-"PO-Revision-Date: 2013-09-01 15:26+0000\n"
-"Last-Translator: Иван Старчевић <ivanstar61@gmail.com>\n"
+"PO-Revision-Date: 2015-06-17 10:42+0000\n"
+"Last-Translator: Slobodan Simić <Unknown>\n"
 "Language-Team: Serbian <sr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-02 10:08+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2015-06-26 13:16+0000\n"
+"X-Generator: Launchpad (build 17578)\n"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:30
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:14
@@ -64,7 +64,7 @@ msgstr "Откажи отпремање"
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:127
 #, python-format
 msgid "Uploading %(number)d files to %(service)s"
-msgstr "Отпремам %(number)d датотеке на %(service)s"
+msgstr "Сервис %(service)s, отпрема се датотека: %(number)d"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:128
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:236
@@ -75,13 +75,13 @@ msgstr "%(percentage)s од %(number)d датотека - отпремам на 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:130
 #, python-format
 msgid "Uploading 1 file to %(service)s"
-msgstr "Отпремам 1 датотеку %(service)s"
+msgstr "Отпремам 1 датотеку на сервис %(service)s"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:131
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:238
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr "%(percentage)s од 1 датотеке - отпремам на %(service)s"
+msgstr "%(percentage)s од 1 датотеке - отпремам на сервис %(service)s"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:149
 #, python-format
@@ -99,22 +99,22 @@ msgstr "%(size_so_far)s од %(total_size)s"
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:82
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
 msgid "B"
-msgstr "Б"
+msgstr "B"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:180
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
 msgid "KB"
-msgstr "КБ"
+msgstr "KB"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:182
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
 msgid "MB"
-msgstr "МБ"
+msgstr "MB"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:184
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
 msgid "GB"
-msgstr "ГБ"
+msgstr "GB"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:191
 #, python-format
@@ -164,7 +164,7 @@ msgstr "Датотека је већа од  дозвољене величине
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:133
 msgid "Could not get available space"
-msgstr "Нисам успео добити довољно слободног простора"
+msgstr "Немам податак о слободном простору"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:136
 msgid "File larger than service's available space"
