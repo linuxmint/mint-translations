@@ -33,7 +33,7 @@ BAD_MISMATCH_MAYBE_DATE = 100
 def allowed(char):
     return char in ALLOWED
 
-def same_type(token1, token2):    
+def same_type(token1, token2):
     if (token1[1:] in COMMON_INT_TOKENS and token2[1:] in COMMON_INT_TOKENS):
         return True
     if (token1[1:] in COMMON_STR_TOKENS and token2[1:] in COMMON_STR_TOKENS):
@@ -219,7 +219,7 @@ class ThreadedTreeView(Gtk.TreeView):
                 else:
                     if file.endswith(PO_EXT):
                         locale = file.split("-")[-1].replace(".po", "")
-                        if locale in ["yi"]:
+                        if locale in ["yi", "ar", "he"]:
                             # Don't check PO files for some of the locales (right-to-left languages for instance, or languages where it's hard for us to verify the arguments)
                             continue
                         mo_inst = polib.pofile(os.path.join(root, file))
@@ -265,7 +265,6 @@ class ThreadedTreeView(Gtk.TreeView):
                         self._loaded_data_lock.acquire()
                         self._loaded_data.append((to_load, entry, to_load.locale, entry.msgid, entry.msgstr, to_load.current_index))
                         self._loaded_data_lock.release()
-                    to_load.current_index += 1
                     if (len(entry.msgstr_plural) > 0):
                         for plurality in entry.msgstr_plural.keys():
                             msgstr = entry.msgstr_plural[plurality]
@@ -280,12 +279,15 @@ class ThreadedTreeView(Gtk.TreeView):
                                 self._loaded_data_lock.acquire()
                                 self._loaded_data.append((to_load, entry, to_load.locale, msgid, msgstr, to_load.current_index))
                                 self._loaded_data_lock.release()
+                    to_load.current_index += 1
 
         self._loading_lock.acquire()
         self._loading = False
         self._loading_lock.release()
 
     def check_entry(self, msgid, msgstr):
+        msgid = msgid.replace("%%", " ")
+        msgstr = msgstr.replace("%%", " ")
         id_tokens = TokenList()
         str_tokens = TokenList()
         id_date_count = 0
@@ -351,6 +353,7 @@ class ThreadedTreeView(Gtk.TreeView):
                 if id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD:
                     return BAD_MISCOUNT_MAYBE_DATE
                 else:
+                    print "Miscount: %s -- %s" % (id_tokens, str_tokens)
                     return BAD_MISCOUNT
             else:
                 mismatch = False
@@ -375,10 +378,8 @@ class ThreadedTreeView(Gtk.TreeView):
 
                 if (id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD) and mismatch:
                     return BAD_MISMATCH_MAYBE_DATE
-                elif mismatch:       
-                    print id_tokens
-                    print str_tokens
-                    print ""         
+                elif mismatch:
+                    print "Mismatch %s -- %s" % (id_tokens, str_tokens)
                     return BAD_MISMATCH
         return GOOD
 
