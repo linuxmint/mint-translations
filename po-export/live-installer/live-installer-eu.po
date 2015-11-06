@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-03-26 20:30+0000\n"
+"PO-Revision-Date: 2015-08-01 12:46+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:18+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:06+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr ""
+msgstr "%(partition)s partizioa %(format)s bezala formateatzen..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
@@ -494,7 +494,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr ""
+msgstr "Hautatu erro (/) partizioa"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -616,12 +616,12 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr ""
+msgstr "Formateatu %(path)s %(filesystem)s bezala"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "Muntatu %(path)s %(mount)s bezala"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
@@ -654,15 +654,15 @@ msgstr "Editatu"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "Esleitu honi: /"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "Esleitu honi: /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "Esleitu honi: /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
@@ -699,6 +699,9 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"Ez da partizio-taularik aurkitu disko gogor honetan: %s. Instalatzaileak "
+"partizio sorta bat sortzea nahi duzu? Oharra: honek diskoan dauden DATU "
+"GUZTIAK EZABATUKO DITU."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"

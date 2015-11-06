@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-09-19 10:09+0100\n"
-"PO-Revision-Date: 2015-05-16 13:23+0000\n"
+"PO-Revision-Date: 2015-10-12 13:51+0000\n"
 "Last-Translator: David Metzlar <metzlar94@live.nl>\n"
 "Language-Team: Frisian <fy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:20+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:09+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: lib/mintstick.py:276 lib/mintstick.py:278
 msgid "The USB stick was formatted successfully."
@@ -90,7 +90,7 @@ msgstr "Opstartbare USB stick meitsje"
 
 #: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
 msgid "Format"
-msgstr ""
+msgstr "Formattearje"
 
 #: share/mintstick/mintstick.glade.h:1
 msgid " "
@@ -100,24 +100,24 @@ msgstr " "
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr ""
+msgstr "Dit sil alle data op de USB ferwyderje, binne jo der wis fan?"
 
 #: share/mintstick/mintstick.glade.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr ""
+msgstr "Der wie in flater, besjoch de details foar mear ynformaasje"
 
 #: share/mintstick/mintstick.glade.h:5
 msgid "Format:"
-msgstr ""
+msgstr "Omskot:"
 
 #: share/mintstick/mintstick.glade.h:6
 msgid "Select a USB stick"
-msgstr ""
+msgstr "Selektearje in USB stick"
 
 #: share/mintstick/mintstick.glade.h:7
 msgid "as"
-msgstr ""
+msgstr "as"
 
 #: share/mintstick/mintstick.glade.h:8
 msgid ""
@@ -137,43 +137,57 @@ msgid ""
 "  + Supports Linux file permissions.\n"
 "   - Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
+"FAT32 \n"
+"   + Alle systemen kinne hjir mei oerwei\n"
+"   - Kin net oerwei mei bestannen grutter as 4GB.\n"
+"\n"
+"NTFS \n"
+"  + Wurket mei Microsoft Windows\n"
+"   - Wurket net mei Apple MAC, en de measte oare apparaten\n"
+"   - Kin problemen opleverje mei Linux (NTFS is patinteart).\n"
+"\n"
+"EXT4 \n"
+"\n"
+"  + Nij, stabiel, snel, hâld deiboek by\n"
+"  + Ûndersteunt Linux bestân tastimmings\n"
+"   - Kin net oerwei mei Windows, Mac, en measte oare apparaten\n"
 
 #: share/mintstick/mintstick.glade.h:23
 msgid "Volume label:"
-msgstr ""
+msgstr "Skiif label"
 
 #: share/mintstick/mintstick.glade.h:24
 msgid "Choose a name for your USB Stick"
-msgstr ""
+msgstr "Kies in namme foar jo USB"
 
 #: share/mintstick/mintstick.glade.h:25
 msgid "USB Stick"
-msgstr ""
+msgstr "USB stick"
 
 #: share/mintstick/mintstick.glade.h:26
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: share/mintstick/mintstick.glade.h:29
 msgid "Write image:"
-msgstr ""
+msgstr "Image bestân skriuwe:"
 
 #: share/mintstick/mintstick.glade.h:30
 msgid "Select an image"
-msgstr ""
+msgstr "Selektear in Image bestân"
 
 #: share/mintstick/mintstick.glade.h:31
 msgid "Select Image"
-msgstr ""
+msgstr "Image bestân selektearje"
 
 #: share/mintstick/mintstick.glade.h:32
 msgid "to"
-msgstr ""
+msgstr "nei"
 
 #: share/mintstick/mintstick.glade.h:33
 msgid "Write"
-msgstr ""
+msgstr "Skriuwe"
 
 #: share/mintstick/mintstick.glade.h:34
 msgid "The image was written successfully."
-msgstr ""
+msgstr "It skriuwen fan it Image bestân is slagge"

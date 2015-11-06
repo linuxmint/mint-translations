@@ -7,195 +7,480 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-12-09 16:44+0000\n"
-"PO-Revision-Date: 2015-01-13 13:48+0000\n"
-"Last-Translator: jmb_kz <Unknown>\n"
+"POT-Creation-Date: 2015-09-14 15:44+0100\n"
+"PO-Revision-Date: 2015-11-01 09:01+0000\n"
+"Last-Translator: Sandro <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:17+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:05+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:110
-msgid "Desktop"
-msgstr "Рабочий стол"
+#: usr/share/help/C/mintdesktop/wms.page:8(name)
+#: usr/share/help/C/mintdesktop/index.page:6(name)
+#: usr/share/help/C/mintdesktop/compositing.page:8(name)
+msgid "Linux Mint"
+msgstr "Linux Mint"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:111
+#: usr/share/help/C/mintdesktop/wms.page:9(email)
+#: usr/share/help/C/mintdesktop/index.page:7(email)
+#: usr/share/help/C/mintdesktop/compositing.page:9(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
+
+#: usr/share/help/C/mintdesktop/wms.page:16(title)
+msgid "Overview of some window managers"
+msgstr "Обзор ряда оконных менеджеров"
+
+#: usr/share/help/C/mintdesktop/wms.page:18(p)
+msgid "Here's a description of some of the window managers available."
+msgstr "Здесь описаны несколько из доступных оконных менеджеров."
+
+#: usr/share/help/C/mintdesktop/wms.page:21(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:261
+msgid "Marco"
+msgstr "Marco"
+
+#: usr/share/help/C/mintdesktop/wms.page:22(p)
+msgid ""
+"Marco is the default window manager for the MATE desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Marco — стандартный оконный менеджер среды MATE. Он очень стабилен и "
+"надёжен. Может работать как с композитингом, так и без него."
+
+#: usr/share/help/C/mintdesktop/wms.page:23(p)
+msgid ""
+"If Marco is not installed already, you can install it with <cmd>apt install "
+"marco</cmd>."
+msgstr ""
+"Если Marco ещё не установлен, его можно установить с помощью команды "
+"<cmd>apt install marco</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:27(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:266
+msgid "Metacity"
+msgstr "Metacity"
+
+#: usr/share/help/C/mintdesktop/wms.page:28(p)
+msgid ""
+"Metacity was the default window manager for the GNOME 2 desktop environment. "
+"It is very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Metacity был стандартным оконным менеджером среды GNOME 2. Он очень стабилен "
+"и надёжен. Может работать как с композитингом, так и без него."
+
+#: usr/share/help/C/mintdesktop/wms.page:29(p)
+msgid ""
+"If Metacity is not installed already, you can install it with <cmd>apt "
+"install metacity</cmd>."
+msgstr ""
+"Если Metacity ещё не установлен, его можно установить с помощью команды "
+"<cmd>apt install metacity</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:271
+msgid "Xfwm4"
+msgstr "Xfwm4"
+
+#: usr/share/help/C/mintdesktop/wms.page:34(p)
+msgid ""
+"Xfwm4 is the default window manager for the Xfce desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Xfwm4 — стандартный оконный менеджер среды Xfce. Он очень стабилен и "
+"надёжен. Может работать как с композитингом, так и без него."
+
+#: usr/share/help/C/mintdesktop/wms.page:35(p)
+msgid ""
+"If Xfwm4 is not installed already, you can install it with <cmd>apt install "
+"xfwm4</cmd>."
+msgstr ""
+"Если Xfwm4 ещё не установлен, его можно установить с помощью команды "
+"<cmd>apt install xfwm4</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:39(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:280
+msgid "Compiz"
+msgstr "Compiz"
+
+#: usr/share/help/C/mintdesktop/wms.page:40(p)
+msgid ""
+"Compiz is a very impressive window manager, very configurable and full of "
+"amazing effects and animations. It is however the least reliable and the "
+"least stable."
+msgstr ""
+"Compiz - это очень впечатляющий оконный менеджер, хорошо настраиваемый и "
+"полный удивительных эффектов и анимаций. Тем не менее, он наименее надёжен и "
+"стабилен."
+
+#: usr/share/help/C/mintdesktop/wms.page:41(p)
+msgid ""
+"Compiz is installed by default in Linux Mint. Note: It is not available in "
+"LMDE."
+msgstr ""
+"Compiz установлен в Linux Mint по умолчанию. Примечание: в версии LMDE он "
+"недоступен."
+
+#: usr/share/help/C/mintdesktop/wms.page:45(title)
+msgid "Compton"
+msgstr "Compton"
+
+#: usr/share/help/C/mintdesktop/wms.page:46(p)
+msgid ""
+"Compton is a compositing manager. It can be used in combination with windows "
+"managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
+"known to reduce screen tearing."
+msgstr ""
+"Compton - это менеджер компоновки. Его можно использовать в сочетании с "
+"такими оконными менеджерами, как Marco, Metacity или Xfwm4. Известно, что "
+"использование в Xfce сочетания Xfwm4+Compton уменьшает разрывы экрана."
+
+#: usr/share/help/C/mintdesktop/wms.page:47(p)
+msgid ""
+"If Compton is not installed already, you can install it with <cmd>apt "
+"install compton</cmd>."
+msgstr ""
+"Если Compton не установлен, вы можете его установить с помощью команды "
+"<cmd>apt install compton</cmd>"
+
+#: usr/share/help/C/mintdesktop/wms.page:51(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:276
+msgid "Openbox"
+msgstr "Openbox"
+
+#: usr/share/help/C/mintdesktop/wms.page:52(p)
+msgid "Openbox is a fast and light-weight window manager."
+msgstr "Openbox - это быстрый и лёгкий оконный менеджер."
+
+#: usr/share/help/C/mintdesktop/wms.page:53(p)
+msgid ""
+"If Openbox is not installed already, you can install it with <cmd>apt "
+"install openbox</cmd>."
+msgstr ""
+"Если Openbox не установлен, вы можете его установить с помощью команды "
+"<cmd>apt install openbox</cmd>."
+
+#: usr/share/help/C/mintdesktop/index.page:14(title) generate_desktop_files:25
+msgid "Desktop Settings"
+msgstr "Настройки рабочего стола"
+
+#: usr/share/help/C/mintdesktop/index.page:16(p)
+msgid "Welcome to Desktop Settings."
+msgstr "Добро пожаловать в настройки рабочего стола."
+
+#: usr/share/help/C/mintdesktop/index.page:19(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:118
 msgid "Windows"
 msgstr "Окна"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:112
-msgid "Interface"
-msgstr "Интерфейс"
+#: usr/share/help/C/mintdesktop/index.page:20(p)
+msgid "The Windows section lets you choose a window manager."
+msgstr "В разделе \"Окна\" вы можете выбрать оконный менеджер."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:113
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:160
+#: usr/share/help/C/mintdesktop/index.page:22(p)
+msgid ""
+"Within the operating system, the <gui>window manager</gui> is the part which "
+"is responsible for:"
+msgstr ""
+"В операционной системе <gui>оконный менеджер</gui> — это компонент, "
+"отвечающий за:"
+
+#: usr/share/help/C/mintdesktop/index.page:24(p)
+msgid "Windows borders, title bars and window buttons"
+msgstr "Границы, заголовки и кнопки окон"
+
+#: usr/share/help/C/mintdesktop/index.page:25(p)
+msgid "Window events (moving, resizing, focusing windows)"
+msgstr "Действия с окном (перемещение, изменение рамера, фокусировка)"
+
+#: usr/share/help/C/mintdesktop/index.page:26(p)
+msgid "Compositing (shadows, animations, effects, GPU rendering)"
+msgstr "Композитинг (тени, анимации, эффекты, GPU-рендеринг)"
+
+#: usr/share/help/C/mintdesktop/index.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:170
 msgid "Terminal"
 msgstr "Терминал"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:154
+#: usr/share/help/C/mintdesktop/index.page:34(p)
+msgid ""
+"The terminal section lets you enable or disable <gui>fortune cookies</gui>."
+msgstr ""
+"В разделе настроек терминала можно включить или отключить "
+"<gui>афоризмы</gui>."
+
+#: usr/share/help/C/mintdesktop/index.page:35(p)
+msgid ""
+"If this option is enabled, each time you open a terminal, a little animal "
+"appears and says some randomly picked humoristic message."
+msgstr ""
+"Если эта опция включена, всякий раз при запуске терминала появляется "
+"маленькая зверюшка и произносит случайно выбранное забавное изречение."
+
+#: usr/share/help/C/mintdesktop/index.page:36(p)
+msgid ""
+"Some people might find some of the messages offensive (that's why this "
+"option is disabled by default). Please note that these messages are not "
+"authored by Linux Mint."
+msgstr ""
+"Некоторые афоризмы могут оскорбить чьи-то чувства (именно поэтому данная "
+"опция по умолчанию отключена). Обращаем ваше внимание, что эти афоризмы не "
+"составляются командой Linux Mint."
+
+#: usr/share/help/C/mintdesktop/compositing.page:16(title)
+msgid "Pros and cons of compositing"
+msgstr "Плюсы и минусы композитинга"
+
+#: usr/share/help/C/mintdesktop/compositing.page:19(title)
+msgid "Advantages"
+msgstr "Преимущества"
+
+#: usr/share/help/C/mintdesktop/compositing.page:22(p)
+msgid "Better look &amp; feel: Window animations, shadows and transparency."
+msgstr "Улучшенный внешний вид: анимация окон, тени и прозрачность."
+
+#: usr/share/help/C/mintdesktop/compositing.page:25(p)
+msgid ""
+"Better support for modern applications: Client-side decorations in GTK3 are "
+"better supported by composited window managers."
+msgstr ""
+"Поддержка современных приложений: композитные менеджеры окон лучше "
+"поддерживают заданное приложением оформление окна (client-side decorations) "
+"в GTK3."
+
+#: usr/share/help/C/mintdesktop/compositing.page:31(title)
+msgid "Disadvantages"
+msgstr "Недостатки"
+
+#: usr/share/help/C/mintdesktop/compositing.page:35(p)
+msgid ""
+"GPU rendering: Depending on your graphics card and your drivers, rendering "
+"with the GPU (as opposed to the CPU) can result in visual artefacts or "
+"screen tearing."
+msgstr ""
+"GPU-рендеринг: в зависимости от вашей видеокарты и установленных драйверов, "
+"GPU-рендеринг (в отличие от CPU-рендеринга) может вызывать графические "
+"артефакты и разрывы изображения."
+
+#: usr/share/help/C/mintdesktop/compositing.page:38(p)
+msgid ""
+"Resource usage: Compositing requires more resources. This can result in "
+"slower performance or reduced battery autonomy on laptop computers."
+msgstr ""
+"Потребление ресурсов: композитинг требует больше ресурсов и может замедлить "
+"систему или сократить время работы от батареи на ноутбуках."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: usr/share/help/C/mintdesktop/compositing.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Alexander Mischenko https://launchpad.net/~shultz-5\n"
+"  Athena https://launchpad.net/~arandilme\n"
+"  CyberTailor https://launchpad.net/~cybertailor\n"
+"  Hromin https://launchpad.net/~hromin\n"
+"  Mr.Morozniak https://launchpad.net/~mr.moroznyak\n"
+"  Nikita Shehov https://launchpad.net/~shehov-n-deactivatedaccount\n"
+"  Preobrazhenskiy Vladislav https://launchpad.net/~imetmor\n"
+"  Sandro https://launchpad.net/~regipool\n"
+"  Sergey Sedov https://launchpad.net/~serg-sedov\n"
+"  Vadim https://launchpad.net/~gushvadim\n"
+"  Yasha Amdur https://launchpad.net/~yasha-amdur\n"
+"  cocucka https://launchpad.net/~n-nimnul\n"
+"  drdralex https://launchpad.net/~dr-alexg\n"
+"  jmb_kz https://launchpad.net/~jmb-kz\n"
+"  katana4honor https://launchpad.net/~katana4honor\n"
+"  prophettt https://launchpad.net/~sjaandi\n"
+"  ☠Jay ZDLin☠ https://launchpad.net/~black-buddha666"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:117
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:119
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
 msgid "Desktop icons"
 msgstr "Значки рабочего стола"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:155
-msgid "Performance"
-msgstr "Быстродействие"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:162
+msgid "Marco settings"
+msgstr "Настройки Marco"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:156
-msgid "Appearance"
-msgstr "Внешний вид"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+msgid "Metacity settings"
+msgstr "Настройки Metacity"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:157
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:164
+msgid "Compiz settings"
+msgstr "Настройки Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+msgid "Configure Compiz"
+msgstr "Настроить Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+msgid "Reset Compiz settings"
+msgstr "Сбросить настройки Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
 msgid "Icons"
 msgstr "Значки"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:158
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
 msgid "Context menus"
 msgstr "Контекстные меню"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:159
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
 msgid "Toolbars"
 msgstr "Панели инструментов"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
 msgid "Window Manager"
 msgstr "Оконный менеджер"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
 msgid "Select the items you want to see on the desktop:"
 msgstr "Выберите элементы для отображения на рабочем столе:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:175
 msgid "Computer"
 msgstr "Компьютер"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
 msgid "Home"
 msgstr "Домашняя папка"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:177
 msgid "Network"
 msgstr "Сеть"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
 msgid "Trash"
 msgstr "Корзина"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:179
 msgid "Mounted Volumes"
 msgstr "Подключенные носители"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:184
 msgid "Don't show window content while dragging them"
 msgstr "Не показывать содержимое окна при перетаскивании"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:172
-msgid "Use compositing"
-msgstr "Использовать композитинг"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
 msgid "Use system font in titlebar"
 msgstr "Использовать системный шрифт для заголовков окон"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:174
-msgid "Show fortune cookies"
-msgstr "Показывать афоризмы"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
 msgid "Buttons layout:"
 msgstr "Расположение кнопок:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
-msgid "Window manager:"
-msgstr "Оконный менеджер:"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
+msgid "Show fortune cookies"
+msgstr "Показывать афоризмы"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:180
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:190
 msgid "Show icons on menus"
 msgstr "Показывать значки в меню"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:191
 msgid "Show icons on buttons"
 msgstr "Показывать значки на кнопках"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:192
 msgid "Show Input Methods menu in context menus"
-msgstr "Отображать меню способов ввода в контекстных меню"
+msgstr "Отображать меню методов ввода в контекстных меню"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:193
 msgid "Show Unicode Control Character menu in context menus"
-msgstr "Отображать меню управляющих символов Unicode в контекстных меню"
+msgstr "Отображать меню управляющих символов Юникод в контекстных меню"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:195
 msgid "Buttons labels:"
 msgstr "Обозначения кнопок:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:196
 msgid "Icon size:"
 msgstr "Размер значков:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:210
-msgid "Small"
-msgstr "Мелкий"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:211
-msgid "Large"
-msgstr "Крупный"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:217
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:222
 msgid "Traditional style (Right)"
 msgstr "Традиционный стиль (справа)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:218
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:223
 msgid "Mac style (Left)"
 msgstr "Стиль Mac (слева)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:225
-msgid "Marco (stable and reliable)"
-msgstr "Marco (стабильный и надёжный)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:241
+msgid "Small"
+msgstr "Мелкий"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:226
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:234
-msgid "Compiz (impressive desktop effects)"
-msgstr "Compiz (впечатляющие эффекты для рабочего стола)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:242
+msgid "Large"
+msgstr "Крупный"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:228
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
+msgid "Marco + Compositing"
+msgstr "Marco + Композитинг"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
+msgid "Marco + Compton"
+msgstr "Marco + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
+msgid "Metacity + Compositing"
+msgstr "Metacity + Композитинг"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
+msgid "Metacity + Compton"
+msgstr "Metacity + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
+msgid "Xfwm4 + Compositing"
+msgstr "Xfwm4 + Композитинг"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
+msgid "Xfwm4 + Compton"
+msgstr "Xfwm4 + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:278
+msgid "Openbox + Compton"
+msgstr "Openbox + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:284
 msgid ""
-"Log out and log back in for changes to take effect. If things go wrong, run "
-"'mate-wm-recovery' to switch back to Marco."
+"Click on the help button for more information about window managers.\n"
+"Use the 'wm-recovery' command to switch back to the default window manager.\n"
+"Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
-"Чтобы изменения вступили в силу, завершите сеанс и зайдите в систему снова. "
-"В случае ошибки, выполните 'mate-wm-recovery' для переключения обратно на "
-"Marco."
+"Чтобы узнать больше о менеджерах окон, нажмите кнопку «Справка».\n"
+"Чтобы вернуть менеджер окон по умолчанию, используйте команду 'wm-"
+"recovery'.\n"
+"Чтобы определить запущенный менеджер окон, используйте команду 'wm-detect'."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:233
-msgid "Xfwm (stable and reliable)"
-msgstr "Xfwm (стабильный и надёжный)"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:237
-msgid "Log out and log back in for changes to take effect."
-msgstr ""
-"Чтобы изменения вступили в силу, завершите сеанс и зайдите в систему снова."
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:246
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:290
 msgid "Text below items"
 msgstr "Текст под значками"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:247
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:291
 msgid "Text beside items"
 msgstr "Текст рядом со значками"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:248
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:292
 msgid "Icons only"
 msgstr "Только значки"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:249
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:293
 msgid "Text only"
 msgstr "Только текст"
-
-#: generate_desktop_files:25
-msgid "Desktop Settings"
-msgstr "Настройки рабочего стола"
 
 #: generate_desktop_files:25
 msgid "Fine-tune desktop settings"

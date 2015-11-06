@@ -7,197 +7,475 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mintdesktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-09 16:44+0000\n"
-"PO-Revision-Date: 2014-12-25 07:12+0000\n"
+"POT-Creation-Date: 2015-09-14 15:44+0100\n"
+"PO-Revision-Date: 2015-10-03 11:38+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:17+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:05+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 "Language: hu\n"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:110
-msgid "Desktop"
-msgstr "Asztal"
+#: usr/share/help/C/mintdesktop/wms.page:8(name)
+#: usr/share/help/C/mintdesktop/index.page:6(name)
+#: usr/share/help/C/mintdesktop/compositing.page:8(name)
+msgid "Linux Mint"
+msgstr "Linux Mint"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:111
+#: usr/share/help/C/mintdesktop/wms.page:9(email)
+#: usr/share/help/C/mintdesktop/index.page:7(email)
+#: usr/share/help/C/mintdesktop/compositing.page:9(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
+
+#: usr/share/help/C/mintdesktop/wms.page:16(title)
+msgid "Overview of some window managers"
+msgstr "Az ablakkezelők áttekintése"
+
+#: usr/share/help/C/mintdesktop/wms.page:18(p)
+msgid "Here's a description of some of the window managers available."
+msgstr "Itt találja néhány elérhető ablakkezelő leírását."
+
+#: usr/share/help/C/mintdesktop/wms.page:21(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:261
+msgid "Marco"
+msgstr "Marco"
+
+#: usr/share/help/C/mintdesktop/wms.page:22(p)
+msgid ""
+"Marco is the default window manager for the MATE desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"A Marco az alapértelmezett ablakkezelő a MATE asztali környezethez. Ez egy "
+"nagyon stabil és megbízható ablakkezelő, amely kompozitálással vagy anélkül "
+"is futtatható."
+
+#: usr/share/help/C/mintdesktop/wms.page:23(p)
+msgid ""
+"If Marco is not installed already, you can install it with <cmd>apt install "
+"marco</cmd>."
+msgstr ""
+"Ha a Marco nincs telepítve, akkor az <cmd>apt install marco</cmd> paranccsal "
+"telepítheti."
+
+#: usr/share/help/C/mintdesktop/wms.page:27(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:266
+msgid "Metacity"
+msgstr "Metacity"
+
+#: usr/share/help/C/mintdesktop/wms.page:28(p)
+msgid ""
+"Metacity was the default window manager for the GNOME 2 desktop environment. "
+"It is very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"A Metacity az alapértelmezett ablakkezelő a GNOME 2 asztali környezethez. Ez "
+"egy nagyon stabil és megbízható ablakkezelő, amely kompozitálással vagy "
+"anélkül is futtatható."
+
+#: usr/share/help/C/mintdesktop/wms.page:29(p)
+msgid ""
+"If Metacity is not installed already, you can install it with <cmd>apt "
+"install metacity</cmd>."
+msgstr ""
+"Ha a Metacity nincs telepítve, akkor az <cmd>apt install metacity</cmd> "
+"paranccsal telepítheti."
+
+#: usr/share/help/C/mintdesktop/wms.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:271
+msgid "Xfwm4"
+msgstr "Xfwm4"
+
+#: usr/share/help/C/mintdesktop/wms.page:34(p)
+msgid ""
+"Xfwm4 is the default window manager for the Xfce desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Az Xfwm4 az alapértelmezett ablakkezelő az Xfwm4 asztali környezethez. Ez "
+"egy nagyon stabil és megbízható ablakkezelő, amely kompozitálással vagy "
+"anélkül is futtatható."
+
+#: usr/share/help/C/mintdesktop/wms.page:35(p)
+msgid ""
+"If Xfwm4 is not installed already, you can install it with <cmd>apt install "
+"xfwm4</cmd>."
+msgstr ""
+"Ha az Xfwm4 nincs telepítve, akkor az <cmd>apt install xfwm4</cmd> "
+"paranccsal telepítheti."
+
+#: usr/share/help/C/mintdesktop/wms.page:39(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:280
+msgid "Compiz"
+msgstr "Compiz"
+
+#: usr/share/help/C/mintdesktop/wms.page:40(p)
+msgid ""
+"Compiz is a very impressive window manager, very configurable and full of "
+"amazing effects and animations. It is however the least reliable and the "
+"least stable."
+msgstr ""
+"A Compiz egy igazán lenyűgöző ablakkezelő, amely nagy mértékben "
+"testreszabható és látványos effektusokkal, valamint animációkkal kápráztatja "
+"el a felhasználókat. Viszont kevésbé megbízható és stabil."
+
+#: usr/share/help/C/mintdesktop/wms.page:41(p)
+msgid ""
+"Compiz is installed by default in Linux Mint. Note: It is not available in "
+"LMDE."
+msgstr ""
+"A Compiz alapértelmezetten telepítésre kerül a Linux Mint-ben. Megjegyzés: "
+"Nem érhető el LMDE használata esetén."
+
+#: usr/share/help/C/mintdesktop/wms.page:45(title)
+msgid "Compton"
+msgstr "Compton"
+
+#: usr/share/help/C/mintdesktop/wms.page:46(p)
+msgid ""
+"Compton is a compositing manager. It can be used in combination with windows "
+"managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
+"known to reduce screen tearing."
+msgstr ""
+"A Compton egy kompozitáló kezelő. Használható együttműködésben többek között "
+"a következő ablakkezelőkkel Marco, Metacity vagy Xfwm4. Xfce esetén a Xfwm4 "
+"és Compton együttes használata csökkenti a képernyő szétesést."
+
+#: usr/share/help/C/mintdesktop/wms.page:47(p)
+msgid ""
+"If Compton is not installed already, you can install it with <cmd>apt "
+"install compton</cmd>."
+msgstr ""
+"Ha a Compton nincs telepítve, akkor az <cmd>apt install compton</cmd> "
+"paranccsal telepítheti."
+
+#: usr/share/help/C/mintdesktop/wms.page:51(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:276
+msgid "Openbox"
+msgstr "Openbox"
+
+#: usr/share/help/C/mintdesktop/wms.page:52(p)
+msgid "Openbox is a fast and light-weight window manager."
+msgstr "Az Openbox egy gyors és pehelysúlyú ablakkezelő."
+
+#: usr/share/help/C/mintdesktop/wms.page:53(p)
+msgid ""
+"If Openbox is not installed already, you can install it with <cmd>apt "
+"install openbox</cmd>."
+msgstr ""
+"Ha az Openbox nincs telepítve, akkor az <cmd>apt install openbox</cmd> "
+"paranccsal telepítheti."
+
+#: usr/share/help/C/mintdesktop/index.page:14(title) generate_desktop_files:25
+msgid "Desktop Settings"
+msgstr "Asztalbeállítások"
+
+#: usr/share/help/C/mintdesktop/index.page:16(p)
+msgid "Welcome to Desktop Settings."
+msgstr "Üdvözli az Asztal beállítások alkalmazás."
+
+#: usr/share/help/C/mintdesktop/index.page:19(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:118
 msgid "Windows"
 msgstr "Ablakok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:112
-msgid "Interface"
-msgstr "Felület"
+#: usr/share/help/C/mintdesktop/index.page:20(p)
+msgid "The Windows section lets you choose a window manager."
+msgstr "Az Ablak mezőben kiválaszthatja a használni kívánt ablakkezelőt."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:113
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:160
+#: usr/share/help/C/mintdesktop/index.page:22(p)
+msgid ""
+"Within the operating system, the <gui>window manager</gui> is the part which "
+"is responsible for:"
+msgstr ""
+"Az operációs rendszeren belül az <gui>ablakkezelő</gui> a következő "
+"dolgokért felel:"
+
+#: usr/share/help/C/mintdesktop/index.page:24(p)
+msgid "Windows borders, title bars and window buttons"
+msgstr "Ablakkeretek, címsorok és ablakkezelő gombok"
+
+#: usr/share/help/C/mintdesktop/index.page:25(p)
+msgid "Window events (moving, resizing, focusing windows)"
+msgstr "Ablakesemények (mozgatás, átméretezés, fókuszkezelés)"
+
+#: usr/share/help/C/mintdesktop/index.page:26(p)
+msgid "Compositing (shadows, animations, effects, GPU rendering)"
+msgstr ""
+"Kompozitálás (árnyékok, animációk, effektusok, GPU-n keresztüli leképzés)"
+
+#: usr/share/help/C/mintdesktop/index.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:170
 msgid "Terminal"
 msgstr "Terminál"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:154
+#: usr/share/help/C/mintdesktop/index.page:34(p)
+msgid ""
+"The terminal section lets you enable or disable <gui>fortune cookies</gui>."
+msgstr ""
+"The terminál mezőben beállíthatja a <gui>szerencsesüti</gui>-k használatát."
+
+#: usr/share/help/C/mintdesktop/index.page:35(p)
+msgid ""
+"If this option is enabled, each time you open a terminal, a little animal "
+"appears and says some randomly picked humoristic message."
+msgstr ""
+"Ha ezt a beállítást engedélyezi, akkor minden alkalommal, amikor megnyitja a "
+"terminált, egy kis állat jelenik meg a képernyőt, aki humoros üzenettel "
+"szórakoztatja."
+
+#: usr/share/help/C/mintdesktop/index.page:36(p)
+msgid ""
+"Some people might find some of the messages offensive (that's why this "
+"option is disabled by default). Please note that these messages are not "
+"authored by Linux Mint."
+msgstr ""
+"Néhány felhasználóban ez ellenérzést válthat ki, így ez az beállítás alapból "
+"letiltásra került. Ezek az üzenetek nem a Linux Mint által írt szövegek."
+
+#: usr/share/help/C/mintdesktop/compositing.page:16(title)
+msgid "Pros and cons of compositing"
+msgstr "A kompozitálás előnyei és hátrányai"
+
+#: usr/share/help/C/mintdesktop/compositing.page:19(title)
+msgid "Advantages"
+msgstr "Előnyök"
+
+#: usr/share/help/C/mintdesktop/compositing.page:22(p)
+msgid "Better look &amp; feel: Window animations, shadows and transparency."
+msgstr "Jobb felhasználói élmény, ablak animációk, árnyékok és átlátszóság."
+
+#: usr/share/help/C/mintdesktop/compositing.page:25(p)
+msgid ""
+"Better support for modern applications: Client-side decorations in GTK3 are "
+"better supported by composited window managers."
+msgstr ""
+"Jobb támogatás a modern alkalmazásokhoz: Kliens oldali ablakdekorációk "
+"támogatása jobb a kompozitáló ablakkezelőkben."
+
+#: usr/share/help/C/mintdesktop/compositing.page:31(title)
+msgid "Disadvantages"
+msgstr "Hátrányok"
+
+#: usr/share/help/C/mintdesktop/compositing.page:35(p)
+msgid ""
+"GPU rendering: Depending on your graphics card and your drivers, rendering "
+"with the GPU (as opposed to the CPU) can result in visual artefacts or "
+"screen tearing."
+msgstr ""
+"GPU leképzés: A grafikus kártyától és a illesztőprogramtól függően a GPU "
+"leképzés (a CPU leképzéssel ellentétben) hibás megjelenést és kép szétesését "
+"okozhatja."
+
+#: usr/share/help/C/mintdesktop/compositing.page:38(p)
+msgid ""
+"Resource usage: Compositing requires more resources. This can result in "
+"slower performance or reduced battery autonomy on laptop computers."
+msgstr ""
+"Erőforrás felhasználás: A kompozitálás több erőforrást igényel. Ez rosszabb "
+"teljesítményt és laptopon rövidebb akkumulátoros üzemidőt okozhat."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: usr/share/help/C/mintdesktop/compositing.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Attila https://launchpad.net/~sneax88\n"
+"  Böhm László https://launchpad.net/~laci-3\n"
+"  Frank Barnores https://launchpad.net/~barnores-deactivatedaccount\n"
+"  KAMI https://launchpad.net/~kami911\n"
+"  RP Pasztor https://launchpad.net/~filoavast1\n"
+"  Sümegi Csaba https://launchpad.net/~sumegics\n"
+"  blaselinux https://launchpad.net/~blaselinux\n"
+"  jozefboi https://launchpad.net/~szolnokmegye\n"
+"  sipiatti https://launchpad.net/~sipiatti"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:117
+msgid "Desktop"
+msgstr "Asztal"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:119
+msgid "Interface"
+msgstr "Felület"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
 msgid "Desktop icons"
 msgstr "Asztali ikonok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:155
-msgid "Performance"
-msgstr "Teljesítmény"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:162
+msgid "Marco settings"
+msgstr "Marco beállítások"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:156
-msgid "Appearance"
-msgstr "Megjelenés"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+msgid "Metacity settings"
+msgstr "Metacity beállítások"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:157
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:164
+msgid "Compiz settings"
+msgstr "Compiz beállítások"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+msgid "Configure Compiz"
+msgstr "Compiz beállítása"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+msgid "Reset Compiz settings"
+msgstr "Compiz beállítások visszállítása"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
 msgid "Icons"
 msgstr "Ikonok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:158
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
 msgid "Context menus"
 msgstr "Helyi menük"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:159
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
 msgid "Toolbars"
 msgstr "Eszköztárak"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
 msgid "Window Manager"
 msgstr "Ablakkezelő"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
 msgid "Select the items you want to see on the desktop:"
 msgstr "Válassza ki az asztalon megjeleníteni kívánt elemeket:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:175
 msgid "Computer"
 msgstr "Számítógép"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
 msgid "Home"
 msgstr "Saját mappa"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:177
 msgid "Network"
 msgstr "Hálózat"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
 msgid "Trash"
 msgstr "Kuka"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:179
 msgid "Mounted Volumes"
 msgstr "Csatlakoztatott kötetek"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:184
 msgid "Don't show window content while dragging them"
 msgstr "Ne mutassa az ablak tartalmát mozgatás közben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:172
-msgid "Use compositing"
-msgstr "Képernyőeffektusok bekapcsolása"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
 msgid "Use system font in titlebar"
 msgstr "Rendszer betűkészlet használata a címsorban"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:174
-msgid "Show fortune cookies"
-msgstr "Szerencse sütik megjelenítése"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
 msgid "Buttons layout:"
 msgstr "Gomb elrendezés:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
-msgid "Window manager:"
-msgstr "Ablakkezelő:"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
+msgid "Show fortune cookies"
+msgstr "Szerencse sütik megjelenítése"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:180
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:190
 msgid "Show icons on menus"
 msgstr "Ikonok megjelenítése a menükben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:191
 msgid "Show icons on buttons"
 msgstr "Ikonok megjelenítése a gombokon"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:192
 msgid "Show Input Methods menu in context menus"
 msgstr "Beviteli módok menü megjelenítése a helyi menükben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:193
 msgid "Show Unicode Control Character menu in context menus"
 msgstr "Unicode vezérlőkarakterek menü megjelenítése a helyi menükben"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:195
 msgid "Buttons labels:"
 msgstr "Gomb címkék:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:196
 msgid "Icon size:"
 msgstr "Ikonméret:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:210
-msgid "Small"
-msgstr "Kicsi"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:211
-msgid "Large"
-msgstr "Nagy"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:217
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:222
 msgid "Traditional style (Right)"
 msgstr "Hagyományos stílus (jobb oldalon)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:218
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:223
 msgid "Mac style (Left)"
 msgstr "Mac stílus (bal oldalon)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:225
-msgid "Marco (stable and reliable)"
-msgstr "Marco (stabil és megbízható)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:241
+msgid "Small"
+msgstr "Kicsi"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:226
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:234
-msgid "Compiz (impressive desktop effects)"
-msgstr "Compiz (lenyűgöző asztali effektusok)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:242
+msgid "Large"
+msgstr "Nagy"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:228
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
+msgid "Marco + Compositing"
+msgstr "Marco és Compositing"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
+msgid "Marco + Compton"
+msgstr "Marco és Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
+msgid "Metacity + Compositing"
+msgstr "Metacity és Compositing"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
+msgid "Metacity + Compton"
+msgstr "Metacity és Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
+msgid "Xfwm4 + Compositing"
+msgstr "Xfwm4 és Compositing"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
+msgid "Xfwm4 + Compton"
+msgstr "Xfwm4 és Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:278
+msgid "Openbox + Compton"
+msgstr "Openbox és Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:284
 msgid ""
-"Log out and log back in for changes to take effect. If things go wrong, run "
-"'mate-wm-recovery' to switch back to Marco."
+"Click on the help button for more information about window managers.\n"
+"Use the 'wm-recovery' command to switch back to the default window manager.\n"
+"Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
-"Jelentkezzen ki, majd vissza a változtatások érvényre juttatásához. Ha hibát "
-"tapasztal bármikor visszaválthat a Marco rendszerre a „mate-wm-recovery” "
-"parancs futtatásával."
+"Az ablakkezelőkről szóló további információkért kattintson a Súgó gombra.\n"
+"A „wm-recovery” parancs kiadásával visszaválthat az alapértelmezett "
+"ablakkezelőre.\n"
+"A „wm-detect” parancs kiadásával ellenőrizheti, hogy melyik ablakkezelő fut."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:233
-msgid "Xfwm (stable and reliable)"
-msgstr "Xfwm (stabil és megbízható)"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:237
-msgid "Log out and log back in for changes to take effect."
-msgstr ""
-"Jelentkezzen ki, majd jelentkezzen be újra a változtatások érvénybe "
-"lépéséhez."
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:246
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:290
 msgid "Text below items"
 msgstr "Szöveg az elemek alatt"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:247
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:291
 msgid "Text beside items"
 msgstr "Szöveg az elemek mellett"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:248
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:292
 msgid "Icons only"
 msgstr "Csak ikonok"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:249
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:293
 msgid "Text only"
 msgstr "Csak szöveg"
-
-#: generate_desktop_files:25
-msgid "Desktop Settings"
-msgstr "Asztalbeállítások"
 
 #: generate_desktop_files:25
 msgid "Fine-tune desktop settings"

@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-05-22 15:37+0000\n"
-"Last-Translator: Andrei I <Unknown>\n"
+"PO-Revision-Date: 2015-10-29 18:44+0000\n"
+"Last-Translator: CD <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:18+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:06+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr "Formatare %(partition)s în %(format)s ..."
+msgstr "Se formatează %(partition)s în %(format)s ..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
@@ -33,8 +33,8 @@ msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
 msgstr ""
-"Eroare: Mai întâi trebuie să montezi manual sistemul(ele) de fișiere la "
-"calea /target pentru a realiza o instalare personalizată!"
+"Eroare: Mai întâi trebuie să montați manual destinația sistemului de fișiere "
+"la /target pentru a realiza o instalare personalizată!"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -43,14 +43,14 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
-"EROARE: Există o problemă cu mediul de instalare. Acest lucru este cauzat de "
-"instrumentele de ardere care nu sunt compatibile cu LMDE (YUMI sau ale "
-"ustensile multi-încărcare). Ardeti imaginea ISO pe un DVD/stick USB folosind "
-"alt utilitar."
+"EROARE: Există o problemă cu mediul de instalare! Acest lucru este cauzat de "
+"instrumentele de inscripționare care nu sunt compatibile cu LMDE (YUMI "
+"etc.). Inscripționați imaginea ISO pe un DVD/stick USB folosind o aplicație "
+"diferită."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
-msgstr "Se indexează fișierele pentru a fi copiate.."
+msgstr "Se indexează fișierele pentru a fi copiate..."
 
 #: usr/lib/live-installer/installer.py:179
 #, python-format
@@ -60,7 +60,7 @@ msgstr "Se copiază %s"
 #: usr/lib/live-installer/installer.py:221
 #, python-format
 msgid "Restoring meta-information on %s"
-msgstr "Se restaurează meta-informațiile pe %s"
+msgstr "Se restabilesc meta-informațiile pe %s"
 
 #: usr/lib/live-installer/installer.py:231
 msgid "Entering the system ..."
@@ -72,11 +72,11 @@ msgstr "Se elimină configurația anterioară (a pachetelor)"
 
 #: usr/lib/live-installer/installer.py:281
 msgid "Adding new user to the system"
-msgstr "Adăugare utilizator nou în sistem"
+msgstr "Se adaugă un utilizator nou în sistem"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr "Scriere informaţie de montare a sistemului de fişiere în /etc/fstab"
+msgstr "Se scrie informația de montare a sistemului de fișiere în /etc/fstab"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
@@ -84,7 +84,7 @@ msgstr "Se setează numele de gazdă"
 
 #: usr/lib/live-installer/installer.py:393
 msgid "Setting locale"
-msgstr "Se setează configurația locală"
+msgstr "Se setează datele de localizare"
 
 #: usr/lib/live-installer/installer.py:407
 msgid "Localizing packages"
@@ -92,7 +92,7 @@ msgstr "Se localizează pachetele"
 
 #: usr/lib/live-installer/installer.py:422
 msgid "Installing drivers"
-msgstr "Instalare drivere"
+msgstr "Se instalează drivere"
 
 #: usr/lib/live-installer/installer.py:437
 msgid "Setting keyboard options"
@@ -100,19 +100,19 @@ msgstr "Se setează opțiunile tastaturii"
 
 #: usr/lib/live-installer/installer.py:476
 msgid "Installing bootloader"
-msgstr "Se instalează bootloader-ul (programul de pornire a sistemului)"
+msgstr "Se instalează programul de pornire a sistemului"
 
 #: usr/lib/live-installer/installer.py:485
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
 msgstr ""
-"AVERTISMENT: Bootloader-ul nu a fost configurat corect! Trebuie să-l "
-"configuraţi manual."
+"AVERTISMENT: Programul de pornire a sistemului nu a fost configurat corect! "
+"Trebuie să-l configurați manual."
 
 #: usr/lib/live-installer/installer.py:498
 msgid "Cleaning APT"
-msgstr "Curăţare APT"
+msgstr "Se curăță APT-ul"
 
 #: usr/lib/live-installer/installer.py:522
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
@@ -121,11 +121,11 @@ msgstr "Instalare finalizată"
 
 #: usr/lib/live-installer/installer.py:532
 msgid "Configuring bootloader"
-msgstr "Configurare bootloader"
+msgstr "Se configurează programul de pornire a sistemului"
 
 #: usr/lib/live-installer/installer.py:541
 msgid "Checking bootloader"
-msgstr "Verificare bootloader"
+msgstr "Se verifică programul de pornire a sistemului"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
@@ -133,7 +133,7 @@ msgstr "Eroare neașteptată"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
-msgstr "Instalatorul a căzut cu următoarea eroare."
+msgstr "Instalatorul a eșuat cu următoarea eroare."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:75
 #: usr/lib/live-installer/frontend/gtk_interface.py:77
@@ -144,7 +144,7 @@ msgstr "Instalator %s"
 #: usr/lib/live-installer/frontend/gtk_interface.py:92
 #: usr/lib/live-installer/frontend/gtk_interface.py:111
 msgid "Language"
-msgstr "Limba"
+msgstr "Limbă"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:93
 msgid "Timezone"
@@ -156,15 +156,15 @@ msgstr "Aranjament tastatură"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:95
 msgid "User info"
-msgstr "Informatii despre utilizator"
+msgstr "Informații utilizator"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:96
 msgid "Partitioning"
-msgstr "Partiționarea"
+msgstr "Se partiționează"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr "Vă rog să vă asiguraţi că doriţi să manipulaţi partiţiile manual"
+msgstr "Sigur doriți să gestionați manual partițiile?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -180,8 +180,7 @@ msgstr "Se instalează Linux Mint..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Installation paused: please finish the custom installation"
-msgstr ""
-"Instalare pusă în pauză: vă rog să terminaţi instalarea personalizată"
+msgstr "Instalare întreruptă temporar: terminați instalarea personalizată"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:114
 msgid "Country"
@@ -189,7 +188,7 @@ msgstr "Țară"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:126
 msgid "Click to change your picture"
-msgstr "Clic pentru a schimba imaginea"
+msgstr "Dați clic pentru a schimba imaginea"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:128
 msgid "Take a photo..."
@@ -201,7 +200,7 @@ msgstr "Răsfoiește pentru mai multe imagini..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:170
 msgid "Select timezone"
-msgstr "Selectează fus orar"
+msgstr "Selectare fus orar"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
@@ -228,11 +227,11 @@ msgstr "Variantă"
 #: usr/lib/live-installer/frontend/gtk_interface.py:235
 #: usr/lib/live-installer/frontend/gtk_interface.py:446
 msgid "Overview"
-msgstr "Sumar"
+msgstr "Privire de ansamblu"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr "Calculare indexuri de fisier..."
+msgstr "Se calculează indexurile fișierelor..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -240,7 +239,7 @@ msgstr "Imagini"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:390
 msgid "Your full name"
-msgstr "Numele tău complet"
+msgstr "Nume complet"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Please enter your full name."
@@ -248,20 +247,21 @@ msgstr "Introduceți numele dumneavoastră complet."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid "Your username"
-msgstr "Numele dvs. de utilizator"
+msgstr "Nume utilizator"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "This is the name you will use to log in to your computer."
 msgstr ""
-"Acesta este numele care îl vei folosi ca să te loghezi în computerul tău."
+"Acesta este numele pe care îl veți folosi pentru a vă autentifica în "
+"computer."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:394
 msgid "Your password"
-msgstr "Parola ta"
+msgstr "Parolă"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:395
 msgid "Please enter your password twice to ensure it is correct."
-msgstr "Introdu încă o dată parola ta pentru verificarea ei."
+msgstr "Introduceți încă o dată parola pentru a fi sigur că e corectă."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Hostname"
@@ -280,8 +280,8 @@ msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
 msgstr ""
-"Dacă este activ, ecranul de pornire este omis când sistemul porneste şi vei "
-"fi autentificat automat în sesiune."
+"Dacă este activată, ecranul de pornire este omis când sistemul pornește și "
+"veți fi autentificat automat în sesiunea de lucru."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
@@ -289,15 +289,15 @@ msgstr "Autentificare automată"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:403
 msgid "Your picture"
-msgstr "Poza ta"
+msgstr "Imagine"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:404
 msgid ""
 "This picture represents your user account. It is used in the login screen "
 "and a few other places."
 msgstr ""
-"Această poză reprezintă contul tău de utilizator. Este folosită pe ecranul "
-"de intrare/autentificare și în alte câteva locuri."
+"Această imagine reprezintă contul dumneavoastră de utilizator. Este folosită "
+"pe ecranul de autentificare și în alte câteva locuri."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:407
 msgid "Selected timezone:"
@@ -313,11 +313,11 @@ msgstr "Instalează GRUB"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
-msgstr "GRUB este un program folosit pentru încărcarea kernelului Linux."
+msgstr "GRUB este un program utilizat pentru încărcarea kernelului Linux."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr "Foloseste această căsuţă pentru a testa schema tastaturii tale."
+msgstr "Utilizați această casetă pentru a testa aranjamentul tastaturii."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -328,49 +328,49 @@ msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
 msgstr ""
-"Ai ales să gestionezi manual partițiile tale, acest lucru este rezervat doar "
-"UTILIZATORILOR AVANSAȚI."
+"Ați ales să gestionați manual partițiile, această caracteristică se "
+"adresează doar UTILIZATORILOR AVANSAȚI."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
-msgstr ""
-"Înainte de a continua, te rog montează sistemul de fișiere ales la /target."
+msgstr "Înainte de a continua, montați sistemul de fișiere ales la /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
-"Nu monta sisteme de fișiere virtuale ca și /dev, /proc, /sys, etc la "
-"/target/."
+"Nu montați sisteme de fișiere virtuale ca /dev, /proc, /sys, etc la /target/."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
-"În timpul instalării, vi se va administra timp pentru chroot în /target şi "
-"pentru a instala orice pachete care vor fi folosite pentru a porni noul tău "
+"În timpul instalării, vi se va da timp pentru chroot în /target și pentru a "
+"instala orice pachete care vor fi folosite pentru a porni noul dumneavoastră "
 "sistem."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
 msgstr ""
-"În timpul instalării, vei fi nevoit să scrii propriul tău fișier /etc/fstab."
+"În timpul instalării, va fi necesar să scrieți propriul dumneavoastră "
+"/etc/fstab."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
-"Dacă nu eşti sigur ce înseamnă orice din acestea, du-te înapoi şi "
-"deselectează managerul manual de partiţii."
+"Dacă nu sunteți sigur ce înseamnă oricare dintre aceste cerințe, duceți-vă "
+"înapoi și deselectați gestionarea manuală a partițiilor."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr ""
-"Setează ce este necesar şi după apasă Inainte pentru a termina instalarea:"
+"Efectuați următoarele cerințe, iar apoi apăsați  Înainte pentru a termina "
+"instalarea:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -378,9 +378,9 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
-"Creează /target/etc/fstab pentru sistemele de fișiere fiindcă ele vor fi "
-"montate în noul tău sistem, ele trebuie să corespundă cu cele montate acum "
-"la /target (fără să folosești prefixul /target în căile de montare)."
+"Creați /target/etc/fstab pentru sistemele de fișiere, fiindcă ele vor fi "
+"montate în noul sistem, corespunzând cu cele montate acum la /target (fără "
+"să folosiți prefixul /target în căile de montare)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -388,9 +388,9 @@ msgid ""
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
 "get/aptitude installations."
 msgstr ""
-"Instalează orice pachete necesare pentru prima pornire de sistem/prima "
-"butare (mdadm, cryptsetup, dmraid, etc) folosind comanda \"sudo chroot "
-"/target\" continuată de instalările apt-get/aptitude relevante."
+"Instalați orice pachete necesare pentru prima pornire de sistem (mdadm, "
+"cryptsetup, dmraid, etc) folosind comanda „sudo chroot /target” urmată de "
+"instalările apt-get/aptitude relevante."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:430
 msgid ""
@@ -398,8 +398,8 @@ msgid ""
 "as dm-crypt), you may need to have drives currently mounted using the same "
 "block device name as they appear in /target/etc/fstab."
 msgstr ""
-"Ia aminte că pentru ca update-initramfs să funcționeze normal în anumite "
-"cazuri (ca de exemplu dm-crypt), va trebui ca tu să ai dispozitivele montate "
+"Luați aminte că, pentru ca update-initramfs să funcționeze normal în anumite "
+"cazuri (ca de exemplu dm-crypt), va trebui să aveți dispozitivele montate "
 "folosind aceleași nume de dispozitive bloc ca și cele folosite în "
 "/target/etc/fstab."
 
@@ -409,9 +409,9 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
-"Verifică de două ori că fișierul /target/etc/fstab este corect și coincide "
-"cu ceea ce noul tău sistem va avea la prima pornire și cu ce este montat "
-"acum la /target."
+"Verificați de două ori că fișierul /target/etc/fstab este corect și coincide "
+"cu ceea ce noul dumneavoastră sistem va avea la prima pornire și cu ce este "
+"montat acum la /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -435,7 +435,7 @@ msgstr "Formatează ca"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:440
 msgid "Size"
-msgstr "Mărime"
+msgstr "Dimensiune"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:441
 #: usr/lib/live-installer/partitioning.py:338
@@ -444,11 +444,11 @@ msgstr "Spaţiu liber"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Quit?"
-msgstr "Ieşiţi?"
+msgstr "Renunțați?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Are you sure you want to quit the installer?"
-msgstr "Eşti sigur că vrei să parăseşti instalarea?"
+msgstr "Sigur doriți să renunțați la instalare?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:686
 msgid "Passwords do not match."
@@ -473,19 +473,19 @@ msgstr "Unealtă de instalare"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 msgid "Please choose a language"
-msgstr "Te rugăm alege o limbă"
+msgstr "Alegeți o limbă"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr "Furnizează numele tău complet."
+msgstr "Furnizați numele dumneavoastră complet."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr "Furnizează un nume de utilizator."
+msgstr "Furnizați un nume de utilizator."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr "Furnizează o parolă pentru contul tău de utilizator."
+msgstr "Furnizați o parolă pentru contul de utilizator."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
@@ -493,35 +493,35 @@ msgstr "Parolele tale nu se potrivesc."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr "Furnizează un nume de găzduire."
+msgstr "Furnizați un nume de gazdă."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr "Numele tău de utilizator trebuie să fie scris cu litere mici."
+msgstr "Numele de utilizator trebuie scris cu litere mici."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr "Numele tău de utilizator nu trebuie să conţină spaţii libere."
+msgstr "Numele de utilizator nu poate conține spații libere."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr "Numele de gazdă trebuie să fie scris cu litere mici."
+msgstr "Numele de gazdă trebuie scris cu litere mici."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr "Numele de gazdă nu trebuie să conţină spaţii libere."
+msgstr "Numele de gazdă nu poate conține spaţii libere."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
 msgstr ""
-"Indică un sistem de fişier pentru a formata partiţia root (/) inainte de "
+"Indicați un sistem de fișier pentru a formata partiția root (/) înainte de "
 "procedură."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr "Alege o partiţie root (/)"
+msgstr "Alegeți o partiţie root (/)"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -542,8 +542,8 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
 msgstr ""
-"Partiția EFI nu este butabilă (nu se poate utiliza de sistemul de operare). "
-"Te rog modifică steagurile/însemnele partiției."
+"Partiția EFI nu este bootabilă (nu se poate utiliza de către sistemul de "
+"operare). Editați steagurile/însemnele partiției."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:816
 msgid "The EFI partition is too small. It must be at least 100MB."
@@ -556,7 +556,7 @@ msgstr "Partiția EFI trebuie să fie formatată ca și vfat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr "Te rugăm alege o partiţie EFI."
+msgstr "Selectați o partiţie EFI."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -574,12 +574,12 @@ msgstr ""
 "Este nevoie de o partiție de sistem EFI cu următoarele cerințe:\n"
 "\n"
 " - Punct de montare: /boot/efi\n"
-" - Steagurile partiției: Butabilă\n"
-" - Mărimea: Mai mare de 100MB\n"
-" - Formatul: vfat sau fat32\n"
+" - Steaguri partiție: Bootabilă\n"
+" - Dimensiune: Mai mare de 100MB\n"
+" - Format: vfat sau fat32\n"
 "\n"
-"Pentru a asigura compatibilitatea cu Windows noi îți recomandăm să folosești "
-"prima partiție a hard-discului ca și partiție de sistem EFI.\n"
+"Pentru a asigura compatibilitatea cu Windows vă recomandăm să folosiți prima "
+"partiție a hard-discului ca partiție de sistem EFI.\n"
 " "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:879
@@ -588,7 +588,7 @@ msgstr "Localizare"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:880
 msgid "Language: "
-msgstr "Limba: "
+msgstr "Limbă: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:881
 msgid "Timezone: "
@@ -608,19 +608,19 @@ msgstr "Nume real: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:887
 msgid "Username: "
-msgstr "Utilizator: "
+msgstr "Nume utilizator: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "Automatic login: "
-msgstr "Logare automată: "
+msgstr "Autentificare automată: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "enabled"
-msgstr "activat"
+msgstr "activată"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "disabled"
-msgstr "dezactivat"
+msgstr "dezactivată"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:889
 msgid "System settings"
@@ -628,16 +628,16 @@ msgstr "Setări sistem"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:890
 msgid "Hostname: "
-msgstr "Nume gazdă: "
+msgstr "Nume de gazdă: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:891
 msgid "Filesystem operations"
-msgstr "Operațiile sistemului de fișiere"
+msgstr "Operațiunile sistemului de fișiere"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr "Instalare program de pornire pe %s"
+msgstr "Instalează programul de pornire a sistemului pe %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
@@ -645,7 +645,7 @@ msgstr "Nu instala programul de pornire a sistemului"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr "Foloseşte /target deja montat."
+msgstr "Utilizează /target deja montat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
@@ -666,22 +666,22 @@ msgstr "Eroare la instalare"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr "Instalare pauzată"
+msgstr "Instalare întreruptă temporar"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
-"Instalarea este acum pauzată. Citeşte instrucţiunile de pe pagină cu atenţie "
-"înainte de a apasa Înainte pentru a finaliza instalarea."
+"Instalarea este întreruptă temporar. Citiți cu atenție instrucțiunile de pe "
+"pagină, apoi dați clic pe Înainte pentru a finaliza instalarea."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
 msgstr ""
-"Instalarea este acum completă. Doreşti să reporneşti computerul pentru a "
+"Instalarea este acum completă. Doriți să reporniți computerul pentru a "
 "utiliza noul sistem?"
 
 #: usr/lib/live-installer/partitioning.py:129
@@ -698,7 +698,7 @@ msgstr "Atribuire către /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr "Asigurare către /boot/efi"
+msgstr "Atribuire către /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
@@ -735,9 +735,9 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
-"Nu a fost găsită nici o tablă de partiţionare pe disk-ul: %s. Doreşti ca, "
-"configuratorul să creeze un set de partiţii pentru tine? Notă: Acesta va "
-"ŞTERGE TOATE DATELE prezente pe disk."
+"Nu a fost găsit niciun tabel de partiționare pe discul: %s. Doriți ca "
+"instalatorul să creeze un set de partiții pentru dumneavoastră? Notă: Acestă "
+"acțiune va ȘTERGE TOATE DATELE prezente pe disc."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
@@ -749,11 +749,11 @@ msgstr "Partiție extinsă"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"
-msgstr "Necunoscut(ă)"
+msgstr "Necunoscută"
 
 #: usr/lib/live-installer/partitioning.py:436
 msgid "Edit partition"
-msgstr "Modifică partiția"
+msgstr "Editează partiția"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"

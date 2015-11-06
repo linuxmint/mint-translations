@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-06-26 13:14+0000\n"
+"PO-Revision-Date: 2015-06-26 13:30+0000\n"
 "Last-Translator: GunChleoc <Unknown>\n"
 "Language-Team: Akerbeltz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:18+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:06+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 "Language: gd\n"
 
 #: usr/lib/live-installer/installer.py:69
@@ -509,33 +509,35 @@ msgstr "Chan eil an dà fhacal-faire agad co-ionnann."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "Thoir seachad ainm-òstair."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr ""
+msgstr "Chan fhaod ach litrichean beaga a bhith san ainm cleachdaiche agad."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr ""
+msgstr "Chan fhaod beàrnan a bhith san ainm cleachdaiche agad."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr ""
+msgstr "Chan fhaod ach litrichean beaga a bhith san ainm-òstair."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr ""
+msgstr "Chan fhaod beàrnan a bhith san ainm-òstair."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
 msgstr ""
+"Sònraich siostam fhaidhlichean far an dèid am pàirteachadh freumha (/) "
+"fhòrmatadh mus lean thu air adhart."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr ""
+msgstr "Sònraich pàirteachadh freumha (/)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -546,6 +548,12 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"Tha feum air pàirteachadh freumha gus Linux Mint a stàladh air.\n"
+"\n"
+" - Puing munntachaidh: /\n"
+" - Am meud a mholamaid: 30GB\n"
+" - Forman an siostaim fhaidhlichean a mholamaid: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
@@ -566,7 +574,7 @@ msgstr "Feumaidh tu am pàirteachadh EFI fhòrmatadh mar vfat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr ""
+msgstr "Tagh pàirteachadh EFI."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -622,15 +630,15 @@ msgstr "Ainm-cleachdaiche: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "Automatic login: "
-msgstr ""
+msgstr "Clàradh a-steach fèin-obrachail: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "enabled"
-msgstr ""
+msgstr "an comas"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "disabled"
-msgstr ""
+msgstr "à comas"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:889
 msgid "System settings"
@@ -647,7 +655,7 @@ msgstr "Obrachaidhean an t-siostaim fhaidhlichean"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr ""
+msgstr "Stàlaich an luchdaichear-bùtaidh air %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
@@ -655,17 +663,17 @@ msgstr "Na stàlaich am bootloader"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr ""
+msgstr "Cleachd /target air a mhunntachadh mar-thà."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr ""
+msgstr "Fòrmataich %(path)s mar %(filesystem)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "Munntaich %(path)s mar %(mount)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
@@ -676,7 +684,7 @@ msgstr "Mearachd stàlaidh"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr ""
+msgstr "Chaidh an stàladh a chur 'na stad"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
@@ -692,50 +700,52 @@ msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
 msgstr ""
+"Tha an stàladh coileanta a-nis. A bheil thu airson an coimpiutair agad a "
+"thòiseachadh às ùr gus an siostam ùr a chleachdadh?"
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
-msgstr ""
+msgstr "Deasaich"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "Iomruin dha /"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "Iomruin dha /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "Iomruin dha /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
-msgstr ""
+msgstr "So-ghiùlan:"
 
 #: usr/lib/live-installer/partitioning.py:218
 #, python-format
@@ -744,31 +754,34 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"Cha deach clàr phàirteachaidhean a lorg air an draibh cruaidh: %s. A bheil "
+"thu airson 's gun crthaich an stàlaichear seata dhe phàirteachaidhean dhut? "
+"An aire: SGUABAIDH SEO ÀS A h-UILE DÀTA a tha air an diosg seo."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "Pàirteachadh loidsigeach"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
-msgstr ""
+msgstr "Pàirteachadh leudaichte"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"
-msgstr ""
+msgstr "Chan eil fhios"
 
 #: usr/lib/live-installer/partitioning.py:436
 msgid "Edit partition"
-msgstr ""
+msgstr "Deasaich am pàirteachadh"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"
-msgstr ""
+msgstr "Uidheam:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "Fòrmataich mar:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "Puing munntachaidh:"

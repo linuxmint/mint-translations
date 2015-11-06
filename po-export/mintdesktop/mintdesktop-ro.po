@@ -7,199 +7,486 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-12-09 16:44+0000\n"
-"PO-Revision-Date: 2015-01-21 11:05+0000\n"
-"Last-Translator: Flaviu <flaviu@gmx.com>\n"
+"POT-Creation-Date: 2015-09-14 15:44+0100\n"
+"PO-Revision-Date: 2015-10-29 18:53+0000\n"
+"Last-Translator: CD <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:17+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:05+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:110
-msgid "Desktop"
-msgstr "Spațiu de lucru"
+#: usr/share/help/C/mintdesktop/wms.page:8(name)
+#: usr/share/help/C/mintdesktop/index.page:6(name)
+#: usr/share/help/C/mintdesktop/compositing.page:8(name)
+msgid "Linux Mint"
+msgstr "Linux Mint"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:111
+#: usr/share/help/C/mintdesktop/wms.page:9(email)
+#: usr/share/help/C/mintdesktop/index.page:7(email)
+#: usr/share/help/C/mintdesktop/compositing.page:9(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
+
+#: usr/share/help/C/mintdesktop/wms.page:16(title)
+msgid "Overview of some window managers"
+msgstr "Privire de ansamblu asupra unor administratori de ferestre"
+
+#: usr/share/help/C/mintdesktop/wms.page:18(p)
+msgid "Here's a description of some of the window managers available."
+msgstr ""
+"Iată o descriere a unora dintre administratorii de ferestre disponibili."
+
+#: usr/share/help/C/mintdesktop/wms.page:21(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:261
+msgid "Marco"
+msgstr "Marco"
+
+#: usr/share/help/C/mintdesktop/wms.page:22(p)
+msgid ""
+"Marco is the default window manager for the MATE desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Marco este administratorul de ferestre implicit pentru mediul grafic MATE. "
+"Este foarte stabil și foarte fiabil. Poate rula cu sau fără compoziție."
+
+#: usr/share/help/C/mintdesktop/wms.page:23(p)
+msgid ""
+"If Marco is not installed already, you can install it with <cmd>apt install "
+"marco</cmd>."
+msgstr ""
+"Dacă Marco nu este instalat deja, îl puteți instala cu <cmd>apt install "
+"marco</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:27(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:266
+msgid "Metacity"
+msgstr "Metacity"
+
+#: usr/share/help/C/mintdesktop/wms.page:28(p)
+msgid ""
+"Metacity was the default window manager for the GNOME 2 desktop environment. "
+"It is very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Metacity a fost administratorul de ferestre implicit pentru mediul grafic "
+"GNOME 2. Este foarte stabil și foarte fiabil. Poate rula cu sau fără "
+"compoziție."
+
+#: usr/share/help/C/mintdesktop/wms.page:29(p)
+msgid ""
+"If Metacity is not installed already, you can install it with <cmd>apt "
+"install metacity</cmd>."
+msgstr ""
+"Dacă Metacity nu este instalat deja, îl puteți instala cu <cmd>apt install "
+"metacity</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:271
+msgid "Xfwm4"
+msgstr "Xfwm4"
+
+#: usr/share/help/C/mintdesktop/wms.page:34(p)
+msgid ""
+"Xfwm4 is the default window manager for the Xfce desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Xfwm4 este administratorul de ferestre implicit pentru mediul grafic Xfce. "
+"Este foarte stabil și foarte fiabil. Poate rula cu sau fără compoziție."
+
+#: usr/share/help/C/mintdesktop/wms.page:35(p)
+msgid ""
+"If Xfwm4 is not installed already, you can install it with <cmd>apt install "
+"xfwm4</cmd>."
+msgstr ""
+"Dacă Xfwm4 nu este instalat deja, îl puteți instala cu <cmd>apt install "
+"xfwm4</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:39(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:280
+msgid "Compiz"
+msgstr "Compiz"
+
+#: usr/share/help/C/mintdesktop/wms.page:40(p)
+msgid ""
+"Compiz is a very impressive window manager, very configurable and full of "
+"amazing effects and animations. It is however the least reliable and the "
+"least stable."
+msgstr ""
+"Compiz este un administrator de  ferestre impresionant, foarte configurabil "
+"și plin de efecte uimitoare și animații. Cu toate acestea, este mai puțin "
+"fiabil și mai puțin stabil."
+
+#: usr/share/help/C/mintdesktop/wms.page:41(p)
+msgid ""
+"Compiz is installed by default in Linux Mint. Note: It is not available in "
+"LMDE."
+msgstr ""
+"Compiz este instalat în mod implicit în Linux Mint. Notă: Nu este disponibil "
+"în LMDE."
+
+#: usr/share/help/C/mintdesktop/wms.page:45(title)
+msgid "Compton"
+msgstr "Compton"
+
+#: usr/share/help/C/mintdesktop/wms.page:46(p)
+msgid ""
+"Compton is a compositing manager. It can be used in combination with windows "
+"managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
+"known to reduce screen tearing."
+msgstr ""
+"Compton este un administrator de compunere. Acesta poate fi utilizat în "
+"combinație cu administratorii de ferestre, cum ar fi Marco, Metacity sau "
+"Xfwm4. În Xfce, folosind Xfwm4 + Compton este cunoscut pentru că reduce "
+"„ruperea” de ecran."
+
+#: usr/share/help/C/mintdesktop/wms.page:47(p)
+msgid ""
+"If Compton is not installed already, you can install it with <cmd>apt "
+"install compton</cmd>."
+msgstr ""
+"Dacă Compton nu este instalat deja, îl puteți instala cu <cmd>apt install "
+"compton</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:51(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:276
+msgid "Openbox"
+msgstr "Openbox"
+
+#: usr/share/help/C/mintdesktop/wms.page:52(p)
+msgid "Openbox is a fast and light-weight window manager."
+msgstr "Openbox este un administrator de ferestre rapid și simplu."
+
+#: usr/share/help/C/mintdesktop/wms.page:53(p)
+msgid ""
+"If Openbox is not installed already, you can install it with <cmd>apt "
+"install openbox</cmd>."
+msgstr ""
+"Dacă Openbox nu este instalat deja, îl puteți instala cu <cmd>apt install "
+"openbox</cmd>."
+
+#: usr/share/help/C/mintdesktop/index.page:14(title) generate_desktop_files:25
+msgid "Desktop Settings"
+msgstr "Setări desktop"
+
+#: usr/share/help/C/mintdesktop/index.page:16(p)
+msgid "Welcome to Desktop Settings."
+msgstr "Bine ați venit la Setări desktop."
+
+#: usr/share/help/C/mintdesktop/index.page:19(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:118
 msgid "Windows"
 msgstr "Ferestre"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:112
-msgid "Interface"
-msgstr "Interfață"
+#: usr/share/help/C/mintdesktop/index.page:20(p)
+msgid "The Windows section lets you choose a window manager."
+msgstr ""
+"Secțiunea Ferestre vă permite să alegeți un administrator de ferestre."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:113
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:160
+#: usr/share/help/C/mintdesktop/index.page:22(p)
+msgid ""
+"Within the operating system, the <gui>window manager</gui> is the part which "
+"is responsible for:"
+msgstr ""
+"În cadrul sistemului de operare, butonul <GUI>window manager</GUI> este "
+"partea care este responsabilă pentru:"
+
+#: usr/share/help/C/mintdesktop/index.page:24(p)
+msgid "Windows borders, title bars and window buttons"
+msgstr "Margini de ferestre, bare de titlu și butoane de fereastră"
+
+#: usr/share/help/C/mintdesktop/index.page:25(p)
+msgid "Window events (moving, resizing, focusing windows)"
+msgstr ""
+"Evenimente de ferestră (mutare, redimensionare, activare de ferestre)"
+
+#: usr/share/help/C/mintdesktop/index.page:26(p)
+msgid "Compositing (shadows, animations, effects, GPU rendering)"
+msgstr "Compunere (umbre, animatii, efecte, redare GPU)"
+
+#: usr/share/help/C/mintdesktop/index.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:170
 msgid "Terminal"
 msgstr "Terminal"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:154
+#: usr/share/help/C/mintdesktop/index.page:34(p)
+msgid ""
+"The terminal section lets you enable or disable <gui>fortune cookies</gui>."
+msgstr ""
+"Secțiunea terminal vă permite să activați sau să dezactivați <gui>fortune "
+"cookies</gui>."
+
+#: usr/share/help/C/mintdesktop/index.page:35(p)
+msgid ""
+"If this option is enabled, each time you open a terminal, a little animal "
+"appears and says some randomly picked humoristic message."
+msgstr ""
+"Dacă această opțiune este activată, de fiecare dată când deschideți un "
+"terminal, apare un mic animal mic și spune niște mesaje umoristice alese "
+"aleator."
+
+#: usr/share/help/C/mintdesktop/index.page:36(p)
+msgid ""
+"Some people might find some of the messages offensive (that's why this "
+"option is disabled by default). Please note that these messages are not "
+"authored by Linux Mint."
+msgstr ""
+"Unor persoane li s-ar putea părea că anumite mesaje sunt ofensatoare (de "
+"aceea această opțiune este dezactivată în mod implicit). Rețineți că aceste "
+"mesaje nu sunt create de Linux Mint."
+
+#: usr/share/help/C/mintdesktop/compositing.page:16(title)
+msgid "Pros and cons of compositing"
+msgstr "Pro și contra compunerii"
+
+#: usr/share/help/C/mintdesktop/compositing.page:19(title)
+msgid "Advantages"
+msgstr "Avantaje"
+
+#: usr/share/help/C/mintdesktop/compositing.page:22(p)
+msgid "Better look &amp; feel: Window animations, shadows and transparency."
+msgstr ""
+"Aspect & senzație mai bune: animații de ferestră, umbre și transparență."
+
+#: usr/share/help/C/mintdesktop/compositing.page:25(p)
+msgid ""
+"Better support for modern applications: Client-side decorations in GTK3 are "
+"better supported by composited window managers."
+msgstr ""
+"Suport mai bun pentru aplicații moderne: Decorațiunile pe partea client în "
+"GTK3 sunt mai bine suportate de administratorii de ferestre compuse."
+
+#: usr/share/help/C/mintdesktop/compositing.page:31(title)
+msgid "Disadvantages"
+msgstr "Dezavantaje"
+
+#: usr/share/help/C/mintdesktop/compositing.page:35(p)
+msgid ""
+"GPU rendering: Depending on your graphics card and your drivers, rendering "
+"with the GPU (as opposed to the CPU) can result in visual artefacts or "
+"screen tearing."
+msgstr ""
+"Redare GPU: În funcție de placa grafică și driverele tale, redarea cu GPU "
+"(spre deosebire de CPU) poate duce la artefacte vizuale sau „rupere” de "
+"ecran."
+
+#: usr/share/help/C/mintdesktop/compositing.page:38(p)
+msgid ""
+"Resource usage: Compositing requires more resources. This can result in "
+"slower performance or reduced battery autonomy on laptop computers."
+msgstr ""
+"Utilizarea resurselor: Compunerea necesită mai multe resurse. Acest lucru "
+"poate duce la performanță mai redusă sau la reducerea autonomiei bateriei la "
+"laptopuri."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: usr/share/help/C/mintdesktop/compositing.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Adrian Onose https://launchpad.net/~adrian0e\n"
+"  CD https://launchpad.net/~cstld\n"
+"  Călina https://launchpad.net/~perenutu\n"
+"  Flaviu https://launchpad.net/~flaviu-r\n"
+"  Gabor Laszlo https://launchpad.net/~gabor-laszlo-ieee\n"
+"  Nicolae Crefelean https://launchpad.net/~kneekoo\n"
+"  crismblog https://launchpad.net/~1-cristian\n"
+"  fioan89@gmail.com https://launchpad.net/~fioan89\n"
+"  ropetili https://launchpad.net/~robert-ilie7\n"
+"  yupal https://launchpad.net/~yupal"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:117
+msgid "Desktop"
+msgstr "Desktop"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:119
+msgid "Interface"
+msgstr "Interfață"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
 msgid "Desktop icons"
-msgstr "Pictograme de pe spaţiul de lucru"
+msgstr "Pictograme desktop"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:155
-msgid "Performance"
-msgstr "Performanță"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:162
+msgid "Marco settings"
+msgstr "Setări Marco"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:156
-msgid "Appearance"
-msgstr "Înfățișare"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+msgid "Metacity settings"
+msgstr "Setări Metacity"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:157
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:164
+msgid "Compiz settings"
+msgstr "Setări Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+msgid "Configure Compiz"
+msgstr "Configurează Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+msgid "Reset Compiz settings"
+msgstr "Restabilește setările Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
 msgid "Icons"
 msgstr "Pictograme"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:158
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
 msgid "Context menus"
 msgstr "Meniuri contextuale"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:159
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
 msgid "Toolbars"
 msgstr "Bare de unelte"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
 msgid "Window Manager"
-msgstr "Administrator de ferestre"
+msgstr "Administrator ferestre"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
 msgid "Select the items you want to see on the desktop:"
-msgstr "Selectaţi obiectele pe care le doriţi pe spaţiul de lucru:"
+msgstr "Selectați elementele pe care le doriți pe desktop:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:175
 msgid "Computer"
-msgstr "Calculator"
+msgstr "Computer"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
 msgid "Home"
 msgstr "Acasă"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:177
 msgid "Network"
 msgstr "Reţea"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
 msgid "Trash"
 msgstr "Coş de gunoi"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:179
 msgid "Mounted Volumes"
 msgstr "Partiții montate"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:184
 msgid "Don't show window content while dragging them"
 msgstr "Nu afişa conţinutul ferestrelor în timpul mutării"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:172
-msgid "Use compositing"
-msgstr "Utilizați compoziția"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
 msgid "Use system font in titlebar"
-msgstr "Utilizaţi fontul de sistem în bara de titlu"
+msgstr "Utilizează fontul de sistem în bara de titlu"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:174
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+msgid "Buttons layout:"
+msgstr "Dispunere butoane:"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
 msgid "Show fortune cookies"
 msgstr "Arată răvașele text"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
-msgid "Buttons layout:"
-msgstr "Aranjarea butoanelor:"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
-msgid "Window manager:"
-msgstr "Administrator de ferestre"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:180
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:190
 msgid "Show icons on menus"
 msgstr "Arată pictograme în meniuri"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:191
 msgid "Show icons on buttons"
 msgstr "Arată pictograme pe butoane"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:192
 msgid "Show Input Methods menu in context menus"
 msgstr "Arată meniul metodelor de intrare în meniurile contextuale"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:193
 msgid "Show Unicode Control Character menu in context menus"
 msgstr "Arată meniul caracterelor de control unicod în meniul contextual"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:195
 msgid "Buttons labels:"
 msgstr "Etichete butoane:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:196
 msgid "Icon size:"
 msgstr "Dimensiune pictogramă:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:210
-msgid "Small"
-msgstr "Mică"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:211
-msgid "Large"
-msgstr "Mare"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:217
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:222
 msgid "Traditional style (Right)"
 msgstr "Stil tradiţional (dreapta)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:218
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:223
 msgid "Mac style (Left)"
 msgstr "Stil Mac (stânga)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:225
-msgid "Marco (stable and reliable)"
-msgstr "Marco (stabil și de încredere)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:241
+msgid "Small"
+msgstr "Mică"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:226
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:234
-msgid "Compiz (impressive desktop effects)"
-msgstr "Compiz (efecte de birou impresionante)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:242
+msgid "Large"
+msgstr "Mare"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:228
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
+msgid "Marco + Compositing"
+msgstr "Marco + Compunere"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
+msgid "Marco + Compton"
+msgstr "Marco + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
+msgid "Metacity + Compositing"
+msgstr "Metacity + Compunere"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
+msgid "Metacity + Compton"
+msgstr "Metacity + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
+msgid "Xfwm4 + Compositing"
+msgstr "Xfwm4 + Compunere"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
+msgid "Xfwm4 + Compton"
+msgstr "Xfwm4 + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:278
+msgid "Openbox + Compton"
+msgstr "Openbox + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:284
 msgid ""
-"Log out and log back in for changes to take effect. If things go wrong, run "
-"'mate-wm-recovery' to switch back to Marco."
+"Click on the help button for more information about window managers.\n"
+"Use the 'wm-recovery' command to switch back to the default window manager.\n"
+"Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
-"Ieși și autentificăte din nou pentru ca modificările să aibă efect. În cazul "
-"în care lucrurile nu merg bine, rulați \"mate-wm-recovery\" pentru a reveni "
-"la Marco."
+"Dați clic pe butonul de ajutor pentru mai multe informații despre "
+"administratorii de ferestre.\n"
+"Utilizați  comanda „wm-recovery” pentru a reveni la administratorul de "
+"ferestre implicit.\n"
+"Utilizați comanda „wm-detect” pentru a verifica ce administrator de ferestre "
+"rulează."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:233
-msgid "Xfwm (stable and reliable)"
-msgstr "Xfwm (stabil și de încredere)"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:237
-msgid "Log out and log back in for changes to take effect."
-msgstr ""
-"Ieși și te autentifică din nou pentru ca modificările să aibă efect.."
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:246
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:290
 msgid "Text below items"
 msgstr "Text sub elemente"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:247
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:291
 msgid "Text beside items"
 msgstr "Text lângă elemente"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:248
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:292
 msgid "Icons only"
 msgstr "Doar pictograme"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:249
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:293
 msgid "Text only"
 msgstr "Doar text"
 
 #: generate_desktop_files:25
-msgid "Desktop Settings"
-msgstr "Preferințe spațiu de lucru"
-
-#: generate_desktop_files:25
 msgid "Fine-tune desktop settings"
-msgstr "Rafinează setările spațiului de lucru"
+msgstr "Rafinează setările desktopului"
 
 #~ msgid "Gnome Settings"
 #~ msgstr "Setări Gnome"

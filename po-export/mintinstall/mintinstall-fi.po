@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-11-03 17:21+0100\n"
-"PO-Revision-Date: 2014-12-28 17:27+0000\n"
-"Last-Translator: Matti Pulkkinen <matti.pulkkinen3@gmail.com>\n"
+"PO-Revision-Date: 2015-09-19 06:09+0000\n"
+"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:17+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:05+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:196
 #, python-format
@@ -79,7 +79,7 @@ msgstr "Päivitetään välimuistia"
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:341
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:343
 msgid "No role set"
-msgstr "Ei roolia asetettu"
+msgstr "Roolia ei ole asetettu"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:451
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:789
@@ -157,16 +157,16 @@ msgstr "Tietoja"
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:599
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1118
 msgid "Categories"
-msgstr "Kategoriat"
+msgstr "Luokat"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:590
 msgid "Please choose a category"
-msgstr "Valitse kategoria"
+msgstr "Valitse luokka"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:591
 #, python-format
 msgid "%d packages are currently available"
-msgstr "%d Paketeista ovat tällä hetkellä saatavilla"
+msgstr "%d pakettia on tällä hetkellä saatavilla"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:600
 msgid "Please choose a sub-category"
@@ -392,7 +392,7 @@ msgstr "%d pakettia"
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1661
 #, python-format
 msgid "Only results in category \"%s\" are shown."
-msgstr "Vain tulokset kategoriasta \"%s\" näytetään."
+msgstr "Vain tulokset luokasta \"%s\" näytetään."
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1672
 msgid "Search results"
@@ -432,7 +432,7 @@ msgstr "Arvostelusi"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1778
 msgid "Size:"
-msgstr "Koko"
+msgstr "Koko:"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1779
 msgid "Version:"
@@ -524,7 +524,7 @@ msgstr "Arvostelut:"
 #: usr/lib/linuxmint/mintInstall/splash.py:28
 #, python-format
 msgid "Gathering information for %d packages..."
-msgstr "Keräämällä tietoja %d paketteihin ..."
+msgstr "Kerätään tietoja %d paketista..."
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:68
 msgid "Backing up your APT sources"
@@ -551,7 +551,7 @@ msgstr "Käytetään seuraavia ohjelmavarastoja:"
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:209
 #, python-format
 msgid "Install %s?"
-msgstr "Asenna %s?"
+msgstr "Asennetaanko %s?"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:212
 msgid "The following packages will be installed:"
@@ -564,7 +564,7 @@ msgstr "Oletuspakettivarastot"
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:296
 #, python-format
 msgid "Upgrade %s?"
-msgstr "Päivitä %s?"
+msgstr "Päivitetäänkö %s?"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:298
 msgid "The following packages will be upgraded:"
@@ -580,7 +580,7 @@ msgstr "Etsi ohjelmia"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:437
 msgid "Go to the Linux Mint Software Portal"
-msgstr "Mene Linux Mintin ohjelmaportaaliin"
+msgstr "Siirry Linux Mintin ohjelmaportaaliin"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:438
 msgid "Search for a .mint application"
@@ -588,7 +588,7 @@ msgstr "Etsi .mint-ohjelmia"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:439
 msgid "Go to the GetDeb Portal"
-msgstr "Mene GetDeb-portaaliin"
+msgstr "Siirry GetDeb-portaaliin"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:440
 msgid "Search for a .deb package"
@@ -604,11 +604,11 @@ msgstr "Näytä"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:444
 msgid "Go to the Ubuntu repository"
-msgstr "Mene Ubuntun pakettivarastoon"
+msgstr "Siirry Ubuntun pakettivarastoon"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:445
 msgid "Go to the Linux Mint repository"
-msgstr "Mene Linux Mintin pakettivarastoon"
+msgstr "Siirry Linux Mintin pakettivarastoon"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:457
 msgid "Your APT sources were corrupted."
@@ -620,7 +620,7 @@ msgid ""
 "They now have been restored."
 msgstr ""
 "APT-lähteet eivät palautuneet oikein viimeksi kun käytit Ohjelmiston "
-"hallintaa. Ne ovat nyt palautettu."
+"hallintaa. Ne on nyt palautettu."
 
 #: usr/lib/linuxmint/mintInstall/remove.py:50
 msgid "Application removed successfully"

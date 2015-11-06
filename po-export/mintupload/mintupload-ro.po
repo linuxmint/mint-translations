@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-30 16:37+0100\n"
-"PO-Revision-Date: 2013-11-20 10:38+0000\n"
-"Last-Translator: Nicolae Crefelean <Unknown>\n"
+"PO-Revision-Date: 2015-10-29 19:03+0000\n"
+"Last-Translator: CD <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:16+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:04+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:30
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:14
@@ -23,7 +23,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:73
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:103
 msgid "Upload Manager"
-msgstr "Manager de încărcări"
+msgstr "Administrator încărcare"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:71
 #, python-format
@@ -43,15 +43,15 @@ msgstr "S-au încărcat cu succes %(number)d fișiere la „%(service)s”"
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:91
 #, python-format
 msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr "S-a încărcat cu succes 1 fișier la „%(service)s”"
+msgstr "S-a încărcat cu succes un fișier la „%(service)s”"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:102
 msgid "Do you want to cancel this upload?"
-msgstr "Doriți anularea acestei încărcări?"
+msgstr "Doriți să anulați această încărcare?"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:103
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Renunță"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:104
 msgid "Run in the background"
@@ -179,7 +179,7 @@ msgstr "Fișierul s-a încărcat cu succes."
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:222
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:257
 msgid "connection successfully established"
-msgstr "conexiunea s-a efectuat cu succes"
+msgstr "conexiune stabilită cu succes"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:188
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:230
@@ -209,7 +209,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:82
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:30
 msgid "Upload services"
-msgstr "Serviciile de încărcare"
+msgstr "Servicii încărcare"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:97
 msgid "Services:"
@@ -217,12 +217,12 @@ msgstr "Servicii:"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:110
 msgid "Upload manager..."
-msgstr "Manager de încărcări..."
+msgstr "Administrator încărcare..."
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:176
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
-msgstr "Trageți și puneți aici pentru încărcarea la %s"
+msgstr "Trageți și plasați aici pentru a încărca la %s"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:15
 msgid "Define upload services"
@@ -251,7 +251,7 @@ msgstr "<b>Introduceți un nume pentru noul serviciu de încărcare:</b>"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:109
 msgid "Service name:"
-msgstr "Nume:"
+msgstr "Nume serviciu:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:111
 msgid "<i>Try to avoid spaces and special characters...</i>"
@@ -260,7 +260,7 @@ msgstr "<i>Evitați spațiile și caracterele speciale</i>"
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:169
 #, python-format
 msgid "%s Properties"
-msgstr "Proprietățile %s"
+msgstr "Proprietăți %s"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:172
 msgid "Advanced settings"
@@ -307,12 +307,13 @@ msgstr "Nume gazdă sau adresă IP. Implicit: "
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:191
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
 msgstr ""
-"Portul distant. Implicit este 21 pentru FTP, respectiv 22 pentru SFTP și SCP"
+"Port acces la distanță. Implicit este 21 pentru FTP, respectiv 22 pentru "
+"SFTP și SCP"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:194
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:195
 msgid "Username, defaults to your local username"
-msgstr "Nume utilizator. Implicit este numele utilizatorului dvs. local."
+msgstr "Nume utilizator. Implicit este numele de utilizator local."
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:198
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:199
@@ -320,8 +321,8 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
-"Implicită este conectarea FTP cu NULL, SCP fără parolă şi cu cheile ~/.ssh "
-"pentru SFTP"
+"Parolă. Implicită: conexiune SCP fără parolă, FTP cu șir nul, chei ~/.ssh "
+"utilizate pentru conexiuni SFTP"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:202
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:203
@@ -339,7 +340,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:265
 msgid "Could not save configuration change"
-msgstr "Modificarea setărilor nu a putut fi salvată"
+msgstr "Nu s-a putut salva modificarea setărilor"
 
 #~ msgid "Hostname:"
 #~ msgstr "Nume gazdă:"

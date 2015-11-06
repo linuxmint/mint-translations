@@ -7,193 +7,460 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-12-09 16:44+0000\n"
-"PO-Revision-Date: 2014-12-27 02:33+0000\n"
+"POT-Creation-Date: 2015-09-14 15:44+0100\n"
+"PO-Revision-Date: 2015-09-24 23:22+0000\n"
 "Last-Translator: Saki <a4e484b@hotmail.com>\n"
 "Language-Team: Vietnamese <vi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:17+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:05+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:110
-msgid "Desktop"
-msgstr "Bàn làm việc"
+#: usr/share/help/C/mintdesktop/wms.page:8(name)
+#: usr/share/help/C/mintdesktop/index.page:6(name)
+#: usr/share/help/C/mintdesktop/compositing.page:8(name)
+msgid "Linux Mint"
+msgstr "Linux Mint"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:111
+#: usr/share/help/C/mintdesktop/wms.page:9(email)
+#: usr/share/help/C/mintdesktop/index.page:7(email)
+#: usr/share/help/C/mintdesktop/compositing.page:9(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
+
+#: usr/share/help/C/mintdesktop/wms.page:16(title)
+msgid "Overview of some window managers"
+msgstr "Khái quát một vài trình quản lý cửa sổ"
+
+#: usr/share/help/C/mintdesktop/wms.page:18(p)
+msgid "Here's a description of some of the window managers available."
+msgstr "Đây là mô tả của một vài trình quản lý cửa sổ sẵn có"
+
+#: usr/share/help/C/mintdesktop/wms.page:21(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:261
+msgid "Marco"
+msgstr "Marco"
+
+#: usr/share/help/C/mintdesktop/wms.page:22(p)
+msgid ""
+"Marco is the default window manager for the MATE desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Marco là trình quản lý cửa sổ mặc định cho môi trường làm việc MATE. Nó rất "
+"ổn định và chắc chắn. Nó có thể chạy với tổ hợp hoặc không."
+
+#: usr/share/help/C/mintdesktop/wms.page:23(p)
+msgid ""
+"If Marco is not installed already, you can install it with <cmd>apt install "
+"marco</cmd>."
+msgstr ""
+"Nếu Marco chưa được cài sẵn, bạn có thể cài nó với <cmd>apt install "
+"marco</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:27(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:266
+msgid "Metacity"
+msgstr "Metacity"
+
+#: usr/share/help/C/mintdesktop/wms.page:28(p)
+msgid ""
+"Metacity was the default window manager for the GNOME 2 desktop environment. "
+"It is very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Metacity là trình quản lý cửa sổ mặc định cho môi trường làm việc GNOME 2. "
+"Nó rất ổn định và chắc chắn. Nó có thể chạy với tổ hợp hoặc không."
+
+#: usr/share/help/C/mintdesktop/wms.page:29(p)
+msgid ""
+"If Metacity is not installed already, you can install it with <cmd>apt "
+"install metacity</cmd>."
+msgstr ""
+"Nếu Metacity chưa được cài sẵn, bạn có thể cài nó với <cmd>apt install "
+"metacity</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:271
+msgid "Xfwm4"
+msgstr "Xfwm4"
+
+#: usr/share/help/C/mintdesktop/wms.page:34(p)
+msgid ""
+"Xfwm4 is the default window manager for the Xfce desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Xfwm4 là trình quản lý cửa sổ mặc định cho môi trường làm việc Xfce. Nó rất "
+"ổn định và chắc chắn. Nó có thể chạy với tổ hợp hoặc không."
+
+#: usr/share/help/C/mintdesktop/wms.page:35(p)
+msgid ""
+"If Xfwm4 is not installed already, you can install it with <cmd>apt install "
+"xfwm4</cmd>."
+msgstr ""
+"Nếu Xfwm4 chưa được cài sẵn, bạn có thể cài nó với <cmd>apt install "
+"xfwm4</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:39(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:280
+msgid "Compiz"
+msgstr "Compiz"
+
+#: usr/share/help/C/mintdesktop/wms.page:40(p)
+msgid ""
+"Compiz is a very impressive window manager, very configurable and full of "
+"amazing effects and animations. It is however the least reliable and the "
+"least stable."
+msgstr ""
+"Compiz là một trình quản lý cửa sổ rất ấn tượng, tính cấu hình cao và đầy "
+"những hiệu ứng và hoạt hoạ tuyệt vời. Tuy nhiên nó cũng ít ổn định và ít "
+"chắc chắn nhất."
+
+#: usr/share/help/C/mintdesktop/wms.page:41(p)
+msgid ""
+"Compiz is installed by default in Linux Mint. Note: It is not available in "
+"LMDE."
+msgstr ""
+"Compiz được cài mặc định trên Linux Mint. Lưu ý: nó không có trong LMDE."
+
+#: usr/share/help/C/mintdesktop/wms.page:45(title)
+msgid "Compton"
+msgstr "Compton"
+
+#: usr/share/help/C/mintdesktop/wms.page:46(p)
+msgid ""
+"Compton is a compositing manager. It can be used in combination with windows "
+"managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
+"known to reduce screen tearing."
+msgstr ""
+"Compton là một trình quản lý tổ hợp. Nó có thể dùng kết hợp với những trình "
+"quản lý cửa sổ như là Marco, Metacity hoặc Xfwm4. Trong Xfce, sử dụng "
+"Xfwm4+Compton được biết rằng sẽ hạn chế tình trạng xé màn hình."
+
+#: usr/share/help/C/mintdesktop/wms.page:47(p)
+msgid ""
+"If Compton is not installed already, you can install it with <cmd>apt "
+"install compton</cmd>."
+msgstr ""
+"Nếu Compton chưa được cài sẵn, bạn có thể cài nó với <cmd>apt install "
+"compton</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:51(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:276
+msgid "Openbox"
+msgstr "Openbox"
+
+#: usr/share/help/C/mintdesktop/wms.page:52(p)
+msgid "Openbox is a fast and light-weight window manager."
+msgstr "Openbox là một trình quản lý cửa sổ nhanh và gọn nhẹ."
+
+#: usr/share/help/C/mintdesktop/wms.page:53(p)
+msgid ""
+"If Openbox is not installed already, you can install it with <cmd>apt "
+"install openbox</cmd>."
+msgstr ""
+"Nếu Openbox chưa được cài sẵn, bạn có thể cài nó với <cmd>apt install "
+"openbox</cmd>."
+
+#: usr/share/help/C/mintdesktop/index.page:14(title) generate_desktop_files:25
+msgid "Desktop Settings"
+msgstr "Thiết lập Màn hình làm việc"
+
+#: usr/share/help/C/mintdesktop/index.page:16(p)
+msgid "Welcome to Desktop Settings."
+msgstr "Chào mừng bạn đến với Thiết đặt Màn hình làm việc."
+
+#: usr/share/help/C/mintdesktop/index.page:19(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:118
 msgid "Windows"
 msgstr "Cửa sổ"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:112
-msgid "Interface"
-msgstr "Giao diện"
+#: usr/share/help/C/mintdesktop/index.page:20(p)
+msgid "The Windows section lets you choose a window manager."
+msgstr "Khu vực Cửa sổ cho phép bạn chọn trình quản lý của sổ."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:113
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:160
+#: usr/share/help/C/mintdesktop/index.page:22(p)
+msgid ""
+"Within the operating system, the <gui>window manager</gui> is the part which "
+"is responsible for:"
+msgstr ""
+"Bên trong hệ điều hành, <gui>trình quản lý cửa sổ</gui> là thành phần chịu "
+"trách nhiệm:"
+
+#: usr/share/help/C/mintdesktop/index.page:24(p)
+msgid "Windows borders, title bars and window buttons"
+msgstr "Khung viền, thanh tiêu đề và các nút nhấn cửa sổ"
+
+#: usr/share/help/C/mintdesktop/index.page:25(p)
+msgid "Window events (moving, resizing, focusing windows)"
+msgstr "Sự kiện cửa sổ (di chuyển, định cỡ, tiêu điểm)"
+
+#: usr/share/help/C/mintdesktop/index.page:26(p)
+msgid "Compositing (shadows, animations, effects, GPU rendering)"
+msgstr "Tổ hợp (bóng, hoạt hoạ, hiệu hứng, kết xuất GPU)"
+
+#: usr/share/help/C/mintdesktop/index.page:33(title)
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:170
 msgid "Terminal"
 msgstr "Trình dòng lệnh"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:154
+#: usr/share/help/C/mintdesktop/index.page:34(p)
+msgid ""
+"The terminal section lets you enable or disable <gui>fortune cookies</gui>."
+msgstr "Khu vực trình dòng lệnh cho phép bạn bật tắt <gui>bánh bói</gui>."
+
+#: usr/share/help/C/mintdesktop/index.page:35(p)
+msgid ""
+"If this option is enabled, each time you open a terminal, a little animal "
+"appears and says some randomly picked humoristic message."
+msgstr ""
+"Nếu tuỳ chọn này bật, mỗi khi bạn mở trình dòng lệnh sẽ có một con vật nhỏ "
+"hiện ra và nói thông điệp gì đó rất hài hước được chọn ngẫu nhiên."
+
+#: usr/share/help/C/mintdesktop/index.page:36(p)
+msgid ""
+"Some people might find some of the messages offensive (that's why this "
+"option is disabled by default). Please note that these messages are not "
+"authored by Linux Mint."
+msgstr ""
+"Có người thấy một số thông điệp này chướng mắt (đó là lý do tuỳ chọn này mặc "
+"định là tắt). Xin lưu ý rằng những thông điệp này không phải do Linux Mint "
+"tạo ra."
+
+#: usr/share/help/C/mintdesktop/compositing.page:16(title)
+msgid "Pros and cons of compositing"
+msgstr "Ưu khuyết điểm của tổ hợp"
+
+#: usr/share/help/C/mintdesktop/compositing.page:19(title)
+msgid "Advantages"
+msgstr "Ưu điểm"
+
+#: usr/share/help/C/mintdesktop/compositing.page:22(p)
+msgid "Better look &amp; feel: Window animations, shadows and transparency."
+msgstr "Cảm nhận tốt hơn: Hoạt hoạ, đổ bóng và trong suốt cho cửa sổ."
+
+#: usr/share/help/C/mintdesktop/compositing.page:25(p)
+msgid ""
+"Better support for modern applications: Client-side decorations in GTK3 are "
+"better supported by composited window managers."
+msgstr ""
+"Hỗ trợ ứng dụng hiện đại tốt hơn: Phần trang trí phía khách trong GTK3 được "
+"hỗ trợ tốt hơn với trình quản lý cửa sổ được tổ hợp."
+
+#: usr/share/help/C/mintdesktop/compositing.page:31(title)
+msgid "Disadvantages"
+msgstr "Khuyết điểm"
+
+#: usr/share/help/C/mintdesktop/compositing.page:35(p)
+msgid ""
+"GPU rendering: Depending on your graphics card and your drivers, rendering "
+"with the GPU (as opposed to the CPU) can result in visual artefacts or "
+"screen tearing."
+msgstr ""
+"Kết xuất GPU: Tuỳ thuộc vào bo mạch đồ hoạ và trình điều khiển của bạn, kết "
+"xuất với GPU (thay vì CPU) có thể dẫn đến dấu vết thị giác hoặc tình trạng "
+"xé màn hình."
+
+#: usr/share/help/C/mintdesktop/compositing.page:38(p)
+msgid ""
+"Resource usage: Compositing requires more resources. This can result in "
+"slower performance or reduced battery autonomy on laptop computers."
+msgstr ""
+"Sử dụng tài nguyên: Tổ hợp yêu cầu nhiều tài nguyên hơn. Kết quả là hiệu "
+"năng chậm hơn và giảm thời lượng pin trên máy tính xách tay."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: usr/share/help/C/mintdesktop/compositing.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Lê Trường An https://launchpad.net/~truongan\n"
+"  Saki https://launchpad.net/~nhkhoi"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:117
+msgid "Desktop"
+msgstr "Bàn làm việc"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:119
+msgid "Interface"
+msgstr "Giao diện"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
 msgid "Desktop icons"
 msgstr "Biểu tượng bàn làm việc"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:155
-msgid "Performance"
-msgstr "Hiệu năng"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:162
+msgid "Marco settings"
+msgstr "Thiết đặt Marco"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:156
-msgid "Appearance"
-msgstr "Diện mạo"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+msgid "Metacity settings"
+msgstr "Thiết đặt Metacity"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:157
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:164
+msgid "Compiz settings"
+msgstr "Thiết đặt Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+msgid "Configure Compiz"
+msgstr "Cấu hình Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+msgid "Reset Compiz settings"
+msgstr "Đặt lại thiết đặt Compiz"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
 msgid "Icons"
 msgstr "Biểu tượng"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:158
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
 msgid "Context menus"
 msgstr "Trình đơn ngữ cảnh"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:159
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
 msgid "Toolbars"
 msgstr "Thanh công cụ"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
 msgid "Window Manager"
 msgstr "Trình Quản lý cửa sổ:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
 msgid "Select the items you want to see on the desktop:"
 msgstr "Chọn các mục muốn hiển thị trên màn hình làm việc:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:175
 msgid "Computer"
 msgstr "Máy vi tính"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
 msgid "Home"
 msgstr "Nhà"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:177
 msgid "Network"
 msgstr "Mạng"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
 msgid "Trash"
 msgstr "Thùng rác"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:179
 msgid "Mounted Volumes"
 msgstr "Phân vùng đã gắn kết"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:184
 msgid "Don't show window content while dragging them"
 msgstr "Không hiển thị nội dung cửa sổ khi kéo"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:172
-msgid "Use compositing"
-msgstr "Dùng bộ tổng hợp"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
 msgid "Use system font in titlebar"
 msgstr "Dùng phông chữ hệ thống trên thanh tiêu đề"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:174
-msgid "Show fortune cookies"
-msgstr "Hiện bánh may mắn"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
 msgid "Buttons layout:"
 msgstr "Bố cục nút nhấn:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
-msgid "Window manager:"
-msgstr "Trình quản lý cửa sổ:"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
+msgid "Show fortune cookies"
+msgstr "Hiện bánh may mắn"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:180
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:190
 msgid "Show icons on menus"
 msgstr "Hiện biểu tượng trên trình đơn"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:191
 msgid "Show icons on buttons"
 msgstr "Hiện biểu tượng trên nút nhấn"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:192
 msgid "Show Input Methods menu in context menus"
 msgstr "Hiện trình đơn bộ gõ trong các trình đơn ngữ cảnh"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:193
 msgid "Show Unicode Control Character menu in context menus"
 msgstr "Hiện trình đơn Ký tự điều khiển Unicode trong các trình đơn ngữ cảnh"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:195
 msgid "Buttons labels:"
 msgstr "Nhãn nút nhấn:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:196
 msgid "Icon size:"
 msgstr "Kích thước biểu tượng:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:210
-msgid "Small"
-msgstr "Nhỏ"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:211
-msgid "Large"
-msgstr "Lớn"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:217
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:222
 msgid "Traditional style (Right)"
 msgstr "Kiểu truyền thống (bên phải)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:218
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:223
 msgid "Mac style (Left)"
 msgstr "Kiểu giao diện Mac (bên trái)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:225
-msgid "Marco (stable and reliable)"
-msgstr "Marco (ổn định và bảo đảm)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:241
+msgid "Small"
+msgstr "Nhỏ"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:226
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:234
-msgid "Compiz (impressive desktop effects)"
-msgstr "Compiz (hiệu ứng màn hình làm việc ấn tượng)"
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:242
+msgid "Large"
+msgstr "Lớn"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:228
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
+msgid "Marco + Compositing"
+msgstr "Marco + Tổ hợp"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
+msgid "Marco + Compton"
+msgstr "Marco + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
+msgid "Metacity + Compositing"
+msgstr "Metacity + Tổ hợp"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
+msgid "Metacity + Compton"
+msgstr "Metacity + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
+msgid "Xfwm4 + Compositing"
+msgstr "Xfwm4 + Tổ hợp"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
+msgid "Xfwm4 + Compton"
+msgstr "Xfwm4 + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:278
+msgid "Openbox + Compton"
+msgstr "Openbox + Compton"
+
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:284
 msgid ""
-"Log out and log back in for changes to take effect. If things go wrong, run "
-"'mate-wm-recovery' to switch back to Marco."
+"Click on the help button for more information about window managers.\n"
+"Use the 'wm-recovery' command to switch back to the default window manager.\n"
+"Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
-"Đăng xuất và vào lại để các thay đổi có hiệu lực. Nếu có vấn đề gì, hãy chạy "
-"'mate-wm-recovery' để trở về Marco."
+"Nhấp nút trợ giúp để xem thêm thông tin về trình quản lý cửa sổ.\n"
+"Dùng lệnh 'wm-recovery' để chuyển lại trình quản lý cửa sổ mặc định.\n"
+"Dùng lệnh 'wm-detect' để kiểm tra trình quản lý cửa sổ nào đang chạy."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:233
-msgid "Xfwm (stable and reliable)"
-msgstr "Xfwm (stable and reliable)"
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:237
-msgid "Log out and log back in for changes to take effect."
-msgstr "Đăng xuất và đăng nhập trở lại để các thay đổi có hiệu lực."
-
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:246
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:290
 msgid "Text below items"
 msgstr "Văn bản nằm dưới các mục"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:247
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:291
 msgid "Text beside items"
 msgstr "Văn bản nằm cạnh các mục"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:248
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:292
 msgid "Icons only"
 msgstr "Chỉ hiện biểu tượng"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:249
+#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:293
 msgid "Text only"
 msgstr "Chỉ hiện văn bản"
-
-#: generate_desktop_files:25
-msgid "Desktop Settings"
-msgstr "Thiết lập Màn hình làm việc"
 
 #: generate_desktop_files:25
 msgid "Fine-tune desktop settings"

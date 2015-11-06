@@ -8,25 +8,25 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-04-22 14:21+0000\n"
-"Last-Translator: jonas-ska <Unknown>\n"
+"PO-Revision-Date: 2015-10-29 09:55+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:18+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:06+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr ""
+msgstr "Formatuojama %(partition)s kaip %(format)s ..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
-msgstr "Prijungiamas %(partition)s skirsnis prie %(mountpoint)s vietos"
+msgstr "Prijungiamas %(partition)s skaidinys prie %(mountpoint)s vietos"
 
 #: usr/lib/live-installer/installer.py:127
 msgid ""
@@ -43,6 +43,10 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"KLAIDA: Įvyko su diegimo laikmena susijusi klaida! Tai, dažniausiai, yra "
+"sąlygojama su LMDE (YUMI ar kitais keleriopo paleidimo įrankiais) "
+"nesuderinamų įrašymo įrankių. Prašome įrašyti ISO atvaizdį į DVD/USB, "
+"naudojant kitokį įrankį."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -60,7 +64,7 @@ msgstr "Atkuriama meta-informacija apie %s"
 
 #: usr/lib/live-installer/installer.py:231
 msgid "Entering the system ..."
-msgstr ""
+msgstr "Įeinama į sistemą ..."
 
 #: usr/lib/live-installer/installer.py:273
 msgid "Removing live configuration (packages)"
@@ -68,11 +72,11 @@ msgstr "Šalinama bandomoji konfigūracija (paketai)"
 
 #: usr/lib/live-installer/installer.py:281
 msgid "Adding new user to the system"
-msgstr ""
+msgstr "Į sistemą pridedamas naujas naudotojas"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr ""
+msgstr "Į /etc/fstab failą įrašoma failų sistemos prijungimo informacija"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
@@ -88,7 +92,7 @@ msgstr "Lokalizuojami paketai"
 
 #: usr/lib/live-installer/installer.py:422
 msgid "Installing drivers"
-msgstr ""
+msgstr "Įdiegiamos tvarkyklės"
 
 #: usr/lib/live-installer/installer.py:437
 msgid "Setting keyboard options"
@@ -129,7 +133,7 @@ msgstr "Netikėta klaida"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
-msgstr ""
+msgstr "Diegimo programa sutriko su šia klaida."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:75
 #: usr/lib/live-installer/frontend/gtk_interface.py:77
@@ -156,15 +160,15 @@ msgstr "Informacija apie naudotoją"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:96
 msgid "Partitioning"
-msgstr "Skirsniai"
+msgstr "Skaidymas"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr ""
+msgstr "Prašome įsitikinti, kad norite tvarkyti skaidinius rankiniu būdu"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
-msgstr "Papildomos parinktys"
+msgstr "Išplėstinės parinktys"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:99
 msgid "Summary"
@@ -192,7 +196,7 @@ msgstr "Nufotografuoti..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:131
 msgid "Browse for more pictures..."
-msgstr ""
+msgstr "Naršyti daugiau paveikslėlių..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:170
 msgid "Select timezone"
@@ -200,7 +204,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
-msgstr ""
+msgstr "Keisti skaidinius"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:175
 msgid "Refresh"
@@ -227,7 +231,7 @@ msgstr "Apžvalga"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr ""
+msgstr "Skaičiuojami failų indeksai ..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -248,6 +252,7 @@ msgstr "Jūsų naudotojo vardas"
 #: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "This is the name you will use to log in to your computer."
 msgstr ""
+"Tai yra vardas, kurį naudosite, kad prisijungtumėte prie savo kompiuterio."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:394
 msgid "Your password"
@@ -256,6 +261,8 @@ msgstr "Jūsų slaptažodis"
 #: usr/lib/live-installer/frontend/gtk_interface.py:395
 msgid "Please enter your password twice to ensure it is correct."
 msgstr ""
+"Prašome du kartus įvesti savo slaptažodį, kad būtų užtikrinta, jog jis yra "
+"teisingas."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Hostname"
@@ -264,6 +271,7 @@ msgstr "Kompiuterio vardas"
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
 msgstr ""
+"Šis kompiuterio pavadinimas bus naudojamas tinkle kaip kompiuterio vardas."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
@@ -274,6 +282,8 @@ msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
 msgstr ""
+"Jei įjungta, paleidžiant sistemą, prisijungimo ekranas yra praleidžiamas ir "
+"esate automatiškai prijungiami prie savo darbalaukio seanso."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
@@ -305,11 +315,11 @@ msgstr "Diegti GRUB"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
-msgstr ""
+msgstr "GRUB yra sistemos įkėliklis, naudojamas įkelti Linux branduolį."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr ""
+msgstr "Naudokite šį langelį, kad išbandytumėte savo klaviatūros išdėstymą."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -320,8 +330,8 @@ msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
 msgstr ""
-"Pasirinkote tvarkyti skirsnius rankiniu būdu, ši funkcija yra tik "
-"PAŽENGUSIEMS NAUDOTOJAMS."
+"Pasirinkote tvarkyti skaidinius rankiniu būdu, ši funkcija yra tik "
+"PAŽENGUSIEMS NAUDOTOJAMS"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
@@ -350,6 +360,8 @@ msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
+"Jei nesate tikri ką visa tai reiškia, prašome grįžti ir nuimti žymėjimą nuo "
+"skaidinių tvarkymo rankiniu būdu."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
@@ -431,7 +443,7 @@ msgstr "Išeiti?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Are you sure you want to quit the installer?"
-msgstr ""
+msgstr "Ar tikrai norite baigti diegimo programos darbą?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:686
 msgid "Passwords do not match."
@@ -456,53 +468,55 @@ msgstr "Diegimo įrankis"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 msgid "Please choose a language"
-msgstr ""
+msgstr "Prašome pasirinkti kalbą"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr ""
+msgstr "Prašome pateikti savo vardą."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr ""
+msgstr "Prašome pateikti naudotojo vardą."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr ""
+msgstr "Prašome pateikti jūsų naudotojui skirtą slaptažodį."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
-msgstr ""
+msgstr "Jūsų slaptažodžiai nesutampa."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "Prašome pateikti kompiuterio vardą."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr ""
+msgstr "Jūsų naudotojo vardas privalo būti užrašytas mažosiomis raidėmis."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr ""
+msgstr "Jūsų naudotojo varde negali būti tarpų."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr ""
+msgstr "Kompiuterio vardas privalo būti užrašytas mažosiomis raidėmis."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr ""
+msgstr "Kompiuterio varde negali būti tarpų."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
 msgstr ""
+"Prieš tęsiant, prašome nurodyti failų sistemą, kuri bus formatuojama kaip "
+"šaknies (/) skaidinys."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr ""
+msgstr "Prašome pasirinkti šaknies (/) skaidinį."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -513,6 +527,12 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"Šaknies skaidinys reikalingas tam, kad galėtumėte įdiegti Linux Mint.\n"
+"\n"
+" - Prijungimo taškas: /\n"
+" - Rekomenduojamas dydis: 30GB\n"
+"- Rekomenduojamas failų sistemos formatas: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
@@ -526,11 +546,11 @@ msgstr "EFI skirsnis per mažas. Turi būti bent 100 MB."
 #: usr/lib/live-installer/frontend/gtk_interface.py:821
 #: usr/lib/live-installer/frontend/gtk_interface.py:825
 msgid "The EFI partition must be formatted as vfat."
-msgstr "EFI skirsnis turi būti sužymėtas kaip vfat."
+msgstr "EFI skirsnis turi būti suformatuotas kaip vfat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr ""
+msgstr "Prašome pasirinkti EFI skaidinį."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -586,7 +606,7 @@ msgstr "Naudotojo vardas: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "Automatic login: "
-msgstr ""
+msgstr "Automatinis prisijungimas: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:888
 msgid "enabled"
@@ -602,7 +622,7 @@ msgstr "Sistemos nustatymai"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:890
 msgid "Hostname: "
-msgstr "Kompiuterio vardas "
+msgstr "Kompiuterio vardas: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:891
 msgid "Filesystem operations"
@@ -611,7 +631,7 @@ msgstr "Failų sistemos veiksmai"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr ""
+msgstr "Įdiegti sistemos įkėliklį ties %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
@@ -640,19 +660,24 @@ msgstr "Įdiegimo klaida"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr ""
+msgstr "Įdiegimas pristabdytas"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
+"Diegimas šiuo metu yra pristabdytas. Prieš spaudžiant Pirmyn, kad "
+"užbaigtumėte diegimą, prašome įdėmiai perskaityti puslapyje esančius "
+"nurodymus."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
 msgstr ""
+"Įdiegimas yra užbaigtas. Ar norite iš naujo paleisti kompiuterį ir pradėti "
+"naudotis savo naująja sistema?"
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
@@ -660,15 +685,15 @@ msgstr "Taisyti"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "Priskirti prie /"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "Priskirti prie /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "Priskirti prie /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
@@ -705,10 +730,13 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"Nebuvo rasta skaidinių lentelė standžiajame diske: %s. Ar norite, kad "
+"diegimo programa sukurtų jums skaidinių rinkinį? Pastaba: Tai IŠTRINS VISUS "
+"DUOMENIS, kurie yra diske."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "Loginis skaidinys"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
@@ -728,7 +756,7 @@ msgstr "Įrenginys:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "Formatuoti kaip:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"

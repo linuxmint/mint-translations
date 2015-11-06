@@ -1,0 +1,182 @@
+# Urdu translation for linuxmint
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-09-19 10:09+0100\n"
+"PO-Revision-Date: 2015-10-22 02:36+0000\n"
+"Last-Translator: Waqar Ahmed <waqar.17a@gmail.com>\n"
+"Language-Team: Urdu <ur@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:09+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
+
+#: lib/mintstick.py:276 lib/mintstick.py:278
+msgid "The USB stick was formatted successfully."
+msgstr "یوایس بی ڈرائیو کامیابی کے ساتھ فارمیٹ کر دی گئی۔"
+
+#: lib/mintstick.py:281
+#, python-format
+msgid "An error occured while creating a partition on %s."
+msgstr "‏%s پہ پارٹیشن بناتے وقت مسئلہ درپیش۔"
+
+#: lib/mintstick.py:283 lib/mintstick.py:370
+msgid "Authentication Error."
+msgstr "توثیق میں مسئلہ"
+
+#: lib/mintstick.py:285 lib/mintstick.py:372
+msgid "An error occurred."
+msgstr "کوئی مسئلہ درپیش ہوا۔"
+
+#: lib/mintstick.py:302
+msgid "Image:"
+msgstr "ایمیج:"
+
+#: lib/mintstick.py:303
+msgid "USB stick:"
+msgstr "یو.ایس.بی سٹک:"
+
+#: lib/mintstick.py:328
+#, python-format
+msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
+msgstr "لکھ رہا ہے ‏%(VAR_FILE)s کو ‏%(VAR_DEV)s میں"
+
+#: lib/mintstick.py:329
+#, python-format
+msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
+msgstr "کاپی کرنا شروع ہو رہا ہے ‏‏%(VAR_SOURCE)s کا ‏‏%(VAR_TARGET)s میں"
+
+#: lib/mintstick.py:361 lib/mintstick.py:363
+msgid "The image was successfully written."
+msgstr "ایمیج کامیابی کا ساتھ لکھ دیا گیا۔"
+
+#: lib/mintstick.py:366
+msgid "Not enough space on the USB stick."
+msgstr "یو.ایس.بی سٹک پر جگہ ناکافی ہے۔"
+
+#: lib/mintstick.py:368
+msgid "An error occured while copying the image."
+msgstr "ایمیج کاپی کرتے وقت مسئلہ درپیش۔"
+
+#: generate_additional_files.py:49 generate_additional_files.py:61
+#: share/mintstick/mintstick.glade.h:28
+msgid "USB Image Writer"
+msgstr "یو.ایس.بی ایمیج رائٹر"
+
+#: generate_additional_files.py:49 generate_additional_files.py:61
+#: generate_additional_files.py:94
+msgid "Make a bootable USB stick"
+msgstr "ایک بوٹ ایبل یوا.یس.بی ڈرائیو بنائیے"
+
+#: generate_additional_files.py:73 generate_additional_files.py:85
+#: share/mintstick/mintstick.glade.h:4
+msgid "USB Stick Formatter"
+msgstr "یو.ایس.بی سٹک فارمیٹر"
+
+#: generate_additional_files.py:73 generate_additional_files.py:85
+#: generate_additional_files.py:104
+msgid "Format a USB stick"
+msgstr "کوئی یو.ایس.بی فارمیٹ کریں"
+
+#: generate_additional_files.py:94
+msgid "Make bootable USB stick"
+msgstr "بوٹ ایبل یوا.یس.بی ڈرائیو بنائیے"
+
+#: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
+msgid "Format"
+msgstr "فارمیٹ کریں"
+
+#: share/mintstick/mintstick.glade.h:1
+msgid " "
+msgstr " "
+
+#: share/mintstick/mintstick.glade.h:2
+msgid ""
+"This will destroy all data on the USB stick, are you sure you want to "
+"proceed?"
+msgstr ""
+"یہ یو.ایس.بی پہ موجود تمام ڈیٹا حذف کردے گا۔ کیا آپ واقعی یہ کرنا چاہتے ہیں؟"
+
+#: share/mintstick/mintstick.glade.h:3
+msgid ""
+"Something went wrong, please see the details window for the exact error."
+msgstr ""
+"کوئی خرابی آ گئی۔ براہ مہربانی تفصیلات کہ دریچہ میں دیکھیں کے اصل مسئلہ کیا "
+"ہے۔"
+
+#: share/mintstick/mintstick.glade.h:5
+msgid "Format:"
+msgstr "ساخت دیں:"
+
+#: share/mintstick/mintstick.glade.h:6
+msgid "Select a USB stick"
+msgstr "یو.ایس.بی سٹک منتخب کریں"
+
+#: share/mintstick/mintstick.glade.h:7
+msgid "as"
+msgstr "کو بطور"
+
+#: share/mintstick/mintstick.glade.h:8
+msgid ""
+"FAT32 \n"
+"   + Compatible everywhere.\n"
+"   -  Cannot handle files larger than 4GB.\n"
+"\n"
+"NTFS \n"
+"  + Compatible with Windows.\n"
+"   - Not compatible with Mac and most hardware devices.\n"
+"   - Occasional compatibility problems with Linux (NTFS is proprietary and "
+"reverse engineered).\n"
+"\n"
+"EXT4 \n"
+"\n"
+"  + Modern, stable, fast, journalized.\n"
+"  + Supports Linux file permissions.\n"
+"   - Not compatible with Windows, Mac and most hardware devices.\n"
+msgstr ""
+
+#: share/mintstick/mintstick.glade.h:23
+msgid "Volume label:"
+msgstr "ڈسک کا لیبل:"
+
+#: share/mintstick/mintstick.glade.h:24
+msgid "Choose a name for your USB Stick"
+msgstr "اپنی یو.ایس.بی سٹک کے لیے کوئی نام چنیں"
+
+#: share/mintstick/mintstick.glade.h:25
+msgid "USB Stick"
+msgstr "میموری سٹک(USB)"
+
+#: share/mintstick/mintstick.glade.h:26
+msgid "Details"
+msgstr "تفصیلات"
+
+#: share/mintstick/mintstick.glade.h:29
+msgid "Write image:"
+msgstr "لکھا جانے کے لیے ایمیج:"
+
+#: share/mintstick/mintstick.glade.h:30
+msgid "Select an image"
+msgstr "کوئی ایمیج منتخب کریں"
+
+#: share/mintstick/mintstick.glade.h:31
+msgid "Select Image"
+msgstr "ایمیج منتخب کریں"
+
+#: share/mintstick/mintstick.glade.h:32
+msgid "to"
+msgstr "تا"
+
+#: share/mintstick/mintstick.glade.h:33
+msgid "Write"
+msgstr "لکھیں"
+
+#: share/mintstick/mintstick.glade.h:34
+msgid "The image was written successfully."
+msgstr "ایمیج کامیابی کے ساتھ لکھ دیا گیا۔"

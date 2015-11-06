@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-07-05 16:11+0100\n"
-"PO-Revision-Date: 2014-08-12 09:40+0000\n"
-"Last-Translator: Lorenzo Baracchi <Unknown>\n"
+"PO-Revision-Date: 2015-09-23 08:55+0000\n"
+"Last-Translator: lang-it <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:18+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-11-06 14:06+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:62
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:740
@@ -39,12 +39,12 @@ msgstr "Mostra ed installa gli aggiornamenti disponibili"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:92
 msgid "Downloading changelog..."
-msgstr "Scaricamento changelog..."
+msgstr "Scaricamento Lista dei Cambiamenti in corso..."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:118
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:129
 msgid "No changelog available"
-msgstr "Changelog non disponibile"
+msgstr "Lista dei Cambiamenti non disponibile"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:129
 msgid ""
@@ -60,21 +60,21 @@ msgstr "L'aggiornamento causerà ulteriori modifiche"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:251
 msgid "The following package will be removed:"
-msgstr "Sarà rimosso il pacchetto:"
+msgstr "Il seguente pacchetto sarà rimosso:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:253
 #, python-format
 msgid "The following %d packages will be removed:"
-msgstr "Questi %d pacchetti saranno rimossi:"
+msgstr "I seguenti %d pacchetti saranno rimossi:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:281
 msgid "The following package will be installed:"
-msgstr "Sarà installato questo pacchetto:"
+msgstr "Il seguente pacchetto sarà installato:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:283
 #, python-format
 msgid "The following %d packages will be installed:"
-msgstr "Saranno installati questi %d pacchetti:"
+msgstr "I seguenti %d pacchetti saranno installati:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:324
 msgid "Installing updates"
@@ -96,7 +96,7 @@ msgstr "Inserisci la password per riavviare il gestore aggiornamenti"
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:438
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1495
 msgid "Checking for updates"
-msgstr "Controllo degli aggiornamenti"
+msgstr "Ricerca aggiornamenti"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:395
 msgid "Could not install the security updates"
@@ -113,7 +113,7 @@ msgstr "Un'altra applicazione sta utilizzando APT"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:471
 msgid "Finding the list of updates..."
-msgstr "Cerco la lista degli aggiornamenti..."
+msgstr "Ricerca della lista degli aggiornamenti..."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:501
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:502
@@ -141,31 +141,31 @@ msgstr "Disponibile 1 aggiornamento raccomandato (%(size)s)"
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:592
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
-msgstr "Ignorato 1 aggiornamento raccomandato e disponibile (%(size)s)"
+msgstr "1 aggiornamento raccomandato disponibile (%(size)s), 1 ignorato"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:594
 #, python-format
 msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
 msgstr ""
-"Disponibile 1 aggiornamento raccomandato (%(size)s); %(ignored)d ignorati"
+"1 aggiornamento raccomandato disponibile (%(size)s), %(ignored)d ignorati"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:597
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s)"
-msgstr "Disponibili %(recommended)d aggiornamenti consigliati (%(size)s)"
+msgstr "Disponibili %(recommended)d aggiornamenti raccomandati (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:599
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
 msgstr ""
-"Disponibili %(recommended)d aggiornamenti consigliati (%(size)s); 1 ignorato"
+"%(recommended)d aggiornamenti raccomandati disponibili (%(size)s), 1 ignorato"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:601
 #, python-format
 msgid ""
 "%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
 msgstr ""
-"Disponibili %(recommended)d aggiornamenti consigliati (%(size)s); "
+"%(recommended)d aggiornamenti raccomandati disponibili (%(size)s), "
 "%(ignored)d ignorati"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:671
@@ -330,7 +330,7 @@ msgstr "Nuova versione"
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1114
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1590
 msgid "Update Pack Info"
-msgstr "Informazioni sul Pacchetto Aggiornamenti"
+msgstr "Informazioni sulla Raccolta Aggiornamenti"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
 msgid "Your system configuration:"
@@ -338,11 +338,11 @@ msgstr "Configurazione del tuo sistema:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1118
 msgid "Current Update Pack available:"
-msgstr "Pacchetto Aggiornamenti attualmente disponibile:"
+msgstr "Raccolta Aggiornamenti attualmente disponibile:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1119
 msgid "Latest Update Pack used by this system:"
-msgstr "Ultimo Pacchetto Aggiornamenti utilizzato dal sistema:"
+msgstr "Ultima Raccolta Aggiornamenti utilizzata dal sistema:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1122
 msgid "Could not identify your APT sources"
