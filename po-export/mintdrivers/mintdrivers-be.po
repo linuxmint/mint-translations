@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-05-09 21:57+0100\n"
+"POT-Creation-Date: 2015-11-06 16:08+0000\n"
 "PO-Revision-Date: 2014-06-03 11:02+0000\n"
 "Last-Translator: segray <segray@tut.by>\n"
 "Language-Team: Belarusian <be@li.org>\n"
@@ -16,14 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2015-11-06 14:09+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
+"X-Generator: Launchpad (build 17845)\n"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:33 generate_desktop_files:26
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
+#: generate_desktop_files:42
 msgid "Driver Manager"
 msgstr "Кіраўнік драйвераў"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:43
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:38
+msgid "Re_vert"
+msgstr "В_ярнуць"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:40
+msgid "_Apply Changes"
+msgstr "У_жыць змены"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:42
+msgid "_Cancel"
+msgstr "_Скасаваць"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:44
+msgid "_Restart..."
+msgstr "_Перазапуск..."
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -33,70 +50,57 @@ msgstr ""
 "Калі ласка, падлучыцеся да інтэрнэту або ўстаўце установачны Linux Mint DVD "
 "(або USB насiцель)."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:126
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:188
 msgid "Applying changes..."
 msgstr "Ужыванне зменаў..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:218
-msgid "Re_vert"
-msgstr "В_ярнуць"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:220
-msgid "_Apply Changes"
-msgstr "У_жыць змены"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:222
-msgid "_Cancel"
-msgstr "_Скасаваць"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:224
-msgid "_Restart..."
-msgstr "_Перазапуск..."
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:307
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
 msgid "This device is using the recommended driver."
 msgstr "Гэтая прылада выкарыстоўвае рэкамендаваны драйвер."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:308
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
 msgid "This device is using an alternative driver."
 msgstr "Гэтая прылада выкарыстоўвае альтэрнатыўны драйвер."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:309
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using a manually-installed driver."
 msgstr "Гэтая прылада выкарыстоўвае ўласнаручна ўсталяваны драйвер."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:310
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is not working."
 msgstr "Прылада не працуе."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:319
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
 msgid "Continue using a manually installed driver"
 msgstr "Працягваць карыстанне ўласнаручна ўсталяваным драйверам"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
-msgid "recommended"
-msgstr "рэкамендуецца"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:348
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
 msgid "Version"
 msgstr "Версія"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:370
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+msgid "recommended"
+msgstr "рэкамендуецца"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+msgid "open-source"
+msgstr ""
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
 msgid "Do not use the device"
 msgstr "Не выкарыстоўваць гэтую прыладу"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:388
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:389
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
 msgid "Unknown"
 msgstr "Невядомы"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:472
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "Трэба перазапусціць кампутар, каб ужыць змены ў драйверах."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:486
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -104,7 +108,7 @@ msgstr[0] "%(count)d прыпрыетарны драйвер выкарысто�
 msgstr[1] "%(count)d прыпрыетарныя драйверы выкарыстоўваюцца."
 msgstr[2] "%(count)d прыпрыетарных драйвераў выкарыстоўваецца."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:491
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
 msgid "No proprietary drivers are in use."
 msgstr "Прыпрыетарныя драйверы не выкарыстоўваюцца."
 
@@ -112,6 +116,6 @@ msgstr "Прыпрыетарныя драйверы не выкарыстоўв�
 msgid "Please enter your password to launch the driver manager"
 msgstr "Увядзіце пароль, каб запусціць кіраўнік драйвераў"
 
-#: generate_desktop_files:26
+#: generate_desktop_files:26 generate_desktop_files:42
 msgid "Manage the drivers for your devices"
 msgstr "Кіраванне драйверамі вашых прыладаў"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-07-05 16:11+0100\n"
-"PO-Revision-Date: 2015-10-24 20:42+0000\n"
+"PO-Revision-Date: 2015-11-08 20:09+0000\n"
 "Last-Translator: CD <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-06 14:06+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-11-13 22:11+0000\n"
+"X-Generator: Launchpad (build 17845)\n"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:62
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:740
@@ -82,7 +82,7 @@ msgstr "Se instalează actualizările"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:334
 msgid "Please wait, this can take some time"
-msgstr "Așteptați, operațiunea poate dura mai mult"
+msgstr "Așteptați, operațiunea poate să dureze."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:336
 msgid "Update is complete"
@@ -98,7 +98,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:438
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1495
 msgid "Checking for updates"
-msgstr "Se verifică actualizările"
+msgstr "Se caută actualizări"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:395
 msgid "Could not install the security updates"
@@ -138,12 +138,12 @@ msgstr "O versiune nouă a administratorului de actualizări este disponibilă"
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:590
 #, python-format
 msgid "1 recommended update available (%(size)s)"
-msgstr "O actualizare recomandată este disponibilă (%(size)s)"
+msgstr "O actualizare recomandată disponibilă (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:592
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
-msgstr "O actualizare recomandată este disponibilă (%(size)s), una ignorată"
+msgstr "O actualizare recomandată disponibilă (%(size)s), una ignorată"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:594
 #, python-format
@@ -154,22 +154,21 @@ msgstr ""
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:597
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s)"
-msgstr "%(recommended)d actualizări recomandate sunt disponibile (%(size)s)"
+msgstr "%(recommended)d actualizări recomandate disponibile (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:599
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
 msgstr ""
-"%(recommended)d actualizări recomandate sunt disponibile (%(size)s), una "
-"ignorată"
+"%(recommended)d actualizări recomandate disponibile (%(size)s), una ignorată"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:601
 #, python-format
 msgid ""
 "%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
 msgstr ""
-"%(recommended)d actualizări recomandate sunt disponibile (%(size)s), "
-"%(ignored)d ignorate"
+"%(recommended)d actualizări recomandate disponibile (%(size)s), %(ignored)d "
+"ignorate"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:671
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:690
@@ -332,11 +331,11 @@ msgstr "Versiune nouă"
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1114
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1590
 msgid "Update Pack Info"
-msgstr "Ănformații pachet de actualizare"
+msgstr "Informații pachet de actualizare"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
 msgid "Your system configuration:"
-msgstr "Configurația sistemului tău:"
+msgstr "Configurația sistemului dumneavoastră:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1118
 msgid "Current Update Pack available:"
@@ -384,7 +383,7 @@ msgid ""
 "Add 'deb http://packages.linuxmint.com/ debian main upstream import' to your "
 "APT sources"
 msgstr ""
-"Adăugați 'deb http://packages.linuxmint.com/ debian main upstream import' la "
+"Adăugați „deb http://packages.linuxmint.com/ debian main upstream import” la "
 "sursele APT"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1172
@@ -397,8 +396,8 @@ msgid ""
 "Add 'deb http://debian.linuxmint.com/latest testing main contrib non-free' "
 "to your APT sources"
 msgstr ""
-"Adăugați 'deb http://debian.linuxmint.com/latest testing main contrib non-"
-"free' la sursele APT"
+"Adăugați „deb http://debian.linuxmint.com/latest testing main contrib non-"
+"free” la sursele APT"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1176
 msgid "Your system is pointing directly to Debian"
@@ -406,24 +405,24 @@ msgstr "Sistemul dumneavoastră își face actualizările direct de la Debian"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1176
 msgid "This is only recommended for experienced users"
-msgstr "Aceasta este recomandat numai utilizatorilor experimentați"
+msgstr "Aceasta se recomandă doar utilizatorilor experimentați"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1179
 msgid ""
 "Your system is pointing to the 'Linux Mint Debian Incoming' repository"
 msgstr ""
-"Sistemul dumneavoastră își ia actualizările din depozitul 'Linux Mint Debian "
-"Incoming'"
+"Sistemul dumneavoastră își ia actualizările din depozitul „Linux Mint Debian "
+"Incoming”"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1179
 msgid "This is only recommend for experienced users"
-msgstr "Aceasta este recomandat numai utilizatorilor experimentați"
+msgstr "Aceasta se recomandă doar utilizatorilor experimentați"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1182
 msgid "Your system is pointing to the 'Linux Mint Debian Latest' repository"
 msgstr ""
-"Sistemul dumneavoastră se actualizează din depozitul 'Linux Mint Debian "
-"Latest'"
+"Sistemul dumneavoastră se actualizează din depozitul „Linux Mint Debian "
+"Latest”"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1224
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1227

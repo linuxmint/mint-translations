@@ -8,27 +8,27 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-09-19 10:09+0100\n"
-"PO-Revision-Date: 2014-02-18 16:22+0000\n"
-"Last-Translator: Jānis Marks Gailis <jm-gailis@fai-vianet.fr>\n"
+"PO-Revision-Date: 2015-11-10 19:28+0000\n"
+"Last-Translator: tuxmaniack <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-06 14:09+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
+"X-Generator: Launchpad (build 17845)\n"
 
 #: lib/mintstick.py:276 lib/mintstick.py:278
 msgid "The USB stick was formatted successfully."
-msgstr ""
+msgstr "USB zibatmiņa tika veiksmīgi noformatēta."
 
 #: lib/mintstick.py:281
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr ""
+msgstr "Gadījās kļūda, veidojot nodalījumu uz %s."
 
 #: lib/mintstick.py:283 lib/mintstick.py:370
 msgid "Authentication Error."
-msgstr ""
+msgstr "Autentifikācijas kļūda:"
 
 #: lib/mintstick.py:285 lib/mintstick.py:372
 msgid "An error occurred."
@@ -36,88 +36,91 @@ msgstr "Gadījās kļūda."
 
 #: lib/mintstick.py:302
 msgid "Image:"
-msgstr "Attēls:"
+msgstr "Diska attēls:"
 
 #: lib/mintstick.py:303
 msgid "USB stick:"
-msgstr ""
+msgstr "USB zibatmiņa:"
 
 #: lib/mintstick.py:328
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
-msgstr ""
+msgstr "Raksta %(VAR_FILE)s uz %(VAR_DEV)s"
 
 #: lib/mintstick.py:329
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
-msgstr ""
+msgstr "Sāk kopēšanu no %(VAR_SOURCE)s uz %(VAR_TARGET)s"
 
 #: lib/mintstick.py:361 lib/mintstick.py:363
 msgid "The image was successfully written."
-msgstr ""
+msgstr "Attēls tika veiksmīgi ierakstīts."
 
 #: lib/mintstick.py:366
 msgid "Not enough space on the USB stick."
-msgstr ""
+msgstr "USB zibatmiņā nav pietiekami daudz brīvas vietas."
 
 #: lib/mintstick.py:368
 msgid "An error occured while copying the image."
-msgstr ""
+msgstr "Gadījās kļūda, kopējot attēlu."
 
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: share/mintstick/mintstick.glade.h:28
 msgid "USB Image Writer"
-msgstr ""
+msgstr "USB zibatmiņas rakstītājs"
 
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: generate_additional_files.py:94
 msgid "Make a bootable USB stick"
-msgstr ""
+msgstr "Izveidot palaižamu USB zibatmiņu"
 
 #: generate_additional_files.py:73 generate_additional_files.py:85
 #: share/mintstick/mintstick.glade.h:4
 msgid "USB Stick Formatter"
-msgstr ""
+msgstr "USB zibatmiņas formatētājs"
 
 #: generate_additional_files.py:73 generate_additional_files.py:85
 #: generate_additional_files.py:104
 msgid "Format a USB stick"
-msgstr ""
+msgstr "Formatēt USB zibatmiņu"
 
 #: generate_additional_files.py:94
 msgid "Make bootable USB stick"
-msgstr ""
+msgstr "Izveidot palaižamu zibatmiņu"
 
 #: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
 msgid "Format"
-msgstr ""
+msgstr "Formatēt"
 
 #: share/mintstick/mintstick.glade.h:1
 msgid " "
-msgstr ""
+msgstr " "
 
 #: share/mintstick/mintstick.glade.h:2
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
 msgstr ""
+"Šī darbība iznīcinās visus datus uz USB zibatmiņas, vai vēlaties turpināt?"
 
 #: share/mintstick/mintstick.glade.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
 msgstr ""
+"Kaut kas nogāja greizi, precīzai diagnostikai skatiet papildu informācijas "
+"logu."
 
 #: share/mintstick/mintstick.glade.h:5
 msgid "Format:"
-msgstr ""
+msgstr "Formatēt:"
 
 #: share/mintstick/mintstick.glade.h:6
 msgid "Select a USB stick"
-msgstr ""
+msgstr "Izvēlieties USB zibatmiņu"
 
 #: share/mintstick/mintstick.glade.h:7
 msgid "as"
-msgstr ""
+msgstr "kā"
 
 #: share/mintstick/mintstick.glade.h:8
 msgid ""
@@ -137,14 +140,28 @@ msgid ""
 "  + Supports Linux file permissions.\n"
 "   - Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
+"FAT32 \n"
+"   + Saderīgs ar visu.\n"
+"   -  Neatbalsta failus lielākus par 4GB.\n"
+"\n"
+"NTFS \n"
+"  + Saderīgs ar Windows.\n"
+"   - Nav saderīgs ar Mac un vairumu no aparatūras ierīcēm.\n"
+"   - Dažreiz ir saderības problēmas ar Linux (NTFS ir patentēta "
+"īpašniekprogrammatūra).\n"
+"\n"
+"EXT4 \n"
+"  + Moderns, stabils, ātrs, žurnalējošs.\n"
+"  + Atbalsta Linux failu piekļuves atļaujas.\n"
+"   - Nav saderīgs ar Windows, Mac un vairumu no aparatūras ierīcēm.\n"
 
 #: share/mintstick/mintstick.glade.h:23
 msgid "Volume label:"
-msgstr ""
+msgstr "Sējuma etiķete:"
 
 #: share/mintstick/mintstick.glade.h:24
 msgid "Choose a name for your USB Stick"
-msgstr ""
+msgstr "Izvēlieties USB zibatmiņas nosaukumu"
 
 #: share/mintstick/mintstick.glade.h:25
 msgid "USB Stick"
@@ -152,28 +169,28 @@ msgstr ""
 
 #: share/mintstick/mintstick.glade.h:26
 msgid "Details"
-msgstr ""
+msgstr "Papildu informācija"
 
 #: share/mintstick/mintstick.glade.h:29
 msgid "Write image:"
-msgstr ""
+msgstr "Diska attēls:"
 
 #: share/mintstick/mintstick.glade.h:30
 msgid "Select an image"
-msgstr ""
+msgstr "Izvēlieties attēlu"
 
 #: share/mintstick/mintstick.glade.h:31
 msgid "Select Image"
-msgstr ""
+msgstr "Izvēlieties attēlu"
 
 #: share/mintstick/mintstick.glade.h:32
 msgid "to"
-msgstr ""
+msgstr "uz"
 
 #: share/mintstick/mintstick.glade.h:33
 msgid "Write"
-msgstr ""
+msgstr "Ierakstīt"
 
 #: share/mintstick/mintstick.glade.h:34
 msgid "The image was written successfully."
-msgstr ""
+msgstr "Attēls tika veiksmīgi ierakstīts."

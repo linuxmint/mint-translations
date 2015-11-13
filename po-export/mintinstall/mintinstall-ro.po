@@ -8,24 +8,24 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-11-03 17:21+0100\n"
-"PO-Revision-Date: 2015-10-29 18:56+0000\n"
+"PO-Revision-Date: 2015-11-08 14:07+0000\n"
 "Last-Translator: CD <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-06 14:05+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-11-13 22:10+0000\n"
+"X-Generator: Launchpad (build 17845)\n"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:196
 #, python-format
 msgid "The package '%s' could not be installed"
-msgstr "Pachetul '%s' nu poate fi instalat"
+msgstr "Pachetul „%s” nu poate fi instalat"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:198
 #, python-format
 msgid "The package '%s' could not be removed"
-msgstr "Pachetul '%s' nu poate fi eliminat"
+msgstr "Pachetul „%s” nu poate fi eliminat"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:204
 msgid "Please check your connection to the Internet"
@@ -38,7 +38,7 @@ msgstr "O altă aplicație folosește momentan APT:"
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:301
 #, python-format
 msgid "%d ongoing actions"
-msgstr "%d acțiuni în derulare"
+msgstr "%d acțiuni în desfășurare"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:311
 #, python-format
@@ -113,11 +113,11 @@ msgstr "Caută în sumarul pachetelor (căutare mai lentă)"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:492
 msgid "Search in packages description (even slower search)"
-msgstr "Caută în descrierea pachetelor (cautare şi mai lentă)"
+msgstr "Caută în descrierea pachetelor (căutare şi mai lentă)"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:496
 msgid "Open links using the web browser"
-msgstr "Deschide legăturile în navigatorul web"
+msgstr "Deschide legăturile folosind browserul"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:500
 msgid "Search while typing"
@@ -392,7 +392,7 @@ msgstr "%d pachete"
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1661
 #, python-format
 msgid "Only results in category \"%s\" are shown."
-msgstr "Sunt arătate doar rezultate din categoria \"%s\"."
+msgstr "Sunt arătate doar rezultate din categoria „%s”."
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1672
 msgid "Search results"
@@ -420,7 +420,7 @@ msgstr "Minunat!"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1728
 msgid "Score:"
-msgstr "Scor:"
+msgstr "Punctaj:"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1729
 msgid "Submit"
@@ -440,7 +440,7 @@ msgstr "Versiune:"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1781
 msgid "Your review:"
-msgstr "Recenzia dumneavoastră"
+msgstr "Recenzia dumneavoastră:"
 
 #: usr/lib/linuxmint/mintInstall/mintinstall.py:1782
 msgid "Details"
@@ -530,12 +530,12 @@ msgstr "Se adună informații pentru %d pachete..."
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:68
 msgid "Backing up your APT sources"
-msgstr "Se creează copia de siguranţă a surselor APT"
+msgstr "Se creează copia de rezervă a surselor APT"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:92
 #: usr/lib/linuxmint/mintInstall/remove.py:48 usr/bin/mint-synaptic-install:14
 msgid "Please wait, this can take some time"
-msgstr "Așteptați, operațiunea poate dura mai mult"
+msgstr "Așteptați, operațiunea poate să dureze."
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:94
 #: usr/bin/mint-synaptic-install:16
@@ -544,7 +544,7 @@ msgstr "Instalarea este completă"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:121
 msgid "Restoring your APT sources"
-msgstr "Se restaurează sursele APT"
+msgstr "Se restabilesc sursele APT"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:204
 msgid "Using the following repositories:"
@@ -553,7 +553,7 @@ msgstr "Se folosesc următoarele depozite:"
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:209
 #, python-format
 msgid "Install %s?"
-msgstr "Instalez %s?"
+msgstr "Să fie instalat %s?"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:212
 msgid "The following packages will be installed:"
@@ -566,7 +566,7 @@ msgstr "Depozite implicite"
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:296
 #, python-format
 msgid "Upgrade %s?"
-msgstr "Actualizez %s?"
+msgstr "Să fie actualizat %s?"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:298
 msgid "The following packages will be upgraded:"
@@ -602,7 +602,7 @@ msgstr "Caută"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:443
 msgid "Show"
-msgstr "Afișează"
+msgstr "Arată"
 
 #: usr/lib/linuxmint/mintInstall/mintInstall.py:444
 msgid "Go to the Ubuntu repository"
@@ -626,12 +626,12 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintInstall/remove.py:50
 msgid "Application removed successfully"
-msgstr "Aplicaţie dezinstalată cu succes"
+msgstr "Aplicaţie eliminată cu succes"
 
 #: usr/lib/linuxmint/mintInstall/remove.py:104
 #, python-format
 msgid "Remove %s?"
-msgstr "Dezinstalez %s?"
+msgstr "Să fie eliminat %s?"
 
 #: usr/lib/linuxmint/mintInstall/remove.py:107
 msgid "The following packages will be removed:"
@@ -639,7 +639,7 @@ msgstr "Următoarele pachete vor fi eliminate:"
 
 #: usr/bin/mint-search-apt:34
 msgid "No results"
-msgstr "Fără rezultate"
+msgstr "Niciun rezultat"
 
 #: usr/bin/mint-search-apt:41
 msgid "Package"

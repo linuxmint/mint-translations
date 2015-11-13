@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-05-09 21:57+0100\n"
+"POT-Creation-Date: 2015-11-06 16:08+0000\n"
 "PO-Revision-Date: 2014-07-04 20:13+0000\n"
 "Last-Translator: Nazir Ahmed Sabbir <na_sabbir@yahoo.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
@@ -15,14 +15,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-11-06 14:09+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
+"X-Generator: Launchpad (build 17845)\n"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:33 generate_desktop_files:26
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
+#: generate_desktop_files:42
 msgid "Driver Manager"
 msgstr "ড্রাইভার ব্যবস্থাপক"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:43
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:38
+msgid "Re_vert"
+msgstr "প্রত্যাবর্তন (_v)"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:40
+msgid "_Apply Changes"
+msgstr "পরিবর্তন সমূহ প্রয়োগ হচ্ছে(_A)"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:42
+msgid "_Cancel"
+msgstr "বাতিল করুন (_C)"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:44
+msgid "_Restart..."
+msgstr "রিস্টার্ট(_R)"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -32,79 +49,66 @@ msgstr ""
 "দয়াকরে ইন্টারনেটে সংযুক্ত করুন অথবা লিনাক্স মিন্ট ইনস্টলেশন DVD (অথবা USB "
 "স্টিক) প্রবেশ করান"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:126
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:188
 msgid "Applying changes..."
 msgstr "পরিবর্তন সমূহ প্রয়োগ হচ্ছে..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:218
-msgid "Re_vert"
-msgstr "প্রত্যাবর্তন (_v)"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:220
-msgid "_Apply Changes"
-msgstr "পরিবর্তন সমূহ প্রয়োগ হচ্ছে(_A)"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:222
-msgid "_Cancel"
-msgstr "বাতিল করুন (_C)"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:224
-msgid "_Restart..."
-msgstr "রিস্টার্ট(_R)"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:307
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
 msgid "This device is using the recommended driver."
 msgstr "ডিভাইসটি নির্দেশিত ড্রাইভার ব্যবহার করছে।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:308
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
 msgid "This device is using an alternative driver."
 msgstr "ডিভাইসটি একটি বিকল্প ড্রাইভার ব্যবহার করছে।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:309
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using a manually-installed driver."
 msgstr "ডিভাইসটি একটি ম্যানুয়ালি-ইন্সটল করা ড্রাইভার ব্যবহার করছে।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:310
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is not working."
 msgstr "ডিভাইসটি কাজ করছে না।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:319
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
 msgid "Continue using a manually installed driver"
 msgstr "ম্যানুয়ালি-ইন্সটল করা ড্রাইভার ব্যবহার চালিয়ে যান"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
-msgid "recommended"
-msgstr "সুপারিশকৃত"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:348
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
 msgid "Version"
 msgstr "সংস্করন"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:370
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+msgid "recommended"
+msgstr "সুপারিশকৃত"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+msgid "open-source"
+msgstr ""
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
 msgid "Do not use the device"
 msgstr "ডিভাইসটি ব্যবহার করবেন না"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:388
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:389
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
 msgid "Unknown"
 msgstr "অজ্ঞাত"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:472
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
 msgid "You need to restart the computer to complete the driver changes."
 msgstr ""
 "ড্রাইভারের পরিবর্তন সমূহ সম্পূর্ণ করার জন্যও আপনার কম্পিউটারটি রিস্টার্ট করা "
 "প্রয়োজন।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:486
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
 msgstr[0] "%(count)d প্রপার্টি ড্রাইভারটি ব্যবহার হচ্ছে"
 msgstr[1] "%(count)d প্রপার্টি ড্রাইভার সমূহ ব্যবহার হচ্ছে"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:491
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
 msgid "No proprietary drivers are in use."
 msgstr "কোন প্রপার্টি ড্রাইভার ব্যবহার করা হয় নি।"
 
@@ -113,6 +117,6 @@ msgid "Please enter your password to launch the driver manager"
 msgstr ""
 "ড্রাইভার ব্যবস্থাপক চালু করার জন্য অনুগ্রহ করে আপনার পাসওয়ার্ডটি প্রবেশ করান"
 
-#: generate_desktop_files:26
+#: generate_desktop_files:26 generate_desktop_files:42
 msgid "Manage the drivers for your devices"
 msgstr "আপনার ডিভাইসের জন্য ড্রাইভার ব্যবস্থাপনা করুন"

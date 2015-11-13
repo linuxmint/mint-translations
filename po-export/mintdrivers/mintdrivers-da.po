@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-05-09 21:57+0100\n"
+"POT-Creation-Date: 2015-11-06 16:08+0000\n"
 "PO-Revision-Date: 2014-05-11 09:07+0000\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
@@ -15,14 +15,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-11-06 14:09+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
+"X-Generator: Launchpad (build 17845)\n"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:33 generate_desktop_files:26
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
+#: generate_desktop_files:42
 msgid "Driver Manager"
 msgstr "Driverhåndtering"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:43
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:38
+msgid "Re_vert"
+msgstr "_Fortryd"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:40
+msgid "_Apply Changes"
+msgstr "An_vend ændringer"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:42
+msgid "_Cancel"
+msgstr "_Annullér"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:44
+msgid "_Restart..."
+msgstr "_Genstart..."
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -32,77 +49,64 @@ msgstr ""
 "Opret forbindelse til internettet eller indsæt DVD'en (eller USB-nøglen) til "
 "installation af Linux Mint."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:126
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:188
 msgid "Applying changes..."
 msgstr "Udfører ændringer..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:218
-msgid "Re_vert"
-msgstr "_Fortryd"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:220
-msgid "_Apply Changes"
-msgstr "An_vend ændringer"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:222
-msgid "_Cancel"
-msgstr "_Annullér"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:224
-msgid "_Restart..."
-msgstr "_Genstart..."
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:307
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
 msgid "This device is using the recommended driver."
 msgstr "Denne enhed bruger den anbefalede driver."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:308
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
 msgid "This device is using an alternative driver."
 msgstr "Denne enhed bruger en alternativ driver."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:309
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using a manually-installed driver."
 msgstr "Denne enhed bruger en manuelt installeret driver."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:310
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is not working."
 msgstr "Denne enhed virker ikke."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:319
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
 msgid "Continue using a manually installed driver"
 msgstr "Fortsæt med at bruge en manuelt installeret driver."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
-msgid "recommended"
-msgstr "anbefalet"
-
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:348
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
 msgid "Version"
 msgstr "Version"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:370
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+msgid "recommended"
+msgstr "anbefalet"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+msgid "open-source"
+msgstr ""
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
 msgid "Do not use the device"
 msgstr "Anvend ikke enheden"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:388
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:389
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
 msgid "Unknown"
 msgstr "Ukendt"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:472
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "Du skal genstarte computeren for at fuldføre driver-ændringerne."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:486
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
 msgstr[0] "%(count)d proprietær driver i brug."
 msgstr[1] "%(count)d proprietære drivere i brug."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:491
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
 msgid "No proprietary drivers are in use."
 msgstr "Ingen proprietære drivere er i brug."
 
@@ -110,6 +114,6 @@ msgstr "Ingen proprietære drivere er i brug."
 msgid "Please enter your password to launch the driver manager"
 msgstr "Indtast venligst din adgangskode for at starte driverhåndteringen"
 
-#: generate_desktop_files:26
+#: generate_desktop_files:26 generate_desktop_files:42
 msgid "Manage the drivers for your devices"
 msgstr "Håndtér driverne til dine enheder"
