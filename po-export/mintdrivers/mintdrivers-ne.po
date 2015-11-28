@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 16:08+0000\n"
+"POT-Creation-Date: 2015-11-26 15:10+0000\n"
 "PO-Revision-Date: 2013-06-15 16:08+0000\n"
 "Last-Translator: Niroj Manandhar <mailnirose@yahoo.com>\n"
 "Language-Team: Nepali <ne@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:18+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
 #: generate_desktop_files:42
@@ -39,7 +39,7 @@ msgstr "_रद्द गर्नुहोस्"
 msgid "_Restart..."
 msgstr "_पुन: सुचारु..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -50,60 +50,65 @@ msgstr ""
 msgid "Applying changes..."
 msgstr "परिवर्तन गरिदै..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using the recommended driver."
 msgstr "यो डिभाइस सिफारिस गरिएको ड्राइभर प्रयोग गर्दै छ।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is using an alternative driver."
 msgstr "यो डिभाइस वैकल्पिक ड्राइभर प्रयोग गर्दै छ।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
 msgid "This device is using a manually-installed driver."
 msgstr "यो डिभाइस आफैले इन्सटल गरेको ड्राइभर प्रयोग गर्दै छ।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
 msgid "This device is not working."
 msgstr "यो डिभाइस काम गर्दै छैन।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
 msgid "Continue using a manually installed driver"
 msgstr "तपाईले इन्सटल गरेको ड्राइभर प्रयोग गरिरहन चाहनुहुन्छ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
 msgid "Version"
 msgstr "संस्करण"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
 msgid "recommended"
 msgstr "सिफारिश"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
 msgid "open-source"
 msgstr ""
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+msgid "requires a connection to the Internet"
+msgstr ""
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
 msgid "Do not use the device"
 msgstr "यो डिभाइस प्रयोग नगर्नुहोस्"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "ड्राइभर पुर्ण रुपमा इन्सटल गर्न कम्प्युटर पुन: सुचारु गर्न आवश्यक छ।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
 msgstr[0] "%(count)d प्रोप्राइटरी ड्राइभर प्रयोगमा।"
 msgstr[1] "%(count)d प्रोप्राइटरी ड्राइभरहरु प्रयोगमा।"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
 msgid "No proprietary drivers are in use."
 msgstr "प्रोप्राइटरी ड्राइभर प्रयोगमा छैन।"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 16:08+0000\n"
+"POT-Creation-Date: 2015-11-26 15:10+0000\n"
 "PO-Revision-Date: 2015-10-22 02:37+0000\n"
 "Last-Translator: Waqar Ahmed <waqar.17a@gmail.com>\n"
 "Language-Team: Urdu <ur@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:18+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
 #: generate_desktop_files:42
@@ -39,7 +39,7 @@ msgstr "_منسوخ کریں"
 msgid "_Restart..."
 msgstr "_ریسٹارٹ کریں۔۔۔"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -50,60 +50,65 @@ msgstr "ڈرائیور انسٹال نہیں کیے جا سکتے۔"
 msgid "Applying changes..."
 msgstr "تبدیلیا ں لاگو کی جا رہی ہیں۔۔۔"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using the recommended driver."
 msgstr "یہ آلہ تجویز کردہ ڈرائیور کا استعمال کر رہا ہے۔"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is using an alternative driver."
 msgstr "یہ آلہ کوئی متبادل ڈرائیور استعمال کر رہا ہے۔"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
 msgid "This device is using a manually-installed driver."
 msgstr "یہ آلہ کسی دستی-نصب کردہ ڈرائیور کا استعمال کر رہا ہے۔"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
 msgid "This device is not working."
 msgstr "آلہ کام نہیں کررہا۔"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
 msgid "Continue using a manually installed driver"
 msgstr "دستی-نصب کردہ ڈرائیو کا استعمال جاری رکھیں"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
 msgid "Version"
 msgstr "ورژن"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
 msgid "recommended"
 msgstr "تجویز کردہ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
 msgid "open-source"
 msgstr ""
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+msgid "requires a connection to the Internet"
+msgstr ""
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
 msgid "Do not use the device"
 msgstr "آلہ استعمال نہ کریں"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
 msgid "Unknown"
 msgstr "نامعلوم"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "ڈرائیور میں تبدیلیاں لانے کے لیے کمپیوٹر ریسٹارٹ کرنا ضروری ہے۔"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
 msgstr[0] "‏%(count)d پروپرائیٹری ڈرائیور زیر استعمال"
 msgstr[1] "‏%(count)d پروپرائیٹری ڈرائیور زیر استعمال"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
 msgid "No proprietary drivers are in use."
 msgstr "کوئی پروپرائیٹری ڈرائیور استعمال میں نہیں۔"
 

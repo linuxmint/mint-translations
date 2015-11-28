@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 16:08+0000\n"
+"POT-Creation-Date: 2015-11-26 15:10+0000\n"
 "PO-Revision-Date: 2014-05-16 20:44+0000\n"
 "Last-Translator: Damir Jerovšek <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:18+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
 #: generate_desktop_files:42
@@ -40,7 +40,7 @@ msgstr "P_rekliči"
 msgid "_Restart..."
 msgstr "_Ponovno zaženi ..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -54,53 +54,58 @@ msgstr ""
 msgid "Applying changes..."
 msgstr "Uveljavljanje sprememb ..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using the recommended driver."
 msgstr "Ta naprava uporablja priporočen gonilnik."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is using an alternative driver."
 msgstr "Ta naprava uporablja nadomestni gonilnik."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
 msgid "This device is using a manually-installed driver."
 msgstr "Ta naprava uporablja ročno nameščen gonilnik."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
 msgid "This device is not working."
 msgstr "Ta naprava ne deluje."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
 msgid "Continue using a manually installed driver"
 msgstr "Nadaljuj z uporabo ročno nameščenega gonilnika."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
 msgid "Version"
 msgstr "Različica"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
 msgid "recommended"
 msgstr "priporočeno"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
 msgid "open-source"
 msgstr ""
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+msgid "requires a connection to the Internet"
+msgstr ""
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
 msgid "Do not use the device"
 msgstr "Ne uporabi te naprave"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
 msgid "Unknown"
 msgstr "Neznano"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "Za uveljavitev sprememb gonilnika morate računalnik ponovno zagnati."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -109,7 +114,7 @@ msgstr[1] "V uporabi je %(count)d lastniški gonilnik."
 msgstr[2] "V uporabi sta %(count)d lastniška gonilnika."
 msgstr[3] "V uporabi so %(count)d lastniški gonilniki."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
 msgid "No proprietary drivers are in use."
 msgstr "Lastniški gonilniki niso v uporabi."
 

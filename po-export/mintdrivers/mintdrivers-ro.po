@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 16:08+0000\n"
-"PO-Revision-Date: 2015-11-08 13:44+0000\n"
+"POT-Creation-Date: 2015-11-26 15:10+0000\n"
+"PO-Revision-Date: 2015-11-26 18:47+0000\n"
 "Last-Translator: CD <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:18+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
 #: generate_desktop_files:42
@@ -40,7 +40,7 @@ msgstr "_Renunță"
 msgid "_Restart..."
 msgstr "_Repornește..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -54,54 +54,59 @@ msgstr ""
 msgid "Applying changes..."
 msgstr "Se aplică modificările..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using the recommended driver."
 msgstr "Acest dispozitiv folosește driverul recomandat."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is using an alternative driver."
 msgstr "Acest dispozitiv folosește un driver alternativ."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
 msgid "This device is using a manually-installed driver."
 msgstr "Acest dispozitiv folosește un driver instalat manual."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
 msgid "This device is not working."
 msgstr "Acest dispozitiv nu funcționează."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
 msgid "Continue using a manually installed driver"
 msgstr "Continuă utilizând un driver instalat manual"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
 msgid "Version"
 msgstr "Versiune"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
 msgid "recommended"
 msgstr "recomandat"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
 msgid "open-source"
 msgstr "open-source"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+msgid "requires a connection to the Internet"
+msgstr "necesită o conexiune la Internet"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
 msgid "Do not use the device"
 msgstr "Nu utiliza dispozitivul"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
 msgid "Unknown"
 msgstr "Necunoscut"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
 msgid "You need to restart the computer to complete the driver changes."
 msgstr ""
 "Trebuie sa reporniți calculatorul pentru a finaliza modificările driverului."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -109,7 +114,7 @@ msgstr[0] "%(count)d driver proprietar în uz."
 msgstr[1] "%(count)d drivere proprietare în uz."
 msgstr[2] "%(count)d de drivere proprietare în uz."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
 msgid "No proprietary drivers are in use."
 msgstr "Nu este utilizat niciun driver proprietar."
 

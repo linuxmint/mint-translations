@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 16:08+0000\n"
-"PO-Revision-Date: 2015-11-07 17:10+0000\n"
+"POT-Creation-Date: 2015-11-26 15:10+0000\n"
+"PO-Revision-Date: 2015-11-27 00:14+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:15+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:18+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
 #: generate_desktop_files:42
@@ -40,7 +40,7 @@ msgstr "_Atsisakyti"
 msgid "_Restart..."
 msgstr "_Paleisti iš naujo..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:70
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -54,53 +54,58 @@ msgstr ""
 msgid "Applying changes..."
 msgstr "Pritaikomi pakeitimai..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:332
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
 msgid "This device is using the recommended driver."
 msgstr "Šis įrenginys naudoja rekomenduojamą valdyklę."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:333
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
 msgid "This device is using an alternative driver."
 msgstr "Šis įrenginys naudoja alternatyvią valdyklę."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
 msgid "This device is using a manually-installed driver."
 msgstr "Šis įrenginys naudoja rankiniu būdu įdiegtą valdyklę."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
 msgid "This device is not working."
 msgstr "Šis įrenginys neveikia."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:344
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
 msgid "Continue using a manually installed driver"
 msgstr "Toliau naudoti specialiai įdiegtą valdyklę"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:371
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
 msgid "Version"
 msgstr "Versija"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:374
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
 msgid "recommended"
 msgstr "rekomenduojama"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
 msgid "open-source"
 msgstr "atviro kodo"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:400
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+msgid "requires a connection to the Internet"
+msgstr "reikalauja interneto ryšio"
+
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
 msgid "Do not use the device"
 msgstr "Nenaudoti įrenginio"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:418
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:419
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:462
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
 msgid "Unknown"
 msgstr "Nežinoma"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:530
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "Valdyklių pakeitimams užbaigti reikia paleisti kompiuterį iš naujo."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:544
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -108,7 +113,7 @@ msgstr[0] "Naudojama %(count)d nuosavybinė valdyklė."
 msgstr[1] "Naudojamos %(count)d nuosavybinės valdyklės."
 msgstr[2] "Naudojama %(count)d nuosavybinių valdyklių."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:549
+#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
 msgid "No proprietary drivers are in use."
 msgstr "Nuosavybinės valdyklės nenaudojamos."
 

@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-08-03 18:17+0000\n"
-"Last-Translator: Abbod <abbod-mar@hotmail.com>\n"
+"PO-Revision-Date: 2015-11-20 12:47+0000\n"
+"Last-Translator: sameeh <sameeh.j@gmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:11+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:14+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr ""
+msgstr "تهيئة %(partition)s كـ %(format)s ..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
@@ -32,7 +32,7 @@ msgstr "جاري تركيب %(partition)s علي %(mountpoint)s"
 msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
-msgstr ""
+msgstr "خطأ: يجب عليك أولا تركيب نظام الملفات المستهدف للقيام بتثبيت مخصص!"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -41,6 +41,8 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"خطأ ز هناك خلل في وسيط التثبيت ! يعود هذا الخلل غالبا إلى البرنامج المستعمل "
+"لكتابة إيزو التثبيت ، رجاء حاول إعادة كتابة وسيط التثبيت باستعمال أدات  أخري"
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -121,7 +123,7 @@ msgstr "جاري التحقق من محمل الإقلاع"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
-msgstr ""
+msgstr "خطأ غير متوقع"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
@@ -136,7 +138,7 @@ msgstr "مثبت %s"
 #: usr/lib/live-installer/frontend/gtk_interface.py:92
 #: usr/lib/live-installer/frontend/gtk_interface.py:111
 msgid "Language"
-msgstr "اللغة"
+msgstr "لغة"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:93
 msgid "Timezone"
@@ -152,7 +154,7 @@ msgstr "معلومات المستخدم"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:96
 msgid "Partitioning"
-msgstr "التقسيم"
+msgstr "التجزئة"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"

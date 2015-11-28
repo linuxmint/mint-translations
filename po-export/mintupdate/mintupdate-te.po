@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-10-29 16:20+0000\n"
+"POT-Creation-Date: 2015-11-15 15:20+0000\n"
 "PO-Revision-Date: 2012-01-22 08:23+0000\n"
 "Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:09+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:13+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:157
 msgid "Downloading changelog..."
@@ -74,8 +74,8 @@ msgid "Update is complete"
 msgstr "నవీకరణ పూర్తయింది"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:494
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:605
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2204
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:619
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2251
 msgid "Checking for updates"
 msgstr "నవీకరణల కోసం పరిశీలిస్తుంది"
 
@@ -83,88 +83,107 @@ msgstr "నవీకరణల కోసం పరిశీలిస్తుం�
 msgid "Could not install the security updates"
 msgstr "భద్రతా నవీకరణలను స్థాపించుట వీలుపడదు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:596
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:609
 msgid "Starting refresh..."
 msgstr "తాజాకరణను ప్రారంభిస్తున్నది..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:642
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:644
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:656
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:658
 msgid "Another application is using APT"
 msgstr "వేరొక అనువర్తనం APT వాడుతున్నది"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:653
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:668
 msgid "Finding the list of updates..."
 msgstr "నవీకరణల యొక్క జాబితాను కనుక్కొంటుంది..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:690
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:692
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:902
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:904
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2316
-msgid "Your system is up to date"
-msgstr "మీ వ్యవస్థ నేటివరకూవున్న నవీకరణలను కలిగివుంది"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:681
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:687
+msgid "Your APT cache is corrupted."
+msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:704
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:706
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:980
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:985
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2317
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:682
+msgid ""
+"Do not install or update anything, it could break your operating system!"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:683
+msgid "Switch to a different Linux Mint mirror to solve this situation."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:687
+msgid "Please switch to another Linux Mint mirror"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:697
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:748
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:750
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1026
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1032
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2364
 msgid "Could not refresh the list of updates"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:752
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:734
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:736
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:947
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:949
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2363
+msgid "Your system is up to date"
+msgstr "మీ వ్యవస్థ నేటివరకూవున్న నవీకరణలను కలిగివుంది"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:797
 msgid "Security update"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:754
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:799
 msgid ""
 "Software backport. Be careful when upgrading. New versions of sofware can "
 "introduce regressions."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:756
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:801
 msgid ""
 "Unstable software. Only apply this update to help developers beta-test new "
 "software."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:758
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:803
 msgid "Software update"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:871
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:916
 msgid "A new version of the update manager is available"
 msgstr "నవీకరణ నిర్వాహకం యొక్క కొత్త రూపాంతరం లభ్యతలోవున్నది"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:881
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:926
 #, python-format
 msgid "1 recommended update available (%(size)s)"
 msgstr "1 ప్రతిపాదిత నవీకరణ అందుబాటులోవున్నది (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:883
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
 msgstr "1 ప్రతిపాదిత నవీకరణ అందుబాటులోవున్నది (%(size)s), 1 విస్మరించబడింది"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:885
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:930
 #, python-format
 msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
 msgstr ""
 "1 ప్రతిపాదిత నవీకరణ అందుబాటులోవున్నది (%(size)s), %(ignored)d విస్మరింబడినవి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:888
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:933
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s)"
 msgstr "%(recommended)d ప్రతిపాదిత నవీకరణలు అందుబాటులోవున్నాయి (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:890
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:935
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
 msgstr ""
 "%(recommended)d ప్రతిపాదిత నవీకరణలు అందుబాటులోవున్నాయి (%(size)s), 1 "
 "విస్మరించబడింది"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:892
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:937
 #, python-format
 msgid ""
 "%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
@@ -172,142 +191,142 @@ msgstr ""
 "%(recommended)d ప్రతిపాదిత నవీకరణలు అందుబాటులోవున్నాయి (%(size)s), "
 "%(ignored)d విస్మరించబడ్డాయి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:941
-msgid "Please switch to a local mirror"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:987
+msgid "Do you want to switch to a local mirror?"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:941
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:987
 msgid "Local mirrors are usually faster than packages.linuxmint.com"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:951
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:957
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:997
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1003
 msgid "Please switch to another mirror"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:951
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:997
 #, python-format
 msgid "%s is not up to date"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:957
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1003
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d days ago"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1038
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1057
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2083
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1085
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1104
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2130
 msgid "No updates selected"
 msgstr "ఏ నవీకరణలను ఎంపికచేయలేదు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1059
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2085
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1106
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2132
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgstr "%(selected)d నవీకరణ ఎంచుకోబడింది (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1061
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2087
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1108
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2134
 #, python-format
 msgid "%(selected)d updates selected (%(size)s)"
 msgstr "%(selected)d నవీకరణలు ఎంచుకోబడ్డాయి (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1074
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1355
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1509
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1578
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1624
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1857
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2210 generate_desktop_files:25
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1402
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1556
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1625
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1671
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2257 generate_desktop_files:25
 #: generate_desktop_files:37
 msgid "Update Manager"
 msgstr "నవీకరణ నిర్వాహకం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1355
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2335
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1402
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2382
 msgid "Preferences"
 msgstr "ప్రాధాన్యతలు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1357
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1404
 msgid "Levels"
 msgstr "స్థాయిలు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1358
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1405
 msgid "Auto-Refresh"
 msgstr "స్వయం-తాజాకరణ"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1359
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2245
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2390
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1406
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2292
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2437
 msgid "Level"
 msgstr "స్థాయి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1360
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2313
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1407
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2360
 msgid "Description"
 msgstr "వివరణ"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1361
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1408
 msgid "Tested?"
 msgstr "పరీక్షించబడిందా?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1362
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1409
 msgid "Origin"
 msgstr "పుట్టుక"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1363
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1410
 msgid "Safe?"
 msgstr "సురక్షితమైనదేనా?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1364
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1411
 msgid "Visible?"
 msgstr "దృష్టిగోచరా?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1365
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1412
 msgid ""
 "Certified updates. Tested through Romeo or directly maintained by Linux Mint."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1366
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1413
 msgid "Recommended updates. Tested and approved by Linux Mint."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1367
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1414
 msgid "Safe updates. Not tested but believed to be safe."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1368
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1415
 msgid "Unsafe updates. Could potentially affect the stability of the system."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1369
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1416
 msgid ""
 "Dangerous updates. Known to affect the stability of the systems depending on "
 "certain specs or hardware."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1370
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1417
 msgid "Linux Mint"
 msgstr "లినక్స్ మింట్"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1371
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1372
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1373
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1374
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1418
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1419
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1420
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1421
 msgid "Upstream"
 msgstr "పైప్రవాహం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1375
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1422
 msgid "First, refresh the list of updates after:"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1376
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1423
 msgid "Then, refresh the list of updates every:"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1377
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1424
 msgid ""
 "Note: The list only gets refreshed while the update manager window is closed "
 "(system tray mode)."
@@ -315,165 +334,165 @@ msgstr ""
 "గమనిక: నవీకరణ నిర్వాహకము విండో మూసివేసినపుడు మాత్రమే జాబితా తాజాపరుచబడుతుంది "
 "(వ్యవస్థ పళ్ళెం రీతి)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1379
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1426
 msgid "Options"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1380
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1427
 msgid "Icons"
 msgstr "ప్రతీకలు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1381
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1428
 msgid "Icon"
 msgstr "ప్రతీక"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1382
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1429
 msgid "Status"
 msgstr "స్థితి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1383
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1430
 msgid "New Icon"
 msgstr "కొత్త ప్రతీక"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1384
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1431
 msgid "Busy"
 msgstr "తీరికలేదు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1385
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1432
 msgid "System up-to-date"
 msgstr "వ్యవస్థ నేటివరకూ నవీకరించబడుతూనేవుంది"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1386
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1433
 msgid "Updates available"
 msgstr "నవీకరణలు లభ్యం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1387
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1434
 msgid "Error"
 msgstr "దోషం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1388
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1435
 msgid "Unknown state"
 msgstr "తెలియని స్థితి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1389
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1436
 msgid "Applying updates"
 msgstr "నవీకరణలను అనువర్తిస్తోంది"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1390
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1451
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1437
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1498
 msgid "Ignored updates"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1392
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1439
 msgid ""
 "Include updates which require the installation of new packages or the "
 "removal of installed packages"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1393
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1440
 msgid "Hide the update manager after applying updates"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1394
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1441
 msgid "Only show a tray icon when updates are available or in case of errors"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1395
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1442
 msgid "Don't suggest to switch to a local mirror"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1424
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1471
 msgid "Always show security updates"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1425
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1472
 msgid "Always select and trust security updates"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1427
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1474
 msgid "minutes"
 msgstr "నిమిషాలు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1428
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1475
 msgid "hours"
 msgstr "గంటలు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1429
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1476
 msgid "days"
 msgstr "రోజులు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1477
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1524
 msgid "Please specify the name of the update to ignore:"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1478
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1525
 msgid "Ignore an update"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1482
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1529
 msgid "Name:"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1509
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2371
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1556
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2418
 msgid "History of updates"
 msgstr "నవీకరణల యొక్క చరిత్ర"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1512
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1559
 msgid "Date"
 msgstr "తేదీ"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1515
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2241
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2396
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1562
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2288
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2443
 msgid "Package"
 msgstr "ప్యాకేజీ"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1518
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2249
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2402
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1565
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2296
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2449
 msgid "Old version"
 msgstr "పాత రూపాంతరం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1521
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2253
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2408
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1568
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2300
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2455
 msgid "New version"
 msgstr "కొత్త రూపాంతరం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1578
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2377
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1625
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2424
 msgid "Information"
 msgstr "సమాచారం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1581
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1628
 msgid "Process ID:"
 msgstr "ప్రక్రియ ఐడి:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1582
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1629
 msgid "Log file:"
 msgstr "చిట్టా ఫైల్:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1600
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1647
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1602
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1649
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1624
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2374
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1671
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2421
 msgid "Linux kernels"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1632
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1679
 msgid "Warning!"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1633
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1680
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
@@ -482,34 +501,34 @@ msgid ""
 "booting computer."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1634
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1681
 msgid "The following kernels are available:"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1635
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1682
 msgid "More info..."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1637
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1684
 msgid ""
 "Fixes can represent bug fixes, improvements in hardware support or security "
 "fixes."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1638
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1685
 msgid ""
 "Security fixes are important when local users represent a potential threat "
 "(in companies, libraries, schools or public places for instance) or when the "
 "computer can be threatened by remote attacks (servers for instance)."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1639
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1686
 msgid ""
 "Bug fixes and hardware improvements are important if one of your devices "
 "isn't working as expected and the newer kernel addresses that problem."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1640
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1687
 msgid ""
 "Regressions represent something which worked well and no longer works after "
 "an update. It is common in software development that a code change or even a "
@@ -518,172 +537,172 @@ msgid ""
 "newer kernels."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1642
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1667
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1689
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1714
 msgid "Fixes"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1643
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1671
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1690
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1718
 msgid "Regressions"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1644
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1691
 msgid ""
 "Note: Only known fixes and regressions are mentioned. If you are aware of "
 "additional fixes or regressions, please contact the development team."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1651
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1698
 msgid "Version"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1702
 msgid "Loaded"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1659
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1706
 msgid "Recommended"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1663
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1710
 msgid "Installed"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1744
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1791
 msgid "Install"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1748
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1795
 msgid "Remove"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1800
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1847
 #, python-format
 msgid "Remove the %s kernel"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1802
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1849
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1806
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1853
 #, python-format
 msgid "Install the %s kernel"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1808
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
 msgid "This kernel is not installable."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2448
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2495
 msgid "About"
 msgstr "గురించి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2011
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2041
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2058
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2088
 #, python-format
 msgid "This update contains %d packages: "
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2014
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2044
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2061
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2091
 msgid "This update contains 1 package: "
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2090
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2137
 msgid "B"
 msgstr "బై"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2092
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2139
 msgid "KB"
 msgstr "కిబై"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2094
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2141
 msgid "MB"
 msgstr "మెబై"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2096
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2143
 msgid "GB"
 msgstr "గిబై"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2125
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2172
 msgid "Ignore updates for this package"
 msgstr "ఈ ప్యాకేజీ కొరకు నవీకరణలను విస్మరించు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2236
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2283
 msgid "Upgrade"
 msgstr "ఉన్నతీకరించు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2257
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2414
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2304
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2461
 msgid "Size"
 msgstr "పరిమాణం"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2261
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2384
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2308
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2431
 msgid "Type"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2309
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2356
 msgid "Install Updates"
 msgstr "నవీకరణలను స్థాపించు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2310
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2357
 msgid "Refresh"
 msgstr "తాజాపరుచు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2311
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2358
 msgid "Select All"
 msgstr "అన్నిటిని ఎంచుకొను"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2312
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2359
 msgid "Clear"
 msgstr "తుడిచివేయి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2314
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2361
 msgid "Changelog"
 msgstr "మార్పుచిట్టా"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2323
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2370
 msgid "_File"
 msgstr "ఫైల్ (_F)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2327
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2374
 msgid "Close"
 msgstr "మూసివేయి"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2331
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2378
 msgid "_Edit"
 msgstr "సవరణ (_E)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2341
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2388
 msgid "Software sources"
 msgstr "సాఫ్ట్‍వేర్ వనరులు"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2363
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2410
 #, python-format
 msgid "Upgrade to %s"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2367
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2414
 msgid "_View"
 msgstr "వీక్షణం (_V)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2380
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2427
 msgid "Visible columns"
 msgstr "దృగ్గోచర వరస"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2422
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2469
 msgid "Show descriptions"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2437
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2484
 msgid "_Help"
 msgstr "సహాయం (_H)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2442
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2489
 msgid "Contents"
 msgstr ""
 

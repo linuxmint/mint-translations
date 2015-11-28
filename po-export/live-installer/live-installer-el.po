@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-04-11 07:45+0000\n"
-"Last-Translator: Jim Spentzos <Unknown>\n"
+"PO-Revision-Date: 2015-11-28 00:27+0000\n"
+"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-13 22:11+0000\n"
-"X-Generator: Launchpad (build 17845)\n"
+"X-Launchpad-Export-Date: 2015-11-28 10:14+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -491,11 +491,11 @@ msgstr "Παρακαλώ πληκτρολογήστε το πλήρες όνομ
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr ""
+msgstr "Εισάγετε ένα όνομα χρήστη."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr ""
+msgstr "Εισάγετε έναν κωδικό πρόσβασης για τον λογαριασμό σας."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
@@ -503,15 +503,15 @@ msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr ""
+msgstr "Εισάγετε ένα hostname."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr ""
+msgstr "Το όνομα χρήστη πρέπει να περιέχει μόνο πεζά."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr ""
+msgstr "Το όνομα χρήστη δεν πρέπει να περιέχει χαρακήρες διαστήματος."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
@@ -669,19 +669,24 @@ msgstr "Σφάλμα εγκατάστασης"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr ""
+msgstr "Η εγκατάσταση σταμάτησε"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
+"Η εγκατάσταση έχει σταματήσει. Παρακαλούμε διαβάστε προσεκτικά τις οδηγίες "
+"στη σελίδα και ύστερα κάνετε κλικ στη Συνέχεια ώστε να ολοκληρώσετε την "
+"εγκατάσταση."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
 msgstr ""
+"Η εγκατάσταση ολοκληρώθηκε. Επιθυμείτε να επανεκκινήσετε τον υπολογιστή σας "
+"ώστε να χρησιμοποιήσετε το νέο σύστημα;"
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
@@ -689,39 +694,39 @@ msgstr "Επεξεργασία"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "Παραχώρηση στο /"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "Παραχώρηση στο /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "Παραχώρηση στο /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
@@ -734,14 +739,17 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"Δε βρέθηκε κάποιος πίνακας κατάτμησης στο σκληρό δίσκο %s.  Επιθυμείτε ο "
+"installer να δημιουργήσει μια ομάδα κατατμήσεων για εσάς; Σημείωση: Αυτή η "
+"ενέργεια θα ΔΙΑΓΡΑΨΕΙ ΟΛΑ ΤΑ ΔΕΔΟΜΕΝΑ που υπάρχουν σε αυτό το δίσκο."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "Λογική κατάτμηση"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
-msgstr ""
+msgstr "Εκτεταμένη κατάτμηση"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"
@@ -757,8 +765,8 @@ msgstr "Συσκευή:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "Μορφοποίηση ως:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "Σημείο προσάρτησης:"
