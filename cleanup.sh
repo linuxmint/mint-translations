@@ -6,3 +6,5 @@ rm -rf po-export/cinnamon*
 rm -rf po-export/nemo*
 rm -rf po-export/folder*
 rm -rf po-export/mdm
+rm -rf po-export/slideshow-*
+rm -rf po-export/mintupdate-debian
