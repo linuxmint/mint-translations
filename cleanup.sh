@@ -8,3 +8,6 @@ rm -rf po-export/folder*
 rm -rf po-export/mdm
 rm -rf po-export/slideshow-*
 rm -rf po-export/mintupdate-debian
+
+# Remove PO files for xapps
+rm -rf po-export/x*
