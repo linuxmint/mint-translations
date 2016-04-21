@@ -7,22 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-10-27 19:00+0000\n"
-"PO-Revision-Date: 2015-11-28 00:31+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"POT-Creation-Date: 2016-02-11 11:34+0000\n"
+"PO-Revision-Date: 2015-12-04 22:23+0000\n"
+"Last-Translator: Panagiotis Mantzios <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:17+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:41+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:33
 msgid "Adding PPAs is not supported"
 msgstr "Η προσθήκη αποθετηρίων (PPA) δεν υποστηρίζεται"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:40
-#: usr/lib/linuxmint/mintSources/mintSources.py:985
+#: usr/lib/linuxmint/mintSources/mintSources.py:989
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Αδυναμία προσθήκης αποθετηρίου: '%s'."
@@ -54,7 +54,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintSources/mintSources.py:109
 #, python-format
 msgid "This PPA does not support %s"
-msgstr ""
+msgstr "Αυτό το PPA δεν υποστιρίζει %s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:257
 #: usr/lib/linuxmint/mintSources/mintSources.py:285
@@ -126,121 +126,130 @@ msgstr "MB/s"
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:606 generate_desktop_files:27
+#: usr/lib/linuxmint/mintSources/mintSources.py:498
+msgid "Obsolete"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:501
+msgid "Unreachable"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:610 generate_desktop_files:27
 #: generate_desktop_files:43
 msgid "Software Sources"
 msgstr "Πηγές Λογισμικού"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:623
+#: usr/lib/linuxmint/mintSources/mintSources.py:627
 msgid "Backported packages"
 msgstr "Διορθωμένες παλαιότερες εκδόσεις πακέτων λογισμικού"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:625
+#: usr/lib/linuxmint/mintSources/mintSources.py:629
 msgid "Unstable packages"
 msgstr "Ασταθή πακέτα λογισμικού"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:638
-#: usr/lib/linuxmint/mintSources/mintSources.py:1307
+#: usr/lib/linuxmint/mintSources/mintSources.py:642
+#: usr/lib/linuxmint/mintSources/mintSources.py:1311
 msgid "No action required"
 msgstr "Δεν απαιτείται ενέργεια"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:640
+#: usr/lib/linuxmint/mintSources/mintSources.py:644
 msgid "Official repositories"
 msgstr "Επίσημα αποθετήρια"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:641
+#: usr/lib/linuxmint/mintSources/mintSources.py:645
 msgid "PPAs"
 msgstr "Προσωπικά αποθετήρια (PPA)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:642
+#: usr/lib/linuxmint/mintSources/mintSources.py:646
 msgid "Additional repositories"
 msgstr "Επιπρόσθετα αποθετήρια"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:643
+#: usr/lib/linuxmint/mintSources/mintSources.py:647
 msgid "Authentication keys"
 msgstr "Κλειδιά ταυτοποίησης"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:644
+#: usr/lib/linuxmint/mintSources/mintSources.py:648
 msgid "Maintenance"
 msgstr "Συντήρηση"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:646
+#: usr/lib/linuxmint/mintSources/mintSources.py:650
 msgid "Mirrors"
 msgstr "Εναλλακτικές τοποθεσίες"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:647
+#: usr/lib/linuxmint/mintSources/mintSources.py:651
 msgid "Main"
 msgstr "Κύριο"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:648
+#: usr/lib/linuxmint/mintSources/mintSources.py:652
 msgid "Base"
 msgstr "Βασικό"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:649
-#: usr/lib/linuxmint/mintSources/mintSources.py:650
+#: usr/lib/linuxmint/mintSources/mintSources.py:653
+#: usr/lib/linuxmint/mintSources/mintSources.py:654
 msgid "Select a faster server..."
 msgstr "Επιλέξτε ταχύτερο εξυπηρετητή"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:652
+#: usr/lib/linuxmint/mintSources/mintSources.py:656
 msgid "Optional components"
 msgstr "Προαιρετικά στοιχεία"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:653
+#: usr/lib/linuxmint/mintSources/mintSources.py:657
 msgid "Source code"
 msgstr "Πηγαίος κώδικας"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:655
+#: usr/lib/linuxmint/mintSources/mintSources.py:659
 msgid "Add a new PPA..."
 msgstr "Προσθέστε νέο PPA..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:656
-#: usr/lib/linuxmint/mintSources/mintSources.py:662
+#: usr/lib/linuxmint/mintSources/mintSources.py:660
+#: usr/lib/linuxmint/mintSources/mintSources.py:666
 msgid "Edit URL..."
 msgstr "Επεξεργασία διεύθυνσης URL..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:657
-#: usr/lib/linuxmint/mintSources/mintSources.py:663
+#: usr/lib/linuxmint/mintSources/mintSources.py:661
 #: usr/lib/linuxmint/mintSources/mintSources.py:667
+#: usr/lib/linuxmint/mintSources/mintSources.py:671
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:42
 msgid "Remove"
 msgstr "Κατάργηση"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:658
+#: usr/lib/linuxmint/mintSources/mintSources.py:662
 msgid "Open PPA"
-msgstr ""
+msgstr "Άνοιγμα PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:659
+#: usr/lib/linuxmint/mintSources/mintSources.py:663
 msgid "Look inside the PPA and install packages it provides"
 msgstr ""
+"Ελέγξτε το εσωτερικό του PPA για να εγκαταστήσετε τα πακέτα που παρέχει"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:661
+#: usr/lib/linuxmint/mintSources/mintSources.py:665
 msgid "Add a new repository..."
 msgstr "Προσθήκη νέου αποθετηρίου..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:665
+#: usr/lib/linuxmint/mintSources/mintSources.py:669
 msgid "Import key file..."
 msgstr "Εισαγωγή αρχείου κλειδιού..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:666
+#: usr/lib/linuxmint/mintSources/mintSources.py:670
 msgid "Download a key..."
 msgstr "Κατέβασμα κλειδιού..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:669
+#: usr/lib/linuxmint/mintSources/mintSources.py:673
 msgid "Fix MergeList problems"
 msgstr "Διόρθωση σφαλμάτων MergeList"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:670
+#: usr/lib/linuxmint/mintSources/mintSources.py:674
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr ""
 "Εάν αντιμετωπίζετε σφάλματα MergeList, πατήστε αυτό το κουμπί για να "
 "διορθώσετε το πρόβλημα."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:671
+#: usr/lib/linuxmint/mintSources/mintSources.py:675
 msgid "Purge residual configuration"
 msgstr "Κατάργηση εναπομεινουσών ρυθμίσεων"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:672
+#: usr/lib/linuxmint/mintSources/mintSources.py:676
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
@@ -248,31 +257,35 @@ msgstr ""
 "Ορισμένες φορές τα πακέτα λογισμικού αφήνουν πίσω αρχεία ρυθμίσεων ακόμα και "
 "αφότου αφαιρεθούν."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:673
+#: usr/lib/linuxmint/mintSources/mintSources.py:677
 msgid "Remove foreign packages"
-msgstr ""
+msgstr "Απεγκατάσταση/κατάργηση ξένων πακέτων"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:674
+#: usr/lib/linuxmint/mintSources/mintSources.py:678
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
 msgstr ""
+"Τα πακέτα που δεν προέρχονται από γνωστά αποθετήρια, αναφέρονται εδώ και "
+"μπορούν να αφαιρεθούν."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:675
+#: usr/lib/linuxmint/mintSources/mintSources.py:679
 msgid "Downgrade foreign packages"
-msgstr ""
+msgstr "Υποβάθμιση ξένων πακέτων"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:676
+#: usr/lib/linuxmint/mintSources/mintSources.py:680
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
 msgstr ""
+"Τα πακέτα που η έκδοσή τους δεν προέρχετε από γνωστά αποθετήρια, αναφέρονται "
+"εδώ και μπορούν να υποβαθμιστούν."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:681
+#: usr/lib/linuxmint/mintSources/mintSources.py:685
 msgid "Enable source code repositories"
 msgstr "Ενεργοποίηση αποθετηρίων πηγαίου κώδικα"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:691
+#: usr/lib/linuxmint/mintSources/mintSources.py:695
 msgid ""
 "Warning: Backports and unstable packages can introduce regressions and "
 "negatively impact your system. Please do not enable these options in Linux "
@@ -283,45 +296,45 @@ msgstr ""
 "ενεργοποιήσετε αυτές τις επιλογές στο Linux Mint αν δεν προτείνεται από την "
 "ομάδα ανάπτυξης."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:755
-#: usr/lib/linuxmint/mintSources/mintSources.py:779
+#: usr/lib/linuxmint/mintSources/mintSources.py:759
+#: usr/lib/linuxmint/mintSources/mintSources.py:783
 msgid "Enabled"
 msgstr "Ενεργοποιημένο"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:761
+#: usr/lib/linuxmint/mintSources/mintSources.py:765
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:38
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:785
+#: usr/lib/linuxmint/mintSources/mintSources.py:789
 msgid "Repository"
 msgstr "Αποθετήριο"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:801
+#: usr/lib/linuxmint/mintSources/mintSources.py:805
 msgid "Key"
 msgstr "Κλειδί"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:814
+#: usr/lib/linuxmint/mintSources/mintSources.py:818
 msgid "Restore the default settings"
 msgstr "Αποκατάσταση εξ ορισμού ρυθμίσεων"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:815
+#: usr/lib/linuxmint/mintSources/mintSources.py:819
 msgid "Restore the official repositories to their default settings"
 msgstr "Επαναφορά επισήμων αποθετηρίων στις αρχικές τους ρυθμίσεις"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:903
+#: usr/lib/linuxmint/mintSources/mintSources.py:907
 msgid "There is no more residual configuration on the system."
 msgstr "Δεν υπάρχουν άλλες επαπομείνουσες ρυθμίσεις στο σύστημα"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:909
+#: usr/lib/linuxmint/mintSources/mintSources.py:913
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Το πρόβλημα διορθώθηκε. Παρακαλώ επαναφορτώστε την προσωρινή μνήμη."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:935
+#: usr/lib/linuxmint/mintSources/mintSources.py:939
 msgid "Open.."
 msgstr "Άνοιγμα.."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:951
+#: usr/lib/linuxmint/mintSources/mintSources.py:955
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -329,53 +342,55 @@ msgstr ""
 "Παρακαλώ εισάγετε τους 8 χαρακτήρες του δημοσίου κλειδιού που επιθυμείτε να "
 "κατεβάσετε από keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:964
+#: usr/lib/linuxmint/mintSources/mintSources.py:968
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Είστε σίγουροι ότι επιθυμείτε την οριστική διαγραφή του κλειδιού;"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:978
+#: usr/lib/linuxmint/mintSources/mintSources.py:982
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Παρακαλώ εισάγετε το όνομα του PPA που επιθυμείτε να προσθέσετε:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1031
+#: usr/lib/linuxmint/mintSources/mintSources.py:1035
 msgid "Edit the URL of the PPA"
 msgstr "Επεξεργαστείτε τη διεύθυνση URL του PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1041
+#: usr/lib/linuxmint/mintSources/mintSources.py:1045
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Είστε σίγουροι ότι επιθυμείτε την οριστική διαγραφή του PPA;"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1080
+#: usr/lib/linuxmint/mintSources/mintSources.py:1084
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
+"Το περιεχόμενο αυτού του PPA δεν είναι διαθέσιμο. Παρακαλούμε ανανεώστε τη "
+"κρυφή μνήμη ( cache ) και δοκιμάστε ξανά."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1094
+#: usr/lib/linuxmint/mintSources/mintSources.py:1098
 msgid "Please enter the name of the repository you want to add:"
 msgstr ""
 "Παρακαλώ εισάγετε το όνομα του αποθετηρίου που επιθυμείτε να προσθέσετε:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1113
+#: usr/lib/linuxmint/mintSources/mintSources.py:1117
 msgid "Edit the URL of the repository"
 msgstr "Επεξεργαστείτε τη διεύθυνση URL του αποθετηρίου"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1123
+#: usr/lib/linuxmint/mintSources/mintSources.py:1127
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr ""
 "Είστε σίγουροι ότι επιθυμείτε την οριστική διαγραφή αυτού του αποθετηρίου;"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1301
+#: usr/lib/linuxmint/mintSources/mintSources.py:1305
 msgid "Update the cache"
 msgstr "Ανανέωση προσωρινής μνήμης"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1302
+#: usr/lib/linuxmint/mintSources/mintSources.py:1306
 msgid "Click here to update your APT cache with your new sources"
 msgstr ""
 "Πιέστε εδώ για να ανανεώσετε την προσωρινή μνήμη του APT με τις νέες σας "
 "πηγές"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1308
+#: usr/lib/linuxmint/mintSources/mintSources.py:1312
 msgid "Your APT cache is up to date"
 msgstr "Η προσωρινή μνήμη του APT έχει ανανεωθεί"
 
@@ -393,11 +408,13 @@ msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install:"
 msgstr ""
+"Αυτό το PPA παρέχει τα παρακάτω πακέτα. Παρακαλώ επιλέξτε αυτά που θέλετε να "
+"εγκαταστήσετε:"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:79
 #, python-format
 msgid "version %s already installed"
-msgstr ""
+msgstr "Η έκδοση %s είναι ήδη εγκατεστημένη"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:120
 msgid "Please wait, this can take some time."
@@ -405,11 +422,11 @@ msgstr "Παρακαλώ περιμένετε, αυτό μπορεί να δια
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:122
 msgid "The packages were installed."
-msgstr ""
+msgstr "Τα πακέτα έχουν εγκατασταθεί"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:32
 msgid "Foreign packages"
-msgstr ""
+msgstr "Ξένα πακέτα"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 msgid "Downgrade"
@@ -419,13 +436,15 @@ msgstr "Υποβάθμιση"
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
-msgstr ""
+msgstr "Η έκδοση των παρακάτω πακέτων δεν ταιριάζει με αυτή των αποθετηρίων:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:43
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
 msgstr ""
+"Τα παρακάτω πακέτα έχουν εγκατασταθεί στον υπολογιστή σας, αλλά δεν "
+"βρίσκονται πλέον στα αποθετήρια:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:46
 msgid "WARNING"
@@ -435,6 +454,8 @@ msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
 msgid ""
 "Review the information below very carefully before validating the command:"
 msgstr ""
+"Εξετάστε τις πληροφορίες παρακάτω πολύ προσεκτικά πριν την επικύρωση της "
+"εντολής:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:62
 msgid "Package"

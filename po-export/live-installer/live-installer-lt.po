@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-10-29 09:55+0000\n"
+"PO-Revision-Date: 2015-12-12 21:39+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:14+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:38+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -100,14 +100,14 @@ msgstr "Nustatomos klaviatūros parinktys"
 
 #: usr/lib/live-installer/installer.py:476
 msgid "Installing bootloader"
-msgstr "Diegiamas sistemos įkėliklis"
+msgstr "Įdiegiama paleidyklė"
 
 #: usr/lib/live-installer/installer.py:485
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
 msgstr ""
-"DĖMESIO! Grub sistemos įkėliklis nebuvo tinkamai sukonfigūruotas! Būtina jį "
+"DĖMESIO! Grub paleidyklė nebuvo tinkamai sukonfigūruota! Būtina ją "
 "sukonfigūruoti rankiniu būdu."
 
 #: usr/lib/live-installer/installer.py:498
@@ -121,11 +121,11 @@ msgstr "Diegimas baigtas"
 
 #: usr/lib/live-installer/installer.py:532
 msgid "Configuring bootloader"
-msgstr "Konfigūruojamas sistemos įkėliklis"
+msgstr "Konfigūruojama paleidyklė"
 
 #: usr/lib/live-installer/installer.py:541
 msgid "Checking bootloader"
-msgstr "Tikrinamas sistemos įkėliklis"
+msgstr "Tikrinama paleidyklė"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
@@ -307,7 +307,7 @@ msgstr "Pasirinkta laiko zona:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:410
 msgid "Bootloader"
-msgstr "Sistemų įkėliklis"
+msgstr "Paleidyklė"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:411
 msgid "Install GRUB"
@@ -315,7 +315,7 @@ msgstr "Diegti GRUB"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
-msgstr "GRUB yra sistemos įkėliklis, naudojamas įkelti Linux branduolį."
+msgstr "GRUB yra paleidyklė, kuri naudojama įkelti Linux branduolį."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
@@ -367,6 +367,8 @@ msgstr ""
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr ""
+"Prašome atlikti sekančius veiksmus, o tuomet nuspausti Pirmyn, kad "
+"užbaigtumėte įdiegimą:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -631,11 +633,11 @@ msgstr "Failų sistemos veiksmai"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr "Įdiegti sistemos įkėliklį ties %s"
+msgstr "Įdiegti paleidyklę ties %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
-msgstr "Nediegti sistemų įkėliklio"
+msgstr "Nediegti paleidyklės"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
@@ -644,12 +646,12 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr ""
+msgstr "Formatuoti %(path)s kaip %(filesystem)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "Prijungti %(path)s kaip %(mount)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937

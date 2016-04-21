@@ -7,145 +7,432 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-15 15:20+0000\n"
-"PO-Revision-Date: 2015-11-15 21:43+0000\n"
+"POT-Creation-Date: 2016-04-09 22:09+0100\n"
+"PO-Revision-Date: 2016-04-20 15:25+0000\n"
 "Last-Translator: kelebek333 <Unknown>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:13+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:157
-msgid "Downloading changelog..."
-msgstr "Değişiklik günlüğü indiriliyor..."
+#: usr/share/help/C/mintupdate/policy.page:8(name)
+#: usr/share/help/C/mintupdate/index.page:6(name)
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1887
+msgid "Linux Mint"
+msgstr "Linux Mint"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:185
-msgid "No changelog available"
-msgstr "Sürümde değişiklik mevcut değil"
+#: usr/share/help/C/mintupdate/policy.page:9(email)
+#: usr/share/help/C/mintupdate/index.page:7(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:287
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:454
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:174
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:54
+#: usr/share/help/C/mintupdate/policy.page:16(title)
+msgid "Choosing an update policy"
+msgstr "Bir güncelleme ilkesi seçiniz"
+
+#: usr/share/help/C/mintupdate/policy.page:18(p)
+msgid ""
+"New updates patch known security holes and fix known bugs, but they can also "
+"introduce new issues called 'regressions'."
+msgstr ""
+"Yeni güncellemeler bilinen güvenlik açıklarını yamalar ve hataları düzeltir, "
+"ama 'regresyonlar' olarak tanımlanan yeni sorunlar getirebilir."
+
+#: usr/share/help/C/mintupdate/policy.page:20(p)
+msgid ""
+"Regressions are very common but they are usually quickly fixed by new "
+"updates and they rarely break critical parts of the operating system."
+msgstr ""
+"Regresyonlar (hatalar) çok yaygındır, ama bunlar genellikle hızlı bir "
+"şekilde yeni güncellemeler ile giderilirler ve işletim sisteminin kritik "
+"unsurlarını nadiren kırarlar."
+
+#: usr/share/help/C/mintupdate/policy.page:22(p)
+msgid "There are different types of updates:"
+msgstr "Güncellemelerin farklı türleri vardır:"
+
+#: usr/share/help/C/mintupdate/policy.page:25(p)
+msgid ""
+"'Software updates' are updates which fix bugs (or also sometimes which bring "
+"new features)."
+msgstr ""
+"'Yazılım güncellemeleri' hata düzeltmelerini içeren güncellemelerdir (ya da "
+"bazen yeni özellikler getirir)."
+
+#: usr/share/help/C/mintupdate/policy.page:26(p)
+msgid "'Security updates' are updates which patch vulnerabilities."
+msgstr "'Güvenlik güncellemeleri' açıkları yamalayan güncellemelerdir."
+
+#: usr/share/help/C/mintupdate/policy.page:27(p)
+msgid "'Kernel updates' represent the installation of a newer kernel."
+msgstr "'Çekirdek güncellemeleri' daha yeni bir çekirdeğin kurulumunu sunar."
+
+#: usr/share/help/C/mintupdate/policy.page:30(p)
+msgid ""
+"In Linux Mint, kernel updates bring both security patches and bug fixes (and "
+"sometimes even new features), and they impact critical parts of the "
+"operating system. This makes kernel updates important from a security point "
+"of view, but also prone to regressions which can be hard to fix for novice "
+"users."
+msgstr ""
+"Linux Mint'de, çekirdek güncellemeleri hem güvenlik yamaları ve hata "
+"düzeltmeleri getirir (ve hatta bazen yeni özellikler ekler), ve bunlar "
+"işletim sisteminin kritik parçalarını etkileyebilir. Bu, çekirdek "
+"güncellemelerini güvenlik açısından önemli kılar, ama acemi kullanıcılar "
+"için bu regresyonlardan (hatalar) kaynaklı düzeltmeleri yapmak zor olabilir."
+
+#: usr/share/help/C/mintupdate/policy.page:32(p)
+msgid ""
+"The more updates you take, the more likely something will break. It might be "
+"something small, something you don't use and it might get fixed with "
+"tomorrow's updates. But what if you can't reboot? what if it breaks your "
+"drivers and you can no longer log in or connect to the Internet?"
+msgstr ""
+"Aldığınız daha fazla güncellemenin, bir şeyleri kırma olasılığı artacak. Bu "
+"küçük bir şey olabilir, kullanmadığınız bir şey ya da bir sonraki günün "
+"güncellemesinde düzeltme de gelebilir. Ama eğer, ya sistemi başlatamazsanız? "
+"Ya sürücüler kırılırsa ve oturum açamaz ya da internete bağlamazsanız?"
+
+#: usr/share/help/C/mintupdate/policy.page:34(p)
+msgid ""
+"On the the hand, if you don't update anything, you're missing bug fixes, "
+"improvements and more importantly patches for security holes."
+msgstr ""
+"Diğer yandan, eğer hiç bir güncelleme yapmazsanız, hata düzeltmelerini, "
+"iyileştirmeleri ve daha önemlisi güvenlik açıkları için yamaları "
+"kaçırabilirsiniz."
+
+#: usr/share/help/C/mintupdate/policy.page:36(p)
+msgid "When choosing an update policy, ask yourself the following questions:"
+msgstr ""
+"Bir güncelleme ilkesi seçerken, kendi kendinize aşağıdaki soruları sorunuz:"
+
+#: usr/share/help/C/mintupdate/policy.page:39(p)
+msgid ""
+"Do you need a particular software or kernel update? Are you waiting for a "
+"particular bug fix or for some hardware device to be recognized by a newer "
+"kernel?"
+msgstr ""
+"Özel bir yazılım ya da çekirdek güncellemesine ihtiyaç duyuyor musunuz? Özel "
+"bir hatanın düzeltmesini ya da bazı donanımların tanınması için yeni "
+"çekirdek sürümü bekliyor musunuz?"
+
+#: usr/share/help/C/mintupdate/policy.page:40(p)
+msgid ""
+"If things go wrong, are you experienced enough to fix your computer? Do you "
+"know how to fix boot, login, kernel and module issues?"
+msgstr ""
+"Bir terslik olduğunda, sisteminizi düzeltebilecek yeterli deneyiminiz var "
+"mı? Açılış, oturum açma ve sürücü modülleri ile ilgili sorunları nasıl "
+"çözebileceğenizi biliyor musunuz?"
+
+#: usr/share/help/C/mintupdate/policy.page:41(p)
+msgid ""
+"Can your computer be accessed by malicious people? Are there other local "
+"users on this computer or on the network? Do you run a server or anything "
+"people can connect to from the outside world?"
+msgstr ""
+"Sisteminiz kötü niyetli kimseler tarafından ulaşılabilir mi? Bu bilgisayarda "
+"ya da ağ üzerinde başka yerel kullanıcılar var mı? Bir sunucu çalıştırıyor "
+"musunuz ya da dışarıdan herhangi birisi bağlantı kurabilir mi?"
+
+#: usr/share/help/C/mintupdate/policy.page:44(p)
+msgid ""
+"Try to assess your level of experience with Linux, and your requirements "
+"when it comes to bug fixes and security."
+msgstr ""
+"Hata düzeltmeleri ve güvenlik söz konusu olduğunda, Linux'la tecrübe "
+"seviyenizi belirlemeyi deneyiniz."
+
+#: usr/share/help/C/mintupdate/policy.page:46(p)
+msgid ""
+"When you choose an update policy, some of the preferences are changed in the "
+"Update Manager. You can tune these preferences individually by clicking on "
+"the Edit-&gt;Preferences menu in the menubar."
+msgstr ""
+"Bir güvenlik ilkesi seçtiğinizde, Güncelleme Yöneticisi'ndeki bazı "
+"tercihleri değişir. Menü çubuğundaki Düzenle-&gt;Tercihler seçeneğine "
+"tıklayıp, bu tercihlere bireysel olarak ince ayar yapabilirsiniz."
+
+#: usr/share/help/C/mintupdate/index.page:14(title)
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1737
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1756
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1816
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1818
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855 generate_desktop_files:26
+#: generate_desktop_files:38
+msgid "Update Manager"
+msgstr "Güncelleme Yöneticisi"
+
+#: usr/share/help/C/mintupdate/index.page:16(p)
+msgid "Welcome to the Update Manager."
+msgstr "Güncelleme Yöneticisi'ne hoş geldiniz."
+
+#: usr/share/help/C/mintupdate/index.page:18(p)
+msgid ""
+"The Update Manager provides your operating system with software and security "
+"updates."
+msgstr ""
+"Güncelleme Yöneticisi, işletim sisteminize yazılım ve güvenlik "
+"güncellemelerini sağlar."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: usr/share/help/C/mintupdate/index.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Ali Kömesöğütlü https://launchpad.net/~byzlo685\n"
+"  Angel Spy https://launchpad.net/~dilara.ekinci\n"
+"  Cihan Ersoy https://launchpad.net/~cihan.ersoy\n"
+"  Enis https://launchpad.net/~catakenis\n"
+"  H. Fatih ATASEVER https://launchpad.net/~h-f-atasever\n"
+"  Mesut Yaver https://launchpad.net/~afg-mesut\n"
+"  Metelci https://launchpad.net/~metelci\n"
+"  Muhammet Kara https://launchpad.net/~muhammet-k\n"
+"  Yiğit Ateş https://launchpad.net/~yigitates52\n"
+"  karakartala https://launchpad.net/~karakartala1\n"
+"  kelebek333 https://launchpad.net/~kelebek333\n"
+"  oguzkirat https://launchpad.net/~oguzkirat\n"
+"  vtokmak https://launchpad.net/~vtokmak\n"
+"  Özgür BASKIN https://launchpad.net/~ozgur-baskin"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:394
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:177
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:60
 msgid "Please wait, this can take some time"
 msgstr "Lütfen bekleyin, bu işlem biraz zaman alabilir"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:290
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
 #, python-format
 msgid "The %s kernel was removed"
 msgstr "Çekirdek %s kaldırıldı"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:292
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
 #, python-format
 msgid "The %s kernel was installed"
-msgstr "Çekirdek %s yüklendi"
+msgstr "Çekirdek %s kuruldu"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:362
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:124
+msgid "Installed"
+msgstr "Kuruldu"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:132
+msgid "Recommended"
+msgstr "Önerilen"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:168
+msgid "Remove"
+msgstr "Kaldır"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:171
+msgid "This kernel cannot be removed because it is currently in use."
+msgstr "Şu anda kullanımda olduğu için bu çekirdek silinemez."
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:175
+msgid "Install"
+msgstr "Kur"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
+msgid "This kernel is not installable."
+msgstr "Bu çekirdek kurulabilir değil."
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:192
+#, python-format
+msgid "Are you sure you want to remove the %s kernel?"
+msgstr "Çekirdek %s sürümü kaldırmak istiyor musunuz?"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:194
+#, python-format
+msgid "Are you sure you want to install the %s kernel?"
+msgstr "Çekirdek %s sürümü kurmak istiyor musunuz?"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+msgid "Warning!"
+msgstr "Uyarı!"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+msgid "Proceed with caution"
+msgstr "Dikkatlice devam ediniz"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:231
+msgid ""
+"The Linux kernel is a critical part of the system. Regressions can lead to "
+"lack of networking, lack of sound, lack of graphical environment or even the "
+"inability to boot the computer. Only install or remove kernels if you are "
+"experienced with kernels, drivers, DKMS modules and you know how to recover "
+"a non-booting computer."
+msgstr ""
+"Linux çekirdeği sistemin kritik bir parçasıdır. Regresyonlar (olası hatalar) "
+"ağ, ses, grafik ortam sorunlarına ya da hatta bilgiyarınızın önyükleme "
+"yapamamasına yol açabilir. Çekirdekleri, eğer çekirdek, sürücü, DKMS "
+"modülleri ile deneyiminiz varsa ve açılmayan bir bilgisayarı nasıl "
+"kurtaracağınızı biliyorsanız yükleyip kaldırmanız önerilir."
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:232
+msgid ""
+"You can install multiple kernels on your computer and you can select the one "
+"you want to use from the advanced options in the boot menu."
+msgstr ""
+"Bilgisayarınıza birden fazla çekirdek kurabilirsiniz ve dilediğinizde ya da "
+"gerekli olduğunda önyükleme (Grub) menüsündeki gelişmiş seçenekleri "
+"kullanarak istediğiniz birini seçebilirsiniz."
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
+msgid ""
+"By default, your computer will boot with the most recent kernel installed."
+msgstr ""
+"Varsayılan olarak, bilgisayarınız kurulan en güncel çekirdek ile açılış "
+"yapacaktır."
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:234
+msgid ""
+"If you are using proprietary drivers, or DKMS modules, please be aware that "
+"they will only work with the most recent kernel installed on your computer. "
+"They get recompiled every time a new kernel is installed or removed. To use "
+"proprietary drivers or DKMS modules with one particular kernel, make sure to "
+"remove all the kernels which are more recent."
+msgstr ""
+"Eğer tescilli/sahipli bir sürücü ya da DKMS modülleri kullanıyorsanız, "
+"belirtmek isteriz ki bunlar sadece bilgisayarınızda yüklü en son çekirdek "
+"ile çalışacaklardır. Tescilli/sahipli sürücü ya da DKMS modüllerini belirli "
+"bir çekirdekle kullanmak için, bundan daha yeni tüm çekirdekleri "
+"sildiğinizden emin olunuz."
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:283
+msgid "You are currently using the following kernel:"
+msgstr "Şu an aşağıdaki çekirdeği kullanıyorsunuz:"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:50
+msgid "B"
+msgstr "B"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:52
+msgid "KB"
+msgstr "KB"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:54
+msgid "MB"
+msgstr "MB"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:56
+msgid "GB"
+msgstr "GB"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:142
+msgid "Downloading changelog..."
+msgstr "Değişiklik günlüğü indiriliyor..."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:170
+msgid "No changelog available"
+msgstr "Sürümde değişiklik mevcut değil"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:301
 msgid "This upgrade will trigger additional changes"
 msgstr "Bu güncelleme, ek değişiklikleri tetikleyecek"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:311
 msgid "The following package will be removed:"
 msgstr "Aşağıdaki paket kaldırılacak:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:374
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:313
 #, python-format
 msgid "The following %d packages will be removed:"
 msgstr "Aşağıdaki %d paketler kaldırılacak:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:402
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:342
 msgid "The following package will be installed:"
 msgstr "Aşağıdaki paket kurulacak:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:404
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:344
 #, python-format
 msgid "The following %d packages will be installed:"
-msgstr "Aşağıdaki %d paketler kurulacak:"
+msgstr "Aşağıdaki %d paket kurulacak:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:445
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:386
 msgid "Installing updates"
 msgstr "Güncellemeler kuruluyor"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:456
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:56
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:396
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:62
 msgid "Update is complete"
 msgstr "Güncelleme tamamlandı"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:494
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:619
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2251
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:432
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:610
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1096
 msgid "Checking for updates"
 msgstr "Güncellemeler kontrol ediliyor"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:518
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:455
 msgid "Could not install the security updates"
 msgstr "Güvenlik güncellemeleri kurulamadı"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:609
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:602
 msgid "Starting refresh..."
 msgstr "Yenilemeye başlıyor..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:656
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:658
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:645
 msgid "Another application is using APT"
 msgstr "Başka bir uygulama APT'yi kullanıyor"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:668
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:654
 msgid "Finding the list of updates..."
 msgstr "Güncelleme listesi aranıyor..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:681
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:687
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:668
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:674
 msgid "Your APT cache is corrupted."
 msgstr "APT önbelleğiniz bozulmuş."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:682
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:669
 msgid ""
 "Do not install or update anything, it could break your operating system!"
 msgstr ""
-"Hiç bir şey yüklemeyin ve güncelleme yapmayın, bu işletim sisteminizi "
+"Hiç bir şey kurmayın ve güncelleme yapmayın, bu işletim sisteminizi "
 "bozabilir!"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:683
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:670
 msgid "Switch to a different Linux Mint mirror to solve this situation."
 msgstr "Bu durumu çözmek için farklı bir Linux Mint yansısına geçiş yapınız."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:687
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:674
 msgid "Please switch to another Linux Mint mirror"
 msgstr "Lütfen farklı bir Linux Mint yansısına geçiş yapınız"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:697
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:748
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:750
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1026
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1032
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2364
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:681
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:723
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:998
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1227
 msgid "Could not refresh the list of updates"
 msgstr "Güncellemelerin listesi yenilenemedi"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:734
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:736
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:947
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:949
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2363
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:712
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:920
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1226
 msgid "Your system is up to date"
 msgstr "Sisteminiz güncel"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:797
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:767
 msgid "Security update"
 msgstr "Güvenlik güncellemesi"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:799
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:769
+msgid "Kernel update"
+msgstr "Çekirdek güncellemesi"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:771
 msgid ""
 "Software backport. Be careful when upgrading. New versions of sofware can "
 "introduce regressions."
 msgstr ""
 "Backport yazılımlar. Yükseltme için dikkatli olunuz. Yazılımların yeni "
-"sürümleri bazı olasılıklar taşıyabilir."
+"sürümleri bazı regresyonlar (hatalar) taşıyabilir."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:801
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:773
 msgid ""
 "Unstable software. Only apply this update to help developers beta-test new "
 "software."
@@ -153,164 +440,373 @@ msgstr ""
 "Kararsız yazılım. Bu güncellemeyi geliştiricilerin yeni yazılım beta "
 "testlerine yardım etmek istiyorsanız uygulayınız."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:803
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:775
 msgid "Software update"
 msgstr "Yazılım güncellemesi"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:916
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:896
 msgid "A new version of the update manager is available"
 msgstr "Güncelleme yöneticisinin yeni bir sürümü mevcut"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:926
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:903
 #, python-format
 msgid "1 recommended update available (%(size)s)"
 msgstr "1 önerilen güncelleme mevcut (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:905
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
 msgstr "1 önerilen güncelleme mevcut (%(size)s), 1 yoksayıldı"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:930
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:907
 #, python-format
 msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
 msgstr "1 önerilen güncelleme mevcut (%(size)s), %(ignored)d yoksayıldı"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:933
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:910
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s)"
 msgstr "%(recommended)d önerilen güncelleme mevcut (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:935
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:912
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
 msgstr "%(recommended)d önerilen güncelleme mevcut (%(size)s), 1 yoksayıldı"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:937
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:914
 #, python-format
 msgid ""
 "%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
 msgstr ""
 "%(recommended)d önerilen güncelleme mevcut (%(size)s), %(ignored)d yoksayıldı"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:987
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:957
 msgid "Do you want to switch to a local mirror?"
 msgstr "Yerel bir yansıya geçiş yapmak istiyor musunuz?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:987
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:957
 msgid "Local mirrors are usually faster than packages.linuxmint.com"
 msgstr ""
 "Yerel yansı sunucuları, packages.linuxmint.com ana yansı sunucusundan "
 "genellikle daha hızlıdır"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:997
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1003
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:962
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:974
 msgid "Please switch to another mirror"
 msgstr "Bir başka yansıya geçiş yapınız"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:997
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:962
 #, python-format
 msgid "%s is not up to date"
 msgstr "%s güncel değil"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1003
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:974
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d days ago"
 msgstr "%(mirror)s yansısı için son güncelleme %(days)d gün önce gerçekleşti"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1085
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1104
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2130
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1142
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1147
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1335
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1762
+msgid "Package"
+msgstr "Paket"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1151
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1329
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1876
+msgid "Level"
+msgstr "Seviye"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1155
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1341
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1765
+msgid "Old version"
+msgstr "Eski sürüm"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1159
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1347
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1768
+msgid "New version"
+msgstr "Yeni sürüm"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1163
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1353
+msgid "Size"
+msgstr "Boyut"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1167
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1323
+msgid "Type"
+msgstr "Tür"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1219
+msgid "Install Updates"
+msgstr "Güncellemeleri Kur"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1220
+msgid "Refresh"
+msgstr "Yenile"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1221
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1222
+msgid "Clear"
+msgstr "Temizle"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1223
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1877
+msgid "Description"
+msgstr "Açıklama"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1224
+msgid "Changelog"
+msgstr "Değişim Günlüğü"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1232
+msgid "Welcome to the Update Manager"
+msgstr "Güncelleme Yöneticisine Hoşgeldiniz"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1233
+msgid ""
+"This tool provides your operating system with software and security updates."
+msgstr ""
+"Bu araç işletim sisteminiz için yazılım ve güvenlik güncellemelerini sunar."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1234
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1589
+msgid "Please choose an update policy."
+msgstr "Lütfen bir güncelleme ilkesi seçiniz."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1235
+msgid "Don't break my computer!"
+msgstr "Sistemim kırılmasın!"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1236
+msgid "Recommended for novice users."
+msgstr "Acemi kullanıcılar için önerilir."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
+msgid ""
+"Only select updates which are known to be safe or which do not impact "
+"critical parts of the operating system."
+msgstr ""
+"Sadece güvenli olduğu bilinen ya da işletim sisteminin kritik parçalarına "
+"etkisi yoktur hangi güncelleştirmeler seçilir."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
+msgid "Don't show me updates which can harm the stability of my system."
+msgstr ""
+"Sistem kararlılığına zarar verme ihtimali olan güncellemeleri gösterme."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1238
+msgid "Optimize stability and security"
+msgstr "Kararlılık ve güvenlik optimizasyonu"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1239
+msgid "Recommended for most users."
+msgstr "Çoğu kullanıcı için önerilen seçenektir."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
+msgid "But also show me security and kernel updates."
+msgstr ""
+"Ama aynı zamanda bana güvenlik ve çekirdek güncellemelerini de göster."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1241
+msgid "Always update everything"
+msgstr "Daima herşeyi güncelle"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1242
+msgid "Recommended for experienced users."
+msgstr "Deneyimli kullanıcılar için önerilir."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
+msgid "Select all available updates."
+msgstr "Tüm güncellemeler seçilir."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
+msgid ""
+"Keep my computer fully up to date. If a regression breaks something, I'll "
+"fix it."
+msgstr ""
+"Bilgisayarımı tamamen güncel tut. Eğer bir regresyon (hata) birşeyi kırarsa, "
+"bunu düzeltebileceğim."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1247
+msgid "_File"
+msgstr "_Dosya"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1253
+msgid "Close"
+msgstr "Kapat"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1257
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1262
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1269
+msgid "Software sources"
+msgstr "Yazılım kaynakları"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1274
+msgid "Update policy"
+msgstr "Güncelleme ilkesi"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1298
+#, python-format
+msgid "Upgrade to %s"
+msgstr "%s sürümüne yükselt"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1302
+msgid "_View"
+msgstr "_Görünüm"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1307
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1756
+msgid "History of updates"
+msgstr "Güncelleme geçmişi"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1311
+msgid "Linux kernels"
+msgstr "Linux çekirdekleri"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1315
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1737
+msgid "Information"
+msgstr "Bilgi"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1319
+msgid "Visible columns"
+msgstr "Görünen sütunlar"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1361
+msgid "Show descriptions"
+msgstr "Açıklamaları göster"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1377
+msgid "_Help"
+msgstr "_Yardım"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1383
+msgid "Contents"
+msgstr "İçindekiler"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1390
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1816
+msgid "About"
+msgstr "Hakkında"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1487
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1506
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1628
 msgid "No updates selected"
 msgstr "Hiçbir güncelleme seçilmedi"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1106
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2132
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1508
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1630
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgstr "%(selected)d güncelleme seçildi (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1108
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2134
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1510
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1632
 #, python-format
 msgid "%(selected)d updates selected (%(size)s)"
 msgstr "%(selected)d güncelleme seçildi (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1402
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1556
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1625
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1671
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2257 generate_desktop_files:25
-#: generate_desktop_files:37
-msgid "Update Manager"
-msgstr "Güncelleme Yöneticisi"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1650
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1693
+#, python-format
+msgid "This update contains %d packages: "
+msgstr "Bu güncelleme %d paket içerir: "
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1402
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2382
-msgid "Preferences"
-msgstr "Tercihler"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1653
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1696
+msgid "This update contains 1 package: "
+msgstr "Bu güncelleme 1 paket içerir: "
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1404
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1669
+msgid "Ignore updates for this package"
+msgstr "Bu paket için güncellemeleri yoksay"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1740
+msgid "Process ID:"
+msgstr "İşlem ID:"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1741
+msgid "Log file:"
+msgstr "Günlük dosyası:"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1759
+msgid "Date"
+msgstr "Tarih"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1870
+msgid "Options"
+msgstr "Seçenekler"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1871
 msgid "Levels"
 msgstr "Seviyeler"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1405
-msgid "Auto-Refresh"
-msgstr "Otomatik-Yenile"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
+msgid "Auto-refresh"
+msgstr "Otomatik yenileme"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1406
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2292
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2437
-msgid "Level"
-msgstr "Seviye"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
+msgid "Blacklisted packages"
+msgstr "Karalistedeki paketler"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1407
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2360
-msgid "Description"
-msgstr "Açıklama"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1408
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "Tested?"
 msgstr "Test edildi mi?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1409
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1879
 msgid "Origin"
 msgstr "Kaynak"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1410
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1880
 msgid "Safe?"
 msgstr "Güvenli mi?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1411
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1881
 msgid "Visible?"
 msgstr "Görünür mü?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1412
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1882
 msgid ""
 "Certified updates. Tested through Romeo or directly maintained by Linux Mint."
 msgstr ""
 "Sertifikalı güncellemeler. Romeo deposu ile test edilmiş ya da doğrudan "
 "Linux Mint tarafından sağlanmış."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1413
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1883
 msgid "Recommended updates. Tested and approved by Linux Mint."
 msgstr ""
 "Önerilen günellemeler. Linux Mint tarafından test edilmiş onaylanmış."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1414
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1884
 msgid "Safe updates. Not tested but believed to be safe."
 msgstr ""
 "Güvenli güncellemeler. Test edilmemiş ama güvenli olduğuna inandığımız."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1415
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1885
 msgid "Unsafe updates. Could potentially affect the stability of the system."
 msgstr ""
 "Güvensiz güncellemeler. Sistem stabilitesini etkileme potansiyeli olabilir."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1416
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1886
 msgid ""
 "Dangerous updates. Known to affect the stability of the systems depending on "
 "certain specs or hardware."
@@ -318,26 +814,22 @@ msgstr ""
 "Tehlikeli güncellemeler. Belirli özelliklere veya donanımlara bağlı "
 "sistemlerin kararlılığını etkilediği bilinmektedir."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1417
-msgid "Linux Mint"
-msgstr "Linux Mint"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1418
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1419
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1420
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1421
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1888
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1889
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1890
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1891
 msgid "Upstream"
-msgstr "Yukarı Akış"
+msgstr "Ana Kaynak"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1422
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1892
 msgid "First, refresh the list of updates after:"
 msgstr "İlk güncelleme listesi yenileme gecikmesi:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1423
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1893
 msgid "Then, refresh the list of updates every:"
 msgstr "Sonraki güncelleme listesi yenileme sıklığı:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1424
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1894
 msgid ""
 "Note: The list only gets refreshed while the update manager window is closed "
 "(system tray mode)."
@@ -345,56 +837,7 @@ msgstr ""
 "Not: Güncelleme listesi sadece Güncelleme Yöneticisi penceresi "
 "kapatıldığında (sistem tepsisi kipinde) yenilenir."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1426
-msgid "Options"
-msgstr "Seçenekler"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1427
-msgid "Icons"
-msgstr "Simgeler"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1428
-msgid "Icon"
-msgstr "Simge"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1429
-msgid "Status"
-msgstr "Durum"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1430
-msgid "New Icon"
-msgstr "Yeni Simge"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1431
-msgid "Busy"
-msgstr "Meşgul"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1432
-msgid "System up-to-date"
-msgstr "Sistem güncel"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1433
-msgid "Updates available"
-msgstr "Güncellemeler mevcut"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1434
-msgid "Error"
-msgstr "Hata"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1435
-msgid "Unknown state"
-msgstr "Durum bilinmiyor"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1436
-msgid "Applying updates"
-msgstr "Güncellemeler uygulanıyor"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1437
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1498
-msgid "Ignored updates"
-msgstr "Yoksayılan güncellemeler"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1439
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1896
 msgid ""
 "Include updates which require the installation of new packages or the "
 "removal of installed packages"
@@ -402,354 +845,81 @@ msgstr ""
 "Güncellemelerin kapsamı, yeni paketlerin kurulumunu ya da kurulu paketlerin "
 "kaldırılmasını gerektirir"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1440
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1897
 msgid "Hide the update manager after applying updates"
 msgstr "Güncellemeler uygulandıktan sonra güncelleme yöneticisini gizle"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1441
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1898
 msgid "Only show a tray icon when updates are available or in case of errors"
 msgstr ""
 "Sistem çekmecesi simgesini, sadece güncellemeler olduğunda ya da hata "
 "durumunda göster"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1442
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1899
 msgid "Don't suggest to switch to a local mirror"
 msgstr "Yerel bir yansı sunucusuna geçiş için öneri sunulmasın"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1471
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1900
 msgid "Always show security updates"
 msgstr "Güvenlik güncellemelerini daima göster"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1472
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1901
 msgid "Always select and trust security updates"
 msgstr "Güvenlik güncellemelerini daima seç ve güven."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1474
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
+msgid "Always show kernel updates"
+msgstr "Çekirdek güncelemelerini daima göster"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1903
+msgid "Always select and trust kernel updates"
+msgstr "Çekirdek güncellemelerini daima seç ve güven"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
 msgid "minutes"
 msgstr "dakika"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1475
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1905
 msgid "hours"
 msgstr "saat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1476
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1906
 msgid "days"
 msgstr "gün"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1524
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1907
+msgid "Cancel"
+msgstr "İptal"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1908
+msgid "Apply"
+msgstr "Uygula"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1949
+msgid "Ignored updates"
+msgstr "Yoksayılan güncellemeler"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2012
 msgid "Please specify the name of the update to ignore:"
 msgstr "Lütfen yoksayılacak güncellemenin adını belirtin:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1525
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2013
 msgid "Ignore an update"
 msgstr "Bir güncellemeyi yoksay"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1529
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2017
 msgid "Name:"
 msgstr "İsim :"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1556
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2418
-msgid "History of updates"
-msgstr "Güncelleme geçmişi"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1559
-msgid "Date"
-msgstr "Tarih"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1562
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2288
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2443
-msgid "Package"
-msgstr "Paket"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1565
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2296
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2449
-msgid "Old version"
-msgstr "Eski sürüm"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1568
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2300
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2455
-msgid "New version"
-msgstr "Yeni sürüm"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1625
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2424
-msgid "Information"
-msgstr "Bilgi"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1628
-msgid "Process ID:"
-msgstr "İşlem ID:"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1629
-msgid "Log file:"
-msgstr "Günlük dosyası:"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1647
-#, python-format
-msgid "Are you sure you want to remove the %s kernel?"
-msgstr "Çekirdek %s sürümü kaldırmak istiyor musunuz?"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1649
-#, python-format
-msgid "Are you sure you want to install the %s kernel?"
-msgstr "Çekirdek %s sürümü yüklemek istiyor musunuz?"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1671
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2421
-msgid "Linux kernels"
-msgstr "Linux çekirdekleri"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1679
-msgid "Warning!"
-msgstr "Uyarı!"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1680
-msgid ""
-"The Linux kernel is a critical part of the system. Regressions can lead to "
-"lack of networking, lack of sound, lack of graphical environment or even the "
-"inability to boot the computer. Only install or remove kernels if you're "
-"experienced with kernels, drivers, dkms and you know how to recover a non-"
-"booting computer."
-msgstr ""
-"Linux çekirdeği sistemin kritik bir parçasıdır. Olasılıklar ağ, ses, grafik "
-"ortam eksikliği ya da bilgisayarın başlatılması ile ilgili sorunlara yol "
-"açabilir. Eğer çekirdek, sürücüler, dkms ve açılmayan sisteminizi nasıl "
-"kurtaracağınız hakkında deneyim sahibi iseniz yükleyip silmeniz önerilebilir."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1681
-msgid "The following kernels are available:"
-msgstr "Aşağıdaki çekirdekler kullanılabilir:"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1682
-msgid "More info..."
-msgstr "Daha fazla bilgi..."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1684
-msgid ""
-"Fixes can represent bug fixes, improvements in hardware support or security "
-"fixes."
-msgstr ""
-"Düzeltmeler (fixes), hata (bug) düzeltmelerini, donanım desteği ile ilgili "
-"gelişmeleri ve güvenlik düzeltmelerini ifade edebilir."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1685
-msgid ""
-"Security fixes are important when local users represent a potential threat "
-"(in companies, libraries, schools or public places for instance) or when the "
-"computer can be threatened by remote attacks (servers for instance)."
-msgstr ""
-"Güvenlik düzeltmeleri, (örneğin şirketler, kütüphaneler, okullar ya da halka "
-"açık alanlardaki) yerel kullanıcılar için potansiyel bir tehditi ifade "
-"ettiği ya da (örneğin sunucular için) bilgisayar uzaktan saldırı tehdidi "
-"altında olabileceği için önemlidir."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1686
-msgid ""
-"Bug fixes and hardware improvements are important if one of your devices "
-"isn't working as expected and the newer kernel addresses that problem."
-msgstr ""
-"Hata düzeltmeleri ve donanım iyileştirmeleri çalışmayan bir sürücünüzün "
-"olması durumunda önemlidir, daha yeni çekirdeğin bu sorunu gidermesi "
-"beklenebilir."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1687
-msgid ""
-"Regressions represent something which worked well and no longer works after "
-"an update. It is common in software development that a code change or even a "
-"bug fix introduces side effects and breaks something else. Because of "
-"regressions it is recommended to be selective when installing updates or "
-"newer kernels."
-msgstr ""
-"Olasılıklar, çalıştığı halde bir güncellemeden sonra artık çalışmayan bir "
-"durumu temsil eder. Bu yazılım geliştirmede yaygın olarak görülebilen, bir "
-"kod değişiminin ya da bir düzeltmenin bir başka özelliği etkilemesi ya da "
-"kırması durumudur. Olasılıklar, güncelemeler ve yeni çekirdek yüklenirken "
-"seçici olunmasını tavsiye eder."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1689
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1714
-msgid "Fixes"
-msgstr "Düzeltmeler"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1690
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1718
-msgid "Regressions"
-msgstr "Olasılıklar"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1691
-msgid ""
-"Note: Only known fixes and regressions are mentioned. If you are aware of "
-"additional fixes or regressions, please contact the development team."
-msgstr ""
-"Not: Sadece bilinen düzeltme ve olasılıklardan bahsedilmektedir. Eğer ek "
-"düzeltme ya da olasılıklar farketti iseniz geliştirici ekibe başvurunuz."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1698
-msgid "Version"
-msgstr "Sürüm"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1702
-msgid "Loaded"
-msgstr "Yüklendi"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1706
-msgid "Recommended"
-msgstr "Önerilen"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1710
-msgid "Installed"
-msgstr "Kuruldu"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1791
-msgid "Install"
-msgstr "Yükle"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1795
-msgid "Remove"
-msgstr "Kaldır"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1847
-#, python-format
-msgid "Remove the %s kernel"
-msgstr "%s çekirdeğini kaldır"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1849
-msgid "This kernel cannot be removed because it is currently in use."
-msgstr "Şu anda kullanımda olduğu için bu çekirdek silinemez."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1853
-#, python-format
-msgid "Install the %s kernel"
-msgstr "%s çekirdeğini yükle"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
-msgid "This kernel is not installable."
-msgstr "Bu çekirdek yüklenebilir değil."
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2495
-msgid "About"
-msgstr "Hakkında"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2058
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2088
-#, python-format
-msgid "This update contains %d packages: "
-msgstr "Bu güncelleme %d paket içerir: "
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2061
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2091
-msgid "This update contains 1 package: "
-msgstr "Bu güncelleme 1 paket içerir: "
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2137
-msgid "B"
-msgstr "B"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2139
-msgid "KB"
-msgstr "KB"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2141
-msgid "MB"
-msgstr "MB"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2143
-msgid "GB"
-msgstr "GB"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2172
-msgid "Ignore updates for this package"
-msgstr "Bu paket için güncellemeleri yoksay"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2283
-msgid "Upgrade"
-msgstr "Yükselt"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2304
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2461
-msgid "Size"
-msgstr "Boyut"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2308
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2431
-msgid "Type"
-msgstr "Tür"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2356
-msgid "Install Updates"
-msgstr "Güncellemeleri Kur"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2357
-msgid "Refresh"
-msgstr "Yenile"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2358
-msgid "Select All"
-msgstr "Tümünü Seç"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2359
-msgid "Clear"
-msgstr "Temizle"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2361
-msgid "Changelog"
-msgstr "Değişim Günlüğü"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2370
-msgid "_File"
-msgstr "_Dosya"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2374
-msgid "Close"
-msgstr "Kapat"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2378
-msgid "_Edit"
-msgstr "_Düzenle"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2388
-msgid "Software sources"
-msgstr "Yazılım kaynakları"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2410
-#, python-format
-msgid "Upgrade to %s"
-msgstr "%s sürümüne yükselt"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2414
-msgid "_View"
-msgstr "_Görünüm"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2427
-msgid "Visible columns"
-msgstr "Görünen sütunlar"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2469
-msgid "Show descriptions"
-msgstr "Açıklamaları göster"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2484
-msgid "_Help"
-msgstr "_Yardım"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2489
-msgid "Contents"
-msgstr "İçindekiler"
-
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:18
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:20
 msgid "System Upgrade"
 msgstr "Sistem Yükseltme"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:30
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:32
 msgid "Introduction"
 msgstr "Giriş"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:34
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:36
 msgid ""
 "Your system is missing critical components. A package corresponding to your "
 "edition of Linux Mint should provide the virtual package 'mint-info' and the "
@@ -759,24 +929,24 @@ msgstr ""
 "paketi ve /etc/linuxmint/info dosyası tarafından Linux Mint sürümünüz "
 "tanımlanmalıdır."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:47
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:49
 msgid "No upgrades were found."
 msgstr "Hiçbir yükseltme bulunamadı"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:55
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:58
 msgid "A new version of Linux Mint is available!"
 msgstr "Linux Mint'in yeni bir sürümü mevcut"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:65
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:68
 #, python-format
 msgid "An upgrade was found but it is not available yet for the %s edition."
 msgstr "Bir yükseltme bulundu ama %s sürümü için henüz kullanılabilir değil."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:74
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:77
 msgid "Release notes"
 msgstr "Sürüm notları"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:81
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:84
 msgid ""
 "Please read the release notes before upgrading. They explain all the known "
 "issues, workarounds and solutions associated with the new version."
@@ -784,51 +954,51 @@ msgstr ""
 "Lütfen yükseltme öncesi sürüm notlarını okuyunuz. Burası tüm bilinen "
 "sorunları, geçici çözümleri ve yeni sürümle ilgili çözümleri açıklar."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:85
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:88
 #, python-format
 msgid "Release notes for %s"
 msgstr "%s için sürüm notları"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:88
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:91
 msgid "Click on the link to open the release notes."
 msgstr "Sürüm notlarını açmak için bağlantıya tıklayınız."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:96
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:99
 msgid "New features"
 msgstr "Yeni özellikler"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:103
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:106
 msgid "Please look at the new features introduced in the new version."
 msgstr "Yeni sürümdeki, yeni özelliklerin tanıtımlarına göz atabilirsiniz."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:107
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:110
 #, python-format
 msgid "New features in %s"
 msgstr "%s yeni özellikleri"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:110
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:113
 msgid "Click on the link to browse the new features."
 msgstr "Yeni özellikleri açmak için bağlantıya tıklayın."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:118
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:121
 msgid "Requirements"
 msgstr "Gereksinimler"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:128
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:131
 #, python-format
 msgid "The package %s needs to be installed before upgrading."
-msgstr "Yükseltme öncesinde %s paketinin yüklemesi gerekmekte."
+msgstr "Yükseltme öncesinde %s paketinin kurulması gerekmekte."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:132
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:135
 #, python-format
 msgid "Install %s"
 msgstr "Kur: %s"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:137
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:140
 msgid "Click on the button to install the missing package."
-msgstr "Eksik paketlerin yüklenmesi için düğmeye tıklayın."
+msgstr "Eksik paketlerin kurulması için düğmeye tıklayın."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:151
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:154
 msgid ""
 "New releases provide bug fixes and new features but they also sometimes "
 "introduce new issues. Upgrading always represents a risk. Your data is safe "
@@ -839,20 +1009,20 @@ msgstr ""
 "ihtiva edebilir. Verileriniz güvendedir ama yeni olası sorunların işletim "
 "sisteminizi etkileme ihtimali de vardır."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:155
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:158
 #, python-format
 msgid "I understand the risk. I want to upgrade to %s."
 msgstr "Riski anladım. %s sürümüne yükseltmek istiyorum."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:165
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:168
 msgid "Summary"
 msgstr "Özet"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:176
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:179
 msgid "The package was installed"
 msgstr "Paket kuruldu"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:262
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:265
 msgid ""
 "Your operating system was successfully upgraded. Please reboot your computer "
 "for all changes to take effect."
@@ -860,7 +1030,7 @@ msgstr ""
 "İşletim sisteminiz başarıyla yükseltildi. Tüm değişikliklerin etkili "
 "olabilmesi için lütfen sisteminizi yeniden başlatınız."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:271
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:274
 msgid ""
 "The upgrade did not succeed. Make sure you are connected to the Internet and "
 "try to upgrade again."
@@ -868,7 +1038,7 @@ msgstr ""
 "Yükseltme başarılı olmadı. İnternete bağlı olduğunuzdan emin olunuz ve "
 "yükseltmeyi tekrar deneyiniz."
 
-#: generate_desktop_files:25 generate_desktop_files:37
+#: generate_desktop_files:26 generate_desktop_files:38
 msgid "Show and install available updates"
 msgstr "Mevcut güncellemeleri göster ve kur"
 
@@ -885,6 +1055,9 @@ msgstr "Yükseltmeyi gerçekleştirmek için şifrenizi giriniz"
 #~ msgid "Could not download safety rules"
 #~ msgstr "Güvenlik seviyesi kuralları indirilemedi"
 
+#~ msgid "Auto-Refresh"
+#~ msgstr "Otomatik-Yenile"
+
 #~ msgid "Safe packages. Not tested but believed to be safe."
 #~ msgstr "Güvenli paketler. Test edilmedi fakat güvenli olduğuna inanıyoruz."
 
@@ -897,11 +1070,26 @@ msgstr "Yükseltmeyi gerçekleştirmek için şifrenizi giriniz"
 #~ msgid "Recommended packages. Tested and approved by Linux Mint."
 #~ msgstr "Önerilen paketler. Linux Mint tarafından test edildi ve onaylandı."
 
+#~ msgid "New Icon"
+#~ msgstr "Yeni Simge"
+
 #~ msgid "No"
 #~ msgstr "Hayır"
 
 #~ msgid "Update Method"
 #~ msgstr "Güncelleme Yöntemi"
+
+#~ msgid "Busy"
+#~ msgstr "Meşgul"
+
+#~ msgid "Status"
+#~ msgstr "Durum"
+
+#~ msgid "Icon"
+#~ msgstr "Simge"
+
+#~ msgid "Icons"
+#~ msgstr "Simgeler"
 
 #~ msgid "Proxy"
 #~ msgstr "Vekil Sunucu"
@@ -911,6 +1099,12 @@ msgstr "Yükseltmeyi gerçekleştirmek için şifrenizi giriniz"
 
 #~ msgid "Use the same proxy for all protocols"
 #~ msgstr "Tüm protokoller için aynı vekil sunucuyu kullan"
+
+#~ msgid "System up-to-date"
+#~ msgstr "Sistem güncel"
+
+#~ msgid "Error"
+#~ msgstr "Hata"
 
 #~ msgid "Ignored packages"
 #~ msgstr "Yoksayılan paketler"
@@ -1028,3 +1222,6 @@ msgstr "Yükseltmeyi gerçekleştirmek için şifrenizi giriniz"
 
 #~ msgid "Refresh the list of updates every:"
 #~ msgstr "Güncelleme listesi yenileme aralığı:"
+
+#~ msgid "Updates available"
+#~ msgstr "Güncellemeler mevcut"

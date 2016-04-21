@@ -7,43 +7,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 17:30+0000\n"
-"PO-Revision-Date: 2015-11-07 17:08+0000\n"
+"POT-Creation-Date: 2016-01-20 17:54+0000\n"
+"PO-Revision-Date: 2016-02-17 19:28+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:13+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:35
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:175
-msgid "About"
-msgstr "Apie"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:39
-msgid "Domain blocker"
-msgstr "Interneto sričių (domenų) blokiklis"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:60
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:22
 msgid "Please type the domain name you want to block"
 msgstr "Prašome įvesti sritį, kurią norite užblokuoti"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:60
-msgid "Domain name:"
-msgstr "Interneto srities (domeno) pavadinimas:"
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:23
+msgid "Domain name"
+msgstr "Domeno pavadinimas"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:70
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:45
 msgid "Invalid Domain"
 msgstr "Neteisinga sritis"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:71
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:47
 #, python-format
-msgid "'%s' is not a valid domain name."
-msgstr "\"%s\" nėra teisingas srities pavadinimas."
+msgid "%s is not a valid domain name."
+msgstr "%s nėra teisingas domeno pavadinimas."
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:72
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:48
 msgid ""
 "Domain names must start and end with a letter or a digit, and can only "
 "contain letters, digits, dots and hyphens."
@@ -51,30 +42,18 @@ msgstr ""
 "Srities pavadinimas turi prasidėti ir užsibaigti raide arba skaičiumi ir "
 "jame gali būti tik raidės, skaičiai, taškai ir brūkšneliai."
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:73
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:49
 msgid "Example: my.number1domain.com"
 msgstr "Pavyzdys: mano.skaičius1sritis.com"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:129 generate_desktop_files:25
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:107 generate_desktop_files:25
 #: generate_desktop_files:39
 msgid "Domain Blocker"
 msgstr "Interneto sričių (domenų) blokiklis"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:135
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:113
 msgid "Blocked domains"
 msgstr "Blokuojamos sritys (domenai)"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:163
-msgid "_File"
-msgstr "_Failas"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:167
-msgid "Close"
-msgstr "Užverti"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:171
-msgid "_Help"
-msgstr "_Pagalba"
 
 #: generate_desktop_files:25 generate_desktop_files:39
 msgid "Block access to selected domain names"
@@ -83,3 +62,21 @@ msgstr "Drausti priėjimą prie pasirinktų interneto sričių (domenų)"
 #: generate_desktop_files:39
 msgid "Parental Control"
 msgstr "Tėviška kontrolė"
+
+#~ msgid "_Help"
+#~ msgstr "_Pagalba"
+
+#~ msgid "About"
+#~ msgstr "Apie"
+
+#~ msgid "Close"
+#~ msgstr "Užverti"
+
+#~ msgid "_File"
+#~ msgstr "_Failas"
+
+#~ msgid "Domain blocker"
+#~ msgstr "Interneto sričių (domenų) blokiklis"
+
+#~ msgid "Domain name:"
+#~ msgstr "Interneto srities (domeno) pavadinimas:"

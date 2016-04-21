@@ -7,43 +7,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 17:30+0000\n"
-"PO-Revision-Date: 2015-11-14 16:36+0000\n"
+"POT-Creation-Date: 2016-01-20 17:54+0000\n"
+"PO-Revision-Date: 2016-04-08 13:20+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:13+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:35
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:175
-msgid "About"
-msgstr "Am"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:39
-msgid "Domain blocker"
-msgstr "Rhwystro parth"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:60
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:22
 msgid "Please type the domain name you want to block"
 msgstr "Teipiwch yr enw parth rydych am ei rwystro"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:60
-msgid "Domain name:"
-msgstr "Enw parth:"
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:23
+msgid "Domain name"
+msgstr "Enw parth"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:70
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:45
 msgid "Invalid Domain"
 msgstr "Parth Annilys"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:71
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:47
 #, python-format
-msgid "'%s' is not a valid domain name."
-msgstr "Nid yw '%s' yn enw parth dilys."
+msgid "%s is not a valid domain name."
+msgstr "Nid yw %s yn enw parth dilys."
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:72
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:48
 msgid ""
 "Domain names must start and end with a letter or a digit, and can only "
 "contain letters, digits, dots and hyphens."
@@ -51,30 +42,18 @@ msgstr ""
 "Rhaid i enw parth gychwyn a gorffen gyda llythyren neu rif a gall gynnwys "
 "dim ond llythrennau, rhifau, dotiau a chyplysnodau."
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:73
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:49
 msgid "Example: my.number1domain.com"
 msgstr "Enghraifft: fy.mharthrhif1.cymru"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:129 generate_desktop_files:25
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:107 generate_desktop_files:25
 #: generate_desktop_files:39
 msgid "Domain Blocker"
 msgstr "Rhwystro Parth"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:135
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:113
 msgid "Blocked domains"
 msgstr "Parthau sy wedi'i rhwystro"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:163
-msgid "_File"
-msgstr "_Ffeil"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:167
-msgid "Close"
-msgstr "Cau"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:171
-msgid "_Help"
-msgstr "_Cymorth"
 
 #: generate_desktop_files:25 generate_desktop_files:39
 msgid "Block access to selected domain names"
@@ -83,3 +62,21 @@ msgstr "Rhwystro mynediad i'r enwau parth sy wedi'i dewis"
 #: generate_desktop_files:39
 msgid "Parental Control"
 msgstr "Rheoli Rhieni"
+
+#~ msgid "_File"
+#~ msgstr "_Ffeil"
+
+#~ msgid "Close"
+#~ msgstr "Cau"
+
+#~ msgid "_Help"
+#~ msgstr "_Cymorth"
+
+#~ msgid "Domain name:"
+#~ msgstr "Enw parth:"
+
+#~ msgid "About"
+#~ msgstr "Am"
+
+#~ msgid "Domain blocker"
+#~ msgstr "Rhwystro parth"

@@ -9,15 +9,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-07-09 12:34+0000\n"
-"Last-Translator: BALLOON a.k.a. Fu-sen. <Unknown>\n"
+"PO-Revision-Date: 2016-03-05 11:05+0000\n"
+"Last-Translator: dan domina <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:14+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:38+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -34,7 +34,7 @@ msgstr "%(partition)s を %(mountpoint)s にマウントしています"
 msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
-msgstr ""
+msgstr "エラー:  最初にターゲットのファイルシステムを/targetにマウントして カスタムインストールを実行して下さい"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -43,6 +43,8 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"エラー: インストールメディアに問題があります  LMDE と互換性がないツール（YUMIやその他のマルチブートツール）が通常 原因です  "
+"ISOイメージを他のツールでDVD/USBに焼きこんで下さい"
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -60,7 +62,7 @@ msgstr "%s にあるメタ情報を復元しています"
 
 #: usr/lib/live-installer/installer.py:231
 msgid "Entering the system ..."
-msgstr ""
+msgstr "システムを起動しています"
 
 #: usr/lib/live-installer/installer.py:273
 msgid "Removing live configuration (packages)"
@@ -102,7 +104,7 @@ msgstr "ブートローダーをインストールしています"
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
-msgstr "警告: grub ブートローダーが正しく設定されていません! 手動で設定する必要があります。"
+msgstr "警告: grub ブートローダーが正しく設定されていません！ 手動で設定する必要があります。"
 
 #: usr/lib/live-installer/installer.py:498
 msgid "Cleaning APT"
@@ -127,7 +129,7 @@ msgstr "予期しないエラーが発生しました"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
-msgstr ""
+msgstr "インストーラは次のエラーで失敗しました。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:75
 #: usr/lib/live-installer/frontend/gtk_interface.py:77
@@ -158,7 +160,7 @@ msgstr "パーティション構成"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr ""
+msgstr "手動でのパーティション管理を確認してください"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -174,7 +176,7 @@ msgstr "Linux Mint をインストール..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Installation paused: please finish the custom installation"
-msgstr ""
+msgstr "インストール一時停止中：カスタムインストールを完了してください"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:114
 msgid "Country"
@@ -194,7 +196,7 @@ msgstr "他の画像を参照..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:170
 msgid "Select timezone"
-msgstr ""
+msgstr "タイムゾーンを選択"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
@@ -261,7 +263,7 @@ msgstr "ホスト名"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr ""
+msgstr "このホスト名は、ネットワーク上でのコンピュータ名になります。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
@@ -271,7 +273,7 @@ msgstr "自動ログイン"
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
-msgstr ""
+msgstr "有効にすると システム起動時にログイン画面をスキップし 自動的デスクトップセッションに入ります"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
@@ -315,7 +317,7 @@ msgstr "モデル名"
 msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
-msgstr "手動によるパーティション管理を選択しました。この機能は「詳しいユーザー向け」です。"
+msgstr "手動によるパーティション管理を選択しました。この機能は「上級者ユーザー向け」です。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
@@ -330,23 +332,23 @@ msgstr "/dev /proc /sys /etc などの仮想デバイスを /target/ にマウ�
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
-msgstr ""
+msgstr "インストール中  /target に対し chrooｔを実行し 新しいシステムに必要なパッケージをインストール する時間が与えられます"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
-msgstr ""
+msgstr "インストール中 自分で/etc/fstabを記述する必要があります"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
-msgstr ""
+msgstr "この意味がはっきりしない場合は 戻って手動でのパーテション設定の選択を外して下さい"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
-msgstr ""
+msgstr "次のことを実行し 次 をクリックして インストールを終了して下さい"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -478,11 +480,11 @@ msgstr "ホスト名に空白を使用できません。"
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
-msgstr ""
+msgstr "始める前に ルート (/) パーティションをフォーマットするファイルシステムを指定して下さい"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr ""
+msgstr "ルート (/) パーティションを選択して下さい"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -493,6 +495,12 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"リナックスミントをインストールするにはルート パーティションが必要です\n"
+"\n"
+" - マウントポイント: /\n"
+" - 推奨サイズ: 30GB\n"
+" - 推奨ファイルシステム形式: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
@@ -509,7 +517,7 @@ msgstr "EFI パーティションは VFAT でフォーマットして下さい�
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr ""
+msgstr "EFI パーティションを選択して下さい"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -524,6 +532,13 @@ msgid ""
 "partition of the disk as the EFI system partition.\n"
 " "
 msgstr ""
+"EFI システムパーティションには次の要件が必要です\n"
+"\n"
+" -  マウントポイント:  /boot/efi\n"
+" - パーティション フラッグ :  Bootable\n"
+" - サイズ: 100MB以上\n"
+" - 形式: vfat あるいは fat32\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:879
 msgid "Localization"
@@ -629,15 +644,15 @@ msgstr "編集"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr ""
+msgstr "/ にアサイン"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr ""
+msgstr "/homeにアサイン"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr ""
+msgstr "/boot/efiにアサイン"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
@@ -674,10 +689,12 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"ハードドライブ : %s にパーティションが見つかりません インストーラーがパーティションのセットを作成することを望みますか？ 注意： "
+"このディスクに存在する全てのデータが削除されます"
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "論理パーティション"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"

@@ -7,43 +7,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-06 17:30+0000\n"
-"PO-Revision-Date: 2015-11-08 21:52+0000\n"
+"POT-Creation-Date: 2016-01-20 17:54+0000\n"
+"PO-Revision-Date: 2016-01-21 17:27+0000\n"
 "Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:13+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:35
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:175
-msgid "About"
-msgstr "Über"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:39
-msgid "Domain blocker"
-msgstr "Internetsperre"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:60
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:22
 msgid "Please type the domain name you want to block"
 msgstr "Bitte den zu sperrenden Domänennamen eingeben"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:60
-msgid "Domain name:"
-msgstr "Domänenname:"
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:23
+msgid "Domain name"
+msgstr "Domänenname"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:70
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:45
 msgid "Invalid Domain"
 msgstr "Ungültige Domäne"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:71
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:47
 #, python-format
-msgid "'%s' is not a valid domain name."
-msgstr "»%s« ist kein gültiger Domänenname."
+msgid "%s is not a valid domain name."
+msgstr "%s ist kein zulässiger Domänenname"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:72
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:48
 msgid ""
 "Domain names must start and end with a letter or a digit, and can only "
 "contain letters, digits, dots and hyphens."
@@ -52,30 +43,18 @@ msgstr ""
 "enden, und dürfen nur aus Buchstaben, Ziffern, Punkten und Bindestrichen "
 "bestehen."
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:73
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:49
 msgid "Example: my.number1domain.com"
 msgstr "Beispiel: meine.nummer1domäne.de"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:129 generate_desktop_files:25
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:107 generate_desktop_files:25
 #: generate_desktop_files:39
 msgid "Domain Blocker"
 msgstr "Internetsperre"
 
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:135
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:113
 msgid "Blocked domains"
 msgstr "Gesperrte Domänen"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:163
-msgid "_File"
-msgstr "_Datei"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:167
-msgid "Close"
-msgstr "Schließen"
-
-#: usr/lib/linuxmint/mintNanny/mintNanny.py:171
-msgid "_Help"
-msgstr "_Hilfe"
 
 #: generate_desktop_files:25 generate_desktop_files:39
 msgid "Block access to selected domain names"
@@ -84,3 +63,21 @@ msgstr "Zugriff auf ausgewählten Domänennamen sperren"
 #: generate_desktop_files:39
 msgid "Parental Control"
 msgstr "Kindersicherung"
+
+#~ msgid "_File"
+#~ msgstr "_Datei"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "_Help"
+#~ msgstr "_Hilfe"
+
+#~ msgid "About"
+#~ msgstr "Über"
+
+#~ msgid "Domain name:"
+#~ msgstr "Domänenname:"
+
+#~ msgid "Domain blocker"
+#~ msgstr "Internetsperre"

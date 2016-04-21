@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-05-15 11:22+0000\n"
+"PO-Revision-Date: 2016-04-07 19:19+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:14+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:38+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -33,7 +33,7 @@ msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
 msgstr ""
-"ПОМИЛКА: Ви повинні спочатку вручну змонтувати вашу цільову файлову "
+"ПОМИЛКА: Ви повинні спочатку вручну змонтувати Вашу цільову файлову "
 "систему(и) в /target щоб зробити вибіркове встановлення!"
 
 #: usr/lib/live-installer/installer.py:135
@@ -44,9 +44,9 @@ msgid ""
 "tool."
 msgstr ""
 "ПОМИЛКА: Щось не так із середовищем встановлення! Зазвичай це стається через "
-"інструменти пропалювання, які не сумісні з LMDE (YUMI та інші multiboot-"
-"інструменти). Будь ласка, пропаліть ISO-образ на DVD/USB використовуючи "
-"інший інструмент."
+"знаряддя пропалювання, які не сумісні з LMDE (YUMI та інші multiboot-"
+"знаряддя). Будь ласка, пропаліть ISO-образ на DVD/USB використовуючи інше "
+"знаряддя."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -164,7 +164,7 @@ msgstr "Розмітка"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr "Будь ласка, переконайтеся, що ви бажаєте керувати розділами вручну"
+msgstr "Будь ласка, переконайтеся, що Ви бажаєте керувати розділами вручну"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -189,11 +189,11 @@ msgstr "Країна"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:126
 msgid "Click to change your picture"
-msgstr "Натисніть, щоб змінити свою фотографію"
+msgstr "Натисніть, щоб змінити свою світлину"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:128
 msgid "Take a photo..."
-msgstr "Зробити фотографію…"
+msgstr "Зробити світлину…"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:131
 msgid "Browse for more pictures..."
@@ -244,7 +244,7 @@ msgstr "Ваше повне ім'я"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Please enter your full name."
-msgstr "Уведіть ваше повне ім'я."
+msgstr "Уведіть Ваше повне ім'я."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid "Your username"
@@ -270,7 +270,8 @@ msgstr "Ім'я комп'ютера"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr "Це ім'я хосту буде ім'я комп'ютера у мережі."
+msgstr ""
+"Це ім’я буде використовуватися для ідентифікації комп’ютера у мережі."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
@@ -290,14 +291,14 @@ msgstr "Входити автоматично"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:403
 msgid "Your picture"
-msgstr "Ваше зображення"
+msgstr "Ваша мармизка"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:404
 msgid ""
 "This picture represents your user account. It is used in the login screen "
 "and a few other places."
 msgstr ""
-"Це зображення представляє Ваш обліковий запис. Воно використовується в "
+"Це зображення представляє Ваш обліковий запис. Мармизка використовується на "
 "екрані входу та кількох інших місцях."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:407
@@ -342,28 +343,29 @@ msgstr ""
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
-"Не монтуйте віртуальні пристрої, такі як /dev, /proc, /sys, etc on /target/."
+"Не монтуйте віртуальні пристрої, такі як /dev, /proc, /sys, etc в /target/."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
-"Під час встановлення, час буде приділено chroot кореневим /target і "
-"встановлені усі пакунки, які будуть необхідні, щоб почати нову систему."
+"Під час встановлення Ви зможете включити chroot мод (операція обмеження "
+"кореневого каталогу) та встановити усі проґрами, необхідні для завантаження "
+"нової системи."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
 msgstr ""
-"Під час встановлення, вам буде потрібно написати свій власний /etc/fstab."
+"Під час встановлення, Вам буде потрібно написати свій власний /etc/fstab."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
-"Якщо ви не впевнені, що усе це означає, будь ласка, поверніться назад і "
+"Якщо Ви не впевнені, що усе це означає, будь ласка, поверніться назад і "
 "скасуйте ручне керування розділами."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
@@ -410,9 +412,9 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
-"Двічі переконайтеся, що ваш /target/etc/fsta правильний, відповідає тому, "
+"Двічі переконайтеся, що Ваш /target/etc/fsta правильний, відповідає тому, "
 "який Ваша нова система буде мати при першому завантаженні, і відповідає "
-"тому, що в даний час встановлений на /target."
+"тому, що на даний час встановлений на /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -470,7 +472,7 @@ msgstr "Паролі збігаються."
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 #: usr/lib/live-installer/partitioning.py:217
 msgid "Installation Tool"
-msgstr "Інструмент встановлення"
+msgstr "Знаряддя встановлення"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:714
 msgid "Please choose a language"
@@ -547,7 +549,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:816
 msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "Розділ EFI замалий. Він має бути не менше 100 Мб."
+msgstr "Розділ EFI замалий. Він має бути не меншим за 100 Мб."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:821
 #: usr/lib/live-installer/frontend/gtk_interface.py:825
@@ -645,7 +647,7 @@ msgstr "Не встановлювати завантажувач"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr "Використання вже встановлений /target."
+msgstr "Використовувати вже встановлений /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
@@ -673,7 +675,7 @@ msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
-"Встановлення зараз призупинено. Будь ласка, прочитайте інструкції на "
+"Наразі встановлення призупинено. Будь ласка, прочитайте інструкції на "
 "сторінці перед натисканням кнопки Вперед, щоб завершити встановлення."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
@@ -736,8 +738,8 @@ msgid ""
 "DATA present on this disk."
 msgstr ""
 "На жорсткому диску: %s , не знайдено таблиці розділів. Бажаєте щоб "
-"встановлювач створив розділи за Вас? Зауваження: Це ЗІТРЕ УСЮ ІНФОРМАЦІЮ на "
-"цьому жорсткому диску."
+"встановлювач створив розділи за Вас? Застереження: Це ЗІТРЕ УСЮ ІНФОРМАЦІЮ "
+"на цьому жорсткому диску."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"

@@ -2,20 +2,21 @@
 # Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-30 16:37+0100\n"
-"PO-Revision-Date: 2015-06-17 10:42+0000\n"
-"Last-Translator: Slobodan Simić <Unknown>\n"
-"Language-Team: Serbian <sr@li.org>\n"
+"PO-Revision-Date: 2016-04-01 02:09+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:12+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
+"Language: sr\n"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:30
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:14
@@ -23,31 +24,31 @@ msgstr ""
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:73
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:103
 msgid "Upload Manager"
-msgstr "Менаџер отпремања"
+msgstr "Управник отпремања"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:71
 #, python-format
 msgid "The upload to '%(service)s' was cancelled"
-msgstr "Отпремање на '%(service)s' је одложено"
+msgstr "Отпремање на „%(service)s“ је одложено"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:83
 #, python-format
 msgid "Upload to '%s' failed: "
-msgstr "Отпремање на '%s' није успело "
+msgstr "Отпремање на „%s“ није успело "
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:89
 #, python-format
 msgid "Successfully uploaded %(number)d files to '%(service)s'"
-msgstr "Успешно отпремљене %(number)d датотеке на '%(service)s'"
+msgstr "Датотеке (%(number)d) су успешно отпремљене на „%(service)s“"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:91
 #, python-format
 msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr "Успешно отпремљена 1 датотека на '%(service)s'"
+msgstr "Успешно је отпремљена 1 датотека на „%(service)s“"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:102
 msgid "Do you want to cancel this upload?"
-msgstr "Желиш ли да откажеш ово отпремање?"
+msgstr "Да ли желите да откажете ово отпремање?"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:103
 msgid "Cancel"
@@ -64,31 +65,32 @@ msgstr "Откажи отпремање"
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:127
 #, python-format
 msgid "Uploading %(number)d files to %(service)s"
-msgstr "Сервис %(service)s, отпрема се датотека: %(number)d"
+msgstr "Отпремам %(number)d датотеке на „%(service)s“"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:128
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:236
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr "%(percentage)s од %(number)d датотека - отпремам на %(service)s"
+msgstr "%(percentage)s од %(number)d датотека — отпремам на „%(service)s“"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:130
 #, python-format
 msgid "Uploading 1 file to %(service)s"
-msgstr "Отпремам 1 датотеку на сервис %(service)s"
+msgstr "Отпремам 1 датотеку на „%(service)s“"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:131
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:238
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr "%(percentage)s од 1 датотеке - отпремам на сервис %(service)s"
+msgstr "%(percentage)s од 1 датотеке — отпремам на „%(service)s“"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:149
 #, python-format
 msgid ""
 "%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
 msgstr ""
-"%(size_so_far)s од %(total_size)s - %(time_remaining)s остало (%(speed)s/sec)"
+"%(size_so_far)s од %(total_size)s — преостало време %(time_remaining)s "
+"(%(speed)s/сек)"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:151
 #, python-format
@@ -119,7 +121,7 @@ msgstr "GB"
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:191
 #, python-format
 msgid "%(hours)d hours, %(minutes)d minutes"
-msgstr "%(hours)d сати, %(minutes)d минута"
+msgstr "%(hours)d сата, %(minutes)d минута"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:193
 #, python-format
@@ -129,22 +131,22 @@ msgstr "1 сат, %d минута"
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:195
 #, python-format
 msgid "%(minutes)d minutes, %(seconds)d seconds"
-msgstr "%(minutes)d минута, %(seconds)d секунди"
+msgstr "%(minutes)d минута, %(seconds)d секунде"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:197
 #, python-format
 msgid "1 minute, %d seconds"
-msgstr "1 минут, %d секунди"
+msgstr "1 минут, %d секунде"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:199
 #, python-format
 msgid "%d seconds"
-msgstr "%d секунди"
+msgstr "%d секунде"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:229
 #, python-format
 msgid "Unknown service: %s"
-msgstr "Непознати сервис: %s"
+msgstr "Непозната услуга: %s"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:82
 msgid "KiB"
@@ -160,7 +162,7 @@ msgstr "GiB"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:123
 msgid "File larger than service's maximum"
-msgstr "Датотека је већа од  дозвољене величине"
+msgstr "Датотека је већа од дозвољене величине"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:133
 msgid "Could not get available space"
@@ -168,7 +170,7 @@ msgstr "Немам податак о слободном простору"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:136
 msgid "File larger than service's available space"
-msgstr "Датотека је већа од доступног простора сервиса"
+msgstr "Датотека је већа од доступног простора услуге"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:160
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:297
@@ -184,7 +186,7 @@ msgstr "веза је успешно успостављена"
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:188
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:230
 msgid "Uploading the file..."
-msgstr "Отпремање датотеке..."
+msgstr "Отпремам датотеку..."
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:212
 msgid "This service requires a password or private key."
@@ -192,40 +194,41 @@ msgstr "Ова услуга захтева лозинку или приватн�
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:264
 msgid "This service requires a password."
-msgstr "Овај сервис захтева лозинку."
+msgstr "Ова услуга захтева лозинку."
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:290
 msgid "URL:"
-msgstr "УРЛ:"
+msgstr "Адреса:"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:334
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:338
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr ""
-"%(1)s није подешен у конфигурационој датотеци пронађеној под %(2)s или %(3)s"
+"„%(1)s“ није постављен у датотеци подешавања пронађеној под „%(2)s“ или "
+"„%(3)s“"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:82
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:30
 msgid "Upload services"
-msgstr "Сервиси отпремања"
+msgstr "Услуге отпремања"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:97
 msgid "Services:"
-msgstr "Сервиси:"
+msgstr "Услуге:"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:110
 msgid "Upload manager..."
-msgstr "Менаџер отпремања..."
+msgstr "Управник отпремања..."
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:176
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
-msgstr "Превуци и пусти овде да отпремите на %s"
+msgstr "Превуците и убаците овде да отпремите на „%s“"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:15
 msgid "Define upload services"
-msgstr "Одредите сервисе за отпремање"
+msgstr "Одредите услуге отпремања"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:47
 msgid "_File"
@@ -237,7 +240,7 @@ msgstr "Затвори"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:55
 msgid "_Help"
-msgstr "_Помоћ"
+msgstr "По_моћ"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:59
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:69
@@ -246,7 +249,7 @@ msgstr "О програму"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:105
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr "<b>Унесите име за нови сервис отпремања:</b>"
+msgstr "<b>Унесите назив за нову услугу отпремања:</b>"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:109
 msgid "Service name:"
@@ -254,12 +257,12 @@ msgstr "Назив услуге:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:111
 msgid "<i>Try to avoid spaces and special characters...</i>"
-msgstr "<i>Покушајте да избегнете размак и посебне знакове...</i>"
+msgstr "<i>Покушајте да не користите размаке и посебне знакове...</i>"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:169
 #, python-format
 msgid "%s Properties"
-msgstr "%s Својства"
+msgstr "Својства за „%s“"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:172
 msgid "Advanced settings"
@@ -271,7 +274,7 @@ msgstr "Провери повезаност"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:178
 msgid "Type:"
-msgstr "Тип:"
+msgstr "Врста:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:179
 msgid "Host:"
@@ -291,7 +294,7 @@ msgstr "Лозинка:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:183
 msgid "Timestamp:"
-msgstr "Временски формат:"
+msgstr "Време:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:184
 msgid "Path:"
@@ -300,17 +303,17 @@ msgstr "Путања:"
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:186
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:187
 msgid "Hostname or IP address, default: "
-msgstr "Име домаћина или IP адреса, подразумевано: "
+msgstr "Назив домаћина или ИП адреса, подразумевано: "
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:190
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:191
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
-msgstr "Удаљени прикључак је подразумевано 21 за FTP, 22 за FTP и SCP"
+msgstr "Удаљени прикључак је подразумевано 21 за ФТП, 22 за ФТП и СЦП"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:194
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:195
 msgid "Username, defaults to your local username"
-msgstr "Корисничко име, подразумева Ваше локално корисничко име"
+msgstr "Корисничко име, подразумева се ваше локално корисничко име"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:198
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:199
@@ -318,13 +321,13 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
-"Лозинка је подразумевана: без лозинке за SCP повезивање, null-string зa FTP, "
-"~/.ssh кључеви за SFTP повезивање"
+"Лозинка, подразумева се: без лозинке за СЦП везу, празна ниска зa ФТП, "
+"„~/.ssh“ кључеви за СФТП везе"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:202
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:203
 msgid "Timestamp format (strftime). By default:"
-msgstr "Временски формат -  подразумевано:"
+msgstr "Временски формат. Подразумевано:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:206
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:207
@@ -332,12 +335,12 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
-"Директоријум за отпремање <TIMESTAMP> је замењен са тренутном временом "
-"ознаком, на основу задатог временског формата. Подразумевано:"
+"Директоријум за отпремање. <TIMESTAMP> је замењен тренутном временском "
+"ознаком, на основу задатог временског формата. Подразумевано: ."
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:265
 msgid "Could not save configuration change"
-msgstr "Подешавања нису сачувана"
+msgstr "Не могу да сачувам измене у подешавањима"
 
 #, python-format
 #~ msgid "Upload to %s failed: "

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-09-19 10:09+0100\n"
-"PO-Revision-Date: 2015-06-17 10:58+0000\n"
-"Last-Translator: Slobodan Simić <Unknown>\n"
+"PO-Revision-Date: 2016-03-30 19:52+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <sr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:18+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:42+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
 #: lib/mintstick.py:276 lib/mintstick.py:278
 msgid "The USB stick was formatted successfully."
@@ -24,7 +24,7 @@ msgstr "УСБ је успешно форматиран."
 #: lib/mintstick.py:281
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Дошло је до грешке приликом прављења партиције на %s"
+msgstr "Дошло је до грешке приликом прављења партиције на „%s“."
 
 #: lib/mintstick.py:283 lib/mintstick.py:370
 msgid "Authentication Error."
@@ -45,16 +45,16 @@ msgstr "УСБ диск:"
 #: lib/mintstick.py:328
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
-msgstr "Уписујем %(VAR_FILE)s на %(VAR_DEV)s"
+msgstr "Уписујем „%(VAR_FILE)s“ на „%(VAR_DEV)s“"
 
 #: lib/mintstick.py:329
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
-msgstr "Почињем копирање %(VAR_SOURCE)s на %(VAR_TARGET)s"
+msgstr "Почињем умножавање „%(VAR_SOURCE)s“ на „%(VAR_TARGET)s“"
 
 #: lib/mintstick.py:361 lib/mintstick.py:363
 msgid "The image was successfully written."
-msgstr "Одраз је успешно уписан."
+msgstr "Одраз је успешно записан."
 
 #: lib/mintstick.py:366
 msgid "Not enough space on the USB stick."
@@ -62,35 +62,35 @@ msgstr "Нема довољно простора на УСБ диску."
 
 #: lib/mintstick.py:368
 msgid "An error occured while copying the image."
-msgstr "Дошло је до грешке приликом копирања одраза."
+msgstr "Дошло је до грешке приликом умножавања одраза."
 
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: share/mintstick/mintstick.glade.h:28
 msgid "USB Image Writer"
-msgstr "Уписивање одраза на УСБ"
+msgstr "Уписивач одраза на УСБ диск"
 
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: generate_additional_files.py:94
 msgid "Make a bootable USB stick"
-msgstr "Направите бутабилан УСБ"
+msgstr "Направите подизни УСБ диск"
 
 #: generate_additional_files.py:73 generate_additional_files.py:85
 #: share/mintstick/mintstick.glade.h:4
 msgid "USB Stick Formatter"
-msgstr "Форматирање за УСБ"
+msgstr "Форматер за УСБ диск"
 
 #: generate_additional_files.py:73 generate_additional_files.py:85
 #: generate_additional_files.py:104
 msgid "Format a USB stick"
-msgstr "Форматирај УСБ диск"
+msgstr "Форматирајте УСБ диск"
 
 #: generate_additional_files.py:94
 msgid "Make bootable USB stick"
-msgstr "Направи бутабилан УСБ"
+msgstr "Направи подизни УСБ диск"
 
 #: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
 msgid "Format"
-msgstr "Формат"
+msgstr "Форматирај"
 
 #: share/mintstick/mintstick.glade.h:1
 msgid " "
@@ -100,12 +100,12 @@ msgstr " "
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr "Ово ће уништити све податке на УСБ диску. Желите да наставите?"
+msgstr "Ово ће уништити све податке на УСБ диску. Да ли желите да наставите?"
 
 #: share/mintstick/mintstick.glade.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr "Нешто није у реду. Погледајте  прозор детаља за грешке."
+msgstr "Нешто није у реду. Погледајте прозор детаља за грешке."
 
 #: share/mintstick/mintstick.glade.h:5
 msgid "Format:"
@@ -138,28 +138,28 @@ msgid ""
 "   - Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
 "FAT32 \n"
-"   + Усклађен са свима.\n"
-"   -   Не може управљати са датотекама већим од 4GB.\n"
+"   + Сагласан било где.\n"
+"   -  Не може управљати са датотекама већим од 4GB.\n"
 "\n"
 "NTFS \n"
-"  + Усклађен са Виндоузом.\n"
-"   - Није усклађен са Меком и већином хардверских уређаја.\n"
-"   - Повремени проблеми усклађености са Линуксом (NTFS је власнички и "
-"омогућен је обрнутим инжењерингом).\n"
+"  + Сагласан са Виндоузом.\n"
+"   - Није сагласан са Меком и већином хардверских уређаја.\n"
+"   - Повремени проблеми сагласности са Линуксом (НТФС је власнички и урађен "
+"је обрнутим инжењерингом).\n"
 "\n"
 "EXT4 \n"
 "\n"
 "  + Модеран, стабилан, брз.\n"
-"  + Подршка за Линукс датотечне дозволе.\n"
-"   - Није усклађен са Виндоузом, Меком и већином хардверских уређаја.\n"
+"  + Подржава овлашћења датотека Линукса.\n"
+"   - Није сагласан са Виндоузом, Меком и већином хардверских уређаја.\n"
 
 #: share/mintstick/mintstick.glade.h:23
 msgid "Volume label:"
-msgstr "Ознака уређаја:"
+msgstr "Натпис уређаја:"
 
 #: share/mintstick/mintstick.glade.h:24
 msgid "Choose a name for your USB Stick"
-msgstr "Одаберите назив за свој УСБ уређај"
+msgstr "Изаберите назив за свој УСБ диск"
 
 #: share/mintstick/mintstick.glade.h:25
 msgid "USB Stick"
@@ -167,7 +167,7 @@ msgstr "УСБ диск"
 
 #: share/mintstick/mintstick.glade.h:26
 msgid "Details"
-msgstr "Детаљи"
+msgstr "Појединости"
 
 #: share/mintstick/mintstick.glade.h:29
 msgid "Write image:"
@@ -175,11 +175,11 @@ msgstr "Упиши одраз:"
 
 #: share/mintstick/mintstick.glade.h:30
 msgid "Select an image"
-msgstr "Одаберите одраз"
+msgstr "Изаберите одраз"
 
 #: share/mintstick/mintstick.glade.h:31
 msgid "Select Image"
-msgstr "Изаберите одраз"
+msgstr "Изабери одраз"
 
 #: share/mintstick/mintstick.glade.h:32
 msgid "to"

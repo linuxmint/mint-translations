@@ -3,40 +3,40 @@
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 # Саша Петровић <salepetronije@gmail.com>, 2014, 2015.
-#
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-06-18 10:03+0000\n"
-"Last-Translator: Slobodan Simić <Unknown>\n"
-"Language-Team: српски <xfce4@xfce4.org>\n"
+"PO-Revision-Date: 2016-04-02 07:42+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:14+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:38+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 "Language: sr\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr "Форматирам %(partition)s као %(format)s ..."
+msgstr "Форматирам „%(partition)s“ као „%(format)s“ ..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
-msgstr "Монтирам %(partition)s на %(mountpoint)s"
+msgstr "Монтирам „%(partition)s“ на „%(mountpoint)s“"
 
 #: usr/lib/live-installer/installer.py:127
 msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
 msgstr ""
-"ГРЕШКА: Морате прво да монтирате циљни фајл-систем(е) на /target да урадите "
-"посебну инсталацију!"
+"ГРЕШКА: Морате прво да монтирате циљни систем датотека на „/target“ да "
+"обавите произвољну инсталацију!"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -45,23 +45,23 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
-"ГРЕШКА: Нешто није у реду са инсталационим медијом! Ово се обично дешава ако "
-"се реже са програмом који није усаглашен са ЛМДЕ-ом (ЈУМИ или слични алати). "
+"ГРЕШКА: Нешто није у реду са инсталационим диском! До овога долази ако се "
+"реже са програмом који није усаглашен са ЛМДЕ-ом (ЈУМИ или слични алати). "
 "Нарежите ИСО одраз на ДВД/УСБ помоћу другог програма."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
-msgstr "Индексирам фајлове за копирање..."
+msgstr "Индексирам датотеке за умножавање..."
 
 #: usr/lib/live-installer/installer.py:179
 #, python-format
 msgid "Copying %s"
-msgstr "Копирам %s"
+msgstr "Умножавам „%s“"
 
 #: usr/lib/live-installer/installer.py:221
 #, python-format
 msgid "Restoring meta-information on %s"
-msgstr "Враћам мета-податак на %s"
+msgstr "Враћам мета-податак на „%s“"
 
 #: usr/lib/live-installer/installer.py:231
 msgid "Entering the system ..."
@@ -77,15 +77,15 @@ msgstr "Додајем новог корисника систему"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr "Уписујем податке за качење система датотека у /etc/fstab"
+msgstr "Уписујем податке за качење система датотека у „/etc/fstab“"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
-msgstr "Постављам име домаћина"
+msgstr "Постављам назив рачунара"
 
 #: usr/lib/live-installer/installer.py:393
 msgid "Setting locale"
-msgstr "Постављам локалитет"
+msgstr "Постављам језик"
 
 #: usr/lib/live-installer/installer.py:407
 msgid "Localizing packages"
@@ -108,8 +108,8 @@ msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
 msgstr ""
-"УПОЗОРЕЊЕ: Подизач система није правилно подешен. Морате да га подесите "
-"ручно."
+"УПОЗОРЕЊЕ: Подизач система није правилно подешен! Морате ручно да га "
+"подесите."
 
 #: usr/lib/live-installer/installer.py:498
 msgid "Cleaning APT"
@@ -122,11 +122,11 @@ msgstr "Инсталација је завршена"
 
 #: usr/lib/live-installer/installer.py:532
 msgid "Configuring bootloader"
-msgstr "Подешавам подизач система"
+msgstr "Подешавам подизача система"
 
 #: usr/lib/live-installer/installer.py:541
 msgid "Checking bootloader"
-msgstr "Проверавам подизач система"
+msgstr "Проверавам подизача система"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
@@ -165,7 +165,7 @@ msgstr "Уређивање партиција"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr "За ручно управљање партицијама морате бити сигурни шта радите"
+msgstr "Добро размислите ако будете одлучили да ручно управљате партицијама"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -173,7 +173,7 @@ msgstr "Напредне опције"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:99
 msgid "Summary"
-msgstr "Резиме"
+msgstr "Сажетак"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:100
 msgid "Installing Linux Mint..."
@@ -189,7 +189,7 @@ msgstr "Држава"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:126
 msgid "Click to change your picture"
-msgstr "Кликните за измену своје слике"
+msgstr "Кликните да измените своје слике"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:128
 msgid "Take a photo..."
@@ -232,7 +232,7 @@ msgstr "Преглед"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr "Прорачунавам индексе датотека ..."
+msgstr "Израчунавам индексе датотека ..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -244,7 +244,7 @@ msgstr "Име и презиме"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Please enter your full name."
-msgstr "Унесите ваше пуно име."
+msgstr "Унесите ваше име и презиме."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid "Your username"
@@ -260,31 +260,31 @@ msgstr "Лозинка"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:395
 msgid "Please enter your password twice to ensure it is correct."
-msgstr "Унесите лозинку два пута да би били сигурни да је тачно унета."
+msgstr "Унесите лозинку два пута да се уверите да је тачно унета."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Hostname"
-msgstr "Име домаћина"
+msgstr "Домаћин"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr "Име домаћина ће бити име рачунара на мрежи."
+msgstr "Овај назив домаћина биће назив рачунара на мрежи."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
-msgstr "Самостална пријава"
+msgstr "Аутоматска пријава"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:399
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
 msgstr ""
-"Ако је омогућено, екран за пријаву се неће приказивати при учитавању "
-"система, и бићете пријављени на сесију радног окружења."
+"Ако је укључено, екран за пријаву се неће приказивати приликом покретања "
+"система а ви ћете одмах бити пријављени на сесију радног окружења."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
-msgstr "Самостално ме пријави"
+msgstr "Пријави ме без лозинке"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:403
 msgid "Your picture"
@@ -308,7 +308,7 @@ msgstr "Подизач система"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:411
 msgid "Install GRUB"
-msgstr "Инсталирај ГРУБ"
+msgstr "Инсталирај Груб"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
@@ -327,30 +327,34 @@ msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
 msgstr ""
-"Изабрали сте да управљате партицијама ручно, а то је намењено САМО НАПРЕДНИМ "
+"Изабрали сте ручно управљање партицијама, а то је намењено САМО НАПРЕДНИМ "
 "КОРИСНИЦИМА."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
-msgstr "Пре наставка монтирајте циљни систем(е) датотека на /target."
+msgstr "Пре наставка монтирајте циљни систем датотека на „/target“."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
-msgstr "Не монтирајте виртуелне уређаје попут /dev, /proc, /sys, на /target/"
+msgstr ""
+"Не монтирајте виртуелне уређаје као што је „/dev“, „/proc“, „/sys“, на "
+"„/target/“"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
-"Током инсталације, моћићете да одрадите chroot у /target и инсталирате "
-"пакете који су неопходни за подизање новог система."
+"Током инсталације, имаћете времена да промените корени директоријум у "
+"„/target“ и да инсталирате пакете који су неопходни за подизање вашег новог "
+"система."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
-msgstr "Током инсталације мораћете да направите сопствени /etc/fstab"
+msgstr ""
+"Током инсталације мораћете да направите сопствену датотеку „/etc/fstab“."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
@@ -363,7 +367,7 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
-msgstr "Урадите следеће и кликните на Напред ради завршетка инсталације:"
+msgstr "Урадите следеће и кликните на „Напред“ да завршите инсталацију:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -371,9 +375,9 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
-"Направите /target/etc/fstab за системе датотека јер ће они бити монтирани на "
-"нови систем, тако да се поклапају са тренутно монтираним на /target (без "
-"коришћења префикса /target у њиховој путањи монтирања)."
+"Направите „/target/etc/fstab“ за системе датотека јер ће они бити монтирани "
+"на новом систему, тако да се поклапају са тренутно монтираним на „/target“ "
+"(без коришћења префикса „/target“ у њиховој путањи монтирања)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -383,7 +387,7 @@ msgid ""
 msgstr ""
 "Инсталирајте пакете који могу да вам затребају при првом покретању (mdadm, "
 "cryptsetup, dmraid, итд.) позивањем наредбе „sudo chroot /target“ и "
-"наставите уградњом програма помоћу apt-get/aptitude."
+"наставите уградњу програма помоћу „apt-get/aptitude“."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:430
 msgid ""
@@ -391,9 +395,10 @@ msgid ""
 "as dm-crypt), you may need to have drives currently mounted using the same "
 "block device name as they appear in /target/etc/fstab."
 msgstr ""
-"Обратите пажњу да ради успешног извршења наредбе update-initramfs, у неким "
-"случајевима (као што је употреба dm-crypt-а), чврсти дискови требају да буду "
-"прикачени на исти блок уређај где се јављају у  датотеци /target/etc/fstab."
+"Знајте да ради успешног извршења наредбе „update-initramfs“, у неким "
+"случајевима (као што је употреба „dm-crypt“-а), чврсти дискови треба да буду "
+"прикачени на истом блок уређају као што се јављају у датотеци "
+"„/target/etc/fstab“."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:431
 msgid ""
@@ -401,8 +406,8 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
-"Проверите да ли је датотека /target/etc/fstab исправна и да ли се поклапа са "
-"новим системом који је тренутно прикачен на /target."
+"Проверите да ли је датотека „/target/etc/fstab“ исправна и да ли се поклапа "
+"са новим системом који је тренутно прикачен на „/target“."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -468,7 +473,7 @@ msgstr "Изаберите језик"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr "Упишите пуно име."
+msgstr "Упишите ваше име и презиме."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
@@ -484,7 +489,7 @@ msgstr "Лозинке се не поклапају."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr "Упишите име домаћина."
+msgstr "Упишите назив домаћина."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
@@ -492,23 +497,23 @@ msgstr "Корисничко име мора бити малим словима.
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr "Корисничко име не сме да има размаке."
+msgstr "Корисничко име не сме да садржи размаке."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr "Име домаћина мора да буде малим словима."
+msgstr "Назив домаћина мора да буде малим словима."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr "Име домаћина не сме да садржи размаке."
+msgstr "Назив домаћина не сме да садржи размаке."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
 msgstr ""
-"Пре почетка, изаберите фајл-систем којим ће се форматирати корена (/) "
-"партиција"
+"Пре почетка, изаберите систем датотека који ће бити форматиран као корена "
+"(/) партиција."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
@@ -525,14 +530,14 @@ msgid ""
 msgstr ""
 "Потребна је корена партиција за уградњу Линукс Минта.\n"
 "\n"
-" - Тачка качења: /\n"
-" - Препоручена величина: 30GB\n"
-" - Препоручени фајл-систем: ext4\n"
+" — Тачка качења: /\n"
+" — Препоручена величина: 30GB\n"
+" — Препоручени систем датотека: ext4\n"
 " "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
-msgstr "ЕФИ партиција није бутабилна. Уредите заставице партиције."
+msgstr "ЕФИ партиција није подизна. Уредите заставице партиције."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:816
 msgid "The EFI partition is too small. It must be at least 100MB."
@@ -541,7 +546,7 @@ msgstr "ЕФИ партиција је премала. Мора да буде б
 #: usr/lib/live-installer/frontend/gtk_interface.py:821
 #: usr/lib/live-installer/frontend/gtk_interface.py:825
 msgid "The EFI partition must be formatted as vfat."
-msgstr "ЕФИ партиција мора да буде форматирана као vfat."
+msgstr "ЕФИ партиција мора да буде форматирана као „vfat“."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
@@ -562,10 +567,10 @@ msgid ""
 msgstr ""
 "ЕФИ системска партиција мора да испуни следеће захтеве:\n"
 "\n"
-" - Тачка качења: /boot/efi\n"
-" - Заставица: бутабилна\n"
-" - Величина: већа од 100MB\n"
-" - Формат: vfat или fat32\n"
+" — Тачка качења: /boot/efi\n"
+" — Заставица: подизна\n"
+" — Величина: већа од 100MB\n"
+" — Формат: „vfat“ или „fat32“\n"
 "\n"
 "Ради усклађености са Виндоузом препоручујемо да користите прву партицију "
 "диска за ЕФИ системску партицију.\n"
@@ -577,7 +582,7 @@ msgstr "Локализација"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:880
 msgid "Language: "
-msgstr "Језик "
+msgstr "Језик: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:881
 msgid "Timezone: "
@@ -613,11 +618,11 @@ msgstr "искључена"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:889
 msgid "System settings"
-msgstr "Поставке система"
+msgstr "Подешавања система"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:890
 msgid "Hostname: "
-msgstr "Име домаћина "
+msgstr "Назив домаћина: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:891
 msgid "Filesystem operations"
@@ -626,7 +631,7 @@ msgstr "Радње над системом датотека"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr "Инсталрирај подизач система на %s"
+msgstr "Инсталрирај подизач система на „%s“"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
@@ -634,17 +639,17 @@ msgstr "Не инсталирај подизач система"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr "Користи већ монтирани /target."
+msgstr "Користи већ монтирани „/target“."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr "Форматирај %(path)s као %(filesystem)s"
+msgstr "Форматирај „%(path)s“ као „%(filesystem)s“"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr "Монтирај %(path)s као %(mount)s"
+msgstr "Монтирај „%(path)s“ као „%(mount)s“"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
@@ -655,7 +660,7 @@ msgstr "Грешка инсталације"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr "Инсталација паузирана"
+msgstr "Инсталација је паузирана"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
@@ -663,15 +668,15 @@ msgid ""
 "carefully before clicking Forward to finish the installation."
 msgstr ""
 "Инсталација је паузирана. Пажљиво прочитајте упутства пре него што кликнете "
-"„Напред“ за завршетак инсталације."
+"„Напред“ да завршите инсталацију."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
 msgstr ""
-"Инсталација је сада завршена. Желите ли да поново покренете рачунар и "
-"користите новоинсталирани систем?"
+"Инсталација је сада завршена. Да ли желите поново да покренете рачунар и "
+"користите ново инсталирани систем?"
 
 #: usr/lib/live-installer/partitioning.py:129
 msgid "Edit"
@@ -679,15 +684,15 @@ msgstr "Уреди"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr "Додели за /"
+msgstr "Додели за „/“"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr "Додели за /home"
+msgstr "Додели за „/home“"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr "Додели за /boot/efi"
+msgstr "Додели за „/boot/efi“"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
@@ -724,8 +729,8 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
-"Нема табеле партиција на диску: %s. Желите ли да је инсталациони програм "
-"направи за вас? Напомена: ово ће ОБРИСАТИ СВЕ ПОДАТКЕ на диску.."
+"Нема табеле партиција на диску: %s. Да ли желите да је инсталациони програм "
+"направи? Напомена: ово ће ОБРИСАТИ СВЕ ПОДАТКЕ на диску."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
@@ -749,7 +754,7 @@ msgstr "Уређај:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr "Форматирати као:"
+msgstr "Форматирај као:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"

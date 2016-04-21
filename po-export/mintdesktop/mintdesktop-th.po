@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-14 15:44+0100\n"
-"PO-Revision-Date: 2015-11-17 11:55+0000\n"
+"PO-Revision-Date: 2016-03-05 11:51+0000\n"
 "Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-28 10:14+0000\n"
-"X-Generator: Launchpad (build 17850)\n"
+"X-Launchpad-Export-Date: 2016-04-21 14:38+0000\n"
+"X-Generator: Launchpad (build 17995)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -47,6 +47,9 @@ msgid ""
 "Marco is the default window manager for the MATE desktop environment. It is "
 "very stable and very reliable. It can run with or without compositing."
 msgstr ""
+"Marco คือโปรแกรมจัดการหน้าต่างปริยายสำหรับสภาพแวดล้อมพื้นโต๊ะของ MATE "
+"ซึ่งมีความเสถียรและทำงานได้อย่างน่าไว้ใจมาก "
+"สามารถทำงานโดยที่จะจัดองค์ประกอบของหน้าต่างหรือไม่ก็ได้"
 
 #: usr/share/help/C/mintdesktop/wms.page:23(p)
 msgid ""
@@ -66,6 +69,9 @@ msgid ""
 "Metacity was the default window manager for the GNOME 2 desktop environment. "
 "It is very stable and very reliable. It can run with or without compositing."
 msgstr ""
+"Metacity คือโปรแกรมจัดการหน้าต่างปริยายสำหรับสภาพแวดล้อมพื้นโต๊ะ GNOME 2 "
+"ซึ่งมีความเสถียรและทำงานได้อย่างน่าไว้ใจมาก "
+"สามารถทำงานโดยที่จะจัดองค์ประกอบของหน้าต่างหรือไม่ก็ได้"
 
 #: usr/share/help/C/mintdesktop/wms.page:29(p)
 msgid ""
@@ -85,6 +91,9 @@ msgid ""
 "Xfwm4 is the default window manager for the Xfce desktop environment. It is "
 "very stable and very reliable. It can run with or without compositing."
 msgstr ""
+"Xfwm4 คือโปรแกรมจัดการหน้าต่างปริยายสำหรับสภาพแวดล้อมพื้นโต๊ะ Xfce "
+"ซึ่งมีความเสถียรและทำงานได้อย่างน่าไว้ใจมาก "
+"สามารถทำงานโดยที่จะจัดองค์ประกอบของหน้าต่างหรือไม่ก็ได้"
 
 #: usr/share/help/C/mintdesktop/wms.page:35(p)
 msgid ""
@@ -105,6 +114,9 @@ msgid ""
 "amazing effects and animations. It is however the least reliable and the "
 "least stable."
 msgstr ""
+"Compiz เป็นโปรแกรมจัดการหน้าต่างที่น่าทึ่งมาก สามารถปรับแต่งได้หลากหลาย "
+"โดยมีเอฟเฟกต์และแอนิเมชันให้เลือกได้มากมาย "
+"แต่ความเสถียรและความน่าไว้ใจในการทำงานมีค่อนข้างน้อย"
 
 #: usr/share/help/C/mintdesktop/wms.page:41(p)
 msgid ""
@@ -123,6 +135,9 @@ msgid ""
 "managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
 "known to reduce screen tearing."
 msgstr ""
+"Compton คือโปรแกรมจัดการองค์ประกอบ ใช้ในการทำงานร่วมกับโปรแกรมจัดการหน้าต่าง "
+"เช่น Macro Metacity หรือ Xfwm4 ถ้าเป็น Xfce การใช้ Xfwm4+Compton "
+"จะช่วยไม่ให้เกิดภาพบนหน้าจอแตกได้"
 
 #: usr/share/help/C/mintdesktop/wms.page:47(p)
 msgid ""
@@ -184,7 +199,7 @@ msgstr "ความเคลื่อนไหวเกี่ยวกับห
 
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
-msgstr ""
+msgstr "การจัดองค์ประกอบ (เงา แอนิเมชัน เอฟเฟกต์ การแสดงผล GPU)"
 
 #: usr/share/help/C/mintdesktop/index.page:33(title)
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
@@ -196,12 +211,16 @@ msgstr "เทอร์มินัล"
 msgid ""
 "The terminal section lets you enable or disable <gui>fortune cookies</gui>."
 msgstr ""
+"ในส่วนของเทอร์มินัลจะให้คุณเปิดหรือปิดใช้งานส่วนของ <gui>fortune "
+"cookies</gui> ได้"
 
 #: usr/share/help/C/mintdesktop/index.page:35(p)
 msgid ""
 "If this option is enabled, each time you open a terminal, a little animal "
 "appears and says some randomly picked humoristic message."
 msgstr ""
+"ถ้าตัวเลือกนี้ถูกเปิดใช้งาน ในแต่ละครั้งที่คุณเปิดเทอร์มินัล "
+"จะมีภาพสัตว์ขนาดเล็กปรากฏขึ้นบนหน้าจอ และจะสุ่มพูดประโยคตลกๆ ออกมา"
 
 #: usr/share/help/C/mintdesktop/index.page:36(p)
 msgid ""
@@ -209,10 +228,13 @@ msgid ""
 "option is disabled by default). Please note that these messages are not "
 "authored by Linux Mint."
 msgstr ""
+"บางคนคิดว่าประโยคบางประโยคอาจดูไม่น่าฟัง "
+"(เนื่องจากว่าตัวเลือกนี้ถูกปิดใช้งานโดยปริยาย) "
+"กรุณาจำไว้ว่าประโยคเหล่านี้ไม่ได้มาจากทีมงานของ Linux Mint"
 
 #: usr/share/help/C/mintdesktop/compositing.page:16(title)
 msgid "Pros and cons of compositing"
-msgstr ""
+msgstr "ข้อดีและข้อเสียของการจัดองค์ประกอบหน้าต่าง"
 
 #: usr/share/help/C/mintdesktop/compositing.page:19(title)
 msgid "Advantages"
@@ -228,6 +250,9 @@ msgid ""
 "Better support for modern applications: Client-side decorations in GTK3 are "
 "better supported by composited window managers."
 msgstr ""
+"รองรับโปรแกรมใหม่ ๆ ได้ดีกว่า: "
+"โปรแกรมจัดการหน้าต่างที่มีการจัดองค์ประกอบของหน้าต่างจะรองรับชุดตกแต่งฝั่งไคล"
+"เอนต์ที่อยู่ใน GTK3 ได้ดีกว่า"
 
 #: usr/share/help/C/mintdesktop/compositing.page:31(title)
 msgid "Disadvantages"
@@ -239,12 +264,18 @@ msgid ""
 "with the GPU (as opposed to the CPU) can result in visual artefacts or "
 "screen tearing."
 msgstr ""
+"การแสดงผล GPU: ขึ้นอยู่กับกราฟิกการ์ดและไดรเวอร์ต่าง ๆ ของคุณ "
+"ที่ใช้แสดงผลสิ่งต่าง ๆ ถ้าหากแสดงผลโดยใช้ GPU (เมื่อเทียบกับการแสดงผลโดยใช้ "
+"CPU แล้ว) อาจทำให้ภาพที่แสดงมีจุดรบกวนได้ หรืออาจทำให้ภาพแตกได้"
 
 #: usr/share/help/C/mintdesktop/compositing.page:38(p)
 msgid ""
 "Resource usage: Compositing requires more resources. This can result in "
 "slower performance or reduced battery autonomy on laptop computers."
 msgstr ""
+"การใช้ทรัพยากร: การจัดองค์ประกอบต้องใช้ทรัพยากรเพิ่ม "
+"อาจส่งผลให้ประสิทธิภาพในการทำงานน้อยลง "
+"หรืออายุการใช้งานของแบตเตอรี่สั้นลงบนคอมพิวเตอร์แล็ปท็อป"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintdesktop/compositing.page:0(None)
@@ -387,7 +418,7 @@ msgstr "ใหญ่"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
 msgid "Marco + Compositing"
-msgstr ""
+msgstr "Marco + การจัดองค์ประกอบของหน้าต่าง"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
 msgid "Marco + Compton"
@@ -395,7 +426,7 @@ msgstr "Marco + Compton"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
 msgid "Metacity + Compositing"
-msgstr ""
+msgstr "Metacity + การจัดองค์ประกอบของหน้าต่าง"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
 msgid "Metacity + Compton"
@@ -403,7 +434,7 @@ msgstr "Metacity + Compton"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
 msgid "Xfwm4 + Compositing"
-msgstr ""
+msgstr "Xfwm4 + การจัดองค์ประกอบของหน้าต่าง"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
 msgid "Xfwm4 + Compton"
