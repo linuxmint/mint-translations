@@ -2,20 +2,20 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the mintupdate package.
 #
-# KAMI <kami911@gmail.com>, 2013-2014, 2015.
+# KAMI <kami911@gmail.com>, 2013-2014, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: mintupdate\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-09 22:09+0100\n"
-"PO-Revision-Date: 2016-04-12 17:13+0000\n"
+"PO-Revision-Date: 2016-05-16 18:19+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
-"Language-Team: Hungarian <kami911@gmail.com>\n"
+"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-24 09:29+0000\n"
+"X-Generator: Launchpad (build 18053)\n"
 "Language: hu\n"
 
 #: usr/share/help/C/mintupdate/policy.page:8(name)
@@ -31,37 +31,45 @@ msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintupdate/policy.page:16(title)
 msgid "Choosing an update policy"
-msgstr ""
+msgstr "Válassza ki a frissítési módszert"
 
 #: usr/share/help/C/mintupdate/policy.page:18(p)
 msgid ""
 "New updates patch known security holes and fix known bugs, but they can also "
 "introduce new issues called 'regressions'."
 msgstr ""
+"Az új frissítések javítják az ismert biztonsági és egyéb hibákat, de "
+"tartalmazhatnak új hibákat, amelyeket visszafejlődési hibáknak, vagy "
+"„regresszió”-nak hívnak."
 
 #: usr/share/help/C/mintupdate/policy.page:20(p)
 msgid ""
 "Regressions are very common but they are usually quickly fixed by new "
 "updates and they rarely break critical parts of the operating system."
 msgstr ""
+"A visszafejlődési hibák gyakran előfordulhatnak és gyorsan javíthatók egy új "
+"frissítéssel, de néha tönkretehetik az operációs rendszer fontos összetevőit "
+"is."
 
 #: usr/share/help/C/mintupdate/policy.page:22(p)
 msgid "There are different types of updates:"
-msgstr ""
+msgstr "A frissítéseknek több típusa létezik:"
 
 #: usr/share/help/C/mintupdate/policy.page:25(p)
 msgid ""
 "'Software updates' are updates which fix bugs (or also sometimes which bring "
 "new features)."
 msgstr ""
+"A „ Szoftverfrissítések” hibajavításokat (és egyes esetekben új "
+"szolgáltatásokat) tartalmaznak."
 
 #: usr/share/help/C/mintupdate/policy.page:26(p)
 msgid "'Security updates' are updates which patch vulnerabilities."
-msgstr ""
+msgstr "A „Biztonsági frissítések” biztonsági hibajavításokat tartalmaznak."
 
 #: usr/share/help/C/mintupdate/policy.page:27(p)
 msgid "'Kernel updates' represent the installation of a newer kernel."
-msgstr ""
+msgstr "A „Kernel frissítések” újabb kernel verziókat jelentenek."
 
 #: usr/share/help/C/mintupdate/policy.page:30(p)
 msgid ""
@@ -71,6 +79,12 @@ msgid ""
 "of view, but also prone to regressions which can be hard to fix for novice "
 "users."
 msgstr ""
+"A Linux Mint-ben a kernel frissítések, biztonsági hibajavításokat valamint "
+"hibajavításokat (és egyes esetekben új szolgáltatásokat) tartalmaznak. Ezek "
+"a rendszer központi részére vannak hatással. A kernel frissítések ezért "
+"fontosak biztonsági megfontolásokból, ugyanakkor olyan visszafejlődési "
+"hibákat is tartalmazhatnak, amelyek elhárítása nehéz lehet egy kezdő "
+"felhasználó számára."
 
 #: usr/share/help/C/mintupdate/policy.page:32(p)
 msgid ""
@@ -79,16 +93,25 @@ msgid ""
 "tomorrow's updates. But what if you can't reboot? what if it breaks your "
 "drivers and you can no longer log in or connect to the Internet?"
 msgstr ""
+"Minél több frissítést telepít, annál inkább előfordulhat hogy valami "
+"elromlik. Ez lehet egy apró hiba, ami Önt nem érinti, mert nem használja, "
+"vagy valami amit a másnapi frissítés megjavít ismét. De az is előfordulhat, "
+"hogy nem fogja tudni újraindítani a rendszerét, vagy egy olyan "
+"illesztőprogram romlik el, amely nélkül nem fog tudni bejelentkezni, vagy az "
+"internethez kapcsolódni."
 
 #: usr/share/help/C/mintupdate/policy.page:34(p)
 msgid ""
 "On the the hand, if you don't update anything, you're missing bug fixes, "
 "improvements and more importantly patches for security holes."
 msgstr ""
+"Más résztől, ha nem frissít semmit, akkor nem kapja meg a hibajavításokat, a "
+"fejlesztéseket és a nagyon fontos biztonsági hibajavításokat sem."
 
 #: usr/share/help/C/mintupdate/policy.page:36(p)
 msgid "When choosing an update policy, ask yourself the following questions:"
 msgstr ""
+"Amikor frissítési módszert választ, tegye fel magának a következő kérdéseket:"
 
 #: usr/share/help/C/mintupdate/policy.page:39(p)
 msgid ""
@@ -96,12 +119,18 @@ msgid ""
 "particular bug fix or for some hardware device to be recognized by a newer "
 "kernel?"
 msgstr ""
+"Szüksége van egy szoftver vagy a kernel frissítésére? Vár már egy "
+"hibajavítást egy szoftverhibához, vagy egy eszközt szeretne használni, "
+"amelyet felismernek már az újabb kernelverziók?"
 
 #: usr/share/help/C/mintupdate/policy.page:40(p)
 msgid ""
 "If things go wrong, are you experienced enough to fix your computer? Do you "
 "know how to fix boot, login, kernel and module issues?"
 msgstr ""
+"Ha a dolgok rosszra fordulnak, eléggé képzett ahhoz, hogy megjavítsa a "
+"számítógépét? Tudja hogyan javíthatja meg a rendszerindítással, a "
+"bejelentkezéssel, a kernellel és a modulokkal kapcsolatos problémákat?"
 
 #: usr/share/help/C/mintupdate/policy.page:41(p)
 msgid ""
@@ -109,12 +138,18 @@ msgid ""
 "users on this computer or on the network? Do you run a server or anything "
 "people can connect to from the outside world?"
 msgstr ""
+"A számítógépét elérhetik károkat okozni akaró emberek? Van még a "
+"számítógéphez hozzáférése másnak a helyi rendszerhez vagy a hálózaton "
+"keresztül? Futtat-e ezen a számítógépen kiszolgáló programokat, vagy "
+"bármilyen programot, amelyhez az emberek távolról csatlakozni tudnak?"
 
 #: usr/share/help/C/mintupdate/policy.page:44(p)
 msgid ""
 "Try to assess your level of experience with Linux, and your requirements "
 "when it comes to bug fixes and security."
 msgstr ""
+"Próbálja meg meghatározni a linuxos szakértelmét és a biztonsági- és "
+"szoftver hibajavításokkal szemben támasztott igényeit."
 
 #: usr/share/help/C/mintupdate/policy.page:46(p)
 msgid ""
@@ -122,6 +157,9 @@ msgid ""
 "Update Manager. You can tune these preferences individually by clicking on "
 "the Edit-&gt;Preferences menu in the menubar."
 msgstr ""
+"Amikor frissítési módszert választ a Frissítéskezelőben néhány beállítás "
+"megváltozik. Ezeket a beállításokat testreszabhatja a Szerkesztés menü → "
+"Beállítások menüeleménél."
 
 #: usr/share/help/C/mintupdate/index.page:14(title)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
@@ -136,13 +174,15 @@ msgstr "Frissítéskezelő"
 
 #: usr/share/help/C/mintupdate/index.page:16(p)
 msgid "Welcome to the Update Manager."
-msgstr ""
+msgstr "Köszönti a Frissítéskezelő."
 
 #: usr/share/help/C/mintupdate/index.page:18(p)
 msgid ""
 "The Update Manager provides your operating system with software and security "
 "updates."
 msgstr ""
+"A Frissítéskezelő látja el az operációs rendszert szoftver- és biztonsági "
+"frissítésekkel."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintupdate/index.page:0(None)
@@ -217,7 +257,7 @@ msgstr "Figyelmeztetés!"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
 msgid "Proceed with caution"
-msgstr ""
+msgstr "Körültekintő végrehajtás"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:231
 msgid ""
@@ -227,17 +267,27 @@ msgid ""
 "experienced with kernels, drivers, DKMS modules and you know how to recover "
 "a non-booting computer."
 msgstr ""
+"A Linux kernel a rendszer fontos része. A visszafejlődési hibák esetleg "
+"problémát  okozhatnak a hálózati kapcsolatok, a hangrendszer, a grafikus "
+"környezet működésében  vagy akár a rendszer elindulását is meghiúsíthatják. "
+"Csak akkor telepítse vagy törölje a  kernelt ha ért a Linux rendszermaghoz, "
+"eszközmeghajtókhoz, DKMS rendszerhez és tudja hogyan állítson helyre egy nem "
+"induló rendszert."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:232
 msgid ""
 "You can install multiple kernels on your computer and you can select the one "
 "you want to use from the advanced options in the boot menu."
 msgstr ""
+"Több kernelt is telepíthet a számítógépre és a rendszerindítás során a "
+"haladó beállítások közül kiválaszthatja, hogy melyikkel szeretné elindítani "
+"rendszerét."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 msgid ""
 "By default, your computer will boot with the most recent kernel installed."
 msgstr ""
+"Alapértelmezés szerint a számítógép a legújabb telepített kernelt indítja el."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:234
 msgid ""
@@ -247,10 +297,16 @@ msgid ""
 "proprietary drivers or DKMS modules with one particular kernel, make sure to "
 "remove all the kernels which are more recent."
 msgstr ""
+"Amennyiben zárt illesztőprogramokat vagy DKMS modulokat használ, legyen "
+"tekintettel arra, hogy csak a legújabb számítógépre telepített kernel "
+"verzióval fog együttműködni. Ezek az összetevők minden kernel telepítéskor "
+"és eltávolításkor újra lesznek fordítva. Zárt illesztőprogramok vagy DKMS "
+"modulok megadott kernellel történő használatakor bizonyosodjon meg róla, "
+"hogy az összes újabb kernel verziót eltávolította."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:283
 msgid "You are currently using the following kernel:"
-msgstr ""
+msgstr "A következő kernelt használja:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:50
 msgid "B"
@@ -368,7 +424,7 @@ msgstr "Biztonsági frissítés"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:769
 msgid "Kernel update"
-msgstr ""
+msgstr "Kernel frissítés"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:771
 msgid ""
@@ -520,25 +576,27 @@ msgstr "Módosítások"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1232
 msgid "Welcome to the Update Manager"
-msgstr ""
+msgstr "Üdvözli a Frissítéskezelő"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1233
 msgid ""
 "This tool provides your operating system with software and security updates."
 msgstr ""
+"A Frissítéskezelő látja el az operációs rendszert szoftver- és biztonsági "
+"frissítésekkel."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1234
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1589
 msgid "Please choose an update policy."
-msgstr ""
+msgstr "Válasszon egy frissítési módszert."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1235
 msgid "Don't break my computer!"
-msgstr ""
+msgstr "Ne tegye tönkre a számítógépemet"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1236
 msgid "Recommended for novice users."
-msgstr ""
+msgstr "Kezdő felhasználók számára ajánlott."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
@@ -546,40 +604,46 @@ msgid ""
 "Only select updates which are known to be safe or which do not impact "
 "critical parts of the operating system."
 msgstr ""
+"Csak a biztonságos, valamint az operációs rendszer központi részérét nem "
+"érintő frissítéseket jelenítse meg."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 msgid "Don't show me updates which can harm the stability of my system."
 msgstr ""
+"Ne jelenítse meg azokat a frissítéseket, amelyek veszélyeztethetik a "
+"rendszer stabilitását."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1238
 msgid "Optimize stability and security"
-msgstr ""
+msgstr "Optimális stabilitás és biztonság"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1239
 msgid "Recommended for most users."
-msgstr ""
+msgstr "Legtöbb felhasználóknak ajánlott."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
 msgid "But also show me security and kernel updates."
-msgstr ""
+msgstr "Mindig jelezze a biztonsági és kernel frissítéseket is."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1241
 msgid "Always update everything"
-msgstr ""
+msgstr "Mindig mindent frissítsen"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1242
 msgid "Recommended for experienced users."
-msgstr ""
+msgstr "Tapasztalt felhasználóknak ajánlott."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid "Select all available updates."
-msgstr ""
+msgstr "Összes elérhető frissítés kiválasztása."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid ""
 "Keep my computer fully up to date. If a regression breaks something, I'll "
 "fix it."
 msgstr ""
+"A számítógép teljes mértékben naprakészen tartása. Ha valami elromlik, akkor "
+"azt meg fogja tudni javítani."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1247
 msgid "_File"
@@ -604,7 +668,7 @@ msgstr "Szoftverforrások"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1274
 msgid "Update policy"
-msgstr ""
+msgstr "Frissítési módszer"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1298
 #, python-format
@@ -705,11 +769,11 @@ msgstr "Szintek"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
 msgid "Auto-refresh"
-msgstr ""
+msgstr "Automatikus frissítés"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
 msgid "Blacklisted packages"
-msgstr ""
+msgstr "Feketelistán levő csomagok"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "Tested?"
@@ -813,11 +877,11 @@ msgstr "Mindig válassza ki és bízzon meg a biztonsági frissítésekben"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
 msgid "Always show kernel updates"
-msgstr ""
+msgstr "Mindig jelezze a kernel frissítéseket"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1903
 msgid "Always select and trust kernel updates"
-msgstr ""
+msgstr "Mindig válassza ki és bízzon meg a kernel frissítésekben"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
 msgid "minutes"
@@ -833,11 +897,11 @@ msgstr "nap"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1907
 msgid "Cancel"
-msgstr ""
+msgstr "Mégse"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1908
 msgid "Apply"
-msgstr ""
+msgstr "Alkalmaz"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1949
 msgid "Ignored updates"

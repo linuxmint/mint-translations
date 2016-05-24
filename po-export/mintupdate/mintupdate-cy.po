@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-09 22:09+0100\n"
-"PO-Revision-Date: 2016-04-08 15:21+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"PO-Revision-Date: 2016-05-18 10:32+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-24 09:29+0000\n"
+"X-Generator: Launchpad (build 18053)\n"
 
 #: usr/share/help/C/mintupdate/policy.page:8(name)
 #: usr/share/help/C/mintupdate/index.page:6(name)
@@ -26,41 +26,49 @@ msgstr "Linux Mint"
 #: usr/share/help/C/mintupdate/policy.page:9(email)
 #: usr/share/help/C/mintupdate/index.page:7(email)
 msgid "root@linuxmint.com"
-msgstr ""
+msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintupdate/policy.page:16(title)
 msgid "Choosing an update policy"
-msgstr ""
+msgstr "Dewis polisi diweddaru"
 
 #: usr/share/help/C/mintupdate/policy.page:18(p)
 msgid ""
 "New updates patch known security holes and fix known bugs, but they can also "
 "introduce new issues called 'regressions'."
 msgstr ""
+"Bwriad diweddariadau yw cywiro problemau diogelwch a gwallau, ond maen nhw'n "
+"gallu cyflwyno problemau newydd o'r enw 'diraddiadau'."
 
 #: usr/share/help/C/mintupdate/policy.page:20(p)
 msgid ""
 "Regressions are very common but they are usually quickly fixed by new "
 "updates and they rarely break critical parts of the operating system."
 msgstr ""
+"Mae diraddiadau yn gyffredin iawn ond cânt eu cywiro yn gyflym fel arfer gan "
+"ddiweddariadau newydd ac maent yn brin o dorri rhannau allweddol y system "
+"gweithredu."
 
 #: usr/share/help/C/mintupdate/policy.page:22(p)
 msgid "There are different types of updates:"
-msgstr ""
+msgstr "Mae mathau gwahanol o diweddariadau:"
 
 #: usr/share/help/C/mintupdate/policy.page:25(p)
 msgid ""
 "'Software updates' are updates which fix bugs (or also sometimes which bring "
 "new features)."
 msgstr ""
+"'Diweddariadau meddalwedd' sy'n cywiro gwallau (neu sy'n cyflwyno nodweddion "
+"newydd)."
 
 #: usr/share/help/C/mintupdate/policy.page:26(p)
 msgid "'Security updates' are updates which patch vulnerabilities."
-msgstr ""
+msgstr "'Diweddariadau diogelwch' sy'n cywiro gwendidau diogelwch."
 
 #: usr/share/help/C/mintupdate/policy.page:27(p)
 msgid "'Kernel updates' represent the installation of a newer kernel."
 msgstr ""
+"Mae 'diweddariadau cnewyll' yn dangos fod cnewyll newydd wedi ei osod."
 
 #: usr/share/help/C/mintupdate/policy.page:30(p)
 msgid ""
@@ -70,6 +78,11 @@ msgid ""
 "of view, but also prone to regressions which can be hard to fix for novice "
 "users."
 msgstr ""
+"Yn Linux Mint, mae diweddariadau cnewyll yn darparu'r ddau, cywiriadau "
+"diogelwch a gwallau (a weithiau hyd yn oed nodweddion newydd), ac maent yn "
+"effeithio rhannu hanfodol y system gweithredu. Mae hynny yn gwneud "
+"diweddariadau cnewyll yn bwysig o safbwynt diogelwch, ond hefyd yn dueddol i "
+"ddiraddiadau a all fod yn anodd i gywiro defnyddiwr newydd."
 
 #: usr/share/help/C/mintupdate/policy.page:32(p)
 msgid ""
@@ -78,16 +91,24 @@ msgid ""
 "tomorrow's updates. But what if you can't reboot? what if it breaks your "
 "drivers and you can no longer log in or connect to the Internet?"
 msgstr ""
+"Y mwyaf o ddiweddariadau rydych yn eu cymryd, y mwyaf tebygol yw y bydd "
+"rhywbeth yn torri. Efallai y bydd yn rhywbeth bach, rhywbeth nad ydych yn ei "
+"ddefnyddio ac efallai y caiff ei gywiro gyda diweddariadau yfory. Ond beth "
+"os nad ydych yn gallu ailgychwyn y system? Beth os fydd yn torri eich gyrwyr "
+"ac na fyddwch yn gallu mewngofnodi neu gysylltu â'r rhyngrwyd?"
 
 #: usr/share/help/C/mintupdate/policy.page:34(p)
 msgid ""
 "On the the hand, if you don't update anything, you're missing bug fixes, "
 "improvements and more importantly patches for security holes."
 msgstr ""
+"Ar y llaw arall, os na fyddwch yn diweddaru dim, byddwch yn colli "
+"gwelliannau, ac yn fwy pwysig diweddariadau diogelwch."
 
 #: usr/share/help/C/mintupdate/policy.page:36(p)
 msgid "When choosing an update policy, ask yourself the following questions:"
 msgstr ""
+"Wrth ddewis eich polisi diweddaru, cofiwch ofyn y cwestiynau canlynol:"
 
 #: usr/share/help/C/mintupdate/policy.page:39(p)
 msgid ""
@@ -95,12 +116,18 @@ msgid ""
 "particular bug fix or for some hardware device to be recognized by a newer "
 "kernel?"
 msgstr ""
+"A ydych yn angen meddalwedd penodol neu ddiweddariad cnewyll? A ydych yn "
+"aros am gywiriad gwall penodol neu ar gyfer rhyw ddyfais caledwedd i weithio "
+"â chnewyll newyddach?"
 
 #: usr/share/help/C/mintupdate/policy.page:40(p)
 msgid ""
 "If things go wrong, are you experienced enough to fix your computer? Do you "
 "know how to fix boot, login, kernel and module issues?"
 msgstr ""
+"Os bydd pethau yn mynd allan o le, oes gennych ddigon o brofiad i gywiro'ch "
+"cyfrifiadur? A ydych yn gwybod sut i gywiro problemau cychwyn, mewngofnodi, "
+"cnewyll neu fodiwl?"
 
 #: usr/share/help/C/mintupdate/policy.page:41(p)
 msgid ""
@@ -108,12 +135,17 @@ msgid ""
 "users on this computer or on the network? Do you run a server or anything "
 "people can connect to from the outside world?"
 msgstr ""
+"A all eich cyfrifiadur cael mynediad gan bobl maleisgar? A oes defnyddiwr "
+"lleol eraill ar y cyfrifiadur hon neu'r rhwydwaith? A ydych yn rhedeg "
+"gweinydd neu unrhywbeth a allai gael ei defnyddio gan y byd y tu allan?"
 
 #: usr/share/help/C/mintupdate/policy.page:44(p)
 msgid ""
 "Try to assess your level of experience with Linux, and your requirements "
 "when it comes to bug fixes and security."
 msgstr ""
+"Ceisiwch bennu eich lefel o brofiad gyda Linux a'ch hanfodion o ran "
+"diogelwch a chywiriadau gwallau."
 
 #: usr/share/help/C/mintupdate/policy.page:46(p)
 msgid ""
@@ -121,6 +153,9 @@ msgid ""
 "Update Manager. You can tune these preferences individually by clicking on "
 "the Edit-&gt;Preferences menu in the menubar."
 msgstr ""
+"Wrth ddewis polisi diweddaru, bydd rhai o'r dewisiadau yn cael ei newid yn y "
+"Rheolwr Diweddaru. Gallwch gywirio'r dewisiadau hyn yn unigol wrth glicio ar "
+"y ddewislen Golygu-&gt;Dewisiadau yn y bar dewis."
 
 #: usr/share/help/C/mintupdate/index.page:14(title)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
@@ -135,19 +170,22 @@ msgstr "Rheolwr Diweddaru"
 
 #: usr/share/help/C/mintupdate/index.page:16(p)
 msgid "Welcome to the Update Manager."
-msgstr ""
+msgstr "Croeso i'r Rheolwr Diweddaru"
 
 #: usr/share/help/C/mintupdate/index.page:18(p)
 msgid ""
 "The Update Manager provides your operating system with software and security "
 "updates."
 msgstr ""
+"Mae'r Rheolydd Diweddaru yn darparu eich system gweithredu gyda meddalwedd a "
+"diweddariadau diogelwch."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintupdate/index.page:0(None)
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Christopher Griffiths https://launchpad.net/~chris\n"
 "  David Jones https://launchpad.net/~dwrj87\n"
 "  Owen Llywelyn https://launchpad.net/~owen-llywelyn\n"
 "  Rhoslyn Prys https://launchpad.net/~rprys"
@@ -210,7 +248,7 @@ msgstr "Rhybudd!"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
 msgid "Proceed with caution"
-msgstr ""
+msgstr "Ewch ymlaen yn ofalus"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:231
 msgid ""
@@ -220,17 +258,26 @@ msgid ""
 "experienced with kernels, drivers, DKMS modules and you know how to recover "
 "a non-booting computer."
 msgstr ""
+"Mae'r cnewyll Linux yn rhan hanfodol y system. Gall diraddiadau arwain at "
+"ddiffyg rhwydweithio, diffyg sŵn, diffyg rhyngwyned graffigol neu hyd yn oed "
+"y medr i gicio'r cyfrifiadur. Peidiwch â gosod neu dynnu cnewyll os ydych yn "
+"brofiadol â chnewyll, gyrwyr, modiwlau DKMS ac 'rydych yn gwybod sut i adfer "
+"cyfrifiadur nad yw'n gallu cicio."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:232
 msgid ""
 "You can install multiple kernels on your computer and you can select the one "
 "you want to use from the advanced options in the boot menu."
 msgstr ""
+"Gallwch osod nifer o gnewyll ar eich cyfrifiadur a dewis yr un rydych am ei "
+"ddefnyddio yng ngosodiadau uwch y ddewislen cychwyn."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 msgid ""
 "By default, your computer will boot with the most recent kernel installed."
 msgstr ""
+"Yn ddiofyn, bydd eich cyfrifiadur yn cicio â'r cnewyllyn a osodwyd yn "
+"ddiwethaf."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:234
 msgid ""
@@ -240,10 +287,15 @@ msgid ""
 "proprietary drivers or DKMS modules with one particular kernel, make sure to "
 "remove all the kernels which are more recent."
 msgstr ""
+"Os ydych yn defnyddio gyrwyr perchnogol, neu fodiwlau DKMS, byddwch yn "
+"ymwybodol y byddant yn gweithio dim ond gyda'r cnewyllyn diweddaraf. Mae "
+"nhw'n cael eu hail grynhoi bob tro mae cnewyllyn newydd yn cael ei osod neu "
+"ei dynnu. I ddefnyddio gyrwyr perchnogol neu fodiwlau DKMS gyda chnewyllyn "
+"penodol, gwnewch yn siwr eich bod yn tynnu pob cnewyllyn sy'n fwy diweddar."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:283
 msgid "You are currently using the following kernel:"
-msgstr ""
+msgstr "Ar hyn o bryd 'rydych yn defnyddio'r cnewyllyn canlynol:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:50
 msgid "B"
@@ -359,7 +411,7 @@ msgstr "Diweddariad diogelwch"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:769
 msgid "Kernel update"
-msgstr ""
+msgstr "Diweddariad cnewyllyn"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:771
 msgid ""
@@ -507,25 +559,27 @@ msgstr "Cofnod newid"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1232
 msgid "Welcome to the Update Manager"
-msgstr ""
+msgstr "Croeso i'r Rheolydd Diweddaru"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1233
 msgid ""
 "This tool provides your operating system with software and security updates."
 msgstr ""
+"Mae'r offeryn hwn yn darparu eich system gweithredu â meddalwedd a "
+"diweddariadau diogelwch."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1234
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1589
 msgid "Please choose an update policy."
-msgstr ""
+msgstr "Dewiswch bolisi diweddaru."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1235
 msgid "Don't break my computer!"
-msgstr ""
+msgstr "Peidiwch torri fy nghyfrifiadur!"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1236
 msgid "Recommended for novice users."
-msgstr ""
+msgstr "Ar gyfer defnyddwyr dibrofiad"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
@@ -533,40 +587,45 @@ msgid ""
 "Only select updates which are known to be safe or which do not impact "
 "critical parts of the operating system."
 msgstr ""
+"Dewiswch dim ond diweddariadau sy'n adnabyddus i fod yn ddiogel neu nad yw'n "
+"effeithio rhannau hanfodol y system gweithredu."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 msgid "Don't show me updates which can harm the stability of my system."
 msgstr ""
+"Peidio dangos diweddariadau sy'n gallu tanseilio sefydlogrwydd fy system"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1238
 msgid "Optimize stability and security"
-msgstr ""
+msgstr "Optimeiddio sefydlogrwydd a diogelwch"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1239
 msgid "Recommended for most users."
-msgstr ""
+msgstr "Yn argymelledig i'r rhan mwyaf o ddefnyddwyr."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
 msgid "But also show me security and kernel updates."
-msgstr ""
+msgstr "Ond dangos imi ddiweddariadu diogelwch a chnewyllyn hefyd."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1241
 msgid "Always update everything"
-msgstr ""
+msgstr "Diweddaru popeth bob tro"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1242
 msgid "Recommended for experienced users."
-msgstr ""
+msgstr "Yn argymelledig i ddefnyddwyr uwch."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid "Select all available updates."
-msgstr ""
+msgstr "Dewiswch pob ddiweddariad sydd ar gael."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid ""
 "Keep my computer fully up to date. If a regression breaks something, I'll "
 "fix it."
 msgstr ""
+"Cadw fy nghyfrifiadur yn gyfredol. Os bydd diraddiad yn torri rhwybeth, "
+"bydda i'n ei gywiro."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1247
 msgid "_File"
@@ -591,7 +650,7 @@ msgstr "Ffynonellau meddalwedd"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1274
 msgid "Update policy"
-msgstr ""
+msgstr "Polisi diweddaru"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1298
 #, python-format
@@ -692,11 +751,11 @@ msgstr "Lefelau"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
 msgid "Auto-refresh"
-msgstr ""
+msgstr "Diweddaru-awtomatig"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
 msgid "Blacklisted packages"
-msgstr ""
+msgstr "Pecynnau'r rhestr ddu"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "Tested?"
@@ -797,11 +856,11 @@ msgstr "Dewis ac ymddiried mewn diweddariadau diogelwch"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
 msgid "Always show kernel updates"
-msgstr ""
+msgstr "Dangos diweddariadau cnewyllyn pob tro"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1903
 msgid "Always select and trust kernel updates"
-msgstr ""
+msgstr "Dewis a bod yn hyderus o ddiweddariadau'r cnewyllyn"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
 msgid "minutes"
@@ -817,11 +876,11 @@ msgstr "diwrnod"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1907
 msgid "Cancel"
-msgstr ""
+msgstr "Diddymu"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1908
 msgid "Apply"
-msgstr ""
+msgstr "Gosod"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1949
 msgid "Ignored updates"

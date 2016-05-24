@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-09 22:09+0100\n"
-"PO-Revision-Date: 2016-04-08 15:21+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"PO-Revision-Date: 2016-05-07 18:47+0000\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-24 09:29+0000\n"
+"X-Generator: Launchpad (build 18053)\n"
 
 #: usr/share/help/C/mintupdate/policy.page:8(name)
 #: usr/share/help/C/mintupdate/index.page:6(name)
@@ -26,41 +26,47 @@ msgstr "Linux Mint"
 #: usr/share/help/C/mintupdate/policy.page:9(email)
 #: usr/share/help/C/mintupdate/index.page:7(email)
 msgid "root@linuxmint.com"
-msgstr ""
+msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintupdate/policy.page:16(title)
 msgid "Choosing an update policy"
-msgstr ""
+msgstr "At vælge en opdateringspolitik"
 
 #: usr/share/help/C/mintupdate/policy.page:18(p)
 msgid ""
 "New updates patch known security holes and fix known bugs, but they can also "
 "introduce new issues called 'regressions'."
 msgstr ""
+"Nye opdateringer lapper kendte sikkerhedshuller og retter kendte fejl, men "
+"de kan også medføre nye problemer kaldet \"regressioner\"."
 
 #: usr/share/help/C/mintupdate/policy.page:20(p)
 msgid ""
 "Regressions are very common but they are usually quickly fixed by new "
 "updates and they rarely break critical parts of the operating system."
 msgstr ""
+"Regressioner er meget almindelige, men sædvanligvis rettes de hurtigt af nye "
+"opdateringer, og de ødelægger sjældent kritiske dele af styresystemet."
 
 #: usr/share/help/C/mintupdate/policy.page:22(p)
 msgid "There are different types of updates:"
-msgstr ""
+msgstr "Der er forskellige slags opdateringer:"
 
 #: usr/share/help/C/mintupdate/policy.page:25(p)
 msgid ""
 "'Software updates' are updates which fix bugs (or also sometimes which bring "
 "new features)."
 msgstr ""
+"\"Programopdateringer\" retter fejl (nogle gange indeholder de også nye "
+"funktioner)."
 
 #: usr/share/help/C/mintupdate/policy.page:26(p)
 msgid "'Security updates' are updates which patch vulnerabilities."
-msgstr ""
+msgstr "\"Sikkerhedsopdateringer\" lapper sårbarheder."
 
 #: usr/share/help/C/mintupdate/policy.page:27(p)
 msgid "'Kernel updates' represent the installation of a newer kernel."
-msgstr ""
+msgstr "\"Kerneopdateringer\" installerer en nyere kerne."
 
 #: usr/share/help/C/mintupdate/policy.page:30(p)
 msgid ""
@@ -70,6 +76,11 @@ msgid ""
 "of view, but also prone to regressions which can be hard to fix for novice "
 "users."
 msgstr ""
+"I Linux Mint indeholder kerneopdateringer både sikkerheds- og fejlrettelser "
+"(og nogle gange endda nye funktioner), og de påvirker kritiske dele af "
+"styresystemet. Ud fra et sikkerhedssynspunkt gør det kerneopdateringer "
+"vigtige, men der er også risiko for regressioner, som kan være svære at løse "
+"for nye brugere."
 
 #: usr/share/help/C/mintupdate/policy.page:32(p)
 msgid ""
@@ -78,16 +89,24 @@ msgid ""
 "tomorrow's updates. But what if you can't reboot? what if it breaks your "
 "drivers and you can no longer log in or connect to the Internet?"
 msgstr ""
+"Jo flere opdateringer, du installerer, des mere sandsynligt er det, at noget "
+"vil gå i stykker. Det kan være noget ubetydeligt, noget du ikke bruger, og "
+"måske løses det med morgendagens opdateringer. Men hvad nu, hvis du ikke kan "
+"genstarte computeren? Hvad nu hvis det ødelægger dine drivere, og du ikke "
+"længere kan logge på eller få forbindelse til internettet?"
 
 #: usr/share/help/C/mintupdate/policy.page:34(p)
 msgid ""
 "On the the hand, if you don't update anything, you're missing bug fixes, "
 "improvements and more importantly patches for security holes."
 msgstr ""
+"På den anden side, hvis du ikke opdaterer noget, går du glip af "
+"fejlrettelser, forbedringer og vigtigst af alt lapper til sikkerhedshuller."
 
 #: usr/share/help/C/mintupdate/policy.page:36(p)
 msgid "When choosing an update policy, ask yourself the following questions:"
 msgstr ""
+"Når du vælger en opdateringspolitik, så stil dig selv følgende spørgsmål:"
 
 #: usr/share/help/C/mintupdate/policy.page:39(p)
 msgid ""
@@ -95,12 +114,16 @@ msgid ""
 "particular bug fix or for some hardware device to be recognized by a newer "
 "kernel?"
 msgstr ""
+"Har du brug for en bestemt program- eller kerneopdatering? Afventer du en "
+"bestemt fejlrettelse eller at noget hardware genkendes af en nyere kerne?"
 
 #: usr/share/help/C/mintupdate/policy.page:40(p)
 msgid ""
 "If things go wrong, are you experienced enough to fix your computer? Do you "
 "know how to fix boot, login, kernel and module issues?"
 msgstr ""
+"Hvis det går galt, har du så viden nok til at fikse din computer? Kan du "
+"fikse opstarts-, login-, kerne- og modulproblemer?"
 
 #: usr/share/help/C/mintupdate/policy.page:41(p)
 msgid ""
@@ -108,12 +131,17 @@ msgid ""
 "users on this computer or on the network? Do you run a server or anything "
 "people can connect to from the outside world?"
 msgstr ""
+"Kan ondsindede personer få adgang til din computer? Er der andre lokale "
+"brugere på denne computer eller på netværket? Kører du en server eller "
+"andet, folk udefra kan få adgang til?"
 
 #: usr/share/help/C/mintupdate/policy.page:44(p)
 msgid ""
 "Try to assess your level of experience with Linux, and your requirements "
 "when it comes to bug fixes and security."
 msgstr ""
+"Prøv at bedømme din erfaring med Linux og dine krav, når det drejer sig om "
+"fejlrettelser og sikkerhed."
 
 #: usr/share/help/C/mintupdate/policy.page:46(p)
 msgid ""
@@ -121,6 +149,9 @@ msgid ""
 "Update Manager. You can tune these preferences individually by clicking on "
 "the Edit-&gt;Preferences menu in the menubar."
 msgstr ""
+"Når du vælger en opdateringspolitik, ændres nogle af indstillingerne i "
+"Opdateringshåndtering. Du kan finjustere disse indstillinger individuelt ved "
+"at klikke på Redigér->Indstillinger i menulinjen."
 
 #: usr/share/help/C/mintupdate/index.page:14(title)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
@@ -135,13 +166,15 @@ msgstr "Opdateringshåndtering"
 
 #: usr/share/help/C/mintupdate/index.page:16(p)
 msgid "Welcome to the Update Manager."
-msgstr ""
+msgstr "Velkommen til Opdateringshåndtering."
 
 #: usr/share/help/C/mintupdate/index.page:18(p)
 msgid ""
 "The Update Manager provides your operating system with software and security "
 "updates."
 msgstr ""
+"Opdateringshåndtering sørger for program- og sikkerhedsopdateringer til dit "
+"styresystem."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintupdate/index.page:0(None)
@@ -209,7 +242,7 @@ msgstr "Advarsel!"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
 msgid "Proceed with caution"
-msgstr ""
+msgstr "Fortsæt med varsomhed"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:231
 msgid ""
@@ -219,17 +252,24 @@ msgid ""
 "experienced with kernels, drivers, DKMS modules and you know how to recover "
 "a non-booting computer."
 msgstr ""
+"Linuxkernen er en kritisk del af dit system. Regressioner kan medføre "
+"manglende netværk, lyd, grafisk miljø eller evnen til at starte computeren. "
+"Installér eller fjern kun kerner, hvis du har erfaring med kerner, drivere, "
+"DKMS-moduler og ved hvordan man genopretter en computer, der ikke vil starte."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:232
 msgid ""
 "You can install multiple kernels on your computer and you can select the one "
 "you want to use from the advanced options in the boot menu."
 msgstr ""
+"Du kan installere flere kerne på din computer, og du kan vælge den, du "
+"ønsker at anvende, i de udvidede indstillinger i opstartsmenuen."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 msgid ""
 "By default, your computer will boot with the most recent kernel installed."
 msgstr ""
+"Som standard vil din computer starte op med  den seneste installerede kerne."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:234
 msgid ""
@@ -239,10 +279,14 @@ msgid ""
 "proprietary drivers or DKMS modules with one particular kernel, make sure to "
 "remove all the kernels which are more recent."
 msgstr ""
+"Anvender du proprietære drivere eller DKMS-moduler, skal du vide, at de kun "
+"virker med den senest installerede kerne. De rekompileres hver gang en ny "
+"kerne installeres eller fjernes. For at anvende proprietære drivere eller "
+"DKMS-moduler med en bestemt kerne skal du fjerne alle kerner, der er nyere."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:283
 msgid "You are currently using the following kernel:"
-msgstr ""
+msgstr "Du anvender for tiden følgende kerne:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:50
 msgid "B"
@@ -359,7 +403,7 @@ msgstr "Sikkerhedsopdatering"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:769
 msgid "Kernel update"
-msgstr ""
+msgstr "Kerneopdatering"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:771
 msgid ""
@@ -508,25 +552,27 @@ msgstr "Ændringslog"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1232
 msgid "Welcome to the Update Manager"
-msgstr ""
+msgstr "Velkommen til Opdateringshåndtering"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1233
 msgid ""
 "This tool provides your operating system with software and security updates."
 msgstr ""
+"Dette værktøj sørger for program- og sikkerhedsopdateringer til dit "
+"styresystem."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1234
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1589
 msgid "Please choose an update policy."
-msgstr ""
+msgstr "Vælg venligst en opdateringspolitik"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1235
 msgid "Don't break my computer!"
-msgstr ""
+msgstr "Ødelæg ikke min computer!"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1236
 msgid "Recommended for novice users."
-msgstr ""
+msgstr "Anbefalet til nybegyndere."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
@@ -534,40 +580,44 @@ msgid ""
 "Only select updates which are known to be safe or which do not impact "
 "critical parts of the operating system."
 msgstr ""
+"Vælg kun opdateringer, som vides at være sikre eller som ikke påvirker "
+"kritiske dele af styresystemet."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 msgid "Don't show me updates which can harm the stability of my system."
-msgstr ""
+msgstr "Vis ikke opdateringer, som kan skade mit systems stabilitet."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1238
 msgid "Optimize stability and security"
-msgstr ""
+msgstr "Optimér stabilitet og sikkerhed"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1239
 msgid "Recommended for most users."
-msgstr ""
+msgstr "Anbefalet til de fleste brugere."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
 msgid "But also show me security and kernel updates."
-msgstr ""
+msgstr "Men vis også sikkerheds- og kerneopdateringer."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1241
 msgid "Always update everything"
-msgstr ""
+msgstr "Opdatér altid alting"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1242
 msgid "Recommended for experienced users."
-msgstr ""
+msgstr "Anbefalet til erfarne brugere."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid "Select all available updates."
-msgstr ""
+msgstr "Vælg alle tilgængelige opdateringer."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid ""
 "Keep my computer fully up to date. If a regression breaks something, I'll "
 "fix it."
 msgstr ""
+"Hold min computer fuldt opdateret. Hvis en regression ødelægger noget, "
+"fikser jeg det."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1247
 msgid "_File"
@@ -592,7 +642,7 @@ msgstr "Programkilder"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1274
 msgid "Update policy"
-msgstr ""
+msgstr "Opdateringspolitik"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1298
 #, python-format
@@ -693,11 +743,11 @@ msgstr "Niveauer"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
 msgid "Auto-refresh"
-msgstr ""
+msgstr "Auto-genopfrisk"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
 msgid "Blacklisted packages"
-msgstr ""
+msgstr "Sortlistede pakker"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "Tested?"
@@ -797,11 +847,11 @@ msgstr "Altid vælg og hav tillid til sikkerhedsopdateringer"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
 msgid "Always show kernel updates"
-msgstr ""
+msgstr "Vis altid kerneopdateringer"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1903
 msgid "Always select and trust kernel updates"
-msgstr ""
+msgstr "Vælg altid og hav tillid til kerneopdateringer"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
 msgid "minutes"
@@ -817,11 +867,11 @@ msgstr "dage"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1907
 msgid "Cancel"
-msgstr ""
+msgstr "Annullér"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1908
 msgid "Apply"
-msgstr ""
+msgstr "Anvend"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1949
 msgid "Ignored updates"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-14 15:44+0100\n"
-"PO-Revision-Date: 2016-03-16 14:20+0000\n"
+"PO-Revision-Date: 2016-04-27 17:39+0000\n"
 "Last-Translator: Балкыбаев Мурат <d2vsd1@mail.ru>\n"
 "Language-Team: Kazakh <kk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-21 14:38+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-24 09:30+0000\n"
+"X-Generator: Launchpad (build 18053)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -133,12 +133,17 @@ msgid ""
 "managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
 "known to reduce screen tearing."
 msgstr ""
+"Compton - бұл құрастыру менеджері. Оны Macro, Metacity немесе Xfwm4 сияқты "
+"терезе менеджерлерімен ұштастыра отырып қолдануға болады. Xfce-ні "
+"Xfwm4+Compton-мен ұштастыра пайдаланып экранның алшақтықтығын азайтады."
 
 #: usr/share/help/C/mintdesktop/wms.page:47(p)
 msgid ""
 "If Compton is not installed already, you can install it with <cmd>apt "
 "install compton</cmd>."
 msgstr ""
+"Егер Compton орнатылынбаса, сіз оны <cmd>apt install compton</cmd> бұйрық "
+"көмегімен орната аласыз."
 
 #: usr/share/help/C/mintdesktop/wms.page:51(title)
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:276
@@ -147,13 +152,15 @@ msgstr "Openbox"
 
 #: usr/share/help/C/mintdesktop/wms.page:52(p)
 msgid "Openbox is a fast and light-weight window manager."
-msgstr ""
+msgstr "Openbox - бұл жылдам және жеңіл терезе менеджері."
 
 #: usr/share/help/C/mintdesktop/wms.page:53(p)
 msgid ""
 "If Openbox is not installed already, you can install it with <cmd>apt "
 "install openbox</cmd>."
 msgstr ""
+"Егер Openbox орнатылынбаса, сіз оны <cmd>apt install openbox</cmd> бұйрық "
+"көмегімен орната аласыз."
 
 #: usr/share/help/C/mintdesktop/index.page:14(title) generate_desktop_files:25
 msgid "Desktop Settings"
@@ -161,7 +168,7 @@ msgstr "Жұмыс үстел баптаулары"
 
 #: usr/share/help/C/mintdesktop/index.page:16(p)
 msgid "Welcome to Desktop Settings."
-msgstr ""
+msgstr "Жұмыс үстел баптауларына қош келдіңіз."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:118
@@ -170,25 +177,28 @@ msgstr "Терезелер"
 
 #: usr/share/help/C/mintdesktop/index.page:20(p)
 msgid "The Windows section lets you choose a window manager."
-msgstr ""
+msgstr "\"Терезелер\" бөлімінде сіз қажетті терезе менеджерін таңдай аласыз."
 
 #: usr/share/help/C/mintdesktop/index.page:22(p)
 msgid ""
 "Within the operating system, the <gui>window manager</gui> is the part which "
 "is responsible for:"
 msgstr ""
+"Операциялық жүйе <gui>терезе менеджері</gui> — бұл осы үшін жауап беретін "
+"компонент:"
 
 #: usr/share/help/C/mintdesktop/index.page:24(p)
 msgid "Windows borders, title bars and window buttons"
-msgstr ""
+msgstr "Терезе қыры, тақырыбы және батырмалар"
 
 #: usr/share/help/C/mintdesktop/index.page:25(p)
 msgid "Window events (moving, resizing, focusing windows)"
 msgstr ""
+"Тереземен мүмкін болатын әрекеттер (жылжыту, өлшемін өзгерту, фокусировка)"
 
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
-msgstr ""
+msgstr "Композитинг (көлеңке түсіру, эффектілер, GPU-рендеринг)"
 
 #: usr/share/help/C/mintdesktop/index.page:33(title)
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
@@ -200,12 +210,15 @@ msgstr "Терминал"
 msgid ""
 "The terminal section lets you enable or disable <gui>fortune cookies</gui>."
 msgstr ""
+"Терминал баптауларында <gui>нақылды</gui> қосуға немесе өшіруге болады."
 
 #: usr/share/help/C/mintdesktop/index.page:35(p)
 msgid ""
 "If this option is enabled, each time you open a terminal, a little animal "
 "appears and says some randomly picked humoristic message."
 msgstr ""
+"Егер бұл параметр іске қосылса, терминал әр рет іске қосқан кезде, кішкентай "
+"аң пайда болады және кездейсоқ таңдалған қызықты нақыл сөз айтады."
 
 #: usr/share/help/C/mintdesktop/index.page:36(p)
 msgid ""
@@ -213,28 +226,35 @@ msgid ""
 "option is disabled by default). Please note that these messages are not "
 "authored by Linux Mint."
 msgstr ""
+"Кейбір нақыл сөздер біреудің сезіміне тіл тигізу мүмкін (сондықтан, бұл "
+"параметр әдепкі бойынша өшірулі). Назар аударыңыз, бұл нақыл сөздер Linux "
+"Mint командасымен жасалмайды."
 
 #: usr/share/help/C/mintdesktop/compositing.page:16(title)
 msgid "Pros and cons of compositing"
-msgstr ""
+msgstr "Композитингтің артықшылықтары мен кемшіліктері"
 
 #: usr/share/help/C/mintdesktop/compositing.page:19(title)
 msgid "Advantages"
-msgstr ""
+msgstr "Артықшылықтары"
 
 #: usr/share/help/C/mintdesktop/compositing.page:22(p)
 msgid "Better look &amp; feel: Window animations, shadows and transparency."
 msgstr ""
+"Жақсартылған сыртқы түрі: терезелер анимациясы, көлеңке мен мөлдірлік."
 
 #: usr/share/help/C/mintdesktop/compositing.page:25(p)
 msgid ""
 "Better support for modern applications: Client-side decorations in GTK3 are "
 "better supported by composited window managers."
 msgstr ""
+"GTK3-де Қазіргі заманғы бағдармалар қолдау: композитті терезелер  "
+"менеджерлері берілген бағдарламамен ресімдеу терезесін қолдайды (client-side "
+"decorations)."
 
 #: usr/share/help/C/mintdesktop/compositing.page:31(title)
 msgid "Disadvantages"
-msgstr ""
+msgstr "Кемшіліктері"
 
 #: usr/share/help/C/mintdesktop/compositing.page:35(p)
 msgid ""
@@ -242,12 +262,17 @@ msgid ""
 "with the GPU (as opposed to the CPU) can result in visual artefacts or "
 "screen tearing."
 msgstr ""
+"GPU-рендеринг: сіздің бейнекарта және орнатылған драйверлерге байланысты, "
+"GPU-рендеринг (CPU-рендеринг айырмашылығы) графикалық артефактілер және "
+"алшақтықты суреттер тудыруы мүмкін."
 
 #: usr/share/help/C/mintdesktop/compositing.page:38(p)
 msgid ""
 "Resource usage: Compositing requires more resources. This can result in "
 "slower performance or reduced battery autonomy on laptop computers."
 msgstr ""
+"Ресурстарды тұтыну: композитинг көп ресурстарды талап етеді және жүйені "
+"баяулатуы немесе ноутбуктегі батарея жұмыс қуатын қысқартуы мүмкін."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintdesktop/compositing.page:0(None)
@@ -271,23 +296,23 @@ msgstr "Жұмыс үстел суреттемелері"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:162
 msgid "Marco settings"
-msgstr ""
+msgstr "Marco бастаулары"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
 msgid "Metacity settings"
-msgstr ""
+msgstr "Metacity бастаулары"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:164
 msgid "Compiz settings"
-msgstr ""
+msgstr "Compiz бастаулары"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
 msgid "Configure Compiz"
-msgstr ""
+msgstr "Compiz баптау"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
 msgid "Reset Compiz settings"
-msgstr ""
+msgstr "Compiz баптауларын қалыпты күйге келтіру"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
 msgid "Icons"
@@ -346,7 +371,7 @@ msgstr "Тілді алмастыру пернелер үйлесімі:"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
 msgid "Show fortune cookies"
-msgstr ""
+msgstr "Нақыл сөзді көрсету"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:190
 msgid "Show icons on menus"
@@ -390,23 +415,23 @@ msgstr "Үлкен"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
 msgid "Marco + Compositing"
-msgstr ""
+msgstr "Marco + Композитинг"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
 msgid "Marco + Compton"
-msgstr ""
+msgstr "Marco + Compton"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
 msgid "Metacity + Compositing"
-msgstr ""
+msgstr "Metacity + Композитинг"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
 msgid "Metacity + Compton"
-msgstr ""
+msgstr "Metacity + Compton"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
 msgid "Xfwm4 + Compositing"
-msgstr ""
+msgstr "Xfwm4 + Композитинг"
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
 msgid "Xfwm4 + Compton"
@@ -422,6 +447,12 @@ msgid ""
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
 "Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
+"Терезе менеджерлер туралы көбірек білу үшін \"Анықтама\" түймешігін "
+"басыңыз.\n"
+"Терезе менеджерін әдепкіге қайтару үшін 'wm-recovery' бұйрығын "
+"пайдаланыңыз.\n"
+"Іске қосылған терезе менеджерін анықтау үшін 'wm-detect' бұйрығын "
+"пайдаланыңыз."
 
 #: usr/lib/linuxmint/mintDesktop/mintDesktop.py:290
 msgid "Text below items"
@@ -441,7 +472,7 @@ msgstr "Тек мәтін"
 
 #: generate_desktop_files:25
 msgid "Fine-tune desktop settings"
-msgstr ""
+msgstr "Жұмыс үстелінің тиянақты баптаулар"
 
 #~ msgid "Desktop Configuration Tool"
 #~ msgstr "Жұмыс үстелін қалыпқа келтіру құралы"

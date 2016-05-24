@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-09 22:09+0100\n"
-"PO-Revision-Date: 2016-04-19 12:25+0000\n"
+"PO-Revision-Date: 2016-04-21 22:15+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-24 09:29+0000\n"
+"X-Generator: Launchpad (build 18053)\n"
 
 #: usr/share/help/C/mintupdate/policy.page:8(name)
 #: usr/share/help/C/mintupdate/index.page:6(name)
@@ -30,19 +30,25 @@ msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintupdate/policy.page:16(title)
 msgid "Choosing an update policy"
-msgstr ""
+msgstr "Atnaujinimų politikos pasirinkimas"
 
 #: usr/share/help/C/mintupdate/policy.page:18(p)
 msgid ""
 "New updates patch known security holes and fix known bugs, but they can also "
 "introduce new issues called 'regressions'."
 msgstr ""
+"Nauji atnaujinimai pataiso žinomas saugumo spragas ir ištaiso žinomas "
+"klaidas, tačiau šie atnaujinimai taip pat gali pristatyti naujas klaidas, "
+"kurios vadinamos \"regresijomis\"."
 
 #: usr/share/help/C/mintupdate/policy.page:20(p)
 msgid ""
 "Regressions are very common but they are usually quickly fixed by new "
 "updates and they rarely break critical parts of the operating system."
 msgstr ""
+"Regresijos yra labai paplitusios, tačiau, dažniausiai, jos yra greitai "
+"ištaisomos naujais atnaujinimais ir retai sugadina kritines operacinės "
+"sistemos dalis."
 
 #: usr/share/help/C/mintupdate/policy.page:22(p)
 msgid "There are different types of updates:"
@@ -73,6 +79,11 @@ msgid ""
 "of view, but also prone to regressions which can be hard to fix for novice "
 "users."
 msgstr ""
+"Sistemoje Linux Mint, branduolio atnaujinimai pateikia tiek saugumo "
+"pataisas, tiek ir klaidų ištaisymus (o kartais, netgi naujas ypatybes), ir "
+"šie atnaujinimai paveikia kritines operacinės sistemos dalis. Tai padaro "
+"branduolio atnaujinimus svarbius saugumo požiūriu, bet taip pat linkusius į "
+"regresijas, kurias naujiems naudotojams gali būti sunku pataisyti."
 
 #: usr/share/help/C/mintupdate/policy.page:32(p)
 msgid ""
@@ -81,12 +92,19 @@ msgid ""
 "tomorrow's updates. But what if you can't reboot? what if it breaks your "
 "drivers and you can no longer log in or connect to the Internet?"
 msgstr ""
+"Kuo daugiau gausite atnaujinimų, tuo didesnė tikimybė, kad kažkas "
+"susigadins. Tai gali būti kažkas nežymaus, tai, ką nenaudojate ir tai gali "
+"būti ištaisyta rytojaus atnaujinimuose. Tačiau kas, jei negalėsite paleisti "
+"iš naujo? Kas, jeigu tai sugadins jūsų tvarkykles ir daugiau nebegalėsite "
+"prisijungti į grafinę aplinką ar prie interneto?"
 
 #: usr/share/help/C/mintupdate/policy.page:34(p)
 msgid ""
 "On the the hand, if you don't update anything, you're missing bug fixes, "
 "improvements and more importantly patches for security holes."
 msgstr ""
+"Kita vertus, jeigu nieko neatnaujinsite, negausite klaidų ištaisymų, "
+"patobulinimų ir, svarbiausia, saugumo spragų pataisymų."
 
 #: usr/share/help/C/mintupdate/policy.page:36(p)
 msgid "When choosing an update policy, ask yourself the following questions:"
@@ -117,12 +135,17 @@ msgid ""
 "users on this computer or on the network? Do you run a server or anything "
 "people can connect to from the outside world?"
 msgstr ""
+"Ar piktavališki žmonės turi prieigą prie jūsų kompiuterio? Ar šiame "
+"kompiuteryje ar tinkle yra kitų naudotojų? Ar esate sukūrę serverį ar ką "
+"nors, prie ko gali prisijungti žmonės iš išorinio pasaulio?"
 
 #: usr/share/help/C/mintupdate/policy.page:44(p)
 msgid ""
 "Try to assess your level of experience with Linux, and your requirements "
 "when it comes to bug fixes and security."
 msgstr ""
+"Pabandykite įvertinti savo patirtį su Linux ir savo reikalavimus klaidų "
+"ištaisymų ir saugumo atžvilgiu."
 
 #: usr/share/help/C/mintupdate/policy.page:46(p)
 msgid ""
@@ -130,6 +153,9 @@ msgid ""
 "Update Manager. You can tune these preferences individually by clicking on "
 "the Edit-&gt;Preferences menu in the menubar."
 msgstr ""
+"Kai pasirenkate atnaujinimų politiką, Atnaujinimų tvarkytuvėje yra keičiamos "
+"kai kurios nuostatos. Galite atskirai derinti šias nuostatas, meniu juostoje "
+"nuspaudę meniu Keisti-&gt;Nuostatos."
 
 #: usr/share/help/C/mintupdate/index.page:14(title)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
@@ -232,17 +258,26 @@ msgid ""
 "experienced with kernels, drivers, DKMS modules and you know how to recover "
 "a non-booting computer."
 msgstr ""
+"Linux branduolys yra kritinė sistemos dalis. Regresijos gali privesti prie "
+"to, kad gali dingti internetas, garsas, grafinė aplinka arba netgi "
+"negalėsite paleisti kompiuterį. Įdiekite ar šalinkite branduolius tik tuo "
+"atveju, jei turite patirties su branduoliais, tvarkyklėmis, DKMS moduliais "
+"ir žinote kaip atkurti kompiuterį, kuris nepasileidžia."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:232
 msgid ""
 "You can install multiple kernels on your computer and you can select the one "
 "you want to use from the advanced options in the boot menu."
 msgstr ""
+"Jūs galite savo kompiuteryje įdiegti kelis branduolius, o norimą naudoti "
+"branduolį galite pasirinkti paleidimo meniu išplėstinėse parinktyse."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 msgid ""
 "By default, your computer will boot with the most recent kernel installed."
 msgstr ""
+"Pagal numatymą, jūsų kompiuteris bus paleistas naudojant patį naujausią "
+"įdiegtą branduolį."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:234
 msgid ""
@@ -252,6 +287,12 @@ msgid ""
 "proprietary drivers or DKMS modules with one particular kernel, make sure to "
 "remove all the kernels which are more recent."
 msgstr ""
+"Jeigu naudojate nuosavybines tvarkykles ar DKMS modulius, turėkite omenyje, "
+"kad jie veiks tik su pačiu naujausiu jūsų kompiuteryje įdiegtu branduoliu. "
+"Jie bus iš naujo kompiliuojami, kas kartą įdiegus ar pašalinus naują "
+"branduolį. Tam, kad naudotumėte nuosavybines tvarkykles ar DKMS modulius su "
+"tam tikru konkrečiu branduoliu, užtikrinkite, kad visi naujesni branduoliai "
+"būtų pašalinti."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:283
 msgid "You are currently using the following kernel:"
@@ -373,7 +414,7 @@ msgstr "Saugumo atnaujinimas"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:769
 msgid "Kernel update"
-msgstr ""
+msgstr "Branduolio atnaujinimas"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:771
 msgid ""
@@ -538,7 +579,7 @@ msgstr "Prašome pasirinkti atnaujinimų politiką."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1235
 msgid "Don't break my computer!"
-msgstr ""
+msgstr "Nesugadinkite mano kompiuterio!"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1236
 msgid "Recommended for novice users."
@@ -550,6 +591,8 @@ msgid ""
 "Only select updates which are known to be safe or which do not impact "
 "critical parts of the operating system."
 msgstr ""
+"Pasirinkti tik tuos atnaujinimus, kurie yra žinomi kaip saugūs arba, kurie "
+"neįtakoja kritinių operacinės sistemos dalių."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 msgid "Don't show me updates which can harm the stability of my system."
@@ -566,7 +609,7 @@ msgstr "Rekomenduojama daugumai naudotojų."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
 msgid "But also show me security and kernel updates."
-msgstr ""
+msgstr "Bet taip pat rodyti man saugumo ir branduolio atnaujinimus."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1241
 msgid "Always update everything"
@@ -585,6 +628,8 @@ msgid ""
 "Keep my computer fully up to date. If a regression breaks something, I'll "
 "fix it."
 msgstr ""
+"Išlaikyti mano kompiuterį pilnai atnaujinta. Jeigu regresija ką nors "
+"sugadins, aš tai pataisysiu."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1247
 msgid "_File"
@@ -609,7 +654,7 @@ msgstr "Programinės įrangos saugyklos"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1274
 msgid "Update policy"
-msgstr ""
+msgstr "Atnaujinimų politika"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1298
 #, python-format
@@ -710,11 +755,11 @@ msgstr "Lygiai"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
 msgid "Auto-refresh"
-msgstr ""
+msgstr "Automatinis įkėlimas iš naujo"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
 msgid "Blacklisted packages"
-msgstr ""
+msgstr "Paketai juodajame sąraše"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "Tested?"
@@ -814,11 +859,11 @@ msgstr "Visuomet parinkti ir pasitikėti saugumo atnaujinimais"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
 msgid "Always show kernel updates"
-msgstr ""
+msgstr "Visada rodyti branduolio atnaujinimus"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1903
 msgid "Always select and trust kernel updates"
-msgstr ""
+msgstr "Visada žymėti ir pasitikėti branduolio atnaujinimais"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
 msgid "minutes"
@@ -834,11 +879,11 @@ msgstr "dienos"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1907
 msgid "Cancel"
-msgstr ""
+msgstr "Atsisakyti"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1908
 msgid "Apply"
-msgstr ""
+msgstr "Taikyti"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1949
 msgid "Ignored updates"

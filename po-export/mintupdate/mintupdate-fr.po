@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-09 22:09+0100\n"
-"PO-Revision-Date: 2016-04-14 18:09+0000\n"
-"Last-Translator: Marc <machbosebcn@gmail.com>\n"
+"PO-Revision-Date: 2016-05-23 12:20+0000\n"
+"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-21 14:37+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-24 09:29+0000\n"
+"X-Generator: Launchpad (build 18053)\n"
 
 #: usr/share/help/C/mintupdate/policy.page:8(name)
 #: usr/share/help/C/mintupdate/index.page:6(name)
@@ -30,7 +30,7 @@ msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintupdate/policy.page:16(title)
 msgid "Choosing an update policy"
-msgstr ""
+msgstr "Choix d'une politique de mise à jour"
 
 #: usr/share/help/C/mintupdate/policy.page:18(p)
 msgid ""
@@ -52,7 +52,7 @@ msgstr ""
 
 #: usr/share/help/C/mintupdate/policy.page:22(p)
 msgid "There are different types of updates:"
-msgstr "Il y a plusieurs types de mise à jour:"
+msgstr "Il y a différents types de mise à jour :"
 
 #: usr/share/help/C/mintupdate/policy.page:25(p)
 msgid ""
@@ -71,6 +71,7 @@ msgstr ""
 #: usr/share/help/C/mintupdate/policy.page:27(p)
 msgid "'Kernel updates' represent the installation of a newer kernel."
 msgstr ""
+"Les \"mises à jour du noyau\" représentent l'installation d'un nouveau noyau."
 
 #: usr/share/help/C/mintupdate/policy.page:30(p)
 msgid ""
@@ -80,6 +81,12 @@ msgid ""
 "of view, but also prone to regressions which can be hard to fix for novice "
 "users."
 msgstr ""
+"Dans Linux Mint, les mises à jour du noyau apportent à la fois des "
+"correctifs de sécurité et de bugs (et parfois aussi de nouvelles "
+"fonctionnalités),  et concernent des parties critiques du système "
+"d'exploitation. Ce qui rend les mises à jour du noyau importantes d'un point "
+"de vue de la sécurité, mais elles peuvent aussi entraîner des régressions "
+"difficiles à corriger pour les utilisateurs novices."
 
 #: usr/share/help/C/mintupdate/policy.page:32(p)
 msgid ""
@@ -88,16 +95,27 @@ msgid ""
 "tomorrow's updates. But what if you can't reboot? what if it breaks your "
 "drivers and you can no longer log in or connect to the Internet?"
 msgstr ""
+"Plus vous faites de mises à jour, plus cela risque d'entraîner des "
+"dysfonctionnements. Ils peuvent être insignifiants et porter sur quelque "
+"chose que vous n'utilisez pas et être corrigés par les mises à jour du "
+"lendemain. Mais si vous ne pouvez plus redémarrer ? Et si cela plante vos "
+"pilotes et vous ne pouvez plus vous connecter à votre ordinateur ou à "
+"Internet ?"
 
 #: usr/share/help/C/mintupdate/policy.page:34(p)
 msgid ""
 "On the the hand, if you don't update anything, you're missing bug fixes, "
 "improvements and more importantly patches for security holes."
 msgstr ""
+"D'un autre côté, si vous ne faites pas de mises à jour, vous manquez des "
+"correctifs de bugs, des améliorations et, encore plus important, des "
+"correctifs de failles de sécurité."
 
 #: usr/share/help/C/mintupdate/policy.page:36(p)
 msgid "When choosing an update policy, ask yourself the following questions:"
 msgstr ""
+"Lors du choix d'une politique de mise à jour, posez-vous les questions "
+"suivantes :"
 
 #: usr/share/help/C/mintupdate/policy.page:39(p)
 msgid ""
@@ -105,12 +123,18 @@ msgid ""
 "particular bug fix or for some hardware device to be recognized by a newer "
 "kernel?"
 msgstr ""
+"Avez-vous besoin d'une mise à jour logicielle ou du noyau particulière ? "
+"Attendez-vous la correction d'un bug ou la prise en charge de matériel par "
+"le nouveau noyau ?"
 
 #: usr/share/help/C/mintupdate/policy.page:40(p)
 msgid ""
 "If things go wrong, are you experienced enough to fix your computer? Do you "
 "know how to fix boot, login, kernel and module issues?"
 msgstr ""
+"Si des problèmes se produisent, êtes-vous assez expérimenté pour réparer "
+"votre ordinateur ? Savez-vous comment résoudre les problèmes de démarrage, "
+"de connexion, de noyau ou de modules ?"
 
 #: usr/share/help/C/mintupdate/policy.page:41(p)
 msgid ""
@@ -118,12 +142,18 @@ msgid ""
 "users on this computer or on the network? Do you run a server or anything "
 "people can connect to from the outside world?"
 msgstr ""
+"Votre ordinateur est-il accessible à des personnes malintentionnées ? Existe-"
+"t-il d'autres utilisateurs locaux sur cet ordinateur ou sur le réseau ? "
+"Faites-vous fonctionner un serveur ou autre auquel des personnes peuvent se "
+"connecter de l'extérieur ?"
 
 #: usr/share/help/C/mintupdate/policy.page:44(p)
 msgid ""
 "Try to assess your level of experience with Linux, and your requirements "
 "when it comes to bug fixes and security."
 msgstr ""
+"Essayez d'évaluer votre niveau d'expérience avec Linux, et vos exigences en "
+"matière de correctifs de bogues et de sécurité."
 
 #: usr/share/help/C/mintupdate/policy.page:46(p)
 msgid ""
@@ -131,6 +161,10 @@ msgid ""
 "Update Manager. You can tune these preferences individually by clicking on "
 "the Edit-&gt;Preferences menu in the menubar."
 msgstr ""
+"Lorsque vous choisissez une politique de mise à jour, certaines des "
+"préférences sont modifiées dans le Gestionnaire de mise à jour. Vous pouvez "
+"adapter ces préférences individuellement en cliquant sur le menu "
+"\"Édition\"; \"Préférences\" dans la barre de menus."
 
 #: usr/share/help/C/mintupdate/index.page:14(title)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
@@ -145,13 +179,15 @@ msgstr "Gestionnaire de mises à jour"
 
 #: usr/share/help/C/mintupdate/index.page:16(p)
 msgid "Welcome to the Update Manager."
-msgstr ""
+msgstr "Bienvenue dans le Gestionnaire de mises à jour."
 
 #: usr/share/help/C/mintupdate/index.page:18(p)
 msgid ""
 "The Update Manager provides your operating system with software and security "
 "updates."
 msgstr ""
+"Le Gestionnaire de mises à jour offre à votre système d'exploitation des "
+"mises à jour logicielles et de sécurité."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintupdate/index.page:0(None)
@@ -236,7 +272,7 @@ msgstr "Attention !"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
 msgid "Proceed with caution"
-msgstr ""
+msgstr "Agissez avec précaution"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:231
 msgid ""
@@ -246,17 +282,27 @@ msgid ""
 "experienced with kernels, drivers, DKMS modules and you know how to recover "
 "a non-booting computer."
 msgstr ""
+"Le noyau Linux est une partie critique du système. Les régressions peuvent "
+"entraîner une perte de réseau, de son, de l'environnement graphique et même "
+"l'impossibilité de démarrer l'ordinateur. Installez ou supprimez des noyaux "
+"uniquement si vous avez de l'expérience avec les noyaux, pilotes, modules "
+"DKMS et si vous savez comment récupérer un ordinateur ne démarrant plus."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:232
 msgid ""
 "You can install multiple kernels on your computer and you can select the one "
 "you want to use from the advanced options in the boot menu."
 msgstr ""
+"Vous pouvez installer plusieurs noyaux sur votre ordinateur et sélectionner "
+"celui que vous voulez utiliser depuis les options avancées dans le menu de "
+"démarrage."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 msgid ""
 "By default, your computer will boot with the most recent kernel installed."
 msgstr ""
+"Par défaut, votre ordinateur va démarrer avec le noyau le plus récemment  "
+"installé."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:234
 msgid ""
@@ -266,10 +312,16 @@ msgid ""
 "proprietary drivers or DKMS modules with one particular kernel, make sure to "
 "remove all the kernels which are more recent."
 msgstr ""
+"Si vous utilisez des pilotes propriétaires, ou des modules DKMS, rappelez-"
+"vous qu'ils fonctionneront uniquement avec le noyau le plus récemment "
+"installé sur votre ordinateur. Ils se recompilent à chaque fois qu'un "
+"nouveau noyau est installé ou enlevé. Pour utiliser des pilotes "
+"propriétaires ou des modules DKMS avec un noyau particulier, assurez-vous "
+"d'enlever tous les noyaux qui sont plus récents."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:283
 msgid "You are currently using the following kernel:"
-msgstr ""
+msgstr "Vous utilisez actuellement le noyau suivant :"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:50
 msgid "B"
@@ -388,7 +440,7 @@ msgstr "Mise à jour de sécurité"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:769
 msgid "Kernel update"
-msgstr ""
+msgstr "Mise à jour du noyau"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:771
 msgid ""
@@ -535,25 +587,27 @@ msgstr "Journal des modifications"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1232
 msgid "Welcome to the Update Manager"
-msgstr ""
+msgstr "Bienvenue dans le Gestionnaire de mises à jour"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1233
 msgid ""
 "This tool provides your operating system with software and security updates."
 msgstr ""
+"Cet outil fournit à votre système d'exploitation des mises à jour "
+"logicielles et de sécurité."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1234
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1589
 msgid "Please choose an update policy."
-msgstr ""
+msgstr "Veuillez choisir une politique de mise à jour."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1235
 msgid "Don't break my computer!"
-msgstr ""
+msgstr "Ne cassez pas mon ordinateur !"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1236
 msgid "Recommended for novice users."
-msgstr ""
+msgstr "Recommandé pour les utilisateurs débutants."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
@@ -561,40 +615,46 @@ msgid ""
 "Only select updates which are known to be safe or which do not impact "
 "critical parts of the operating system."
 msgstr ""
+"Sélectionnez uniquement les mises à jour qui sont connues pour être sûrs ou "
+"qui n'ont aucun impact sur les parties critiques du système d'exploitation."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1237
 msgid "Don't show me updates which can harm the stability of my system."
 msgstr ""
+"Ne plus afficher les mises à jour qui peuvent nuire à la stabilité de mon "
+"système."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1238
 msgid "Optimize stability and security"
-msgstr ""
+msgstr "Optimiser la stabilité et la sécurité"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1239
 msgid "Recommended for most users."
-msgstr ""
+msgstr "Recommandé pour la plupart des utilisateurs."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1240
 msgid "But also show me security and kernel updates."
-msgstr ""
+msgstr "Mais me montrer également les mises à jour de sécurité et du noyau."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1241
 msgid "Always update everything"
-msgstr ""
+msgstr "Toujours tout mettre à jour"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1242
 msgid "Recommended for experienced users."
-msgstr ""
+msgstr "Recommandé pour les utilisateurs confirmés."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid "Select all available updates."
-msgstr ""
+msgstr "Sélectionnez toutes les mises à jour disponibles."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
 msgid ""
 "Keep my computer fully up to date. If a regression breaks something, I'll "
 "fix it."
 msgstr ""
+"Garder mon ordinateur totalement à jour. Si une régression entraîne un "
+"dysfonctionnement, je le corrigerai."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1247
 msgid "_File"
@@ -619,7 +679,7 @@ msgstr "Sources de logiciels"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1274
 msgid "Update policy"
-msgstr ""
+msgstr "Politique de mises à jour"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1298
 #, python-format
@@ -720,11 +780,11 @@ msgstr "Niveaux"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
 msgid "Auto-refresh"
-msgstr ""
+msgstr "Actualisation automatique"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
 msgid "Blacklisted packages"
-msgstr ""
+msgstr "Paquets sur liste noire"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "Tested?"
@@ -746,8 +806,8 @@ msgstr "Visible ?"
 msgid ""
 "Certified updates. Tested through Romeo or directly maintained by Linux Mint."
 msgstr ""
-"Mises à jour certifiées. Testées par le biais de Romeo ou directement "
-"maintenues par Linux Mint."
+"Mises à jour certifiées. Testées via Romeo ou directement maintenues par "
+"Linux Mint."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1883
 msgid "Recommended updates. Tested and approved by Linux Mint."
@@ -827,11 +887,11 @@ msgstr "Toujours cocher les mises à jour de sécurité"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1902
 msgid "Always show kernel updates"
-msgstr ""
+msgstr "Toujours afficher les mises à jour du noyau"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1903
 msgid "Always select and trust kernel updates"
-msgstr ""
+msgstr "Toujours sélectionner et faire confiance aux mises à jour du noyau"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1904
 msgid "minutes"
@@ -847,11 +907,11 @@ msgstr "jours"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1907
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1908
 msgid "Apply"
-msgstr ""
+msgstr "Appliquer"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1949
 msgid "Ignored updates"

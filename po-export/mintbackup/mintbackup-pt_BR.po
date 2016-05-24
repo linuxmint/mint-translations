@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-04-14 12:43+0100\n"
-"PO-Revision-Date: 2014-06-05 01:01+0000\n"
-"Last-Translator: Hugo Leonardo Leal Torres <hugoleal85@hotmail.com>\n"
+"PO-Revision-Date: 2016-05-19 00:02+0000\n"
+"Last-Translator: murilomsventuroso <Unknown>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-21 14:38+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-24 09:30+0000\n"
+"X-Generator: Launchpad (build 18053)\n"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:34
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:99
@@ -62,7 +62,7 @@ msgstr "Nunca"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:166
 msgid "Size mismatch"
-msgstr "Incompatibilidade de tamanho"
+msgstr "Caso o tamanho dos arquivos sejam diferentes"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:167
 msgid "Modification time mismatch"
@@ -204,7 +204,7 @@ msgstr "Sobrescrever:"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:303
 msgid "Confirm integrity"
-msgstr "Confirmar integridade"
+msgstr "Verificar integridade"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:304
 msgid "Follow symlinks"
@@ -216,7 +216,7 @@ msgstr "Preservar permissões"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:306
 msgid "Preserve timestamps"
-msgstr "Preservar datas dos arquivos"
+msgstr "Preservar as datas"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:310
 msgid "Please select any files or directories you want to exclude"
@@ -246,7 +246,7 @@ msgstr "Por favor aguarde enquanto seus arquivos são copiados"
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:322
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:367
 msgid "Backing up:"
-msgstr "Processo de cópia:"
+msgstr "Copiando:"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:326
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:371
@@ -278,7 +278,7 @@ msgstr "Por favor, aguarde enquanto seus arquivos são restaurados"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:347
 msgid "Restoring:"
-msgstr "Processo de restauração:"
+msgstr "Restaurando:"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:351
 msgid "The restoration of the files is now finished"
@@ -300,7 +300,7 @@ msgstr "A lista a seguir mostra os pacotes adicionados ao Linux Mint"
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:361
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:381
 msgid "Select all"
-msgstr "Marcar todos"
+msgstr "Selecionar todos"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:362
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:382
@@ -368,7 +368,7 @@ msgstr "Descrição"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:526
 msgid "Compression"
-msgstr "Compactação"
+msgstr "Compressão"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:530
 msgid "Overwrite destination files"
@@ -436,7 +436,7 @@ msgid ""
 "Warning: Some files were not saved, copied: %(current_file)d files out of "
 "%(total)d total"
 msgstr ""
-"Atenção: alguns arquivos não foram salvos. Copiados %(current_file)d "
+"Atenção: Alguns arquivos não foram salvos. Foram copiados %(current_file)d "
 "arquivos de um total de %(total)d"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:828
@@ -477,12 +477,12 @@ msgid ""
 "Warning: Some files were not restored, copied: %(current_file)d files out of "
 "%(total)d total"
 msgstr ""
-"Atenção: Alguns arquivos não foram restaurados, copiado: %(current_file)d "
+"Atenção: Alguns arquivos não foram restaurados, copiados: %(current_file)d "
 "arquivos de %(total)d no total"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:1339
 msgid "An error occured during the restoration"
-msgstr "Um erro ocorreu durante o processo de restauração"
+msgstr "Ocorreu um erro durante o processo de restauração"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:1350
 msgid "The restoration was aborted"
@@ -494,7 +494,7 @@ msgstr "A restauração foi feita com sucesso"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:1475
 msgid "An error occured during the backup:"
-msgstr "Um erro ocorreu durante o processo de cópia:"
+msgstr "Ocorreu um erro durante o processo de cópia:"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:1492
 msgid "Your software selection was backed up succesfully"
@@ -507,7 +507,7 @@ msgstr "O arquivo especificado não é uma lista de aplicativos válida"
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:1527
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:1570
 msgid "An error occurred while accessing the file"
-msgstr "Um erro ocorreu ao acessar o arquivo"
+msgstr "Ocorreu um erro ao acessar o arquivo"
 
 #: usr/lib/linuxmint/mintBackup/mintBackup.py:1563
 msgid "Could not locate the package"
