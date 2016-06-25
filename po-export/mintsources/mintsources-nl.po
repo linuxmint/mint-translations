@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-22 13:53+0100\n"
-"PO-Revision-Date: 2016-04-26 10:12+0000\n"
+"POT-Creation-Date: 2016-06-06 11:20+0100\n"
+"PO-Revision-Date: 2016-06-06 22:05+0000\n"
 "Last-Translator: Pjotr12345 <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-24 09:34+0000\n"
-"X-Generator: Launchpad (build 18053)\n"
+"X-Launchpad-Export-Date: 2016-06-25 09:29+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:35
 msgid "You are about to remove the following PPA:"
@@ -61,7 +61,7 @@ msgid "Adding PPAs is not supported"
 msgstr "Het toevoegen van PPA's wordt niet ondersteund"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:104
-#: usr/lib/linuxmint/mintSources/mintSources.py:1060
+#: usr/lib/linuxmint/mintSources/mintSources.py:1054
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Kan PPA niet toevoegen: '%s'."
@@ -102,177 +102,158 @@ msgstr ""
 "kunt deze pakketbron beter niet inschakelen, behalve als u deelneemt aan het "
 "uitproberen van bètaversies. Weet u zeker dat u Romeo wil inschakelen?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:374
-msgid ""
-"Backports are packages coming from newer Linux Mint releases. When backports "
-"are made available, the development team publishes an official announcement "
-"on http://blog.linuxmint.com. This announcement might include important "
-"information about the new features, design decisions or even known issues "
-"which relate to you. It is therefore strongly recommended to not enable "
-"backports until you have read this information. Are you sure you want to "
-"enable backports?"
-msgstr ""
-"De Backports-pakketbron bevat pakketten die afkomstig zijn van nieuwere "
-"versies van Linux Mint. De ontwikkelaarsploeg publiceert een officiële "
-"aankondiging op http://blog.linuxmint.com wanneer de Backports-pakketbron "
-"beschikbaar wordt gesteld. Die aankondiging kan belangrijke informatie "
-"bevatten over de nieuwe functies, ontwerpbesluiten of bekende fouten die "
-"voor u van belang kunnen zijn. Het wordt daarom sterk aangeraden om de "
-"Backports-pakketbron NIET in te schakelen voordat u deze informatie hebt "
-"gelezen. Weet u zeker dat u de Backports-pakketbron wil inschakelen?"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:402
+#: usr/lib/linuxmint/mintSources/mintSources.py:396
 msgid "Select a mirror"
 msgstr "Kies een spiegelserver"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:413
+#: usr/lib/linuxmint/mintSources/mintSources.py:407
 msgid "Country"
 msgstr "Land"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:418
+#: usr/lib/linuxmint/mintSources/mintSources.py:412
 msgid "URL"
 msgstr "Webadres"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:423
+#: usr/lib/linuxmint/mintSources/mintSources.py:417
 msgid "Speed"
 msgstr "Snelheid"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:515
-#: usr/lib/linuxmint/mintSources/mintSources.py:529
+#: usr/lib/linuxmint/mintSources/mintSources.py:509
+#: usr/lib/linuxmint/mintSources/mintSources.py:523
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:518
+#: usr/lib/linuxmint/mintSources/mintSources.py:512
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:521
+#: usr/lib/linuxmint/mintSources/mintSources.py:515
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:562
+#: usr/lib/linuxmint/mintSources/mintSources.py:556
 msgid "Obsolete"
 msgstr "Verouderd"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:565
+#: usr/lib/linuxmint/mintSources/mintSources.py:559
 msgid "Unreachable"
 msgstr "Onbereikbaar"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:681 generate_desktop_files:27
+#: usr/lib/linuxmint/mintSources/mintSources.py:675 generate_desktop_files:27
 #: generate_desktop_files:43
 msgid "Software Sources"
 msgstr "Pakketbronnen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:698
+#: usr/lib/linuxmint/mintSources/mintSources.py:692
 msgid "Backported packages"
 msgstr "Pakketten uit de backports"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:700
+#: usr/lib/linuxmint/mintSources/mintSources.py:694
 msgid "Unstable packages"
 msgstr "Onstabiele pakketten"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:713
-#: usr/lib/linuxmint/mintSources/mintSources.py:1382
+#: usr/lib/linuxmint/mintSources/mintSources.py:707
+#: usr/lib/linuxmint/mintSources/mintSources.py:1376
 msgid "No action required"
 msgstr "Geen actie nodig"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:709
 msgid "Official repositories"
 msgstr "Officiële pakketbronnen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:716
+#: usr/lib/linuxmint/mintSources/mintSources.py:710
 msgid "PPAs"
 msgstr "PPA's (mogelijk riskant)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:717
+#: usr/lib/linuxmint/mintSources/mintSources.py:711
 msgid "Additional repositories"
 msgstr "Extra pakketbronnen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:718
+#: usr/lib/linuxmint/mintSources/mintSources.py:712
 msgid "Authentication keys"
 msgstr "Authenticatiesleutels"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:719
+#: usr/lib/linuxmint/mintSources/mintSources.py:713
 msgid "Maintenance"
 msgstr "Onderhoud"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:715
 msgid "Mirrors"
 msgstr "Spiegelservers"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:722
+#: usr/lib/linuxmint/mintSources/mintSources.py:716
 msgid "Main"
 msgstr "Hoofdserver"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:723
+#: usr/lib/linuxmint/mintSources/mintSources.py:717
 msgid "Base"
 msgstr "Basis"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
-#: usr/lib/linuxmint/mintSources/mintSources.py:725
+#: usr/lib/linuxmint/mintSources/mintSources.py:718
+#: usr/lib/linuxmint/mintSources/mintSources.py:719
 msgid "Select a faster server..."
 msgstr "Kies een snellere server..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:727
+#: usr/lib/linuxmint/mintSources/mintSources.py:721
 msgid "Optional components"
 msgstr "Facultatieve onderdelen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:728
+#: usr/lib/linuxmint/mintSources/mintSources.py:722
 msgid "Source code"
 msgstr "Broncode"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:730
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Add a new PPA..."
 msgstr "Voeg een nieuwe PPA toe..."
 
+#: usr/lib/linuxmint/mintSources/mintSources.py:725
 #: usr/lib/linuxmint/mintSources/mintSources.py:731
-#: usr/lib/linuxmint/mintSources/mintSources.py:737
 msgid "Edit URL..."
 msgstr "Bewerk webadres..."
 
+#: usr/lib/linuxmint/mintSources/mintSources.py:726
 #: usr/lib/linuxmint/mintSources/mintSources.py:732
-#: usr/lib/linuxmint/mintSources/mintSources.py:738
-#: usr/lib/linuxmint/mintSources/mintSources.py:742
+#: usr/lib/linuxmint/mintSources/mintSources.py:736
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:42
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:733
+#: usr/lib/linuxmint/mintSources/mintSources.py:727
 msgid "Open PPA"
 msgstr "PPA openen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:728
 msgid "Look inside the PPA and install packages it provides"
 msgstr "Kijk in de PPA en installeer de pakketten die hij levert"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:736
+#: usr/lib/linuxmint/mintSources/mintSources.py:730
 msgid "Add a new repository..."
 msgstr "Voeg een nieuwe pakketbron toe..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:734
 msgid "Import key file..."
 msgstr "Importeer sleutelbestand..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:741
+#: usr/lib/linuxmint/mintSources/mintSources.py:735
 msgid "Download a key..."
 msgstr "Haal een sleutel op..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/mintSources.py:738
 msgid "Fix MergeList problems"
 msgstr "Herstel problemen met MergeList"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:745
+#: usr/lib/linuxmint/mintSources/mintSources.py:739
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr ""
 "Indien u problemen ervaart met MergeList, klik dan op deze knop om het "
 "probleem op te lossen."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:746
+#: usr/lib/linuxmint/mintSources/mintSources.py:740
 msgid "Purge residual configuration"
 msgstr "Verwijder achtergebleven instellingen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:747
+#: usr/lib/linuxmint/mintSources/mintSources.py:741
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
@@ -280,11 +261,11 @@ msgstr ""
 "Pakketten laten soms instellingbestanden achter in het systeem, ook nadat ze "
 "zelf zijn verwijderd."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:748
+#: usr/lib/linuxmint/mintSources/mintSources.py:742
 msgid "Remove foreign packages"
 msgstr "Vreemde pakketten verwijderen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:749
+#: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
@@ -292,11 +273,11 @@ msgstr ""
 "Pakketten die niet afkomstig zijn uit bekende pakketbronnen staan hier "
 "vermeld en kunnen worden verwijderd."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:750
+#: usr/lib/linuxmint/mintSources/mintSources.py:744
 msgid "Downgrade foreign packages"
 msgstr "Vreemde pakketten afwaarderen naar oudere versies"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:751
+#: usr/lib/linuxmint/mintSources/mintSources.py:745
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
@@ -304,60 +285,59 @@ msgstr ""
 "Pakketten waarvan de versie niet afkomstig is uit bekende pakketbronnen "
 "staan hier vermeld en kunnen worden afgewaardeerd."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:756
+#: usr/lib/linuxmint/mintSources/mintSources.py:750
 msgid "Enable source code repositories"
 msgstr "Broncode-pakketbronnen inschakelen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:766
+#: usr/lib/linuxmint/mintSources/mintSources.py:760
 msgid ""
-"Warning: Backports and unstable packages can introduce regressions and "
-"negatively impact your system. Please do not enable these options in Linux "
-"Mint unless it was suggested by the development team."
+"Warning: Unstable packages can introduce regressions and negatively impact "
+"your system. Please do not enable these options in Linux Mint unless it was "
+"suggested by the development team."
 msgstr ""
-"Waarschuwing: Backports-pakketten en onstabiele pakketten kunnen "
-"regressiefouten introduceren en uw systeem negatief beïnvloeden. Schakel "
-"a.u.b. deze opties niet in uw Linux Mint in, behalve als het wordt "
-"aangeraden door de ontwikkelaarsploeg."
+"Waarschuwing: onstabiele pakketten kunnen regressiefouten veroorzaken en uw "
+"systeem negatief beïnvloeden. Schakel deze opties alstublieft niet in uw "
+"Linux Mint in, tenzij het werd gesuggereerd door de ontwikkelaarsploeg."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:830
-#: usr/lib/linuxmint/mintSources/mintSources.py:854
+#: usr/lib/linuxmint/mintSources/mintSources.py:824
+#: usr/lib/linuxmint/mintSources/mintSources.py:848
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:836
+#: usr/lib/linuxmint/mintSources/mintSources.py:830
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:38
 msgid "PPA"
 msgstr "PPA (mogelijk riskant)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:860
+#: usr/lib/linuxmint/mintSources/mintSources.py:854
 msgid "Repository"
 msgstr "Pakketbron"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:876
+#: usr/lib/linuxmint/mintSources/mintSources.py:870
 msgid "Key"
 msgstr "Sleutel"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:889
+#: usr/lib/linuxmint/mintSources/mintSources.py:883
 msgid "Restore the default settings"
 msgstr "Herstel de standaardinstellingen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:890
+#: usr/lib/linuxmint/mintSources/mintSources.py:884
 msgid "Restore the official repositories to their default settings"
 msgstr "Zet de officiële pakketbronnen terug op hun standaardinstellingen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:978
+#: usr/lib/linuxmint/mintSources/mintSources.py:972
 msgid "There is no more residual configuration on the system."
 msgstr "Er zijn geen achtergebleven instellingen meer in het systeem."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:984
+#: usr/lib/linuxmint/mintSources/mintSources.py:978
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Het probleem werd hersteld. Herlaad a.u.b. de bestandenlijstopslag."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1010
+#: usr/lib/linuxmint/mintSources/mintSources.py:1004
 msgid "Open.."
 msgstr "Openen..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1026
+#: usr/lib/linuxmint/mintSources/mintSources.py:1020
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -365,23 +345,23 @@ msgstr ""
 "Voer a.u.b. de acht tekens in van de publieke sleutel die u wil ophalen van "
 "keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1039
+#: usr/lib/linuxmint/mintSources/mintSources.py:1033
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Weet u zeker dat u deze sleutel blijvend wil verwijderen?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1053
+#: usr/lib/linuxmint/mintSources/mintSources.py:1047
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Voer a.u.b. de naam in van de PPA die u wil toevoegen:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1106
+#: usr/lib/linuxmint/mintSources/mintSources.py:1100
 msgid "Edit the URL of the PPA"
 msgstr "Bewerk het webadres van de PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1116
+#: usr/lib/linuxmint/mintSources/mintSources.py:1110
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Weet u zeker dat u deze PPA blijvend wil verwijderen?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1155
+#: usr/lib/linuxmint/mintSources/mintSources.py:1149
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
@@ -389,28 +369,28 @@ msgstr ""
 "De inhoud van deze PPA is niet beschikbaar. Ververs a.u.b. de tijdelijke "
 "opslag en probeer het opnieuw."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1169
+#: usr/lib/linuxmint/mintSources/mintSources.py:1163
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Voer a.u.b. de naam in van de pakketbron die u wil toevoegen:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1188
+#: usr/lib/linuxmint/mintSources/mintSources.py:1182
 msgid "Edit the URL of the repository"
 msgstr "Bewerk het webadres van de pakketbron"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1198
+#: usr/lib/linuxmint/mintSources/mintSources.py:1192
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Weet u zeker dat u deze pakketbron blijvend wil verwijderen?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:1370
 msgid "Update the cache"
 msgstr "Werk de bestandenlijstopslag bij"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1377
+#: usr/lib/linuxmint/mintSources/mintSources.py:1371
 msgid "Click here to update your APT cache with your new sources"
 msgstr ""
 "Klik hier om uw APT-bestandenlijstopslag bij te werken met uw nieuwe bronnen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1383
+#: usr/lib/linuxmint/mintSources/mintSources.py:1377
 msgid "Your APT cache is up to date"
 msgstr "Uw APT-bestandenlijstopslag is bijgewerkt"
 

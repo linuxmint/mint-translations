@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-04-04 09:12+0000\n"
-"Last-Translator: lang-it <Unknown>\n"
+"PO-Revision-Date: 2016-06-22 13:35+0000\n"
+"Last-Translator: Mad Hatter <vanhelgen@gmail.com>\n"
 "Language-Team: Italian <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-24 09:31+0000\n"
-"X-Generator: Launchpad (build 18053)\n"
+"X-Launchpad-Export-Date: 2016-06-25 09:26+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -76,7 +76,7 @@ msgstr "Aggiunta nuovo utente al sistema"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr "Scrittura informazioni di montaggio del filesystem su /etc/fstab"
+msgstr "Scrittura informazioni di montaggio del filesystem in /etc/fstab"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
@@ -92,7 +92,7 @@ msgstr "Localizzazione pacchetti"
 
 #: usr/lib/live-installer/installer.py:422
 msgid "Installing drivers"
-msgstr "Installazione di driver"
+msgstr "Installazione dei driver"
 
 #: usr/lib/live-installer/installer.py:437
 msgid "Setting keyboard options"
@@ -129,7 +129,7 @@ msgstr "Controllo del bootloader"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
-msgstr "L'errore imprevisto"
+msgstr "Errore imprevisto"
 
 #: usr/lib/live-installer/main.py:32
 msgid "The installer failed with the following error."
@@ -319,7 +319,7 @@ msgstr "GRUB è un bootloader usato per caricare il kernel Linux."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr "Usa questa casella per testare il funzionamento della tastiera."
+msgstr "Usa questa casella per provare il layout della tastiera."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -336,13 +336,13 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
 msgstr ""
-"Prima di continuare, per favore monta il/i filesystem(s) target in /target"
+"Prima di continuare, per favore monta il/i filesystem target in /target"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
-"NON montare periferiche virtuali come /dev, /proc, /sys, ecc. in /target/"
+"NON montare periferiche virtuali come /dev, /proc, /sys, ecc. in /target/."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
@@ -400,9 +400,9 @@ msgid ""
 "block device name as they appear in /target/etc/fstab."
 msgstr ""
 "Nota che per fare in modo che update-initramfs funzioni correttamente in "
-"alcuni casi (come dm-crypt), potrebbe essere necessario che i drives siano "
-"montati usando lo stesso nome del blocco del dispositivo che appare in "
-"/target/etc/fstab."
+"alcuni casi (come dm-crypt), potrebbe essere necessario che i drive siano "
+"montati usando lo stesso nome del dispositivo a blocchi con il quale "
+"compaiono in /target/etc/fstab."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:431
 msgid ""
@@ -412,7 +412,7 @@ msgid ""
 msgstr ""
 "Controlla attentamente che il tuo /target/etc/fstab sia corretto, che "
 "corrisponda a quello che il tuo sistema avrà al primo avvio, e che "
-"corrisponda a ciò che è montato in /target"
+"corrisponda a ciò che è montato in /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -494,11 +494,11 @@ msgstr "Le tue password non coincidono."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr "Inserire nome della macchina."
+msgstr "Inserire nome dell'host."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
-msgstr "Il nome utente deve contenere solo carateri minuscoli."
+msgstr "Il nome utente deve contenere solo caratteri minuscoli."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
@@ -506,7 +506,7 @@ msgstr "Il nome utente non può contenere spazi bianchi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr "L'hostname deve contenere solo carateri minuscoli."
+msgstr "L'hostname deve contenere solo caratteri minuscoli."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
@@ -517,7 +517,7 @@ msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
 msgstr ""
-"Per piacere indicare un filesystem per formattare la partizione root (/) "
+"Indicare un tipo di filesystem con cui formattare la partizione root (/) "
 "prima di continuare."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
@@ -534,6 +534,7 @@ msgid ""
 " "
 msgstr ""
 "È necessaria una partizione root per installare Linux Mint.\n"
+"\n"
 "- Punto di montaggio: /\n"
 "- Dimensione consigliata: 30 GB\n"
 "- Formato del filesystem consigliato: ext4\n"
@@ -543,7 +544,7 @@ msgstr ""
 msgid "The EFI partition is not bootable. Please edit the partition flags."
 msgstr ""
 "La partizione EFI non è avviabile, per favore modifica i flag della "
-"partizione"
+"partizione."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:816
 msgid "The EFI partition is too small. It must be at least 100MB."
@@ -604,7 +605,7 @@ msgstr "Impostazioni utente"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:886
 msgid "Real name: "
-msgstr "Nome reale "
+msgstr "Nome reale: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:887
 msgid "Username: "
@@ -628,7 +629,7 @@ msgstr "Impostazioni di sistema"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:890
 msgid "Hostname: "
-msgstr "Nome dell'host "
+msgstr "Nome dell'host: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:891
 msgid "Filesystem operations"
@@ -708,7 +709,7 @@ msgstr "B"
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303
 msgid "kB"
-msgstr "kB"
+msgstr "KB"
 
 #: usr/lib/live-installer/partitioning.py:198
 #: usr/lib/live-installer/partitioning.py:303

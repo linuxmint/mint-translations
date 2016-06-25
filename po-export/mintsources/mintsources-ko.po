@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-22 13:53+0100\n"
-"PO-Revision-Date: 2016-04-23 12:57+0000\n"
+"POT-Creation-Date: 2016-06-06 11:20+0100\n"
+"PO-Revision-Date: 2016-06-08 07:56+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-24 09:34+0000\n"
-"X-Generator: Launchpad (build 18053)\n"
+"X-Launchpad-Export-Date: 2016-06-25 09:29+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:35
 msgid "You are about to remove the following PPA:"
@@ -61,7 +61,7 @@ msgid "Adding PPAs is not supported"
 msgstr "PPA 추가를 지원하지 않습니다"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:104
-#: usr/lib/linuxmint/mintSources/mintSources.py:1060
+#: usr/lib/linuxmint/mintSources/mintSources.py:1054
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "PPA를 추가할 수 없음: '%s'."
@@ -99,296 +99,281 @@ msgstr ""
 "리눅스 민트가 테스트 되지 않은 Romeo로 패키지를 만들고 있습니다. 이 패키지들이 테스트 되면, 공식 저장소로 옮겨질 겁니다, 그렇지 "
 "않은 경우에는 베타-테스팅 상태로 남을거구요, 이 저장소를 활성화 하지 말아 주세요. 정말 Romeo를 활성화 하시겠나요?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:374
-msgid ""
-"Backports are packages coming from newer Linux Mint releases. When backports "
-"are made available, the development team publishes an official announcement "
-"on http://blog.linuxmint.com. This announcement might include important "
-"information about the new features, design decisions or even known issues "
-"which relate to you. It is therefore strongly recommended to not enable "
-"backports until you have read this information. Are you sure you want to "
-"enable backports?"
-msgstr ""
-"백포트는 새로 출시되는 리눅스 민트의 패키지가 지원되는 곳입니다. 백포트 지원을 활성화 할때는, 개발팀에서 공식 발표를 "
-"http://blog.linuxmint.com 에 하게 됩니다. 이 공식 발표에는 새 기능, 디자인 결정 또는 여러분과 관련되 이슈들을 "
-"포함한 중요한 정보를 포함하게 되기도 합니다. 그러므로 여러분이 이런 정보를 받으 실때 까지는 백포트를 활성화 하지 않으시기를 적극 "
-"권장합니다. 정말 백포트를 활성화 하시겠나요?"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:402
+#: usr/lib/linuxmint/mintSources/mintSources.py:396
 msgid "Select a mirror"
 msgstr "미러 선택"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:413
+#: usr/lib/linuxmint/mintSources/mintSources.py:407
 msgid "Country"
 msgstr "국가"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:418
+#: usr/lib/linuxmint/mintSources/mintSources.py:412
 msgid "URL"
 msgstr "URL 주소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:423
+#: usr/lib/linuxmint/mintSources/mintSources.py:417
 msgid "Speed"
 msgstr "속도"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:515
-#: usr/lib/linuxmint/mintSources/mintSources.py:529
+#: usr/lib/linuxmint/mintSources/mintSources.py:509
+#: usr/lib/linuxmint/mintSources/mintSources.py:523
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:518
+#: usr/lib/linuxmint/mintSources/mintSources.py:512
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:521
+#: usr/lib/linuxmint/mintSources/mintSources.py:515
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:562
+#: usr/lib/linuxmint/mintSources/mintSources.py:556
 msgid "Obsolete"
 msgstr "오래됨"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:565
+#: usr/lib/linuxmint/mintSources/mintSources.py:559
 msgid "Unreachable"
 msgstr "손쓸 수 없음"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:681 generate_desktop_files:27
+#: usr/lib/linuxmint/mintSources/mintSources.py:675 generate_desktop_files:27
 #: generate_desktop_files:43
 msgid "Software Sources"
 msgstr "소프트웨어소스"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:698
+#: usr/lib/linuxmint/mintSources/mintSources.py:692
 msgid "Backported packages"
 msgstr "백포트 지원 패키지"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:700
+#: usr/lib/linuxmint/mintSources/mintSources.py:694
 msgid "Unstable packages"
 msgstr "불안정한 패키지"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:713
-#: usr/lib/linuxmint/mintSources/mintSources.py:1382
+#: usr/lib/linuxmint/mintSources/mintSources.py:707
+#: usr/lib/linuxmint/mintSources/mintSources.py:1376
 msgid "No action required"
 msgstr "아무것도 안해도 됩니다"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:709
 msgid "Official repositories"
 msgstr "공식 저장소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:716
+#: usr/lib/linuxmint/mintSources/mintSources.py:710
 msgid "PPAs"
 msgstr "개별 저장소(PPA)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:717
+#: usr/lib/linuxmint/mintSources/mintSources.py:711
 msgid "Additional repositories"
 msgstr "추가 저장소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:718
+#: usr/lib/linuxmint/mintSources/mintSources.py:712
 msgid "Authentication keys"
 msgstr "인증 키"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:719
+#: usr/lib/linuxmint/mintSources/mintSources.py:713
 msgid "Maintenance"
 msgstr "유지 관리"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:715
 msgid "Mirrors"
 msgstr "미러 서버"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:722
+#: usr/lib/linuxmint/mintSources/mintSources.py:716
 msgid "Main"
 msgstr "주 OS"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:723
+#: usr/lib/linuxmint/mintSources/mintSources.py:717
 msgid "Base"
 msgstr "기반 OS"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
-#: usr/lib/linuxmint/mintSources/mintSources.py:725
+#: usr/lib/linuxmint/mintSources/mintSources.py:718
+#: usr/lib/linuxmint/mintSources/mintSources.py:719
 msgid "Select a faster server..."
 msgstr "빠른 서버 고르기..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:727
+#: usr/lib/linuxmint/mintSources/mintSources.py:721
 msgid "Optional components"
 msgstr "선택 사항"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:728
+#: usr/lib/linuxmint/mintSources/mintSources.py:722
 msgid "Source code"
 msgstr "소스 코드"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:730
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Add a new PPA..."
 msgstr "새 PPA 추가..."
 
+#: usr/lib/linuxmint/mintSources/mintSources.py:725
 #: usr/lib/linuxmint/mintSources/mintSources.py:731
-#: usr/lib/linuxmint/mintSources/mintSources.py:737
 msgid "Edit URL..."
 msgstr "URL 편집..."
 
+#: usr/lib/linuxmint/mintSources/mintSources.py:726
 #: usr/lib/linuxmint/mintSources/mintSources.py:732
-#: usr/lib/linuxmint/mintSources/mintSources.py:738
-#: usr/lib/linuxmint/mintSources/mintSources.py:742
+#: usr/lib/linuxmint/mintSources/mintSources.py:736
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:42
 msgid "Remove"
 msgstr "제거하기"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:733
+#: usr/lib/linuxmint/mintSources/mintSources.py:727
 msgid "Open PPA"
 msgstr "PPA 열어보기"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:728
 msgid "Look inside the PPA and install packages it provides"
 msgstr "PPA를 들여다보고 제공하는 패키지를 설치합니다"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:736
+#: usr/lib/linuxmint/mintSources/mintSources.py:730
 msgid "Add a new repository..."
 msgstr "새 저장소 추가..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:734
 msgid "Import key file..."
 msgstr "키 파일 추가..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:741
+#: usr/lib/linuxmint/mintSources/mintSources.py:735
 msgid "Download a key..."
 msgstr "키 파일 다운로드..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/mintSources.py:738
 msgid "Fix MergeList problems"
 msgstr "서버 병합 문제 해결"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:745
+#: usr/lib/linuxmint/mintSources/mintSources.py:739
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr "서버 병합 문제를 겪으셨으면, 이 버튼을 눌러서 문제를 해결해보세요."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:746
+#: usr/lib/linuxmint/mintSources/mintSources.py:740
 msgid "Purge residual configuration"
 msgstr "사용하지 않는 설정값 지우기"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:747
+#: usr/lib/linuxmint/mintSources/mintSources.py:741
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
 msgstr "패키지가 제거된 이후에도 설정 파일들이 시스템에 남아 있을 수 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:748
+#: usr/lib/linuxmint/mintSources/mintSources.py:742
 msgid "Remove foreign packages"
 msgstr "외래 패키지 제거"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:749
+#: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
 msgstr "저장소에서 가져오지 않은 패키지들 목록이며 지우실 수 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:750
+#: usr/lib/linuxmint/mintSources/mintSources.py:744
 msgid "Downgrade foreign packages"
 msgstr "외래 패키지 다운그레이드"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:751
+#: usr/lib/linuxmint/mintSources/mintSources.py:745
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
 msgstr "알려지지 않은 저장소에서 가져온 패키지들 버전 목록이며 다운그레이드 하실 수 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:756
+#: usr/lib/linuxmint/mintSources/mintSources.py:750
 msgid "Enable source code repositories"
 msgstr "소스 코드 저장소 활성화"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:766
+#: usr/lib/linuxmint/mintSources/mintSources.py:760
 msgid ""
-"Warning: Backports and unstable packages can introduce regressions and "
-"negatively impact your system. Please do not enable these options in Linux "
-"Mint unless it was suggested by the development team."
+"Warning: Unstable packages can introduce regressions and negatively impact "
+"your system. Please do not enable these options in Linux Mint unless it was "
+"suggested by the development team."
 msgstr ""
-"주의: 백포트와 불안정한 버전의 패키지들은 여러분의 시스템을 퇴보 시키거나 부정적인 영향을 끼칠 수 있습니다. 리눅스 민트 개발팀으로 "
-"부터 제안 받지 않으셨다면 이 옵션들을 활성화 하지 않으셨으면 합니다."
+"주의: 불안정한 패키지는 리그레션을 불러오거나 시스템에 좋지 않은 영향을 줄 수 있습니다. 개발팀에게 제안받지 않으셨다면 이 옵션을 "
+"실행하지 말아주세요."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:830
-#: usr/lib/linuxmint/mintSources/mintSources.py:854
+#: usr/lib/linuxmint/mintSources/mintSources.py:824
+#: usr/lib/linuxmint/mintSources/mintSources.py:848
 msgid "Enabled"
 msgstr "사용중"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:836
+#: usr/lib/linuxmint/mintSources/mintSources.py:830
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:38
 msgid "PPA"
 msgstr "개별 저장소(PPA)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:860
+#: usr/lib/linuxmint/mintSources/mintSources.py:854
 msgid "Repository"
 msgstr "저장소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:876
+#: usr/lib/linuxmint/mintSources/mintSources.py:870
 msgid "Key"
 msgstr "키 값"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:889
+#: usr/lib/linuxmint/mintSources/mintSources.py:883
 msgid "Restore the default settings"
 msgstr "기본 설정으로 복원"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:890
+#: usr/lib/linuxmint/mintSources/mintSources.py:884
 msgid "Restore the official repositories to their default settings"
 msgstr "공식 저장소를 기본 설정으로 복원"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:978
+#: usr/lib/linuxmint/mintSources/mintSources.py:972
 msgid "There is no more residual configuration on the system."
 msgstr "사용하지 않는 설정이 시스템에 더 남아 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:984
+#: usr/lib/linuxmint/mintSources/mintSources.py:978
 msgid "The problem was fixed. Please reload the cache."
 msgstr "문제가 해결되었습니다. 캐시를 다시 불러오십시오."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1010
+#: usr/lib/linuxmint/mintSources/mintSources.py:1004
 msgid "Open.."
 msgstr "열기.."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1026
+#: usr/lib/linuxmint/mintSources/mintSources.py:1020
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr "keyserver.ubuntu.com에서 불러올 8자리의 공식 키를 넣어주십시오:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1039
+#: usr/lib/linuxmint/mintSources/mintSources.py:1033
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "이 키를 완전히 삭제하시겠습니까?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1053
+#: usr/lib/linuxmint/mintSources/mintSources.py:1047
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "추가하실 PPA의 이름을 넣어주세요:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1106
+#: usr/lib/linuxmint/mintSources/mintSources.py:1100
 msgid "Edit the URL of the PPA"
 msgstr "PPA 주소 편집"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1116
+#: usr/lib/linuxmint/mintSources/mintSources.py:1110
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "정말 이 PPA를 완전히 제거하시겠습니까?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1155
+#: usr/lib/linuxmint/mintSources/mintSources.py:1149
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr "이 PPA의 패키지들을 사용할 수 없습니다. 새로 고침 하신 후에 다시 시도해보세요"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1169
+#: usr/lib/linuxmint/mintSources/mintSources.py:1163
 msgid "Please enter the name of the repository you want to add:"
 msgstr "추가하실 저장소 이름을 넣어주세요:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1188
+#: usr/lib/linuxmint/mintSources/mintSources.py:1182
 msgid "Edit the URL of the repository"
 msgstr "저장소 주소 편집"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1198
+#: usr/lib/linuxmint/mintSources/mintSources.py:1192
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "정말 이 저장소를 완전히 제거하시겠습니까?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:1370
 msgid "Update the cache"
 msgstr "캐시 업데이트"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1377
+#: usr/lib/linuxmint/mintSources/mintSources.py:1371
 msgid "Click here to update your APT cache with your new sources"
 msgstr "새 소스에서 APT 캐시를 업데이트 하시려면 여기를 클릭하세요"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1383
+#: usr/lib/linuxmint/mintSources/mintSources.py:1377
 msgid "Your APT cache is up to date"
 msgstr "APT 캐시가 업데이트 되었습니다"
 

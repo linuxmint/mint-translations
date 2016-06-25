@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-05-14 14:56+0000\n"
-"Last-Translator: Fajar Ichwan Noor <Unknown>\n"
+"PO-Revision-Date: 2016-05-31 15:06+0000\n"
+"Last-Translator: Aldi Halim <namuhin@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-24 09:31+0000\n"
-"X-Generator: Launchpad (build 18053)\n"
+"X-Launchpad-Export-Date: 2016-06-25 09:26+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -43,6 +43,10 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"GALAT: Ada yang salah dengan sarana pemasangan! Hal ini biasanya disebabkan "
+"oleh alat pembakar yang tidak kompatibel dengan LMDE (YUMI atau alat "
+"multiboot lainnya). Silakan bakar citra ISO ke DVD/USB dengan menggunakan "
+"alat yang berbeda."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -498,7 +502,7 @@ msgstr "Nama pengguna anda harus dalam huruf kecil."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:775
 msgid "Your username may not contain whitespace characters."
-msgstr ""
+msgstr "Nama Pengguna Anda tidak boleh mengandung karakter spasi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
@@ -506,13 +510,15 @@ msgstr "Hostname harus dalam huruf kecil."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr ""
+msgstr "Nama Host Anda tidak boleh mengandung karakter spasi."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
 msgstr ""
+"Harap menunjukkan filesystem untuk memformat partisi root (/) sebelum "
+"melanjutkan."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
@@ -527,6 +533,12 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"Sebuah partisi root diperlukan untuk memasang Linux Mint.\n"
+"\n"
+" - Titik kait: /\n"
+" - Ukuran yang dianjurkan: 30GB\n"
+" - Format filesystem yang dianjurkan: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
@@ -642,7 +654,7 @@ msgstr "Format %(path)s sebagai %(filesystem)s"
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "Mount %(path)s as %(mount)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
@@ -653,13 +665,15 @@ msgstr "Instalasi mengalami gangguan"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr ""
+msgstr "Pemasangan ditunda"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
+"Pemasangan sedang ditunda. Silakan baca instruksi dengan hati-hati sebelum "
+"mengklik Teruskan untuk menyelesaikan pemasangan."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
@@ -711,7 +725,7 @@ msgstr "TB"
 
 #: usr/lib/live-installer/partitioning.py:203
 msgid "Removable:"
-msgstr ""
+msgstr "Removable:"
 
 #: usr/lib/live-installer/partitioning.py:218
 #, python-format
@@ -720,6 +734,9 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"Tak ada partisi tabel yang ditemukan pada hard drive: %s. Anda ingin "
+"installer untuk membuat sendiri paket partisi secara otomatis? Catatan: "
+"Tindakan ini akan MENGHAPUS SEMUA DATA yang mungkin ada di hardisk ini."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
@@ -735,11 +752,11 @@ msgstr "Tidak diketahui"
 
 #: usr/lib/live-installer/partitioning.py:436
 msgid "Edit partition"
-msgstr ""
+msgstr "Sunting Partisi"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"
-msgstr ""
+msgstr "Perangkat:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
@@ -747,4 +764,4 @@ msgstr "Format sebagai:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "Titik mount:"

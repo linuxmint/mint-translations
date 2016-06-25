@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2015-09-08 23:41+0000\n"
-"Last-Translator: Hugo Leonardo Leal Torres <hugoleal85@hotmail.com>\n"
+"PO-Revision-Date: 2016-06-15 16:55+0000\n"
+"Last-Translator: Sitonir de Oliveira <sitonir@outlook.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-24 09:31+0000\n"
-"X-Generator: Launchpad (build 18053)\n"
+"X-Launchpad-Export-Date: 2016-06-25 09:26+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 "ERRO: Alguma coisa está errada com o meio de instalação! Isso é geralmente "
 "causado por programas de gravação que não são compatíveis com o LMDE (YUMI "
-"ou outras  ferramentas de múltipla inicialização). Por favor grave a imagem "
+"ou outras  ferramentas de múltipla inicialização). Por favor, grave a imagem "
 "ISO utilizando um programa diferente."
 
 #: usr/lib/live-installer/installer.py:159
@@ -122,11 +122,11 @@ msgstr "Instalação concluída"
 
 #: usr/lib/live-installer/installer.py:532
 msgid "Configuring bootloader"
-msgstr "Configurando carregador de inicialização"
+msgstr "Configurando o carregador de inicialização"
 
 #: usr/lib/live-installer/installer.py:541
 msgid "Checking bootloader"
-msgstr "Verificando carregador de inicialização"
+msgstr "Verificando o carregador de inicialização"
 
 #: usr/lib/live-installer/main.py:31
 msgid "Unexpected error"
@@ -153,7 +153,7 @@ msgstr "Fuso horário"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:94
 msgid "Keyboard layout"
-msgstr "Layout do teclado"
+msgstr "Leiaute do teclado"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:95
 msgid "User info"
@@ -182,7 +182,7 @@ msgstr "Instalando Linux Mint..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Installation paused: please finish the custom installation"
-msgstr "Instalação pausada: por favor, conclua a instalação personalizada"
+msgstr "Instalação suspensa: por favor, conclua a instalação personalizada"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:114
 msgid "Country"
@@ -210,21 +210,21 @@ msgstr "Editar partições"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:175
 msgid "Refresh"
-msgstr "Reatualização"
+msgstr "Atualizar"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:176
 msgid "Expert mode"
-msgstr "Modo especial"
+msgstr "Modo avançado"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:220
 #: usr/lib/live-installer/frontend/gtk_interface.py:444
 msgid "Layout"
-msgstr "Layout"
+msgstr "Leiaute"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:226
 #: usr/lib/live-installer/frontend/gtk_interface.py:445
 msgid "Variant"
-msgstr "Variável"
+msgstr "Variante"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:235
 #: usr/lib/live-installer/frontend/gtk_interface.py:446
@@ -265,11 +265,11 @@ msgstr "Digite a senha duas vezes para garantir que esteja correta."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Hostname"
-msgstr "Nome da máquina"
+msgstr "Nome do computador"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr "Este nome de host vai identificar o computador na rede."
+msgstr "Este será o nome do computador na rede."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
@@ -281,7 +281,7 @@ msgid ""
 "signed into your desktop session automatically."
 msgstr ""
 "Se ativado, a tela de login será ignorada quando o sistema for iniciado, e "
-"você estará conectado à sua sessão de área de trabalho automaticamente."
+"você será automaticamente autenticado na sua sessão da área de trabalho."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
@@ -301,7 +301,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:407
 msgid "Selected timezone:"
-msgstr "Fuso Horário selecionado"
+msgstr "Fuso Horário selecionado:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:410
 msgid "Bootloader"
@@ -318,7 +318,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr "Use essa caixa para testar o layout do teclado."
+msgstr "Use essa caixa para testar o leiaute do teclado."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -362,14 +362,14 @@ msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
-"Se você não tem certeza do que isso significa, por favor volte e desmarque "
+"Se você não tem certeza do que isso significa, por favor, volte e desmarque "
 "gerenciamento de partição manual."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr ""
-"Por favor faça o seguinte, clique em Avançar para concluir a instalação:"
+"Por favor, faça o seguinte, clique em Avançar para concluir a instalação:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -491,7 +491,7 @@ msgstr "Suas senhas não coincidem."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr "Por favor, forneça um nome de host."
+msgstr "Por favor, forneça um nome pro computador."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
@@ -503,11 +503,11 @@ msgstr "Seu nome de usuário não pode conter caracteres em branco."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:780
 msgid "The hostname must be lower case."
-msgstr "O nome do host deve ser escrito com letras minúsculas."
+msgstr "O nome do computador deve ser escrito com letras minúsculas."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:784
 msgid "The hostname may not contain whitespace characters."
-msgstr "O nome do host não pode conter caracteres em branco."
+msgstr "O nome do computador não pode conter caracteres em branco."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:800
 msgid ""
@@ -625,7 +625,7 @@ msgstr "Configurações do sistema"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:890
 msgid "Hostname: "
-msgstr "Nome do host: "
+msgstr "Nome do computador: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:891
 msgid "Filesystem operations"
@@ -634,7 +634,7 @@ msgstr "Operações de sistema de arquivos"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr "Instale bootloader em %s"
+msgstr "Instale o carregador de inicialização em %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
@@ -642,7 +642,7 @@ msgstr "Não instalar o carregador de inicialização"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr "Use já montada /alvo."
+msgstr "Use já montada /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
@@ -663,14 +663,14 @@ msgstr "Erro na instalação"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
-msgstr "Instalação pausada"
+msgstr "Instalação suspensa"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
-"A instalação está agora em pausa. Por favor, leia as instruções na página "
+"A instalação agora está suspensa. Por favor, leia as instruções na página "
 "com atenção antes de clicar em Avançar para concluir a instalação."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
@@ -733,8 +733,8 @@ msgid ""
 "DATA present on this disk."
 msgstr ""
 "Nenhuma tabela de partição foi encontrada no disco rígido: %s. Você quer que "
-"o instalador crie um conjunto de partições para você? Nota: Isto apagará "
-"todos os dados presentes neste disco."
+"o instalador crie um conjunto de partições para você? Nota: Isto APAGARÁ "
+"TODOS OS DADOS presentes neste disco."
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
