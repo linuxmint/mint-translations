@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-06-06 11:20+0100\n"
-"PO-Revision-Date: 2016-06-08 14:20+0000\n"
+"POT-Creation-Date: 2016-10-11 15:49+0100\n"
+"PO-Revision-Date: 2016-10-28 14:34+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-25 09:29+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-11-09 17:14+0000\n"
+"X-Generator: Launchpad (build 18255)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:35
 msgid "You are about to remove the following PPA:"
@@ -63,7 +63,7 @@ msgid "Adding PPAs is not supported"
 msgstr "PPA pridėjimas nėra palaikomas"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:104
-#: usr/lib/linuxmint/mintSources/mintSources.py:1054
+#: usr/lib/linuxmint/mintSources/mintSources.py:1062
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Nepavyko pridėti „%s“ PPA."
@@ -119,164 +119,168 @@ msgstr "URL adresas"
 msgid "Speed"
 msgstr "Greitis"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:509
-#: usr/lib/linuxmint/mintSources/mintSources.py:523
+#: usr/lib/linuxmint/mintSources/mintSources.py:442
+msgid "Worldwide"
+msgstr "Pasaulinė"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:526
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:515
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:515
+#: usr/lib/linuxmint/mintSources/mintSources.py:518
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:556
+#: usr/lib/linuxmint/mintSources/mintSources.py:559
 msgid "Obsolete"
 msgstr "Pasenusi"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:559
+#: usr/lib/linuxmint/mintSources/mintSources.py:562
 msgid "Unreachable"
 msgstr "Nepasiekiama"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:675 generate_desktop_files:27
-#: generate_desktop_files:43
+#: usr/lib/linuxmint/mintSources/mintSources.py:683 generate_desktop_files:27
+#: generate_desktop_files:42
 msgid "Software Sources"
 msgstr "Programinės įrangos saugyklos"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:692
+#: usr/lib/linuxmint/mintSources/mintSources.py:700
 msgid "Backported packages"
 msgstr "Naujų versijų paketai"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:694
+#: usr/lib/linuxmint/mintSources/mintSources.py:702
 msgid "Unstable packages"
 msgstr "Nestabilūs paketai"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:707
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:1383
 msgid "No action required"
 msgstr "Pakeitimai nereikalingi"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:709
+#: usr/lib/linuxmint/mintSources/mintSources.py:717
 msgid "Official repositories"
 msgstr "Oficialios saugyklos"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:710
+#: usr/lib/linuxmint/mintSources/mintSources.py:718
 msgid "PPAs"
 msgstr "PPA saugyklos"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:711
+#: usr/lib/linuxmint/mintSources/mintSources.py:719
 msgid "Additional repositories"
 msgstr "Papildomos saugyklos"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:712
+#: usr/lib/linuxmint/mintSources/mintSources.py:720
 msgid "Authentication keys"
 msgstr "Tapatybės patvirtinimo raktai"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:713
+#: usr/lib/linuxmint/mintSources/mintSources.py:721
 msgid "Maintenance"
 msgstr "Priežiūra"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:723
 msgid "Mirrors"
 msgstr "Tinklavietės"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:716
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Main"
-msgstr "Pagrindinis"
+msgstr "Pagrindinė"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:717
+#: usr/lib/linuxmint/mintSources/mintSources.py:725
 msgid "Base"
-msgstr "Bazė"
+msgstr "Bazinė"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:718
-#: usr/lib/linuxmint/mintSources/mintSources.py:719
+#: usr/lib/linuxmint/mintSources/mintSources.py:726
+#: usr/lib/linuxmint/mintSources/mintSources.py:727
 msgid "Select a faster server..."
 msgstr "Pasirinkti greitesnį serverį..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:729
 msgid "Optional components"
 msgstr "Pasirinktiniai komponentai"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:722
+#: usr/lib/linuxmint/mintSources/mintSources.py:730
 msgid "Source code"
 msgstr "Išeities tekstas"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
+#: usr/lib/linuxmint/mintSources/mintSources.py:732
 msgid "Add a new PPA..."
 msgstr "Pridėti naują PPA..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:725
-#: usr/lib/linuxmint/mintSources/mintSources.py:731
+#: usr/lib/linuxmint/mintSources/mintSources.py:733
+#: usr/lib/linuxmint/mintSources/mintSources.py:739
 msgid "Edit URL..."
 msgstr "Keisti URL..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:726
-#: usr/lib/linuxmint/mintSources/mintSources.py:732
-#: usr/lib/linuxmint/mintSources/mintSources.py:736
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:42
+#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:41
 msgid "Remove"
 msgstr "Šalinti"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:727
+#: usr/lib/linuxmint/mintSources/mintSources.py:735
 msgid "Open PPA"
 msgstr "Atverti PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:728
+#: usr/lib/linuxmint/mintSources/mintSources.py:736
 msgid "Look inside the PPA and install packages it provides"
 msgstr "Pažvelgti į PPA saugyklos vidų ir įdiegti jos pateikiamus paketus"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:730
+#: usr/lib/linuxmint/mintSources/mintSources.py:738
 msgid "Add a new repository..."
 msgstr "Pridėti naują saugyklą..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:742
 msgid "Import key file..."
 msgstr "Įkelti raktinį failą..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:735
+#: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid "Download a key..."
 msgstr "Atsisiųsti raktinį failą..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:738
+#: usr/lib/linuxmint/mintSources/mintSources.py:746
 msgid "Fix MergeList problems"
 msgstr "Sutvarkyti MergeList problemas"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:739
+#: usr/lib/linuxmint/mintSources/mintSources.py:747
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr ""
 "Jei susidūrėte su MergeList problemomis, spauskite šį mygtuką problemai "
 "išspręsti."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:748
 msgid "Purge residual configuration"
 msgstr "Išvalyti nebereikalingus nustatymus"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:741
+#: usr/lib/linuxmint/mintSources/mintSources.py:749
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
 msgstr ""
 "Paketai kartais palieka nustatymų failus net kai jie patys yra pašalinami."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:742
+#: usr/lib/linuxmint/mintSources/mintSources.py:750
 msgid "Remove foreign packages"
 msgstr "Šalinti svetimus paketus"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:743
+#: usr/lib/linuxmint/mintSources/mintSources.py:751
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
 msgstr ""
 "Čia yra išvardinti ir gali būti pašalinti paketai iš nežinomų saugyklų."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/mintSources.py:752
 msgid "Downgrade foreign packages"
 msgstr "Sendinti svetimus paketus"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:745
+#: usr/lib/linuxmint/mintSources/mintSources.py:753
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
@@ -284,11 +288,11 @@ msgstr ""
 "Čia yra išvardinti ir gali būti sendinami paketai, kurių versijos yra iš "
 "nežinomų saugyklų."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:750
+#: usr/lib/linuxmint/mintSources/mintSources.py:758
 msgid "Enable source code repositories"
 msgstr "Įjungti išeities tekstų saugyklas"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:760
+#: usr/lib/linuxmint/mintSources/mintSources.py:768
 msgid ""
 "Warning: Unstable packages can introduce regressions and negatively impact "
 "your system. Please do not enable these options in Linux Mint unless it was "
@@ -298,45 +302,45 @@ msgstr ""
 "jūsų sistemą. Prašome neįjungti šių parinkčių Linux Mint sistemoje, nebent "
 "tą padaryti siūlė kūrimo komanda."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:824
-#: usr/lib/linuxmint/mintSources/mintSources.py:848
+#: usr/lib/linuxmint/mintSources/mintSources.py:832
+#: usr/lib/linuxmint/mintSources/mintSources.py:856
 msgid "Enabled"
 msgstr "Įjungta"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:830
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:38
+#: usr/lib/linuxmint/mintSources/mintSources.py:838
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:37
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:854
+#: usr/lib/linuxmint/mintSources/mintSources.py:862
 msgid "Repository"
 msgstr "Saugykla"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:870
+#: usr/lib/linuxmint/mintSources/mintSources.py:878
 msgid "Key"
 msgstr "Raktas"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:883
+#: usr/lib/linuxmint/mintSources/mintSources.py:891
 msgid "Restore the default settings"
 msgstr "Atstatyti numatytuosius nustatymus"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:884
+#: usr/lib/linuxmint/mintSources/mintSources.py:892
 msgid "Restore the official repositories to their default settings"
 msgstr "Atstatyti oficialias saugyklas pagal numatytuosius nustatymus"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:972
+#: usr/lib/linuxmint/mintSources/mintSources.py:980
 msgid "There is no more residual configuration on the system."
 msgstr "Sistemoje nereikalingų nustatymų failų daugiau nėra."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:978
+#: usr/lib/linuxmint/mintSources/mintSources.py:986
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Problema išspręsta. Prašome atnaujinti podėlį."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1004
+#: usr/lib/linuxmint/mintSources/mintSources.py:1012
 msgid "Open.."
 msgstr "Atverti.."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1020
+#: usr/lib/linuxmint/mintSources/mintSources.py:1028
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -344,23 +348,23 @@ msgstr ""
 "Įveskite 8 simbolius viešajam raktui, kurį norite atsisiųsti iš "
 "keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1033
+#: usr/lib/linuxmint/mintSources/mintSources.py:1041
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Ar tikrai norite visiškai pašalinti šį raktą?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1047
+#: usr/lib/linuxmint/mintSources/mintSources.py:1055
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Įveskite norimo pridėti PPA pavadinimą:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1100
+#: usr/lib/linuxmint/mintSources/mintSources.py:1108
 msgid "Edit the URL of the PPA"
 msgstr "Keisti PPA URL adresą"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1110
+#: usr/lib/linuxmint/mintSources/mintSources.py:1118
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Ar tikrai norite visiškai pašalinti šį PPA?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1149
+#: usr/lib/linuxmint/mintSources/mintSources.py:1156
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
@@ -368,40 +372,40 @@ msgstr ""
 "Šios PPA saugyklos turinys yra neprieinamas. Prašome iš naujo įkelti podėlį "
 "ir bandyti dar kartą."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1163
+#: usr/lib/linuxmint/mintSources/mintSources.py:1170
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Įveskite norimos pridėti saugyklos pavadinimą:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1182
+#: usr/lib/linuxmint/mintSources/mintSources.py:1189
 msgid "Edit the URL of the repository"
 msgstr "Keisti saugyklos URL adresą"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1192
+#: usr/lib/linuxmint/mintSources/mintSources.py:1199
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Ar tikrai norite visiškai pašalinti šią saugyklą?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1370
+#: usr/lib/linuxmint/mintSources/mintSources.py:1377
 msgid "Update the cache"
 msgstr "Atnaujinti podėlį"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1371
+#: usr/lib/linuxmint/mintSources/mintSources.py:1378
 msgid "Click here to update your APT cache with your new sources"
 msgstr "Paspauskite čia atnaujinti APT podėlį naujais šaltiniais"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1377
+#: usr/lib/linuxmint/mintSources/mintSources.py:1384
 msgid "Your APT cache is up to date"
 msgstr "Jūsų APT podėlis yra atnaujintas"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:44
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
 msgid "Install"
 msgstr "Įdiegti"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:47
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:45
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:46
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:44
 msgid "Cancel"
 msgstr "Atsisakyti"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:48
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:47
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install:"
@@ -409,35 +413,35 @@ msgstr ""
 "Ši PPA saugykla pateikia sekančius paketus. Prašome pažymėti tuos, kuriuos "
 "norite įdiegti:"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:79
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:78
 #, python-format
 msgid "version %s already installed"
 msgstr "versija %s jau yra įdiegta"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:120
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:119
 msgid "Please wait, this can take some time."
 msgstr "Prašome palaukti, tai gali šiek tiek užtrukti."
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:122
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:121
 msgid "The packages were installed."
 msgstr "Paketai buvo įdiegti."
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:32
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:31
 msgid "Foreign packages"
 msgstr "Svetimi paketai"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:38
 msgid "Downgrade"
 msgstr "Sendinti"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:40
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
 msgstr ""
 "Sekančių paketų versijos nesutampa su saugykloje esančiomis versijomis:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:43
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:42
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
@@ -445,24 +449,24 @@ msgstr ""
 "Žemiau yra pateikti jūsų kompiuteryje įdiegti, tačiau saugyklose nesantys "
 "paketai:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:46
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:45
 msgid "WARNING"
 msgstr "DĖMESIO"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:47
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:46
 msgid ""
 "Review the information below very carefully before validating the command:"
 msgstr "Prieš patvirtindami komandą, labai įdėmiai apžvelkite informaciją:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:62
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:61
 msgid "Package"
 msgstr "Paketas"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:67
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:66
 msgid "Installed version"
 msgstr "Įdiegta versija"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:73
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:72
 msgid "Repository version"
 msgstr "Saugyklos versija"
 
@@ -478,6 +482,6 @@ msgstr "Klaida: privalote vykdyti administratoriaus (root) teisėmis"
 msgid "Error: need a repository as argument"
 msgstr "Klaida: reikia saugyklos kaip argumento"
 
-#: generate_desktop_files:27 generate_desktop_files:43
+#: generate_desktop_files:27 generate_desktop_files:42
 msgid "Configure the sources for installable software and updates"
 msgstr "Nustatykite programinės įrangos diegimo ir atnaujinimo saugyklas"

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-06-06 11:20+0100\n"
-"PO-Revision-Date: 2016-06-12 12:32+0000\n"
-"Last-Translator: Tomáš Moravec <otoman100@gmail.com>\n"
+"POT-Creation-Date: 2016-10-11 15:49+0100\n"
+"PO-Revision-Date: 2016-10-23 20:42+0000\n"
+"Last-Translator: Ondřej Kolín <ondrej.kolin@gmail.com>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-25 09:29+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-11-09 17:13+0000\n"
+"X-Generator: Launchpad (build 18255)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:35
 msgid "You are about to remove the following PPA:"
@@ -61,7 +61,7 @@ msgid "Adding PPAs is not supported"
 msgstr "Přidání PPA repozitáře není podporováno"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:104
-#: usr/lib/linuxmint/mintSources/mintSources.py:1054
+#: usr/lib/linuxmint/mintSources/mintSources.py:1062
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Nelze přidat PPA repozitář: '%s'."
@@ -117,141 +117,145 @@ msgstr "URL"
 msgid "Speed"
 msgstr "Rychlost"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:509
-#: usr/lib/linuxmint/mintSources/mintSources.py:523
+#: usr/lib/linuxmint/mintSources/mintSources.py:442
+msgid "Worldwide"
+msgstr "Celý svět"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:526
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:515
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:515
+#: usr/lib/linuxmint/mintSources/mintSources.py:518
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:556
+#: usr/lib/linuxmint/mintSources/mintSources.py:559
 msgid "Obsolete"
 msgstr "Zastaralý"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:559
+#: usr/lib/linuxmint/mintSources/mintSources.py:562
 msgid "Unreachable"
 msgstr "Nedostupný"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:675 generate_desktop_files:27
-#: generate_desktop_files:43
+#: usr/lib/linuxmint/mintSources/mintSources.py:683 generate_desktop_files:27
+#: generate_desktop_files:42
 msgid "Software Sources"
 msgstr "Zdroje softwaru"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:692
+#: usr/lib/linuxmint/mintSources/mintSources.py:700
 msgid "Backported packages"
 msgstr "Backportované balíčky"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:694
+#: usr/lib/linuxmint/mintSources/mintSources.py:702
 msgid "Unstable packages"
 msgstr "Nestabilní balíčky"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:707
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:1383
 msgid "No action required"
 msgstr "Není vyžadována žádná činnost"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:709
+#: usr/lib/linuxmint/mintSources/mintSources.py:717
 msgid "Official repositories"
 msgstr "Oficiální repozitáře"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:710
+#: usr/lib/linuxmint/mintSources/mintSources.py:718
 msgid "PPAs"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:711
+#: usr/lib/linuxmint/mintSources/mintSources.py:719
 msgid "Additional repositories"
 msgstr "Další repozitáře"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:712
+#: usr/lib/linuxmint/mintSources/mintSources.py:720
 msgid "Authentication keys"
 msgstr "Ověřovací klíč"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:713
+#: usr/lib/linuxmint/mintSources/mintSources.py:721
 msgid "Maintenance"
 msgstr "Údržba"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:723
 msgid "Mirrors"
 msgstr "Zrcadla"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:716
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Main"
 msgstr "Hlavní"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:717
+#: usr/lib/linuxmint/mintSources/mintSources.py:725
 msgid "Base"
 msgstr "Základní"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:718
-#: usr/lib/linuxmint/mintSources/mintSources.py:719
+#: usr/lib/linuxmint/mintSources/mintSources.py:726
+#: usr/lib/linuxmint/mintSources/mintSources.py:727
 msgid "Select a faster server..."
 msgstr "Zvolit rychlejší server..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:729
 msgid "Optional components"
 msgstr "Možné komponenty"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:722
+#: usr/lib/linuxmint/mintSources/mintSources.py:730
 msgid "Source code"
 msgstr "Zdrojový kód"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
+#: usr/lib/linuxmint/mintSources/mintSources.py:732
 msgid "Add a new PPA..."
 msgstr "Přidat nový PPA..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:725
-#: usr/lib/linuxmint/mintSources/mintSources.py:731
+#: usr/lib/linuxmint/mintSources/mintSources.py:733
+#: usr/lib/linuxmint/mintSources/mintSources.py:739
 msgid "Edit URL..."
 msgstr "Upravit URL..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:726
-#: usr/lib/linuxmint/mintSources/mintSources.py:732
-#: usr/lib/linuxmint/mintSources/mintSources.py:736
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:42
+#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:41
 msgid "Remove"
 msgstr "Odebrat"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:727
+#: usr/lib/linuxmint/mintSources/mintSources.py:735
 msgid "Open PPA"
 msgstr "Otevřít PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:728
+#: usr/lib/linuxmint/mintSources/mintSources.py:736
 msgid "Look inside the PPA and install packages it provides"
 msgstr "Podívat se do PPA a nainstalovat z něj balíčky"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:730
+#: usr/lib/linuxmint/mintSources/mintSources.py:738
 msgid "Add a new repository..."
 msgstr "Přidat nový repozitář"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:742
 msgid "Import key file..."
 msgstr "Imporotovat soubor s klíči"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:735
+#: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid "Download a key..."
 msgstr "Stáhnout klíč"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:738
+#: usr/lib/linuxmint/mintSources/mintSources.py:746
 msgid "Fix MergeList problems"
 msgstr "Opravit problémy s MergeList"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:739
+#: usr/lib/linuxmint/mintSources/mintSources.py:747
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr ""
 "Pokud máte problém s MergeList, klepněte na toto tlačítko k vyřešení problému"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:748
 msgid "Purge residual configuration"
 msgstr "Odstranit zbytkové nastavení"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:741
+#: usr/lib/linuxmint/mintSources/mintSources.py:749
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
@@ -259,11 +263,11 @@ msgstr ""
 "Balíčky někdy zanechají konfigurační soubory v systému i poté, co jsou "
 "odinstalovány."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:742
+#: usr/lib/linuxmint/mintSources/mintSources.py:750
 msgid "Remove foreign packages"
 msgstr "Odstranit neznámé balíky"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:743
+#: usr/lib/linuxmint/mintSources/mintSources.py:751
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
@@ -271,11 +275,11 @@ msgstr ""
 "Balíky, které nepochází ze známých repozitářů a jsou zde napsané, mohou být "
 "odstraněny."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/mintSources.py:752
 msgid "Downgrade foreign packages"
 msgstr "Vrátit starší verzi u balíčků z neznámých zdrojů"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:745
+#: usr/lib/linuxmint/mintSources/mintSources.py:753
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
@@ -283,56 +287,59 @@ msgstr ""
 "Verze zde vypsaných balíků nepochází ze známých repozitářů a mohou být "
 "navráceny ke starší verzi."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:750
+#: usr/lib/linuxmint/mintSources/mintSources.py:758
 msgid "Enable source code repositories"
 msgstr "Povolit repozitáře se zdrojovým kódem"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:760
+#: usr/lib/linuxmint/mintSources/mintSources.py:768
 msgid ""
 "Warning: Unstable packages can introduce regressions and negatively impact "
 "your system. Please do not enable these options in Linux Mint unless it was "
 "suggested by the development team."
 msgstr ""
+"Varování: Nestabilní balíčky mohou způsobit regresi a negativně ovlivnit "
+"systém. Nepovolujte tuto možnost, pokud to nebylo navrhnuto vývojářským "
+"týmem."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:824
-#: usr/lib/linuxmint/mintSources/mintSources.py:848
+#: usr/lib/linuxmint/mintSources/mintSources.py:832
+#: usr/lib/linuxmint/mintSources/mintSources.py:856
 msgid "Enabled"
 msgstr "Povoleno"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:830
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:38
+#: usr/lib/linuxmint/mintSources/mintSources.py:838
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:37
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:854
+#: usr/lib/linuxmint/mintSources/mintSources.py:862
 msgid "Repository"
 msgstr "Repozitář"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:870
+#: usr/lib/linuxmint/mintSources/mintSources.py:878
 msgid "Key"
 msgstr "Klíč"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:883
+#: usr/lib/linuxmint/mintSources/mintSources.py:891
 msgid "Restore the default settings"
 msgstr "Obnovit do výchozího nastavení"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:884
+#: usr/lib/linuxmint/mintSources/mintSources.py:892
 msgid "Restore the official repositories to their default settings"
 msgstr "Obnovit oficiální repozitáře do výchozího nastavení"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:972
+#: usr/lib/linuxmint/mintSources/mintSources.py:980
 msgid "There is no more residual configuration on the system."
 msgstr "Žádná zbytková konfigurace již není v systému"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:978
+#: usr/lib/linuxmint/mintSources/mintSources.py:986
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Problém byl opraven. Prosím obnovte cache"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1004
+#: usr/lib/linuxmint/mintSources/mintSources.py:1012
 msgid "Open.."
 msgstr "Otevřít..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1020
+#: usr/lib/linuxmint/mintSources/mintSources.py:1028
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -340,97 +347,97 @@ msgstr ""
 "Prosím zadejte 8 znaků veřejného klíče, který chcete stáhnout z "
 "keyserver.ubuntu.com"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1033
+#: usr/lib/linuxmint/mintSources/mintSources.py:1041
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Jste si jist, že chcete trvale odstranit tento klíč"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1047
+#: usr/lib/linuxmint/mintSources/mintSources.py:1055
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Prosím zadejte jméno PPA, který chcete přidat"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1100
+#: usr/lib/linuxmint/mintSources/mintSources.py:1108
 msgid "Edit the URL of the PPA"
 msgstr "Upravit adresu PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1110
+#: usr/lib/linuxmint/mintSources/mintSources.py:1118
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Jste si jist, že chcete trvale odstranit tento PPA?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1149
+#: usr/lib/linuxmint/mintSources/mintSources.py:1156
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
 "Obsah tohoto PPA není dostupný. Prosím obnovte mezipaměť a zkuste to znovu."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1163
+#: usr/lib/linuxmint/mintSources/mintSources.py:1170
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Zadejte jméno repozitáře, který chcete přidat:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1182
+#: usr/lib/linuxmint/mintSources/mintSources.py:1189
 msgid "Edit the URL of the repository"
 msgstr "Upravit URL repozitáře"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1192
+#: usr/lib/linuxmint/mintSources/mintSources.py:1199
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Chcete trvale odstranit tento repozitář?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1370
+#: usr/lib/linuxmint/mintSources/mintSources.py:1377
 msgid "Update the cache"
 msgstr "Aktualizovat cache"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1371
+#: usr/lib/linuxmint/mintSources/mintSources.py:1378
 msgid "Click here to update your APT cache with your new sources"
 msgstr "Klepněte sem k aktualizování cache s novými zdroji"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1377
+#: usr/lib/linuxmint/mintSources/mintSources.py:1384
 msgid "Your APT cache is up to date"
 msgstr "Vaše APT cache je aktuální"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:44
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
 msgid "Install"
 msgstr "Nainstalovat"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:47
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:45
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:46
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:44
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:48
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:47
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install:"
 msgstr ""
 "PPA nabízí následující balíčky. Vyberte ty které chcete nainstalovat:"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:79
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:78
 #, python-format
 msgid "version %s already installed"
 msgstr "již je nainstalována verze %s"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:120
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:119
 msgid "Please wait, this can take some time."
 msgstr "Počkejte prosím, může to chvilku trvat."
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:122
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:121
 msgid "The packages were installed."
 msgstr "Balíčky byli nainstalovány."
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:32
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:31
 msgid "Foreign packages"
 msgstr "Balíčky z neznámých zdrojů"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:38
 msgid "Downgrade"
 msgstr "Vrátit starší verzi"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:40
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
 msgstr "Verze následujících balíčků nesouhlasí s verzí v repozitářích:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:43
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:42
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
@@ -438,25 +445,25 @@ msgstr ""
 "Následující balíky jsou nainstalované na počítači, ale nenacházejí se v "
 "repozitářích:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:46
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:45
 msgid "WARNING"
 msgstr "UPOZORNĚNÍ"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:47
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:46
 msgid ""
 "Review the information below very carefully before validating the command:"
 msgstr ""
 "Než příkaz potvrdíte, velmi pozorně si přečtěte následující informaci:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:62
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:61
 msgid "Package"
 msgstr "Balíček"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:67
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:66
 msgid "Installed version"
 msgstr "Nainstalovaná verze"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:73
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:72
 msgid "Repository version"
 msgstr "Verze v repozitáři"
 
@@ -472,6 +479,6 @@ msgstr "Chyba: musí běžet jako root"
 msgid "Error: need a repository as argument"
 msgstr "Chyba: je nutný repozitář jako argument."
 
-#: generate_desktop_files:27 generate_desktop_files:43
+#: generate_desktop_files:27 generate_desktop_files:42
 msgid "Configure the sources for installable software and updates"
 msgstr "Nastavit zdroje pro instalovatelný software a aktualizace"

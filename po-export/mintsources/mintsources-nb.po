@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-06-06 11:20+0100\n"
-"PO-Revision-Date: 2015-10-26 08:34+0000\n"
-"Last-Translator: Harald H. <haarektrans@gmail.com>\n"
+"POT-Creation-Date: 2016-10-11 15:49+0100\n"
+"PO-Revision-Date: 2016-10-22 12:03+0000\n"
+"Last-Translator: Emil Våge <Unknown>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-25 09:29+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-11-09 17:13+0000\n"
+"X-Generator: Launchpad (build 18255)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:35
 msgid "You are about to remove the following PPA:"
-msgstr ""
+msgstr "Du er i ferd med å fjerne følgende PPA:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:38
 #: usr/lib/linuxmint/mintSources/mintSources.py:114
@@ -30,7 +30,7 @@ msgstr " Mer informasjon: %s"
 #: usr/lib/linuxmint/mintSources/mintSources.py:42
 #: usr/lib/linuxmint/mintSources/mintSources.py:118
 msgid "Press Enter to continue or Ctrl+C to cancel"
-msgstr ""
+msgstr "Trykk Enter for å forsette eller Ctrl + C for å avbryte"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:46
 #: usr/lib/linuxmint/mintSources/mintSources.py:122
@@ -44,12 +44,12 @@ msgstr ""
 #: usr/lib/linuxmint/mintSources/mintSources.py:53
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
-msgstr ""
+msgstr "Får ikke informasjon om PPA: \"%s\"."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:73
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr ""
+msgstr "klarte ikke å fjerne PPA: \"%s\"."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 #, python-format
@@ -61,7 +61,7 @@ msgid "Adding PPAs is not supported"
 msgstr "Å legge til PPA-er er ikke støttet"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:104
-#: usr/lib/linuxmint/mintSources/mintSources.py:1054
+#: usr/lib/linuxmint/mintSources/mintSources.py:1062
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Kan ikke legge til PPA: \"%s\"."
@@ -72,13 +72,13 @@ msgstr "Bruk av private PPA-er støttes ikke på nåværende tidspunkt"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:111
 msgid "You are about to add the following PPA:"
-msgstr ""
+msgstr "Du er i ferd med å legge til følgende PPA:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:170
 #: usr/lib/linuxmint/mintSources/mintSources.py:173
 #, python-format
 msgid "This PPA does not support %s"
-msgstr ""
+msgstr "Denne PPA støtter ikke %s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:321
 #: usr/lib/linuxmint/mintSources/mintSources.py:349
@@ -117,140 +117,146 @@ msgstr "URL"
 msgid "Speed"
 msgstr "Hastighet"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:509
-#: usr/lib/linuxmint/mintSources/mintSources.py:523
+#: usr/lib/linuxmint/mintSources/mintSources.py:442
+msgid "Worldwide"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:526
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:515
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:515
+#: usr/lib/linuxmint/mintSources/mintSources.py:518
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:556
-msgid "Obsolete"
-msgstr ""
-
 #: usr/lib/linuxmint/mintSources/mintSources.py:559
-msgid "Unreachable"
-msgstr ""
+msgid "Obsolete"
+msgstr "Utdatert"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:675 generate_desktop_files:27
-#: generate_desktop_files:43
+#: usr/lib/linuxmint/mintSources/mintSources.py:562
+msgid "Unreachable"
+msgstr "Kan ikke nå"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:683 generate_desktop_files:27
+#: generate_desktop_files:42
 msgid "Software Sources"
 msgstr "Programvarekilder"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:692
+#: usr/lib/linuxmint/mintSources/mintSources.py:700
 msgid "Backported packages"
 msgstr "Bakoverkompatible pakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:694
+#: usr/lib/linuxmint/mintSources/mintSources.py:702
 msgid "Unstable packages"
 msgstr "Ustabile pakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:707
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:1383
 msgid "No action required"
 msgstr "Ingen handling kreves"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:709
+#: usr/lib/linuxmint/mintSources/mintSources.py:717
 msgid "Official repositories"
 msgstr "Offisielle pakkebrønner"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:710
+#: usr/lib/linuxmint/mintSources/mintSources.py:718
 msgid "PPAs"
 msgstr "PPA-er"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:711
+#: usr/lib/linuxmint/mintSources/mintSources.py:719
 msgid "Additional repositories"
 msgstr "Ytterligere pakkebrønner"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:712
+#: usr/lib/linuxmint/mintSources/mintSources.py:720
 msgid "Authentication keys"
 msgstr "Autentiseringsnøkler"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:713
+#: usr/lib/linuxmint/mintSources/mintSources.py:721
 msgid "Maintenance"
 msgstr "Vedlikehold"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:715
+#: usr/lib/linuxmint/mintSources/mintSources.py:723
 msgid "Mirrors"
 msgstr "Programvarekilder"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:716
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Main"
-msgstr ""
+msgstr "Hoved"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:717
+#: usr/lib/linuxmint/mintSources/mintSources.py:725
 msgid "Base"
 msgstr "Base"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:718
-#: usr/lib/linuxmint/mintSources/mintSources.py:719
+#: usr/lib/linuxmint/mintSources/mintSources.py:726
+#: usr/lib/linuxmint/mintSources/mintSources.py:727
 msgid "Select a faster server..."
 msgstr "Velg en raskere tjener..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:729
 msgid "Optional components"
 msgstr "Valgfrie komponenter"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:722
+#: usr/lib/linuxmint/mintSources/mintSources.py:730
 msgid "Source code"
 msgstr "Kildekode"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
+#: usr/lib/linuxmint/mintSources/mintSources.py:732
 msgid "Add a new PPA..."
 msgstr "Legg til en ny PPA..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:725
-#: usr/lib/linuxmint/mintSources/mintSources.py:731
+#: usr/lib/linuxmint/mintSources/mintSources.py:733
+#: usr/lib/linuxmint/mintSources/mintSources.py:739
 msgid "Edit URL..."
 msgstr "Rediger URL..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:726
-#: usr/lib/linuxmint/mintSources/mintSources.py:732
-#: usr/lib/linuxmint/mintSources/mintSources.py:736
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:42
+#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:41
 msgid "Remove"
 msgstr "Fjern"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:727
+#: usr/lib/linuxmint/mintSources/mintSources.py:735
 msgid "Open PPA"
 msgstr "Åpne PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:728
+#: usr/lib/linuxmint/mintSources/mintSources.py:736
 msgid "Look inside the PPA and install packages it provides"
-msgstr ""
+msgstr "Se i PPA og installer pakkene den oppgir"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:730
+#: usr/lib/linuxmint/mintSources/mintSources.py:738
 msgid "Add a new repository..."
 msgstr "Legg til en ny pakkebrønn..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:742
 msgid "Import key file..."
 msgstr "Importer nøkkelfil..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:735
+#: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid "Download a key..."
 msgstr "Last ned en nøkkel..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:738
+#: usr/lib/linuxmint/mintSources/mintSources.py:746
 msgid "Fix MergeList problems"
-msgstr ""
+msgstr "Fiks MergeList problemer"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:739
+#: usr/lib/linuxmint/mintSources/mintSources.py:747
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr ""
+"Hvis du opplever MergeList problemer, klikk denne knappen for å løse "
+"problemet."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:748
 msgid "Purge residual configuration"
-msgstr ""
+msgstr "Rydd gjenværende konfigurasjon"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:741
+#: usr/lib/linuxmint/mintSources/mintSources.py:749
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
@@ -258,11 +264,11 @@ msgstr ""
 "Noen ganger etterlater pakker konfigurasjonsfiler på systemet selv etter at "
 "de er fjernet."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:742
+#: usr/lib/linuxmint/mintSources/mintSources.py:750
 msgid "Remove foreign packages"
-msgstr ""
+msgstr "Fjern fremmedpakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:743
+#: usr/lib/linuxmint/mintSources/mintSources.py:751
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
@@ -270,11 +276,11 @@ msgstr ""
 "Pakker som ikke kommer fra kjente pakkebrønner er listet opp her, og kan "
 "fjernes."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/mintSources.py:752
 msgid "Downgrade foreign packages"
-msgstr ""
+msgstr "Nedgrader fremmedpakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:745
+#: usr/lib/linuxmint/mintSources/mintSources.py:753
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
@@ -282,56 +288,56 @@ msgstr ""
 "Pakker med versjoner som ikke kommer fra kjente pakkebrønner er listet opp "
 "her, og kan bli nedgradert."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:750
+#: usr/lib/linuxmint/mintSources/mintSources.py:758
 msgid "Enable source code repositories"
 msgstr "Aktiver pakkebrønner med kildekode"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:760
+#: usr/lib/linuxmint/mintSources/mintSources.py:768
 msgid ""
 "Warning: Unstable packages can introduce regressions and negatively impact "
 "your system. Please do not enable these options in Linux Mint unless it was "
 "suggested by the development team."
 msgstr ""
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:824
-#: usr/lib/linuxmint/mintSources/mintSources.py:848
+#: usr/lib/linuxmint/mintSources/mintSources.py:832
+#: usr/lib/linuxmint/mintSources/mintSources.py:856
 msgid "Enabled"
 msgstr "Aktivert"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:830
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:38
+#: usr/lib/linuxmint/mintSources/mintSources.py:838
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:37
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:854
+#: usr/lib/linuxmint/mintSources/mintSources.py:862
 msgid "Repository"
 msgstr "Pakkebrønn"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:870
+#: usr/lib/linuxmint/mintSources/mintSources.py:878
 msgid "Key"
 msgstr "Nøkkel"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:883
+#: usr/lib/linuxmint/mintSources/mintSources.py:891
 msgid "Restore the default settings"
 msgstr "Gjenopprett standardinnstillingene"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:884
+#: usr/lib/linuxmint/mintSources/mintSources.py:892
 msgid "Restore the official repositories to their default settings"
 msgstr "Gjenopprett de offisielle pakkebrønnene til standardinnstillingene"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:972
+#: usr/lib/linuxmint/mintSources/mintSources.py:980
 msgid "There is no more residual configuration on the system."
-msgstr ""
+msgstr "Det er ingen flere gjenværende konfigurasjoner på systemet"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:978
+#: usr/lib/linuxmint/mintSources/mintSources.py:986
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Problemet ble løst. Vennligst oppdater hurtiglageret."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1004
+#: usr/lib/linuxmint/mintSources/mintSources.py:1012
 msgid "Open.."
 msgstr "Åpne..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1020
+#: usr/lib/linuxmint/mintSources/mintSources.py:1028
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -339,23 +345,23 @@ msgstr ""
 "Vennligst skriv inn de 8 tegnene i den offentlige nøkkelen du vil laste ned "
 "fra keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1033
+#: usr/lib/linuxmint/mintSources/mintSources.py:1041
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Er du sikker på at du vil fjerne denne nøkkelen for godt?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1047
+#: usr/lib/linuxmint/mintSources/mintSources.py:1055
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Vennligst skriv inn navnet på PPA-en du vil legge til:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1100
+#: usr/lib/linuxmint/mintSources/mintSources.py:1108
 msgid "Edit the URL of the PPA"
 msgstr "Endre URL-en til PPA-en"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1110
+#: usr/lib/linuxmint/mintSources/mintSources.py:1118
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Er du sikker på at du vil fjerne denne PPA-en for godt?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1149
+#: usr/lib/linuxmint/mintSources/mintSources.py:1156
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
@@ -363,75 +369,75 @@ msgstr ""
 "Innholdet i denne PPA-en er ikke tilgjengelig. Vennligst oppdater "
 "hurtiglageret og prøv igjen."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1163
+#: usr/lib/linuxmint/mintSources/mintSources.py:1170
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Vennligst oppgi navnet på pakkebrønnen du vil legge til:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1182
+#: usr/lib/linuxmint/mintSources/mintSources.py:1189
 msgid "Edit the URL of the repository"
 msgstr "Endre URL-en til pakkebrønnen"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1192
+#: usr/lib/linuxmint/mintSources/mintSources.py:1199
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Er du sikker på at du vil fjerne denne pakkebrønnen for godt?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1370
+#: usr/lib/linuxmint/mintSources/mintSources.py:1377
 msgid "Update the cache"
 msgstr "Oppdater hurtiglageret"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1371
+#: usr/lib/linuxmint/mintSources/mintSources.py:1378
 msgid "Click here to update your APT cache with your new sources"
 msgstr "Klikk her for å oppdatere ditt APT-hurtiglager med dine nye kilder"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1377
+#: usr/lib/linuxmint/mintSources/mintSources.py:1384
 msgid "Your APT cache is up to date"
 msgstr "Ditt APT-hurtiglager er oppdatert"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:44
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
 msgid "Install"
 msgstr "Installer"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:47
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:45
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:46
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:44
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:48
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:47
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install:"
 msgstr ""
 "Denne PPA-en tilbyr følgende pakker. Vennligst velg de du vil installere:"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:79
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:78
 #, python-format
 msgid "version %s already installed"
 msgstr "versjon %s allerede installert"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:120
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:119
 msgid "Please wait, this can take some time."
 msgstr "Vennligst vent, dette kan ta litt tid."
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:122
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:121
 msgid "The packages were installed."
 msgstr "Pakkene ble installert."
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:32
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:31
 msgid "Foreign packages"
-msgstr ""
+msgstr "Fremmedpakker"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:38
 msgid "Downgrade"
 msgstr "Nedgrader"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:40
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
 msgstr ""
 "Versjonen av følgende pakker samsvarer ikke med den fra pakkebrønnene:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:43
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:42
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
@@ -439,24 +445,24 @@ msgstr ""
 "Pakkene nedenfor er installert på datamaskinen, men er ikke til stede i "
 "pakkebrønnene:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:46
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:45
 msgid "WARNING"
 msgstr "ADVARSEL"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:47
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:46
 msgid ""
 "Review the information below very carefully before validating the command:"
 msgstr "Se nøye over informasjonen nedenfor før du validerer kommandoen:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:62
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:61
 msgid "Package"
 msgstr "Programpakke"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:67
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:66
 msgid "Installed version"
 msgstr "Installert versjon"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:73
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:72
 msgid "Repository version"
 msgstr "Pakkebrønnversjon"
 
@@ -473,6 +479,6 @@ msgstr "Feil: må kjøres som administrator (root)"
 msgid "Error: need a repository as argument"
 msgstr "Feil: trenger en pakkebrønn som argument"
 
-#: generate_desktop_files:27 generate_desktop_files:43
+#: generate_desktop_files:27 generate_desktop_files:42
 msgid "Configure the sources for installable software and updates"
 msgstr "Sett opp kildene for installerbar programvare og oppdateringer"

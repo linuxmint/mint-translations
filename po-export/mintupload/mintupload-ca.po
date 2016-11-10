@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-08-30 16:37+0100\n"
-"PO-Revision-Date: 2013-09-08 00:43+0000\n"
-"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
+"PO-Revision-Date: 2016-08-17 18:38+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-25 09:25+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-11-09 17:09+0000\n"
+"X-Generator: Launchpad (build 18255)\n"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:30
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:14
@@ -23,66 +23,65 @@ msgstr ""
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:73
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:103
 msgid "Upload Manager"
-msgstr "Gestor de càrregues"
+msgstr "Gestor de pujades"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:71
 #, python-format
 msgid "The upload to '%(service)s' was cancelled"
-msgstr "La càrrega a '%(service)s' ha sigut cancel·lada"
+msgstr "La pujada a '%(service)s' ha estat cancel·lada"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:83
 #, python-format
 msgid "Upload to '%s' failed: "
-msgstr "La càrrega a '%s' ha fallat: "
+msgstr "Ha fallat la pujada a '%s': "
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:89
 #, python-format
 msgid "Successfully uploaded %(number)d files to '%(service)s'"
-msgstr "%(number)d fitxers s'han carregat a '%(service)s' amb èxit"
+msgstr "S'han pujat amb èxit %(number)d fitxers a '%(service)s'"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:91
 #, python-format
 msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr "1 fitxer s'ha carregat a '%(service)s' amb èxit"
+msgstr "S'ha pujat amb èxit 1 fitxer a '%(service)s'"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:102
 msgid "Do you want to cancel this upload?"
-msgstr "Vols cancel·lar la càrrega?"
+msgstr "Voleu cancel·lar la pujada?"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:103
 msgid "Cancel"
-msgstr "Canceŀla"
+msgstr "Cancel·la"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:104
 msgid "Run in the background"
-msgstr "Executa en un segon pla"
+msgstr "Executa en segon pla"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:107
 msgid "Cancel upload?"
-msgstr "Cancel·la la càrrega?"
+msgstr "Voleu cancel·lar la pujada?"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:127
 #, python-format
 msgid "Uploading %(number)d files to %(service)s"
-msgstr "S'estan carregant %(number)d fitxers a %(service)s"
+msgstr "S'estan pujant %(number)d fitxers a %(service)s"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:128
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:236
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr ""
-"%(percentage)s de %(number)d fitxers - S'estan carregant a %(service)s"
+msgstr "%(percentage)s de %(number)d fitxers - S'estan pujant a %(service)s"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:130
 #, python-format
 msgid "Uploading 1 file to %(service)s"
-msgstr "S'està carregant 1 fitxer a %(service)s"
+msgstr "S'està pujant 1 fitxer a %(service)s"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:131
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:238
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr "%(percentage)s de 1 fitxer - S'està carregant a %(service)s"
+msgstr "%(percentage)s de 1 fitxer - Pujada a %(service)s"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:149
 #, python-format
@@ -125,17 +124,17 @@ msgstr "%(hours)d hores, %(minutes)d minuts"
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:193
 #, python-format
 msgid "1 hour, %d minutes"
-msgstr "1 hora, %d minuts"
+msgstr "1 hora i %d minuts"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:195
 #, python-format
 msgid "%(minutes)d minutes, %(seconds)d seconds"
-msgstr "%(minutes)d minuts, %(seconds)d segons"
+msgstr "%(minutes)d minuts i %(seconds)d segons"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:197
 #, python-format
 msgid "1 minute, %d seconds"
-msgstr "1 minut, %d segons"
+msgstr "1 minut i %d segons"
 
 #: usr/lib/linuxmint/mintUpload/mintUpload.py:199
 #, python-format
@@ -165,16 +164,16 @@ msgstr "El fitxer és més gran que el màxim permés pel servei"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:133
 msgid "Could not get available space"
-msgstr "No s'ha pogut obtindre espai disponible"
+msgstr "No s'ha pogut obtenir l'espai disponible"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:136
 msgid "File larger than service's available space"
-msgstr "El fitxer és més gran que l'espai disponible al servei"
+msgstr "El fitxer és més gran que l'espai disponible del servei"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:160
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:297
 msgid "File uploaded successfully."
-msgstr "El fitxer s'ha carregat amb èxit."
+msgstr "El fitxer s'ha pujat amb èxit."
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:179
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:222
@@ -185,7 +184,7 @@ msgstr "la connexió s'ha establert amb èxit"
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:188
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:230
 msgid "Uploading the file..."
-msgstr "El fitxer s'està carregant..."
+msgstr "S'està pujant el fitxer..."
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:212
 msgid "This service requires a password or private key."
@@ -193,7 +192,7 @@ msgstr "Aquest servei requereix d'una contrasenya o clau privada."
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:264
 msgid "This service requires a password."
-msgstr "Aquest servei requereix d'una contrasenya"
+msgstr "Aquest servei requereix una contrasenya"
 
 #: usr/lib/linuxmint/mintUpload/mintUploadCore.py:290
 msgid "URL:"
@@ -204,12 +203,13 @@ msgstr "URL:"
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr ""
-"%(1)s no està definit al fitxer de configuració que es trobe a %(2)s o %(3)s"
+"%(1)s no està establert al fitxer de configuració que es troba a %(2)s o "
+"%(3)s"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:82
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:30
 msgid "Upload services"
-msgstr "Serveis de càrrega"
+msgstr "Serveis de pujada"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:97
 msgid "Services:"
@@ -217,16 +217,16 @@ msgstr "Serveis:"
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:110
 msgid "Upload manager..."
-msgstr "Gestor de càrregues..."
+msgstr "Gestor de pujades..."
 
 #: usr/lib/linuxmint/mintUpload/file-uploader.py:176
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
-msgstr "Arrossegueu &amp; Deixeu anar ací per a carregar a %s"
+msgstr "Arrossegueu i deixeu anar aquí per a pujar a %s"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:15
 msgid "Define upload services"
-msgstr "Defineix serveis de càrrega"
+msgstr "Defineix serveis de pujada"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:47
 msgid "_File"
@@ -247,7 +247,7 @@ msgstr "Quant a"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:105
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr "<b>Si us plau, introduïu un nom per al nou servei de càrrega:</b>"
+msgstr "<b>Si us plau, introduïu un nom per al nou servei de pujada:</b>"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:109
 msgid "Service name:"
@@ -255,7 +255,7 @@ msgstr "Nom del servei:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:111
 msgid "<i>Try to avoid spaces and special characters...</i>"
-msgstr "<i>Intenta evitar espais i caràcters especials...</i>"
+msgstr "<i>Intenteu evitar els espais i els caràcters especials...</i>"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:169
 #, python-format
@@ -264,7 +264,7 @@ msgstr "Propietats de %s"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:172
 msgid "Advanced settings"
-msgstr "Configuració avançada"
+msgstr "Ajusts avançats"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:173
 msgid "Check connection"
@@ -276,7 +276,7 @@ msgstr "Tipus:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:179
 msgid "Host:"
-msgstr "Màquina:"
+msgstr "Amfitrió:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:180
 msgid "Port:"
@@ -292,7 +292,7 @@ msgstr "Contrasenya:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:183
 msgid "Timestamp:"
-msgstr "Marca horària:"
+msgstr "Marca de temps:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:184
 msgid "Path:"
@@ -301,12 +301,12 @@ msgstr "Camí:"
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:186
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:187
 msgid "Hostname or IP address, default: "
-msgstr "Nom de servidor remot o adreça IP, predeterminat: "
+msgstr "Nom d'amfitrió o adreça IP, per defecte: "
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:190
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:191
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
-msgstr "Port remot, el predeterminat és 21 per FTP, 22 per SFTP i SCP"
+msgstr "Port remot, per defecte és 21 per FTP i 22 per SFTP i SCP"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:194
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:195
@@ -325,7 +325,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:202
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:203
 msgid "Timestamp format (strftime). By default:"
-msgstr "Format de marca horària (strftime). Per defecte:"
+msgstr "Format de la marca de temps (strftime). Per defecte:"
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:206
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:207
@@ -333,12 +333,12 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
-"Directori al qual carregar. <TIMESTAMP> es substitueix amb la marca horària "
-"actual, d'acord amb el format de marca horària determinat. Per defecte: ."
+"Directori al qual pujar. <TIMESTAMP> se substitueix amb la marca de temps "
+"actual, d'acord amb el format de marca de temps donada. Per defecte: ."
 
 #: usr/lib/linuxmint/mintUpload/upload-manager.py:265
 msgid "Could not save configuration change"
-msgstr "No s'han pogut canviar els canvis de configuració"
+msgstr "No s'ha pogut desar els canvi de configuració"
 
 #, python-format
 #~ msgid "Upload to %s failed: "
