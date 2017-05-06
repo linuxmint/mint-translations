@@ -15,7 +15,7 @@ GObject.threads_init()
 DIGITS = "01234567890"
 ALLOWED = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 COMMON_DATE_TOKENS = "ABeHYDMSmyp"
-COMMON_INT_TOKENS = ["d", "'d", "ld", "I", "Id", "3d", "I3d", "02d", "I02d", "0d", "N", "Q"]
+COMMON_INT_TOKENS = ["d", "'d", "ld", "I", "Id", "2d", "3d", "I3d", "02d", "I02d", "0d", "N", "Q"]
 COMMON_FLOAT_TOKENS = ["f", "I", "If", ".0f", ".1f", ".2f"]
 COMMON_STR_TOKENS = ["s", "B"]
 COMMON_I_TOKENS = ["i", "li", "I"]
@@ -369,14 +369,16 @@ class ThreadedTreeView(Gtk.TreeView):
                                     break
             except:
                 pass
+        for keyword in ["5%", "0%"]:
+            if keyword in msgid:
+                # Ignore percentages
+                return GOOD
+
         if msgstr != "":
-            if (not is_plural and len(id_tokens) != len(str_tokens)):
-                if id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD:
-                    return BAD_MISCOUNT_MAYBE_DATE
-                else:
-                    print "Miscount: %s -- %s" % (id_tokens, str_tokens)
-                    return BAD_MISCOUNT
-            elif (is_plural and len(id_tokens) < len(str_tokens)):
+            if (is_plural):
+                # Plural forms don't have to match the number of arguments
+                return GOOD
+            elif (len(id_tokens) != len(str_tokens)):
                 if id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD:
                     return BAD_MISCOUNT_MAYBE_DATE
                 else:
