@@ -8,23 +8,23 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-09-19 10:09+0100\n"
-"PO-Revision-Date: 2015-02-21 10:24+0000\n"
-"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"PO-Revision-Date: 2017-01-29 09:27+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-12-12 12:14+0000\n"
-"X-Generator: Launchpad (build 18292)\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:38+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 
 #: lib/mintstick.py:276 lib/mintstick.py:278
 msgid "The USB stick was formatted successfully."
-msgstr "USB-nøglen er nu formateret."
+msgstr "USB-nøglen blev formateret."
 
 #: lib/mintstick.py:281
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Der opstod en fejl under forsøget på at oprette en partition på %s."
+msgstr "Der opstod en fejl under oprettelse af en partition på %s."
 
 #: lib/mintstick.py:283 lib/mintstick.py:370
 msgid "Authentication Error."
@@ -62,7 +62,7 @@ msgstr "Der er ikke nok ledig plads på USB-nøglen."
 
 #: lib/mintstick.py:368
 msgid "An error occured while copying the image."
-msgstr "Der opstod en fejl under forsøget på at kopiere aftrykket."
+msgstr "Der opstod en fejl under kopiering af aftrykket."
 
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: share/mintstick/mintstick.glade.h:28
@@ -72,7 +72,7 @@ msgstr "USB-aftryksskriver"
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: generate_additional_files.py:94
 msgid "Make a bootable USB stick"
-msgstr "Lav en bootbar USB-nøgle"
+msgstr "Lav en USB-nøgle, som der kan bootes fra"
 
 #: generate_additional_files.py:73 generate_additional_files.py:85
 #: share/mintstick/mintstick.glade.h:4
@@ -86,7 +86,7 @@ msgstr "Formatér en USB-nøgle"
 
 #: generate_additional_files.py:94
 msgid "Make bootable USB stick"
-msgstr "Lav bootbar USB-nøgle"
+msgstr "Lav USB-nøgle, som der kan bootes fra"
 
 #: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
 msgid "Format"
@@ -146,8 +146,8 @@ msgstr ""
 "   - Kan ikke håndtere filer større end 4 GB.\n"
 "\n"
 "NTFS \n"
-"  + Kompatibelt med Windows.\n"
-"   - Ikke kompatibelt med Mac og de fleste hardwareenheder.\n"
+"  + Kompatibel med Windows.\n"
+"   - Ikke kompatibel med Mac og de fleste hardwareenheder.\n"
 "   - Af og til kompatibilitetsproblemer med Linux (NTFS er proprietært og "
 "reverse-engineered).\n"
 "\n"
@@ -155,7 +155,7 @@ msgstr ""
 "\n"
 "  + Moderne, stabilt, hurtigt, journaliseret.\n"
 "  + Understøtter Linux-filrettigheder.\n"
-"   - Ikke kompatibelt med Windows, Mac og de fleste hardwareenheder.\n"
+"   - Ikke kompatibel med Windows, Mac og de fleste hardwareenheder.\n"
 
 #: share/mintstick/mintstick.glade.h:23
 msgid "Volume label:"

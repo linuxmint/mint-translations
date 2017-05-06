@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2016-04-20 17:22+0000\n"
+"PO-Revision-Date: 2017-01-18 22:06+0000\n"
 "Last-Translator: samson <Unknown>\n"
 "Language-Team: Amharic <am@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-12-12 12:11+0000\n"
-"X-Generator: Launchpad (build 18292)\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:34+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
-msgstr ""
+msgstr "አቀራረብ %(partition)s እንደ %(format)s ..."
 
 #: usr/lib/live-installer/installer.py:91
 #: usr/lib/live-installer/installer.py:102
@@ -33,6 +33,8 @@ msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
 msgstr ""
+"ስህተት: እርስዎ በ መጀመሪያ በ እጅ መጫን አለብዎት ለ ኢላማ የ filesystem(s) at /target to do a "
+"custom install!"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -41,6 +43,9 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"ስህተት: አንድ ችግር ተፈጥሯል በ መግጠም ላይ እንዳለ! ይህ አይነት ችግር ብዙ ጊዜ የሚፈጠረው በ ማቃጠያ መሳሪያዎች የ "
+"ተነሳ ነው: ተስማሚ ያልሆኑ ከ LMDE (YUMI ወይንም ሌላ multiboot tools). እባክዎን የ ISO ምስል ወደ "
+"DVD/USB በ ተለየ መሳሪያ በ መጠቀም ያቃጥሉ"
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -70,7 +75,7 @@ msgstr "አዲስ ተጠቃሚ ወደ ስርአቱ በመጨመር ላይ"
 
 #: usr/lib/live-installer/installer.py:321
 msgid "Writing filesystem mount information to /etc/fstab"
-msgstr ""
+msgstr "የ ፋይል ስርአት መጫኛ መረጃ በ መጻፍ ላይ ወደ /etc/fstab"
 
 #: usr/lib/live-installer/installer.py:374
 msgid "Setting hostname"
@@ -156,7 +161,7 @@ msgstr "በመከፋፈል ላይ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr ""
+msgstr "እባክዎን እርግጠኛ ይሁኑ እርስዎ በ እጅ መከፈፈል እንደሚፈልጉ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -172,7 +177,7 @@ msgstr "ሊነክስ ሚንትን በመግጠም ላይ..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Installation paused: please finish the custom installation"
-msgstr ""
+msgstr "መግጠሙ ተቋርጧል: እባክዎን በ ማስተካከያ መግጠሙን ይጨርሱ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:114
 msgid "Country"
@@ -259,7 +264,7 @@ msgstr "የጋባዥ ስም"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid "This hostname will be the computer's name on the network."
-msgstr ""
+msgstr "ይህ የ ጋባዥ ስም የ ኮምፒዩተሩ ስም ይሆናል በ ኔትዎርክ ላይ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
 msgid "Automatic login"
@@ -270,6 +275,8 @@ msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
 msgstr ""
+"ይህን ካስቻሉ የ መግቢያ መመልከቻ ይዘላል ስርአቱ በሚጀምር ጊዜ: እና ራሱ በራሱ እርስዎን በ ቀጥታ ወደ ዴስክቶፕ ክፍለ "
+"ጊዜ ያስገባዎታል"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Log in automatically"
@@ -300,7 +307,7 @@ msgstr "ግረብን መግጠሚያ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
-msgstr ""
+msgstr "GRUB የ bootloader ነው የሚጠቅመውም የ ሊነክስ ከረኔል ለ መጫን ነው"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
@@ -318,29 +325,33 @@ msgstr "ከፍልፋዮችን በእጅዎ ለመፍጠር መርጠዋል ይ�
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
-msgstr ""
+msgstr "ከ መቀጠልዎ በፊት: እባክዎን ይጫኑ የ እርስዎን target filesystem(s) at /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
+"እነዚህን አካሎች አትጫን virtual devices እንደ የ /dev, /proc, /sys, etc on /target/."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
+"በሚገጥሙ ጊዜ: ለ እርስዎ ጊዜ ይሰጥዎታል ለ chroot into /target እና እንዲገጥሙ ማንኛውንም ጥቅሎች "
+"የሚፈለገውን የ እርስዎን ስርአት boot ለማድረግ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
-msgstr ""
+msgstr "በሚገጥሙ ጊዜ: እርስዎ እንዲጽፉ ይጠየቃሉ የራስዎትን /etc/fstab."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
 msgstr ""
+"እነዚህ ምን ማለት እንደሆኑ ካልተረዱ: እባክዎች ወደ ኋላ ይሂዱ እና ምልክቱን ያጥፉ በ እጅ መከፋፈያ አስተዳዳሪ ላይ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
@@ -353,6 +364,8 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
+"መፍጠሪያ /target/etc/fstab ለ ፋይል ስርአት የሚጫነውን በ እርስዎ አዲስ ስርአት ውስጥ: አሁን የ ተጫኑትን "
+"ለማመሳሰል ከ /target (እርስዎ ሳይጠቀሙ የ /target prefix in the mount paths themselves)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -360,6 +373,9 @@ msgid ""
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
 "get/aptitude installations."
 msgstr ""
+"ማንኛውንም ጥቅል መግጠሚያ ለ መጀመሪያው boot (mdadm, cryptsetup, dmraid, etc) በ መጥራት "
+"\"sudo chroot /target\" followed by the relevant apt-get/aptitude "
+"installations."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:430
 msgid ""
@@ -367,6 +383,9 @@ msgid ""
 "as dm-crypt), you may need to have drives currently mounted using the same "
 "block device name as they appear in /target/etc/fstab."
 msgstr ""
+"ያስታውሱ ለማሻሻል የ update-initramfs በ ትክክል እንዲሰሩ በ አንዳንድ ሁኔታዎች ውስጥ (such as dm-"
+"crypt), እርስዎ ያስፈልጎታል ሁን drives መጫን በ መጠቀም ተመሳሳይ block device name እንደሚታዩት በ "
+"/target/etc/fstab."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:431
 msgid ""
@@ -374,6 +393,8 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
+"ሁለት ጊዜ-ይጫኑ በ እርስዎ /target/etc/fstab ትክክል ነው: ከ እርስዎ አዲሱ ስርአት ጋር ተመሳሳይ ነው: ለ "
+"መጀመሪያ boot, እና ተመሳሳይ መሆን አለበት አሁን ከ ተጫነው ጋር በ /target. ውስጥ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -477,11 +498,11 @@ msgstr "የ ጋባዥ ስም ባዶ ክፍተት ቦታ መያዝ የለበት�
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
-msgstr ""
+msgstr "እባክዎን ይጠቁሙ የ filesystem to format the root (/) መከፋፈያ ከ መቀጠልዎ በፊት"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr ""
+msgstr "እባክዎን ይምረጡ የ root (/) መከፋፈያ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -492,23 +513,29 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"ሊነክስ ሚንትን ለ መግጠም የ root መከፋፈያ ያስፈልጋል\n"
+"\n"
+" - መጫኛ ነጥብ: /\n"
+" - የምንመክረው መጠን: 30ጌባ\n"
+" - የምንመክረው የ ፋይል ስርአት አቀራረብ: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."
-msgstr ""
+msgstr "የ EFI partition is not bootable. እባክዎን ያርሙ የ partition flags."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:816
 msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr ""
+msgstr "የ EFI partition በጣም ትንሽ ነው: ቢያንስ መሆን አለበት 100ሜባ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:821
 #: usr/lib/live-installer/frontend/gtk_interface.py:825
 msgid "The EFI partition must be formatted as vfat."
-msgstr ""
+msgstr "የ EFI ክፍልፋይ አቀራረብ መሆን አለበት እንደ vfat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr ""
+msgstr "እባክዎን የ EFI መከፋፈያ ይምረጡ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -523,6 +550,16 @@ msgid ""
 "partition of the disk as the EFI system partition.\n"
 " "
 msgstr ""
+"የ EFI ስርአት መከፋፈያ ይፈልጋል የሚቀጥሉትን አስፈላጊዎች:\n"
+"\n"
+" - መጫኛ ነጥብ: /boot/efi\n"
+" - መከፋፈያ ምልክት: Bootable\n"
+" - መጠን: የሚበልጥ ከ 100ሜባ\n"
+" - አቀራረብ: vfat ወይንም fat32\n"
+"\n"
+"To ensure compatibility with Windows we recommend you use the first "
+"partition of the disk as the EFI system partition.\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:879
 msgid "Localization"
@@ -579,7 +616,7 @@ msgstr "የፋይል ስርአት ተግባሮች"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr ""
+msgstr "መግጠሚያ bootloader በ %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
@@ -587,7 +624,7 @@ msgstr "ማስነሻ መጫኛውን አትግጠም"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr ""
+msgstr "ይጠቀሙ በቅድሚያ-የ ተጫነውን /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
@@ -615,6 +652,8 @@ msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
 msgstr ""
+"መግጠሚያው ተቋርጧል: እባክዎን በ ገጹ ላይ ያለውን ትእዛዝ በ ጥንቃቄ ያንብቡ ከ መጫንዎት በፊት ወደ ፊት የሚለውን "
+"መግጠሚያውን ለ መጨረስ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:967
 msgid ""
@@ -673,14 +712,16 @@ msgid ""
 "installer to create a set of partitions for you? Note: This will ERASE ALL "
 "DATA present on this disk."
 msgstr ""
+"ምንም መከፋፈያ ሰንጠረዥ አልተገኘም በ ሀርድ ድራይቩ ላይ: %s. እርስዎ መግጠሚያው መከፋፈያ ለ እርስዎ እንዲያሰናዳ "
+"ይፈልጋሉ? ማስታወሻ: ይህ ሁሉንም ዳታ ከዚህ ሀርድ ድራይቭ ላይ ያጠፋል"
 
 #: usr/lib/live-installer/partitioning.py:336
 msgid "Logical partition"
-msgstr ""
+msgstr "ሎጂካል ክፍልፋይ"
 
 #: usr/lib/live-installer/partitioning.py:337
 msgid "Extended partition"
-msgstr ""
+msgstr "የ ተስፋፋ መከፋፈያ"
 
 #: usr/lib/live-installer/partitioning.py:341
 msgid "Unknown"

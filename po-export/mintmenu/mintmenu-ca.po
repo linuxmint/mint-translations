@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-11-23 15:36+0000\n"
-"PO-Revision-Date: 2016-11-23 16:19+0000\n"
-"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
+"PO-Revision-Date: 2017-03-30 11:21+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-12-12 12:09+0000\n"
-"X-Generator: Launchpad (build 18292)\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:33+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:48
 msgid "Menu"
@@ -55,7 +55,7 @@ msgstr "Preferències del menú"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:45
 msgid "Always start with favorites pane"
-msgstr "Inicia sempre amb la subfinestra dels preferits"
+msgstr "Inicia sempre amb el plafó dels preferits"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:46
 msgid "Show button icon"
@@ -63,7 +63,7 @@ msgstr "Mostra la icona del botó"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:47
 msgid "Enable Internet search"
-msgstr "Activa la cerca a Internet"
+msgstr "Habilita la cerca a Internet"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:48
 msgid "Use custom colors"
@@ -181,7 +181,7 @@ msgstr "Retard del manteniment (ms):"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:86
 msgid "Button icon:"
-msgstr "Icona del botó"
+msgstr "Icona del botó:"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:87
 msgid "Search command:"
@@ -199,7 +199,7 @@ msgstr "Permet la barra de desplaçament"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:91
 msgid "Show GTK Bookmarks"
-msgstr "Mostra els preferits de GTK"
+msgstr "Mostra els marcadors de GTK"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:92
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:103
@@ -281,7 +281,7 @@ msgstr "Tanca la sessió"
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:111
 #: usr/lib/linuxmint/mintMenu/plugins/system_management.py:194
 msgid "Quit"
-msgstr "Atura l'Ordinador"
+msgstr "Surt"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:113
 msgid "Edit Place"
@@ -338,7 +338,7 @@ msgstr "Premeu 'Escape' o torneu a fer clic per cancel·lar l'operació.  "
 #: usr/lib/linuxmint/mintMenu/keybinding.py:201
 msgid "Press Backspace to clear the existing keybinding."
 msgstr ""
-"Premeu la tecla de retrocés per desactivar la combinació de tecles existents"
+"Premeu la tecla de retrocés per netejar la combinació de tecles existent."
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:214
 msgid "Pick an accelerator"
@@ -346,7 +346,7 @@ msgstr "Trieu una drecera de teclat"
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:267
 msgid "<not set>"
-msgstr "<no definit>"
+msgstr "<no establert>"
 
 #: usr/lib/linuxmint/mintMenu/plugins/recent.py:31
 msgid "Recent documents"
@@ -363,12 +363,12 @@ msgstr "Totes les aplicacions"
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:595
 #, python-format
 msgid "Search DuckDuckGo for %s"
-msgstr "Cerca a DuckDuckGo: %s"
+msgstr "Cerca %s a DuckDuckGo"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:602
 #, python-format
 msgid "Search Wikipedia for %s"
-msgstr "Cerca %s a la Wikipèdia"
+msgstr "Cerca %s a la Viquipèdia"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:618
 #, python-format
@@ -431,7 +431,7 @@ msgstr "Suprimeix"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:963
 msgid "Show in my favorites"
-msgstr "Mostra als meus preferits"
+msgstr "Mostra-ho als meus preferits"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:967
 msgid "Uninstall"
@@ -451,7 +451,7 @@ msgstr "Cerca a la Viquipèdia"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:1042
 msgid "Lookup Dictionary"
-msgstr "Diccionari de Consulta"
+msgstr "Consulta al diccionari"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:1049
 msgid "Search Computer"
@@ -482,8 +482,8 @@ msgid ""
 "Couldn't save favorites. Check if you have write access to "
 "~/.linuxmint/mintMenu"
 msgstr ""
-"No s'han pogut guardar els preferits. Comproveu si teniu accés d'escriptura "
-"a ~/.linuxmint/mintMenu"
+"No s'han pogut desar els preferits. Comproveu si teniu accés d'escriptura a "
+"~/.linuxmint/mintMenu"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:1758
 msgid "All"
@@ -491,7 +491,7 @@ msgstr "Tot"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:1758
 msgid "Show all applications"
-msgstr "Mostrar totes les aplicacions"
+msgstr "Mostra totes les aplicacions"
 
 #: usr/lib/linuxmint/mintMenu/plugins/system_management.py:140
 msgid "Browse and install available software"
@@ -525,7 +525,7 @@ msgstr "Requereix la contrasenya per desbloquejar"
 
 #: usr/lib/linuxmint/mintMenu/plugins/system_management.py:198
 msgid "Shutdown, restart, suspend or hibernate"
-msgstr "Atura, reinicia, suspèn o hiberna"
+msgstr "Apaga, reinicia, suspèn o hiberna"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:148
 msgid ""
@@ -540,7 +540,7 @@ msgstr "Obriu la vostra carpeta personal"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:173
 msgid "Browse bookmarked and local network locations"
-msgstr "Navegueu per ubicacions dels marcadors i de xarxa local"
+msgstr "Navegueu per les ubicacions dels marcadors i de la xarxa local"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:195
 msgid "Browse items placed on the desktop"
@@ -548,7 +548,7 @@ msgstr "Navegueu pels elements ubicats a l'escriptori"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:209
 msgid "Browse deleted files"
-msgstr "Navegueu pels arxius eliminats"
+msgstr "Navegueu pels fitxers eliminats"
 
 #: usr/lib/linuxmint/mintMenu/plugins/places.py:261
 msgid "Empty trash"

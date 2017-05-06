@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2016-10-27 18:46+0000\n"
+"PO-Revision-Date: 2017-03-07 19:54+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-12-12 12:11+0000\n"
-"X-Generator: Launchpad (build 18292)\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:34+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -345,6 +345,8 @@ msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
 msgstr ""
+"Instalazioan zehar /target-era chroot egin eta behar izanez gero zure "
+"sistema berria abiarazteko paketeak instalatzeko aukera izango duzu."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:423
 msgid ""
@@ -370,6 +372,9 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
+"Sortu /target/etc/fstab une honetan /target-en muntatuta daudenekin bat "
+"datozen fitxategi-sistemak muntatzeko zure sistema berrian (/target "
+"aurrizkia muntatze-bideetan erabili gabe)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -377,6 +382,9 @@ msgid ""
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
 "get/aptitude installations."
 msgstr ""
+"Lehen abiorako paketeak (mdadm, cryptsetup, dmraid...) behar badira, "
+"instalatu \"sudo chroot /target\" deituz eta ondoren dagozkion apt-"
+"get/aptitude instalazioak egin."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:430
 msgid ""
@@ -384,6 +392,9 @@ msgid ""
 "as dm-crypt), you may need to have drives currently mounted using the same "
 "block device name as they appear in /target/etc/fstab."
 msgstr ""
+"Kontutan izan update-initramfs-ek behar bezala funtziona dezan kasu "
+"batzuetan (adibidez, dm-crypt) une honetan muntatutako unitateek "
+"/target/etc/fstab-en duten bloke-gailu izen bera eduki behar dutela."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:431
 msgid ""
@@ -391,6 +402,9 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
+"Egiaztatu zure /target/etc/fstab zuzena dela, zure sistema berriak lehen "
+"abioan izango duenarekin bat datorrela eta une honetan /target-en muntatuta "
+"dagoenarekin bat datorrela."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -495,6 +509,8 @@ msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
 msgstr ""
+"Mesedez, hautatu erro partizioa (/) formateatzeko erabili beharreko "
+"fitxategi-sistema jarraitu aurretik."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
@@ -509,6 +525,12 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
+"Erro partizio bat behar da Linux Mint bertan instalatzeko.\n"
+"\n"
+" - Muntatze-puntua: /\n"
+" - Tamaina gomendatua: 30GB\n"
+" - Fitxategi-sistema gomendatua: ext4\n"
+" "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:813
 msgid "The EFI partition is not bootable. Please edit the partition flags."

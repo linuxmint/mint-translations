@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-09-19 10:09+0100\n"
-"PO-Revision-Date: 2013-09-20 12:54+0000\n"
-"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
+"PO-Revision-Date: 2017-05-06 08:31+0000\n"
+"Last-Translator: toniem <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-12-12 12:14+0000\n"
-"X-Generator: Launchpad (build 18292)\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:38+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
 
 #: lib/mintstick.py:276 lib/mintstick.py:278
 msgid "The USB stick was formatted successfully."
@@ -24,7 +24,7 @@ msgstr "La memoria USB ha sido formateada correctamente."
 #: lib/mintstick.py:281
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Ha ocurrido un error creando una partición en %s."
+msgstr "Ha ocurrido un error al crear una partición en %s."
 
 #: lib/mintstick.py:283 lib/mintstick.py:370
 msgid "Authentication Error."
@@ -62,7 +62,7 @@ msgstr "No hay suficiente espacio en la memoria USB."
 
 #: lib/mintstick.py:368
 msgid "An error occured while copying the image."
-msgstr "Ha ocurrido un error copiando la imagen."
+msgstr "Ha ocurrido un error al copiar la imagen."
 
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: share/mintstick/mintstick.glade.h:28
@@ -72,7 +72,7 @@ msgstr "Grabador de imágenes USB"
 #: generate_additional_files.py:49 generate_additional_files.py:61
 #: generate_additional_files.py:94
 msgid "Make a bootable USB stick"
-msgstr "Crear una memoria USB arrancable"
+msgstr "Crear una memoria USB de arranque"
 
 #: generate_additional_files.py:73 generate_additional_files.py:85
 #: share/mintstick/mintstick.glade.h:4
@@ -86,11 +86,11 @@ msgstr "Formatear una memoria USB"
 
 #: generate_additional_files.py:94
 msgid "Make bootable USB stick"
-msgstr "Crear memoria USB arrancable"
+msgstr "Crear una memoria USB de arranque"
 
 #: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
 msgid "Format"
-msgstr "Formato"
+msgstr "Formatear"
 
 #: share/mintstick/mintstick.glade.h:1
 msgid " "
@@ -108,8 +108,7 @@ msgstr ""
 msgid ""
 "Something went wrong, please see the details window for the exact error."
 msgstr ""
-"Algo ha fallado, por favor revise la ventana de detalles para ver el error "
-"exacto."
+"Algo ha fallado, revise la ventana de detalles para ver el error exacto."
 
 #: share/mintstick/mintstick.glade.h:5
 msgid "Format:"
@@ -143,19 +142,19 @@ msgid ""
 msgstr ""
 "FAT32 \n"
 "   + Compatible con todos los sistemas\n"
-"   - No puede manejar ficheros mayores de 4GB.\n"
+"   - No puede manejar archivos mayores de 4 GB.\n"
 "\n"
 "NTFS \n"
 "  + Compatible con Windows.\n"
-"   - No compatible con Mac ni la mayoría de dispositivos hardware.\n"
-"   - Problemas de compatibilidad ocasionales con Linux (NTFS es propietario "
-"y se usa ingeniería inversa).\n"
+"   - No compatible con Mac ni con la mayoría de dispositivos de hardware.\n"
+"   - Problemas ocasionales de compatibilidad con Linux (NTFS es privativo y "
+"requiere ingeniería inversa).\n"
 "\n"
 "EXT4 \n"
 "\n"
-"  + Moderno, estable, rápido, transaccional.\n"
-"  + Soporta los permisos de ficheros de Linux.\n"
-"   - No compatible con Windows, Mac, ni la mayoría de dispositivos "
+"  + Moderno, estable, rápido y transaccional.\n"
+"  + Compatible con los permisos de archivo de Linux.\n"
+"   - No compatible con Windows, Mac ni con la mayoría de dispositivos de "
 "hardware.\n"
 
 #: share/mintstick/mintstick.glade.h:23
@@ -164,7 +163,7 @@ msgstr "Etiqueta de volumen:"
 
 #: share/mintstick/mintstick.glade.h:24
 msgid "Choose a name for your USB Stick"
-msgstr "Elegir un nombre para su memoria USB"
+msgstr "Elija un nombre para la memoria USB"
 
 #: share/mintstick/mintstick.glade.h:25
 msgid "USB Stick"
@@ -184,7 +183,7 @@ msgstr "Seleccione una imagen"
 
 #: share/mintstick/mintstick.glade.h:31
 msgid "Select Image"
-msgstr "Seleccionar imagen"
+msgstr "Seleccione la imagen"
 
 #: share/mintstick/mintstick.glade.h:32
 msgid "to"
@@ -196,4 +195,4 @@ msgstr "Escribir"
 
 #: share/mintstick/mintstick.glade.h:34
 msgid "The image was written successfully."
-msgstr "La imagen se ha escrito correctamente."
+msgstr "La imagen se ha grabado correctamente."
