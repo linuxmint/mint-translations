@@ -7,96 +7,104 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-09-19 10:09+0100\n"
+"POT-Creation-Date: 2017-05-07 12:22+0100\n"
 "PO-Revision-Date: 2014-11-06 16:01+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-05-06 12:38+0000\n"
-"X-Generator: Launchpad (build 18366)\n"
+"X-Launchpad-Export-Date: 2017-05-23 10:28+0000\n"
+"X-Generator: Launchpad (build 18387)\n"
 
-#: lib/mintstick.py:276 lib/mintstick.py:278
+#: lib/mintstick.py:82
+msgid "Write"
+msgstr "Ysgrifennu"
+
+#: lib/mintstick.py:131 generate_additional_files.py:78
+msgid "Format"
+msgstr "Fformatio"
+
+#: lib/mintstick.py:218
+msgid "unknown"
+msgstr ""
+
+#: lib/mintstick.py:313 lib/mintstick.py:315
 msgid "The USB stick was formatted successfully."
 msgstr "Mae'r cof bach USB wedi ei fformatio'n llwyddiannus."
 
-#: lib/mintstick.py:281
+#: lib/mintstick.py:318
 #, python-format
 msgid "An error occured while creating a partition on %s."
 msgstr "Digwyddodd gwall wrth greu rhaniad ar %s."
 
-#: lib/mintstick.py:283 lib/mintstick.py:370
+#: lib/mintstick.py:320 lib/mintstick.py:418
 msgid "Authentication Error."
 msgstr "Gwall Dilysu"
 
-#: lib/mintstick.py:285 lib/mintstick.py:372
+#: lib/mintstick.py:322 lib/mintstick.py:420
 msgid "An error occurred."
 msgstr "Bu gwall."
 
-#: lib/mintstick.py:302
+#: lib/mintstick.py:338
 msgid "Image:"
 msgstr "Llun:"
 
-#: lib/mintstick.py:303
+#: lib/mintstick.py:339
 msgid "USB stick:"
 msgstr "Cof bach USB:"
 
-#: lib/mintstick.py:328
+#: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
+#: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
+msgid "USB Image Writer"
+msgstr "Awdur Delwedd USB"
+
+#: lib/mintstick.py:390
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
 msgstr "Ysgrifennu %(VAR_FILE)s i %(VAR_DEV)s"
 
-#: lib/mintstick.py:329
+#: lib/mintstick.py:391
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
 msgstr "Cychwyn copïo o %(VAR_SOURCE)s i %(VAR_TARGET)s"
 
-#: lib/mintstick.py:361 lib/mintstick.py:363
+#: lib/mintstick.py:408 lib/mintstick.py:411
 msgid "The image was successfully written."
 msgstr "Ysgrifennwyd y ddelwedd yn llwwyddiannus ."
 
-#: lib/mintstick.py:366
+#: lib/mintstick.py:414
 msgid "Not enough space on the USB stick."
 msgstr "Does dim digon o le ar y cof bach USB."
 
-#: lib/mintstick.py:368
+#: lib/mintstick.py:416
 msgid "An error occured while copying the image."
 msgstr "Digwyddod gwall wrth gopïo'r ddelwedd."
 
-#: generate_additional_files.py:49 generate_additional_files.py:61
-#: share/mintstick/mintstick.glade.h:28
-msgid "USB Image Writer"
-msgstr "Awdur Delwedd USB"
-
-#: generate_additional_files.py:49 generate_additional_files.py:61
-#: generate_additional_files.py:94
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: generate_additional_files.py:68
 msgid "Make a bootable USB stick"
 msgstr "Creu cof bach USB cychwynadwy"
 
-#: generate_additional_files.py:73 generate_additional_files.py:85
-#: share/mintstick/mintstick.glade.h:4
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: share/mintstick/mintstick.ui.h:4
 msgid "USB Stick Formatter"
 msgstr "Fformatiwr Cof Bach USB"
 
-#: generate_additional_files.py:73 generate_additional_files.py:85
-#: generate_additional_files.py:104
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: generate_additional_files.py:78
 msgid "Format a USB stick"
 msgstr "Fformatio cof bach USB"
 
-#: generate_additional_files.py:94
+#: generate_additional_files.py:68
 msgid "Make bootable USB stick"
 msgstr "Creu cof bacj cychwynadwy"
 
-#: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
-msgid "Format"
-msgstr "Fformatio"
-
-#: share/mintstick/mintstick.glade.h:1
+#: share/mintstick/mintstick.ui.h:1
 msgid " "
 msgstr " "
 
-#: share/mintstick/mintstick.glade.h:2
+#: share/mintstick/mintstick.ui.h:2
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
@@ -104,24 +112,24 @@ msgstr ""
 "Bydd hyn yn chwalu'r holl ddata sydd ar y cof bach USB, ydych chi'n siŵr "
 "eich bod am barhau?"
 
-#: share/mintstick/mintstick.glade.h:3
+#: share/mintstick/mintstick.ui.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
 msgstr "Aeth rhywbeth o'i le, gwelwch y ffenestr manylion am yr union wall."
 
-#: share/mintstick/mintstick.glade.h:5
+#: share/mintstick/mintstick.ui.h:5
 msgid "Format:"
 msgstr "Fformatio:"
 
-#: share/mintstick/mintstick.glade.h:6
+#: share/mintstick/mintstick.ui.h:6
 msgid "Select a USB stick"
 msgstr "Dewis y cof bach USB"
 
-#: share/mintstick/mintstick.glade.h:7
+#: share/mintstick/mintstick.ui.h:7
 msgid "as"
 msgstr "fel"
 
-#: share/mintstick/mintstick.glade.h:8
+#: share/mintstick/mintstick.ui.h:8
 msgid ""
 "FAT32 \n"
 "   + Compatible everywhere.\n"
@@ -155,42 +163,38 @@ msgstr ""
 "  + Yn cefnogi caniatâd ffeiliau Linux.\n"
 "   - Ddim yn gydnaws â Windows, Mac a'r mwyafrif o ddyfeisiau caledwedd.\n"
 
-#: share/mintstick/mintstick.glade.h:23
+#: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
 msgstr "Label y cyfrol"
 
-#: share/mintstick/mintstick.glade.h:24
+#: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
 msgstr "Dewis enw ar gyfer eich cof bach USB"
 
-#: share/mintstick/mintstick.glade.h:25
+#: share/mintstick/mintstick.ui.h:25
 msgid "USB Stick"
 msgstr "Cof Back USB"
 
-#: share/mintstick/mintstick.glade.h:26
+#: share/mintstick/mintstick.ui.h:26
 msgid "Details"
 msgstr "Manylion"
 
-#: share/mintstick/mintstick.glade.h:29
+#: share/mintstick/mintstick.ui.h:28
 msgid "Write image:"
 msgstr "Ysgrifennu'r ddelwedd:"
 
-#: share/mintstick/mintstick.glade.h:30
+#: share/mintstick/mintstick.ui.h:29
 msgid "Select an image"
 msgstr "Dewis delwedd"
 
-#: share/mintstick/mintstick.glade.h:31
+#: share/mintstick/mintstick.ui.h:30
 msgid "Select Image"
 msgstr "Dewis Delwedd"
 
-#: share/mintstick/mintstick.glade.h:32
+#: share/mintstick/mintstick.ui.h:31
 msgid "to"
 msgstr "i"
 
-#: share/mintstick/mintstick.glade.h:33
-msgid "Write"
-msgstr "Ysgrifennu"
-
-#: share/mintstick/mintstick.glade.h:34
+#: share/mintstick/mintstick.ui.h:32
 msgid "The image was written successfully."
 msgstr "Cafodd y ddelwedd ei hysgrifennu'n llwyddiannus"

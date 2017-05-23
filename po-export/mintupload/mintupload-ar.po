@@ -7,312 +7,304 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-08-30 16:37+0100\n"
+"POT-Creation-Date: 2017-05-07 13:03+0100\n"
 "PO-Revision-Date: 2014-01-15 14:52+0000\n"
 "Last-Translator: marouane <marouane87@yahoo.fr>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-05-06 12:33+0000\n"
-"X-Generator: Launchpad (build 18366)\n"
+"X-Launchpad-Export-Date: 2017-05-23 10:17+0000\n"
+"X-Generator: Launchpad (build 18387)\n"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:30
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:14
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:24
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:73
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:103
+#: usr/lib/linuxmint/mintupload/mintupload.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:82
+#: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
+#: generate_desktop_files:41
 msgid "Upload Manager"
 msgstr "مركز رفع الملفات"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:71
-#, python-format
-msgid "The upload to '%(service)s' was cancelled"
-msgstr "أُلغي الرفع إلى '%(service)s'"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:83
-#, python-format
-msgid "Upload to '%s' failed: "
-msgstr "فشل الرفع إلى '%s': "
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:89
-#, python-format
-msgid "Successfully uploaded %(number)d files to '%(service)s'"
-msgstr "تم بنجاح رفع %(number)d ملف إلى  '%(service)s'"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:91
-#, python-format
-msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr "تم بنجاح رفع ملف واحد الى '%(service)s'"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:102
-msgid "Do you want to cancel this upload?"
-msgstr "هل تريد الغاء عملية الرفع هذه ؟"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:103
-msgid "Cancel"
-msgstr "إلغاء"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:104
-msgid "Run in the background"
-msgstr "تشغيل في الخلفية"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:107
-msgid "Cancel upload?"
-msgstr "الغاء الرفع؟"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:127
-#, python-format
-msgid "Uploading %(number)d files to %(service)s"
-msgstr "جارٍ رفع  %(number)d ملف إلى  %(service)s"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:128
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:236
+#: usr/lib/linuxmint/mintupload/mintupload.py:43
+#: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
 msgstr "%(percentage)s من %(number)d ملف - جارٍ الرفع إلى %(service)s"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:130
-#, python-format
-msgid "Uploading 1 file to %(service)s"
-msgstr "جارٍ رفع ملف واحد إلى %(service)s"
-
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:131
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:238
+#: usr/lib/linuxmint/mintupload/mintupload.py:45
+#: usr/lib/linuxmint/mintupload/mintupload.py:141
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
 msgstr "%(percentage)s من ملف واحد - جاري رفعهم الى %(service)s"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:149
+#: usr/lib/linuxmint/mintupload/mintupload.py:81
+#, python-format
+msgid "The upload to '%(service)s' was cancelled"
+msgstr "أُلغي الرفع إلى '%(service)s'"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:93
+#, python-format
+msgid "Upload to '%s' failed: "
+msgstr "فشل الرفع إلى '%s': "
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:99
+#, python-format
+msgid "Successfully uploaded %(number)d files to '%(service)s'"
+msgstr "تم بنجاح رفع %(number)d ملف إلى  '%(service)s'"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:101
+#, python-format
+msgid "Successfully uploaded 1 file to '%(service)s'"
+msgstr "تم بنجاح رفع ملف واحد الى '%(service)s'"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:112
+msgid "Do you want to cancel this upload?"
+msgstr "هل تريد الغاء عملية الرفع هذه ؟"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:113
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:114
+msgid "Run in the background"
+msgstr "تشغيل في الخلفية"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:117
+msgid "Cancel upload?"
+msgstr "الغاء الرفع؟"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:137
+#, python-format
+msgid "Uploading %(number)d files to %(service)s"
+msgstr "جارٍ رفع  %(number)d ملف إلى  %(service)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:140
+#, python-format
+msgid "Uploading 1 file to %(service)s"
+msgstr "جارٍ رفع ملف واحد إلى %(service)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:159
 #, python-format
 msgid ""
 "%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
 msgstr ""
 "%(size_so_far)s من %(total_size)s - تبقى %(time_remaining)s (%(speed)s/sec)"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:151
+#: usr/lib/linuxmint/mintupload/mintupload.py:161
 #, python-format
 msgid "%(size_so_far)s of %(total_size)s"
 msgstr "%(size_so_far)s من %(total_size)s"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:178
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:82
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
+#: usr/lib/linuxmint/mintupload/mintupload.py:188
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
 msgid "B"
 msgstr "بايت"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:180
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
+#: usr/lib/linuxmint/mintupload/mintupload.py:190
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
 msgid "KB"
 msgstr "كيلو بايت"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:182
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
+#: usr/lib/linuxmint/mintupload/mintupload.py:192
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
 msgid "MB"
 msgstr "ميغابايت"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:184
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:84
+#: usr/lib/linuxmint/mintupload/mintupload.py:194
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
 msgid "GB"
 msgstr "جيجا بايت"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:191
+#: usr/lib/linuxmint/mintupload/mintupload.py:201
 #, python-format
 msgid "%(hours)d hours, %(minutes)d minutes"
 msgstr "%(hours)d ساعة,  %(minutes)d دقيقة"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:193
+#: usr/lib/linuxmint/mintupload/mintupload.py:203
 #, python-format
 msgid "1 hour, %d minutes"
 msgstr "ساعة واحدة و %d دقيقة"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:195
+#: usr/lib/linuxmint/mintupload/mintupload.py:205
 #, python-format
 msgid "%(minutes)d minutes, %(seconds)d seconds"
 msgstr "%(minutes)d دقيقة و %(seconds)d ثانية"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:197
+#: usr/lib/linuxmint/mintupload/mintupload.py:207
 #, python-format
 msgid "1 minute, %d seconds"
 msgstr "دقيقة واحدة و %d ثانية"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:199
+#: usr/lib/linuxmint/mintupload/mintupload.py:209
 #, python-format
 msgid "%d seconds"
 msgstr "%d ثانية"
 
-#: usr/lib/linuxmint/mintUpload/mintUpload.py:229
+#: usr/lib/linuxmint/mintupload/mintupload.py:238
 #, python-format
 msgid "Unknown service: %s"
 msgstr "خدمة غير معروفة: %s"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:82
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
 msgid "KiB"
 msgstr "ك.بايت"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:82
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
 msgid "MiB"
 msgstr "م.بايت"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:82
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
 msgid "GiB"
 msgstr "ج.بايت"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:123
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:135
 msgid "File larger than service's maximum"
 msgstr "حجم الملف أكبر من الحد المسموح للخدمة"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:133
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:145
 msgid "Could not get available space"
 msgstr "لا يمكن الحصول على المساحة المتوفرة"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:136
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:148
 msgid "File larger than service's available space"
 msgstr "حجم الملف أكبر من المساحة المتوفرة في الخدمة"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:160
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:297
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:173
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:315
 msgid "File uploaded successfully."
 msgstr "تم رفع الملف بنجاح."
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:179
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:222
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:257
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:191
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:267
 msgid "connection successfully established"
 msgstr "الاتصال تم بنجاح"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:188
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:230
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:202
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:233
 msgid "Uploading the file..."
 msgstr "جاري رفع الملف..."
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:212
-msgid "This service requires a password or private key."
-msgstr "الخدمة تتطلب كلمة مرور أو مفتاح خاص."
-
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:264
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:275
 msgid "This service requires a password."
 msgstr "الخدمة تتطلب كلمة مرور."
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:290
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:308
 msgid "URL:"
 msgstr "الرابط:"
 
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:334
-#: usr/lib/linuxmint/mintUpload/mintUploadCore.py:338
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:348
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:352
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr "%(1)s لم يتم تحديدها فى ملف التوصيف الموجود فى %(2)s او %(3)s"
 
-#: usr/lib/linuxmint/mintUpload/file-uploader.py:82
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:30
+#: usr/lib/linuxmint/mintupload/file-uploader.py:28
+#: usr/lib/linuxmint/mintupload/file-uploader.py:31
+#: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
 msgstr "خدمات رفع الملفات"
 
-#: usr/lib/linuxmint/mintUpload/file-uploader.py:97
+#: usr/lib/linuxmint/mintupload/file-uploader.py:58
 msgid "Services:"
 msgstr "الخدمات:"
 
-#: usr/lib/linuxmint/mintUpload/file-uploader.py:110
+#: usr/lib/linuxmint/mintupload/file-uploader.py:72
 msgid "Upload manager..."
 msgstr "مدير رفع الملفات"
 
-#: usr/lib/linuxmint/mintUpload/file-uploader.py:176
+#: usr/lib/linuxmint/mintupload/file-uploader.py:81
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:134
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
 msgstr "اسحب &amp; وافلت الملف هنا للرفع الى %s"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:15
-msgid "Define upload services"
-msgstr "حدد خدمات رفع الملفات"
-
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:47
+#: usr/lib/linuxmint/mintupload/upload-manager.py:53
 msgid "_File"
 msgstr "_ملف"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:51
+#: usr/lib/linuxmint/mintupload/upload-manager.py:58
 msgid "Close"
 msgstr "إغلاق"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:55
+#: usr/lib/linuxmint/mintupload/upload-manager.py:62
 msgid "_Help"
 msgstr "م_ساعدة"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:59
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:69
+#: usr/lib/linuxmint/mintupload/upload-manager.py:67
+#: usr/lib/linuxmint/mintupload/upload-manager.py:78
 msgid "About"
 msgstr "عن"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:105
+#: usr/lib/linuxmint/mintupload/upload-manager.py:120
 msgid "<b>Please enter a name for the new upload service:</b>"
 msgstr "<b>من فضلك ادخل اسم لخدمة رفع الملفات الجديدة :</b>"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:109
+#: usr/lib/linuxmint/mintupload/upload-manager.py:124
 msgid "Service name:"
 msgstr "اسم الخدمة"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:111
+#: usr/lib/linuxmint/mintupload/upload-manager.py:127
 msgid "<i>Try to avoid spaces and special characters...</i>"
 msgstr "<i>حاول تجنب إستعمال الفراغ بين الكلمات والأحرف الخاصة...</i>"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:169
+#: usr/lib/linuxmint/mintupload/upload-manager.py:204
 #, python-format
 msgid "%s Properties"
 msgstr "خصائص %s"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:172
-msgid "Advanced settings"
-msgstr "إعدادات متقدمة"
-
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:173
+#: usr/lib/linuxmint/mintupload/upload-manager.py:207
 msgid "Check connection"
 msgstr "فحص الاتصال"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:178
+#: usr/lib/linuxmint/mintupload/upload-manager.py:212
 msgid "Type:"
 msgstr "النوع:"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:179
+#: usr/lib/linuxmint/mintupload/upload-manager.py:213
 msgid "Host:"
 msgstr "المضيف:"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:180
+#: usr/lib/linuxmint/mintupload/upload-manager.py:214
 msgid "Port:"
 msgstr "منفذ:"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:181
+#: usr/lib/linuxmint/mintupload/upload-manager.py:215
 msgid "User:"
 msgstr "مستخدم:"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:182
+#: usr/lib/linuxmint/mintupload/upload-manager.py:216
 msgid "Password:"
 msgstr "كلمة المرور:"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:183
+#: usr/lib/linuxmint/mintupload/upload-manager.py:217
 msgid "Timestamp:"
 msgstr "صيغة الوقت:"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:184
+#: usr/lib/linuxmint/mintupload/upload-manager.py:218
 msgid "Path:"
 msgstr "المسار:"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:186
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:187
+#: usr/lib/linuxmint/mintupload/upload-manager.py:220
+#: usr/lib/linuxmint/mintupload/upload-manager.py:221
 msgid "Hostname or IP address, default: "
 msgstr "اسم المستضيف او عنوان الاي بي الافتراضي "
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:190
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:191
+#: usr/lib/linuxmint/mintupload/upload-manager.py:224
+#: usr/lib/linuxmint/mintupload/upload-manager.py:225
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
 msgstr "المنفذ البعيد الافتراضي 21 للftb و22 للsftp و scp"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:194
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:195
+#: usr/lib/linuxmint/mintupload/upload-manager.py:228
+#: usr/lib/linuxmint/mintupload/upload-manager.py:229
 msgid "Username, defaults to your local username"
 msgstr "اسم المستخدم والافتراضي للاسم المحلي"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:198
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:199
+#: usr/lib/linuxmint/mintupload/upload-manager.py:232
+#: usr/lib/linuxmint/mintupload/upload-manager.py:233
 msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
@@ -320,13 +312,13 @@ msgstr ""
 "كلمه المرور.الافتراضي:كلمه المرور null-string FTP connection, ~/.ssh keys "
 "used for SFTP connections"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:202
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:203
+#: usr/lib/linuxmint/mintupload/upload-manager.py:236
+#: usr/lib/linuxmint/mintupload/upload-manager.py:237
 msgid "Timestamp format (strftime). By default:"
 msgstr "صيغة الوقت (strftime). افتراضي :"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:206
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:207
+#: usr/lib/linuxmint/mintupload/upload-manager.py:240
+#: usr/lib/linuxmint/mintupload/upload-manager.py:241
 msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
@@ -334,12 +326,19 @@ msgstr ""
 "لتحميل الدليل. <TIMESTAMP>يستعاض عن الوقت الحالي ، وبعد تنسيق الطابع الزمني. "
 "افتراضي"
 
-#: usr/lib/linuxmint/mintUpload/upload-manager.py:265
+#: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"
 msgstr "لا يمكن حفظ تغييرات الاعدادات"
 
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Define upload services"
+msgstr "حدد خدمات رفع الملفات"
+
 #~ msgid "Username:"
 #~ msgstr "اسم المستخدم:"
+
+#~ msgid "This service requires a password or private key."
+#~ msgstr "الخدمة تتطلب كلمة مرور أو مفتاح خاص."
 
 #, python-format
 #~ msgid "Upload to %s failed: "

@@ -7,119 +7,127 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-09-19 10:09+0100\n"
-"PO-Revision-Date: 2016-12-15 19:28+0000\n"
+"POT-Creation-Date: 2017-05-07 12:22+0100\n"
+"PO-Revision-Date: 2017-05-07 12:54+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-05-06 12:38+0000\n"
-"X-Generator: Launchpad (build 18366)\n"
+"X-Launchpad-Export-Date: 2017-05-23 10:28+0000\n"
+"X-Generator: Launchpad (build 18387)\n"
 
-#: lib/mintstick.py:276 lib/mintstick.py:278
+#: lib/mintstick.py:82
+msgid "Write"
+msgstr "만들기"
+
+#: lib/mintstick.py:131 generate_additional_files.py:78
+msgid "Format"
+msgstr "포맷"
+
+#: lib/mintstick.py:218
+msgid "unknown"
+msgstr "알 수 없음"
+
+#: lib/mintstick.py:313 lib/mintstick.py:315
 msgid "The USB stick was formatted successfully."
 msgstr "USB 스틱이 성공적으로 포맷되었습니다."
 
-#: lib/mintstick.py:281
+#: lib/mintstick.py:318
 #, python-format
 msgid "An error occured while creating a partition on %s."
 msgstr "%s에 파티션을 만드는 동안 에러가 났습니다."
 
-#: lib/mintstick.py:283 lib/mintstick.py:370
+#: lib/mintstick.py:320 lib/mintstick.py:418
 msgid "Authentication Error."
 msgstr "인증 오류입니다."
 
-#: lib/mintstick.py:285 lib/mintstick.py:372
+#: lib/mintstick.py:322 lib/mintstick.py:420
 msgid "An error occurred."
 msgstr "오류가 생겼습니다."
 
-#: lib/mintstick.py:302
+#: lib/mintstick.py:338
 msgid "Image:"
 msgstr "이미지:"
 
-#: lib/mintstick.py:303
+#: lib/mintstick.py:339
 msgid "USB stick:"
 msgstr "USB 스틱:"
 
-#: lib/mintstick.py:328
+#: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
+#: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
+msgid "USB Image Writer"
+msgstr "USB 이미지 라이터"
+
+#: lib/mintstick.py:390
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
 msgstr "%(VAR_FILE)s 을 %(VAR_DEV)s 에 작성 중"
 
-#: lib/mintstick.py:329
+#: lib/mintstick.py:391
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
 msgstr "%(VAR_SOURCE)s 를 %(VAR_TARGET)s 로 복사 시작하는 중"
 
-#: lib/mintstick.py:361 lib/mintstick.py:363
+#: lib/mintstick.py:408 lib/mintstick.py:411
 msgid "The image was successfully written."
 msgstr "부팅 USB가 제대로 잘 만들어졌습니다."
 
-#: lib/mintstick.py:366
+#: lib/mintstick.py:414
 msgid "Not enough space on the USB stick."
 msgstr "USB 스틱에 공간이 모자랍니다."
 
-#: lib/mintstick.py:368
+#: lib/mintstick.py:416
 msgid "An error occured while copying the image."
 msgstr "이미지를 복사하는 동안 에러가 났습니다."
 
-#: generate_additional_files.py:49 generate_additional_files.py:61
-#: share/mintstick/mintstick.glade.h:28
-msgid "USB Image Writer"
-msgstr "USB 이미지 라이터"
-
-#: generate_additional_files.py:49 generate_additional_files.py:61
-#: generate_additional_files.py:94
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: generate_additional_files.py:68
 msgid "Make a bootable USB stick"
 msgstr "부팅 USB 만들기"
 
-#: generate_additional_files.py:73 generate_additional_files.py:85
-#: share/mintstick/mintstick.glade.h:4
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: share/mintstick/mintstick.ui.h:4
 msgid "USB Stick Formatter"
 msgstr "USB 포맷 장치"
 
-#: generate_additional_files.py:73 generate_additional_files.py:85
-#: generate_additional_files.py:104
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: generate_additional_files.py:78
 msgid "Format a USB stick"
 msgstr "USB 포맷하기"
 
-#: generate_additional_files.py:94
+#: generate_additional_files.py:68
 msgid "Make bootable USB stick"
 msgstr "부팅 USB 만들기"
 
-#: generate_additional_files.py:104 share/mintstick/mintstick.glade.h:27
-msgid "Format"
-msgstr "포맷"
-
-#: share/mintstick/mintstick.glade.h:1
+#: share/mintstick/mintstick.ui.h:1
 msgid " "
 msgstr " "
 
-#: share/mintstick/mintstick.glade.h:2
+#: share/mintstick/mintstick.ui.h:2
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
 msgstr "이 작업은 USB 스틱안의 모든 데이터를 삭제합니다. 정말로 진행하시겠습니까?"
 
-#: share/mintstick/mintstick.glade.h:3
+#: share/mintstick/mintstick.ui.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
 msgstr "무언가 잘못되었습니다, 정확한 오류 확인을 위해 정보 창을 봐주세요."
 
-#: share/mintstick/mintstick.glade.h:5
+#: share/mintstick/mintstick.ui.h:5
 msgid "Format:"
 msgstr "포맷할 USB:"
 
-#: share/mintstick/mintstick.glade.h:6
+#: share/mintstick/mintstick.ui.h:6
 msgid "Select a USB stick"
 msgstr "USB 스틱을 선택해 주세요"
 
-#: share/mintstick/mintstick.glade.h:7
+#: share/mintstick/mintstick.ui.h:7
 msgid "as"
 msgstr "파일 형식"
 
-#: share/mintstick/mintstick.glade.h:8
+#: share/mintstick/mintstick.ui.h:8
 msgid ""
 "FAT32 \n"
 "   + Compatible everywhere.\n"
@@ -151,42 +159,38 @@ msgstr ""
 "  + 리눅스 파일 권한을 지원함.\n"
 "   - 윈도우, Mac, 대개의 하드웨어 장치와 호환되지 않음.\n"
 
-#: share/mintstick/mintstick.glade.h:23
+#: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
 msgstr "볼륨 이름:"
 
-#: share/mintstick/mintstick.glade.h:24
+#: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
 msgstr "USB 스틱의 이름을 선택해 주세요"
 
-#: share/mintstick/mintstick.glade.h:25
+#: share/mintstick/mintstick.ui.h:25
 msgid "USB Stick"
 msgstr "USB"
 
-#: share/mintstick/mintstick.glade.h:26
+#: share/mintstick/mintstick.ui.h:26
 msgid "Details"
 msgstr "상세 정보"
 
-#: share/mintstick/mintstick.glade.h:29
+#: share/mintstick/mintstick.ui.h:28
 msgid "Write image:"
 msgstr "사용할 이미지:"
 
-#: share/mintstick/mintstick.glade.h:30
+#: share/mintstick/mintstick.ui.h:29
 msgid "Select an image"
 msgstr "이미지를 선택하세요"
 
-#: share/mintstick/mintstick.glade.h:31
+#: share/mintstick/mintstick.ui.h:30
 msgid "Select Image"
 msgstr "이미지 선택"
 
-#: share/mintstick/mintstick.glade.h:32
+#: share/mintstick/mintstick.ui.h:31
 msgid "to"
 msgstr "사용할 USB"
 
-#: share/mintstick/mintstick.glade.h:33
-msgid "Write"
-msgstr "만들기"
-
-#: share/mintstick/mintstick.glade.h:34
+#: share/mintstick/mintstick.ui.h:32
 msgid "The image was written successfully."
 msgstr "부팅 USB가 제대로 잘 만들어졌습니다."
