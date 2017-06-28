@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-04-26 13:45+0100\n"
-"PO-Revision-Date: 2017-04-27 12:38+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"PO-Revision-Date: 2017-06-27 10:45+0000\n"
+"Last-Translator: Niko Krause <nikokrause@gmx.de>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-05-23 10:17+0000\n"
-"X-Generator: Launchpad (build 18387)\n"
+"X-Launchpad-Export-Date: 2017-06-28 07:42+0000\n"
+"X-Generator: Launchpad (build 18416)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -270,10 +270,10 @@ msgid ""
 "are unable to work around critical issues affecting sensitive parts of their "
 "system and tries to minimize their risk to suffer critical regressions."
 msgstr ""
-"Die erste Regel ist für Anfänger gemacht. Sie geht davon aus, dass diese "
-"Benutzer nicht in der Lage sind kritische Probleme zu beheben, die "
-"empfindliche Teile des Systems beeinträchtigen und versucht, das Risiko zu "
-"mindern, kritische Rückschritte zu erleiden."
+"Die erste Regel ist für unerfahrene Benutzer erstellt worden. Sie geht davon "
+"aus, dass diese Benutzer nicht in der Lage sind kritische Probleme zu "
+"beheben, die empfindliche Teile des Systems beeinträchtigen und versucht, "
+"das Risiko zu mindern, kritische Regressionen zu erleiden."
 
 #: usr/share/help/C/mintupdate/policy.page:41(p)
 msgid ""
@@ -574,8 +574,7 @@ msgstr "Groß"
 #: usr/share/help/C/mintupdate/levels.page:39(p)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1881
 msgid "Apply with caution. Impact on multiple applications."
-msgstr ""
-"Bitte mit Vorsicht anwenden. Hat Auswirkungen auf mehrere Anwendungen."
+msgstr "Mit Vorsicht anwenden. Auswirkungen auf mehrere Anwendungen."
 
 #: usr/share/help/C/mintupdate/levels.page:43(p)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1876
@@ -586,8 +585,8 @@ msgstr "Sensibel"
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1882
 msgid "Apply one by one. Impact on sensitive parts of the system."
 msgstr ""
-"Wenden Sie Eines nach dem Anderen an. Auswirkungen auf empfindliche Teile "
-"des Systems."
+"Eines nach dem anderen anwenden. Auswirkungen auf empfindliche Teile des "
+"Systems."
 
 #: usr/share/help/C/mintupdate/levels.page:48(p)
 msgid ""
@@ -620,7 +619,7 @@ msgid ""
 "Level 1 updates are updates which only affect their own software and have no "
 "impact on the rest of the system."
 msgstr ""
-"Aktualisierungen der Ebene 1 sind Aktualisierungen die nur das eigene "
+"Aktualisierungen der Ebene 1 sind Aktualisierungen, die nur das eigene "
 "Programm beeinflussen und keine Auswirkungen auf den Rest des Systems haben."
 
 #: usr/share/help/C/mintupdate/levels.page:63(p)
@@ -684,17 +683,17 @@ msgid ""
 "In general, you should be able to apply these updates without worrying about "
 "regressions."
 msgstr ""
-"In den meisten Fällen sollte es Ihnen möglich sein, diese Aktualisierungen "
-"ohne Sorge über Regressionen anzuwenden."
+"Im Allgemeinen sollten es Ihnen möglich sein, diese Aktualisierungen "
+"anzuwenden, ohne sich um Regressionen sorgen zu müssen."
 
 #: usr/share/help/C/mintupdate/levels.page:85(p)
 msgid ""
 "If an important regression, or potential for regression, was found in a "
 "level 2 update, its level would be changed to 3 or 4."
 msgstr ""
-"Wenn ein wesentlicher Rückschritt oder ein möglicher Rückschritt in eine "
-"Aktualisierung der Ebene 2 gefunden wurde, wird dessen Ebene auf 3 oder 4 "
-"geändert."
+"Wenn eine wesentliche Regression oder die Möglichkeit für eine Regression in "
+"einer Aktualisierung der Ebene 2 gefunden wurde, wird dessen Ebene auf 3 "
+"oder 4 geändert."
 
 #: usr/share/help/C/mintupdate/levels.page:90(title)
 msgid ""
@@ -736,8 +735,8 @@ msgid ""
 "Sensitive applications such as Firefox are also level 3. Novice users would "
 "be unable to perform common tasks if these applications stopped working."
 msgstr ""
-"Empfindliche Anwendungen wie Firefox send ebenfalls Ebene 3. Unerfahrenen "
-"Benutzern könnte die Ausführung der meisten Aufgaben nicht möglich sein, "
+"Empfindliche Anwendungen wie Firefox sind ebenfalls Ebene 3. Unerfahrenen "
+"Benutzern könnte die Ausführung gewöhnlicher Aufgaben nicht möglich sein, "
 "wenn diese Anwendungen nicht mehr funktionieren."
 
 #: usr/share/help/C/mintupdate/levels.page:100(p)
@@ -758,7 +757,7 @@ msgid ""
 "people which update caused the regression and what is broken."
 msgstr ""
 "Wenn etwas kaputt geht, suchen Sie sich Hilfe in den Foren oder dem Chat-"
-"Kanal und sagen sie den Leuten welche Aktualisierung den Rückschritt "
+"Kanal und sagen Sie den Leuten welche Aktualisierung die Regression "
 "verursacht hat und was kaputt ist."
 
 #: usr/share/help/C/mintupdate/levels.page:104(p)
@@ -1169,17 +1168,18 @@ msgid ""
 "Updates are important because they keep your computer safe, eliminate bugs "
 "and can even add new features to your operating system."
 msgstr ""
-"Aktualisierungen sind wichtig, da sie Ihren Rechner absichern, Fehler "
-"entfernen und auch neue Funktionen zu Ihrem Betriebssystem hinzufügen."
+"Aktualisierungen sind wichtig, da sie Ihren Rechner sicher halten, Fehler "
+"beseitigen und sogar neue Funktionen zu Ihrem Betriebssystem hinzufügen "
+"können."
 
 #: usr/share/help/C/mintupdate/index.page:26(p)
 msgid ""
 "Unfortunately they also sometimes introduce new issues called 'regressions', "
 "which can break things which worked well before."
 msgstr ""
-"Unglücklicherweise führen sie auch manchmal neue Probleme, so genannte "
-"»Regressionen« ein, welche Dinge, die vorher funktionierten, jetzt kaputt "
-"machen können."
+"Unglücklicherweise führen sie auch manchmal neue Probleme, sogenannte "
+"»Regressionen« ein, welche Dinge kaputt machen können, die vorher gut "
+"funktionierten."
 
 #: usr/share/help/C/mintupdate/index.page:28(p)
 msgid ""
@@ -1199,15 +1199,17 @@ msgstr "Kernkonzepte"
 #: usr/share/help/C/mintupdate/index.page:33(p)
 msgid "This section explains the core concepts related to software updates."
 msgstr ""
-"Dieser Bereich erklärt die Kernkonzepte für Programmaktualisierungen."
+"In diesem Abschnitt werden die Kernkonzepte für Anwendungsaktualisierungen "
+"erläutert."
 
 #: usr/share/help/C/mintupdate/index.page:39(p)
 msgid "This section explains update levels, policies."
-msgstr "Dieser Bereich erklärt die Aktualisierungsebenen und -richtlinien."
+msgstr ""
+"In diesem Abschnitt werden Aktualisierungsebenen und -richtlinien erläutert."
 
 #: usr/share/help/C/mintupdate/index.page:45(p)
 msgid "This section explains kernel updates."
-msgstr "Dieser Bereich erklärt Kernelaktualisierungen."
+msgstr "In diesem Abschnitt werden Kernelaktualisierungen erläutert."
 
 #: usr/share/help/C/mintupdate/index.page:49(title)
 msgid "Advanced techniques"
@@ -1215,7 +1217,7 @@ msgstr "Erweiterte Techniken"
 
 #: usr/share/help/C/mintupdate/index.page:51(p)
 msgid "This section explains advanced techniques."
-msgstr "Dieser Bereich erklärt die erweiterten Techniken."
+msgstr "In diesem Abschnitt werden fortgeschrittene Techniken erläutert."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintupdate/index.page:0(None)
@@ -1528,7 +1530,7 @@ msgid ""
 "introduce regressions."
 msgstr ""
 "Anwendungsrückportierung. Seien Sie bei der Aktualisierung vorsichtig. Neue "
-"Anwendungsversionen können Rückschritte einführen."
+"Anwendungsversionen können Regressionen einführen."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:725
 msgid ""
@@ -1686,7 +1688,7 @@ msgstr "Bitte eine Aktualisierungsrichtlinie auswählen."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1120
 msgid "Just keep my computer safe"
-msgstr "Meinen Rechner einfach sicher halten"
+msgstr "Meinen Rechner nur sicher halten"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
 msgid "Recommended for novice users."
@@ -1720,7 +1722,7 @@ msgid ""
 "Select security updates and updates which do not impact important parts of "
 "the operating systems."
 msgstr ""
-"Wählen Sie Sicherheitsaktualisierungen und Aktualisierungen, die keine "
+"Sicherheitsaktualisierungen und Aktualisierungen auswählen, die keine "
 "Auswirkungen auf wichtige Teile des Betriebssystems haben."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1126
@@ -1728,8 +1730,8 @@ msgid ""
 "Show kernel updates and sensitive updates so I can review them and apply "
 "them with caution."
 msgstr ""
-"Sensible und Kernelaktualisierungen anzeigen, damit ich sie überprüfen und "
-"sie mit Vorsicht anwenden kann."
+"Kernelaktualisierungen und sensible Aktualisierungen anzeigen, damit ich sie "
+"überprüfen und sie mit Vorsicht anwenden kann."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1128
 msgid "Always update everything"
@@ -1745,7 +1747,7 @@ msgstr "Immer alle Aktualisierungen auswählen."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1130
 msgid "If a regression breaks something, I'll fix it."
-msgstr "Wenn ein Rückschritt etwas kaputt macht, dann reparier ich das."
+msgstr "Wenn eine Regression etwas kaputt macht, werde ich das reparieren."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1132
 msgid ""
@@ -1965,15 +1967,15 @@ msgstr "Sicherheitsaktualisierungen immer anzeigen"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1894
 msgid "Always select security updates"
-msgstr "Immer Sicherheitsaktualisierungen auswählen"
+msgstr "Sicherheitsaktualisierungen immer auswählen"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1895
 msgid "Always show kernel updates"
-msgstr "Kernel-Aktualisierungen immer anzeigen"
+msgstr "Kernelaktualisierungen immer anzeigen"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1896
 msgid "Always select kernel updates"
-msgstr "Immer Kernelaktualisierungen auswählen"
+msgstr "Kernelaktualisierungen immer auswählen"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1897
 msgid "minutes"

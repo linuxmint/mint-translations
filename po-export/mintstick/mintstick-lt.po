@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-05-07 12:22+0100\n"
-"PO-Revision-Date: 2017-05-07 18:22+0000\n"
+"PO-Revision-Date: 2017-06-23 21:11+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-05-23 10:28+0000\n"
-"X-Generator: Launchpad (build 18387)\n"
+"X-Launchpad-Export-Date: 2017-06-28 07:49+0000\n"
+"X-Generator: Launchpad (build 18416)\n"
 
 #: lib/mintstick.py:82
 msgid "Write"
@@ -36,11 +36,11 @@ msgstr "USB atmintinė buvo sėkmingai formatuota."
 #: lib/mintstick.py:318
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Kuriant skirsnį %s įvyko klaida."
+msgstr "Kuriant %s skaidinį, įvyko klaida."
 
 #: lib/mintstick.py:320 lib/mintstick.py:418
 msgid "Authentication Error."
-msgstr "Tapatybės patvirtinimo klaida."
+msgstr "Tapatybės nustatymo klaida."
 
 #: lib/mintstick.py:322 lib/mintstick.py:420
 msgid "An error occurred."
@@ -48,7 +48,7 @@ msgstr "Įvyko klaida."
 
 #: lib/mintstick.py:338
 msgid "Image:"
-msgstr "Atvaizdas:"
+msgstr "Atvaizdis:"
 
 #: lib/mintstick.py:339
 msgid "USB stick:"
@@ -57,7 +57,7 @@ msgstr "USB atmintinė:"
 #: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
 #: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
 msgid "USB Image Writer"
-msgstr "USB atvaizdo rašyklė"
+msgstr "USB atvaizdžių rašyklė"
 
 #: lib/mintstick.py:390
 #, python-format
@@ -71,7 +71,7 @@ msgstr "Pradedama kopijuoti iš %(VAR_SOURCE)s į %(VAR_TARGET)s"
 
 #: lib/mintstick.py:408 lib/mintstick.py:411
 msgid "The image was successfully written."
-msgstr "Atvaizdas buvo sėkmingai įrašytas."
+msgstr "Atvaizdis buvo sėkmingai įrašytas."
 
 #: lib/mintstick.py:414
 msgid "Not enough space on the USB stick."
@@ -79,12 +79,12 @@ msgstr "USB atmintinėje neužtenka vietos."
 
 #: lib/mintstick.py:416
 msgid "An error occured while copying the image."
-msgstr "Kopijuojant atvaizdą įvyko klaida."
+msgstr "Kopijuojant atvaizdį įvyko klaida."
 
 #: generate_additional_files.py:23 generate_additional_files.py:35
 #: generate_additional_files.py:68
 msgid "Make a bootable USB stick"
-msgstr "Sukurti įkraunamą USB atmintinę"
+msgstr "Sukurti paleidžiamą USB atmintinę"
 
 #: generate_additional_files.py:47 generate_additional_files.py:59
 #: share/mintstick/mintstick.ui.h:4
@@ -98,7 +98,7 @@ msgstr "Formatuoti USB atmintinę"
 
 #: generate_additional_files.py:68
 msgid "Make bootable USB stick"
-msgstr "Sukurti įkraunamą USB atmintinę"
+msgstr "Sukurti paleidžiamą USB atmintinę"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid " "
@@ -115,7 +115,7 @@ msgstr ""
 #: share/mintstick/mintstick.ui.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr "Kažkas nutiko ne taip, peržiūrėkite klaidas informacijos lange."
+msgstr "Kažkas nutiko, peržiūrėkite klaidas informacijos lange."
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Format:"
@@ -149,7 +149,7 @@ msgid ""
 msgstr ""
 "FAT32 \n"
 "   + Suderinama su viskuo.\n"
-"   -  Negali laikyt didesnių kaip 4 GB failų.\n"
+"   -  Negali laikyti didesnių kaip 4 GB failų.\n"
 "\n"
 "NTFS \n"
 "  + Suderinama su Windows.\n"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
-msgstr "Skirsnio pavadinimas:"
+msgstr "Tomo etiketė:"
 
 #: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
@@ -181,15 +181,15 @@ msgstr "Informacija"
 
 #: share/mintstick/mintstick.ui.h:28
 msgid "Write image:"
-msgstr "Įrašyti atvaizdą:"
+msgstr "Įrašyti atvaizdį:"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "Select an image"
-msgstr "Pasirinkti atvaizdą"
+msgstr "Pasirinkti atvaizdį"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select Image"
-msgstr "Pasirinkti atvaizdą"
+msgstr "Pasirinkti atvaizdį"
 
 #: share/mintstick/mintstick.ui.h:31
 msgid "to"
@@ -197,4 +197,4 @@ msgstr "į"
 
 #: share/mintstick/mintstick.ui.h:32
 msgid "The image was written successfully."
-msgstr "Atvaizdas buvo sėkmingai įrašytas."
+msgstr "Atvaizdis buvo sėkmingai įrašytas."
