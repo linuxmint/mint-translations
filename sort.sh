@@ -12,7 +12,7 @@ if os.path.exists("xedit") and os.path.exists("xed"):
 	os.system("rm -rf xedit")
 
 # cinnamon-translations
-for project in ["cinnamon", "cinnamon-bluetooth", "cinnamon-control-center", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo"]:
+for project in ["cinnamon", "cinnamon-bluetooth", "cinnamon-control-center", "cinnamon-session", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo"]:
 	if os.path.exists(project):
 		os.system("mv %s FOREIGN/cinnamon-translations/" % project)
 
