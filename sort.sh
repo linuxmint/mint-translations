@@ -12,7 +12,7 @@ if os.path.exists("xedit") and os.path.exists("xed"):
 	os.system("rm -rf xedit")
 
 # cinnamon-translations
-for project in ["cinnamon", "cinnamon-bluetooth", "cinnamon-control-center", "cinnamon-session", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo"]:
+for project in ["cinnamon", "cinnamon-bluetooth", "cinnamon-control-center", "cinnamon-session", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo", "nemo-extensions"]:
 	if os.path.exists(project):
 		os.system("mv %s FOREIGN/cinnamon-translations/" % project)
 
@@ -22,7 +22,7 @@ for project in ["blueberry", "lightdm-settings", "mdm", "nemo-emblems", "folder-
 		os.system("mv %s FOREIGN/" % project)
 
 # projects which require locale.po, as opposed to project-locale.po filenames
-for project in ["nemo-emblems", "folder-color-switcher", "mdm", "pix", "xed", "xplayer", "xreader", "xviewer", "slideshow-mint", "slideshow-mint-kde"]:
+for project in ["folder-color-switcher", "mdm", "pix", "xed", "xplayer", "xreader", "xviewer", "slideshow-mint", "slideshow-mint-kde"]:
 	if os.path.exists("FOREIGN/%s" % project):
 		os.system("rename 's/%s-//' FOREIGN/%s/*.po" % (project, project))
 
