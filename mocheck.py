@@ -35,6 +35,9 @@ BAD_EXCLUSIONS = 80
 BAD_MISCOUNT_MAYBE_DATE = 99
 BAD_MISMATCH_MAYBE_DATE = 100
 
+COL_PROJECT = 8
+COL_ISSUE = 9
+
 def allowed(char):
     return char in ALLOWED
 
@@ -74,6 +77,7 @@ class Mo:
         self.mofile = inst
         self.locale = locale
         self.path = path
+        self.project = path.split("/")[-2]
         self.bad_entries = []
         self.current_index = 1
 
@@ -88,6 +92,10 @@ class ThreadedTreeView(Gtk.TreeView):
         self.dirty = False
         self._count = 0
         self.set_rules_hint(True)
+
+        column = Gtk.TreeViewColumn("Project", Gtk.CellRendererText(), markup=COL_PROJECT)
+        self.append_column(column)
+
         column = Gtk.TreeViewColumn("Language", Gtk.CellRendererText(), markup=2)
         self.append_column(column)
 
@@ -111,6 +119,9 @@ class ThreadedTreeView(Gtk.TreeView):
         column = Gtk.TreeViewColumn("Dirty", cr, pixbuf=6)
         column.set_cell_data_func(cr, self.dirty_pixbuf_func)
         column.set_max_width(50)
+        self.append_column(column)
+
+        column = Gtk.TreeViewColumn("Issue", Gtk.CellRendererText(), markup=COL_ISSUE)
         self.append_column(column)
 
         self._loading_queue = []
@@ -184,8 +195,22 @@ class ThreadedTreeView(Gtk.TreeView):
             self._loading_lock.acquire()
             is_loading = self._loading
             self._loading_lock.release()
-        self.model = Gtk.TreeStore(object, object, str, str, str, bool, GdkPixbuf.Pixbuf, int)
+        self.model = Gtk.TreeStore(object, object, str, str, str, bool, GdkPixbuf.Pixbuf, int, str, str) # [..], PROJECT, ISSUE
         self.set_model(self.model)
+
+    def get_status_string(self, status):
+    	if status == BAD_MISCOUNT:
+            return "Number of tokens does not match"
+        elif status == BAD_MISCOUNT_MAYBE_DATE:
+            return "Number of tokens does not match (could be a date/time)"
+        elif status == BAD_MISMATCH:
+            return "Tokens not in correct order or mismatch"
+        elif status == BAD_MISMATCH_MAYBE_DATE:
+            return "Tokens not in correct order or mismatch (could be a date/time)"
+        elif status == BAD_UNESCAPED_QUOTE:
+            return "Bad quotes"
+        else:
+            return ""
 
     def _check_loading_progress(self):
         self._loading_lock.acquire()
@@ -210,6 +235,9 @@ class ThreadedTreeView(Gtk.TreeView):
             self.model.set_value(iter, 4, i[4])
             self.model.set_value(iter, 5, False) # dirty flag
             self.model.set_value(iter, 7, i[5])
+            self.model.set_value(iter, COL_PROJECT, i[0].project)
+            status = i[6]
+            self.model.set_value(iter, COL_ISSUE, self.get_status_string(status))
             self._count += 1
             self.progress.set_text(str(self._count))
         return res
@@ -272,7 +300,7 @@ class ThreadedTreeView(Gtk.TreeView):
                     if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE) or \
                        (res > BAD_EXCLUSIONS and not exclude_dates):
                         self._loaded_data_lock.acquire()
-                        self._loaded_data.append((to_load, entry, to_load.locale, entry.msgid, entry.msgstr, to_load.current_index))
+                        self._loaded_data.append((to_load, entry, to_load.locale, entry.msgid, entry.msgstr, to_load.current_index, res))
                         self._loaded_data_lock.release()
                     if (len(entry.msgstr_plural) > 0):
                         for plurality in entry.msgstr_plural.keys():
@@ -286,7 +314,7 @@ class ThreadedTreeView(Gtk.TreeView):
                             if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE) or \
                                (res > BAD_EXCLUSIONS and not exclude_dates):
                                 self._loaded_data_lock.acquire()
-                                self._loaded_data.append((to_load, entry, to_load.locale, msgid, msgstr, to_load.current_index))
+                                self._loaded_data.append((to_load, entry, to_load.locale, msgid, msgstr, to_load.current_index, res))
                                 self._loaded_data_lock.release()
                     to_load.current_index += 1
 
@@ -382,7 +410,7 @@ class ThreadedTreeView(Gtk.TreeView):
                 if id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD:
                     return BAD_MISCOUNT_MAYBE_DATE
                 else:
-                    print "Miscount: %s -- %s" % (id_tokens, str_tokens)
+                    #print "Miscount: %s -- %s" % (id_tokens, str_tokens)
                     return BAD_MISCOUNT
             else:
                 mismatch = False
@@ -401,7 +429,7 @@ class ThreadedTreeView(Gtk.TreeView):
                                     found_token = True
                                     break
                             if not found_token:
-                                print "Couldn't find token: %s" % id_token
+                                #print "Couldn't find token: %s" % id_token
                                 mismatch = True
                         else:
                             mismatch = True
@@ -409,7 +437,7 @@ class ThreadedTreeView(Gtk.TreeView):
                 if (id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD) and mismatch:
                     return BAD_MISMATCH_MAYBE_DATE
                 elif mismatch:
-                    print "Mismatch %s: %s -- %s" % (msgid, id_tokens, str_tokens)
+                    #print "Mismatch %s: %s -- %s" % (msgid, id_tokens, str_tokens)
                     return BAD_MISMATCH
         return GOOD
 
