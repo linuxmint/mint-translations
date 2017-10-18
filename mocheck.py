@@ -35,6 +35,7 @@ BAD_EXCLUSIONS = 80
 BAD_MISCOUNT_MAYBE_DATE = 99
 BAD_MISMATCH_MAYBE_DATE = 100
 
+COL_LANGUAGE = 2
 COL_PROJECT = 8
 COL_ISSUE = 9
 
@@ -85,18 +86,13 @@ class ThreadedTreeView(Gtk.TreeView):
     def __init__(self, parent, t):
         Gtk.TreeView.__init__(self)
         self.type = t
-        self.progress = parent.progress
-        self.datecheck = parent.datecheck
-        self.revert = parent.revert
-        self.save = parent.save
-        self.dirty = False
         self._count = 0
         self.set_rules_hint(True)
 
         column = Gtk.TreeViewColumn("Project", Gtk.CellRendererText(), markup=COL_PROJECT)
         self.append_column(column)
 
-        column = Gtk.TreeViewColumn("Language", Gtk.CellRendererText(), markup=2)
+        column = Gtk.TreeViewColumn("Language", Gtk.CellRendererText(), markup=COL_LANGUAGE)
         self.append_column(column)
 
         cr = Gtk.CellRendererText()
@@ -110,15 +106,6 @@ class ThreadedTreeView(Gtk.TreeView):
         column.set_expand(True)
         cr.set_property('wrap-mode', Pango.WrapMode.WORD_CHAR)
         cr.set_property('wrap-width', 450)
-        cr.set_property('editable', True)
-
-        cr.connect("edited", self.on_cell_edited)
-        self.append_column(column)
-
-        cr = Gtk.CellRendererPixbuf()
-        column = Gtk.TreeViewColumn("Dirty", cr, pixbuf=6)
-        column.set_cell_data_func(cr, self.dirty_pixbuf_func)
-        column.set_max_width(50)
         self.append_column(column)
 
         column = Gtk.TreeViewColumn("Issue", Gtk.CellRendererText(), markup=COL_ISSUE)
@@ -133,56 +120,8 @@ class ThreadedTreeView(Gtk.TreeView):
         self._loaded_data = []
         self._loaded_data_lock = thread.allocate_lock()
 
-    def on_cell_edited(self, renderer, path, new_text):
-        self.model[path][4] = new_text
-        self.model[path][5] = new_text != self.model[path][1].msgstr.encode('utf-8')
-        self.update_buttons()
-
-    def dirty_pixbuf_func(self, col, cell, model, iter, data):
-        dirty = model.get_value(iter, 5)
-        if dirty:
-            if self.check_entry(model.get_value(iter, 3), model.get_value(iter, 4)) == GOOD:
-                cell.set_property("stock-id", "gtk-yes")
-            else:
-                cell.set_property("stock-id", "gtk-no")
-        else:
-            cell.set_property("stock-id", None)
-
-    def update_buttons(self):
-        self.dirty = False
-        dirty_iter = self.model.get_iter_first()
-        while dirty_iter != None:
-            dirty = self.model.get_value(dirty_iter, 5)
-            if dirty:
-                self.dirty = True
-            dirty_iter = self.model.iter_next(dirty_iter)
-        self.save.set_sensitive(self.dirty)
-        self.revert.set_sensitive(self.dirty)
-
-    def save_changes(self):
-        iter = self.model.get_iter_first()
-        while iter != None:
-            if self.model.get_value(iter, 5):
-                entry = self.model.get_value(iter, 1)
-                entry.msgstr = self.model.get_value(iter, 4).decode('utf-8')
-                self.model.get_value(iter, 0).mofile.save()
-                self.model.set_value(iter, 5, False)
-            iter = self.model.iter_next(iter)
-        self.update_buttons()
-
-    def revert_changes(self):
-        iter = self.model.get_iter_first()
-        while iter != None:
-            if self.model.get_value(iter, 5):
-                entry = self.model.get_value(iter, 1)
-                self.model.set_value(iter, 4, entry.msgstr)
-                self.model.set_value(iter, 5, False)
-            iter = self.model.iter_next(iter)
-        self.update_buttons()
-
     def clear(self):
         self._count = 0
-        self.progress.set_text(str(self._count))
         self._loading_queue_lock.acquire()
         self._loading_queue = []
         self._loading_queue_lock.release()
@@ -228,7 +167,8 @@ class ThreadedTreeView(Gtk.TreeView):
             self.model.set_value(iter, 0, i[0])
             self.model.set_value(iter, 1, i[1])
             if self.type == PO_EXT:
-                self.model.set_value(iter, 2, "<span color='#0000FF'>%s</span>" % (i[2]))
+                language = i[2].replace(".po", "").split("-")[-1]
+                self.model.set_value(iter, COL_LANGUAGE, "<span color='#0000FF'>%s</span>" % language)
             else:
                 self.model.set_value(iter, 2, i[2])
             self.model.set_value(iter, 3, i[3])
@@ -239,7 +179,7 @@ class ThreadedTreeView(Gtk.TreeView):
             status = i[6]
             self.model.set_value(iter, COL_ISSUE, self.get_status_string(status))
             self._count += 1
-            self.progress.set_text(str(self._count))
+            #self.progress.set_text(str(self._count))
         return res
 
     def load_files(self):
@@ -262,7 +202,7 @@ class ThreadedTreeView(Gtk.TreeView):
                         mo_inst = polib.pofile(os.path.join(root, file))
                         mo = Mo(mo_inst, file, os.path.join(root, file))
                         self.check_file(mo)
-        self.progress.set_fraction(1.0)
+        #self.progress.set_fraction(1.0)
 
     def check_file(self, mofile):
         self._loading_queue_lock.acquire()
@@ -277,7 +217,7 @@ class ThreadedTreeView(Gtk.TreeView):
         self._loading_lock.release()
 
         if start_loading:
-            self.progress.pulse()
+            #self.progress.pulse()
             GObject.timeout_add(100, self._check_loading_progress)
             thread.start_new_thread(self._do_load, ())
 
@@ -296,9 +236,7 @@ class ThreadedTreeView(Gtk.TreeView):
                     if entry.obsolete:
                         continue # skip obsolete translations (prefixed with #~ in po file)
                     res = self.check_entry(entry.msgid, entry.msgstr)
-                    exclude_dates = self.datecheck.get_active()
-                    if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE) or \
-                       (res > BAD_EXCLUSIONS and not exclude_dates):
+                    if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
                         self._loaded_data_lock.acquire()
                         self._loaded_data.append((to_load, entry, to_load.locale, entry.msgid, entry.msgstr, to_load.current_index, res))
                         self._loaded_data_lock.release()
@@ -310,9 +248,7 @@ class ThreadedTreeView(Gtk.TreeView):
                             else:
                                 msgid = entry.msgid
                             res = self.check_entry(msgid, msgstr, is_plural=True)
-                            exclude_dates = self.datecheck.get_active()
-                            if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE) or \
-                               (res > BAD_EXCLUSIONS and not exclude_dates):
+                            if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
                                 self._loaded_data_lock.acquire()
                                 self._loaded_data.append((to_load, entry, to_load.locale, msgid, msgstr, to_load.current_index, res))
                                 self._loaded_data_lock.release()
@@ -475,44 +411,15 @@ class Main:
         self.builder.add_from_file("mocheck.glade")
         self.treebox = self.builder.get_object("treebox")
         self.window = self.builder.get_object("window")
-        self.status = self.builder.get_object("status")
-        self.refresh_button = self.builder.get_object("refresh")
-        self.progress = self.builder.get_object("progress")
-        self.datecheck = self.builder.get_object("datecheck")
-        self.save = self.builder.get_object("save")
-        self.revert = self.builder.get_object("revert")
 
         self.window.connect("destroy", Gtk.main_quit)
-        self.datecheck.connect("toggled", self.on_refresh_clicked)
-        self.refresh_button.connect("clicked", self.on_refresh_clicked)
-        self.save.connect("clicked", self.on_save_clicked)
-        self.revert.connect("clicked", self.on_revert_clicked)
 
         self.treeview = ThreadedTreeView(self, t)
         self.treebox.add(self.treeview)
-        self.treeview.get_selection().connect("changed", lambda x: self.selection_changed());
         self.treeview.connect('button_press_event', self.on_button_press_event)
         self.window.show_all()
 
         thread.start_new_thread(self.treeview.load_files, ())
-
-    def selection_changed(self):
-        model, treeiter = self.treeview.get_selection().get_selected()
-        if treeiter:
-            entry = self.treeview.model.get_value(treeiter, 1)
-            status = self.treeview.check_entry(entry.msgid, entry.msgstr)
-            if status == BAD_MISCOUNT:
-                self.status.set_text("Number of tokens does not match")
-            elif status == BAD_MISCOUNT_MAYBE_DATE:
-                self.status.set_text("Number of tokens does not match (could be a date/time)")
-            elif status == BAD_MISMATCH:
-                self.status.set_text("Tokens not in correct order or mismatch")
-            elif status == BAD_MISMATCH_MAYBE_DATE:
-                self.status.set_text("Tokens not in correct order or mismatch (could be a date/time)")
-            elif status == BAD_UNESCAPED_QUOTE:
-                self.status.set_text("Bad quotes")
-            else:
-                self.status.set_text("")
 
     def on_button_press_event(self, widget, event):
         if event.button == 1 and self.treeview.type == PO_EXT:
@@ -528,33 +435,6 @@ class Main:
                     locale = pofile.locale
                     self.go_to_launchpad(project, locale, number)
                     return False
-
-    def on_refresh_clicked(self, button):
-        if self.treeview.dirty:
-            if not self.ask("There are unsaved changes - discard them?"):
-                return
-        thread.start_new_thread(self.treeview.load_files, ())
-
-    def on_save_clicked(self, button):
-        self.treeview.save_changes()
-
-    def on_revert_clicked(self, button):
-        if self.treeview.dirty:
-            if self.ask("There are unsaved changes - discard them?"):
-                self.treeview.revert_changes()
-
-    def ask(self, msg):
-        dialog = Gtk.MessageDialog(None,
-                                   Gtk.DialogFlags.DESTROY_WITH_PARENT,
-                                   Gtk.MessageType.QUESTION,
-                                   Gtk.ButtonsType.YES_NO,
-                                   None)
-        dialog.set_default_size(400, 200)
-        dialog.set_markup(msg)
-        dialog.show_all()
-        response = dialog.run()
-        dialog.destroy()
-        return response == Gtk.ResponseType.YES
 
     def go_to_launchpad(self, project, locale, number):
         locale = locale.replace(".po", "")
