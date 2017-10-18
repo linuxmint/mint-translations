@@ -32,16 +32,15 @@
           </packing>
         </child>
         <child>
-          <object class="GtkLabel" id="status">
+          <object class="GtkProgressBar" id="progressbar1">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <attributes>
-              <attribute name="size" value="15000"/>
-            </attributes>
+            <property name="show_text">True</property>
           </object>
           <packing>
             <property name="expand">False</property>
             <property name="fill">True</property>
+            <property name="padding">6</property>
             <property name="position">1</property>
           </packing>
         </child>
