@@ -521,11 +521,12 @@ class Main:
                 path, column, x, y = data
                 if column.get_property('title')=="Language":
                     iter = self.treeview.model.get_iter(path)
+                    project = self.treeview.model.get_value(iter, COL_PROJECT)
                     pofile = self.treeview.model.get_value(iter, 0)
                     entry = self.treeview.model.get_value(iter, 1)
                     number = self.treeview.model.get_value(iter, 7)
                     locale = pofile.locale
-                    self.go_to_launchpad(pofile, locale, number)
+                    self.go_to_launchpad(project, locale, number)
                     return False
 
     def on_refresh_clicked(self, button):
@@ -555,11 +556,10 @@ class Main:
         dialog.destroy()
         return response == Gtk.ResponseType.YES
 
-    def go_to_launchpad(self, pofile, locale, number):
+    def go_to_launchpad(self, project, locale, number):
         locale = locale.replace(".po", "")
-        domain = "-".join(locale.split("-")[0:-1])
         locale = locale.split("-")[-1]
-        os.system("xdg-open 'https://translations.launchpad.net/linuxmint/latest/+pots/%s/%s/%s/+translate'" % (domain, locale, number))
+        os.system("xdg-open 'https://translations.launchpad.net/linuxmint/latest/+pots/%s/%s/%s/+translate'" % (project, locale, number))
 
 if __name__ == "__main__":
     Main()
