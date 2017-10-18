@@ -33,6 +33,8 @@ BAD_EXCLUSIONS = 80
 BAD_MISCOUNT_MAYBE_DATE = 99
 BAD_MISMATCH_MAYBE_DATE = 100
 
+UNSUPPORTED_LOCALES = ["yi"]
+
 (COL_MO, COL_NUMBER, COL_PROJECT, COL_LANGUAGE, COL_MSGID, COL_MSGSTR, COL_ISSUE) = range(7)
 
 # Used as a decorator to run things in the background
@@ -185,7 +187,7 @@ class Main:
                 elif file.endswith(PO_EXT):
                     mo_inst = polib.pofile(os.path.join(root, file))
                     mo = Mo(mo_inst, file, os.path.join(root, file))
-                    if mo.locale in ["yi"]:
+                    if mo.locale in UNSUPPORTED_LOCALES:
                         # Don't check PO files for some of the locales (right-to-left languages for instance, or languages where it's hard for us to verify the arguments)
                         continue
                 else:
@@ -208,9 +210,9 @@ class Main:
                 for plurality in entry.msgstr_plural.keys():
                     msgstr = entry.msgstr_plural[plurality]
                     if plurality > 0:
-                        msgid = entry.msgid_plural
+                        msgid = "plural[%d]: %s" % (plurality, entry.msgid_plural)
                     else:
-                        msgid = entry.msgid
+                        msgid = "plural[%d]: %s" % (plurality, entry.msgid)
                     res = self.check_entry(msgid, msgstr, is_plural=True)
                     if (res != GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
                         issue_found = True
