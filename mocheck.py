@@ -118,7 +118,6 @@ class Main:
 
         cr = Gtk.CellRendererText()
         column = Gtk.TreeViewColumn("MsgStr", cr, markup=COL_MSGSTR)
-        column.set_expand(True)
         cr.set_property('wrap-mode', Pango.WrapMode.WORD_CHAR)
         cr.set_property('wrap-width', 450)
         self.treeview.append_column(column)
@@ -206,21 +205,22 @@ class Main:
             msgstr = entry.msgstr
             if (res != GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
                 issue_found = True
-            if (len(entry.msgstr_plural) > 0):
+            elif (len(entry.msgstr_plural) > 0):
                 for plurality in entry.msgstr_plural.keys():
                     msgstr = entry.msgstr_plural[plurality]
                     if plurality > 0:
                         msgid = "plural[%d]: %s" % (plurality, entry.msgid_plural)
                     else:
                         msgid = "plural[%d]: %s" % (plurality, entry.msgid)
-                    res = self.check_entry(msgid, msgstr, is_plural=True)
+                    res = self.check_entry(msgid, msgstr, is_plural=True, is_python=(".py:" in str(entry)))
                     if (res != GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
                         issue_found = True
+                        break
             if issue_found:
                 self.add_issue_to_treeview(mo, mo.project, msgid, msgstr, res, mo.current_index)
             mo.current_index += 1
 
-    def check_entry(self, msgid, msgstr, is_plural=False):
+    def check_entry(self, msgid, msgstr, is_plural=False, is_python=False):
         msgid = msgid.replace("%%", " ")
         msgstr = msgstr.replace("%%", " ")
         id_tokens = TokenList()
@@ -301,8 +301,8 @@ class Main:
                 return GOOD
 
         if msgstr != "":
-            if (is_plural):
-                # Plural forms don't have to match the number of arguments
+            if (is_plural and not is_python):
+                # Plural forms don't have to match the number of arguments in C, but they do in Python
                 return GOOD
             elif (len(id_tokens) != len(str_tokens)):
                 if id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD:
