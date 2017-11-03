@@ -7,525 +7,314 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-11-02 13:58+0000\n"
-"PO-Revision-Date: 2017-03-06 21:25+0000\n"
+"POT-Creation-Date: 2017-10-27 13:03+0100\n"
+"PO-Revision-Date: 2017-10-28 14:06+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:44+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:111
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:251
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:443
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:461
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:527
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:530
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:582
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:585
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:628
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:635
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1499
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1597
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1661 generate_desktop_files.py:26
-#: generate_desktop_files.py:41
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:32
+msgid "Backups"
+msgstr "Babeskopiak"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:159
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:199
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:206 generate_desktop_files:26
+#: generate_desktop_files:41
 msgid "Backup Tool"
 msgstr "Babeskopietarako tresna"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:168
-msgid "Preserve structure"
-msgstr "Mantendu egitura"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s ez dago zure etxeko direktorioan kokatuta."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:170
-msgid ".tar file"
-msgstr ".tar fitxategia"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:262
+msgid "Please choose a directory."
+msgstr "Aukeratu direktorio bat."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:171
-msgid ".tar.bz2 file"
-msgstr ".tar.bz2 fitxategia"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:172
-msgid ".tar.gz file"
-msgstr ".tar.gz fitxategia"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:178
-msgid "Never"
-msgstr "Inoiz ez"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:179
-msgid "Size mismatch"
-msgstr "Tamainak ez datoz bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:180
-msgid "Modification time mismatch"
-msgstr "Aldatze-orduak ez datoz bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:181
-msgid "Checksum mismatch"
-msgstr "Kontrol-baturak ez datoz bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:182
-msgid "Always"
-msgstr "Beti"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:204
-msgid "Excluded paths"
-msgstr "Baztertutako bideak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:214
-msgid "Type"
-msgstr "Mota"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:218
-msgid "Detail"
-msgstr "Xehetasunak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:224
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:233
-msgid "Path"
-msgstr "Bidea"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:227
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:236
-msgid "Error"
-msgstr "Errorea"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:268
-msgid "Store?"
-msgstr "Gorde?"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:271
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:284
-msgid "Name"
-msgstr "Izena"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:281
-msgid "Install"
-msgstr "Instalatu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:289
-msgid "Backup or Restore"
-msgstr "Babeskopia egin edo berreskuratu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:290
-msgid "Choose from the following options"
-msgstr "Hautatu ondorengo aukeretatik"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:292
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:317
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:324
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:328
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
-msgid "Backup files"
-msgstr "Babeskopia fitxategiak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:293
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:337
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:347
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:353
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:358
-msgid "Restore files"
-msgstr "Berreskuratu fitxategiak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:294
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:362
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:367
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:378
-msgid "Backup software selection"
-msgstr "Software aukeraren babeskopia egin"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:295
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:382
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:387
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:394
-msgid "Restore software selection"
-msgstr "Berreskuratu software aukera"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:297
-msgid "Make a backup of your files"
-msgstr "Zure fitxategien babeskopia bat egin"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:298
-msgid "Save the list of installed applications"
-msgstr "Gorde instalatutako aplikazioen zerrenda"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:299
-msgid "Restore a previous backup"
-msgstr "Berreskuratu aurreko babeskopia bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:300
-msgid "Restore previously installed applications"
-msgstr "Berreskuratu aurretik instalatutako aplikazioak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:304
-msgid "Please select a source and a destination for your backup"
-msgstr "Mesedez, hautatu zure babeskopiaren jatorria eta helburua."
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:305
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:341
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:349
-msgid "Source:"
-msgstr "Jatorria:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
-msgid "Destination:"
-msgstr "Helburua:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:307
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
-msgid "Advanced options"
-msgstr "Aukera aurreratuak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:308
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:350
-msgid "Description:"
-msgstr "Deskribapena:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:309
-msgid "Output:"
-msgstr "Irteera:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:310
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:344
-msgid "Overwrite:"
-msgstr "Gainidatzi:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:311
-msgid "Confirm integrity"
-msgstr "Berretsi osotasuna"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:312
-msgid "Follow symlinks"
-msgstr "Jarraitu esteka sinbolikoak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:313
-msgid "Preserve permissions"
-msgstr "Mantendu baimenak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:314
-msgid "Preserve timestamps"
-msgstr "Mantendu data-zigiluak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:318
-msgid "Please select any files or directories you want to exclude"
-msgstr "Mesedez, hautatu baztertu nahi dituzun fitxategi eta direktorioak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:319
-msgid "Exclude files"
-msgstr "Baztertu fitxategiak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:320
-msgid "Exclude directories"
-msgstr "Baztertu direktorioak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:321
-msgid "Remove"
-msgstr "Kendu"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:265
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Ez daukazu hautatutako direktorioan idazteko baimenik."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:325
-msgid "Please review the information below before starting the backup"
-msgstr "Mesedez, aztertu ondorengo informazioa babeskopiarekin hasi aurretik"
+msgid "Please choose a backup file."
+msgstr "Aukeratu babeskopia-fitxategi bat."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:329
-msgid "Please wait while your files are being backed up"
-msgstr "Mesedez, itxaron babeskopia egiten bukatu bitartean"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Babeskopia-fitxategia zaharregia da edo beste tresna batekin sortu zen. "
+"Mesedez erauzi eskuz."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:330
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:375
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Errore bat gertatu da babeskopia-fitxategia irekitzean: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:356
+msgid "No packages need to be installed."
+msgstr "Ez da paketerik instalatu behar."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
+msgid "Please select packages to install."
+msgstr "Hautatu paketeak instalatzeko."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:417
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "%s saltatzen, kanalizazio izendunak ez direlako onartzen."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
 msgstr "Babeskopia egiten:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:334
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:379
-msgid "The backup is now finished"
-msgstr "Babeskopia burutu da"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:338
-msgid ""
-"Please choose the type of backup to restore, its location and a destination"
-msgstr ""
-"Mesedez, aukeratu berreskuratuko den babeskopiaren mota, kokapena eta "
-"helburua"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:339
-msgid "Archive"
-msgstr "Fitxategia"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:340
-msgid "Directory"
-msgstr "Direktorioa"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:348
-msgid "Please review the information below"
-msgstr "Mesedez, aztertu ondorengo informazioa"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:354
-msgid "Please wait while your files are being restored"
-msgstr "Mesedez, itxaron zure fitxategiak berreskuratzen diren bitartean"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:355
-msgid "Restoring:"
-msgstr "Berreskuratzen:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:359
-msgid "The restoration of the files is now finished"
-msgstr "Fitxategien berreskurapena amaitu da"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
-msgid "Please choose a destination"
-msgstr "Mesedez, aukeratu helburu bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:364
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
-msgid "Destination"
-msgstr "Helburua"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:368
-msgid "The list below shows the packages you added to Linux Mint"
-msgstr "Ondorengo zerrendan daude Linux Mint-i gehitu zenizkion paketeak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:369
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:389
-msgid "Select all"
-msgstr "Hautatu denak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:370
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:390
-msgid "Deselect all"
-msgstr "Desautatu guztiak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
-msgid "Please wait while your software selection is being backed up"
-msgstr ""
-"Mesedez, itxaron zure zure software aukeraren babeskopia egiten den bitartean"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
-msgid "Please select a saved software selection"
-msgstr "Mesedez, hautatu gordetako software aukera bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:384
-msgid "Software selection:"
-msgstr "Software aukera:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:388
-msgid "Select the packages you want to install"
-msgstr "Hautatu instalatu nahi dituzun paketeak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:391
-msgid "Refresh"
-msgstr "Freskatu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:395
-msgid "The restoration is now finished"
-msgstr "Berreskurapena burutu da"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:396
-msgid "Your package selection was restored successfully"
-msgstr "Zure pakete aukera behar bezala berreskuratu da"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
-msgid "Invalid path"
-msgstr "Bide baliogabea"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
-#, python-format
-msgid "%s is not located within your source directory. Not added."
-msgstr "%s ez dago zure jatorriko direktorioan. Ez da gehitu."
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:527
-msgid "Please choose directories for the source and the destination"
-msgstr "Mesedez, aukeratu jatorri eta helburuaren direktorioak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:530
-msgid ""
-"Please choose different directories for the source and the destination"
-msgstr "Mesedez, aukeratu direktorio desberdinak jatorri eta helbururako"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:545
-msgid "Source"
-msgstr "Jatorria"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:548
-msgid "Description"
-msgstr "Deskribapena"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:552
-msgid "Compression"
-msgstr "Konpresioa"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:556
-msgid "Overwrite destination files"
-msgstr "Gainidatzi helburuko fitxategiak"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:559
-msgid "Exclude"
-msgstr "Baztertu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:582
-msgid "Please choose a file to restore from"
-msgstr "Mesedez, aukeratu fitxategi bat bertatik berreskuratzeko"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:585
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
-msgid "Please choose a destination directory"
-msgstr "Mesedez, aukeratu helburuko direktorioa"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:628
-msgid "No packages need to be installed at this time"
-msgstr "Ez dago paketerik instalatu beharrik une honetan"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:635
-msgid "Please select one or more packages to install"
-msgstr "Mesedez, hautatu pakete bat edo gehiago instalatzeko"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:703
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:704
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1206
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1208
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1514
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:450
 msgid "Calculating..."
 msgstr "Kalkulatzen..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:719
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:454
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:558
+msgid "The following errors occurred:"
+msgstr "Ondorengo erroreak gertatu dira:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "The backup was aborted."
+msgstr "Babeskopia bertan behera utzi da."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
-msgid "Skipping %(skipped_file)s because named pipes are not supported."
+msgid "Your files were successfully saved in %s."
+msgstr "Zure fitxategiak behar bezala gorde dira %s(e)n."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
 msgstr ""
-"%(skipped_file)s saltatzen kanalizazio izendunak ez direlako onartzen."
+"Abisua: Ezin izan da meta fitxategia gorde. Babeskopia hau ez da onartuko "
+"leheneratzeko."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:761
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:801
-msgid "Skipping broken link"
-msgstr "Etendako esteka saltatzen"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:762
-msgid "Broken link"
-msgstr "Etendako esteka"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:765
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:805
-msgid "Skipping link"
-msgstr "Esteka saltatzen"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:829
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:838
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:847
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1267
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1278
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1291
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1355
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1364
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1374
-msgid "Skipping identical file"
-msgstr "Errepikatutako fitxategia saltatzen"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:869
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
 msgid ""
-"Warning: Some files were not saved, copied: %(current_file)d files out of "
-"%(total)d total"
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
 msgstr ""
-"Kontuz: Zenbait fitxategi ez dira gorde, %(current_file)d kopiatu dira "
-"%(total)d-(e)tik"
+"Abisua: Zenbait fitxategi ez dira gorde. Soilik %(archived)d fitxategiren "
+"babeskopia egin da %(total)d(e)tik."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:873
-msgid "An error occurred during the backup"
-msgstr "Errore bat gertatu da babeskopia egitean"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:547
+msgid "Restoring:"
+msgstr "Berreskuratzen:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:883
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1560
-msgid "The backup was aborted"
-msgstr "Babeskopia bertan behera gelditu da"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:564
+msgid "The restoration was aborted."
+msgstr "Leheneratzea bertan behera utzi da."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:891
-msgid "The backup completed successfully"
-msgstr "Babeskopia behar bezala burutu da"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "Your files were successfully restored."
+msgstr "Zure fitxategiak ondo leheneratu dira"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:982
-msgid "Checksum Mismatch:"
-msgstr "Kontrol-baturak ez datoz bat:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:983
-msgid "Checksum Mismatch"
-msgstr "Kontrol-baturak ez datoz bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1035
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1037
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1066
-msgid "Calculating checksum"
-msgstr "Kontrol-batura kalkulatzen"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1112
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1136
-msgid "(Not created with the Backup Tool)"
-msgstr "(Ez da sortu babeskopia tresnarekin)"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1398
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
-msgid ""
-"Warning: Some files were not restored, copied: %(current_file)d files out of "
-"%(total)d total"
-msgstr ""
-"Abisua: zenbait fitxategi ez dira berreskuratu, kopiatuta: %(current_file)d "
-"/ %(total)d"
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "Abisua: Soilik %(number)d fitxategi leheneratu dira %(total)d(e)tik."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1401
-msgid "An error occurred during the restoration"
-msgstr "Errore bat gertatu da berreskurapenean"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:710
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Zure software hautapena %s(e)n gorde da"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1412
-msgid "The restoration was aborted"
-msgstr "Berreskurapena bertan behera gelditu da"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:726
+msgid "The selected file is not a valid software selection."
+msgstr "Hautatutako fitxategia ez da baliozko software hautapena."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1420
-msgid "The restoration completed successfully"
-msgstr "Berreskurapena behar bezala burutu da"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:731
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:760
+msgid "An error occurred while reading the file."
+msgstr "Errore bat gertatu da fitxategia irakurtzean."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1551
-msgid "An error occurred during the backup:"
-msgstr "Babes kopia egiterakoan akats bat gertatu da"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:748
+msgid "Could not locate the package."
+msgstr "Ezin izan da paketea aurkitu."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1568
-msgid "Your software selection was backed up successfully"
-msgstr "Zure software aukeraren babeskopia behar bezala egin da"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1597
-msgid "The specified file is not a valid software selection"
-msgstr "Zehazturiko fitxategia ez da baliozko software aukera bat"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1661
-msgid "An error occurred while accessing the file"
-msgstr "Errore bat gertatu da fitxategia atzitzean"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1648
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1654
-msgid "Could not locate the package"
-msgstr "Ezin izan da paketea aurkitu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1686
-msgid "Please wait, this can take some time"
-msgstr "Itxaron mesedez, baliteke honek denbora pixka bat behar izatea"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1688
-msgid "The installation is complete"
-msgstr "Instalazioa burutu da"
-
-#: generate_desktop_files.py:26 generate_desktop_files.py:41
+#: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
 msgstr "Egin karpeta nagusiaren babeskopia"
 
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Datu pertsonalak"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Zure fitxategiak, ezarpenak eta etxeko direktorioaren edukiak"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Leheneratu..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Egin babeskopia orain..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Software-hautapena"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Ordenagailuan instalatutako aplikazioen zerrenda"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Hautatu non gorde nahi duzun babeskopia-fitxategia:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Gehitu fitxategi edo direktorioak beheko zerrendara babeskopiatik kanpo "
+"uzteko."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Baztertu fitxategiak"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Baztertu direktorioak"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Kendu"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Zure etxeko direktorioaren erroan dauden ezkutuko fitxategi eta karpetak ez "
+"dira barne hartzen modu lehenetsian."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Horietako batzuk babeskopian sartu nahi badituzu, gehitu beheko zerrendan."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Fitxategiak barne"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Direktorioak barne"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Fitxategi eta karpeta hauek aldi baterako datuak edo aplikazioen hobespenak "
+"eduki ohi dituzte."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Mesedez, itxaron zure fitxategien babeskopia egin bitartean."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Hautatu babeskopia leheneratzeko"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Lehendik dauden fitxategiak gainidatzi?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Ez, falta diren fitxategiak soilik leheneratu.\n"
+"<small>Aukera hau segurua da eta ez du eraginik lehendik dauden "
+"fitxategietan.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Bai, aldaketak gainidatzi eta lehendik dauden fitxategi guztien edukia "
+"leheneratu.\n"
+"<small>Aukera hau kontuz erabili. Babeskopiaz geroztik fitxategietan "
+"egindako aldaketak galduko dituzu.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Mesedez, itxaron zure fitxategiak leheneratu bitartean."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Ondorengo zerrendan Software kudeatzailea erabiliz instalatutako aplikazioak "
+"daude."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Hautatu gorde nahi dituzun aplikazioak."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Hautatu dena"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Desautatu dena"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Oharra: Sisteman instalatutako pakete guztien zerrenda gorde nahi baduzu, "
+"erabili 'dpkg --get-selections > nire_zerrenda.list' komandoa terminal "
+"batean."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Hautatu gordetako software hautapena (.list fitxategia):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Hautatu instalatu nahi dituzun paketeak."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Freskatu"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Zure software hautapeneko pakete guztiak instalatuta daude."
+
 #~ msgid "Cleaning up..."
 #~ msgstr "Garbitzen..."
+
+#~ msgid "Invalid path"
+#~ msgstr "Bide baliogabea"
 
 #~ msgid "View content"
 #~ msgstr "Edukia ikusi"
@@ -548,8 +337,14 @@ msgstr "Egin karpeta nagusiaren babeskopia"
 #~ msgid "Copying the backup file into your home directory..."
 #~ msgstr "Babes kopiaren fitxategia Direktorio Nagusira kopiatzen"
 
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Babes kopia egiterakoan akats bat gertatu da"
+
 #~ msgid "Restoration successful"
 #~ msgstr "Ondo berreskuratu dira datuak."
+
+#~ msgid "Excluded paths"
+#~ msgstr "Baztertutako bideak"
 
 #~ msgid "Hidden paths"
 #~ msgstr "Ezkutatuko bideak"

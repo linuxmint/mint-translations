@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-04-26 13:45+0100\n"
-"PO-Revision-Date: 2017-04-26 21:31+0000\n"
+"POT-Creation-Date: 2017-10-27 16:38+0100\n"
+"PO-Revision-Date: 2017-10-27 22:01+0000\n"
 "Last-Translator: Isidro Pisa <isidro@utils.info>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:42+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -147,10 +148,10 @@ msgid ""
 "skilled developers are, they can't always predict every possible situation "
 "or test on every possible hardware specification."
 msgstr ""
-"Les regressions són molt comuns. Són inherents al desenvolupament de "
-"programari. Els canvis en el codi poden causar regressions. Per hàbils que "
+"Les regressions són molt comunes. Són inherents al desenvolupament de "
+"programari. Els canvis al codi poden causar regressions. Per molt hàbils que "
 "siguin els desenvolupadors, no sempre poden preveure totes les situacions o "
-"provar totes les configuracions de maquinari possibles."
+"provar totes les configuracions possibles de maquinari."
 
 #: usr/share/help/C/mintupdate/regressions.page:27(p)
 msgid ""
@@ -193,7 +194,7 @@ msgid "Choosing an update policy"
 msgstr "Elecció d'una política d'actualització"
 
 #: usr/share/help/C/mintupdate/policy.page:19(title)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1163
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1148
 msgid "Update policy"
 msgstr "Política d'actualització"
 
@@ -348,11 +349,11 @@ msgstr ""
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:16(desc)
 msgid "Updating from the command line"
-msgstr "Actualitzar des de la línia d'ordres"
+msgstr "Actualització des de la línia d'ordres"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:19(title)
 msgid "Using mintupdate-tool"
-msgstr "Utilitzar mintupdate-tool"
+msgstr "Ús de mintupdate-tool"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:21(p)
 msgid ""
@@ -372,7 +373,7 @@ msgstr ""
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:27(title)
 msgid "Listing updates"
-msgstr "Llistar actualitzacions"
+msgstr "Llista de les actualitzacions"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:29(p)
 msgid "You can use the \"list\" command to list updates:"
@@ -385,16 +386,16 @@ msgstr "mintupdate-tool list"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:33(p)
 msgid "The list can be filtered by levels with the -l argument."
-msgstr "La llista es pot filtrar per nivells amb l'argument -l"
+msgstr "La llista es pot filtrar per nivells amb l'argument -l."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:35(p)
 msgid "You can add security updates with -s."
-msgstr "Es pot afegir actualitzacions de seguretat amb -s"
+msgstr "Podeu afegir les actualitzacions de seguretat amb -s."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:37(p)
 msgid "You can add kernel updates with -k, or remove them with -nk."
 msgstr ""
-"Es pot afegir actualitzacions del nucli amb -k, o eliminar-les amb -nk"
+"Podeu afegir les actualitzacions del nucli amb -k, o eliminar-les amb -nk."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:39(p)
 msgid ""
@@ -402,7 +403,7 @@ msgid ""
 "level 1 and 2 bug fixes update:"
 msgstr ""
 "Per exemple, la següent ordre llista totes les actualitzacions de seguretat, "
-"així com les de correcció d'errors de nivell 1 i 2."
+"així com les de correcció d'errors de nivell 1 i 2:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:41(screen)
 #, no-wrap
@@ -410,7 +411,7 @@ msgid "mintupdate-tool list -l12 -s -nk"
 msgstr "mintupdate-tool list -l12 -s -nk"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:47(title)
-#: usr/share/help/C/mintupdate/index.page:37(title)
+#: usr/share/help/C/mintupdate/index.page:35(title)
 msgid "Applying updates"
 msgstr "Aplicar actualitzacions"
 
@@ -427,7 +428,7 @@ msgid ""
 "level 1 and 2 bug fix updates:"
 msgstr ""
 "Per exemple, la següent ordre aplica totes les actualitzacions de seguretat "
-"i també les de correcció d'errors de nivell 1 i 2."
+"i també les de correcció d'errors de nivell 1 i 2:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:53(screen)
 #, no-wrap
@@ -487,7 +488,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: usr/share/help/C/mintupdate/levels.page:42(None)
-#: usr/share/help/C/mintupdate/levels.page:109(None)
+#: usr/share/help/C/mintupdate/levels.page:107(None)
 msgid ""
 "@@image: 'figures/mintupdate-level4.svg'; "
 "md5=9e9eb80679d932ccce1db26618475908"
@@ -498,7 +499,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: usr/share/help/C/mintupdate/levels.page:52(None)
-#: usr/share/help/C/mintupdate/levels.page:136(None)
+#: usr/share/help/C/mintupdate/levels.page:134(None)
 msgid ""
 "@@image: 'figures/mintupdate-level5.svg'; "
 "md5=4834415cfe932a91c86b82e6124ccfb0"
@@ -524,49 +525,49 @@ msgid ""
 "operating system."
 msgstr ""
 "El nivell de les actualitzacions indica quin impacte tenen en el sistema "
-"operatiu"
+"operatiu."
 
 #: usr/share/help/C/mintupdate/levels.page:23(p)
 msgid "There are 4 levels:"
 msgstr "Hi ha 4 nivells:"
 
 #: usr/share/help/C/mintupdate/levels.page:28(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1854
 msgid "Minimal"
 msgstr "Mínim"
 
 #: usr/share/help/C/mintupdate/levels.page:29(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1879
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1860
 msgid "No impact on the system or other applications."
 msgstr "Sense impacte en el sistema ni en d'altres aplicacions."
 
 #: usr/share/help/C/mintupdate/levels.page:33(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1874
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
 msgid "Normal"
 msgstr "Normal"
 
 #: usr/share/help/C/mintupdate/levels.page:34(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1880
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1861
 msgid "Default level. Usually low impact on the system."
 msgstr "Nivell per defecte. Normalment, baix impacte en el sistema."
 
 #: usr/share/help/C/mintupdate/levels.page:38(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1875
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1856
 msgid "Large"
 msgstr "Gran"
 
 #: usr/share/help/C/mintupdate/levels.page:39(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1881
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1862
 msgid "Apply with caution. Impact on multiple applications."
 msgstr "Aplicar amb cura. Impacte en múltiples aplicacions."
 
 #: usr/share/help/C/mintupdate/levels.page:43(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1876
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1857
 msgid "Sensitive"
 msgstr "Sensible"
 
 #: usr/share/help/C/mintupdate/levels.page:44(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1882
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1863
 msgid "Apply one by one. Impact on sensitive parts of the system."
 msgstr "Aplicar d'una en una. Impacte en parts sensibles del sistema."
 
@@ -579,12 +580,12 @@ msgstr ""
 "crítics coneguts:"
 
 #: usr/share/help/C/mintupdate/levels.page:53(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1877
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1858
 msgid "Dangerous"
 msgstr "Perillós"
 
 #: usr/share/help/C/mintupdate/levels.page:54(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1883
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1864
 msgid "Very rare. Not recommended. Known to create issues."
 msgstr "Molt poc freqüent. No recomanat. Se sap que causa problemes."
 
@@ -708,26 +709,17 @@ msgstr ""
 
 #: usr/share/help/C/mintupdate/levels.page:98(p)
 msgid ""
-"Sensitive applications such as Firefox are also level 3. Novice users would "
-"be unable to perform common tasks if these applications stopped working."
-msgstr ""
-"Les aplicacions sensibles, com Firefox, també són de nivell 3. Si deixen de "
-"funcionar, els usuaris novells no podran realitzar les seves tasques "
-"habituals."
-
-#: usr/share/help/C/mintupdate/levels.page:100(p)
-msgid ""
 "There aren't many level 3 updates. It is recommended to apply them with "
 "caution and in isolation. Take note of what updates you are applying, check "
 "the system afterwards to make sure everything is working fine."
 msgstr ""
 "No hi ha moltes actualitzacions de nivell 3. Es recomana aplicar-les amb "
-"precaució i aïlladament. Prengueu nota de quina actualitzacions aneu a "
-"aplicar, i comproveu el sistema després per assegurar-vos que tot funciona "
+"precaució i de forma aïllada. Prengueu nota de quines actualitzacions "
+"apliqueu, i comproveu el sistema després per assegurar-vos que tot funciona "
 "bé."
 
-#: usr/share/help/C/mintupdate/levels.page:102(p)
-#: usr/share/help/C/mintupdate/levels.page:129(p)
+#: usr/share/help/C/mintupdate/levels.page:100(p)
+#: usr/share/help/C/mintupdate/levels.page:127(p)
 msgid ""
 "If something breaks, seek help on the forums or the chat channel and tell "
 "people which update caused the regression and what is broken."
@@ -735,7 +727,7 @@ msgstr ""
 "Si alguna cosa s'espatlla, busqueu ajuda en els fòrums o el xat, i indiqueu "
 "quina actualització ha causat la regressió, i què ha deixat de funcionar."
 
-#: usr/share/help/C/mintupdate/levels.page:104(p)
+#: usr/share/help/C/mintupdate/levels.page:102(p)
 msgid ""
 "If you blindly apply hundreds of updates and you're unable to pinpoint the "
 "problematic one, you're unlikely to find help. All level 3 updates are "
@@ -747,7 +739,7 @@ msgstr ""
 "les actualitzacions de nivell 3 són recomanables, però cal ser previngut i "
 "saber què s'està actualitzant."
 
-#: usr/share/help/C/mintupdate/levels.page:109(title)
+#: usr/share/help/C/mintupdate/levels.page:107(title)
 msgid ""
 "<media type=\"image\" src=\"figures/mintupdate-level4.svg\" height=\"40\"/> "
 "Level 4"
@@ -755,7 +747,7 @@ msgstr ""
 "<media type=\"image\" src=\"figures/mintupdate-level4.svg\" height=\"40\"/> "
 "Nivell 4"
 
-#: usr/share/help/C/mintupdate/levels.page:111(p)
+#: usr/share/help/C/mintupdate/levels.page:109(p)
 msgid ""
 "Level 4 updates are updates which affect sensitive parts of the operating "
 "system such as:"
@@ -763,28 +755,28 @@ msgstr ""
 "Les actualitzacions de nivell 4 afecten a parts sensibles del sistema "
 "operatiu, com:"
 
-#: usr/share/help/C/mintupdate/levels.page:114(p)
+#: usr/share/help/C/mintupdate/levels.page:112(p)
 msgid "The boot sequence"
 msgstr "La seqüència d'arrencada"
 
-#: usr/share/help/C/mintupdate/levels.page:115(p)
+#: usr/share/help/C/mintupdate/levels.page:113(p)
 msgid "The display manager (login screen, session management)"
 msgstr ""
 "El gestor de pantalla (pantalla d'inici de sessió, gestió de sessions)"
 
-#: usr/share/help/C/mintupdate/levels.page:116(p)
+#: usr/share/help/C/mintupdate/levels.page:114(p)
 msgid "The kernel (hardware support)"
 msgstr "El nucli (suport de maquinari)"
 
-#: usr/share/help/C/mintupdate/levels.page:117(p)
+#: usr/share/help/C/mintupdate/levels.page:115(p)
 msgid "The drivers (networking, NVIDIA/AMD)"
 msgstr "Els drivers (xarxes, NVIDIA / AMD)"
 
-#: usr/share/help/C/mintupdate/levels.page:118(p)
+#: usr/share/help/C/mintupdate/levels.page:116(p)
 msgid "The display (Xorg, mesa)"
 msgstr "La pantalla (Xorg, mesa)"
 
-#: usr/share/help/C/mintupdate/levels.page:121(p)
+#: usr/share/help/C/mintupdate/levels.page:119(p)
 msgid ""
 "Like other updates, all level 4 updates are recommended, especially if they "
 "are security updates."
@@ -792,7 +784,7 @@ msgstr ""
 "Com d'altres, totes les actualitzacions de nivell 4 són recomanables, "
 "especialment si són de seguretat."
 
-#: usr/share/help/C/mintupdate/levels.page:123(p)
+#: usr/share/help/C/mintupdate/levels.page:121(p)
 msgid ""
 "However, if a critical regression was present in one of these updates it "
 "could impact a sensitive part of your system."
@@ -800,7 +792,7 @@ msgstr ""
 "No obstant això, si hi hagués una regressió crítica en una d'aquestes "
 "actualitzacions, podria afectar una part sensible del sistema."
 
-#: usr/share/help/C/mintupdate/levels.page:125(p)
+#: usr/share/help/C/mintupdate/levels.page:123(p)
 msgid ""
 "You could find yourself without a connection to the Internet, without the "
 "ability to start the desktop environment or even without the ability to boot "
@@ -809,7 +801,7 @@ msgstr ""
 "Us podríeu veure sense connexió a Internet, sense poder arrencar l'entorn "
 "d'escriptori, o fins i tot sense poder arrencar el sistema operatiu."
 
-#: usr/share/help/C/mintupdate/levels.page:127(p)
+#: usr/share/help/C/mintupdate/levels.page:125(p)
 msgid ""
 "For this reason you should always be careful when applying level 4 updates "
 "(including kernel updates). Apply them one by one and take note of the "
@@ -819,7 +811,7 @@ msgstr ""
 "(incloent-hi les del nucli). Apliqueu-les una per una i prengueu nota de les "
 "versions que apliqueu."
 
-#: usr/share/help/C/mintupdate/levels.page:131(p)
+#: usr/share/help/C/mintupdate/levels.page:129(p)
 msgid ""
 "If you blindly apply hundreds of updates and you're unable to pinpoint the "
 "problematic one, you're unlikely to find help. All level 4 updates are "
@@ -831,7 +823,7 @@ msgstr ""
 "actualitzacions de nivell 4 són recomanables, però cal ser cautelós i saber "
 "què s'està actualitzant."
 
-#: usr/share/help/C/mintupdate/levels.page:136(title)
+#: usr/share/help/C/mintupdate/levels.page:134(title)
 msgid ""
 "<media type=\"image\" src=\"figures/mintupdate-level5.svg\" height=\"40\"/> "
 "Level 5"
@@ -839,11 +831,11 @@ msgstr ""
 "<media type=\"image\" src=\"figures/mintupdate-level5.svg\" height=\"40\"/> "
 "Nivell 5"
 
-#: usr/share/help/C/mintupdate/levels.page:138(p)
+#: usr/share/help/C/mintupdate/levels.page:136(p)
 msgid "Level 5 updates are extremely rare."
 msgstr "Les actualitzacions de nivell 5 són extremadament infreqüents."
 
-#: usr/share/help/C/mintupdate/levels.page:140(p)
+#: usr/share/help/C/mintupdate/levels.page:138(p)
 msgid ""
 "When a critical bug is found in an update it is usually fixed as soon as "
 "possible."
@@ -851,7 +843,7 @@ msgstr ""
 "Quan es troba un error crític en una actualització, normalment es corregeix "
 "al més aviat possible."
 
-#: usr/share/help/C/mintupdate/levels.page:142(p)
+#: usr/share/help/C/mintupdate/levels.page:140(p)
 msgid ""
 "There are many ways for Linux Mint to address issues, and many mechanisms in "
 "place both remotely in the repositories and locally within your operating "
@@ -862,19 +854,19 @@ msgstr ""
 "Així que en circumstàncies normals, no cal posar actualitzacions a la llista "
 "negra."
 
-#: usr/share/help/C/mintupdate/levels.page:144(p)
+#: usr/share/help/C/mintupdate/levels.page:142(p)
 msgid ""
 "If an update had a critical bug and a solution was being worked on but "
 "wasn't ready yet, Linux Mint could mark a specific version of the update as "
 "level 5 (i.e. \"not recommended\"). This would prevent users from applying "
 "it until the new version hits the repositories."
 msgstr ""
-"Si una actualització té un error crític i s'està treballant encara en la "
-"seva solució, Linux Mint pot marcar una revisió de l'actualització com "
-"nivell 5 ( \"no recomanada\"). Això evitarà que els usuaris la apliquin fins "
-"que arribi la nova versió als repositoris."
+"Si una actualització té un error crític i encara s'està treballant en la "
+"seva solució, Linux Mint pot marcar una revisió de l'actualització com a "
+"nivell 5 (p.ex. \"no recomanada\"). Això evitarà que els usuaris l'apliquin "
+"fins que arribi la nova versió als dipòsits."
 
-#: usr/share/help/C/mintupdate/levels.page:146(p)
+#: usr/share/help/C/mintupdate/levels.page:144(p)
 msgid ""
 "Level 5 updates are known to cause issues. They are very rare and usually "
 "temporary. They are not visible by default and they should not be applied."
@@ -888,7 +880,7 @@ msgid "Kernels and kernel updates"
 msgstr "Nuclis i actualitzacions del nucli"
 
 #: usr/share/help/C/mintupdate/kernels.page:19(title)
-#: usr/share/help/C/mintupdate/index.page:43(title)
+#: usr/share/help/C/mintupdate/index.page:41(title)
 msgid "Kernel updates"
 msgstr "Actualitzacions del nucli"
 
@@ -897,7 +889,7 @@ msgid ""
 "The kernel is the central part of the operating system. Among other things, "
 "it is responsible for hardware support."
 msgstr ""
-"El nucli és la part central del sistema operatiu. Entre d'altres coses, és "
+"El nucli és la part central del sistema operatiu. Entre altres coses, és "
 "responsable del suport del maquinari."
 
 #: usr/share/help/C/mintupdate/kernels.page:25(p)
@@ -1101,23 +1093,19 @@ msgstr ""
 "actualitzat), reinicieu i trieu el nucli que es feia servir anteriorment, "
 "esborreu el nou nucli i torneu a reiniciar."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: usr/share/help/C/mintupdate/index.page:19(None)
-msgid ""
-"@@image: 'figures/mintupdate.png'; md5=5508d9d277a89b195333d43d114556eb"
-msgstr ""
-"@@image: 'figures/mintupdate.png'; md5=5508d9d277a89b195333d43d114556eb"
-
 #: usr/share/help/C/mintupdate/index.page:18(title)
-msgid ""
-"<media type=\"image\" mime=\"image/png\" src=\"figures/mintupdate.png\" "
-"height=\"40\" its:translate=\"no\"/> Update Manager"
-msgstr ""
-"<media type=\"image\" mime=\"image/png\" src=\"figures/mintupdate.png\" "
-"height=\"40\" its:translate=\"no\"/> Gestor d'actualitzacions"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:919
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:923
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:981
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1703
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1782
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1784
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1828 generate_desktop_files:26
+msgid "Update Manager"
+msgstr "Gestor d'actualitzacions"
 
-#: usr/share/help/C/mintupdate/index.page:22(p)
+#: usr/share/help/C/mintupdate/index.page:20(p)
 msgid ""
 "The Update Manager provides your operating system with software and security "
 "updates."
@@ -1125,7 +1113,7 @@ msgstr ""
 "El gestor d'actualitzacions proporciona actualitzacions de programari i de "
 "seguretat per al sistema operatiu."
 
-#: usr/share/help/C/mintupdate/index.page:24(p)
+#: usr/share/help/C/mintupdate/index.page:22(p)
 msgid ""
 "Updates are important because they keep your computer safe, eliminate bugs "
 "and can even add new features to your operating system."
@@ -1133,7 +1121,7 @@ msgstr ""
 "Les actualitzacions són importants perquè mantenen segur l'equip, eliminen "
 "errors i poden afegir noves funcionalitats al sistema operatiu."
 
-#: usr/share/help/C/mintupdate/index.page:26(p)
+#: usr/share/help/C/mintupdate/index.page:24(p)
 msgid ""
 "Unfortunately they also sometimes introduce new issues called 'regressions', "
 "which can break things which worked well before."
@@ -1141,7 +1129,7 @@ msgstr ""
 "Malauradament, de vegades també introdueixen nous problemes anomenats "
 "'regressions', que poden malmetre coses que abans funcionaven bé."
 
-#: usr/share/help/C/mintupdate/index.page:28(p)
+#: usr/share/help/C/mintupdate/index.page:26(p)
 msgid ""
 "It is recommended to apply security updates but also to understand how "
 "updates can affect your computer, so you can review them, apply them with "
@@ -1151,29 +1139,29 @@ msgstr ""
 "com poden afectar l'equip, de manera que vostè pugui revisar-les, aplicar-"
 "les amb compte i estar preparat si alguna cosa falla."
 
-#: usr/share/help/C/mintupdate/index.page:31(title)
+#: usr/share/help/C/mintupdate/index.page:29(title)
 msgid "Core concepts"
 msgstr "Conceptes bàsics"
 
-#: usr/share/help/C/mintupdate/index.page:33(p)
+#: usr/share/help/C/mintupdate/index.page:31(p)
 msgid "This section explains the core concepts related to software updates."
 msgstr ""
 "Aquesta secció explica els conceptes bàsics sobre les actualitzacions de "
 "programari."
 
-#: usr/share/help/C/mintupdate/index.page:39(p)
+#: usr/share/help/C/mintupdate/index.page:37(p)
 msgid "This section explains update levels, policies."
 msgstr "Aquesta secció explica els nivells i polítiques d'actualització."
 
-#: usr/share/help/C/mintupdate/index.page:45(p)
+#: usr/share/help/C/mintupdate/index.page:43(p)
 msgid "This section explains kernel updates."
 msgstr "Aquesta secció explica les actualitzacions del nucli."
 
-#: usr/share/help/C/mintupdate/index.page:49(title)
+#: usr/share/help/C/mintupdate/index.page:47(title)
 msgid "Advanced techniques"
 msgstr "Tècniques avançades"
 
-#: usr/share/help/C/mintupdate/index.page:51(p)
+#: usr/share/help/C/mintupdate/index.page:49(p)
 msgid "This section explains advanced techniques."
 msgstr "Aquesta secció explica les tècniques avançades."
 
@@ -1191,16 +1179,16 @@ msgstr ""
 "  Robert Antoni Buj Gelonch https://launchpad.net/~robert-buj\n"
 "  oscarl https://launchpad.net/~ggoscarl"
 
-#: usr/lib/linuxmint/mintUpdate/checkAPT.py:205
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:223
 #, python-format
 msgid "Linux kernel %s"
 msgstr "Kernel de Linux %s"
 
-#: usr/lib/linuxmint/mintUpdate/checkAPT.py:206
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:224
 msgid "The Linux kernel."
 msgstr "El kernel de Linux."
 
-#: usr/lib/linuxmint/mintUpdate/checkAPT.py:207
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:225
 msgid ""
 "The Linux Kernel is responsible for hardware and drivers support. Note that "
 "this update will not remove your existing kernel. You will still be able to "
@@ -1220,9 +1208,6 @@ msgstr ""
 "fer servir un nucli més antic, haureu d'eliminar primer el més modern."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:429
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:178
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:59
 msgid "Please wait, this can take some time"
 msgstr "Si us plau, espereu, això pot trigar una estona"
 
@@ -1245,13 +1230,13 @@ msgid "This kernel cannot be removed because it is currently in use."
 msgstr "No es pot eliminar aquest kernel perquè està en ús."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1195
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Instal·la"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
 msgid "This kernel is not installable."
-msgstr "Aquest kernel no és pot instal·lar."
+msgstr "Aquest kernel no es pot instal·lar."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
 #, python-format
@@ -1308,7 +1293,7 @@ msgstr ""
 "l'estat de DKMS."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1142
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Tanca"
 
@@ -1319,14 +1304,6 @@ msgstr "Actiu"
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
 msgid "Installed"
 msgstr "Instal·lat"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:264
-msgid "Recommended for security"
-msgstr "Recomanat per seguretat"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:266
-msgid "Recommended for stability"
-msgstr "Recomanat per estabilitat"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
 msgid "You are currently using the following kernel:"
@@ -1360,107 +1337,92 @@ msgstr "No hi ha cap registre de canvis disponible"
 msgid "This upgrade will trigger additional changes"
 msgstr "Aquesta actualització realitzarà canvis addicionals"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:344
-msgid "The following package will be removed:"
-msgstr "El següent paquet serà eliminat:"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
+msgid "The following packages will be removed:"
+msgstr "Es desinstal·laran els paquets següents:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:346
-#, python-format
-msgid "The following %d packages will be removed:"
-msgstr "Els següents %d paquets seran eliminats:"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
+msgid "The following packages will be installed:"
+msgstr "S'instal·laran els paquets següents:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:376
-msgid "The following package will be installed:"
-msgstr "El següent paquet serà instal·lat:"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:378
-#, python-format
-msgid "The following %d packages will be installed:"
-msgstr "Els següents %d paquets seran instal·lats:"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:421
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
 msgstr "S'estan instal·lant les actualitzacions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:431
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:61
-msgid "Update is complete"
-msgstr "S'ha completat l'actualització"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:480
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:565
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:972
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:468
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:553
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:964
 msgid "Checking for updates"
 msgstr "S'estan comprovant les actualitzacions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:488
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:510
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:476
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:498
 msgid "Could not install the security updates"
 msgstr "No s'han pogut instal·lar les actualitzacions de seguretat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:557
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:545
 msgid "Starting refresh..."
 msgstr "S'està començant el refresc..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:588
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:576
 msgid "Another application is using APT"
 msgstr "Una altra aplicació està utilitzant APT"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:597
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:585
 msgid "Finding the list of updates..."
 msgstr "S'està intentant trobar la llista d'actualitzacions..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:611
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:617
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:599
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:605
 msgid "Your APT cache is corrupted."
 msgstr "La vostra memòria cau d'APT està malmesa."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:612
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:600
 msgid ""
 "Do not install or update anything, it could break your operating system!"
 msgstr ""
 "No instal·leu ni actualitzeu res. Podríeu danyar el sistema operatiu!"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:613
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:601
 msgid "Switch to a different Linux Mint mirror to solve this situation."
 msgstr ""
 "Canvieu a una rèplica diferent de Linux Mint per a solucionar aquesta "
 "situació."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:617
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:605
 msgid "Please switch to another Linux Mint mirror"
 msgstr "Si us plau, canvieu a una altra rèplica de Linux Mint"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:624
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:656
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:835
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1111
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:612
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:644
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:827
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1098
 msgid "Could not refresh the list of updates"
 msgstr "No s'ha pogut actualitzar la llista d'actualitzacions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:645
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:754
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1110
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:633
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:734
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1097
 msgid "Your system is up to date"
 msgstr "El vostre sistema està actualitzat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:719
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:707
 msgid "Kernel update"
 msgstr "Actualització del kernel"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:721
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:709
 msgid "Security update"
 msgstr "Actualització de seguretat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:723
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:711
 msgid ""
 "Software backport. Be careful when upgrading. New versions of software can "
 "introduce regressions."
 msgstr ""
-"Backport de programari. Aneu amb compte en actualitzar. Versions noves de "
-"programari poden introduir regressions."
+"Backport de programari. Aneu amb compte quan ho actualitzeu. Les versions "
+"noves de programari poden presentar regressions."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:725
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:713
 msgid ""
 "Unstable software. Only apply this update to help developers beta-test new "
 "software."
@@ -1468,168 +1430,171 @@ msgstr ""
 "Programari inestable. Apliqui aquesta actualització només si vol ajudar als "
 "desenvolupadors amb les proves beta de nou programari."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:727
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:715
 msgid "Software update"
 msgstr "Actualització de programari"
 
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:738
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1442
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1493
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1603
+msgid "No updates selected"
+msgstr "No hi ha cap actualització seleccionada"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:740
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1495
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1605
+#, python-format
+msgid "%(selected)d update selected (%(size)s)"
+msgid_plural "%(selected)d updates selected (%(size)s)"
+msgstr[0] "%(selected)d actualització seleccionada (%(size)s)"
+msgstr[1] "%(selected)d actualitzacions seleccionades (%(size)s)"
+
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
-msgid "1 recommended update available (%(size)s)"
-msgstr "Hi ha disponible 1 actualització recomanada (%(size)s)"
+msgid "%d update available"
+msgid_plural "%d updates available"
+msgstr[0] "%d actualització disponible"
+msgstr[1] "%d actualitzacions disponibles"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:748
-#, python-format
-msgid "%(recommended)d recommended updates available (%(size)s)"
-msgstr ""
-"Hi ha disponible %(recommended)d actualitzacions recomanades (%(size)s)"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:791
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
 msgstr "Voleu canviar a una rèplica local?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:791
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Local mirrors are usually faster than packages.linuxmint.com"
 msgstr ""
 "Normalment, les rèpliques locals són més ràpides que packages.linuxmint.com"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:801
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:811
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:793
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:803
 msgid "Please switch to another mirror"
 msgstr "Si us plau, canvieu a una altra rèplica"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:801
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:793
 #, python-format
 msgid "%s is unreachable"
 msgstr "%s no és accessible"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:811
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:803
 #, python-format
-msgid "The last update on %(mirror)s was %(days)d days ago"
-msgstr "L'última actualització a %(mirror)s va ser fa %(days)d dies"
+msgid "The last update on %(mirror)s was %(days)d day ago"
+msgid_plural "The last update on %(mirror)s was %(days)d days ago"
+msgstr[0] "La última actualització de %(mirror)s va ser fa %(days)d dia"
+msgstr[1] "La última actualització de %(mirror)s va ser fa %(days)d dies"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:927
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:931
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:989
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1741
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1801
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1803
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1847 generate_desktop_files:26
-msgid "Update Manager"
-msgstr "Gestor d'actualitzacions"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:936
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
 msgstr "Surt"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1009
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:996
 msgid "OK"
 msgstr "D'acord"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1011
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:998
 msgid "Help"
 msgstr "Ajuda"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1020
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1007
 msgid "Upgrade"
 msgstr "Actualitza"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1025
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1012
 msgid "Name"
 msgstr "Nom"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1029
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1290
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1016
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1275
 msgid "Level"
 msgstr "Nivell"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1033
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1302
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1750
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1020
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1287
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1731
 msgid "Old version"
 msgstr "Versió antiga"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1037
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1308
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1753
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1024
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1293
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1734
 msgid "New version"
 msgstr "Versió nova"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1041
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1314
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1028
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1299
 msgid "Size"
 msgstr "Mida"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1045
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1284
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1032
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1269
 msgid "Type"
 msgstr "Tipus"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1049
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1320
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1036
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1305
 msgid "Origin"
 msgstr "Origen"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1103
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1090
 msgid "Install Updates"
 msgstr "Instal·la les actualitzacions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1104
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1187
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1091
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1172
 msgid "Refresh"
 msgstr "Refresca"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1105
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1179
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1092
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1164
 msgid "Select All"
 msgstr "Selecciona-ho tot"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1106
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1171
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1093
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1156
 msgid "Clear"
 msgstr "Neteja"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1107
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1869
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1094
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1850
 msgid "Description"
 msgstr "Descripció"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1108
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1095
 msgid "Changelog"
 msgstr "Registre de canvis"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1116
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1103
 msgid "Welcome to the Update Manager"
 msgstr "Benvingut al gestor d'actualitzacions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1104
 msgid ""
 "This tool provides your operating system with software and security updates."
 msgstr ""
 "Aquesta eina proporciona actualitzacions de programari i de seguretat per al "
 "sistema operatiu."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1118
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1576
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1105
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1562
 msgid "Please choose an update policy."
 msgstr "Trieu una política d'actualitzacions."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1120
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1107
 msgid "Just keep my computer safe"
 msgstr "Simplement mantén el meu ordinador fora de perill"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1108
 msgid "Recommended for novice users."
 msgstr "Recomanat per als usuaris novells."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1122
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1109
 msgid ""
 "Select updates which do not impact important parts of the operating systems."
 msgstr ""
 "Selecciona les actualitzacions que no afectin a parts importants del sistema "
 "operatiu."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1122
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1109
 msgid ""
 "Show security and kernel updates so I can review them and apply them with "
 "caution."
@@ -1637,15 +1602,15 @@ msgstr ""
 "Mostra les actualitzacions de seguretat i del nucli perquè pugui revisar-les "
 "i aplicar-les amb cura."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1124
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1111
 msgid "Let me review sensitive updates"
 msgstr "Deixa'm revisar les actualitzacions sensibles"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1125
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1112
 msgid "Recommended for most users."
 msgstr "Recomanat per a la majoria d'usuaris."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1126
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
 msgid ""
 "Select security updates and updates which do not impact important parts of "
 "the operating systems."
@@ -1653,7 +1618,7 @@ msgstr ""
 "Selecciona les actualitzacions de seguretat i del nucli que no afectin a "
 "parts importants del sistema operatiu."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1126
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
 msgid ""
 "Show kernel updates and sensitive updates so I can review them and apply "
 "them with caution."
@@ -1661,23 +1626,23 @@ msgstr ""
 "Mostra les actualitzacions sensibles i del nucli perquè pugui revisar-les i "
 "aplicar-les amb cura."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1128
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1115
 msgid "Always update everything"
 msgstr "Actualitza-ho tot sempre"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1129
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1116
 msgid "Recommended for experienced users."
 msgstr "Recomanat per als usuaris experimentats."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1130
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
 msgid "Always select all updates."
 msgstr "Selecciona sempre totes les actualitzacions."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1130
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
 msgid "If a regression breaks something, I'll fix it."
 msgstr "Si una regressió espatlla alguna cosa, jo ho arreglaré."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1132
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1119
 msgid ""
 "Security and kernel updates are always visible and updates with known issues "
 "(very rare) are always hidden. You can change this and fine-tune your policy "
@@ -1687,176 +1652,153 @@ msgstr ""
 "tenen problemes coneguts (molt poc freqüents) sempre estan ocultes. Podeu "
 "canviar això i ajustar la política en les preferències."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1136
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
 msgid "_File"
 msgstr "_Fitxer"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1146
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1131
 msgid "_Edit"
 msgstr "_Edita"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1151
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1847
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1136
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1828
 msgid "Preferences"
 msgstr "Preferències"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1158
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1143
 msgid "Software sources"
 msgstr "Orígens de programari"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1203
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1188
 msgid "Select level 1 updates"
 msgstr "Selecciona les actualitzacions de nivell 1"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1209
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1194
 msgid "Select level 2 updates"
 msgstr "Selecciona les actualitzacions de nivell 2"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1215
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1200
 msgid "Select level 3 updates"
 msgstr "Selecciona les actualitzacions de nivell 3"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1221
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1206
 msgid "Select level 4 updates"
 msgstr "Selecciona les actualitzacions de nivell 4"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1227
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1212
 msgid "Select security updates"
 msgstr "Selecciona les actualitzacions de seguretat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1233
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1218
 msgid "Select kernel updates"
 msgstr "Selecciona les actualitzacions del nucli"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1259
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1244
 #, python-format
 msgid "Upgrade to %s"
 msgstr "Actualitza a %s"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1263
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1248
 msgid "_View"
 msgstr "_Visualitza"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1268
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1741
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1253
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
 msgid "History of updates"
 msgstr "Historial d'actualitzacions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1272
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1257
 msgid "Linux kernels"
 msgstr "Kernels de Linux"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1276
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1261
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1703
 msgid "Information"
 msgstr "Informació"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1280
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1265
 msgid "Visible columns"
 msgstr "Columnes visibles"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1296
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1747
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1281
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1728
 msgid "Package"
 msgstr "Paquet"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1328
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1313
 msgid "Show descriptions"
 msgstr "Mostra les descripcions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1344
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1329
 msgid "_Help"
 msgstr "A_juda"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1350
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1335
 msgid "Contents"
 msgstr "Contingut"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1357
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1801
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1342
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1782
 msgid "About"
 msgstr "Quant a..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1454
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1505
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1617
-msgid "No updates selected"
-msgstr "No hi ha cap actualització seleccionada"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
+msgid "Packages included in this update:"
+msgstr "Paquets inclosos en aquesta actualització:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1507
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1619
-#, python-format
-msgid "%(selected)d update selected (%(size)s)"
-msgstr "%(selected)d actualització seleccionada (%(size)s)"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1509
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1621
-#, python-format
-msgid "%(selected)d updates selected (%(size)s)"
-msgstr "%(selected)d actualitzacions seleccionades (%(size)s)"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1662
-#, python-format
-msgid "This update contains %d packages: "
-msgstr "Aquesta actualització conté %d paquets: "
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1665
-msgid "This update contains 1 package: "
-msgstr "Aquesta actualització conté 1 paquet: "
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1674
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"
 msgstr "Ignora les actualitzacions d'aquest paquet"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1725
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1706
 msgid "Process ID:"
 msgstr "Identificador del procés:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1726
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1707
 msgid "Log file:"
 msgstr "Fitxer de registre:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1744
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1725
 msgid "Date"
 msgstr "Data"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1862
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1843
 msgid "Options"
 msgstr "Opcions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1863
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1844
 msgid "Levels"
 msgstr "Nivells"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1864
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1845
 msgid "Auto-refresh"
 msgstr "Refresca automàticament"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1865
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1846
 msgid "Blacklist"
 msgstr "Llista negra"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1868
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1849
 msgid "Impact level"
 msgstr "Nivell d'impacte"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1870
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1851
 msgid "Selected"
 msgstr "Seleccionat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1871
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1852
 msgid "Visible"
 msgstr "Visible"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1885
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1866
 msgid "First, refresh the list of updates after:"
 msgstr "Primer, refresca la llista d'actualitzacions després de:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1886
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1867
 msgid "Then, refresh the list of updates every:"
 msgstr "Després, refresca la llista d'actualitzacions cada:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1887
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1868
 msgid ""
 "Note: The list only gets refreshed while the update manager window is closed "
 "(system tray mode)."
@@ -1864,7 +1806,7 @@ msgstr ""
 "Nota: La llista només s'actualitza mentre la finestra del gestor "
 "d'actualitzacions està tancada (a l'àrea de notificació)."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1889
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1870
 msgid ""
 "Include updates which require the installation of new packages or the "
 "removal of installed packages"
@@ -1872,70 +1814,70 @@ msgstr ""
 "Inclou les actualitzacions que requereixen la instal·lació de paquets nous o "
 "l'eliminació de paquets instal·lats"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1890
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1871
 msgid "Hide the update manager after applying updates"
 msgstr ""
 "Oculta el gestor d'actualitzacions després d'aplicar les actualitzacions"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1891
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
 msgid "Only show a tray icon when updates are available or in case of errors"
 msgstr ""
 "Mostra la icona a la safata només si hi ha actualitzacions disponibles o en "
 "cas d'error"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1892
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
 msgid "Don't suggest to switch to a local mirror"
 msgstr "No suggereixis el canvi a una rèplica local"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1893
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1874
 msgid "Always show security updates"
 msgstr "Mostra sempre les actualitzacions de seguretat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1894
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1875
 msgid "Always select security updates"
 msgstr "Selecciona sempre les actualitzacions de seguretat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1895
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1876
 msgid "Always show kernel updates"
 msgstr "Mostra sempre les actualitzacions del kernel"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1896
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1877
 msgid "Always select kernel updates"
 msgstr "Selecciona sempre les actualitzacions del nucli"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1897
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "minutes"
 msgstr "minuts"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1898
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1879
 msgid "hours"
 msgstr "hores"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1899
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1880
 msgid "days"
 msgstr "dies"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1900
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1881
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1901
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1882
 msgid "Apply"
 msgstr "Aplica"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1942
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1923
 msgid "Ignored updates"
 msgstr "Actualitzacions ignorades"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2005
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1986
 msgid "Please specify the name of the update to ignore:"
 msgstr "Especifiqueu el nom de l'actualització a ignorar:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2006
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1987
 msgid "Ignore an update"
 msgstr "Ignora una actualització"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2010
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1991
 msgid "Name:"
 msgstr "Nom:"
 
@@ -1953,9 +1895,9 @@ msgid ""
 "edition of Linux Mint should provide the virtual package 'mint-info' and the "
 "file /etc/linuxmint/info."
 msgstr ""
-"Falten components crítics del sistema. Un paquet corresponent a la seva "
-"edició de Linux Mint hauria de proporcionar el paquet virtual 'mint-info' i "
-"l'arxiu /etc/linuxmint/info."
+"Falten alguns components crítics del sistema. Un paquet que correspon a la "
+"vostra edició de Linux Mint hauria de proporcionar el paquet virtual 'mint-"
+"info' i el fitxer /etc/linuxmint/info."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:50
 msgid "No upgrades were found."
@@ -2049,11 +1991,7 @@ msgstr "Entenc el risc. Vull actualitzar a %s."
 msgid "Summary"
 msgstr "Resum"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:180
-msgid "The package was installed"
-msgstr "S'ha instal·lat el paquet"
-
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:267
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:260
 msgid ""
 "Your operating system was successfully upgraded. Please reboot your computer "
 "for all changes to take effect."
@@ -2061,7 +1999,7 @@ msgstr ""
 "El sistema operatiu s'ha actualitzat correctament. Reinicieu l'ordinador "
 "perquè tots els canvis tinguin efecte."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:276
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:269
 msgid ""
 "The upgrade did not succeed. Make sure you are connected to the Internet and "
 "try to upgrade again."
@@ -2076,6 +2014,9 @@ msgstr "Mostra i instal·la les actualitzacions disponibles"
 #: usr/bin/mint-release-upgrade-root:16
 msgid "Please enter your password to perform the upgrade"
 msgstr "Introduïu la contrasenya per realitzar l'actualització"
+
+#~ msgid "Update is complete"
+#~ msgstr "S'ha completat l'actualització"
 
 #~ msgid "Checking the connection to the Internet..."
 #~ msgstr "S'està comprovant la connexió a l'Internet..."

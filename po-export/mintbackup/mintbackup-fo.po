@@ -7,523 +7,289 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-11-02 13:58+0000\n"
+"POT-Creation-Date: 2017-10-27 13:03+0100\n"
 "PO-Revision-Date: 2010-05-19 09:21+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: Faroese <fo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:44+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:111
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:251
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:443
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:461
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:527
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:530
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:582
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:585
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:628
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:635
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1499
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1597
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1661 generate_desktop_files.py:26
-#: generate_desktop_files.py:41
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:32
+msgid "Backups"
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:159
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:199
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:206 generate_desktop_files:26
+#: generate_desktop_files:41
 msgid "Backup Tool"
 msgstr "Trygdarritingar amboð"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:168
-msgid "Preserve structure"
-msgstr "Varðveit bygnað"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:170
-msgid ".tar file"
-msgstr ".tar fíla"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:262
+msgid "Please choose a directory."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:171
-msgid ".tar.bz2 file"
-msgstr ".tar.bz2 fíla"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:172
-msgid ".tar.gz file"
-msgstr ".tar.gz fíla"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:178
-msgid "Never"
-msgstr "Ongantíð"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:179
-msgid "Size mismatch"
-msgstr "Støddin samsvarar ikki"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:180
-msgid "Modification time mismatch"
-msgstr "Broytingartíð samsvarar ikki"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:181
-msgid "Checksum mismatch"
-msgstr "Misjavni í eftirlits-samandrátti"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:182
-msgid "Always"
-msgstr "Altíð"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:204
-msgid "Excluded paths"
-msgstr "frároknaðar leiðir"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:214
-msgid "Type"
-msgstr "Slag"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:218
-msgid "Detail"
-msgstr "Nagreinilig lýsing"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:224
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:233
-msgid "Path"
-msgstr "Leið"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:227
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:236
-msgid "Error"
-msgstr "Villa"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:268
-msgid "Store?"
-msgstr "Goym?"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:271
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:284
-msgid "Name"
-msgstr "Navn"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:281
-msgid "Install"
-msgstr "Legg inn"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:289
-msgid "Backup or Restore"
-msgstr "Trygdarrit ella endurstovna"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:290
-msgid "Choose from the following options"
-msgstr "Vel ein av hesum kostunum"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:292
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:317
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:324
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:328
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
-msgid "Backup files"
-msgstr "Trygdarritaðar fílur"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:293
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:337
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:347
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:353
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:358
-msgid "Restore files"
-msgstr "Endurstovna fílur"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:294
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:362
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:367
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:378
-msgid "Backup software selection"
-msgstr "Trygdarritingar forrits úrval"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:295
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:382
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:387
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:394
-msgid "Restore software selection"
-msgstr "Endurstovnigar forrits úrval"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:297
-msgid "Make a backup of your files"
-msgstr "Trygdarrita tínar fílur"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:298
-msgid "Save the list of installed applications"
-msgstr "Goym listan við innløgdum nýtsluskipanum"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:299
-msgid "Restore a previous backup"
-msgstr "Endurstovna eitt trygdarrit"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:300
-msgid "Restore previously installed applications"
-msgstr "Endurstovna áður innlagdar nýtsluskipanir"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:304
-msgid "Please select a source and a destination for your backup"
-msgstr "Vinarliga vel eina keldu, og eitt mál til títt trygdarrit"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:305
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:341
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:349
-msgid "Source:"
-msgstr "Kelda:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
-msgid "Destination:"
-msgstr "Mál:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:307
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
-msgid "Advanced options"
-msgstr "Framkomnir kostir"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:308
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:350
-msgid "Description:"
-msgstr "Frágreiðing"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:309
-msgid "Output:"
-msgstr "Úttak:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:310
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:344
-msgid "Overwrite:"
-msgstr "Skriva omaná:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:311
-msgid "Confirm integrity"
-msgstr "Vátta heilskap"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:312
-msgid "Follow symlinks"
-msgstr "Fylg tykisligum leinkjum"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:313
-msgid "Preserve permissions"
-msgstr "Varðveit loyvi"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:314
-msgid "Preserve timestamps"
-msgstr "Varðveit tíðarstempul"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:318
-msgid "Please select any files or directories you want to exclude"
-msgstr "Vinarliga vel eina og hvørja fílu ella fíluskrá, ið tú vil frárokna"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:319
-msgid "Exclude files"
-msgstr "Frárokna fílur"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:320
-msgid "Exclude directories"
-msgstr "Frárokna fíluskráir"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:321
-msgid "Remove"
-msgstr "Bein burtir"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:265
+msgid "You do not have the permission to write in the selected directory."
+msgstr ""
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:325
-msgid "Please review the information below before starting the backup"
+msgid "Please choose a backup file."
 msgstr ""
-"Vinarliga nærles upplýsingarnar niðanfyri, áðrenn tú byrjar at trygdarrita"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:329
-msgid "Please wait while your files are being backed up"
-msgstr "Vinarliga bíða, meðan tínar fílur verða trygdarritaðar"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:330
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:375
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:356
+msgid "No packages need to be installed."
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
+msgid "Please select packages to install."
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:417
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
 msgstr "Trygdarriti:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:334
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:379
-msgid "The backup is now finished"
-msgstr "Trygdarrit liðugt"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:338
-msgid ""
-"Please choose the type of backup to restore, its location and a destination"
-msgstr ""
-"Vinarliga vel hvat slag av trygarriti at endurstovna, hvar tað er staða og "
-"eitt mál"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:339
-msgid "Archive"
-msgstr "Skjalasavn"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:340
-msgid "Directory"
-msgstr "Fíluskrá"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:348
-msgid "Please review the information below"
-msgstr "Vianrliga nærles upplýsingarnar niðanyri"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:354
-msgid "Please wait while your files are being restored"
-msgstr "Vinarliga biða ímeðan fílurnar verða endurstovnaðar"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:355
-msgid "Restoring:"
-msgstr "Endurstovni:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:359
-msgid "The restoration of the files is now finished"
-msgstr "Endurstovnanin av fílunum er liðug"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
-msgid "Please choose a destination"
-msgstr "Vinarliga vel eitt stað"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:364
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
-msgid "Destination"
-msgstr "Stað"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:368
-msgid "The list below shows the packages you added to Linux Mint"
-msgstr ""
-"Listin niðanfyri vísur pakkarnar, ið tú hevur lagt afturat Linux Mint"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:369
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:389
-msgid "Select all"
-msgstr "Vel alt"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:370
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:390
-msgid "Deselect all"
-msgstr "Frável alt"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
-msgid "Please wait while your software selection is being backed up"
-msgstr "Vianrliga bíða ímeðan ritbúnaðarúrvlið verður trygdarritað"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
-msgid "Please select a saved software selection"
-msgstr "Vianrliga vel eitt goymt ritbúnaðar-úrval"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:384
-msgid "Software selection:"
-msgstr "Ritbúnaðarúrval"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:388
-msgid "Select the packages you want to install"
-msgstr "Vel pakkarnar ið tú vil leggja inn"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:391
-msgid "Refresh"
-msgstr "Endurnýggja"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:395
-msgid "The restoration is now finished"
-msgstr "Endurstovnanin er liðug"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:396
-msgid "Your package selection was restored successfully"
-msgstr ""
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
-msgid "Invalid path"
-msgstr "Ógild leið"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
-#, python-format
-msgid "%s is not located within your source directory. Not added."
-msgstr "%s er ikki stødd innaní tínari keldufíluskrá. Ikki lagt til"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:527
-msgid "Please choose directories for the source and the destination"
-msgstr ""
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:530
-msgid ""
-"Please choose different directories for the source and the destination"
-msgstr "Vinarliga vel eina aðra fíluskrá til keldu og mál"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:545
-msgid "Source"
-msgstr "Kelda"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:548
-msgid "Description"
-msgstr "Frágreiðing"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:552
-msgid "Compression"
-msgstr "Stappan"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:556
-msgid "Overwrite destination files"
-msgstr "Skriva omaná málfílur"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:559
-msgid "Exclude"
-msgstr "Útiloka"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:582
-msgid "Please choose a file to restore from"
-msgstr "Vinarliga vel eina fílu at endurstovna úr"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:585
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
-msgid "Please choose a destination directory"
-msgstr "Vinarliga vel eina málfíluskrá"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:628
-msgid "No packages need to be installed at this time"
-msgstr "Eingir pakkar noyðast at leggjast inn beint nú"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:635
-msgid "Please select one or more packages to install"
-msgstr "Vinarliga vel ein ella fleiri pakkar at leggja inn"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:703
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:704
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1206
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1208
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1514
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:450
 msgid "Calculating..."
 msgstr "Rokni..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:719
-#, python-format
-msgid "Skipping %(skipped_file)s because named pipes are not supported."
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:454
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:558
+msgid "The following errors occurred:"
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:761
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:801
-msgid "Skipping broken link"
-msgstr "Leypi um brotna leinkju"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "The backup was aborted."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:762
-msgid "Broken link"
-msgstr "Brotin leinkja"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:765
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:805
-msgid "Skipping link"
-msgstr "Leypi um leinkju"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:829
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:838
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:847
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1267
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1278
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1291
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1355
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1364
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1374
-msgid "Skipping identical file"
-msgstr "Leypi um samlíka fílu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:869
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
 msgid ""
-"Warning: Some files were not saved, copied: %(current_file)d files out of "
-"%(total)d total"
-msgstr ""
-"Ávaring: Summar fílur vórðu ikki goymdar, avrita: %(current_file)d fílur av "
-"%(total)d í alt"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:873
-msgid "An error occurred during the backup"
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:883
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1560
-msgid "The backup was aborted"
-msgstr "Trygdarritingin varð avbrotin"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:547
+msgid "Restoring:"
+msgstr "Endurstovni:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:891
-msgid "The backup completed successfully"
-msgstr "Trygdarritingin varð valeydnað fullgjørd"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:564
+msgid "The restoration was aborted."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:982
-msgid "Checksum Mismatch:"
-msgstr "Misjavni í eftirlits-samandrátti:"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "Your files were successfully restored."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:983
-msgid "Checksum Mismatch"
-msgstr "Misjavni í eftirlits-samandrátti"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1035
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1037
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1066
-msgid "Calculating checksum"
-msgstr "Útrokni eftirlits-samandrátt"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1112
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1136
-msgid "(Not created with the Backup Tool)"
-msgstr "(Ikki stovna við Trygdarritingar amboðinum)"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1398
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
-msgid ""
-"Warning: Some files were not restored, copied: %(current_file)d files out of "
-"%(total)d total"
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1401
-msgid "An error occurred during the restoration"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:710
+#, python-format
+msgid "Your software selection was saved in %s"
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1412
-msgid "The restoration was aborted"
-msgstr "Endurstovningin varð avbrotin"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1420
-msgid "The restoration completed successfully"
-msgstr "Endurstovningin valeydnað fullfíggjað"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1551
-msgid "An error occurred during the backup:"
-msgstr "Eitt brek hendi undir trygdarritingini"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1568
-msgid "Your software selection was backed up successfully"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:726
+msgid "The selected file is not a valid software selection."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1597
-msgid "The specified file is not a valid software selection"
-msgstr "Tann valda fílan er ikki eitt lógligt ritbúnaðarúrval"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:731
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:760
+msgid "An error occurred while reading the file."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1661
-msgid "An error occurred while accessing the file"
-msgstr "Eitt brek hendi við at atganga fíluna"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:748
+msgid "Could not locate the package."
+msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1648
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1654
-msgid "Could not locate the package"
-msgstr "Kundi ikki finna pakkan"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1686
-msgid "Please wait, this can take some time"
-msgstr "Vinarliga bíðja, hettar kann taka eina løtu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1688
-msgid "The installation is complete"
-msgstr "Innleggingin er fullgjørd"
-
-#: generate_desktop_files.py:26 generate_desktop_files.py:41
+#: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
 msgstr "Trygdarrita heima fíluskránna"
 
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Frárokna fílur"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Frárokna fíluskráir"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Bein burtir"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Endurnýggja"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr ""
+
 #~ msgid "Your home directory was successfully backed-up into"
 #~ msgstr "Tygara heima fíluskrá varð valeydna trygdarrita til"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Eitt brek hendi undir trygdarritingini"
 
 #~ msgid "Restoration successful"
 #~ msgstr "Endurstovnan eydnaðist"
@@ -542,6 +308,9 @@ msgstr "Trygdarrita heima fíluskránna"
 
 #~ msgid "Opening the backup archive..."
 #~ msgstr "Lati upp trygdarritsavnið..."
+
+#~ msgid "Invalid path"
+#~ msgstr "Ógild leið"
 
 #~ msgid "Included hidden directories"
 #~ msgstr "Viðroknaðar fjaldar skjáttur"
@@ -587,6 +356,9 @@ msgstr "Trygdarrita heima fíluskránna"
 
 #~ msgid "An error occurred while opening the backup:"
 #~ msgstr "Ein villa hendi meðan trygdarritið varð latið upp:"
+
+#~ msgid "Excluded paths"
+#~ msgstr "frároknaðar leiðir"
 
 #~ msgid "<big><b>Load data into your home directory</b></big>"
 #~ msgstr "<big><b>Løð dátur inn í tína heimafíluskrá</b></big>"

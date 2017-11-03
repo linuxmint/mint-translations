@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-09-14 15:44+0100\n"
-"PO-Revision-Date: 2015-11-07 20:40+0000\n"
+"POT-Creation-Date: 2017-10-27 13:10+0100\n"
+"PO-Revision-Date: 2017-10-27 12:38+0000\n"
 "Last-Translator: Butterfly <Unknown>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:44+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -38,7 +38,7 @@ msgid "Here's a description of some of the window managers available."
 msgstr "Burada bazı pencere yöneticileri ile ilgili açıklamalar mevcut"
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:261
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:270
 msgid "Marco"
 msgstr "Marco"
 
@@ -60,7 +60,7 @@ msgstr ""
 "ile yükleyebilirsiniz."
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:266
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:275
 msgid "Metacity"
 msgstr "Metacity"
 
@@ -82,7 +82,7 @@ msgstr ""
 "komutu ile yükleyebilirsiniz."
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:271
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:280
 msgid "Xfwm4"
 msgstr "Xfwm4"
 
@@ -104,7 +104,7 @@ msgstr ""
 "ile yükleyebilirsiniz."
 
 #: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:280
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:289
 msgid "Compiz"
 msgstr "Compiz"
 
@@ -150,7 +150,7 @@ msgstr ""
 "komutu ile yükleyebilirsiniz."
 
 #: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:276
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:285
 msgid "Openbox"
 msgstr "Openbox"
 
@@ -166,7 +166,8 @@ msgstr ""
 "Eğer Openbox hali hazırda kurulu değilse, <cmd>apt install openbox</cmd> "
 "komutu ile yükleyebilirsiniz."
 
-#: usr/share/help/C/mintdesktop/index.page:14(title) generate_desktop_files:25
+#: usr/share/help/C/mintdesktop/index.page:14(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165 generate_desktop_files:28
 msgid "Desktop Settings"
 msgstr "Masaüstü Ayarları"
 
@@ -175,7 +176,7 @@ msgid "Welcome to Desktop Settings."
 msgstr "Masaüstü Ayarlarına Hoşgeldiniz."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:118
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
 msgid "Windows"
 msgstr "Pencereler"
 
@@ -205,8 +206,8 @@ msgstr ""
 "işleme)"
 
 #: usr/share/help/C/mintdesktop/index.page:33(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:170
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:128
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
 msgid "Terminal"
 msgstr "Uçbirim"
 
@@ -291,166 +292,170 @@ msgstr ""
 "  ergin üresin https://launchpad.net/~ergin012\n"
 "  oguzkirat https://launchpad.net/~oguzkirat"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:117
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
 msgid "Desktop"
 msgstr "Masaüstü"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:119
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:127
 msgid "Interface"
 msgstr "Arayüz"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid "Desktop icons"
 msgstr "Masaüstü simgeleri"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:162
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:170
 msgid "Marco settings"
 msgstr "Marco ayarları"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:171
 msgid "Metacity settings"
 msgstr "Metacity ayarları"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:164
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:172
 msgid "Compiz settings"
 msgstr "Compiz ayarları"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
 msgid "Configure Compiz"
 msgstr "Compiz yapılandırma"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:174
 msgid "Reset Compiz settings"
 msgstr "Compiz ayarlarını sıfırla"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Icons"
 msgstr "Simgeler"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
 msgid "Context menus"
 msgstr "İçerik menüleri"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
 msgid "Toolbars"
 msgstr "Araç Çubukları"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:179
 msgid "Window Manager"
 msgstr "Pencere Yöneticisi"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 msgid "Select the items you want to see on the desktop:"
 msgstr "Masaüstünde görmek istediğiniz ögeleri seçin:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:175
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 msgid "Computer"
 msgstr "Bilgisayar"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:184
 msgid "Home"
 msgstr "Ev Dizini"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:177
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
 msgid "Network"
 msgstr "Ağ"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
 msgid "Trash"
 msgstr "Çöp Kutusu"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:179
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
 msgid "Mounted Volumes"
 msgstr "Bağlı Birimler"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:184
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
 msgid "Don't show window content while dragging them"
 msgstr "Sürüklerken pencere içeriğini gösterme"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:193
 msgid "Use system font in titlebar"
 msgstr "Başlıkta sistem yazı tipini kullan"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
 msgid "Buttons layout:"
 msgstr "Düğme düzeni:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
 msgid "Show fortune cookies"
 msgstr "Şans kurabiyelerini göster"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:190
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
 msgid "Show icons on menus"
 msgstr "Menülerde simgeleri göster"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:191
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
 msgid "Show icons on buttons"
 msgstr "Düğmelerde simgeleri göster"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:192
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
 msgid "Show Input Methods menu in context menus"
 msgstr "Girdi Yöntemleri menüsünü içerik menülerinde göster"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:193
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
 msgid "Show Unicode Control Character menu in context menus"
 msgstr "Unicode Kontrol Karakter menüsünü içerik menülerinde göster"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:195
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:203
 msgid "Buttons labels:"
 msgstr "Düğme etiketleri:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:196
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
 msgid "Icon size:"
 msgstr "Simge boyutu:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:222
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
 msgid "Traditional style (Right)"
 msgstr "Geleneksel biçim (Sağ)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:223
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
 msgid "Mac style (Left)"
 msgstr "Mac biçimi (Sol)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:241
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:250
 msgid "Small"
 msgstr "Küçük"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:242
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:251
 msgid "Large"
 msgstr "Büyük"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:271
 msgid "Marco + Compositing"
 msgstr "Marco + Compositing"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:273
 msgid "Marco + Compton"
 msgstr "Marco + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:276
 msgid "Metacity + Compositing"
 msgstr "Metacity + Compositing"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:278
 msgid "Metacity + Compton"
 msgstr "Metacity + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:281
 msgid "Xfwm4 + Compositing"
 msgstr "Xfwm4 + Compositing"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:283
 msgid "Xfwm4 + Compton"
 msgstr "Xfwm4 + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:278
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:287
 msgid "Openbox + Compton"
 msgstr "Openbox + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:284
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:291
+msgid "Awesome"
+msgstr "Awesome"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:295
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
@@ -463,23 +468,23 @@ msgstr ""
 "Hangi pencere yöneticisi seçeneğinin etkin olduğunu öğrenmek için 'wm-"
 "detect' komutunu kullanınız."
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:290
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
 msgid "Text below items"
 msgstr "Metin öğelerin altında"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:291
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:302
 msgid "Text beside items"
 msgstr "Metin öğelerin yanında"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:292
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:303
 msgid "Icons only"
 msgstr "Sadece simgeler"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:293
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:304
 msgid "Text only"
 msgstr "Sadece metin"
 
-#: generate_desktop_files:25
+#: generate_desktop_files:28
 msgid "Fine-tune desktop settings"
 msgstr "Masaüstü ince ayarları"
 

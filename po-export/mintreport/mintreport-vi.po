@@ -1,0 +1,170 @@
+# Vietnamese translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-10-04 11:21+0100\n"
+"PO-Revision-Date: 2017-10-10 11:26+0000\n"
+"Last-Translator: Hoang Minh Hieu <Unknown>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:47+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "System Reports"
+msgstr "Báo cáo hệ thống"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:229
+msgid "Are you sure you want to delete this report?"
+msgstr "Bạn có chắc chắn muốn xóa báo cáo này không?"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:230
+msgid "The report will be permanently deleted and will no longer be visible."
+msgstr "Báo cáo này sẽ bị xóa vĩnh viễn và không còn tồn tại nữa."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:293
+#, python-format
+msgid ""
+"The file %s could not be read.\n"
+"Please fix its permissions."
+msgstr ""
+"Tập tin %s không đọc được.\n"
+"Vui lòng sửa quyền của nó."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#, python-format
+msgid ""
+"The debug symbols are missing for %(program)s.\n"
+"Please install %(package)s."
+msgstr ""
+"Thiếu kí tự gỡ rối cho chương trình %(program)s.\n"
+"Vui lòng cài đặt %(package)s"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#, python-format
+msgid ""
+"The package providing %s could not be found.\n"
+"If you want to generate a stack trace for this crash report, please "
+"reinstall it."
+msgstr ""
+"Tệp gói cung cấp %s không tìm thấy.\n"
+"Nếu bạn muốn tạo báo cáo lỗi, vui lòng cài đặt lại."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:372
+msgid ""
+"The headers or binaries installed on your system do not match the code which "
+"was executed during the crash.\n"
+"They probably got upgraded since.\n"
+"A stack trace is available in 'Local Files' but its content is probably "
+"inaccurate."
+msgstr ""
+"Đầu tệp tin nhị phân được cài đặt trong hệ thống của bạn không khớp với mã "
+"mà được thực thi trong quá trình xảy ra lỗi.\n"
+"Có lẽ nó đã được nâng cấp.\n"
+"Có dòng lỗi ở \"Tập tin người dùng \" nhưng nội dung nó có lẽ không phù hợp."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:410
+msgid "The report could not be deleted."
+msgstr "Báo cáo này không thể bị xóa."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:411
+#, python-format
+msgid "Check the permissions for /var/crash and %s."
+msgstr "Kiểm tra quyền của /var/crash và %s"
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Troubleshoot problems"
+msgstr "Xử lý các vấn đề"
+
+#: generate_desktop_files:41
+msgid "Troubleshooting Tool"
+msgstr "Công cụ xử lý sự cố"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Crash reports:"
+msgstr "Báo cáo lỗi:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid "Stack trace:"
+msgstr "Stack trace:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid ""
+"When seeking help, check for existing bug reports, pastebin the trace, share "
+"crash.tar.gz (from Local Files) and explain how to reproduce the crash."
+msgstr ""
+"Khi gặp giúp đỡ, kiểm tra xem có báo cáo lỗi nào đã tồn tại, dán vào trace, "
+"chia sẻ file crash.tar.xz (từ thư mục Local) và giải thích cách khắc phục."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Local Files"
+msgstr "Tập tin cục bộ"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "Open the directory containing crash.tar.gz and its content."
+msgstr "Mở thư mục chứa crash.tar.xz và tập tin trong nó."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Bug Tracker"
+msgstr "Nhận định lỗi"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid "Find the most appropriate bug tracker."
+msgstr "Tìm ra lỗi nghiêm trọng nhất"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+msgid "Upload the trace to the Internet."
+msgstr "Tải báo cáo lên internet."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
+msgid "Delete"
+msgstr "Xóa"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
+msgid "Delete this crash report."
+msgstr "Xóa báo cáo lỗi này."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+msgid ""
+"Developers need to know where the code fails or how to reproduce the issue. "
+"Always provide a trace and reliable instructions to trigger/observe the "
+"problem."
+msgstr ""
+"Nhà phát triển cần biết có lỗi ở đâu và cách khắc phục lỗi này. Luôn cung "
+"cấp báo cáo và cách thức tiếp cận chúng."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+msgid "Crash reports"
+msgstr "Báo hỏng"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+msgid "Information reports:"
+msgstr "Báo cáo thông tin"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+msgid "Report:"
+msgstr "Báo cáo :"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+msgid "Delete this report"
+msgstr "Xóa báo cáo này"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+msgid "Note: Information reports can only be shown in English."
+msgstr "Chú ý: Báo cáo thông tin này chỉ có thể xem bằng tiếng Anh."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+msgid "Information reports"
+msgstr "Báo cáo thông tin"

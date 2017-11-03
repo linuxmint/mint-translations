@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-09-14 15:44+0100\n"
+"POT-Creation-Date: 2017-10-27 13:10+0100\n"
 "PO-Revision-Date: 2015-09-26 02:58+0000\n"
 "Last-Translator: Steven Liao <stevenliao0119@yahoo.com.tw>\n"
 "Language-Team: Traditional Chinese <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:44+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -38,7 +38,7 @@ msgid "Here's a description of some of the window managers available."
 msgstr "這裡是一些可用視窗管理員的說明"
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:261
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:270
 msgid "Marco"
 msgstr "Marco"
 
@@ -55,7 +55,7 @@ msgid ""
 msgstr "若 Marco 尚未安裝，您可以使用 <cmd>apt install marco</cmd> 指令安裝。"
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:266
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:275
 msgid "Metacity"
 msgstr "Metacity"
 
@@ -73,7 +73,7 @@ msgid ""
 msgstr "若 Metacity 尚未安裝，您可以使用 <cmd>apt install metacity</cmd> 指令安裝。"
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:271
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:280
 msgid "Xfwm4"
 msgstr "Xfwm4"
 
@@ -90,7 +90,7 @@ msgid ""
 msgstr "若 Xfwm4 尚未安裝，您可以使用 <cmd>apt install xfwm4</cmd> 指令安裝。"
 
 #: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:280
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:289
 msgid "Compiz"
 msgstr "Compiz"
 
@@ -127,7 +127,7 @@ msgid ""
 msgstr "若 Compton 尚未安裝，您可以使用 <cmd>apt install compton</cmd> 指令安裝。"
 
 #: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:276
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:285
 msgid "Openbox"
 msgstr "Openbox"
 
@@ -141,7 +141,8 @@ msgid ""
 "install openbox</cmd>."
 msgstr "若 Openbox 尚未安裝，您可以使用 <cmd>apt install openbox</cmd> 指令安裝。"
 
-#: usr/share/help/C/mintdesktop/index.page:14(title) generate_desktop_files:25
+#: usr/share/help/C/mintdesktop/index.page:14(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165 generate_desktop_files:28
 msgid "Desktop Settings"
 msgstr "桌面設定"
 
@@ -150,7 +151,7 @@ msgid "Welcome to Desktop Settings."
 msgstr "歡迎來到桌面設定。"
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:118
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
 msgid "Windows"
 msgstr "視窗"
 
@@ -177,8 +178,8 @@ msgid "Compositing (shadows, animations, effects, GPU rendering)"
 msgstr "特效合成 (compositing) (陰影，動畫，效果，GPU 渲染)"
 
 #: usr/share/help/C/mintdesktop/index.page:33(title)
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:120
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:170
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:128
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
 msgid "Terminal"
 msgstr "終端機"
 
@@ -244,172 +245,176 @@ msgstr ""
 "  James Lin https://launchpad.net/~chlin101\n"
 "  Kevin https://launchpad.net/~kevin-ngkf\n"
 "  Pei-lun Huang https://launchpad.net/~bacon0912\n"
-"  Pin-hsien Li https://launchpad.net/~plesry\n"
+"  Pin-hsien Lee https://launchpad.net/~plesry\n"
 "  Sosiris https://launchpad.net/~wenwei12\n"
 "  Steven Liao https://launchpad.net/~stevenliao0119\n"
 "  munkee https://launchpad.net/~jasonmunkee\n"
 "  tomoe_musashi https://launchpad.net/~musashi"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:117
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
 msgid "Desktop"
 msgstr "桌面"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:119
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:127
 msgid "Interface"
 msgstr "介面"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:161
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid "Desktop icons"
 msgstr "桌面圖示"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:162
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:170
 msgid "Marco settings"
 msgstr "Marco 設定"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:163
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:171
 msgid "Metacity settings"
 msgstr "Metacity 設定"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:164
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:172
 msgid "Compiz settings"
 msgstr "Compiz 設定"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:165
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
 msgid "Configure Compiz"
 msgstr "設定 Compiz 組態"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:166
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:174
 msgid "Reset Compiz settings"
 msgstr "重設 Compiz 設定"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:167
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Icons"
 msgstr "圖示"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:168
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
 msgid "Context menus"
 msgstr "右鍵選單"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:169
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
 msgid "Toolbars"
 msgstr "工具列"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:171
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:179
 msgid "Window Manager"
 msgstr "視窗管理員"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:173
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 msgid "Select the items you want to see on the desktop:"
 msgstr "選擇要在桌面顯示的項目:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:175
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 msgid "Computer"
 msgstr "電腦"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:176
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:184
 msgid "Home"
 msgstr "家"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:177
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
 msgid "Network"
 msgstr "網路"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:178
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
 msgid "Trash"
 msgstr "回收筒"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:179
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
 msgid "Mounted Volumes"
 msgstr "已掛載儲存區"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:181
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:184
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
 msgid "Don't show window content while dragging them"
 msgstr "拖曳視窗時不顯示其內容"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:182
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:185
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:193
 msgid "Use system font in titlebar"
 msgstr "在標題列使用系統字型"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:183
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:186
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
 msgid "Buttons layout:"
 msgstr "按鍵配置:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:188
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
 msgid "Show fortune cookies"
 msgstr "顯示幸運籤餅"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:190
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
 msgid "Show icons on menus"
 msgstr "在選單顯示圖示"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:191
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
 msgid "Show icons on buttons"
 msgstr "在按鍵顯示圖示"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:192
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
 msgid "Show Input Methods menu in context menus"
 msgstr "在右鍵選單顯示輸入法選單"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:193
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
 msgid "Show Unicode Control Character menu in context menus"
 msgstr "在右鍵選單顯示萬國碼控制字元"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:195
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:203
 msgid "Buttons labels:"
 msgstr "按鍵標籤:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:196
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
 msgid "Icon size:"
 msgstr "圖示尺寸:"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:222
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
 msgid "Traditional style (Right)"
 msgstr "傳統樣式 (右側)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:223
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
 msgid "Mac style (Left)"
 msgstr "Mac 樣式 (左側)"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:241
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:250
 msgid "Small"
 msgstr "小"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:242
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:251
 msgid "Large"
 msgstr "大"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:262
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:271
 msgid "Marco + Compositing"
 msgstr "Marco + Compositing"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:264
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:273
 msgid "Marco + Compton"
 msgstr "Marco + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:267
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:276
 msgid "Metacity + Compositing"
 msgstr "Metacity + Compositing"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:269
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:278
 msgid "Metacity + Compton"
 msgstr "Metacity + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:272
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:281
 msgid "Xfwm4 + Compositing"
 msgstr "Xfwm4 + Compositing"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:274
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:283
 msgid "Xfwm4 + Compton"
 msgstr "Xfwm4 + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:278
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:287
 msgid "Openbox + Compton"
 msgstr "Openbox + Compton"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:284
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:291
+msgid "Awesome"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:295
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
@@ -419,23 +424,23 @@ msgstr ""
 "使用「wm-recovery」指令以切換回預設視窗管理員。\n"
 "使用「wm-detect」指令以檢閱執行中的視窗管理員。"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:290
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
 msgid "Text below items"
 msgstr "文字在項目下方"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:291
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:302
 msgid "Text beside items"
 msgstr "文字在項目旁"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:292
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:303
 msgid "Icons only"
 msgstr "僅圖示"
 
-#: usr/lib/linuxmint/mintDesktop/mintDesktop.py:293
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:304
 msgid "Text only"
 msgstr "僅文字"
 
-#: generate_desktop_files:25
+#: generate_desktop_files:28
 msgid "Fine-tune desktop settings"
 msgstr "微調桌面設定"
 

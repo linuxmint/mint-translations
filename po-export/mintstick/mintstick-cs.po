@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-05-07 12:22+0100\n"
-"PO-Revision-Date: 2017-06-08 12:42+0000\n"
-"Last-Translator: AsciiWolf <mail@asciiwolf.com>\n"
+"PO-Revision-Date: 2017-10-26 10:30+0000\n"
+"Last-Translator: Pavel Borecki <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:49+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:42+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: lib/mintstick.py:82
 msgid "Write"
@@ -31,16 +31,16 @@ msgstr "neznámý"
 
 #: lib/mintstick.py:313 lib/mintstick.py:315
 msgid "The USB stick was formatted successfully."
-msgstr "USB klíčenka byla úspěšně zformátována"
+msgstr "USB klíčenka byla úspěšně zformátována."
 
 #: lib/mintstick.py:318
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Nastal problém při vytváření oddílu na %s"
+msgstr "Nastal problém při vytváření oddílu na %s."
 
 #: lib/mintstick.py:320 lib/mintstick.py:418
 msgid "Authentication Error."
-msgstr "Problém s autentifikací"
+msgstr "Problém s ověřením."
 
 #: lib/mintstick.py:322 lib/mintstick.py:420
 msgid "An error occurred."
@@ -57,39 +57,39 @@ msgstr "USB klíčenka:"
 #: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
 #: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
 msgid "USB Image Writer"
-msgstr "USB zapisovač obrazů"
+msgstr "Nástroj pro zápis obrazů systému na USB úložiště"
 
 #: lib/mintstick.py:390
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
-msgstr "Zapisuji %(VAR_FILE)s do %(VAR_DEV)s"
+msgstr "Zápis %(VAR_FILE)s na %(VAR_DEV)s"
 
 #: lib/mintstick.py:391
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
-msgstr "Zahajuji kopírování z %(VAR_SOURCE)s to %(VAR_TARGET)s"
+msgstr "Zahájení kopírování z %(VAR_SOURCE)s na %(VAR_TARGET)s"
 
 #: lib/mintstick.py:408 lib/mintstick.py:411
 msgid "The image was successfully written."
-msgstr "Obraz byl úspešně vypálen."
+msgstr "Obraz byl úspešně zapsán."
 
 #: lib/mintstick.py:414
 msgid "Not enough space on the USB stick."
-msgstr "Nedostatek místa na klíčence"
+msgstr "Nedostatek místa na USB klíčence."
 
 #: lib/mintstick.py:416
 msgid "An error occured while copying the image."
-msgstr "Při kopírování obrazu nastala chyba"
+msgstr "Při kopírování obrazu nastala chyba."
 
 #: generate_additional_files.py:23 generate_additional_files.py:35
 #: generate_additional_files.py:68
 msgid "Make a bootable USB stick"
-msgstr "Vytvořit bootovatelný USB disk"
+msgstr "Vytvořit spouštěcí (boot) USB klíčenku"
 
 #: generate_additional_files.py:47 generate_additional_files.py:59
 #: share/mintstick/mintstick.ui.h:4
 msgid "USB Stick Formatter"
-msgstr "Formátovač usb disků"
+msgstr "Nástroj pro formátování USB úložišť"
 
 #: generate_additional_files.py:47 generate_additional_files.py:59
 #: generate_additional_files.py:78
@@ -98,7 +98,7 @@ msgstr "Formátovat USB klíčenku"
 
 #: generate_additional_files.py:68
 msgid "Make bootable USB stick"
-msgstr "Vytvořit bootovatelnou USB klíčenku"
+msgstr "Vytvořit spouštěcí (boot) USB klíčenku"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid " "
@@ -109,12 +109,13 @@ msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
 msgstr ""
-"Tato operace smaže všechna data na USB klíčence, přejete si pokračovat?"
+"Tato operace smaže všechna data na USB klíčence! Přejete si pokračovat?"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr "Někde se stala chyba, pro podrobnosti otevřete okno s detaily."
+msgstr ""
+"Někde se stala chyba, přesnější popis naleznete v okně s podrobnostmi."
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Format:"
@@ -122,7 +123,7 @@ msgstr "Formát:"
 
 #: share/mintstick/mintstick.ui.h:6
 msgid "Select a USB stick"
-msgstr "Zvolte USB klíčenku"
+msgstr "Vyberte USB klíčenku"
 
 #: share/mintstick/mintstick.ui.h:7
 msgid "as"
@@ -148,27 +149,27 @@ msgid ""
 msgstr ""
 "FAT32 \n"
 "   + Kompatibilní všude\n"
-"   - Neumí pracovat se soubory větší než 4GB.\n"
+"   - Neumí pracovat se soubory většími než 4GB.\n"
 "\n"
 "NTFS \n"
-"  + Kompatibilní s Windows\n"
-"   - Nekompatibilní se systémem Mac a vetšinou hardwarových zařízení\n"
-"   - Možné problémy s kompabilitou na Linuxu (NTFS je proprietární a "
-"zprácován na základě zpětného inženýrství)\n"
+"  + Kompatibilní se systémem Windows.\n"
+"   - Nekompatibilní se systémy Apple a vetšinou jednoúčelových zařízení.\n"
+"   - Občasné problémy s kompatibilitou se systémem Linux (NTFS je "
+"proprietární a je zde zprovozněno na základě zpětného inženýrství).\n"
 "\n"
 "EXT4 \n"
 "\n"
-"  + Moderní, stabilní, rychlý a žurnálový.\n"
+"  + Moderní, stabilní, rychlý a žurnálovací.\n"
 "  + Podporuje Linuxová souborová oprávnění.\n"
-"   - Nekompabilní s Windows, Mac a většinou hardwarových zařázení.\n"
+"   - Nekompatibilní s Windows, Apple a většinou jednoúčelových zařízení.\n"
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
-msgstr "Popisek svazku"
+msgstr "Popisek svazku:"
 
 #: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
-msgstr "Zvolte jméno pro vaši USB klíčenku"
+msgstr "Zvolte název pro USB klíčenku"
 
 #: share/mintstick/mintstick.ui.h:25
 msgid "USB Stick"
@@ -180,7 +181,7 @@ msgstr "Podrobnosti"
 
 #: share/mintstick/mintstick.ui.h:28
 msgid "Write image:"
-msgstr "Zapsat image:"
+msgstr "Zapsat obraz:"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "Select an image"

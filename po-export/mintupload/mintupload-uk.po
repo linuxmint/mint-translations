@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-07 13:03+0100\n"
-"PO-Revision-Date: 2017-05-07 15:36+0000\n"
-"Last-Translator: stuartlittle <Stuartlittle1970@gmail.com>\n"
+"POT-Creation-Date: 2017-10-27 13:16+0100\n"
+"PO-Revision-Date: 2017-10-13 19:21+0000\n"
+"Last-Translator: sharksoft <sharksmail@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:41+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -23,7 +25,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
 #: generate_desktop_files:41
 msgid "Upload Manager"
-msgstr "Керівник завантажень"
+msgstr "Менеджер завантажень"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:43
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
@@ -67,7 +69,7 @@ msgstr "Скасувати"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:114
 msgid "Run in the background"
-msgstr "Запустити у тловому режимі"
+msgstr "Запустити у фоновому режимі"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:117
 msgid "Cancel upload?"
@@ -119,30 +121,31 @@ msgstr "ГБ"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:201
 #, python-format
-msgid "%(hours)d hours, %(minutes)d minutes"
-msgstr "%(hours)d годин, %(minutes)d хвилин"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d година"
+msgstr[1] "%d години"
+msgstr[2] "%d годин"
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:203
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
 #, python-format
-msgid "1 hour, %d minutes"
-msgstr "1 година, %d хвилин"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d хвилина"
+msgstr[1] "%d хвилини"
+msgstr[2] "%d хвилин"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:205
-#, python-format
-msgid "%(minutes)d minutes, %(seconds)d seconds"
-msgstr "%(minutes)d хвилин, %(seconds)d секунд"
-
 #: usr/lib/linuxmint/mintupload/mintupload.py:207
 #, python-format
-msgid "1 minute, %d seconds"
-msgstr "1 хвилина, %d секунд"
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d секунда"
+msgstr[1] "%d секунди"
+msgstr[2] "%d секунд"
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:209
-#, python-format
-msgid "%d seconds"
-msgstr "%d секунд(и)"
-
-#: usr/lib/linuxmint/mintupload/mintupload.py:238
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
 #, python-format
 msgid "Unknown service: %s"
 msgstr "Невідома служба: %s"
@@ -188,7 +191,7 @@ msgstr "Завантажується файл..."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:275
 msgid "This service requires a password."
-msgstr "Для цієї служби потрібне гасло"
+msgstr "Для цієї служби потрібен пароль"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:308
 msgid "URL:"
@@ -201,25 +204,25 @@ msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr ""
 "%(1)s не задано у файлі конфігурації, який знаходиться в %(2)s або %(3)s"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:28
-#: usr/lib/linuxmint/mintupload/file-uploader.py:31
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
 msgstr "Служби завантаження"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:58
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
 msgstr "Служби:"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:72
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
-msgstr "Керівник завантажень..."
+msgstr "Менеджер завантажень..."
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:81
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
 msgstr "Вийти"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:134
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
 msgstr "Перетягніть файли сюди, щоб завантажити їх на %s"
@@ -243,7 +246,7 @@ msgstr "Про..."
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:120
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr "<b>Будь ласка, уведіть назву для нової служби завантаження:</b>"
+msgstr "<b>Будь ласка, введіть назву для нової служби завантаження:</b>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:124
 msgid "Service name:"
@@ -251,12 +254,12 @@ msgstr "Назва служби:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:127
 msgid "<i>Try to avoid spaces and special characters...</i>"
-msgstr "<i>Намагайтеся уникати пробіли та спеціяльні символи ...</i>"
+msgstr "<i>Намагайтеся уникати пробіли та спеціальні символи ...</i>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:204
 #, python-format
 msgid "%s Properties"
-msgstr "Властивости %s"
+msgstr "Властивості %s"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:207
 msgid "Check connection"
@@ -280,7 +283,7 @@ msgstr "Користувач:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:216
 msgid "Password:"
-msgstr "Гасло:"
+msgstr "Пароль:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:217
 msgid "Timestamp:"
@@ -311,7 +314,7 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
-"Типове гасло: немає для SCP і FTP з'єднань, для SFTP з'єднань "
+"Типовий пароль: немає для SCP і FTP з'єднань, для SFTP з'єднань "
 "використовуються ключі з  ~/.ssh"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236

@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-04-26 13:45+0100\n"
-"PO-Revision-Date: 2017-06-17 09:38+0000\n"
-"Last-Translator: Tomáš Moravec <otoman100@gmail.com>\n"
+"POT-Creation-Date: 2017-10-27 16:38+0100\n"
+"PO-Revision-Date: 2017-10-28 06:49+0000\n"
+"Last-Translator: Pavel Borecki <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:42+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
+"Language: cs\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -39,7 +41,7 @@ msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintupdate/updates.page:16(desc)
 msgid "There are different types of updates"
-msgstr "Existuje několik druhů aktualizací"
+msgstr "Je několik typů aktualizací"
 
 #: usr/share/help/C/mintupdate/updates.page:19(title)
 msgid "The different types of updates"
@@ -47,24 +49,23 @@ msgstr "Rozdílné typy aktualizací"
 
 #: usr/share/help/C/mintupdate/updates.page:21(p)
 msgid "There are different types of updates:"
-msgstr "Je několik typů aktualizací"
+msgstr "Je několik typů aktualizací:"
 
 #: usr/share/help/C/mintupdate/updates.page:24(p)
 msgid ""
 "'Software updates' are updates which fix bugs (or also sometimes which bring "
 "new features)."
 msgstr ""
-"Softwarové aktualizace jsou aktualizace, které spravují chyby (nebo také "
-"někdy přináší nové funkce)"
+"Softwarové aktualizace jsou ty, které opravují chyby (nebo někdy také "
+"přináší nové funkce)."
 
 #: usr/share/help/C/mintupdate/updates.page:25(p)
 msgid "'Security updates' are updates which patch vulnerabilities."
-msgstr ""
-"Bezpečnostní aktualizace jsou aktualizace, které opravují zranitelnosti"
+msgstr "Bezpečnostní aktualizace jsou ty, které opravují zranitelnosti."
 
 #: usr/share/help/C/mintupdate/updates.page:26(p)
 msgid "'Kernel updates' represent the installation of a newer kernel."
-msgstr "'Aktualizace jádra' znamenají instalaci novějšího jádra."
+msgstr "„Aktualizace jádra“ znamenají instalaci novějšího jádra systému."
 
 #: usr/share/help/C/mintupdate/updates.page:29(p)
 msgid ""
@@ -74,20 +75,20 @@ msgid ""
 "at risk. That said, a security breach can have dire consequences, so it is "
 "always recommended to take them seriously."
 msgstr ""
-"Bezpečnost je velmi důležitá, ale také technicky náročná na realizaci. "
-"Zranitelnosti systému nemusí vždy ovlivnit váš počítač, proto bývá "
-"bezpečnost podceňována. Většina lidí bezpečnosti nerozumí vůbec a proto je "
-"jejich počítač vystavován riziku. Proniknutí do systému pak může mít velmi "
-"neblahé důsledky. Proto se doporučuje brát problém se zabezpečením velmi "
-"vážně."
+"Zabezpečení je velmi důležité, ale také technicky náročné. Objevené "
+"zranitelnosti vůbec nemusí být zneužitelné na vašem počítači, ale zároveň je "
+"těžké to posoudit.  Většina lidí zabezpečení vůbec nerozumí, přesto jsou "
+"jejich počítače málokdy v ohrožení. Když už ale dojde k úspěšnému útoku, "
+"mívá to pak velmi neblahé důsledky. Proto se doporučuje brát otázku "
+"zabezpečení velmi vážně."
 
 #: usr/share/help/C/mintupdate/updates.page:31(p)
 msgid ""
 "By default, security updates are always visible, no matter what policy you "
 "chose and what level they are."
 msgstr ""
-"Dle výchozího nastavení jsou bezpečnostní aktualizace vždy viditelné bez "
-"ohledu na vámi zvolené preference a na význam těchto aktualizací."
+"Bezpečnostní aktualizace jsou viditelné vždy a to bez ohledu na vámi "
+"zvolenou strategii a stupeň dopadu na systém."
 
 #: usr/share/help/C/mintupdate/updates.page:33(p)
 msgid ""
@@ -96,8 +97,8 @@ msgid ""
 "be considered optional."
 msgstr ""
 "Softwarové aktualizace nejsou tak důležité. Jsou významné pro opravu chyb či "
-"dílčí vylepšení nespojené s bezpečností. Jako takové nejsou tak urgentní a "
-"mohou být nastaveny jako volitelné."
+"dílčí vylepšení nesouvisející se zabezpečením. Jako takové nejsou tak nutné "
+"a je možné je považovat za volitelné."
 
 #: usr/share/help/C/mintupdate/updates.page:35(p)
 #: usr/share/help/C/mintupdate/kernels.page:23(p)
@@ -108,15 +109,15 @@ msgid ""
 "of view, but also prone to regressions which can be hard to fix for novice "
 "users."
 msgstr ""
-"Aktualizace jádra v Linux Mintu přináší jak bezpečnostní záplaty, tak opravy "
-"chyb (a někdy dokonce i nové funkce), mají ale vliv na  kritické části "
-"operačního systému. Aktualizace jádra je sice důležitá z bezpečnostního "
-"hlediska, zároveň ale může znamenat regresi, která je problematicky "
-"řešitelná začínajícími uživateli."
+"Aktualizace jádra přinášejí jak opravy zabezpečení, tak chyb (a někdy "
+"dokonce i nové funkce), mají ale vliv na  kritické části operačního systému. "
+"Aktualizace jádra jsou sice důležité z bezpečnostního hlediska, zároveň ale "
+"mohou být náchylná na regrese, které mohou být pro začínající uživatele "
+"obtížně řešitelné."
 
 #: usr/share/help/C/mintupdate/regressions.page:16(desc)
 msgid "When an update breaks something, it's called a \"regression\"."
-msgstr "Pokud aktualizace něco přeruší, nazývá se \"regresní\"."
+msgstr "Pokud aktualizace něco rozbije, nazývá se to „regrese“."
 
 #: usr/share/help/C/mintupdate/regressions.page:19(title)
 msgid "Software regressions"
@@ -127,14 +128,13 @@ msgid ""
 "Updates keep your computer safe, eliminate bugs and even sometimes add new "
 "features to your operating system."
 msgstr ""
-"Aktualizace pomáhají udržet váš počítač bezpečný, eliminují chyby a někdy "
-"také přinášejí vylepšení do vašeho operačního systému."
+"Aktualizace udržují počítač zabezpečený, snižují výskyt chyb a někdy dokonce "
+"do operačního systému přidávají nové funkce."
 
 #: usr/share/help/C/mintupdate/regressions.page:23(p)
 msgid ""
 "Unfortunately they also sometimes introduce new issues called 'regressions'."
-msgstr ""
-"Bohužel občas bývají zavedeny nové vydání označované jako 'regresní'."
+msgstr "Naneštěstí občas přinášejí nové problémy, označované jako „regrese“."
 
 #: usr/share/help/C/mintupdate/regressions.page:25(p)
 msgid ""
@@ -143,20 +143,22 @@ msgid ""
 "skilled developers are, they can't always predict every possible situation "
 "or test on every possible hardware specification."
 msgstr ""
-"Regrese jsou běžnou záležitostí v softwarovém průmyslu. Jsou vlastní "
-"softwarovému vývoji. Změny kódu mohou zapříčinit regresi bez ohledu na "
-"schopnosti vývojářů. Nikdy nebudou schopni predikovat každou situaci, která "
-"může nastat, nebo testovat na všech možných hardwarových kombinacích."
+"Regrese jsou v softwarovém oboru zcela běžnou záležitostí. Při vývoji "
+"software jsou nevyhnutelné. Změny ve zdrojových kódech mohou zapříčinit "
+"regresi bez ohledu na schopnosti vývojářů. Ti totiž nikdy nebudou schopní "
+"předvídat každou situaci která může nastat, nebo testovat na všech možných "
+"hardwarových kombinacích."
 
 #: usr/share/help/C/mintupdate/regressions.page:27(p)
 msgid ""
 "When a regression happens, it breaks something which worked well before."
 msgstr ""
-"Při vzniku regrese dochází k porušení něčeho, co před tím pracovalo správně."
+"Při výskytu regrese dochází k porouchání něčeho, co před tím pracovalo "
+"správně."
 
 #: usr/share/help/C/mintupdate/regressions.page:29(p)
 msgid "Sometimes it doesn't really matter, but sometimes it matters a lot."
-msgstr "Někdy na tom příliš nezáleží, ale jindy na tom záleží velmi."
+msgstr "Někdy na tom příliš nezáleží, ale jindy zase velmi."
 
 #: usr/share/help/C/mintupdate/regressions.page:31(p)
 msgid ""
@@ -164,7 +166,7 @@ msgid ""
 "not you're able to work around it or to fix it."
 msgstr ""
 "Záleží na tom, která část operačního systému je postižena a zdali jste "
-"schopni věc opravit či pracovat i přes tuto skutečnost."
+"schopní problém obejít nebo dokonce opravit."
 
 #: usr/share/help/C/mintupdate/regressions.page:33(p)
 msgid ""
@@ -172,26 +174,27 @@ msgid ""
 "it's not as problematic as if your network connection stopped working or if "
 "you were suddenly unable to boot the computer or to login."
 msgstr ""
-"Řekněme, že prohlížeč PDF není již nadále schopen tisknout. Dobře, je to "
-"nepříjemné... ale není to tak problematické jako když vám přestane pracovat "
-"připojení k internetu nebo když nemůžete zapnout počítač či se přihlásit."
+"Řekněme, že prohlížeč PDF přestane být schopen tisknout. Jasně, to je "
+"nepříjemné… ale ve srovnání s tím, když přestane fungovat připojení k "
+"Internetu nebo hůř že se nejde přihlásit do systému a nejhůř že ho dokonce "
+"ani nejde spustit, to zdaleka není tak velký problém."
 
 #: usr/share/help/C/mintupdate/regressions.page:35(p)
 msgid ""
 "In the latter case, it can be very problematic if you're not experienced "
 "with Linux and you don't know how to troubleshoot."
 msgstr ""
-"V určitých situacích v budoucnu může být velmi problematické, pokud nemáte "
+"Ve druhém jmenovaném případě může být velmi problematické pokud nemáte "
 "zkušenosti s Linuxem a nevíte, jak řešit nastalé problémy."
 
 #: usr/share/help/C/mintupdate/policy.page:16(desc)
 msgid "Choosing an update policy"
-msgstr "Zvolte režim aktualizací"
+msgstr "Volba strategie aktualizací"
 
 #: usr/share/help/C/mintupdate/policy.page:19(title)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1163
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1148
 msgid "Update policy"
-msgstr "Zásady aktualizace"
+msgstr "Strategie aktualizace"
 
 #: usr/share/help/C/mintupdate/policy.page:21(p)
 msgid ""
@@ -199,9 +202,9 @@ msgid ""
 "fine-tune which levels you want to show and which levels you want to "
 "preselect. This is your computer and so you can tune it the way you want."
 msgstr ""
-"Manažer aktualizací je velmi škálovatelný. Můžete si v preferencích zvolit k "
-"vaší libosti kterou úroveň chcete ukázat a kterou chcete předvybrat. Toto je "
-"váš počítač a můžete si jej vylepšovat jak je vám libo."
+"Správa aktualizací je velmi přizpůsobitelná. V předvolbách je možné si "
+"zvolit aktualizace kterých stupňů dopadu na systém chcete zobrazovat a které "
+"předvybrat. Toto je váš počítač a proto si ho můžete vyladit dle svého."
 
 #: usr/share/help/C/mintupdate/policy.page:23(p)
 msgid ""
@@ -209,31 +212,33 @@ msgid ""
 "these settings for you. To do so, it will show you three update policies and "
 "ask you to choose the one you like best."
 msgstr ""
-"Při prvním spuštění se to bude snažit rozumět tomu, kdo jste, a nastavit "
-"tyto nastavení právě pro vás. K tomu, aby se tak mohlo stát, se vám zobrazí "
-"tři aktualizační strategie a vy si budete moci zvolit nejlepší z nich."
+"Při prvním spuštění bude zjišťováno jaký typ uživatelů jste a tomu "
+"přizpůsobena nastavení. K tomu účelu jsou zobrazeny tři aktualizační "
+"strategie a dáno na výběr, která vám nejlépe vyhoví."
 
 #: usr/share/help/C/mintupdate/policy.page:25(p)
 msgid "All policies have this in common:"
-msgstr "Všechny strategie mají toto společné:"
+msgstr "Všechny strategie mají společné toto:"
 
 #: usr/share/help/C/mintupdate/policy.page:28(p)
 msgid ""
 "For security reasons, security updates are always visible (no matter what "
 "level they are)."
 msgstr ""
-"S ohledem na bezpečnost jsou bezpečnostní aktualizace vždy viditelné (bez "
-"ohledu na jejich úroveň)."
+"Z důvodu zabezpečení jsou bezpečnostní aktualizace viditelné vždy (bez "
+"ohledu na stupeň jejich dopadu na systém)."
 
 #: usr/share/help/C/mintupdate/policy.page:29(p)
 msgid ""
 "For security reasons, kernel updates (which are level 4) are always visible."
 msgstr ""
-"S ohledem na bezpečnost jsou aktualizace jádra (úroveň 4) vždy viditelné."
+"Z důvodu zabezpečení jsou aktualizace jádra (která spadají do stupně 4) vždy "
+"viditelné."
 
 #: usr/share/help/C/mintupdate/policy.page:30(p)
 msgid "For stability reasons, level 5 updates are always hidden."
-msgstr "S ohledem na stabilitu je úroveň 5 u aktualizací vždy skryta."
+msgstr ""
+"S ohledem na stabilitu systému je stupeň 5 u aktualizací vždy skrytý."
 
 #: usr/share/help/C/mintupdate/policy.page:33(p)
 msgid ""
@@ -241,9 +246,9 @@ msgid ""
 "Update Manager. You can tune these preferences individually by clicking on "
 "the Edit-&gt;Preferences menu in the menubar."
 msgstr ""
-"Když zvolíte novou politiku aktualizací, ve Správci aktualizací se změní "
-"některá nastavení. Preference můžete vyladit jednotlivě kliknutím na Úpravy-"
-"&gt;Předvolby v menu."
+"Když zvolíte strategii aktualizací, změní to některá nastavení správy "
+"aktualizací. Tyto předvolby pak můžete jednotlivě doladit kliknutím na "
+"nabídku Úpravy-&gt;Předvolby."
 
 #: usr/share/help/C/mintupdate/policy.page:37(title)
 msgid "Novice users"
@@ -255,9 +260,9 @@ msgid ""
 "are unable to work around critical issues affecting sensitive parts of their "
 "system and tries to minimize their risk to suffer critical regressions."
 msgstr ""
-"První strategie je dělaná pro uživatele začátečníky. Předpokládá se, že tito "
-"uživatelé nejsou schopni pracovat s kritickými problémy souvisejícími s "
-"citlivými částmi jejich systému a snaží se minimalizovat riziko kritických "
+"První strategie je určená pro naprosté začátečníky. Předpokládá se, že "
+"takoví uživatelé nejsou schopní obejít kritické problémy souvisejícími s "
+"klíčovými částmi  systému a snaží se proto snížit riziko výskytu kritických "
 "regresí."
 
 #: usr/share/help/C/mintupdate/policy.page:41(p)
@@ -266,8 +271,8 @@ msgid ""
 "2) with minimal impact on the operating system. These updates are visible "
 "and preselected by default."
 msgstr ""
-"Opravy chyb nejsou povinné, tudíž se tato strategie zaměřuje na bezpečnostní "
-"aktualizace (úroveň 1 a 2) s minimálním dopadem na operační systém. Tyto "
+"Opravy chyb jsou volitelné, proto se tato strategie zaměřuje na bezpečnostní "
+"aktualizace (stupeň 1 a 2) s minimálním dopadem na operační systém. Tyto "
 "aktualizace jsou ve výchozím nastavení viditelné a předvolené."
 
 #: usr/share/help/C/mintupdate/policy.page:43(p)
@@ -279,11 +284,12 @@ msgid ""
 "after they familiarized themselves with the forums and chat channel so they "
 "know how to seek help."
 msgstr ""
-"Bezpečnost je také důležitá, ale některé bezpečnostní aktualizace (především "
-"aktualizace jádra) ovlivní citlivé části systému. Tyto aktualizace jsou "
-"viditelné a začínajícím uživatelům je doporučováno vybírat je a aplikovat s "
-"rozvahou, izolovaně a ideálně pak za pomoci zkušeného uživatele nebo poté, "
-"co se seznámili s fórem či chatovacím kanálem a vědí, jak vyhledat pomoc."
+"Zabezpečení je důležité, ale některé bezpečnostní aktualizace (především ty "
+"jádra) ovlivňují nejdůležitější části systému. Tyto aktualizace jsou "
+"zobrazováné a začínajícím uživatelům je doporučováno vybírat je a instalovat "
+"s rozvahou, každou zvlášť a ideálně buď za pomoci zkušenějšího uživatele "
+"nebo až poté, co se seznámili s diskuzními fóry a komunikací po chatu a vědí "
+"tak, jak vyhledat pomoc."
 
 #: usr/share/help/C/mintupdate/policy.page:49(title)
 msgid "Regular users"
@@ -295,26 +301,27 @@ msgid ""
 "users aren't new to Linux and either know how to solve common problems, or "
 "they know where to find help."
 msgstr ""
-"Druhá strategie je dělána pro naprostou většinu lidí. Předpokládá, že "
-"uživatelé nejsou začátečníky v Linuxu a také že vědí jak řešit problémy "
-"případně hledat pomoc."
+"Druhá ze strategií je určená pro naprostou většinu lidí. Předpokládá, že "
+"uživatelé nejsou úplnými začátečníky v systému Linux a tak vědí jak řešit "
+"problémy nebo kde případně hledat pomoc."
 
 #: usr/share/help/C/mintupdate/policy.page:53(p)
 msgid ""
 "This policy shows all recommended updates. Security updates and safe bug-fix "
 "updates (level 1 and 2) are preselected by default."
 msgstr ""
-"Tato strategie zobrazuje všechny doporučené aktualizace. Bezpečnostní "
-"aktualizace a bezpečné aktualizace opravující chyby (úroveň 1 a 2) jsou "
-"předvoleny ve výchozím nastavení."
+"Tato strategie zobrazuje všechny doporučené aktualizace. Všechny "
+"bezpečnostní aktualizace a ty nerizikové (stupeň 1 a 2) opravující chyby "
+"jsou ve výchozím stavu označené."
 
 #: usr/share/help/C/mintupdate/policy.page:55(p)
 msgid ""
 "Users are recommended to select and apply level 3 and level 4 updates with "
 "caution and in isolation and to seek help if something goes wrong."
 msgstr ""
-"Doporučujeme uživatelům, aby vybírali a instalovali aktualizace úrovně 3 a "
-"úrovně 4 opatrně a izolovaně a hledali pomoc, pokud se něco pokazí."
+"Uživatelům se doporučuje, aby aktualizace stupňů 3 a 4 vybírali a "
+"instalovali obezřetně, každou zvlášť a obrátili se o pomoc, pokud se něco "
+"pokazí."
 
 #: usr/share/help/C/mintupdate/policy.page:61(title)
 msgid "Advanced users"
@@ -326,49 +333,49 @@ msgid ""
 "critical regressions is acceptable. It assumes these users are able to fix "
 "any issue and want to apply all updates all at once."
 msgstr ""
-"Tato strategie je dělána pro pokročilé uživatele na počítačích, kde je "
-"přijatelné riziko kritické regrese. Předpokládá, že tito uživatelé jsou "
-"schopni opravit jakoukoli věc a chtějí instalovat všechny aktualizace "
-"najednou."
+"Tato strategie je určená pro pokročilé uživatele a počítače, kde je riziko "
+"kritické regrese přijatelné. Předpokládá, že tito uživatelé jsou schopní "
+"opravit jakýkoli problém a chtějí instalovat všechny aktualizace najednou."
 
 #: usr/share/help/C/mintupdate/policy.page:65(p)
 msgid ""
 "In this policy, all recommended updates are visible and selected by default."
 msgstr ""
-"V této strategii jsou všechny doporučené aktualizace viditelné a ve výchozím "
-"nastavení zvoleny."
+"V této strategii jsou všechny doporučené aktualizace zobrazené a ve výchozím "
+"stavu předvolené."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:16(desc)
 msgid "Updating from the command line"
-msgstr "Aktualizace z příkazové řádky"
+msgstr "Aktualizování z příkazového řádku"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:19(title)
 msgid "Using mintupdate-tool"
-msgstr "Používání mintupdate-tool"
+msgstr "Používání nástroje mintupdate-tool"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:21(p)
 msgid ""
 "The Update Manager provides a command line utility called \"mintupdate-"
 "tool\"."
 msgstr ""
-"Manažer aktualizací poskytuje nástroj příkazového řádku zvaný \"mintupdate-"
-"tool\"."
+"Správa aktualizací poskytuje nástroj pro příkazový řádek nazvaný „mintupdate-"
+"tool“."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:23(p)
 msgid ""
 "If you are experienced with Linux, you can use this tool in your scripts or "
 "your cron jobs to automate the installation of software updates."
 msgstr ""
-"Pokud máte zkušenosti s Linuxem můžete používat tento nástroj ve vašich "
-"skriptech či cron úlohách k automatizaci instalace softwarových aktualizací."
+"Pokud máte zkušenosti s Linuxem můžete používat tento nástroj ve svých "
+"skriptech či naplánovaných (cron) úlohách k automatizaci instalace "
+"softwarových aktualizací."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:27(title)
 msgid "Listing updates"
-msgstr "Seznam aktualizací"
+msgstr "Vypsání seznamu aktualizací"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:29(p)
 msgid "You can use the \"list\" command to list updates:"
-msgstr "Pomocí příkazu \"list\" zobrazíte seznam všech aktualizací:"
+msgstr "Aktualizace si můžete vypsat dílčím příkazem „list“:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:31(screen)
 #, no-wrap
@@ -377,16 +384,18 @@ msgstr "mintupdate-tool list"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:33(p)
 msgid "The list can be filtered by levels with the -l argument."
-msgstr "Seznam může být filtrován dle úrovní pomocí argumentu -l."
+msgstr ""
+"Seznam je možné filtrovat dle stupňů dopadu na systém a to pomocí argumentu -"
+"l."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:35(p)
 msgid "You can add security updates with -s."
-msgstr "Můžete přidat bezpečnostní aktualizace pomocí -s."
+msgstr "Bezpečnostní aktualizace je možné přidat pomocí přepínače -s."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:37(p)
 msgid "You can add kernel updates with -k, or remove them with -nk."
 msgstr ""
-"Můžete přidat aktualizace jádra pomocí -k, nebo je odstranit pomocí -nk."
+"Aktualizace jádra je možné přidat pomocí přepínače -k, nebo opačně s -nk."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:39(p)
 msgid ""
@@ -394,7 +403,7 @@ msgid ""
 "level 1 and 2 bug fixes update:"
 msgstr ""
 "Například následující příkaz zobrazí seznam všech bezpečnostních aktualizací "
-"stejně jako aktualizací chyb úrovně 1 a 2:"
+"a aktualizací opravujících chyby stupňů 1 a 2:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:41(screen)
 #, no-wrap
@@ -402,7 +411,7 @@ msgid "mintupdate-tool list -l12 -s -nk"
 msgstr "mintupdate-tool list -l12 -s -nk"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:47(title)
-#: usr/share/help/C/mintupdate/index.page:37(title)
+#: usr/share/help/C/mintupdate/index.page:35(title)
 msgid "Applying updates"
 msgstr "Použití aktualizací"
 
@@ -410,16 +419,16 @@ msgstr "Použití aktualizací"
 msgid ""
 "You can use the \"upgrade\" command to apply updates, using the same options."
 msgstr ""
-"Se stejnými volbami můžete také použít příkaz \"upgrade\" k provedení "
-"aktualizací."
+"Následně za použití stejných voleb můžete aktualizace nainstalovat pomocí "
+"dílčího příkazu „upgrade“."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:51(p)
 msgid ""
 "For instance, the following command applies all security updates as well as "
 "level 1 and 2 bug fix updates:"
 msgstr ""
-"Například následující příkaz nainstaluje všechny bezpečnostní aktualizace "
-"stejně jako  jako aktualizace chyb úrovně 1 a 2:"
+"Například následující příkaz nainstaluje všechny bezpečnostní aktualizace a "
+"aktualizace opravující chyby stupňů 1 a 2:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:53(screen)
 #, no-wrap
@@ -428,14 +437,16 @@ msgstr "sudo mintupdate-tool upgrade -r -l12 -s -nk"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:55(p)
 msgid "Note the -r argument, which was added to refresh the cache."
-msgstr "Poznamenejme argument -r přidaný za účelem aktualizace cache."
+msgstr ""
+"Všimněte si argumentu -r přidaného za účelem aktualizace obsahu mezipaměti."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:57(p)
 msgid ""
 "For more information on mintupdate-tool and a complete list of arguments, "
 "type:"
 msgstr ""
-"Pro více informací o mintupdate-tool a kompletním seznamu argumentů napište:"
+"Více informací o nástroji mintupdate-tool a kompletním seznam argumentů "
+"příkazového řádku získáte zadáním:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:59(screen)
 #, no-wrap
@@ -478,7 +489,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: usr/share/help/C/mintupdate/levels.page:42(None)
-#: usr/share/help/C/mintupdate/levels.page:109(None)
+#: usr/share/help/C/mintupdate/levels.page:107(None)
 msgid ""
 "@@image: 'figures/mintupdate-level4.svg'; "
 "md5=9e9eb80679d932ccce1db26618475908"
@@ -489,7 +500,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: usr/share/help/C/mintupdate/levels.page:52(None)
-#: usr/share/help/C/mintupdate/levels.page:136(None)
+#: usr/share/help/C/mintupdate/levels.page:134(None)
 msgid ""
 "@@image: 'figures/mintupdate-level5.svg'; "
 "md5=4834415cfe932a91c86b82e6124ccfb0"
@@ -502,82 +513,82 @@ msgid ""
 "Updates are given a level indicating how much of an impact they have on the "
 "operating system"
 msgstr ""
-"Aktualizace mají přidělenou úroveň indikující jak moc velký dopad mají na "
-"operační systém."
+"Jednotlivým aktualizacím je přidělen stupeň, který značí jak velký dopad "
+"mají na operační systém"
 
 #: usr/share/help/C/mintupdate/levels.page:19(title)
 msgid "Update levels"
-msgstr "Úroveň aktualizací"
+msgstr "Stupně aktualizací"
 
 #: usr/share/help/C/mintupdate/levels.page:21(p)
 msgid ""
 "Updates are given a level indicating how much of an impact they have on the "
 "operating system."
 msgstr ""
-"Aktualizace mají přidělenou úroveň indikující jak moc velký dopad mají na "
-"operační systém."
+"Jednotlivým aktualizacím je přidělen stupeň, který značí jak velký dopad "
+"mají na operační systém."
 
 #: usr/share/help/C/mintupdate/levels.page:23(p)
 msgid "There are 4 levels:"
-msgstr "Existují 4 úrovně."
+msgstr "Jsou 4 stupně:"
 
 #: usr/share/help/C/mintupdate/levels.page:28(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1854
 msgid "Minimal"
 msgstr "Minimální"
 
 #: usr/share/help/C/mintupdate/levels.page:29(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1879
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1860
 msgid "No impact on the system or other applications."
 msgstr "Žádný dopad na systém nebo ostatní aplikace."
 
 #: usr/share/help/C/mintupdate/levels.page:33(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1874
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
 msgid "Normal"
 msgstr "Normální"
 
 #: usr/share/help/C/mintupdate/levels.page:34(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1880
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1861
 msgid "Default level. Usually low impact on the system."
-msgstr "Výchozí úroveň. Obvykle malý dopad na systém."
+msgstr "Výchozí stupeň. Obvykle malý dopad na systém."
 
 #: usr/share/help/C/mintupdate/levels.page:38(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1875
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1856
 msgid "Large"
 msgstr "Vysoký"
 
 #: usr/share/help/C/mintupdate/levels.page:39(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1881
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1862
 msgid "Apply with caution. Impact on multiple applications."
-msgstr "Používejte s rozvahou. Má dopad na mnoho aplikací."
+msgstr "Použijte s rozvahou. Má dopad na vícero aplikací."
 
 #: usr/share/help/C/mintupdate/levels.page:43(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1876
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1857
 msgid "Sensitive"
-msgstr "Kritický"
+msgstr "Kritické"
 
 #: usr/share/help/C/mintupdate/levels.page:44(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1882
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1863
 msgid "Apply one by one. Impact on sensitive parts of the system."
-msgstr "Aplikujte jednu po druhé. Má dopad na citlivé části systému."
+msgstr "Instalujte jednu po druhé. Má dopad na kritické části systému."
 
 #: usr/share/help/C/mintupdate/levels.page:48(p)
 msgid ""
 "And there's also a special level which is given to updates with known "
 "critical issues:"
 msgstr ""
-"A je zde i speciální úroveň, která je určena aktualizacím se známými "
-"kritickými problémy:"
+"A je zde i zvlášť stupeň určený aktualizacím se známými kritickými problémy:"
 
 #: usr/share/help/C/mintupdate/levels.page:53(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1877
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1858
 msgid "Dangerous"
-msgstr "Nebezpečný"
+msgstr "Nebezpečné"
 
 #: usr/share/help/C/mintupdate/levels.page:54(p)
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1883
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1864
 msgid "Very rare. Not recommended. Known to create issues."
-msgstr "Velmi vzácný. Není doporučováno. Známo pro kritické problémy."
+msgstr ""
+"Nevyskytuje se často. Není doporučováno. Ví se, že způsobuje problémy."
 
 #: usr/share/help/C/mintupdate/levels.page:59(title)
 msgid ""
@@ -592,8 +603,8 @@ msgid ""
 "Level 1 updates are updates which only affect their own software and have no "
 "impact on the rest of the system."
 msgstr ""
-"Úroveň 1 aktualizací jsou aktualizace, které ovlivňují pouze jejich vlastní "
-"software a nemají žádný dopad na zbytek systému."
+"Aktualizace stupně 1 jsou takové, které ovlivňují pouze software, kterého se "
+"bezprostředně týkají a nemají žádný dopad na zbytek systému."
 
 #: usr/share/help/C/mintupdate/levels.page:63(p)
 msgid "They're usually updates for single applications. For instance:"
@@ -601,11 +612,11 @@ msgstr "Jsou to obvykle aktualizace pro jednotlivé aplikace. Například:"
 
 #: usr/share/help/C/mintupdate/levels.page:66(p)
 msgid "The calculator"
-msgstr "Kalkulátor"
+msgstr "Kalkulačka"
 
 #: usr/share/help/C/mintupdate/levels.page:67(p)
 msgid "The PDF reader"
-msgstr "Prohlížeč PDF"
+msgstr "Prohlížeč PDF souborů"
 
 #: usr/share/help/C/mintupdate/levels.page:68(p)
 msgid "The text editor"
@@ -637,16 +648,16 @@ msgstr ""
 msgid ""
 "This is the default level, so the vast majority of updates are level 2."
 msgstr ""
-"Toto je výchozí úroveň, proto je naprostá většina aktualizací na úrovni 2."
+"Toto je výchozí stupeň, proto naprostá většina aktualizací spadá do stupně 2."
 
 #: usr/share/help/C/mintupdate/levels.page:81(p)
 msgid ""
 "These updates aren't known to impact large areas or sensitive parts of the "
 "system, but they're not guaranteed to only affect their own software either."
 msgstr ""
-"Tyto aktualizace nejsou známé jako ty, co mají dopad na větší oblasti "
-"citlivých částí systému, ale není u nich zaručeno, že budou ovlivňovat pouze "
-"software, pro který jsou určeny."
+"U těchto aktualizací se nepředpokládá dopad na více oblastí nebo na kritické "
+"části systému, ale není zaručeno, že ovlivní pouze software, kterého se "
+"týkají."
 
 #: usr/share/help/C/mintupdate/levels.page:83(p)
 msgid ""
@@ -660,8 +671,8 @@ msgid ""
 "If an important regression, or potential for regression, was found in a "
 "level 2 update, its level would be changed to 3 or 4."
 msgstr ""
-"Pokud bude nějaká významná regrese, nebo potenciální regrese, nalezena v "
-"aktualizaci úrovně 2, její úroveň bude pozměněna na úroveň 3 nebo 4."
+"Pokud bude nějaká významná nebo potenciální regrese nalezená v aktualizaci "
+"stupně 2, její stupeň bude pozměněn na 3 nebo 4."
 
 #: usr/share/help/C/mintupdate/levels.page:90(title)
 msgid ""
@@ -676,8 +687,8 @@ msgid ""
 "Level 3 updates are updates which not only affect themselves but also have "
 "an impact on other applications."
 msgstr ""
-"Aktualizace úrovně 3 jsou takové, která neovlivňují pouze vlastní software, "
-"ale mají též dopad na ostatní aplikace."
+"Aktualizace stupně 3 jsou takové, která neovlivňují pouze software, kterého "
+"se bezprostředně týkají, ale mají dopad také na ostatní aplikace."
 
 #: usr/share/help/C/mintupdate/levels.page:94(p)
 msgid ""
@@ -685,59 +696,52 @@ msgid ""
 "these updates wouldn't stop your computer from booting properly, but it "
 "could impact many applications."
 msgstr ""
-"Typickou ukázkou aktualizací úrovně 3 jsou aktualizace GTK, DBUS a jiné... "
-"Regrese u těchto aktualizací nezastaví váš počítač při spouštění, ale mají "
-"dopad na mnoho aplikací."
+"Typickým příkladem aktualizací stupně 3 jsou ty součástí GTK, DBUS, atp. "
+"Regrese u těchto aktualizací nezpůsobí, že by počítač nedokončil spouštění, "
+"ale mají dopad na mnoho aplikací."
 
 #: usr/share/help/C/mintupdate/levels.page:96(p)
 msgid ""
 "Desktop environments are also level 3 updates. If a critical regression "
 "happens in Cinnamon, you might be unable to log in."
 msgstr ""
-"Aktualizace desktopového prostředí jsou také úrovně 3. Pokud se objeví "
-"kritická regrese v Cinnamonu, nemusíte se například úspěšně přihlásit."
+"Aktualizace desktopového prostředí jsou také stupeň 3. Pokud se totiž v "
+"prostředí Cinnamon objeví kritická regrese, nemusí být možné se přihlásit do "
+"systému."
 
 #: usr/share/help/C/mintupdate/levels.page:98(p)
-msgid ""
-"Sensitive applications such as Firefox are also level 3. Novice users would "
-"be unable to perform common tasks if these applications stopped working."
-msgstr ""
-"Citlivé aktualizace jako aktualizace Firefoxu jsou také na úrovni 3. "
-"Začínající uživatelé nemusí být schopni provádět běžné úkony pokud tyto "
-"aplikace přestanou pracovat."
-
-#: usr/share/help/C/mintupdate/levels.page:100(p)
 msgid ""
 "There aren't many level 3 updates. It is recommended to apply them with "
 "caution and in isolation. Take note of what updates you are applying, check "
 "the system afterwards to make sure everything is working fine."
 msgstr ""
-"Není mnoho aktualizací na úrovni 3. Doporučuje se aplikovat je vědomě a "
-"každou zvlášť. Udělejte si poznámku, kterou aktualizaci instalujete, poté "
-"pro jistotu zkontrolujte systém jestli v něm vše funguje správně."
+"Aktualizací stupně 3 nebývá mnoho. Doporučuje se aplikovat je obezřetně a "
+"každou zvlášť. Poznamenejte si, kterou aktualizaci instalujete a poté pro "
+"jistotu zkontrolujte zda v systému vše správně funguje."
 
-#: usr/share/help/C/mintupdate/levels.page:102(p)
-#: usr/share/help/C/mintupdate/levels.page:129(p)
+#: usr/share/help/C/mintupdate/levels.page:100(p)
+#: usr/share/help/C/mintupdate/levels.page:127(p)
 msgid ""
 "If something breaks, seek help on the forums or the chat channel and tell "
 "people which update caused the regression and what is broken."
 msgstr ""
-"Pokud se něco pokazí, hledejte pomoc na fórech nebo na chatovacích kanálech "
-"a řekněte lidem, která aktualizace způsobila regrese a co se pokazilo."
+"Pokud se něco pokazí, hledejte pomoc na diskuzních fórech nebo na "
+"chatovacích kanálech a řekněte lidem, která aktualizace způsobila regrese a "
+"co se pokazilo."
 
-#: usr/share/help/C/mintupdate/levels.page:104(p)
+#: usr/share/help/C/mintupdate/levels.page:102(p)
 msgid ""
 "If you blindly apply hundreds of updates and you're unable to pinpoint the "
 "problematic one, you're unlikely to find help. All level 3 updates are "
 "recommended but you are expected to be cautious and to know what you are "
 "upgrading."
 msgstr ""
-"Pokud slepě nainstalujete stovky aktualizací, nebudete schopni detekovat "
+"Pokud slepě nainstalujete stovky aktualizací, nebudete schopní určit "
 "problematickou aktualizaci a těžko najdete pomoc. Všechny aktualizace úrovně "
 "3 jsou doporučovány, ale očekává se obezřetnost a znalost toho, co "
 "aktualizujete."
 
-#: usr/share/help/C/mintupdate/levels.page:109(title)
+#: usr/share/help/C/mintupdate/levels.page:107(title)
 msgid ""
 "<media type=\"image\" src=\"figures/mintupdate-level4.svg\" height=\"40\"/> "
 "Level 4"
@@ -745,82 +749,83 @@ msgstr ""
 "<media type=\"image\" src=\"figures/mintupdate-level4.svg\" height=\"40\"/> "
 "Úroveň 4"
 
-#: usr/share/help/C/mintupdate/levels.page:111(p)
+#: usr/share/help/C/mintupdate/levels.page:109(p)
 msgid ""
 "Level 4 updates are updates which affect sensitive parts of the operating "
 "system such as:"
 msgstr ""
-"Aktualizace úrovně 4 jsou aktualizace, které ovlivňují citlivé části "
-"operačního systému, jako například:"
+"Aktualizace stupně 4 jsou takové, které ovlivňují kritické části operačního "
+"systému, jako například:"
+
+#: usr/share/help/C/mintupdate/levels.page:112(p)
+msgid "The boot sequence"
+msgstr "Proces spouštění systému"
+
+#: usr/share/help/C/mintupdate/levels.page:113(p)
+msgid "The display manager (login screen, session management)"
+msgstr "Správce sezení (přihlašovací obrazovku, správu sezení)"
 
 #: usr/share/help/C/mintupdate/levels.page:114(p)
-msgid "The boot sequence"
-msgstr "Bootovací sekvenci"
+msgid "The kernel (hardware support)"
+msgstr "Jádro (podpora hardware)"
 
 #: usr/share/help/C/mintupdate/levels.page:115(p)
-msgid "The display manager (login screen, session management)"
-msgstr "Display manager (přihlašovací obrazovku, správu sezení)"
-
-#: usr/share/help/C/mintupdate/levels.page:116(p)
-msgid "The kernel (hardware support)"
-msgstr "Jádro (podporu hardwaru)"
-
-#: usr/share/help/C/mintupdate/levels.page:117(p)
 msgid "The drivers (networking, NVIDIA/AMD)"
 msgstr "Ovladače (síťové, NVIDIA/AMD)"
 
-#: usr/share/help/C/mintupdate/levels.page:118(p)
+#: usr/share/help/C/mintupdate/levels.page:116(p)
 msgid "The display (Xorg, mesa)"
-msgstr "Display (Xorg, mesa)"
+msgstr "Zobrazování (Xorg, mesa)"
 
-#: usr/share/help/C/mintupdate/levels.page:121(p)
+#: usr/share/help/C/mintupdate/levels.page:119(p)
 msgid ""
 "Like other updates, all level 4 updates are recommended, especially if they "
 "are security updates."
 msgstr ""
-"Stejně jako ostatní aktualizace jsou všechny aktualizace úrovně 4 "
+"Stejně jako ostatní aktualizace jsou všechny aktualizace stupně 4 "
 "doporučeny, zejména pokud se jedná o bezpečnostní aktualizace."
 
-#: usr/share/help/C/mintupdate/levels.page:123(p)
+#: usr/share/help/C/mintupdate/levels.page:121(p)
 msgid ""
 "However, if a critical regression was present in one of these updates it "
 "could impact a sensitive part of your system."
 msgstr ""
 "Nicméně, pokud se objeví kritická regrese v jedné takovéto aktualizaci, může "
-"to mít dopad na citlivé části operačního systému."
+"to mít dopad na kritické části operačního systému."
 
-#: usr/share/help/C/mintupdate/levels.page:125(p)
+#: usr/share/help/C/mintupdate/levels.page:123(p)
 msgid ""
 "You could find yourself without a connection to the Internet, without the "
 "ability to start the desktop environment or even without the ability to boot "
 "the operating system."
 msgstr ""
-"Můžete si sami zkusit vyhledávat bez připojení k internetu, bez možnosti "
-"spuštění desktopového prostředí či bez možnosti spustit operační systém."
+"Mohli byste se ocitnout bez připojení k Internetu, bez možnosti spustit "
+"desktopové prostředí nebo dokonce nemuseli být schopní operační systém vůbec "
+"spustit."
 
-#: usr/share/help/C/mintupdate/levels.page:127(p)
+#: usr/share/help/C/mintupdate/levels.page:125(p)
 msgid ""
 "For this reason you should always be careful when applying level 4 updates "
 "(including kernel updates). Apply them one by one and take note of the "
 "versions you're applying."
 msgstr ""
 "Právě kvůli těmto věcem byste vždy měli být obezřetní při instalaci "
-"aktualizací úrovně 4 (včetně aktualizací jádra). Instalovat je jednu po "
-"druhé a poznamenat si verzi, kterou instalujete."
+"aktualizací stupně 4 (včetně aktualizací jádra). Instalujte je jednu po "
+"druhé a poznamenávejte si verzi, kterou instalujete."
 
-#: usr/share/help/C/mintupdate/levels.page:131(p)
+#: usr/share/help/C/mintupdate/levels.page:129(p)
 msgid ""
 "If you blindly apply hundreds of updates and you're unable to pinpoint the "
 "problematic one, you're unlikely to find help. All level 4 updates are "
 "recommended but you are expected to be cautious and to know what you are "
 "upgrading."
 msgstr ""
-"Pokud slepě nainstalujete stovky aktualizací, nebudete schopni detekovat "
-"problematickou aktualizaci a těžko najdete pomoc. Všechny aktualizace úrovně "
+"Pokud slepě nainstalujete stovky aktualizací, nebudete schopní určit "
+"problematickou aktualizaci a těžko najdete pomoc. Všechny aktualizace stupně "
 "4 jsou doporučovány, ale očekává se obezřetnost a znalost toho, co "
 "aktualizujete."
 
-#: usr/share/help/C/mintupdate/levels.page:136(title)
+#: usr/share/help/C/mintupdate/levels.page:134(title)
 msgid ""
 "<media type=\"image\" src=\"figures/mintupdate-level5.svg\" height=\"40\"/> "
 "Level 5"
@@ -828,30 +833,30 @@ msgstr ""
 "<media type=\"image\" src=\"figures/mintupdate-level5.svg\" height=\"40\"/> "
 "Úroveň 5"
 
-#: usr/share/help/C/mintupdate/levels.page:138(p)
+#: usr/share/help/C/mintupdate/levels.page:136(p)
 msgid "Level 5 updates are extremely rare."
-msgstr "Aktualizace úrovně 5 jsou extrémně vzácné."
+msgstr "Aktualizace stupně 5 se vyskytují velmi zřídka."
 
-#: usr/share/help/C/mintupdate/levels.page:140(p)
+#: usr/share/help/C/mintupdate/levels.page:138(p)
 msgid ""
 "When a critical bug is found in an update it is usually fixed as soon as "
 "possible."
 msgstr ""
-"Pokud se najde kritická chyba v aktualizaci je obvykle opravena co nejdříve "
-"je to možné."
+"Pokud je v aktualizaci zjištěna kritická chyba, obvykle bývá opravena co "
+"možná nejdříve."
 
-#: usr/share/help/C/mintupdate/levels.page:142(p)
+#: usr/share/help/C/mintupdate/levels.page:140(p)
 msgid ""
 "There are many ways for Linux Mint to address issues, and many mechanisms in "
 "place both remotely in the repositories and locally within your operating "
 "system. So in normal circumstances updates shouldn't need to be blacklisted."
 msgstr ""
-"Existuje mnoho způsobů, jak Linux Mint řeší problémy a mnoho mechanismů na "
-"místě jak vzdáleně v úložištích, tak i místně v rámci vašeho operačního "
-"systému. Za normálních okolností by tudíž nemělo být třeba zařazovat "
-"aktualizace na černou listinu."
+"V Linux Mint jsou tyto problémy podchycené z více stran, mnohými mechanizmy "
+"jak přímo v rámci operačního systému na počítači, tak v repozitářích. Za "
+"normálních okolností by proto nemělo být třeba zařazovat aktualizace na "
+"seznam k vynechání."
 
-#: usr/share/help/C/mintupdate/levels.page:144(p)
+#: usr/share/help/C/mintupdate/levels.page:142(p)
 msgid ""
 "If an update had a critical bug and a solution was being worked on but "
 "wasn't ready yet, Linux Mint could mark a specific version of the update as "
@@ -859,25 +864,25 @@ msgid ""
 "it until the new version hits the repositories."
 msgstr ""
 "Pokud by aktualizace měla kritickou chybu a na řešení se pracuje, ale ještě "
-"není připraveno, může Linux Mint označit konkrétní verzi aktualizace úrovní "
-"5 (tedy \"Nedoporučeno\"). To aby uživatelům zabránil v její instalaci, "
-"dokud se nová verze nedostane do úložišť."
+"není připraveno, může Linux Mint označit konkrétní verzi aktualizace stupněm "
+"5 (tedy „Nedoporučeno“). To aby se uživatelům zabránilo v její instalaci, "
+"dokud se nová verze nedostane do repozitářů."
 
-#: usr/share/help/C/mintupdate/levels.page:146(p)
+#: usr/share/help/C/mintupdate/levels.page:144(p)
 msgid ""
 "Level 5 updates are known to cause issues. They are very rare and usually "
 "temporary. They are not visible by default and they should not be applied."
 msgstr ""
-"Je známo, že aktualizace úrovně 5 způsobují problémy. Jsou velmi vzácné a "
-"zpravidla dočasné. Ve výchozím nastavení nejsou viditelné a neměly by být "
-"použity."
+"Je známo, že aktualizace stupně 5 způsobují problémy. Nevyskytují se příliš "
+"často a zpravidla jen dočasně. Ve výchozím nastavení nejsou zobrazovány a "
+"neměly by být instalovány."
 
 #: usr/share/help/C/mintupdate/kernels.page:16(desc)
 msgid "Kernels and kernel updates"
 msgstr "Jádra a aktualizace jádra"
 
 #: usr/share/help/C/mintupdate/kernels.page:19(title)
-#: usr/share/help/C/mintupdate/index.page:43(title)
+#: usr/share/help/C/mintupdate/index.page:41(title)
 msgid "Kernel updates"
 msgstr "Aktualizace jádra"
 
@@ -886,8 +891,8 @@ msgid ""
 "The kernel is the central part of the operating system. Among other things, "
 "it is responsible for hardware support."
 msgstr ""
-"Jádro je centrální část operačního systému. Kromě jiného je zodpovědné také "
-"za hardwarovou podporu."
+"Jádro je ústřední část operačního systému. Kromě jiného je odpovědné také za "
+"podporu hardware."
 
 #: usr/share/help/C/mintupdate/kernels.page:25(p)
 msgid ""
@@ -900,29 +905,27 @@ msgid ""
 "Internet, to start your desktop environment or even to boot the operating "
 "system."
 msgstr ""
-"Regrese na úrovni jádra se však mohou ovlivnit možnost připojit se k "
-"internetu, spustit desktopové prostředí či spustit rovnou celý operační "
-"systém."
+"Regrese na úrovni jádra však mohou ovlivnit možnost připojit se k Internetu, "
+"spustit desktopové prostředí nebo vůbec operační systém jako takový."
 
 #: usr/share/help/C/mintupdate/kernels.page:29(p)
 msgid ""
 "For this reason it is important to be cautious when applying kernel updates "
 "and to know how to revert them when something goes wrong."
 msgstr ""
-"Kvůli těmto důvodům je důležité být ve střehu při aktualizaci jádra a vědět, "
-"jak aktualizace odstranit ve chvíli, kdy se něco pokazí."
+"Proto je důležité být při aktualizacích jádra ve střehu a vědět, jak vzít "
+"instalací aktualizací zpět, pokud se něco pokazí."
 
 #: usr/share/help/C/mintupdate/kernels.page:32(title)
 msgid "Multiple kernels can be installed"
-msgstr "Nainstalováno můžete mít i více jader"
+msgstr "Nainstalováno může být i více verzí jádra vedle sebe"
 
 #: usr/share/help/C/mintupdate/kernels.page:34(p)
 msgid ""
 "When you apply an update, you replace the old version of the software with "
 "the new version."
 msgstr ""
-"Pokud nainstalujete aktualizaci, nahradíte starší verzi softwaru jeho "
-"novější verzí."
+"Nainstalováním aktualizace nahradíte starší verzi softwaru tou novější."
 
 #: usr/share/help/C/mintupdate/kernels.page:36(p)
 msgid ""
@@ -930,25 +933,25 @@ msgid ""
 "update\", you don't actually update the kernel, you install a new kernel "
 "alongside the existing one."
 msgstr ""
-"Věci se trochu mění při aktualizacích jádra. Pokud aktualizaci jádra "
-"nainstalujete, neaktualizujete současné jádro, ale nainstalujete nové jádro "
-"vedle toho stávajícího."
+"Jinak je tomu u jádra operačního systému. Při instalaci aktualizace jádra se "
+"nepřepíše to stávající, ale je nainstalováno nové jádro vedle toho "
+"stávajícího."
 
 #: usr/share/help/C/mintupdate/kernels.page:38(p)
 msgid ""
 "Every time you apply a kernel update, you install a new kernel on the "
 "system, without removing the old ones."
 msgstr ""
-"Pokaždé, když aktualizujete jádro, instalujete nové jádro do systému aniž by "
-"se původní jádra odstranila."
+"Pokaždé, když aktualizujete jádro, instaluje se do systému nové jádro, ovšem "
+"ta stávající zůstávájí."
 
 #: usr/share/help/C/mintupdate/kernels.page:40(p)
 msgid "At boot time, the computer selects the most recent one."
-msgstr "Při načítání systému zvolí počítač nejaktuálnější verzi."
+msgstr "Při načítání systému zvolí počítač nejnovější verzi."
 
 #: usr/share/help/C/mintupdate/kernels.page:45(title)
 msgid "Identifying the current kernel"
-msgstr "Identifikace aktuálního jádra"
+msgstr "Identifikace stávajícího jádra"
 
 #: usr/share/help/C/mintupdate/kernels.page:47(p)
 msgid ""
@@ -965,23 +968,23 @@ msgstr "uname -a"
 
 #: usr/share/help/C/mintupdate/kernels.page:54(title)
 msgid "Installing and removing kernels"
-msgstr "Instalování a odinstalování jader"
+msgstr "Instalování a odebírání jader"
 
 #: usr/share/help/C/mintupdate/kernels.page:56(p)
 msgid "You can install and remove kernels from the Update Manager."
-msgstr "Jádra můžete instalovat i odinstalovávat ve správci aktualizací."
+msgstr "Jádra je možné instalovat a odinstalovávat ve Správě aktualizací."
 
 #: usr/share/help/C/mintupdate/kernels.page:58(p)
 msgid "Select \"View\" -&gt; \"Linux Kernels\" in the menu."
-msgstr "Vyberte \"Zobrazit\" -&gt; \"Linuxová jádra\" v menu."
+msgstr "Z nabídky vyberte „Zobrazit“ -&gt; „Linuxová jádra“."
 
 #: usr/share/help/C/mintupdate/kernels.page:60(p)
 msgid ""
 "You cannot remove the kernel you are currently using. To remove it, you need "
 "to reboot and select a different kernel to boot with."
 msgstr ""
-"Nemůžete odstranit jádro, které máte aktuálně spuštěné. Pokud jej chcete "
-"odstranit, musíte restartovat počítač a načíst jiné jádro."
+"Není možné odstranit jádro, které je aktuálně spuštěné. Pokud ho chcete "
+"odstranit, je třeba restartovat počítač a načíst jiné jádro."
 
 #: usr/share/help/C/mintupdate/kernels.page:65(title)
 msgid "Selecting a kernel"
@@ -992,8 +995,8 @@ msgid ""
 "You can have multiple kernels installed, but you can only run one kernel at "
 "a time."
 msgstr ""
-"Můžete mít nainstalováno více jader, ale používat můžete v danou chvíli "
-"pouze jedno z nich."
+"Je možné mít nainstalováno více jader, ale spuštěné může být vždy jen jedno "
+"z nich."
 
 #: usr/share/help/C/mintupdate/kernels.page:69(p)
 msgid ""
@@ -1001,9 +1004,9 @@ msgid ""
 "This menu allows you to choose operating systems but you can also use it to "
 "select a kernel."
 msgstr ""
-"Pokud zapnete počítač, první obrazovka, kterou uvidíte, se nazývá Grub menu. "
-"Toto menu umožňuje výběr operačního systému, ale také výběr mezi různými "
-"jádry."
+"Když zapnete počítač, jednou z prvních obrazovek kterou uvidíte je nabídka "
+"zavaděče Grub. Z ní je možné vybírat operační systémy, ale také různá jádra "
+"konkrétního systému."
 
 #: usr/share/help/C/mintupdate/kernels.page:71(p)
 msgid ""
@@ -1011,8 +1014,8 @@ msgid ""
 "skip the Grub menu. To force the Grub menu to show, boot the computer and "
 "keep pressing the left <key>Shift</key> key."
 msgstr ""
-"Pokud máte nainstalovaný pouze jeden operační systém, může být Grub menu při "
-"startu přeskočeno. Pokud požadujete Grub menu přesto zobrazit, držte při "
+"Pokud máte nainstalovaný pouze jeden operační systém, může být nabídka "
+"zavaděče Grub při startu přeskočena. Pokud ji tedy chcete vyvolat, držte při "
 "startu počítače stisknutou klávesu  <key>Shift</key>."
 
 #: usr/share/help/C/mintupdate/kernels.page:73(p)
@@ -1021,9 +1024,9 @@ msgid ""
 "see all the kernels currently installed. Select the one you want to use and "
 "your computer will boot with that one."
 msgstr ""
-"Pro výběr jádra zvolte možnost \"Pokročilé volby\" v Grub menu. Měli byste "
-"vidět všechna nainstalovaná jádra v systému. Vyberte poté to, které si "
-"přejete načíst."
+"Jádro vyberete v nabídce „Pokročilé volby“ (Advanced options) zavaděče Grub. "
+"Měla by tam být uvedená všechna v systému nainstalovaná jádra. Vyberte z "
+"nich to, se kterým si přejete nastartovat počítač."
 
 #: usr/share/help/C/mintupdate/kernels.page:78(title)
 msgid "Checking the DKMS status"
@@ -1036,10 +1039,10 @@ msgid ""
 "they need to compile themselves against every kernel you install. This is "
 "done via a mechanism called DKMS."
 msgstr ""
-"Jádro obsahuje všechny open source ovladače a ty většinou fungují skvěle. "
-"Proprietární ovladače (NVIDIA, AMD, Broadcom...) nejsou zařazeny a musí být "
-"kompilovány pokaždé, když instalujete nové jádro. Tato věc se dělá přes "
-"mechanizmus zvaný DKMS."
+"Jádro obsahuje všechny open source ovladače a ty většinou fungují velmi "
+"dobře. Proprietární ovladače (NVIDIA, AMD, Broadcom, atd.) v něm obsažené "
+"nejsou a je proto třeba je při instalaci nového jádra pokaždé znovu "
+"zkompilovat. Děje se tak pomocí mechanizmu nazvaného DKMS."
 
 #: usr/share/help/C/mintupdate/kernels.page:82(p)
 msgid ""
@@ -1047,7 +1050,7 @@ msgid ""
 "kernels, it will not function correctly with that kernel."
 msgstr ""
 "Pokud proprietární ovladače nejsou řádně rekompilovány s DKMS pro jedno z "
-"vašich jader, nebudou fungovat korektně na tomto jádru."
+"nainstalovaných jader, nebudou na tomto jádru správně fungovat."
 
 #: usr/share/help/C/mintupdate/kernels.page:84(p)
 msgid ""
@@ -1062,7 +1065,7 @@ msgstr ""
 #: usr/share/help/C/mintupdate/kernels.page:86(screen)
 #, no-wrap
 msgid "dkms status"
-msgstr "dkms status"
+msgstr "stav dkms"
 
 #: usr/share/help/C/mintupdate/kernels.page:88(p)
 msgid ""
@@ -1071,15 +1074,15 @@ msgid ""
 "recommended to stick to kernel updates and not to install kernels from "
 "series which are newer than the series of the recommended kernels."
 msgstr ""
-"Nové série jádra bývají většinou k dispozici dříve než jsou podporovány "
-"proprietárními ovladači přes DKMS. Pokud používáte proprietární ovladače, "
-"příliš se nedoporučuje provádět aktualizace jádra, především se nedoporučuje "
-"instalovat novější série jádra než jsou ty, které jsou doporučovány "
-"dodavatelem ovladače."
+"Nové série jádra bývají většinou k dispozici dříve než jsou podporované "
+"proprietárními ovladači přes DKMS. Pokud tedy používáte proprietární "
+"ovladače, příliš se nedoporučuje provádět aktualizace jádra a  především se "
+"nedoporučuje instalovat novější série jádra než jsou ty, které jsou "
+"doporučovány dodavatelem ovladače."
 
 #: usr/share/help/C/mintupdate/kernels.page:93(title)
 msgid "Reverting a kernel update"
-msgstr "Obnovení aktualizace jádra"
+msgstr "Vrácení do stavu před aktualizací jádra"
 
 #: usr/share/help/C/mintupdate/kernels.page:95(p)
 msgid ""
@@ -1087,84 +1090,80 @@ msgid ""
 "latest kernel update), reboot, select the kernel you were previously using, "
 "remove the new kernel and reboot again."
 msgstr ""
-"Pokud vám něco nepracuje s nejnovější verzí jádra, kterou jste nainstalovali "
+"Pokud vám něco nefunguje s nejnovější verzí jádra, kterou jste nainstalovali "
 "(například pomocí instalace aktualizace jádra), restartujte počítač a "
 "vyberte jádro, které jste používali předtím, poté odstraňte novější jádro a "
 "znovu restartujte počítač."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: usr/share/help/C/mintupdate/index.page:19(None)
-msgid ""
-"@@image: 'figures/mintupdate.png'; md5=5508d9d277a89b195333d43d114556eb"
-msgstr ""
-"@@image: 'figures/mintupdate.png'; md5=5508d9d277a89b195333d43d114556eb"
-
 #: usr/share/help/C/mintupdate/index.page:18(title)
-msgid ""
-"<media type=\"image\" mime=\"image/png\" src=\"figures/mintupdate.png\" "
-"height=\"40\" its:translate=\"no\"/> Update Manager"
-msgstr ""
-"<media type=\"image\" mime=\"image/png\" src=\"figures/mintupdate.png\" "
-"height=\"40\" its:translate=\"no\"/> Správce aktualizací"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:919
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:923
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:981
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1703
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1782
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1784
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1828 generate_desktop_files:26
+msgid "Update Manager"
+msgstr "Správa aktualizací"
 
-#: usr/share/help/C/mintupdate/index.page:22(p)
+#: usr/share/help/C/mintupdate/index.page:20(p)
 msgid ""
 "The Update Manager provides your operating system with software and security "
 "updates."
 msgstr ""
-"Správce aktualizací poskytuje operačnímu systému aktualizace softwaru a "
+"Správa aktualizací dodává operačnímu systému aktualizace software a opravy "
 "zabezpečení."
 
-#: usr/share/help/C/mintupdate/index.page:24(p)
+#: usr/share/help/C/mintupdate/index.page:22(p)
 msgid ""
 "Updates are important because they keep your computer safe, eliminate bugs "
 "and can even add new features to your operating system."
 msgstr ""
-"Aktualizace jsou důležité, neboť udržují váš počítač zabezpečený, eliminují "
-"výskyt chyb a mohou také přidávat nové rysy do vašeho operačního systému."
+"Aktualizace jsou důležité, protože udržují počítač zabezpečený, snižují "
+"výskyt chyb a mohou dokonce do operačního systému přidávat nové funkce."
 
-#: usr/share/help/C/mintupdate/index.page:26(p)
+#: usr/share/help/C/mintupdate/index.page:24(p)
 msgid ""
 "Unfortunately they also sometimes introduce new issues called 'regressions', "
 "which can break things which worked well before."
 msgstr ""
-"Bohužel také někdy představují nové problémy zvané \"regrese\", které mohou "
-"učinit nefunkčními věci, které dříve fungovaly."
+"Žel také někdy s sebou přinášejí nové problémy zvané „regrese“, které mohou "
+"rozbít věci, které dříve fungovaly."
 
-#: usr/share/help/C/mintupdate/index.page:28(p)
+#: usr/share/help/C/mintupdate/index.page:26(p)
 msgid ""
 "It is recommended to apply security updates but also to understand how "
 "updates can affect your computer, so you can review them, apply them with "
 "caution and be prepared in case something goes wrong."
 msgstr ""
-"Doporučuje se instalovat bezpečnostní aktualizace, ale také rozumět tomu, "
-"jak aktualizace mohou ovlivnit váš počítač, abyste je mohli kontrolovat a "
-"uvědoměle instalovat, popřípadě, abyste byli připraveni na případ, že se "
-"něco pokazí."
+"Bezpečnostní aktualizace se doporučuje instalovat, zároveň je ale také třeba "
+"rozumět tomu, jak mohou ovlivnit fungování počítače. Jedině tak je možné "
+"posoudit jejich vhodnost a obezřetně nainstalovat a být připravení pro "
+"případ, že se něco pokazí."
 
-#: usr/share/help/C/mintupdate/index.page:31(title)
+#: usr/share/help/C/mintupdate/index.page:29(title)
 msgid "Core concepts"
 msgstr "Základní pojmy"
 
-#: usr/share/help/C/mintupdate/index.page:33(p)
+#: usr/share/help/C/mintupdate/index.page:31(p)
 msgid "This section explains the core concepts related to software updates."
 msgstr ""
-"Tato část vysvětluje základní pojmy spojené se softwarovými aktualizacemi."
+"Tato část vysvětluje základní pojmy spojené se aktualizacemi software."
 
-#: usr/share/help/C/mintupdate/index.page:39(p)
+#: usr/share/help/C/mintupdate/index.page:37(p)
 msgid "This section explains update levels, policies."
-msgstr "Tato část vysvětluje úrovně aktualizací a strategie."
+msgstr "Tato část vysvětluje stupně aktualizací a strategie."
 
-#: usr/share/help/C/mintupdate/index.page:45(p)
+#: usr/share/help/C/mintupdate/index.page:43(p)
 msgid "This section explains kernel updates."
 msgstr "Tato část vysvětluje aktualizace jádra."
 
-#: usr/share/help/C/mintupdate/index.page:49(title)
+#: usr/share/help/C/mintupdate/index.page:47(title)
 msgid "Advanced techniques"
 msgstr "Pokročilé techniky"
 
-#: usr/share/help/C/mintupdate/index.page:51(p)
+#: usr/share/help/C/mintupdate/index.page:49(p)
 msgid "This section explains advanced techniques."
 msgstr "Tato část vysvětluje pokročilé techniky."
 
@@ -1173,13 +1172,11 @@ msgstr "Tato část vysvětluje pokročilé techniky."
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  AsciiWolf https://launchpad.net/~0cs9r-cyil-wz6b3\n"
-"  Charles Vlk https://launchpad.net/~vlk-charles\n"
+"  AsciiWolf https://launchpad.net/~asciiwolf\n"
 "  D https://launchpad.net/~dv2718281\n"
 "  Elias Kabicek https://launchpad.net/~elias-kabicek-deactivatedaccount\n"
 "  Filip Faltejsek https://launchpad.net/~grysnakh\n"
 "  František Zatloukal https://launchpad.net/~zatloukal-frantisek\n"
-"  Jan Hrdina https://launchpad.net/~jan-hrdina\n"
 "  Karel WÄLZER https://launchpad.net/~husky-viking\n"
 "  Konki https://launchpad.net/~pavel-konkol\n"
 "  Kuvaly [LCT] https://launchpad.net/~kuvaly\n"
@@ -1187,22 +1184,23 @@ msgstr ""
 "  Lubor PETR https://launchpad.net/~luborpetr\n"
 "  Martin Šácha https://launchpad.net/~sachy\n"
 "  Ondřej Kolín https://launchpad.net/~ondrej-kolin\n"
+"  Pavel Borecki https://launchpad.net/~pavel-borecki\n"
 "  Petr Šimáček https://launchpad.net/~petr-simacek\n"
 "  Tomáš Moravec https://launchpad.net/~otoman100\n"
 "  Zyzzy https://launchpad.net/~zyzzy\n"
 "  pepawo https://launchpad.net/~josef-ok2wo\n"
 "  punkrtekk https://launchpad.net/~krtek"
 
-#: usr/lib/linuxmint/mintUpdate/checkAPT.py:205
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:223
 #, python-format
 msgid "Linux kernel %s"
 msgstr "Linuxové jádro %s"
 
-#: usr/lib/linuxmint/mintUpdate/checkAPT.py:206
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:224
 msgid "The Linux kernel."
 msgstr "Linuxové jádro"
 
-#: usr/lib/linuxmint/mintUpdate/checkAPT.py:207
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:225
 msgid ""
 "The Linux Kernel is responsible for hardware and drivers support. Note that "
 "this update will not remove your existing kernel. You will still be able to "
@@ -1213,25 +1211,23 @@ msgid ""
 "using proprietary drivers and you want to use an older kernel, you will need "
 "to remove the new one first."
 msgstr ""
-"Linuxové jádro je zodpovědné za podporu hardwaru a ovladačů. Tato "
-"aktualizace neodstraní existující jádro. Stále budete moci spustit počítač s "
-"aktuálním jádrem v rozšířených možnostech nabídky spuštění. Prosím, buďte "
-"opatrní, .. regrese jádra může ovlivnit vaše připojení k internetu nebo "
-"přihlášení v grafické módu. DKMS moduly jsou sestaveny pro poslední jádra "
-"nainstalovaná na počítači. Pokud používáte proprietární ovladače a chcete-li "
-"použít starší jádro, budete muset nejprve odebrat nové."
+"Linuxové jádro odpovídá za podporu hardwaru a jeho ovladačů. Poznamenejme, "
+"že tato aktualizace neodstraní stávající jádro. Stále budete moci spustit "
+"počítač s původním jádrem zvolením rozšířených možností v nabídce při "
+"spouštění. Buďte ale opatrní, regrese jádra může ovlivnit fungování "
+"připojení k Internetu nebo přihlašování v grafickém režimu. Dále DKMS moduly "
+"jsou sestavována pouze pro nejnovější v systému nainstalované jádro. Pokud "
+"tedy používáte proprietární ovladače chcete použít starší jádro, bude třeba "
+"nejprve odebrat to novější."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:429
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:178
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:59
 msgid "Please wait, this can take some time"
-msgstr "Vyčkejte prosím, tato akce může trvat delší dobu"
+msgstr "Vyčkejte prosím, tato operace může trvat delší dobu"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
 #, python-format
 msgid "The %s kernel was removed"
-msgstr "Jádro %s bylo smazáno"
+msgstr "Jádro %s bylo odebráno"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
 #, python-format
@@ -1247,23 +1243,23 @@ msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Toto jádro nelze odebrat, protože je právě používáno."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1195
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Nainstalovat"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
 msgid "This kernel is not installable."
-msgstr "Toto jádro je nenainstalovatelné."
+msgstr "Toto jádro není možné nainstalovat."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
-msgstr "Jste si jisti, že chcete smazat jádro %s?"
+msgstr "Opravdu chcete odebrat jádro %s?"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
-msgstr "Jste si jisti, že chcete instalovat jádro %s?"
+msgstr "Opravdu chcete nainstalovat jádro %s?"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
 msgid "Kernels"
@@ -1275,7 +1271,7 @@ msgstr "Pokračovat"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
 msgid "Do not show this message again"
-msgstr "Tuto zprávu již nezobrazovat"
+msgstr "Tuto zprávu už nezobrazovat"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
 msgid "Warning!"
@@ -1293,10 +1289,11 @@ msgid ""
 "experienced with kernels, drivers, DKMS modules and you know how to recover "
 "a non-booting computer."
 msgstr ""
-"Linuxové jádro je kritická součást systému. Regrese mohou vést k problémům "
-"se sítí, zvukem, grafickým prostředím a možná dokonce nenaběhne počítač. "
-"Instalujte, či odebírejte jádra jen pokud máte zkušenost s jádry, ovladači, "
-"DKMS moduly a víte, jak spravit nenabíhající počítač"
+"Linuxové jádro je kritická součást systému. Regrese v něm mohou vést k "
+"problémům se sítí, zvukem, grafickým prostředím a možná systém dokonce vůbec "
+"nedokončí spouštění. Jádra instalujte nebo odebírejte jen pokud máte "
+"zkušenost s jádry, ovladači, DKMS moduly a víte, jak spravit nenabíhající "
+"systém."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
 msgid ""
@@ -1304,12 +1301,13 @@ msgid ""
 "section, to make sure you know how to select kernels, how to revert updates "
 "and how to check your DKMS status."
 msgstr ""
-"Před instalací či odstraněním jádra se prosím seznamte s příslušnou částí v "
-"nápovědě. Především si ověřte, že víte jak vybírat jádro při spuštění "
-"počítače, jak obnovit aktualizace a jak zkontrolovat stav DKMS."
+"Před instalací či odstraňováním jader se prosím seznamte s příslušnou částí "
+"nápovědy. Především si ověřte, že víte jak vybrat jádro při spouštění "
+"počítače, jak vrátit zpátky stav před aktualizací a jak zkontrolovat stav "
+"DKMS."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1142
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Zavřít"
 
@@ -1321,14 +1319,6 @@ msgstr "Aktivní"
 msgid "Installed"
 msgstr "Nainstalované"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:264
-msgid "Recommended for security"
-msgstr "Doporučené pro bezpečnost"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:266
-msgid "Recommended for stability"
-msgstr "Doporučené pro stabilitu"
-
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
 msgid "You are currently using the following kernel:"
 msgstr "Právě používáte následující jádro:"
@@ -1339,7 +1329,7 @@ msgstr "B"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:50
 msgid "KB"
-msgstr "kB"
+msgstr "KB"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:52
 msgid "MB"
@@ -1351,517 +1341,488 @@ msgstr "GB"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:157
 msgid "Downloading changelog..."
-msgstr "Stahování seznamu změn..."
+msgstr "Stahování seznamu změn…"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:170
 msgid "No changelog available"
-msgstr "Žádný seznam změn není k dispozici"
+msgstr "Není k dispozici žádný seznam změn"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:334
 msgid "This upgrade will trigger additional changes"
 msgstr "Tato aktualizace spustí dodatečné změny"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:344
-msgid "The following package will be removed:"
-msgstr "Následující balíček bude odstraněn:"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
+msgid "The following packages will be removed:"
+msgstr "Následující balíčky budou odebrány:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:346
-#, python-format
-msgid "The following %d packages will be removed:"
-msgstr "Následujících %d balíčků bude odstraněno:"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
+msgid "The following packages will be installed:"
+msgstr "Následující balíčky budou nainstalovány:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:376
-msgid "The following package will be installed:"
-msgstr "Následující balíček bude nainstalován:"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:378
-#, python-format
-msgid "The following %d packages will be installed:"
-msgstr "Následujících %d balíčků bude nainstalováno:"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:421
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
 msgstr "Instalace aktualizací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:431
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:61
-msgid "Update is complete"
-msgstr "Aktualizace byla dokončena"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:480
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:565
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:972
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:468
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:553
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:964
 msgid "Checking for updates"
 msgstr "Kontrola aktualizací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:488
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:510
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:476
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:498
 msgid "Could not install the security updates"
-msgstr "Nelze nainstalovat bezpečnostní aktualizace"
+msgstr "Nedaří se nainstalovat bezpečnostní aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:557
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:545
 msgid "Starting refresh..."
-msgstr "Zahájení obnovy..."
+msgstr "Zahajování opětovného načtení…"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:588
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:576
 msgid "Another application is using APT"
-msgstr "APT je používán jinou aplikací"
+msgstr "Správa balíčků APT je právě používána jinou aplikací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:597
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:585
 msgid "Finding the list of updates..."
-msgstr "Hledání seznamu aktualizací..."
+msgstr "Hledání seznamu aktualizací…"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:611
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:617
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:599
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:605
 msgid "Your APT cache is corrupted."
-msgstr "Mezipamět APT je porušená."
+msgstr "Mezipamět APT je poškozená."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:612
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:600
 msgid ""
 "Do not install or update anything, it could break your operating system!"
 msgstr ""
-"Nic neinstalujte ani neaktualizujte, mohlo by dojít k poškození Vašeho "
-"operačního systému!"
+"Nic neinstalujte ani neaktualizujte, mohlo by dojít k poškození vaší "
+"instalace operačního systému!"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:613
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:601
 msgid "Switch to a different Linux Mint mirror to solve this situation."
-msgstr "Pro vyřešení tohoto problému použijte jiné zrcadlo Linux Mintu."
+msgstr "Řešením této situace je použití jiného zrcadla s Linux Mint."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:617
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:605
 msgid "Please switch to another Linux Mint mirror"
-msgstr "Použijte, prosím, jiné zrcadlo Linux Mintu"
+msgstr "Použijte jiné zrcadlo repozitářů pro Linux Mint"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:624
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:656
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:835
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1111
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:612
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:644
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:827
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1098
 msgid "Could not refresh the list of updates"
-msgstr "Nelze obnovit seznam aktualizací"
+msgstr "Nedaří se znovu načíst seznam aktualizací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:645
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:754
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1110
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:633
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:734
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1097
 msgid "Your system is up to date"
 msgstr "Váš systém je aktuální"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:719
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:707
 msgid "Kernel update"
 msgstr "Aktualizace jádra"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:721
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:709
 msgid "Security update"
 msgstr "Bezpečnostní aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:723
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:711
 msgid ""
 "Software backport. Be careful when upgrading. New versions of software can "
 "introduce regressions."
 msgstr ""
-"Backportovaný software. Dejte si pozor při aktualizaci. Nové verze programů "
-"mohou způsobit regrese."
+"Novější verze software přenesené do dříve vydaného systému (backport). Dejte "
+"pozor při aktualizaci, nové verze aplikací mohou způsobit regrese."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:725
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:713
 msgid ""
 "Unstable software. Only apply this update to help developers beta-test new "
 "software."
 msgstr ""
-"Nestabilní software. Použijte pouze tehdy chcete-li vývojářům pomoci beta-"
+"Nedoladěný software. Použijte pouze tehdy pokud chcete vývojářům pomoci "
 "testovat nové funkce."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:727
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:715
 msgid "Software update"
 msgstr "Aktualizace softwaru"
 
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:738
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1442
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1493
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1603
+msgid "No updates selected"
+msgstr "Nebyly vybrány žádné aktualizace"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:740
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1495
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1605
+#, python-format
+msgid "%(selected)d update selected (%(size)s)"
+msgid_plural "%(selected)d updates selected (%(size)s)"
+msgstr[0] "vybrána %(selected)d aktualizace o velikosti (%(size)s)"
+msgstr[1] "vybrány %(selected)d aktualizace o velikosti (%(size)s)"
+msgstr[2] "vybráno %(selected)d aktualizací o velikosti (%(size)s)"
+
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
-msgid "1 recommended update available (%(size)s)"
-msgstr "K dispozici je 1 doporučená aktualizace (%(size)s)"
+msgid "%d update available"
+msgid_plural "%d updates available"
+msgstr[0] "Je k dispozici %d aktualizace"
+msgstr[1] "Je k dispozici %d aktualizace"
+msgstr[2] "Je k dispozici %d aktualizací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:748
-#, python-format
-msgid "%(recommended)d recommended updates available (%(size)s)"
-msgstr "K dispozici je %(recommended)d doporučených aktualizací (%(size)s)"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:791
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
-msgstr "Nechcete raději používat místní zrcadlo?"
+msgstr "Chcete raději používat místní zrcadlo?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:791
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Local mirrors are usually faster than packages.linuxmint.com"
 msgstr "Místní zrcadla jsou obvykle rychlejší než packages.linuxmint.com"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:801
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:811
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:793
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:803
 msgid "Please switch to another mirror"
-msgstr "Prosím přepněte na jiné zrcadlo"
+msgstr "Přepněte na jiné zrcadlo"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:801
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:793
 #, python-format
 msgid "%s is unreachable"
-msgstr "%s není dostupný"
+msgstr "%s není dosažitelné"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:811
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:803
 #, python-format
-msgid "The last update on %(mirror)s was %(days)d days ago"
-msgstr "Zrcadlo %(mirror)s bylo naposledy aktualizováno před %(days)d dny"
+msgid "The last update on %(mirror)s was %(days)d day ago"
+msgid_plural "The last update on %(mirror)s was %(days)d days ago"
+msgstr[0] "Poslední aktualizace %(mirror)s proběhla před %(days)d dnem"
+msgstr[1] "Poslední aktualizace %(mirror)s proběhla před %(days)d dny"
+msgstr[2] "Poslední aktualizace %(mirror)s proběhla před %(days)d dny"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:927
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:931
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:989
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1741
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1801
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1803
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1847 generate_desktop_files:26
-msgid "Update Manager"
-msgstr "Správce aktualizací"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:936
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
 msgstr "Ukončit"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1009
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:996
 msgid "OK"
 msgstr "OK"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1011
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:998
 msgid "Help"
 msgstr "Nápověda"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1020
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1007
 msgid "Upgrade"
-msgstr "Aktualizovat"
+msgstr "Přejít na novější verzi"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1025
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1012
 msgid "Name"
-msgstr "Jméno"
+msgstr "Název"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1029
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1290
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1016
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1275
 msgid "Level"
-msgstr "Úroveň"
+msgstr "Stupeň"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1033
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1302
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1750
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1020
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1287
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1731
 msgid "Old version"
 msgstr "Původní verze"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1037
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1308
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1753
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1024
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1293
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1734
 msgid "New version"
 msgstr "Nová verze"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1041
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1314
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1028
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1299
 msgid "Size"
 msgstr "Velikost"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1045
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1284
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1032
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1269
 msgid "Type"
 msgstr "Typ"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1049
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1320
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1036
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1305
 msgid "Origin"
 msgstr "Původ"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1103
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1090
 msgid "Install Updates"
-msgstr "Instalovat aktualizace"
+msgstr "Nainstalovat aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1104
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1187
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1091
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1172
 msgid "Refresh"
 msgstr "Obnovit"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1105
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1179
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1092
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1164
 msgid "Select All"
 msgstr "Vybrat vše"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1106
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1171
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1093
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1156
 msgid "Clear"
 msgstr "Zrušit výběr"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1107
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1869
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1094
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1850
 msgid "Description"
 msgstr "Popis"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1108
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1095
 msgid "Changelog"
 msgstr "Seznam změn"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1116
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1103
 msgid "Welcome to the Update Manager"
-msgstr "Vítejte ve správci aktualizací"
+msgstr "Vítejte ve správě aktualizací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1104
 msgid ""
 "This tool provides your operating system with software and security updates."
 msgstr ""
-"Tento nástroj zajišťuje nejnovější softwarové a bezpečnostní aktualizace."
+"Tento nástroj dodává systému nejnovější softwarove a bezpečnostní "
+"aktualizace."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1118
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1576
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1105
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1562
 msgid "Please choose an update policy."
-msgstr "Vyberte politiku aktualizací."
+msgstr "Vyberte strategii aktualizací."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1120
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1107
 msgid "Just keep my computer safe"
-msgstr "Pouze udržet počítač v bezpečí"
+msgstr "Pouze udržovat počítač zabezpečený"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1108
 msgid "Recommended for novice users."
 msgstr "Doporučeno pro začínající uživatele."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1122
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1109
 msgid ""
 "Select updates which do not impact important parts of the operating systems."
 msgstr ""
-"Vybrat aktualizace, které nebudou mít dopad na důležité části operačního "
+"Vybrat aktualizace, které nebudou mít dopad na kritické části operačního "
 "systému."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1122
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1109
 msgid ""
 "Show security and kernel updates so I can review them and apply them with "
 "caution."
 msgstr ""
-"Zobrazit bezpečnostní aktualizace a aktualizace jádra tak, aby bylo možno je "
-"zkontrolovat a uvědoměle nainstalovat."
+"Zobrazovat aktualizace zabezpečení a jádra. Ty uživatel posoudí k instalaci "
+"a jednotlivě pak obezřetně nainstaluje a vyzkouší."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1124
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1111
 msgid "Let me review sensitive updates"
-msgstr "Dovolte mi zkontroloval citlivé aktualizace"
+msgstr ""
+"Umožnit uživateli posuzovat vhodnost aktualizací kritických částí systému"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1125
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1112
 msgid "Recommended for most users."
 msgstr "Doporučeno pro většinu uživatelů."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1126
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
 msgid ""
 "Select security updates and updates which do not impact important parts of "
 "the operating systems."
 msgstr ""
 "Vybrat bezpečnostní aktualizace a aktualizace, které nebudou mít dopad na "
-"důležité části operačního systému."
+"kritické části operačního systému."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1126
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
 msgid ""
 "Show kernel updates and sensitive updates so I can review them and apply "
 "them with caution."
 msgstr ""
-"Zobrazit aktualizace jádra a citlivé aktualizace tak, aby bylo možno je "
-"zkontrolovat a uvědoměle nainstalovat."
+"Zobrazovat aktualizace jádra a kritických částí. Ty uživatel posoudí k "
+"instalaci a jednotlivě pak obezřetně nainstaluje a vyzkouší."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1128
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1115
 msgid "Always update everything"
 msgstr "Vždy aktualizovat vše"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1129
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1116
 msgid "Recommended for experienced users."
 msgstr "Doporučeno pro pokročilé uživatele."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1130
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
 msgid "Always select all updates."
 msgstr "Vždy vybrat všechny aktualizace."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1130
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
 msgid "If a regression breaks something, I'll fix it."
-msgstr "Pokud se něco pokazí regresí, opravím to."
+msgstr "Pokud se něco pokazí regresí, uživatel si to opraví."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1132
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1119
 msgid ""
 "Security and kernel updates are always visible and updates with known issues "
 "(very rare) are always hidden. You can change this and fine-tune your policy "
 "in the preferences."
 msgstr ""
-"Aktualizace zabezpečení a jádra jsou vždy viditelné a aktualizace se známými "
-"problémy (vzácné) jsou naopak vždy skryté. Tuto možnost můžete změnit a "
-"blíže specifikovat v předvolbách strategií."
+"Aktualizace zabezpečení a jádra jsou vždy zobrazované, zatímco ty o kterých "
+"se ví, že způsobují problémy (nevyskytuje se často) jsou vždy skryté. Toto "
+"chování  můžete změnit upravením své strategie v předvolbách."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1136
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
 msgid "_File"
 msgstr "_Soubor"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1146
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1131
 msgid "_Edit"
 msgstr "_Upravit"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1151
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1847
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1136
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1828
 msgid "Preferences"
-msgstr "Možnosti"
+msgstr "Předvolby"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1158
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1143
 msgid "Software sources"
 msgstr "Zdroje software"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1203
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1188
 msgid "Select level 1 updates"
-msgstr "Vybrat aktualizace úrovně 1"
+msgstr "Vybrat aktualizace stupně 1"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1209
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1194
 msgid "Select level 2 updates"
-msgstr "Vybrat aktualizace úrovně 2"
+msgstr "Vybrat aktualizace stupně 2"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1215
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1200
 msgid "Select level 3 updates"
-msgstr "Vybrat aktualizace úrovně 3"
+msgstr "Vybrat aktualizace stupně 3"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1221
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1206
 msgid "Select level 4 updates"
-msgstr "Vybrat aktualizace úrovně 4"
+msgstr "Vybrat aktualizace stupně 4"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1227
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1212
 msgid "Select security updates"
 msgstr "Vybrat bezpečnostní aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1233
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1218
 msgid "Select kernel updates"
 msgstr "Vybrat aktualizace jádra"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1259
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1244
 #, python-format
 msgid "Upgrade to %s"
-msgstr "Povýšit na %s"
+msgstr "Přejít na verzi %s"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1263
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1248
 msgid "_View"
 msgstr "_Zobrazit"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1268
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1741
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1253
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
 msgid "History of updates"
 msgstr "Historie aktualizací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1272
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1257
 msgid "Linux kernels"
 msgstr "Linuxová jádra"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1276
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1722
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1261
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1703
 msgid "Information"
 msgstr "Informace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1280
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1265
 msgid "Visible columns"
 msgstr "Viditelné sloupce"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1296
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1747
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1281
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1728
 msgid "Package"
 msgstr "Balíček"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1328
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1313
 msgid "Show descriptions"
 msgstr "Zobrazit popisky"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1344
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1329
 msgid "_Help"
 msgstr "_Nápověda"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1350
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1335
 msgid "Contents"
 msgstr "Obsah"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1357
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1801
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1342
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1782
 msgid "About"
 msgstr "O aplikaci"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1454
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1505
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1617
-msgid "No updates selected"
-msgstr "Nebyly vybrány žádné aktualizace"
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
+msgid "Packages included in this update:"
+msgstr "Balíčky obsažené v této aktualizaci:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1507
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1619
-#, python-format
-msgid "%(selected)d update selected (%(size)s)"
-msgstr "%(selected)d vybraná aktualizace (%(size)s)"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1509
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1621
-#, python-format
-msgid "%(selected)d updates selected (%(size)s)"
-msgstr "%(selected)d vybraných aktualizací (%(size)s)"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1662
-#, python-format
-msgid "This update contains %d packages: "
-msgstr "Tato aktualizace obsahuje %d balíčků: "
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1665
-msgid "This update contains 1 package: "
-msgstr "Tato aktualizace obsahuje 1 balíček: "
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1674
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"
 msgstr "Ignorovat aktualizace pro tento balíček"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1725
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1706
 msgid "Process ID:"
-msgstr "ID procesu:"
+msgstr "Identifikátor procesu:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1726
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1707
 msgid "Log file:"
-msgstr "Soubor se záznamem:"
+msgstr "Soubor se záznamem událostí:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1744
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1725
 msgid "Date"
 msgstr "Datum"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1862
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1843
 msgid "Options"
 msgstr "Možnosti"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1863
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1844
 msgid "Levels"
-msgstr "Úrovně"
+msgstr "Stupně"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1864
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1845
 msgid "Auto-refresh"
 msgstr "Automatické obnovování"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1865
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1846
 msgid "Blacklist"
-msgstr "Černá listina"
+msgstr "Seznam aktualizací které vynechat"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1868
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1849
 msgid "Impact level"
 msgstr "Dopad aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1870
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1851
 msgid "Selected"
-msgstr "Označené"
+msgstr "Označeno"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1871
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1852
 msgid "Visible"
 msgstr "Viditelné"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1885
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1866
 msgid "First, refresh the list of updates after:"
 msgstr "Po spuštění obnovit seznam aktualizací po uplynutí:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1886
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1867
 msgid "Then, refresh the list of updates every:"
-msgstr "Poté obnovit každých:"
+msgstr "Poté obnovovat seznam aktualizací každých:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1887
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1868
 msgid ""
 "Note: The list only gets refreshed while the update manager window is closed "
 "(system tray mode)."
 msgstr ""
 "Poznámka: Seznam se obnovuje pouze když je okno Správce aktualizací zavřené "
-"(v módu systémové lišty)."
+"(v režimu v oznamovací oblasti)."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1889
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1870
 msgid ""
 "Include updates which require the installation of new packages or the "
 "removal of installed packages"
@@ -1869,75 +1830,75 @@ msgstr ""
 "Zahrnout aktualizace, které vyžadují instalaci nových balíčků, nebo "
 "odstranění nainstalovaných balíčků"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1890
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1871
 msgid "Hide the update manager after applying updates"
-msgstr "Skrýt správce aktualizací po doinstalovaní aktualizací"
+msgstr "Po nainstalování aktualizací skrýt správu aktualizací"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1891
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1872
 msgid "Only show a tray icon when updates are available or in case of errors"
 msgstr ""
-"Zobrazit ikonku v oznamovací oblasti pouze pokud jsou dostupné aktualizace, "
+"Zobrazovat ikonu v oznamovací oblasti pouze pokud jsou dostupné aktualizace "
 "nebo v případě chyby"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1892
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1873
 msgid "Don't suggest to switch to a local mirror"
 msgstr "Nezobrazovat výzvu k přechodu na místní zrcadlo"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1893
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1874
 msgid "Always show security updates"
-msgstr "Vždy zobrazit bezpečnostní aktualizace"
+msgstr "Vždy zobrazovat bezpečnostní aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1894
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1875
 msgid "Always select security updates"
 msgstr "Vždy vybrat bezpečnostní aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1895
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1876
 msgid "Always show kernel updates"
 msgstr "Vždy zobrazovat aktualizace jádra"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1896
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1877
 msgid "Always select kernel updates"
 msgstr "Vždy vybrat aktualizace jádra"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1897
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "minutes"
 msgstr "minut"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1898
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1879
 msgid "hours"
 msgstr "hodin"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1899
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1880
 msgid "days"
 msgstr "dnů"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1900
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1881
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr "Storno"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1901
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1882
 msgid "Apply"
 msgstr "Použít"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1942
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1923
 msgid "Ignored updates"
-msgstr "Ignorovat aktualizace"
+msgstr "Ignorované aktualizace"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2005
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1986
 msgid "Please specify the name of the update to ignore:"
-msgstr "Uveďte jméno aktualizace, kterou chcete ignorovat"
+msgstr "Zadejte název aktualizace kterou ignorovat:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2006
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1987
 msgid "Ignore an update"
 msgstr "Ignorovat aktualizaci"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2010
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1991
 msgid "Name:"
 msgstr "Název:"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:21
 msgid "System Upgrade"
-msgstr "Aktualizace systému"
+msgstr "Přechod na novější verzi systému"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:33
 msgid "Introduction"
@@ -1949,22 +1910,24 @@ msgid ""
 "edition of Linux Mint should provide the virtual package 'mint-info' and the "
 "file /etc/linuxmint/info."
 msgstr ""
-"Váš systém neobsahuje kritické součásti. Balíčky korespondující Vaší verzi "
-"Linux Mint by měli nabízet virtuální balíček 'mint-info' a soubor "
-"/etc/linuxmint/info."
+"Vaše instalace systému postrádá kritické součásti. Balíček odpovídající "
+"tomuto vydání Linux Mint by měl poskytovat virtuální balíček „mint-info“ a "
+"soubor /etc/linuxmint/info."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:50
 msgid "No upgrades were found."
-msgstr "Žádné povýšení nenalezeno."
+msgstr "Nebyly nalezeny žádné novější verze."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:59
 msgid "A new version of Linux Mint is available!"
-msgstr "Nová verze Linux Mint je dostupná!"
+msgstr "Je k dispozici nová verze Linux Mint!"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:69
 #, python-format
 msgid "An upgrade was found but it is not available yet for the %s edition."
-msgstr "Povýšení bylo nalezeno, ale není ještě dostupné pro verzi %s."
+msgstr ""
+"Byla nalezena novější verze, ale ještě není k dispozici pro vydání/variantu "
+"%s."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:78
 msgid "Release notes"
@@ -1975,25 +1938,26 @@ msgid ""
 "Please read the release notes before upgrading. They explain all the known "
 "issues, workarounds and solutions associated with the new version."
 msgstr ""
-"Prosím přečtěte si poznámky k vydání před tím, než budete povyšovat. "
-"Vysvětlí známé obtíže, řešení, apod. spojené s novou verzí."
+"Než se pustíte do přechodu na novou verzi, určitě si přečtěte poznámky k "
+"vydání. Vysvětlují problémy o který se ví, způsoby jejich obejití a řešení "
+"související s novou verzí."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:89
 #, python-format
 msgid "Release notes for %s"
-msgstr "Poznámky k vydání pro %s"
+msgstr "Poznámky k vydání k %s"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:92
 msgid "Click on the link to open the release notes."
-msgstr "Klepněte na odkaz pro otevření poznámek k vydání"
+msgstr "Kliknutím na odkaz otevřete poznámky k vydání."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:100
 msgid "New features"
-msgstr "Nové vlastnosti"
+msgstr "Nové funkce"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:107
 msgid "Please look at the new features introduced in the new version."
-msgstr "Prosím podívejte se na nové funkce v nové verzi"
+msgstr "Podívejte se na nové funkce, které v této verzi přibyly."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:111
 #, python-format
@@ -2002,7 +1966,7 @@ msgstr "Nové funkce v %s"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:114
 msgid "Click on the link to browse the new features."
-msgstr "Klepněte na odkaz k objevení nových funkcí"
+msgstr "Kliknutím na odkaz si projdete nové funkce."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:122
 msgid "Requirements"
@@ -2011,7 +1975,9 @@ msgstr "Požadavky"
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:132
 #, python-format
 msgid "The package %s needs to be installed before upgrading."
-msgstr "Balíček %s musí bát nainstalován před povýšením."
+msgstr ""
+"Pro provedení přechodu na novější verzi systému je nejprve třeba "
+"nainstalovat balíček %s."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:136
 #, python-format
@@ -2020,7 +1986,7 @@ msgstr "Nainstalovat %s"
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:141
 msgid "Click on the button to install the missing package."
-msgstr "Klepněte na tlačítko k instalaci chybějících balíčků."
+msgstr "Kliknutím na toto tlačítko nainstalujete chybějící balíček."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:155
 msgid ""
@@ -2028,38 +1994,35 @@ msgid ""
 "introduce new issues. Upgrading always represents a risk. Your data is safe "
 "but new issues can potentially affect your operating system."
 msgstr ""
-"Nová vydání nabízí opravy existujících chyb a někdy také přinesou chyby "
-"nové. Povyšování verzí představuje riziko. Data jsou v bezpečí, ale může být "
-"potenciálně ohrožen váš operační systém."
+"Nová vydání opravují stávající chyby, ale někdy přinesou i nějaké nové. "
+"Přechod na novější verzi tak vždy představuje riziko. Uživatelská data jsou "
+"sice v bezpečí, ale případné nové problémy mohou postihnout fungování "
+"operačního systému."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:159
 #, python-format
 msgid "I understand the risk. I want to upgrade to %s."
-msgstr "Chápu riziko. Chci povýšit na %s."
+msgstr "Chápu riziko. Přesto chci povýšit verzi na %s."
 
 #: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:169
 msgid "Summary"
 msgstr "Shrnutí"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:180
-msgid "The package was installed"
-msgstr "Balíček byl instalován"
-
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:267
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:260
 msgid ""
 "Your operating system was successfully upgraded. Please reboot your computer "
 "for all changes to take effect."
 msgstr ""
-"Váš operační systém byl úspěšně povýšen. Prosím restartuje počítač, aby se "
-"mohly všechny změny projevit."
+"Vaše instalace operačního systému byla úspěšně povýšena na novější verzi. "
+"Aby se všechny změny projevily, restartuje ještě počítač."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:276
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:269
 msgid ""
 "The upgrade did not succeed. Make sure you are connected to the Internet and "
 "try to upgrade again."
 msgstr ""
-"Povýšení se nezdařilo. Ujistěte se, že jste připojeni k internetu a zkuste "
-"to znovu."
+"Přechod na novější verzi se nezdařil. Ověřte, že jste připojení k Internetu "
+"a zkuste to znovu."
 
 #: generate_desktop_files:27
 msgid "Show and install available updates"
@@ -2067,7 +2030,7 @@ msgstr "Zobrazit a nainstalovat dostupné aktualizace"
 
 #: usr/bin/mint-release-upgrade-root:16
 msgid "Please enter your password to perform the upgrade"
-msgstr "Prosím zadejte heslo k provedení povýšení"
+msgstr "Pro provedení přechodu na novější verzi zadejte své heslo"
 
 #~ msgid "Auto-Refresh"
 #~ msgstr "Automatická obnova"
@@ -2077,6 +2040,9 @@ msgstr "Prosím zadejte heslo k provedení povýšení"
 
 #~ msgid "Visible?"
 #~ msgstr "Viditelné?"
+
+#~ msgid "Update is complete"
+#~ msgstr "Aktualizace je dokončena"
 
 #~ msgid "Checking the connection to the Internet..."
 #~ msgstr "Kontrola připojení k internetu..."

@@ -7,526 +7,309 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-11-02 13:58+0000\n"
-"PO-Revision-Date: 2016-11-13 17:05+0000\n"
+"POT-Creation-Date: 2017-10-27 13:03+0100\n"
+"PO-Revision-Date: 2017-10-06 06:57+0000\n"
 "Last-Translator: Piotr Strębski <strebski@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:44+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:111
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:251
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:443
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:461
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:527
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:530
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:582
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:585
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:628
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:635
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1499
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1597
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1661 generate_desktop_files.py:26
-#: generate_desktop_files.py:41
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:32
+msgid "Backups"
+msgstr "Kopie zapasowe"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:159
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:199
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:206 generate_desktop_files:26
+#: generate_desktop_files:41
 msgid "Backup Tool"
 msgstr "Narzędzie do tworzenia kopii zapasowych"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:168
-msgid "Preserve structure"
-msgstr "Zachowaj strukturę"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s nie jest umieszczony w Twoim katalogu domowym."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:170
-msgid ".tar file"
-msgstr "plik .tar"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:262
+msgid "Please choose a directory."
+msgstr "Prosimy wybrać katalog."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:171
-msgid ".tar.bz2 file"
-msgstr "plik .tar.bz2"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:172
-msgid ".tar.gz file"
-msgstr "plik .tar.gz"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:178
-msgid "Never"
-msgstr "Nigdy"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:179
-msgid "Size mismatch"
-msgstr "Błędny rozmiar"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:180
-msgid "Modification time mismatch"
-msgstr "Czas modyfikacji się nie zgadza"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:181
-msgid "Checksum mismatch"
-msgstr "Suma kontrolna się nie zgadza"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:182
-msgid "Always"
-msgstr "Zawsze"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:204
-msgid "Excluded paths"
-msgstr "Wykluczone ścieżki"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:214
-msgid "Type"
-msgstr "Typ"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:218
-msgid "Detail"
-msgstr "Szczegóły"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:224
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:233
-msgid "Path"
-msgstr "Ścieżka"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:227
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:236
-msgid "Error"
-msgstr "Błąd"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:268
-msgid "Store?"
-msgstr "Przechować?"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:271
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:284
-msgid "Name"
-msgstr "Nazwa"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:281
-msgid "Install"
-msgstr "Zainstaluj"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:289
-msgid "Backup or Restore"
-msgstr "Kopia zapasowa lub przywracanie"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:290
-msgid "Choose from the following options"
-msgstr "Wybierz jedną z następujących opcji"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:292
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:317
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:324
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:328
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
-msgid "Backup files"
-msgstr "Utwórz kopię zapasową plików"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:293
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:337
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:347
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:353
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:358
-msgid "Restore files"
-msgstr "Przywróć pliki"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:294
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:362
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:367
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:378
-msgid "Backup software selection"
-msgstr "Stwórz kopię zapasową wybranych programów"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:295
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:382
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:387
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:394
-msgid "Restore software selection"
-msgstr "Przywróć wybrane programy"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:297
-msgid "Make a backup of your files"
-msgstr "Stwórz kopię zapasową swoich plików"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:298
-msgid "Save the list of installed applications"
-msgstr "Zapisz listę zainstalowanych programów"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:299
-msgid "Restore a previous backup"
-msgstr "Przywróć poprzednią kopię zapasową"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:300
-msgid "Restore previously installed applications"
-msgstr "Przywróć uprzednio zainstalowane programy"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:304
-msgid "Please select a source and a destination for your backup"
-msgstr ""
-"Wybierz proszę źródło oraz miejsce docelowe dla Twojej kopii zapasowej"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:305
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:341
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:349
-msgid "Source:"
-msgstr "Źródło:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
-msgid "Destination:"
-msgstr "Miejsce docelowe:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:307
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
-msgid "Advanced options"
-msgstr "Opcje zaawansowane"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:308
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:350
-msgid "Description:"
-msgstr "Opis:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:309
-msgid "Output:"
-msgstr "Wynik:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:310
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:344
-msgid "Overwrite:"
-msgstr "Nadpisywanie:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:311
-msgid "Confirm integrity"
-msgstr "Potwierdź integralność"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:312
-msgid "Follow symlinks"
-msgstr "Podążaj za dowiązaniami symbolicznymi"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:313
-msgid "Preserve permissions"
-msgstr "Zachowaj prawa dostępu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:314
-msgid "Preserve timestamps"
-msgstr "Zachowaj znaczniki czasu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:318
-msgid "Please select any files or directories you want to exclude"
-msgstr "Wybierz proszę dowolne pliki lub katalogi, które chcesz wykluczyć"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:319
-msgid "Exclude files"
-msgstr "Wykluczone pliki"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:320
-msgid "Exclude directories"
-msgstr "Wyklucz katalogi"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:321
-msgid "Remove"
-msgstr "Usuń"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:265
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Nie posiadasz uprawnień, aby zapisywać w wybranym katalogu."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:325
-msgid "Please review the information below before starting the backup"
+msgid "Please choose a backup file."
+msgstr "Prosimy wybrać plik kopii zapasowej."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
 msgstr ""
-"Przejrzyj proszę informacje zamieszczone poniżej zanim zaczniesz tworzyć "
-"kopię zapasową"
+"Ten plik kopii zapasowej jest zbyt stary, lub został utworzony przez inne "
+"narzędzie. Prosimy rozpakować go ręcznie."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:329
-msgid "Please wait while your files are being backed up"
-msgstr "Proszę czekać podczas tworzenia kopii zapasowej Twoich plików"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Wystąpił błąd podczas otwierania pliku kopii zapasowej: %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:330
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:375
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:356
+msgid "No packages need to be installed."
+msgstr "Nie jest wymagana instalacja żadnych pakietów."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
+msgid "Please select packages to install."
+msgstr "Prosimy wybrać pakiety do zainstalowania."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:417
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Pomijanie %s ponieważ potoki nazwane nie są obsługiwane."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
 msgstr "Wykonywanie kopii zapasowej:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:334
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:379
-msgid "The backup is now finished"
-msgstr "Tworzenie kopii zapasowej zostało już ukończone"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:338
-msgid ""
-"Please choose the type of backup to restore, its location and a destination"
-msgstr ""
-"Wybierz proszę rodzaj kopii zapasowej, którą chcesz przywrócić, jej "
-"położenie oraz miejsce docelowe"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:339
-msgid "Archive"
-msgstr "Archiwum"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:340
-msgid "Directory"
-msgstr "Katalog"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:348
-msgid "Please review the information below"
-msgstr "Przejrzyj proszę informacje umieszczone poniżej"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:354
-msgid "Please wait while your files are being restored"
-msgstr "Proszę czekać podczas przywracania Twoich plików"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:355
-msgid "Restoring:"
-msgstr "Przywracanie:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:359
-msgid "The restoration of the files is now finished"
-msgstr "Przywracanie plików zostało już ukończone"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
-msgid "Please choose a destination"
-msgstr "Wybierz proszę miejsce docelowe"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:364
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
-msgid "Destination"
-msgstr "Miejsce docelowe"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:368
-msgid "The list below shows the packages you added to Linux Mint"
-msgstr "Lista poniżej pokazuje pakiety, które dodałeś do Linux Mint"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:369
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:389
-msgid "Select all"
-msgstr "Zaznacz wszystko"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:370
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:390
-msgid "Deselect all"
-msgstr "Odznacz wszystko"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
-msgid "Please wait while your software selection is being backed up"
-msgstr ""
-"Proszę czekać podczas gdy tworzona jest kopia zapasowa wybranych programów"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
-msgid "Please select a saved software selection"
-msgstr "Wskaż proszę zapisany wybór programów"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:384
-msgid "Software selection:"
-msgstr "Wybrane programy:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:388
-msgid "Select the packages you want to install"
-msgstr "Wybierz pakiety, które chcesz zainstalować"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:391
-msgid "Refresh"
-msgstr "Odśwież"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:395
-msgid "The restoration is now finished"
-msgstr "Przywracanie zostało już ukończone"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:396
-msgid "Your package selection was restored successfully"
-msgstr "Twoje wybrane pakiety zostały pomyślnie przywrócone"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
-msgid "Invalid path"
-msgstr "Nieprawidłowa ścieżka"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
-#, python-format
-msgid "%s is not located within your source directory. Not added."
-msgstr "%s nie znajduje się w Twoim katalogu źródłowym. Nie został dodany."
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:527
-msgid "Please choose directories for the source and the destination"
-msgstr "Proszę wybrać katalogi dla źródła i dla miejsca docelowego"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:530
-msgid ""
-"Please choose different directories for the source and the destination"
-msgstr "Wybierz proszę różne katalogi dla źródła i miejsca docelowego"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:545
-msgid "Source"
-msgstr "Źródło"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:548
-msgid "Description"
-msgstr "Opis"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:552
-msgid "Compression"
-msgstr "Kompresja"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:556
-msgid "Overwrite destination files"
-msgstr "Nadpisz pliki docelowe"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:559
-msgid "Exclude"
-msgstr "Wyklucz"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:582
-msgid "Please choose a file to restore from"
-msgstr "Wybierz proszę plik, z którego będziesz przywracać"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:585
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
-msgid "Please choose a destination directory"
-msgstr "Wybierz proszę katalog docelowy"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:628
-msgid "No packages need to be installed at this time"
-msgstr "Chwilowo nie ma żadnego pakietu potrzebnego do zainstalowania"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:635
-msgid "Please select one or more packages to install"
-msgstr "Wybierz proszę jeden lub więcej pakietów do zainstalowania"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:703
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:704
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1206
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1208
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1514
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:450
 msgid "Calculating..."
 msgstr "Obliczanie..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:719
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:454
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:558
+msgid "The following errors occurred:"
+msgstr "Wystąpiły następujące błędy:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "The backup was aborted."
+msgstr "Tworzenie kopii zapasowej zostało przerwane."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
-msgid "Skipping %(skipped_file)s because named pipes are not supported."
+msgid "Your files were successfully saved in %s."
+msgstr "Twoje pliki zostały pomyślnie zapisane w %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
 msgstr ""
-"Pomijanie %(skipped_file)s ponieważ potoki nazwane nie są obsługiwane."
+"Ostrzeżenie: Plik meta nie może zostać zapisany. Ta kopia zapasowa nie "
+"będzie akceptowana przy przywracaniu."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:761
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:801
-msgid "Skipping broken link"
-msgstr "Pomijanie błędnego odnośnika"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:762
-msgid "Broken link"
-msgstr "Błędny odnośnik"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:765
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:805
-msgid "Skipping link"
-msgstr "Pomijanie odnośnika"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:829
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:838
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:847
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1267
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1278
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1291
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1355
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1364
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1374
-msgid "Skipping identical file"
-msgstr "Pomijanie identycznego pliku"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:869
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
 msgid ""
-"Warning: Some files were not saved, copied: %(current_file)d files out of "
-"%(total)d total"
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
 msgstr ""
-"Uwaga: Niektóre pliki nie zostały zapisane, skopiowano: %(current_file)d "
-"plików z łącznej liczby %(total)d"
+"Ostrzeżenie: Niektóre pliki nie zostały zapisane. Tylko dla %(archived)d "
+"plików utworzono kopię zapasową z łącznej liczby %(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:873
-msgid "An error occurred during the backup"
-msgstr "Wystąpił błąd podczas tworzenia kopii zapasowej"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:547
+msgid "Restoring:"
+msgstr "Przywracanie:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:883
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1560
-msgid "The backup was aborted"
-msgstr "Tworzenie kopii zapasowej zostało przerwane"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:564
+msgid "The restoration was aborted."
+msgstr "Przywracanie z kopii zapasowej zostało przerwane."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:891
-msgid "The backup completed successfully"
-msgstr "Tworzenie kopii zapasowej zostało ukończone pomyślnie"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "Your files were successfully restored."
+msgstr "Pomyślnie przywrócono pliki."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:982
-msgid "Checksum Mismatch:"
-msgstr "Suma kontrolna nie zgadza się:"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:983
-msgid "Checksum Mismatch"
-msgstr "Suma kontrolna nie zgadza się"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1035
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1037
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1066
-msgid "Calculating checksum"
-msgstr "Obliczanie sumy kontrolnej"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1112
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1136
-msgid "(Not created with the Backup Tool)"
-msgstr "(Nie stworzono przez Narzędzie Kopii Zapasowej)"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1398
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
-msgid ""
-"Warning: Some files were not restored, copied: %(current_file)d files out of "
-"%(total)d total"
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
-"Uwaga: Pewne pliki nie zostały przywrócone, skopiowano: %(current_file)d "
-"plików z %(total)d wszystkich"
+"Ostrzeżenie: Tylko %(number)d plików zostało przywróconych z łącznej liczby "
+"%(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1401
-msgid "An error occurred during the restoration"
-msgstr "Wystąpił błąd podczas przywracania"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:710
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Twój wybór oprogramowania został zapisany w %s"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1412
-msgid "The restoration was aborted"
-msgstr "Przywracanie zostało przerwane"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:726
+msgid "The selected file is not a valid software selection."
+msgstr "Wybrany plik nie jest poprawnym wyborem oprogramowania."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1420
-msgid "The restoration completed successfully"
-msgstr "Przywracanie zostało pomyślnie ukończone"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:731
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:760
+msgid "An error occurred while reading the file."
+msgstr "Wystąpił błąd podczas odczytywania pliku."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1551
-msgid "An error occurred during the backup:"
-msgstr "Wystąpił błąd podczas tworzenia kopii zapasowej"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:748
+msgid "Could not locate the package."
+msgstr "Nie można odnaleźć pakietu."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1568
-msgid "Your software selection was backed up successfully"
-msgstr ""
-"Kopia zapasowa Twojego wybranego oprogramowania została pomyślnie utworzona"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1597
-msgid "The specified file is not a valid software selection"
-msgstr "Określony plik nie jej poprawnym wyborem programów"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1605
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1661
-msgid "An error occurred while accessing the file"
-msgstr "Wystąpił błąd podczas dostępu do pliku"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1648
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1654
-msgid "Could not locate the package"
-msgstr "Nie można odnaleźć pakietu"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1686
-msgid "Please wait, this can take some time"
-msgstr "Proszę czekać, to może trochę potrwać"
-
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:1688
-msgid "The installation is complete"
-msgstr "Instalacja jest ukończona"
-
-#: generate_desktop_files.py:26 generate_desktop_files.py:41
+#: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
 msgstr "Stwórz kopię zapasową swojego katalogu domowego"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Dane osobiste"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Twoje pliki, ustawienia i zawartość katalogu domowego"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Przywróć..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Utwórz kopię teraz..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Wybór oprogramowania"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Lista programów zainstalowanych na Twoim komputerze"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Prosimy wskazać, gdzie chcesz zapisać plik kopii zapasowej:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Prosimy dodać pliki lub katalogi do poniższej listy, aby wykluczyć je z "
+"kopii zapasowej."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Wykluczone pliki"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Wyklucz katalogi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Usuń"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Ukryte pliki i ukryte katalogi położone w katalogu głównym Twojego katalogu "
+"domowego nie są domyślnie dołączane."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Jeśli chcesz dołączyć niektóre z nich do kopii zapasowej, prosimy dodać je "
+"do poniższej listy."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Dołącz pliki"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Dołącz katalogi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Te pliki i katalogi z reguły zawierają tymczasowe dane lub preferencje z "
+"Twoich programów."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Prosimy czekać, tworzona jest kopia zapasowa Twoich plików."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Prosimy wybrać kopię zapasową do przywrócenia:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Nadpisać istniejące pliki?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Nie, przywróć tylko brakujące pliki.\n"
+"<small>Ta opcja jest bezpieczna i nie ma wpływu na istniejące pliki.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Tak, nadpisz zmiany i przywróć zawartość wszystkich istniejących plików.\n"
+"<small>Używaj tej opcji z rozwagą. Zmiany w plikach, których dokonałeś po "
+"kopii zapasowej, zostaną utracone.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Prosimy czekać podczas przywracania Twoich plików."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Lista poniżej pokazuje programy, które zainstalowałeś poprzez menedżera "
+"oprogramowania."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Prosimy wybrać programy, które chcesz zachować."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Uwaga: Jeśli chcesz zachować kompletną listę wszystkich zainstalowanych w "
+"systemie pakietów, prosimy użyć w terminalu polecenia 'dpkg --get-selections "
+"> mylist.list'."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Prosimy wybrać zapisany wybór oprogramowania (plik .list):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Wybierz pakiety, które chcesz zainstalować."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Odśwież"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Wszystkie pakiety z Twojego wyboru oprogramowania są zainstalowane."
 
 #~ msgid "Archiving your home directory..."
 #~ msgstr "Archiwizacja katalogu domowego..."
@@ -536,6 +319,9 @@ msgstr "Stwórz kopię zapasową swojego katalogu domowego"
 
 #~ msgid "Your home directory was successfully backed-up into"
 #~ msgstr "Kopia zapasowa katalogu domowego została pomyślnie zapisana do"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Wystąpił błąd podczas tworzenia kopii zapasowej"
 
 #~ msgid "Backup failed"
 #~ msgstr "Kopia zapasowa nie została wykonana"
@@ -551,6 +337,9 @@ msgstr "Stwórz kopię zapasową swojego katalogu domowego"
 
 #~ msgid "Restoration failed"
 #~ msgstr "Przywracanie nieudane"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Wykluczone ścieżki"
 
 #~ msgid "Hidden paths"
 #~ msgstr "Ukryte ścieżki"
@@ -599,6 +388,9 @@ msgstr "Stwórz kopię zapasową swojego katalogu domowego"
 
 #~ msgid "Backup"
 #~ msgstr "Kopia zapasowa"
+
+#~ msgid "Invalid path"
+#~ msgstr "Nieprawidłowa ścieżka"
 
 #~ msgid "An error occurred while opening the backup:"
 #~ msgstr "Wystąpił błąd podczas otwierania kopii zapasowej:"

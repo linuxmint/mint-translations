@@ -1,0 +1,174 @@
+# Catalan translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-10-04 11:21+0100\n"
+"PO-Revision-Date: 2017-10-10 08:45+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:47+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "System Reports"
+msgstr "Informes del sistema"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:229
+msgid "Are you sure you want to delete this report?"
+msgstr "Esteu segur que voleu suprimir aquest informe?"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:230
+msgid "The report will be permanently deleted and will no longer be visible."
+msgstr "L'informe se suprimirà permanentment i ja no serà visible."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:293
+#, python-format
+msgid ""
+"The file %s could not be read.\n"
+"Please fix its permissions."
+msgstr ""
+"No s'ha pogut obrir el fitxer %s.\n"
+"Corregiu els permisos."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#, python-format
+msgid ""
+"The debug symbols are missing for %(program)s.\n"
+"Please install %(package)s."
+msgstr ""
+"Falten els símbols de depuració per %(program)s.\n"
+"Instal·leu %(package)s."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#, python-format
+msgid ""
+"The package providing %s could not be found.\n"
+"If you want to generate a stack trace for this crash report, please "
+"reinstall it."
+msgstr ""
+"El paquet que proporciona %s no es troba.\n"
+"Si voleu generar una traça de la pila per aquest informe d'error, reinstaleu-"
+"lo."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:372
+msgid ""
+"The headers or binaries installed on your system do not match the code which "
+"was executed during the crash.\n"
+"They probably got upgraded since.\n"
+"A stack trace is available in 'Local Files' but its content is probably "
+"inaccurate."
+msgstr ""
+"Les capçaleres o binaris instal·lats en el sistema no coincideixen amb el "
+"codi que s'executava durant l'error.\n"
+"Probablement s'han actualitzat després.\n"
+"Hi ha disponible un traçat de pila a «Fitxers locals», però el seu contingut "
+"pot ser inexacte."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:410
+msgid "The report could not be deleted."
+msgstr "No s'ha pogut suprimir l'informe."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:411
+#, python-format
+msgid "Check the permissions for /var/crash and %s."
+msgstr "Comproveu els permisos de /var/crash i %s."
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Troubleshoot problems"
+msgstr "Resol els problemes"
+
+#: generate_desktop_files:41
+msgid "Troubleshooting Tool"
+msgstr "Eina per resoldre els problemes"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Crash reports:"
+msgstr "Informes de fallades:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid "Stack trace:"
+msgstr "Traça de la pila:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid ""
+"When seeking help, check for existing bug reports, pastebin the trace, share "
+"crash.tar.gz (from Local Files) and explain how to reproduce the crash."
+msgstr ""
+"Quan busqueu ajuda, comproveu si hi ha informes d'errors existents, enganxeu "
+"la traça, compartiu el fitxer crash.tar.gz (a partir de fitxers locals) i "
+"expliqueu com reproduir el bloqueig."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Local Files"
+msgstr "Fitxers locals"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "Open the directory containing crash.tar.gz and its content."
+msgstr "Obre la carpeta que conté crash.tar.gz i el seu contingut."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Bug Tracker"
+msgstr "Seguiment d'errors"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid "Find the most appropriate bug tracker."
+msgstr "Troba el rastrejador d'errors més apropiat."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+msgid "Pastebin"
+msgstr "Enganxa"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+msgid "Upload the trace to the Internet."
+msgstr "Puja la traça a internet."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
+msgid "Delete this crash report."
+msgstr "Suprimeix aquest informe d'error."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+msgid ""
+"Developers need to know where the code fails or how to reproduce the issue. "
+"Always provide a trace and reliable instructions to trigger/observe the "
+"problem."
+msgstr ""
+"Els desenvolupadors necessiten saber on falla el codi o com reproduir el "
+"problema. Proporcioneu sempre una traça i les instruccions fiables per "
+"activar/observar el problema."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+msgid "Crash reports"
+msgstr "Informes de fallades"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+msgid "Information reports:"
+msgstr "Informes indicatius:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+msgid "Report:"
+msgstr "Informe:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+msgid "Delete this report"
+msgstr "Suprimeix aquest informe"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+msgid "Note: Information reports can only be shown in English."
+msgstr "Nota: els informes indicatius només es mostren en anglès."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+msgid "Information reports"
+msgstr "Informes indicatius"

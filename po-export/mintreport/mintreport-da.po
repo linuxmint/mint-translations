@@ -1,0 +1,174 @@
+# Danish translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-10-04 11:21+0100\n"
+"PO-Revision-Date: 2017-10-04 18:46+0000\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"Language-Team: Danish <da@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:47+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "System Reports"
+msgstr "Systemrapporter"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:229
+msgid "Are you sure you want to delete this report?"
+msgstr "Er du sikker på, du vil slette denne rapport?"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:230
+msgid "The report will be permanently deleted and will no longer be visible."
+msgstr "Rapporten vil blive permanent slettet og ikke længere være synlig."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:293
+#, python-format
+msgid ""
+"The file %s could not be read.\n"
+"Please fix its permissions."
+msgstr ""
+"Filen %s kunne ikke læses.\n"
+"Ret venligst filens rettigheder."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#, python-format
+msgid ""
+"The debug symbols are missing for %(program)s.\n"
+"Please install %(package)s."
+msgstr ""
+"Fejlfindingssymbolerne til %(program)s mangler.\n"
+"Installér venligst %(package)s."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#, python-format
+msgid ""
+"The package providing %s could not be found.\n"
+"If you want to generate a stack trace for this crash report, please "
+"reinstall it."
+msgstr ""
+"Pakken, som indeholder %s, kunne ikke findes.\n"
+"Hvis du vil danne et stakspor for denne nedbrudsrapport, skal du "
+"geninstallere pakken."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:372
+msgid ""
+"The headers or binaries installed on your system do not match the code which "
+"was executed during the crash.\n"
+"They probably got upgraded since.\n"
+"A stack trace is available in 'Local Files' but its content is probably "
+"inaccurate."
+msgstr ""
+"De \"headers\" eller binære filer, som er installeret på dit system, stemmer "
+"ikke overens med koden, som blev kørt under nedbrudet.\n"
+"De er sandsynligvis blevet opgraderet siden da.\n"
+"Et stakspor er tilgængelig i \"Lokale filer\", men dets indhold er "
+"sandsynligvis unøjagtigt."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:410
+msgid "The report could not be deleted."
+msgstr "Rapporten kunne ikke slettes."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:411
+#, python-format
+msgid "Check the permissions for /var/crash and %s."
+msgstr "Tjek rettighederne for /var/crash og %s."
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Troubleshoot problems"
+msgstr "Fejlfinding af problemer"
+
+#: generate_desktop_files:41
+msgid "Troubleshooting Tool"
+msgstr "Fejlfindingsværktøj"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Crash reports:"
+msgstr "Nedbrudsrapporter:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid "Stack trace:"
+msgstr "Stakspor:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid ""
+"When seeking help, check for existing bug reports, pastebin the trace, share "
+"crash.tar.gz (from Local Files) and explain how to reproduce the crash."
+msgstr ""
+"Når du søger hjælp, så søg efter eksisterende fejlrapporter, overfør sporet "
+"til en pastebin, del crash.tar.gz (fra Lokale filer) og forklar, hvordan "
+"nedbruddet kan reproduceres."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Local Files"
+msgstr "Lokale filer"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "Open the directory containing crash.tar.gz and its content."
+msgstr "Åbn mappen, som indeholder crash.tar.gz og dens indhold."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Bug Tracker"
+msgstr "Fejlsporing"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid "Find the most appropriate bug tracker."
+msgstr "Find det bedst egnet værktøj til fejlsporing."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+msgid "Upload the trace to the Internet."
+msgstr "Overfør sporet til internettet."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
+msgid "Delete"
+msgstr "Slet"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
+msgid "Delete this crash report."
+msgstr "Slet denne nedbrudsrapport."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+msgid ""
+"Developers need to know where the code fails or how to reproduce the issue. "
+"Always provide a trace and reliable instructions to trigger/observe the "
+"problem."
+msgstr ""
+"Udviklere har brug for at vide, hvor koden fejler og hvordan det kan "
+"reproduceres. Tilvejebring altid et spor og pålidelige instruktioner til at "
+"udløse/observere problemet."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+msgid "Crash reports"
+msgstr "Nedbrudsrapporter"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+msgid "Information reports:"
+msgstr "Informationsrapporter:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+msgid "Report:"
+msgstr "Rapport:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+msgid "Delete this report"
+msgstr "Slet denne rapport"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+msgid "Note: Information reports can only be shown in English."
+msgstr "Bemærk: Informationsrapporter kan kun vises på engelsk."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+msgid "Information reports"
+msgstr "Informationsrapporter"

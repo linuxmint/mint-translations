@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2016-12-13 07:26+0000\n"
-"Last-Translator: ttv20 <ttv200@gmail.com>\n"
+"PO-Revision-Date: 2017-08-25 07:26+0000\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:44+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -33,6 +33,8 @@ msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
 msgstr ""
+"שגיאה: תחילה עליך לעגן את מערכות הקבצים שלך למיקום ‎/target כדי לבצע התקנה "
+"בהתאמה אישית!"
 
 #: usr/lib/live-installer/installer.py:135
 msgid ""
@@ -41,6 +43,9 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
+"שגיאה: משהו השתבש באמצעי ההתקנה! מצב זה בדרך כלל נגרם עקב תכניות צריבה שאינן "
+"תומכות ב־LMDE (כגון YUMI או כלי ריבוי הפעלות נוספים). נא לצרוב את תמונת "
+"ה־ISO ל־DVD/USB באמצעות כלי אחר."
 
 #: usr/lib/live-installer/installer.py:159
 msgid "Indexing files to be copied.."
@@ -156,7 +161,7 @@ msgstr "הפרדה למחיצות"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Please make sure you wish to manage partitions manually"
-msgstr ""
+msgstr "נא לוודא שברצונך לנהל את המחיצות ידנית"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Advanced options"
@@ -223,7 +228,7 @@ msgstr "סקירה כללית"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:239
 msgid "Calculating file indexes ..."
-msgstr ""
+msgstr "מפתחות הקבצים מחושבים…"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 msgid "Images"
@@ -357,6 +362,9 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
+"יש ליצור את ‎/target/etc/fstab עבור מערכות הקבצים כפי שהן תעוגנה במערכת "
+"החדשה שלך, תוך התאמה לאלו שכבר מעוגנות תחת ‎/target (ללא שימוש בקידומת "
+"‎/target בנתיבי העגינה עצמם)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -519,7 +527,7 @@ msgstr "מחיצת ה־EFI חייבת להיות בפורמט vfat"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid "Please select an EFI partition."
-msgstr ""
+msgstr "נא לבחור במחיצת EFI"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:829
 msgid ""
@@ -598,17 +606,17 @@ msgstr "אל תתקין bootloader"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
-msgstr ""
+msgstr "שימוש ב־‎/target שכבר נעגן."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr ""
+msgstr "אתחול %(path)s בתור %(filesystem)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr ""
+msgstr "עיגון %(path)s בתור %(mount)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
@@ -706,12 +714,12 @@ msgstr "עריכת מחיצה"
 
 #: usr/lib/live-installer/partitioning.py:437
 msgid "Device:"
-msgstr ""
+msgstr "התקן:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr ""
+msgstr "אתחול בתור:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"
-msgstr ""
+msgstr "נקודת עגינה:"

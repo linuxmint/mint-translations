@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-02-24 17:11+0100\n"
-"PO-Revision-Date: 2017-03-29 20:11+0000\n"
+"PO-Revision-Date: 2017-09-16 10:53+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:44+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/lib/live-installer/installer.py:69
 #, python-format
@@ -68,7 +68,7 @@ msgstr "Entrada al sistema ..."
 
 #: usr/lib/live-installer/installer.py:273
 msgid "Removing live configuration (packages)"
-msgstr "S'està eliminant la configuració live (paquets)"
+msgstr "S'està suprimint la configuració autònoma (paquets)"
 
 #: usr/lib/live-installer/installer.py:281
 msgid "Adding new user to the system"
@@ -101,7 +101,7 @@ msgstr "S'estan establint les opcions del teclat"
 
 #: usr/lib/live-installer/installer.py:476
 msgid "Installing bootloader"
-msgstr "S'està instal·lant el carregador de l'arrencada"
+msgstr "S'està instal·lant el gestot d'arrencada"
 
 #: usr/lib/live-installer/installer.py:485
 msgid ""
@@ -173,7 +173,7 @@ msgstr "Opcions avançades"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:99
 msgid "Summary"
-msgstr "Sumari"
+msgstr "Resum"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:100
 msgid "Installing Linux Mint..."
@@ -197,7 +197,7 @@ msgstr "Fes una fotografia..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:131
 msgid "Browse for more pictures..."
-msgstr "Cerca més imatges…"
+msgstr "Navega per més imatges..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:170
 msgid "Select timezone"
@@ -205,7 +205,7 @@ msgstr "Seleccioneu un fus horari"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:174
 msgid "Edit partitions"
-msgstr "Edita particions"
+msgstr "Edita les particions"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:175
 msgid "Refresh"
@@ -248,7 +248,7 @@ msgstr "Introduïu el vostre nom complet."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid "Your username"
-msgstr "Nom d'usuari"
+msgstr "El vostre nom d'usuari"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "This is the name you will use to log in to your computer."
@@ -290,15 +290,15 @@ msgstr "Inicia automàticament la sessió"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:403
 msgid "Your picture"
-msgstr "La seva foto"
+msgstr "La vostra foto"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:404
 msgid ""
 "This picture represents your user account. It is used in the login screen "
 "and a few other places."
 msgstr ""
-"Aquesta imatge representa el seu compte d'usuari. S'utilitza a la pantalla "
-"d'inici de sessió i alguns altres llocs."
+"Aquesta imatge representa el vostre compte d'usuari. S'utilitza a la "
+"pantalla d'inici de sessió i alguns altres llocs."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:407
 msgid "Selected timezone:"
@@ -310,7 +310,7 @@ msgstr "Gestor d'arrencada"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:411
 msgid "Install GRUB"
-msgstr "Instal·la el GRUB"
+msgstr "Instal·la GRUB"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "GRUB is a bootloader used to load the Linux kernel."
@@ -318,7 +318,7 @@ msgstr "GRUB és un gestor d'arrencada usat per carregar el nucli de Linux."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:415
 msgid "Use this box to test your keyboard layout."
-msgstr "Feu servir aquest camp per provar la configuració del teclat."
+msgstr "Utilitzeu aquest requadre per provar la configuració del teclat."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid "Model"
@@ -329,8 +329,8 @@ msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
 msgstr ""
-"Heu seleccionat la gestió manual de particions. Aquesta opció és NOMÉS PER "
-"USUARIS AVANÇATS."
+"Heu seleccionat gestionar manualment les vostres particions. Aquesta opció "
+"és NOMÉS PER USUARIS AVANÇATS."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid "Before continuing, please mount your target filesystem(s) at /target."
@@ -342,7 +342,8 @@ msgstr ""
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
-"NO munteu dispositius virtuals com ara /dev, /proc, /sys, etc en /target/."
+"NO munteu els dispositius virtuals com ara /dev, /proc, /sys, etc en "
+"/target/."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:422
 msgid ""
@@ -370,7 +371,7 @@ msgstr ""
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr ""
-"Feu el següent i feu clic a Següent per a finalitzar la instal·lació:"
+"Feu el següent i després feu clic a Següent per a finalitzar la instal·lació:"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
@@ -378,9 +379,9 @@ msgid ""
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
-"Crear /target/etc/fstab en els sistemes de fitxers, tal com seran muntats en "
-"el nou sistema, corresponent amb els actualment muntats a /target (sense "
-"usar el prefix /target en els propis camins de muntatge)."
+"Crea /target/etc/fstab per als sistemes de fitxers, tal com seran muntats al "
+"sistema nou, coincideixen amb els muntats actualment a /target (sense "
+"utilitzar el prefix /target als mateixos camins de muntatge)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:429
 msgid ""
@@ -388,9 +389,9 @@ msgid ""
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
 "get/aptitude installations."
 msgstr ""
-"Instal·lar els paquets que puguin ser necessaris per la primera arrencada "
-"(mdadm, cryptsetup, dmraid, etc) executant \"chroot sudo /target\", seguit "
-"de les instal·lacions apt-get/aptitude pertinents."
+"Instal·la els paquets que puguin ser necessaris per a la primera arrencada "
+"(mdadm, cryptsetup, dmraid, etc) amb la crida a \"sudo chroot /target\", "
+"seguit de les instal·lacions apt-get/aptitude pertinents."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:430
 msgid ""
@@ -408,9 +409,9 @@ msgid ""
 "system will have at first boot, and matches what is currently mounted at "
 "/target."
 msgstr ""
-"Comprovi bé que el seu /target/etc/fstab és correcte, coincideix amb el que "
-"el seu nou sistema tindrà en la primera arrencada, i coincideix amb el que "
-"està actualment muntat a /target."
+"Comproveu bé que el vostre /target/etc/fstab és correcte, coincideix amb el "
+"que el vostre sistema nou tindrà en la primera arrencada, i coincideix amb "
+"el que està actualment muntat a /target."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Device"
@@ -430,7 +431,7 @@ msgstr "Punt de muntatge"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:439
 msgid "Format as"
-msgstr "Formatejar com a"
+msgstr "Formata com a"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:440
 msgid "Size"
@@ -443,11 +444,11 @@ msgstr "Espai lliure"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Quit?"
-msgstr "Sortir?"
+msgstr "Voleu sortir?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:467
 msgid "Are you sure you want to quit the installer?"
-msgstr "Segur que voleu abandonar l'instal·lador?"
+msgstr "Esteu segur que voleu sortir de l'instal·lador?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:686
 msgid "Passwords do not match."
@@ -476,15 +477,15 @@ msgstr "Trieu un idioma"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:754
 msgid "Please provide your full name."
-msgstr "Entreu el vostre nom complet."
+msgstr "Proporcioneu el vostre nom complet."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:757
 msgid "Please provide a username."
-msgstr "Entreu un nom d'usuari."
+msgstr "Proporcioneu un nom d'usuari."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:760
 msgid "Please provide a password for your user account."
-msgstr "Entreu una contrasenya per al vostre compte d'usuari."
+msgstr "Proporcioneu una contrasenya per al vostre compte d'usuari."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:763
 msgid "Your passwords do not match."
@@ -492,7 +493,7 @@ msgstr "Les vostres contrasenyes no coincideixen."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:766
 msgid "Please provide a hostname."
-msgstr "Entreu un nom de host."
+msgstr "Proporcioneu un nom d'amfitrió."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:771
 msgid "Your username must be lower case."
@@ -520,7 +521,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid "Please select a root (/) partition."
-msgstr "Indiqueu una partició arrel (/)."
+msgstr "Seleccioneu una partició arrel (/)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:803
 msgid ""
@@ -546,7 +547,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:816
 msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "La partició EFI és massa petita. Ha de tenir almenys 100MB."
+msgstr "La partició EFI és massa petita. Ha de tenir almenys 100 MB."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:821
 #: usr/lib/live-installer/frontend/gtk_interface.py:825
@@ -591,7 +592,7 @@ msgstr "Idioma: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:881
 msgid "Timezone: "
-msgstr "Fus horari: "
+msgstr "Zona horària: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:882
 msgid "Keyboard layout: "
@@ -599,7 +600,7 @@ msgstr "Disposició de teclat: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:885
 msgid "User settings"
-msgstr "Paràmetres d'usuari"
+msgstr "Ajusts de l'usuari"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:886
 msgid "Real name: "
@@ -623,7 +624,7 @@ msgstr "desactivat"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:889
 msgid "System settings"
-msgstr "Paràmetres del sistema"
+msgstr "Ajusts del sistema"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:890
 msgid "Hostname: "
@@ -636,11 +637,11 @@ msgstr "Operacions del sistema de fitxers"
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 #, python-format
 msgid "Install bootloader on %s"
-msgstr "Instal·lar gestor d'arrencada en %s"
+msgstr "Instal·la el gestor d'arrencada a %s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:892
 msgid "Do not install bootloader"
-msgstr "No instal·leu el gestor d'arrencada"
+msgstr "No instal·lis el gestor d'arrencada"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:894
 msgid "Use already-mounted /target."
@@ -649,19 +650,19 @@ msgstr "Utilitza /target ja muntat."
 #: usr/lib/live-installer/frontend/gtk_interface.py:898
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
-msgstr "Formatar %(path)s com a %(filesystem)s"
+msgstr "Formata %(path)s com a %(filesystem)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:901
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
-msgstr "Muntar %(path)s com a %(mount)s"
+msgstr "Munta %(path)s com a %(mount)s"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:933
 #: usr/lib/live-installer/frontend/gtk_interface.py:937
 #: usr/lib/live-installer/frontend/gtk_interface.py:957
 #: usr/lib/live-installer/frontend/gtk_interface.py:965
 msgid "Installation error"
-msgstr "S'ha produït un error durant la instal·lació"
+msgstr "Error en la instal·lació"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "Installation paused"
@@ -689,15 +690,15 @@ msgstr "Edita"
 
 #: usr/lib/live-installer/partitioning.py:134
 msgid "Assign to /"
-msgstr "Assignar a /"
+msgstr "Assigna a /"
 
 #: usr/lib/live-installer/partitioning.py:137
 msgid "Assign to /home"
-msgstr "Assignar a /home"
+msgstr "Assigna a /home"
 
 #: usr/lib/live-installer/partitioning.py:143
 msgid "Assign to /boot/efi"
-msgstr "Assignar a /boot/efi"
+msgstr "Assigna a /boot/efi"
 
 #: usr/lib/live-installer/partitioning.py:198
 msgid "B"
@@ -760,7 +761,7 @@ msgstr "Dispositiu:"
 
 #: usr/lib/live-installer/partitioning.py:439
 msgid "Format as:"
-msgstr "Formatar com:"
+msgstr "Formata com:"
 
 #: usr/lib/live-installer/partitioning.py:440
 msgid "Mount point:"

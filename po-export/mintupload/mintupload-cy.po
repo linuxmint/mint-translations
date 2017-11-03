@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-07 13:03+0100\n"
-"PO-Revision-Date: 2014-11-19 09:44+0000\n"
+"POT-Creation-Date: 2017-10-27 13:16+0100\n"
+"PO-Revision-Date: 2017-11-01 11:25+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:41+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : (n != 8 && n != 11) ? "
+"2 : 3;\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -119,30 +121,34 @@ msgstr "GB"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:201
 #, python-format
-msgid "%(hours)d hours, %(minutes)d minutes"
-msgstr "%(hours)d awr, %(minutes)d munud"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d awr"
+msgstr[1] "%d awr"
+msgstr[2] "%d awr"
+msgstr[3] "%d awr"
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:203
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
 #, python-format
-msgid "1 hour, %d minutes"
-msgstr "1 awr, %d munud"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d munud"
+msgstr[1] "%d funud"
+msgstr[2] "%d munud"
+msgstr[3] "%d munud"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:205
-#, python-format
-msgid "%(minutes)d minutes, %(seconds)d seconds"
-msgstr "%(minutes)d munud, %(seconds)d eiliad"
-
 #: usr/lib/linuxmint/mintupload/mintupload.py:207
 #, python-format
-msgid "1 minute, %d seconds"
-msgstr "1 fund, %d eiliad"
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d eiliad"
+msgstr[1] "%d eiliad"
+msgstr[2] "%d eiliad"
+msgstr[3] "%d eiliad"
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:209
-#, python-format
-msgid "%d seconds"
-msgstr "%d eiliadau"
-
-#: usr/lib/linuxmint/mintupload/mintupload.py:238
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
 #, python-format
 msgid "Unknown service: %s"
 msgstr "Gwasanaeth anhysbys: %s"
@@ -200,25 +206,25 @@ msgstr "URL:"
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr "Nid yw %(1)s wedi ei osod yn ffeil config o dan %(2)s neu %(3)s"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:28
-#: usr/lib/linuxmint/mintupload/file-uploader.py:31
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
 msgstr "Gwasanaethau llwytho"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:58
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
 msgstr "Gwasanaethau:"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:72
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
 msgstr "Rheolwr llwytho..."
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:81
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
-msgstr ""
+msgstr "Gadael"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:134
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
 msgstr "Llusgo a Gludo i lwytho i %s"

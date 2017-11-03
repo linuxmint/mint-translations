@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-07 13:03+0100\n"
+"POT-Creation-Date: 2017-10-27 13:16+0100\n"
 "PO-Revision-Date: 2014-03-10 07:16+0000\n"
 "Last-Translator: Bista Nirooj <nirooj56@gmail.com>\n"
 "Language-Team: Nepali <ne@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:41+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -120,30 +121,28 @@ msgstr "जिबी"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:201
 #, python-format
-msgid "%(hours)d hours, %(minutes)d minutes"
-msgstr "%(hours)d घण्टा, %(minutes)d मिनट"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:203
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
 #, python-format
-msgid "1 hour, %d minutes"
-msgstr "१ घण्टा, %d मिनट"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:205
-#, python-format
-msgid "%(minutes)d minutes, %(seconds)d seconds"
-msgstr "%(minutes)d मिनट, %(seconds)d सेकेन्ड"
-
 #: usr/lib/linuxmint/mintupload/mintupload.py:207
 #, python-format
-msgid "1 minute, %d seconds"
-msgstr "१ मिनट, %d सेकेन्ड"
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:209
-#, python-format
-msgid "%d seconds"
-msgstr "%d सेकेन्ड"
-
-#: usr/lib/linuxmint/mintupload/mintupload.py:238
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
 #, python-format
 msgid "Unknown service: %s"
 msgstr "अज्ञात सर्विस: %s"
@@ -201,25 +200,25 @@ msgstr "यु.आर.एल:"
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr "कोन्फिग फाइलमा %(2)s वा %(3)s तल %(1)s निर्धारणा गरिएको छैन।"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:28
-#: usr/lib/linuxmint/mintupload/file-uploader.py:31
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
 msgstr "अप्लोअद सेरिभाइसहरु"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:58
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
 msgstr "सेवाहरु:"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:72
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
 msgstr "अप्लोअद म्यानेजर..."
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:81
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
 msgstr ""
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:134
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
 msgstr "%sमा अप्लोअद गर्न फाइल तानेर यहाँ छोड्नुहोस्।"

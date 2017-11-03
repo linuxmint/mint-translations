@@ -7,89 +7,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-02-07 10:44+0000\n"
+"POT-Creation-Date: 2017-10-27 12:58+0100\n"
 "PO-Revision-Date: 2017-02-08 06:34+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:49+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:42+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:38
+#: usr/lib/linuxmint/mintSources/mintSources.py:42
 msgid "You are about to remove the following PPA:"
 msgstr "다음 PPA를 제거하게 됩니다:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:41
-#: usr/lib/linuxmint/mintSources/mintSources.py:117
+#: usr/lib/linuxmint/mintSources/mintSources.py:45
+#: usr/lib/linuxmint/mintSources/mintSources.py:121
 #, python-format
 msgid " More info: %s"
 msgstr " 더 많은 정보: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:45
-#: usr/lib/linuxmint/mintSources/mintSources.py:121
+#: usr/lib/linuxmint/mintSources/mintSources.py:49
+#: usr/lib/linuxmint/mintSources/mintSources.py:125
 msgid "Press Enter to continue or Ctrl+C to cancel"
 msgstr "Enter키를 눌러서 계속하시거나 Ctrl+C 를 눌러서 취소하세요"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:49
-#: usr/lib/linuxmint/mintSources/mintSources.py:125
+#: usr/lib/linuxmint/mintSources/mintSources.py:53
+#: usr/lib/linuxmint/mintSources/mintSources.py:129
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "결과를 확인 할 수 없습니다. -y 옵션과 함께 실행해 보세요"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:53
+#: usr/lib/linuxmint/mintSources/mintSources.py:57
 msgid "Cancelling..."
 msgstr "취소하는 중..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:56
+#: usr/lib/linuxmint/mintSources/mintSources.py:60
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "PPA 정보를 가져올 수 없음: '%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:76
+#: usr/lib/linuxmint/mintSources/mintSources.py:80
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "PPA 제거 실패: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:93
+#: usr/lib/linuxmint/mintSources/mintSources.py:97
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "저장소 제거 실패: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:100
+#: usr/lib/linuxmint/mintSources/mintSources.py:104
 msgid "Adding PPAs is not supported"
 msgstr "PPA 추가를 지원하지 않습니다"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:107
-#: usr/lib/linuxmint/mintSources/mintSources.py:1066
+#: usr/lib/linuxmint/mintSources/mintSources.py:111
+#: usr/lib/linuxmint/mintSources/mintSources.py:1068
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "PPA를 추가할 수 없음: '%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:111
+#: usr/lib/linuxmint/mintSources/mintSources.py:115
 msgid "Adding private PPAs is not supported currently"
 msgstr "현재 비공개 PPA 추가는 지원하지 않습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:114
+#: usr/lib/linuxmint/mintSources/mintSources.py:118
 msgid "You are about to add the following PPA:"
 msgstr "다음 PPA를 추가하게 됩니다:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:173
-#: usr/lib/linuxmint/mintSources/mintSources.py:176
+#: usr/lib/linuxmint/mintSources/mintSources.py:177
+#: usr/lib/linuxmint/mintSources/mintSources.py:180
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "이 개별 저장소(PPA)는 %s를 지원하지 않습니다"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:324
-#: usr/lib/linuxmint/mintSources/mintSources.py:352
+#: usr/lib/linuxmint/mintSources/mintSources.py:328
+#: usr/lib/linuxmint/mintSources/mintSources.py:356
 msgid "Sources"
 msgstr "소스"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:331
+#: usr/lib/linuxmint/mintSources/mintSources.py:335
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (설치 디스크)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:371
+#: usr/lib/linuxmint/mintSources/mintSources.py:375
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -99,190 +99,190 @@ msgstr ""
 "리눅스 민트가 테스트 되지 않은 Romeo로 패키지를 만들고 있습니다. 이 패키지들이 테스트 되면, 공식 저장소로 옮겨질 겁니다, 그렇지 "
 "않은 경우에는 베타-테스팅 상태로 남을거구요, 이 저장소를 활성화 하지 말아 주세요. 정말 Romeo를 활성화 하시겠나요?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:399
+#: usr/lib/linuxmint/mintSources/mintSources.py:403
 msgid "Select a mirror"
 msgstr "미러 선택"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:410
+#: usr/lib/linuxmint/mintSources/mintSources.py:414
 msgid "Country"
 msgstr "국가"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:415
+#: usr/lib/linuxmint/mintSources/mintSources.py:419
 msgid "URL"
 msgstr "URL 주소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:420
+#: usr/lib/linuxmint/mintSources/mintSources.py:424
 msgid "Speed"
 msgstr "속도"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:443
+#: usr/lib/linuxmint/mintSources/mintSources.py:447
 msgid "Worldwide"
 msgstr "전 세계"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:516
-#: usr/lib/linuxmint/mintSources/mintSources.py:530
+#: usr/lib/linuxmint/mintSources/mintSources.py:520
+#: usr/lib/linuxmint/mintSources/mintSources.py:534
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:519
+#: usr/lib/linuxmint/mintSources/mintSources.py:523
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:522
+#: usr/lib/linuxmint/mintSources/mintSources.py:526
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:563
+#: usr/lib/linuxmint/mintSources/mintSources.py:567
 msgid "Obsolete"
 msgstr "오래됨"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:566
+#: usr/lib/linuxmint/mintSources/mintSources.py:570
 msgid "Unreachable"
 msgstr "손쓸 수 없음"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:687 generate_desktop_files:27
+#: usr/lib/linuxmint/mintSources/mintSources.py:691 generate_desktop_files:27
 #: generate_desktop_files:42
 msgid "Software Sources"
 msgstr "소프트웨어소스"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:704
+#: usr/lib/linuxmint/mintSources/mintSources.py:708
 msgid "Backported packages"
 msgstr "백포트 지원 패키지"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:706
+#: usr/lib/linuxmint/mintSources/mintSources.py:710
 msgid "Unstable packages"
 msgstr "불안정한 패키지"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:719
-#: usr/lib/linuxmint/mintSources/mintSources.py:1387
+#: usr/lib/linuxmint/mintSources/mintSources.py:723
+#: usr/lib/linuxmint/mintSources/mintSources.py:1389
 msgid "No action required"
 msgstr "아무것도 안해도 됩니다"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:725
 msgid "Official repositories"
 msgstr "공식 저장소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:722
+#: usr/lib/linuxmint/mintSources/mintSources.py:726
 msgid "PPAs"
 msgstr "개별 저장소(PPA)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:723
+#: usr/lib/linuxmint/mintSources/mintSources.py:727
 msgid "Additional repositories"
 msgstr "추가 저장소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
+#: usr/lib/linuxmint/mintSources/mintSources.py:728
 msgid "Authentication keys"
 msgstr "인증 키"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:725
+#: usr/lib/linuxmint/mintSources/mintSources.py:729
 msgid "Maintenance"
 msgstr "유지 관리"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:727
+#: usr/lib/linuxmint/mintSources/mintSources.py:731
 msgid "Mirrors"
 msgstr "미러 서버"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:728
+#: usr/lib/linuxmint/mintSources/mintSources.py:732
 msgid "Main"
 msgstr "주 OS"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:729
+#: usr/lib/linuxmint/mintSources/mintSources.py:733
 msgid "Base"
 msgstr "기반 OS"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:730
-#: usr/lib/linuxmint/mintSources/mintSources.py:731
+#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:735
 msgid "Select a faster server..."
 msgstr "빠른 서버 고르기..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:733
+#: usr/lib/linuxmint/mintSources/mintSources.py:737
 msgid "Optional components"
 msgstr "선택 사항"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:734
+#: usr/lib/linuxmint/mintSources/mintSources.py:738
 msgid "Source code"
 msgstr "소스 코드"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:736
+#: usr/lib/linuxmint/mintSources/mintSources.py:740
 msgid "Add a new PPA..."
 msgstr "새 PPA 추가..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:737
-#: usr/lib/linuxmint/mintSources/mintSources.py:743
+#: usr/lib/linuxmint/mintSources/mintSources.py:741
+#: usr/lib/linuxmint/mintSources/mintSources.py:747
 msgid "Edit URL..."
 msgstr "URL 편집..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:738
-#: usr/lib/linuxmint/mintSources/mintSources.py:744
+#: usr/lib/linuxmint/mintSources/mintSources.py:742
 #: usr/lib/linuxmint/mintSources/mintSources.py:748
+#: usr/lib/linuxmint/mintSources/mintSources.py:752
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:41
 msgid "Remove"
 msgstr "제거하기"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:739
+#: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid "Open PPA"
 msgstr "PPA 열어보기"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:740
+#: usr/lib/linuxmint/mintSources/mintSources.py:744
 msgid "Look inside the PPA and install packages it provides"
 msgstr "PPA를 들여다보고 제공하는 패키지를 설치합니다"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:742
+#: usr/lib/linuxmint/mintSources/mintSources.py:746
 msgid "Add a new repository..."
 msgstr "새 저장소 추가..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:746
+#: usr/lib/linuxmint/mintSources/mintSources.py:750
 msgid "Import key file..."
 msgstr "키 파일 추가..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:747
+#: usr/lib/linuxmint/mintSources/mintSources.py:751
 msgid "Download a key..."
 msgstr "키 파일 다운로드..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:750
+#: usr/lib/linuxmint/mintSources/mintSources.py:754
 msgid "Fix MergeList problems"
 msgstr "서버 병합 문제 해결"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:751
+#: usr/lib/linuxmint/mintSources/mintSources.py:755
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr "서버 병합 문제를 겪으셨으면, 이 버튼을 눌러서 문제를 해결해보세요."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:752
+#: usr/lib/linuxmint/mintSources/mintSources.py:756
 msgid "Purge residual configuration"
 msgstr "사용하지 않는 설정값 지우기"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:753
+#: usr/lib/linuxmint/mintSources/mintSources.py:757
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
 msgstr "패키지가 제거된 이후에도 설정 파일들이 시스템에 남아 있을 수 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:754
+#: usr/lib/linuxmint/mintSources/mintSources.py:758
 msgid "Remove foreign packages"
 msgstr "외래 패키지 제거"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:755
+#: usr/lib/linuxmint/mintSources/mintSources.py:759
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
 msgstr "저장소에서 가져오지 않은 패키지들 목록이며 지우실 수 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:756
+#: usr/lib/linuxmint/mintSources/mintSources.py:760
 msgid "Downgrade foreign packages"
 msgstr "외래 패키지 다운그레이드"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:757
+#: usr/lib/linuxmint/mintSources/mintSources.py:761
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
 msgstr "알려지지 않은 저장소에서 가져온 패키지들 버전 목록이며 다운그레이드 하실 수 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:762
+#: usr/lib/linuxmint/mintSources/mintSources.py:767
 msgid "Enable source code repositories"
 msgstr "소스 코드 저장소 활성화"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:772
+#: usr/lib/linuxmint/mintSources/mintSources.py:777
 msgid ""
 "Warning: Unstable packages can introduce regressions and negatively impact "
 "your system. Please do not enable these options in Linux Mint unless it was "
@@ -291,123 +291,115 @@ msgstr ""
 "주의: 불안정한 패키지는 리그레션을 불러오거나 시스템에 좋지 않은 영향을 줄 수 있습니다. 개발팀에게 제안받지 않으셨다면 이 옵션을 "
 "실행하지 말아주세요."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:836
-#: usr/lib/linuxmint/mintSources/mintSources.py:860
+#: usr/lib/linuxmint/mintSources/mintSources.py:841
+#: usr/lib/linuxmint/mintSources/mintSources.py:865
 msgid "Enabled"
 msgstr "사용중"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:842
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:37
+#: usr/lib/linuxmint/mintSources/mintSources.py:847
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:40
 msgid "PPA"
 msgstr "개별 저장소(PPA)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:866
+#: usr/lib/linuxmint/mintSources/mintSources.py:871
 msgid "Repository"
 msgstr "저장소"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:882
+#: usr/lib/linuxmint/mintSources/mintSources.py:887
 msgid "Key"
 msgstr "키 값"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:895
+#: usr/lib/linuxmint/mintSources/mintSources.py:900
 msgid "Restore the default settings"
 msgstr "기본 설정으로 복원"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:896
+#: usr/lib/linuxmint/mintSources/mintSources.py:901
 msgid "Restore the official repositories to their default settings"
 msgstr "공식 저장소를 기본 설정으로 복원"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:984
+#: usr/lib/linuxmint/mintSources/mintSources.py:986
 msgid "There is no more residual configuration on the system."
 msgstr "사용하지 않는 설정이 시스템에 더 남아 있습니다."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:990
+#: usr/lib/linuxmint/mintSources/mintSources.py:992
 msgid "The problem was fixed. Please reload the cache."
 msgstr "문제가 해결되었습니다. 캐시를 다시 불러오십시오."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1016
+#: usr/lib/linuxmint/mintSources/mintSources.py:1018
 msgid "Open.."
 msgstr "열기.."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1032
+#: usr/lib/linuxmint/mintSources/mintSources.py:1034
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr "keyserver.ubuntu.com에서 불러올 8자리의 공식 키를 넣어주십시오:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1045
+#: usr/lib/linuxmint/mintSources/mintSources.py:1047
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "이 키를 완전히 삭제하시겠습니까?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1059
+#: usr/lib/linuxmint/mintSources/mintSources.py:1061
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "추가하실 PPA의 이름을 넣어주세요:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1112
+#: usr/lib/linuxmint/mintSources/mintSources.py:1114
 msgid "Edit the URL of the PPA"
 msgstr "PPA 주소 편집"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1122
+#: usr/lib/linuxmint/mintSources/mintSources.py:1124
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "정말 이 PPA를 완전히 제거하시겠습니까?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1160
+#: usr/lib/linuxmint/mintSources/mintSources.py:1162
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr "이 PPA의 패키지들을 사용할 수 없습니다. 새로 고침 하신 후에 다시 시도해보세요"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1174
+#: usr/lib/linuxmint/mintSources/mintSources.py:1176
 msgid "Please enter the name of the repository you want to add:"
 msgstr "추가하실 저장소 이름을 넣어주세요:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1193
+#: usr/lib/linuxmint/mintSources/mintSources.py:1195
 msgid "Edit the URL of the repository"
 msgstr "저장소 주소 편집"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1203
+#: usr/lib/linuxmint/mintSources/mintSources.py:1205
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "정말 이 저장소를 완전히 제거하시겠습니까?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1381
+#: usr/lib/linuxmint/mintSources/mintSources.py:1383
 msgid "Update the cache"
 msgstr "캐시 업데이트"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1382
+#: usr/lib/linuxmint/mintSources/mintSources.py:1384
 msgid "Click here to update your APT cache with your new sources"
 msgstr "새 소스에서 APT 캐시를 업데이트 하시려면 여기를 클릭하세요"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1388
+#: usr/lib/linuxmint/mintSources/mintSources.py:1390
 msgid "Your APT cache is up to date"
 msgstr "APT 캐시가 업데이트 되었습니다"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:46
 msgid "Install"
 msgstr "설치하기"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:46
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:50
 msgid "Cancel"
 msgstr "취소"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:47
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:50
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install:"
 msgstr "이 PPA는 다음의 패키지들을 제공합니다. 설치하시려는 패키지를 골라주세요:"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:78
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:81
 #, python-format
 msgid "version %s already installed"
 msgstr "%s 버전이 이미 설치되어 있습니다"
-
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:119
-msgid "Please wait, this can take some time."
-msgstr "잠시만 기다려 주세요, 이 작업에는 약간의 시간이 걸립니다."
-
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:121
-msgid "The packages were installed."
-msgstr "패키지들을 설치했습니다."
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:31
 msgid "Foreign packages"
@@ -430,7 +422,7 @@ msgid ""
 msgstr "아래 패키지들은 여러분의 컴퓨터에 설치는 되어 있지만 저장소에는 없는 것들입니다:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:47
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:198
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:190
 msgid "Select All"
 msgstr "모두 선택"
 
@@ -455,7 +447,7 @@ msgstr "설치된 버전"
 msgid "Repository version"
 msgstr "저장소 버전"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:201
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:193
 msgid "Clear"
 msgstr "정리"
 

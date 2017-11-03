@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-07 13:03+0100\n"
-"PO-Revision-Date: 2016-08-16 16:30+0000\n"
+"POT-Creation-Date: 2017-10-27 13:16+0100\n"
+"PO-Revision-Date: 2017-07-27 03:34+0000\n"
 "Last-Translator: tuxmaniack <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:41+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -117,30 +118,28 @@ msgstr "GB"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:201
 #, python-format
-msgid "%(hours)d hours, %(minutes)d minutes"
-msgstr ""
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:203
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
 #, python-format
-msgid "1 hour, %d minutes"
-msgstr ""
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:205
-#, python-format
-msgid "%(minutes)d minutes, %(seconds)d seconds"
-msgstr ""
-
 #: usr/lib/linuxmint/mintupload/mintupload.py:207
 #, python-format
-msgid "1 minute, %d seconds"
-msgstr ""
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
 
-#: usr/lib/linuxmint/mintupload/mintupload.py:209
-#, python-format
-msgid "%d seconds"
-msgstr "%d sekundes"
-
-#: usr/lib/linuxmint/mintupload/mintupload.py:238
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
 #, python-format
 msgid "Unknown service: %s"
 msgstr ""
@@ -198,28 +197,28 @@ msgstr "URL:"
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr ""
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:28
-#: usr/lib/linuxmint/mintupload/file-uploader.py:31
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
 msgstr "Augšupielāžu pakalpojumi"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:58
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
 msgstr "Pakalpojumi:"
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:72
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
 msgstr "Augšupielāžu pārvaldnieks..."
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:81
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
 msgstr ""
 
-#: usr/lib/linuxmint/mintupload/file-uploader.py:134
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
-msgstr ""
+msgstr "Velciet un nometiet šeit, lai augšupielādētu uz %s"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:53
 msgid "_File"
@@ -240,7 +239,7 @@ msgstr "Par"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:120
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr ""
+msgstr "<b>Lūdzu, ievadiet jaunā augšupielādes pakalpojuma nosaukumu:</b>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:124
 msgid "Service name:"
@@ -248,7 +247,7 @@ msgstr "Pakalpojuma nosaukums:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:127
 msgid "<i>Try to avoid spaces and special characters...</i>"
-msgstr ""
+msgstr "<i>Centieties izvairīties no atstarpēm un īpašajām rakstzīmēm...</i>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:204
 #, python-format
@@ -296,11 +295,12 @@ msgstr "Saimniekdatora nosaukums vai IP adrese, noklusējums: "
 #: usr/lib/linuxmint/mintupload/upload-manager.py:225
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
 msgstr ""
+"Attālinātais ports, noklusējums ir 21 priekš FTP, 22 priekš SFTP un SCP"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:228
 #: usr/lib/linuxmint/mintupload/upload-manager.py:229
 msgid "Username, defaults to your local username"
-msgstr ""
+msgstr "Lietotājvārds, pēc noklusējuma jūsu vietējais lietotājvārds"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:232
 #: usr/lib/linuxmint/mintupload/upload-manager.py:233

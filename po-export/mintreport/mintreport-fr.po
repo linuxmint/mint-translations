@@ -1,0 +1,174 @@
+# French translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-10-04 11:21+0100\n"
+"PO-Revision-Date: 2017-10-09 11:37+0000\n"
+"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:47+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "System Reports"
+msgstr "Rapports système"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:229
+msgid "Are you sure you want to delete this report?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce rapport ?"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:230
+msgid "The report will be permanently deleted and will no longer be visible."
+msgstr "Ce rapport sera définitivement supprimé et ne sera plus visible."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:293
+#, python-format
+msgid ""
+"The file %s could not be read.\n"
+"Please fix its permissions."
+msgstr ""
+"Impossible de lire le fichier %s.\n"
+"Veuillez corriger ses permissions."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#, python-format
+msgid ""
+"The debug symbols are missing for %(program)s.\n"
+"Please install %(package)s."
+msgstr ""
+"Les symboles de débogage sont introuvables pour %(program)s.\n"
+"Veuillez installer %(package)s."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#, python-format
+msgid ""
+"The package providing %s could not be found.\n"
+"If you want to generate a stack trace for this crash report, please "
+"reinstall it."
+msgstr ""
+"Le paquet fournissant %s est introuvable.\n"
+"Pour générer une trace de pile pour ce rapport de plantage, veuillez le "
+"réinstaller."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:372
+msgid ""
+"The headers or binaries installed on your system do not match the code which "
+"was executed during the crash.\n"
+"They probably got upgraded since.\n"
+"A stack trace is available in 'Local Files' but its content is probably "
+"inaccurate."
+msgstr ""
+"Les fichiers binaires ou d'entêtes installés sur ce système ne correspondent "
+"pas au code exécuté lors du plantage.\n"
+"Il ont probablement été mis à jour depuis.\n"
+"Un trace de pile est disponible dans 'Fichiers locaux' mais son contenu "
+"n'est probablement pas fidèle."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:410
+msgid "The report could not be deleted."
+msgstr "Impossible de supprimer le rapport"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:411
+#, python-format
+msgid "Check the permissions for /var/crash and %s."
+msgstr "Vérifiez les permissions de  /var/crash et de %s."
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Troubleshoot problems"
+msgstr "Dépannage de problèmes"
+
+#: generate_desktop_files:41
+msgid "Troubleshooting Tool"
+msgstr "Outil de dépannage"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Crash reports:"
+msgstr "Rapports de plantage :"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid "Stack trace:"
+msgstr "Trace de la pile :"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid ""
+"When seeking help, check for existing bug reports, pastebin the trace, share "
+"crash.tar.gz (from Local Files) and explain how to reproduce the crash."
+msgstr ""
+"Si vous demandez de l'aide, cherchez parmi les rapports de bogues existants, "
+"téléversez la trace sur pastebin, partagez le fichier crash.tar.gz (Fichiers "
+"locaux) et expliquez comment reproduire la plantage."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Local Files"
+msgstr "Fichiers locaux"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "Open the directory containing crash.tar.gz and its content."
+msgstr "Ouvrir le dossier parent de crash.tar.gz et son contenu."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Bug Tracker"
+msgstr "Suivi des bogues"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid "Find the most appropriate bug tracker."
+msgstr "Trouver le suivi de bogues le plus approprié."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+msgid "Upload the trace to the Internet."
+msgstr "Téléverser la trace de pile sur Internet."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
+msgid "Delete"
+msgstr "Supprimer"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
+msgid "Delete this crash report."
+msgstr "Supprimer ce rapport de plantage."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+msgid ""
+"Developers need to know where the code fails or how to reproduce the issue. "
+"Always provide a trace and reliable instructions to trigger/observe the "
+"problem."
+msgstr ""
+"Les développeurs ont besoin de savoir où se trouve l'erreur dans le code ou "
+"bien comment reproduire le bogue. Veillez à toujours fournir une trace de "
+"pile et les instructions nécessaires pour déclencher ou observer le problème."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+msgid "Crash reports"
+msgstr "Rapports de plantage"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+msgid "Information reports:"
+msgstr "Rapports d'information :"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+msgid "Report:"
+msgstr "Rapport :"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+msgid "Delete this report"
+msgstr "Supprimer ce rapport"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+msgid "Note: Information reports can only be shown in English."
+msgstr "Note :  les rapports d'information sont uniquement en anglais."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+msgid "Information reports"
+msgstr "Rapports d'information"
