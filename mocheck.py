@@ -111,13 +111,13 @@ class Main:
         self.treeview.append_column(column)
 
         cr = Gtk.CellRendererText()
-        column = Gtk.TreeViewColumn("MsgId", cr, markup=COL_MSGID)
+        column = Gtk.TreeViewColumn("MsgId", cr, text=COL_MSGID)
         cr.set_property('wrap-mode', Pango.WrapMode.WORD_CHAR)
         cr.set_property('wrap-width', 450)
         self.treeview.append_column(column)
 
         cr = Gtk.CellRendererText()
-        column = Gtk.TreeViewColumn("MsgStr", cr, markup=COL_MSGSTR)
+        column = Gtk.TreeViewColumn("MsgStr", cr, text=COL_MSGSTR)
         cr.set_property('wrap-mode', Pango.WrapMode.WORD_CHAR)
         cr.set_property('wrap-width', 450)
         self.treeview.append_column(column)
