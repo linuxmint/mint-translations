@@ -22,7 +22,7 @@ for project in ["blueberry", "lightdm-settings", "mdm", "nemo-emblems", "folder-
 		os.system("mv %s FOREIGN/" % project)
 
 # projects which require locale.po, as opposed to project-locale.po filenames
-for project in ["folder-color-switcher", "mdm", "pix", "xed", "xplayer", "xreader", "xviewer", "slideshow-mint", "slideshow-mint-kde"]:
+for project in ["folder-color-switcher", "mdm", "pix", "xed", "xplayer", "xreader", "xviewer", "slick-greeter", "slideshow-mint", "slideshow-mint-kde"]:
 	if os.path.exists("FOREIGN/%s" % project):
 		os.system("rename 's/%s-//' FOREIGN/%s/*.po" % (project, project))
 
