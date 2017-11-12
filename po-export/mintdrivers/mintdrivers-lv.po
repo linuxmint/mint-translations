@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-26 15:10+0000\n"
+"POT-Creation-Date: 2017-09-11 15:47+0100\n"
 "PO-Revision-Date: 2016-08-16 16:44+0000\n"
 "Last-Translator: tuxmaniack <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
@@ -15,31 +15,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:42+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:53+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
-#: generate_desktop_files:42
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:41 generate_desktop_files:28
+#: generate_desktop_files:43
 msgid "Driver Manager"
 msgstr "Draiveru pārvaldnieks"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:38
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:45
 msgid "Re_vert"
 msgstr "Atsaukt i_zmaiņas"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:40
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:47
 msgid "_Apply Changes"
 msgstr "_Apstiprināt izmaiņas"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:42
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:49
 msgid "_Cancel"
 msgstr "At_celt"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:44
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:51
 msgid "_Restart..."
 msgstr "_Restartēt..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:78
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -49,64 +49,75 @@ msgstr ""
 "Lūdzu izveidojiet savienojumu ar internetu vai ievietojiet Linux Mint "
 "instalācijas DVD (vai USB zibatmiņu)."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:188
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:198
 msgid "Applying changes..."
 msgstr "Apstiprina izmaiņas..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:352
 msgid "This device is using the recommended driver."
 msgstr "Šī ierīce izmanto ieteicamo draiveri."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:353
 msgid "This device is using an alternative driver."
 msgstr "Šī ierīce izmanto alternatīvo draiveri."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:354
 msgid "This device is using a manually-installed driver."
 msgstr "Šī ierīce izmanto manuāli instalētu draiveri."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:355
 msgid "This device is not working."
 msgstr "Šī ierīce nedarbojas."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:364
 msgid "Continue using a manually installed driver"
 msgstr "Turpināt izmantot manuāli instalēto draiveri"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:391
 msgid "Version"
 msgstr "Versija"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:394
 msgid "recommended"
 msgstr "ieteiktais"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:396
 msgid "open-source"
 msgstr "atvērtā pirmkoda"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:399
 msgid "requires a connection to the Internet"
 msgstr "nepieciešams interneta savienojums"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:423
 msgid "Do not use the device"
 msgstr "Neizmantot šo ierīci"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:441
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:442
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:504
 msgid "Unknown"
 msgstr "Nezināma"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:465
+msgid "Processor"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:486
+msgid "Processor microcode"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:538
+msgid "Do not update the CPU microcode"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:573
 msgid "You need to restart the computer to complete the driver changes."
 msgstr ""
 "Jums ir jārestartē dators, lai tiktu pabeigtas ar draiveriem saistītās "
 "izmaiņas."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:587
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -114,7 +125,7 @@ msgstr[0] "tiek izmantots %(count)d īpašniekprogrammatūras draiveris"
 msgstr[1] "tiek izmantoti %(count)d īpašniekprogrammatūras draiveri"
 msgstr[2] "tiek izmantoti %(count)d īpašniekprogrammatūras draiveri"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:592
 msgid "No proprietary drivers are in use."
 msgstr "Netiek izmantoti īpašniekprogrammatūras draiveri."
 
@@ -122,6 +133,6 @@ msgstr "Netiek izmantoti īpašniekprogrammatūras draiveri."
 msgid "Please enter your password to launch the driver manager"
 msgstr "Lūdzu, ievadiet paroli, lai palaistu draiveru pārvaldnieku"
 
-#: generate_desktop_files:26 generate_desktop_files:42
+#: generate_desktop_files:28 generate_desktop_files:43
 msgid "Manage the drivers for your devices"
 msgstr "Pārvaldīt draiverus jūsu ierīcēm"

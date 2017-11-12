@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:03+0100\n"
-"PO-Revision-Date: 2017-10-27 22:02+0000\n"
-"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
+"PO-Revision-Date: 2017-11-07 12:14+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:38+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:47+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:32
 msgid "Backups"
@@ -31,19 +31,19 @@ msgstr "Eina de còpies de seguretat"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:222
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr "%s no es troba a la carpeta personal"
+msgstr "%s no es troba a la vostra carpeta d'usuari."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:262
 msgid "Please choose a directory."
-msgstr "Trieu una carpeta."
+msgstr "Trieu un directori."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:265
 msgid "You do not have the permission to write in the selected directory."
-msgstr "No teniu permís per escriure a la carpeta seleccionada."
+msgstr "No teniu permís per escriure al directori seleccionat."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:325
 msgid "Please choose a backup file."
-msgstr "Trieu un arxiu de còpia de seguretat."
+msgstr "Trieu un fitxer de còpia de seguretat."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:333
 msgid ""
@@ -64,7 +64,7 @@ msgstr "No cal instal·lar cap paquet."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:363
 msgid "Please select packages to install."
-msgstr "Trieu els paquets a instal·lar."
+msgstr "Seleccioneu els paquets a instal·lar."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:417
 #, python-format
@@ -91,15 +91,15 @@ msgstr "S'ha cancel·lat la còpia de seguretat."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr "Els arxius s'han guardat correctament a %s."
+msgstr "Els vostres fitxers s'han desat correctament a %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
-"Avís: No s'ha pogut desar l'arxiu meta. Aquesta còpia de seguretat no es "
-"podrà restaurar."
+"Avís: No s'ha pogut desar el fitxer meta. Aquesta còpia de seguretat no serà "
+"acceptada per a la restauració."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
@@ -107,8 +107,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
-"Avís: Alguns arxius no s'han desat. Només s'han desat %(archived)d de "
-"%(total)d arxius."
+"Avís: No s'han desat alguns fitxers. Només s'han desat %(archived)d dels "
+"%(total)d fitxers."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:547
 msgid "Restoring:"
@@ -120,26 +120,26 @@ msgstr "S'ha cancel·lat la restauració."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "Your files were successfully restored."
-msgstr "Els fitxers s'han restaurat correctament."
+msgstr "Els vostres fitxers s'han restaurat correctament."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr "Avís: Només s'han restaurat %(number)d de %(total)d arxius."
+msgstr "Avís: Només s'han restaurat %(number)d dels %(total)d fitxers."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:710
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr "La selecció de programari s'ha guardat a %s"
+msgstr "La selecció de programari s'ha desat a %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:726
 msgid "The selected file is not a valid software selection."
-msgstr "L'arxiu seleccionat no és una selecció de programari vàlida."
+msgstr "El fitxer seleccionat no és una selecció vàlida de programari."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:731
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:760
 msgid "An error occurred while reading the file."
-msgstr "Hi ha hagut un error llegint l'arxiu."
+msgstr "Hi ha hagut un error mentre es llegia el fitxer."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:748
 msgid "Could not locate the package."
@@ -147,7 +147,7 @@ msgstr "No s'ha pogut localitzar el paquet."
 
 #: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
-msgstr "Feu una còpia de seguretat del vostre directori d'inici"
+msgstr "Feu una còpia de seguretat de la vostra carpeta personal"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -156,7 +156,7 @@ msgstr "Dades personals"
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
 msgstr ""
-"Els vostres arxius, opcions i contingut de la vostra carpeta personal."
+"Els vostres fitxers, opcions i contingut de la vostra carpeta personal"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
@@ -164,7 +164,7 @@ msgstr "Restaura..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr "Fes còpia de seguretat ara..."
+msgstr "Fes ara la còpia de seguretat..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
@@ -172,38 +172,38 @@ msgstr "Selecció de programari"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr "La llista d'aplicacions instal·lades en l'equip"
+msgstr "La llista d'aplicacions instal·lades al vostre ordinador"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr "Trieu on voleu guardar l'arxiu de còpia de seguretat:"
+msgstr "Seleccioneu on voleu desar el fitxer de còpia de seguretat:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
-"Afegiu arxius o carpetes a la llista de sota per excloure'ls de la còpia de "
-"seguretat."
+"Afegiu fitxers o directoris a la llista de sota per excloure'ls de la còpia "
+"de seguretat."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
-msgstr "Exclou fitxers"
+msgstr "Exclou els fitxers"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
 msgid "Exclude directories"
-msgstr "Exclou directoris"
+msgstr "Exclou els directoris"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
 msgid "Remove"
-msgstr "Elimina"
+msgstr "Suprimeix"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
 msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
-"Els arxius i carpetes ocults ubicats a l'arrel de la vostra carpeta no "
+"Els fitxers i carpetes ocults ubicats a l'arrel de la vostra carpeta no "
 "s'inclouen per defecte."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
@@ -211,32 +211,32 @@ msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
-"Si voleu incloure cap d'ells en la còpia de seguretat, afegiu-los a la "
+"Si en voleu incloure alguns d'ells a la còpia de seguretat, afegiu-los a la "
 "llista de sota."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr "Inclou arxius"
+msgstr "Inclou els fitxers"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr "Inclou carpetes"
+msgstr "Inclou els directoris"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
-"Aquests arxius i carpetes normalment contenen dades temporals o opcions de "
+"Aquests fitxers i carpetes normalment contenen dades temporals o opcions de "
 "les aplicacions."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr "Espereu mentre es fa còpia de seguretat dels arxius."
+msgstr "Espereu mentre es fa còpia de seguretat dels vostres fitxers."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr "Trieu la còpia de seguretat a restaurar:"
+msgstr "Seleccioneu la còpia de seguretat a restaurar:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
@@ -247,9 +247,9 @@ msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
-"No, només restaura els fitxers que falten..\n"
+"No, únicament restaura els fitxers que falten.\n"
 "<small>Aquesta opció és segura i no afecta als vostres fitxers "
-"existents</small>"
+"existents.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -264,27 +264,27 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr "Espereu mentre es restauren els arxius."
+msgstr "Espereu mentre es restauren els vostres fitxers."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
-"La llista de sota mostra les aplicacions que ha instal·lat amb el gestor de "
+"La llista de sota mostra les aplicacions que heu instal·lat amb el gestor de "
 "programari."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr "Trieu les aplicacions que voleu guardar."
+msgstr "Seleccioneu les aplicacions que voleu desar."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
-msgstr "Selecciona tot"
+msgstr "Selecciona-ho tot"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect all"
-msgstr "Deselecciona tot"
+msgstr "Deselecciona-ho tot"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -293,16 +293,16 @@ msgid ""
 "terminal."
 msgstr ""
 "Nota: Si voleu desar la llista completa de tots els paquets instal·lats en "
-"el sistema, utilitzeu l'ordre 'dpkg --get-selections> mylist.list' en una "
+"el sistema, utilitzeu l'ordre 'dpkg --get-selections> mylist.list' en un "
 "terminal."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr "Trieu una selecció de programari desada (arxiu .list):"
+msgstr "Seleccioneu una selecció de programari desada (fitxer .list):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr "Trieu els paquets que voleu instal·lar."
+msgstr "Seleccioneu els paquets que voleu instal·lar."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"

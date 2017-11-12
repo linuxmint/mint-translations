@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:42
 msgid "Menu preferences"
@@ -137,9 +137,9 @@ msgstr "Εφαρμογές"
 msgid "Theme"
 msgstr "Θέμα"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:66
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:189
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:190
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
 msgid "Favorites"
 msgstr "Αγαπημένα"
 
@@ -347,9 +347,9 @@ msgstr "Επιλέξτε επιταχυντή."
 msgid "<not set>"
 msgstr "<μη ορισμένο>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:31
-msgid "Recent documents"
-msgstr "Πρόσφατα έγγραφα"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
+msgid "Recently used"
+msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
 msgid "Search:"
@@ -547,6 +547,12 @@ msgstr "Περιήγηση στα διεγραμμένα αρχεία"
 msgid "Empty trash"
 msgstr "Άδειασμα απορριμμάτων"
 
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+
 #~ msgid "Application removed successfully"
 #~ msgstr "Η εφαρμογή αφαιρέθηκε επιτυχώς"
 
@@ -561,6 +567,9 @@ msgstr "Άδειασμα απορριμμάτων"
 
 #~ msgid "File not found"
 #~ msgstr "Το αρχείο δεν βρέθηκε"
+
+#~ msgid "Recent documents"
+#~ msgstr "Πρόσφατα έγγραφα"
 
 #, python-format
 #~ msgid "Search repositories for '%s'"

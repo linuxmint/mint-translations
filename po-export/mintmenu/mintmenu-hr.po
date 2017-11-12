@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-05-06 16:17+0100\n"
-"PO-Revision-Date: 2016-11-23 17:04+0000\n"
+"PO-Revision-Date: 2017-11-11 22:34+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:30
 msgid "Menu"
@@ -126,9 +126,9 @@ msgstr "Aplikacije"
 msgid "Theme"
 msgstr "Tema"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:66
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:189
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:190
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
 msgid "Favorites"
 msgstr "Omiljeno"
 
@@ -336,9 +336,9 @@ msgstr "Odaberi prečac"
 msgid "<not set>"
 msgstr "<nije postavljeno>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:31
-msgid "Recent documents"
-msgstr "Nedavni dokumenti"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
+msgid "Recently used"
+msgstr "Nedavno korišteno"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
 msgid "Search:"
@@ -539,6 +539,14 @@ msgstr "Pretraži obrisane datoteke"
 msgid "Empty trash"
 msgstr "Isprazni smeće"
 
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+"Nemoguće spremanje nedavnih aplikacija. Provjerite imate li dozvolu "
+"zapisivanja u ~/.linuxmint/mintMenu"
+
 #~ msgid "Based on USP from S.Chanderbally"
 #~ msgstr "Zasnovano na USP od S.Chanderbally"
 
@@ -608,3 +616,6 @@ msgstr "Isprazni smeće"
 
 #~ msgid "Borders:"
 #~ msgstr "Rubovi:"
+
+#~ msgid "Recent documents"
+#~ msgstr "Nedavni dokumenti"

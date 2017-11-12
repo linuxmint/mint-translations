@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-05-06 16:17+0100\n"
-"PO-Revision-Date: 2016-11-24 10:51+0000\n"
+"PO-Revision-Date: 2017-11-11 15:48+0000\n"
 "Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:30
 msgid "Menu"
@@ -126,9 +126,9 @@ msgstr "Anwendungen"
 msgid "Theme"
 msgstr "Thema"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:66
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:189
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:190
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
 msgid "Favorites"
 msgstr "Favoriten"
 
@@ -339,9 +339,9 @@ msgstr "Tastenkombination auswählen"
 msgid "<not set>"
 msgstr "<nicht eingestellt>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:31
-msgid "Recent documents"
-msgstr "Zuletzt verwendet"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
+msgid "Recently used"
+msgstr "Kürzlich verwendet"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
 msgid "Search:"
@@ -543,6 +543,14 @@ msgstr "Gelöschte Dateien durchsuchen"
 msgid "Empty trash"
 msgstr "Papierkorb leeren"
 
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+"Kürzlich verwendete Anwendungen konnten nicht gespeichert werden. Bitte "
+"überprüfen, ob Sie Schreibzugriff auf »~/.linuxmint/mintMenu« haben."
+
 #~ msgid "Show sidepane"
 #~ msgstr "Seitenleiste anzeigen"
 
@@ -613,3 +621,6 @@ msgstr "Papierkorb leeren"
 
 #~ msgid "Border width:"
 #~ msgstr "Rahmenbreite:"
+
+#~ msgid "Recent documents"
+#~ msgstr "Zuletzt verwendet"

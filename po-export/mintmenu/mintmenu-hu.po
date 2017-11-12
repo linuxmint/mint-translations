@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: mintmenu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-06 16:17+0100\n"
-"PO-Revision-Date: 2016-11-25 08:16+0000\n"
+"PO-Revision-Date: 2017-11-12 07:01+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:30
@@ -127,9 +127,9 @@ msgstr "Alkalmazások"
 msgid "Theme"
 msgstr "Téma"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:66
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:189
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:190
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
 msgid "Favorites"
 msgstr "Kedvencek"
 
@@ -340,9 +340,9 @@ msgstr "Gyorsbillentyű választása"
 msgid "<not set>"
 msgstr "<nincs beállítva>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:31
-msgid "Recent documents"
-msgstr "Legutóbbi dokumentumok"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
+msgid "Recently used"
+msgstr "Nemrég használt"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
 msgid "Search:"
@@ -543,6 +543,14 @@ msgstr "Törölt fájlok tallózása"
 msgid "Empty trash"
 msgstr "Kuka ürítése"
 
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+"Nem menthető el a nemrég használt alkalmazások listája. Ellenőrizze, hogy "
+"van-e írási jogosultsága a „~/.linuxmint/mintMenu” fájlra."
+
 #~ msgid "Show sidepane"
 #~ msgstr "Oldalpanel megjelenítése"
 
@@ -596,6 +604,9 @@ msgstr "Kuka ürítése"
 #, python-format
 #~ msgid "Show package '%s'"
 #~ msgstr "A(z) '%s' csomag megjelenítése"
+
+#~ msgid "Recent documents"
+#~ msgstr "Legutóbbi dokumentumok"
 
 #~ msgid "Based on USP from S.Chanderbally"
 #~ msgstr "S.Chanderbally USP-je alapján"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-26 15:10+0000\n"
+"POT-Creation-Date: 2017-09-11 15:47+0100\n"
 "PO-Revision-Date: 2015-11-26 21:49+0000\n"
 "Last-Translator: samson <Unknown>\n"
 "Language-Team: Amharic <am@li.org>\n"
@@ -15,31 +15,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:42+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:53+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
-#: generate_desktop_files:42
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:41 generate_desktop_files:28
+#: generate_desktop_files:43
 msgid "Driver Manager"
 msgstr "የ Driver አስተዳዳሪ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:38
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:45
 msgid "Re_vert"
 msgstr "ወደ_ነበረበት መመለሻ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:40
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:47
 msgid "_Apply Changes"
 msgstr "_ለውጦችን መፈጸሚያ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:42
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:49
 msgid "_Cancel"
 msgstr "_መሰረዣ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:44
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:51
 msgid "_Restart..."
 msgstr "_እንደገና ማስጀመሪያ..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:78
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -48,69 +48,80 @@ msgstr ""
 "Drivers መግጠም አልተቻለም.\n"
 "እባክዎን ከ ኢተርኔት ጋር ይገናኙ ወይንም የ ሊነክስ ሚንትን መግጠሚያ ዲቪዲ ወይንም ( USB stick) ያስገቡ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:188
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:198
 msgid "Applying changes..."
 msgstr "ለውጦችን በመፈጸም ላይ..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:352
 msgid "This device is using the recommended driver."
 msgstr "አካሉ የሚጠቀመው የተጠቆመውን driver ነው"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:353
 msgid "This device is using an alternative driver."
 msgstr "አካሉ የሚጠቀመው አማራጭ driver ነው"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:354
 msgid "This device is using a manually-installed driver."
 msgstr "አካሉ የሚጠቀመው በእጅ-የተገጠመ driver ነው"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:355
 msgid "This device is not working."
 msgstr "ይህ አካል አይሰራም"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:364
 msgid "Continue using a manually installed driver"
 msgstr "በእጅ የተገጠመውን driver መጠቀም ቀጥል"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:391
 msgid "Version"
 msgstr "እትም"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:394
 msgid "recommended"
 msgstr "የተጠቆመው"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:396
 msgid "open-source"
 msgstr "open-source"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:399
 msgid "requires a connection to the Internet"
 msgstr "ወደ ኢንተርኔት መገናኘት ያስፈልጋል"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:423
 msgid "Do not use the device"
 msgstr "አካሉን አትጠቀም"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:441
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:442
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:504
 msgid "Unknown"
 msgstr "ያልታወቀ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:465
+msgid "Processor"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:486
+msgid "Processor microcode"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:538
+msgid "Do not update the CPU microcode"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:573
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "የ driver ለውጦችን ተግባራዊ ለማድረግ ኮምፒዩተሩን እንደገና ማስነሳት ያስፈልጋል"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:587
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
 msgstr[0] "%(count)d ባለቤቱ የሰራውን driver በመጠቀም ላይ"
 msgstr[1] "%(count)d ባለቤቱ የሰራቸውን drivers በመጠቀም ላይ"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:592
 msgid "No proprietary drivers are in use."
 msgstr "ባለቤቱ የሰራቸውን drivers በመጠቀም ላይ አይደሉም"
 
@@ -118,6 +129,6 @@ msgstr "ባለቤቱ የሰራቸውን drivers በመጠቀም ላይ አይደ
 msgid "Please enter your password to launch the driver manager"
 msgstr "እባክዎን የመግቢያ ቃልዎን ያስገቡ የ driver አስተዳዳሪውን ለማስጀመር"
 
-#: generate_desktop_files:26 generate_desktop_files:42
+#: generate_desktop_files:28 generate_desktop_files:43
 msgid "Manage the drivers for your devices"
 msgstr "ለእርስዎ አካላቶች የ Driver አስተዳዳሪ"

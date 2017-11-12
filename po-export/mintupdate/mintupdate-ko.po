@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 16:38+0100\n"
-"PO-Revision-Date: 2017-06-28 17:39+0000\n"
+"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"PO-Revision-Date: 2017-11-10 14:05+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:45+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -1146,13 +1146,10 @@ msgstr "신중하게 진행하기"
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
-"inability to boot the computer. Only install or remove kernels if you are "
-"experienced with kernels, drivers, DKMS modules and you know how to recover "
-"a non-booting computer."
+"inability to boot the computer."
 msgstr ""
-"리눅스 커널은 시스템의 핵심 부분입니다. 리그레션을 하면 네트워크, 소리, 그래픽 환경 등이 좋지 않을 수 있으며 심지어 컴퓨터를 "
-"부팅하지 못할 수도 있습니다. 여러분이 커널, 드라이버, DKMS 모듈 등을 다뤄보셨거나 부팅이 불가능한 컴퓨터를 복구할 줄 아시는 "
-"경우에만 설치하거나 제거하세요."
+"리눅스 커널은 시스템의 중요한 부분입니다. 퇴행으로 인해 네트워크나, 사운드, 혹은 그래픽의 환경 마비나 컴퓨터의 부팅이 되지 않을 수 "
+"도 있습니다."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
 msgid ""
@@ -1210,11 +1207,11 @@ msgstr "해당 업그레이드는 추가적인 변경을 일으킵니다."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
 msgid "The following packages will be removed:"
-msgstr ""
+msgstr "다음의 패키지들이 제거됩니다:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
 msgid "The following packages will be installed:"
-msgstr ""
+msgstr "다음 패키지들이 설치됩니다:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
@@ -1311,15 +1308,13 @@ msgstr "선택된 업데이트가 없습니다"
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgid_plural "%(selected)d updates selected (%(size)s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(selected)d개 업데이트 항목의 크기(%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
 msgid "%d update available"
 msgid_plural "%d updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d개의 업데이트가 가능합니다"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
@@ -1343,8 +1338,7 @@ msgstr "%s에 연결할 수 없습니다"
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d day ago"
 msgid_plural "The last update on %(mirror)s was %(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "미러 서버 %(mirror)s 에서 마지막 업데이트는 %(days)d일 전에 있었습니다"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
@@ -1596,7 +1590,7 @@ msgstr "정보"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
 msgid "Packages included in this update:"
-msgstr ""
+msgstr "이번 업데이트에 포함된 패키지들:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"
@@ -2028,3 +2022,14 @@ msgstr "업그레이드를 할 수 있도록 패스워드를 입력하십시오.
 #~ "Note: The list only gets refreshed while the mintUpdate window is closed "
 #~ "(system tray mode)."
 #~ msgstr "참고: 업데이트 목록은 업데이트 관리자의 창이 닫혀있을 때에만 자동으로 갱신됩니다. (시스템 트레이 모드)"
+
+#~ msgid ""
+#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
+#~ "lack of networking, lack of sound, lack of graphical environment or even the "
+#~ "inability to boot the computer. Only install or remove kernels if you are "
+#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
+#~ "a non-booting computer."
+#~ msgstr ""
+#~ "리눅스 커널은 시스템의 핵심 부분입니다. 리그레션을 하면 네트워크, 소리, 그래픽 환경 등이 좋지 않을 수 있으며 심지어 컴퓨터를 "
+#~ "부팅하지 못할 수도 있습니다. 여러분이 커널, 드라이버, DKMS 모듈 등을 다뤄보셨거나 부팅이 불가능한 컴퓨터를 복구할 줄 아시는 "
+#~ "경우에만 설치하거나 제거하세요."

@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:30
 msgid "Menu"
@@ -126,9 +126,9 @@ msgstr "Programet"
 msgid "Theme"
 msgstr "Tema"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:66
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:189
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:190
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
 msgid "Favorites"
 msgstr "Të Preferuara"
 
@@ -338,9 +338,9 @@ msgstr "Pick një përshpejtues"
 msgid "<not set>"
 msgstr "<Nuk është caktuar>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:31
-msgid "Recent documents"
-msgstr "Dokumentet e fundit"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
+msgid "Recently used"
+msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
 msgid "Search:"
@@ -542,6 +542,12 @@ msgstr "Shfletoni skedarët e fshirë"
 msgid "Empty trash"
 msgstr "Zbraze koshin"
 
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+
 #~ msgid "Please wait, this can take some time"
 #~ msgstr "Ju lutemi të prisni, kjo mund të zgjasë pak"
 
@@ -580,6 +586,9 @@ msgstr "Zbraze koshin"
 
 #~ msgid "File not found"
 #~ msgstr "Skedari nuk u gjet"
+
+#~ msgid "Recent documents"
+#~ msgstr "Dokumentet e fundit"
 
 #, python-format
 #~ msgid "Search repositories for '%s'"

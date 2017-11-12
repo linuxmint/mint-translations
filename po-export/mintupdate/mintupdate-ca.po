@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 16:38+0100\n"
-"PO-Revision-Date: 2017-10-27 22:01+0000\n"
+"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"PO-Revision-Date: 2017-11-10 16:56+0000\n"
 "Last-Translator: Isidro Pisa <isidro@utils.info>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:45+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -204,9 +204,9 @@ msgid ""
 "fine-tune which levels you want to show and which levels you want to "
 "preselect. This is your computer and so you can tune it the way you want."
 msgstr ""
-"L'administrador d'actualitzacions és molt configurable. Podeu anar a les "
+"El gestor d'actualitzacions és molt configurable. Podeu anar a les "
 "preferències i ajustar amb detall els nivells que voleu mostrar i què voleu "
-"preseleccionar. És el vostre equip i podeu configurar-lo al vostre gust."
+"preseleccionar. És el vostre ordinador i podeu configurar-lo al vostre gust."
 
 #: usr/share/help/C/mintupdate/policy.page:23(p)
 msgid ""
@@ -234,7 +234,7 @@ msgstr ""
 msgid ""
 "For security reasons, kernel updates (which are level 4) are always visible."
 msgstr ""
-"Per raons de seguretat, les actualitzacions del nucli (que són de nivell 4) "
+"Per raons de seguretat, les actualitzacions del kernel (que són de nivell 4) "
 "sempre són visibles."
 
 #: usr/share/help/C/mintupdate/policy.page:30(p)
@@ -288,7 +288,7 @@ msgid ""
 "know how to seek help."
 msgstr ""
 "La seguretat també és important, però algunes actualitzacions de seguretat "
-"(i les del nucli en particular) afecten a parts sensibles del sistema. "
+"(i les del kernel en particular) afecten a parts sensibles del sistema. "
 "Aquestes actualitzacions són visibles i es recomana als usuaris novells "
 "seleccionar-les i aplicar-les amb cura, de forma aïllada i idealment amb "
 "l'ajuda d'un usuari expert, o després de familiaritzar-se amb els fòrums i "
@@ -360,7 +360,7 @@ msgid ""
 "The Update Manager provides a command line utility called \"mintupdate-"
 "tool\"."
 msgstr ""
-"L'Administrador d'Actualitzacions proporciona una utilitat de línia d'ordres "
+"El gestor d'actualitzacions proporciona una utilitat de línia d'ordres "
 "anomenada \"mintupdate-tool\"."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:23(p)
@@ -395,7 +395,7 @@ msgstr "Podeu afegir les actualitzacions de seguretat amb -s."
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:37(p)
 msgid "You can add kernel updates with -k, or remove them with -nk."
 msgstr ""
-"Podeu afegir les actualitzacions del nucli amb -k, o eliminar-les amb -nk."
+"Podeu afegir les actualitzacions del kernel amb -k, o eliminar-les amb -nk."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:39(p)
 msgid ""
@@ -413,14 +413,14 @@ msgstr "mintupdate-tool list -l12 -s -nk"
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:47(title)
 #: usr/share/help/C/mintupdate/index.page:35(title)
 msgid "Applying updates"
-msgstr "Aplicar actualitzacions"
+msgstr "Aplicació de les actualitzacions"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:49(p)
 msgid ""
 "You can use the \"upgrade\" command to apply updates, using the same options."
 msgstr ""
-"Es pot utilitzar l'ordre \"upgrade\" per aplicar les actualitzacions, usant "
-"les mateixes opcions."
+"Podeu utilitzar l'ordre \"upgrade\" per aplicar les actualitzacions, "
+"mitjançant les mateixes opcions."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:51(p)
 msgid ""
@@ -766,11 +766,11 @@ msgstr ""
 
 #: usr/share/help/C/mintupdate/levels.page:114(p)
 msgid "The kernel (hardware support)"
-msgstr "El nucli (suport de maquinari)"
+msgstr "El kernel (suport de maquinari)"
 
 #: usr/share/help/C/mintupdate/levels.page:115(p)
 msgid "The drivers (networking, NVIDIA/AMD)"
-msgstr "Els drivers (xarxes, NVIDIA / AMD)"
+msgstr "Els controladors (xarxes, NVIDIA / AMD)"
 
 #: usr/share/help/C/mintupdate/levels.page:116(p)
 msgid "The display (Xorg, mesa)"
@@ -808,8 +808,8 @@ msgid ""
 "versions you're applying."
 msgstr ""
 "Per aquest motiu, heu de tenir cura en aplicar actualitzacions de nivell 4 "
-"(incloent-hi les del nucli). Apliqueu-les una per una i prengueu nota de les "
-"versions que apliqueu."
+"(incloent-hi les del kernel). Apliqueu-les una per una i prengueu nota de "
+"les versions que apliqueu."
 
 #: usr/share/help/C/mintupdate/levels.page:129(p)
 msgid ""
@@ -877,19 +877,19 @@ msgstr ""
 
 #: usr/share/help/C/mintupdate/kernels.page:16(desc)
 msgid "Kernels and kernel updates"
-msgstr "Nuclis i actualitzacions del nucli"
+msgstr "Kernels i actualitzacions del kernel"
 
 #: usr/share/help/C/mintupdate/kernels.page:19(title)
 #: usr/share/help/C/mintupdate/index.page:41(title)
 msgid "Kernel updates"
-msgstr "Actualitzacions del nucli"
+msgstr "Actualitzacions del kernel"
 
 #: usr/share/help/C/mintupdate/kernels.page:21(p)
 msgid ""
 "The kernel is the central part of the operating system. Among other things, "
 "it is responsible for hardware support."
 msgstr ""
-"El nucli és la part central del sistema operatiu. Entre altres coses, és "
+"El kernel és la part central del sistema operatiu. Entre altres coses, és "
 "responsable del suport del maquinari."
 
 #: usr/share/help/C/mintupdate/kernels.page:25(p)
@@ -897,7 +897,7 @@ msgid ""
 "From a security point of view, it is important to apply kernel updates."
 msgstr ""
 "Des del punt de vista de la seguretat, és important aplicar les "
-"actualitzacions del nucli."
+"actualitzacions del kernel."
 
 #: usr/share/help/C/mintupdate/kernels.page:27(p)
 msgid ""
@@ -905,7 +905,7 @@ msgid ""
 "Internet, to start your desktop environment or even to boot the operating "
 "system."
 msgstr ""
-"Una regressió del nucli pot impedir connectar-se a Internet, o arrencar "
+"Una regressió del kernel pot impedir connectar-se a Internet, o arrencar "
 "l'entorn d'escriptori, o fins i tot arrencar el sistema operatiu."
 
 #: usr/share/help/C/mintupdate/kernels.page:29(p)
@@ -914,11 +914,11 @@ msgid ""
 "and to know how to revert them when something goes wrong."
 msgstr ""
 "Per aquesta raó és important ser cautelós en aplicar actualitzacions del "
-"nucli i saber com revertir-les si alguna cosa surt malament."
+"kernel i saber com revertir-les si alguna cosa surt malament."
 
 #: usr/share/help/C/mintupdate/kernels.page:32(title)
 msgid "Multiple kernels can be installed"
-msgstr "Es poden instal·lar diversos nuclis"
+msgstr "Es poden instal·lar diversos kernels"
 
 #: usr/share/help/C/mintupdate/kernels.page:34(p)
 msgid ""
@@ -934,31 +934,31 @@ msgid ""
 "update\", you don't actually update the kernel, you install a new kernel "
 "alongside the existing one."
 msgstr ""
-"Les coses són diferents amb el nucli. Quan s'aplica una \"actualització de "
-"nucli\", realment s'instal·la un nou nucli al costat del ja existent."
+"Les coses són diferents amb els kernels. Quan s'aplica una \"actualització "
+"del kernel\", realment s'instal·la un kernel nou al costat del ja existent."
 
 #: usr/share/help/C/mintupdate/kernels.page:38(p)
 msgid ""
 "Every time you apply a kernel update, you install a new kernel on the "
 "system, without removing the old ones."
 msgstr ""
-"Cada vegada que s'aplica una actualització del nucli, s'instal·la un nou "
-"nucli en el sistema, sense eliminar els antics."
+"Cada vegada que s'aplica una actualització del kernel, s'instal·la un kernel "
+"nou en el sistema, sense eliminar els antics."
 
 #: usr/share/help/C/mintupdate/kernels.page:40(p)
 msgid "At boot time, the computer selects the most recent one."
-msgstr "En l'arrencada, l'equip en selecciona el més recent."
+msgstr "En l'arrencada, l'ordinador selecciona el més recent."
 
 #: usr/share/help/C/mintupdate/kernels.page:45(title)
 msgid "Identifying the current kernel"
-msgstr "Identificar el nucli actual"
+msgstr "Identificació del kernel actual"
 
 #: usr/share/help/C/mintupdate/kernels.page:47(p)
 msgid ""
 "If you want to know which kernel you are currently using, open a terminal "
 "and type:"
 msgstr ""
-"Si voleu saber quin nucli s'està usant actualment, obriu un terminal i "
+"Si voleu saber quin kernel esteu utilitzant actualment, obriu un terminal i "
 "escriviu:"
 
 #: usr/share/help/C/mintupdate/kernels.page:49(screen)
@@ -968,35 +968,34 @@ msgstr "uname -a"
 
 #: usr/share/help/C/mintupdate/kernels.page:54(title)
 msgid "Installing and removing kernels"
-msgstr "Instal·lar i eliminar nuclis"
+msgstr "Instal·lació i eliminació de kernels"
 
 #: usr/share/help/C/mintupdate/kernels.page:56(p)
 msgid "You can install and remove kernels from the Update Manager."
-msgstr ""
-"Es poden instal·lar i eliminar nuclis amb l'Administrador d'Actualitzacions."
+msgstr "Podeu instal·lar i eliminar kernels amb el gestor d'actualitzacions."
 
 #: usr/share/help/C/mintupdate/kernels.page:58(p)
 msgid "Select \"View\" -&gt; \"Linux Kernels\" in the menu."
-msgstr "Seleccioneu \"Veure\" - \"Nuclis de Linux\" al menú."
+msgstr "Seleccioneu \"Visualitza\" - \"Kernels de Linux\" al menú."
 
 #: usr/share/help/C/mintupdate/kernels.page:60(p)
 msgid ""
 "You cannot remove the kernel you are currently using. To remove it, you need "
 "to reboot and select a different kernel to boot with."
 msgstr ""
-"No es pot esborrar el nucli que està en ús. Per fer-ho, cal reiniciar "
-"l'ordinador i seleccionar un nucli diferent per arrencar."
+"No es pot esborrar el kernel que està en ús. Per fer-ho, cal reiniciar "
+"l'ordinador i seleccionar un kernel diferent per arrencar."
 
 #: usr/share/help/C/mintupdate/kernels.page:65(title)
 msgid "Selecting a kernel"
-msgstr "Seleccionar un nucli"
+msgstr "Selecció d'un kernel"
 
 #: usr/share/help/C/mintupdate/kernels.page:67(p)
 msgid ""
 "You can have multiple kernels installed, but you can only run one kernel at "
 "a time."
 msgstr ""
-"Es poden tenir diversos nuclis instal·lats, però només es pot executar un "
+"Podeu tenir diversos kernels instal·lats, però només es pot executar un "
 "alhora."
 
 #: usr/share/help/C/mintupdate/kernels.page:69(p)
@@ -1005,8 +1004,9 @@ msgid ""
 "This menu allows you to choose operating systems but you can also use it to "
 "select a kernel."
 msgstr ""
-"Quan arrenca l'equip, la primera pantalla és el menú grub. Aquest menú "
-"permet escollir el sistema operatiu, però també es pot triar el nucli."
+"Quan arrenque l'ordinador, la primera pantalla és el menú grub. Aquest menú "
+"permet escollir el sistema operatiu, però també podeu utilitzar-la per "
+"seleccionar un kernel."
 
 #: usr/share/help/C/mintupdate/kernels.page:71(p)
 msgid ""
@@ -1014,9 +1014,9 @@ msgid ""
 "skip the Grub menu. To force the Grub menu to show, boot the computer and "
 "keep pressing the left <key>Shift</key> key."
 msgstr ""
-"Si només hi ha un sistema operatiu, la seqüència d'inici pot saltar-se el "
-"menú grub. Per forçar l'aparició del menú Grub, inicieu l'equip i mantingueu "
-"premut <key>Shift</ key> esquerra."
+"Si només teniu instal·lat un sistema operatiu, la seqüència d'inici pot "
+"saltar-se el menú grub. Per forçar l'aparició del menú Grub, inicieu "
+"l'ordinador i mantingueu premuda la tecla <key>Shift</ key> esquerra."
 
 #: usr/share/help/C/mintupdate/kernels.page:73(p)
 msgid ""
@@ -1024,9 +1024,9 @@ msgid ""
 "see all the kernels currently installed. Select the one you want to use and "
 "your computer will boot with that one."
 msgstr ""
-"Per a seleccionar un nucli, seleccioneu \"Opcions avançades\" al menú grub. "
-"S'haurien de veure tots els nuclis instal·lats. Trieu el que vulgueu usar i "
-"l'equip arrencarà amb ell."
+"Per a seleccionar un kernel, seleccioneu \"Opcions avançades\" al menú grub. "
+"S'haurien de veure tots els kernels instal·lats. Seleccioneu el que vulgueu "
+"utilitzar i l'ordinador arrencarà amb ell."
 
 #: usr/share/help/C/mintupdate/kernels.page:78(title)
 msgid "Checking the DKMS status"
@@ -1039,18 +1039,18 @@ msgid ""
 "they need to compile themselves against every kernel you install. This is "
 "done via a mechanism called DKMS."
 msgstr ""
-"El nucli inclou tots els drivers open source i normalment funcionen molt bé. "
-"Els drivers propietaris (NVIDIA, AMD, Broadcom ... etc) no s'inclouen i han "
-"autocompilar-se en cada nucli que s'instal·la. Això es fa mitjançant un "
-"mecanisme anomenat DKMS."
+"El kernel inclou tots els controladors de codi obert i normalment funcionen "
+"molt bé. Els controladors propietaris (NVIDIA, AMD, Broadcom, etc) no "
+"s'inclouen i han de compilar-se en cada nucli que els instal·leu. Això es fa "
+"mitjançant un mecanisme anomenat DKMS."
 
 #: usr/share/help/C/mintupdate/kernels.page:82(p)
 msgid ""
 "If a proprietary driver isn't properly recompiled with DKMS for one of your "
 "kernels, it will not function correctly with that kernel."
 msgstr ""
-"Si un driver propietari no es recompila adequadament amb DKMS en algun dels "
-"nuclis, no funcionarà correctament amb aquest nucli."
+"Si un controlador propietari no està adequadament recompilat amb DKMS per a "
+"algun dels vostres kernels, no funcionarà correctament amb aquest kernel."
 
 #: usr/share/help/C/mintupdate/kernels.page:84(p)
 msgid ""
@@ -1058,9 +1058,9 @@ msgid ""
 "make sure all proprietary drivers are properly installed for each of your "
 "kernels with the following command:"
 msgstr ""
-"Després d'instal·lar o suprimir un nucli, es pot comprovar l'estat DKMS, per "
-"assegurar-se que tots els drivers propietaris estan ben instal·lats a cada "
-"nucli, amb la comanda següent:"
+"Després d'instal·lar o suprimir un kernel, podeu comprovar l'estat DKMS, per "
+"assegurar-vos que tots els controladors propietaris estan correctament "
+"instal·lats per a cadascun dels vostres kernels, amb l'ordre següent:"
 
 #: usr/share/help/C/mintupdate/kernels.page:86(screen)
 #, no-wrap
@@ -1074,14 +1074,14 @@ msgid ""
 "recommended to stick to kernel updates and not to install kernels from "
 "series which are newer than the series of the recommended kernels."
 msgstr ""
-"Les noves sèries del nucli solen estar disponibles abans que els drivers "
-"propietaris les donin suport via DKMS. Si utilitzeu drivers propietaris, "
-"s'aconsella no instal·lar nuclis de sèries més recents que la sèrie del "
-"nucli recomanada."
+"Les noves sèries de kernels solen estar disponibles abans que els "
+"controladors propietaris els hi donin suport via DKMS. Si utilitzeu "
+"controladors propietaris, s'aconsella no instal·lar kernels de sèries més "
+"recents que la sèrie recomanada del kernel."
 
 #: usr/share/help/C/mintupdate/kernels.page:93(title)
 msgid "Reverting a kernel update"
-msgstr "Revertir una actualització del nucli"
+msgstr "Reversió d'una actualització del kernel"
 
 #: usr/share/help/C/mintupdate/kernels.page:95(p)
 msgid ""
@@ -1089,9 +1089,9 @@ msgid ""
 "latest kernel update), reboot, select the kernel you were previously using, "
 "remove the new kernel and reboot again."
 msgstr ""
-"Si alguna cosa no funciona amb l'últim nucli que ha instal·lat (o "
-"actualitzat), reinicieu i trieu el nucli que es feia servir anteriorment, "
-"esborreu el nou nucli i torneu a reiniciar."
+"Si alguna cosa no funciona amb l'últim kernel que heu instal·lat (o "
+"actualitzat), reinicieu i trieu el kernel que es feia servir anteriorment, "
+"esborreu el kernel nou i torneu a reiniciar."
 
 #: usr/share/help/C/mintupdate/index.page:18(title)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:919
@@ -1118,8 +1118,8 @@ msgid ""
 "Updates are important because they keep your computer safe, eliminate bugs "
 "and can even add new features to your operating system."
 msgstr ""
-"Les actualitzacions són importants perquè mantenen segur l'equip, eliminen "
-"errors i poden afegir noves funcionalitats al sistema operatiu."
+"Les actualitzacions són importants perquè mantenen segur l'ordinador, "
+"eliminen errors i poden afegir noves funcionalitats al sistema operatiu."
 
 #: usr/share/help/C/mintupdate/index.page:24(p)
 msgid ""
@@ -1136,8 +1136,8 @@ msgid ""
 "caution and be prepared in case something goes wrong."
 msgstr ""
 "Es recomana aplicar les actualitzacions de seguretat, però també comprendre "
-"com poden afectar l'equip, de manera que vostè pugui revisar-les, aplicar-"
-"les amb compte i estar preparat si alguna cosa falla."
+"com poden afectar al vostre ordinador, de manera que podeu revisar-les, "
+"aplicar-les amb compte i estar preparat si alguna cosa falla."
 
 #: usr/share/help/C/mintupdate/index.page:29(title)
 msgid "Core concepts"
@@ -1155,7 +1155,7 @@ msgstr "Aquesta secció explica els nivells i polítiques d'actualització."
 
 #: usr/share/help/C/mintupdate/index.page:43(p)
 msgid "This section explains kernel updates."
-msgstr "Aquesta secció explica les actualitzacions del nucli."
+msgstr "Aquesta secció explica les actualitzacions del kernel."
 
 #: usr/share/help/C/mintupdate/index.page:47(title)
 msgid "Advanced techniques"
@@ -1199,13 +1199,14 @@ msgid ""
 "using proprietary drivers and you want to use an older kernel, you will need "
 "to remove the new one first."
 msgstr ""
-"El nucli o kernel de Linux dóna suport al maquinari i els controladors. "
-"Aquesta actualització no eliminarà el nucli. Encara podreu arrencar amb el "
-"nucli actual, mitjançant les opcions avançades del menú d'arrencada. Però "
-"sigueu prudent: una regressió en el nucli pot impedir la connexió a internet "
-"o l'inici gràfic de sessió. Els mòduls DKMS es compilen per al nucli més "
-"recent instal·lat en l'equip. Si utilitzeu controladors propietaris i voleu "
-"fer servir un nucli més antic, haureu d'eliminar primer el més modern."
+"El Kernel de Linux dóna suport al maquinari i controladors.Tingueu amb "
+"compte que aquesta actualització no eliminarà el vostre kernel existent. "
+"Encara podreu arrencar amb el kernel actual, mitjançant les opcions "
+"avançades del menú d'arrencada. Però sigueu prudent: una regressió en el "
+"kernel pot impedir la connexió a internet o l'inici gràfic de sessió. Els "
+"mòduls DKMS es compilen per al kernel més recent instal·lat al vostre "
+"ordinador. Si utilitzeu controladors propietaris i voleu fer servir un "
+"kernel més antic, haureu d'eliminar primer el més modern."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
 msgid "Please wait, this can take some time"
@@ -1241,7 +1242,7 @@ msgstr "Aquest kernel no es pot instal·lar."
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
-msgstr "Segur que voleu desinstal·lar el kernel %s?"
+msgstr "Esteu segur que voleu suprimir el kernel %s?"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
 #, python-format
@@ -1250,7 +1251,7 @@ msgstr "Esteu segur que voleu instal·lar el kernel %s?"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
 msgid "Kernels"
-msgstr "Nuclis"
+msgstr "Kernels"
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
 msgid "Continue"
@@ -1272,15 +1273,11 @@ msgstr "Procediu amb compte"
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
-"inability to boot the computer. Only install or remove kernels if you are "
-"experienced with kernels, drivers, DKMS modules and you know how to recover "
-"a non-booting computer."
+"inability to boot the computer."
 msgstr ""
-"El kernel de Linux és una part crítica del sistema. Les regressions poden "
-"produir errors en la connexió a la xarxa, el so, l'entorn gràfic i fins i "
-"tot fer que l'ordinador no arrenqui. Instal·leu o elimineu kernels només si "
-"teniu experiència amb kernels, controladors, mòduls DKMS i sabeu com reparar "
-"un ordinador que no arrenca."
+"El nucli de Linux és una part crítica del sistema. Les regressions poden "
+"provocar pèrdua de connexió a la xarxa, manca de so o d'entorn gràfic o fins "
+"i tot fer que l'equip no arrenqui."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
 msgid ""
@@ -1288,9 +1285,9 @@ msgid ""
 "section, to make sure you know how to select kernels, how to revert updates "
 "and how to check your DKMS status."
 msgstr ""
-"Abans d'instal·lar o eliminar nuclis, llegiu la secció d'ajuda, per informar-"
-"vos de com seleccionar nuclis, com revertir actualitzacions i com comprovar "
-"l'estat de DKMS."
+"Abans d'instal·lar o eliminar kernels, llegiu la secció d'ajuda, per "
+"informar-vos de com seleccionar kernels, com revertir actualitzacions i com "
+"comprovar l'estat de DKMS."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
@@ -1599,8 +1596,8 @@ msgid ""
 "Show security and kernel updates so I can review them and apply them with "
 "caution."
 msgstr ""
-"Mostra les actualitzacions de seguretat i del nucli perquè pugui revisar-les "
-"i aplicar-les amb cura."
+"Mostra les actualitzacions de seguretat i del kernel perquè pugui revisar-"
+"les i aplicar-les amb cura."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1111
 msgid "Let me review sensitive updates"
@@ -1615,7 +1612,7 @@ msgid ""
 "Select security updates and updates which do not impact important parts of "
 "the operating systems."
 msgstr ""
-"Selecciona les actualitzacions de seguretat i del nucli que no afectin a "
+"Selecciona les actualitzacions de seguretat i del kernel que no afectin a "
 "parts importants del sistema operatiu."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
@@ -1623,7 +1620,7 @@ msgid ""
 "Show kernel updates and sensitive updates so I can review them and apply "
 "them with caution."
 msgstr ""
-"Mostra les actualitzacions sensibles i del nucli perquè pugui revisar-les i "
+"Mostra les actualitzacions sensibles i del kernel perquè pugui revisar-les i "
 "aplicar-les amb cura."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1115
@@ -1648,7 +1645,7 @@ msgid ""
 "(very rare) are always hidden. You can change this and fine-tune your policy "
 "in the preferences."
 msgstr ""
-"Les actualitzacions de seguretat i del nucli sempre són visibles, i les que "
+"Les actualitzacions de seguretat i del kernel sempre són visibles, i les que "
 "tenen problemes coneguts (molt poc freqüents) sempre estan ocultes. Podeu "
 "canviar això i ajustar la política en les preferències."
 
@@ -1691,7 +1688,7 @@ msgstr "Selecciona les actualitzacions de seguretat"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1218
 msgid "Select kernel updates"
-msgstr "Selecciona les actualitzacions del nucli"
+msgstr "Selecciona les actualitzacions del kernel"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1244
 #, python-format
@@ -1752,7 +1749,7 @@ msgstr "Ignora les actualitzacions d'aquest paquet"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1706
 msgid "Process ID:"
-msgstr "Identificador del procés:"
+msgstr "Identificador de procés:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1707
 msgid "Log file:"
@@ -1843,7 +1840,7 @@ msgstr "Mostra sempre les actualitzacions del kernel"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1877
 msgid "Always select kernel updates"
-msgstr "Selecciona sempre les actualitzacions del nucli"
+msgstr "Selecciona sempre les actualitzacions del kernel"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1878
 msgid "minutes"
@@ -2208,3 +2205,16 @@ msgstr "Introduïu la contrasenya per realitzar l'actualització"
 #~ "encara no estan instal·lats no s'instal·len automàticament i les versions "
 #~ "més noves de paquets, les dependències dels quals requerixen instal·lacions "
 #~ "similars, simplement s'ignoren."
+
+#~ msgid ""
+#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
+#~ "lack of networking, lack of sound, lack of graphical environment or even the "
+#~ "inability to boot the computer. Only install or remove kernels if you are "
+#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
+#~ "a non-booting computer."
+#~ msgstr ""
+#~ "El kernel de Linux és una part crítica del sistema. Les regressions poden "
+#~ "produir errors en la connexió a la xarxa, el so, l'entorn gràfic i fins i "
+#~ "tot fer que l'ordinador no arrenqui. Instal·leu o elimineu kernels només si "
+#~ "teniu experiència amb kernels, controladors, mòduls DKMS i sabeu com reparar "
+#~ "un ordinador que no arrenca."

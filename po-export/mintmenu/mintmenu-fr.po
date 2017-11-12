@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-05-06 16:17+0100\n"
-"PO-Revision-Date: 2017-05-04 15:18+0000\n"
-"Last-Translator: Phan Hoang <phahoatho@gmail.com>\n"
+"PO-Revision-Date: 2017-11-11 10:32+0000\n"
+"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:37+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:30
 msgid "Menu"
@@ -126,9 +126,9 @@ msgstr "Applications"
 msgid "Theme"
 msgstr "Thème"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:66
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:189
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:190
+#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
 msgid "Favorites"
 msgstr "Favoris"
 
@@ -336,9 +336,9 @@ msgstr "Choisissez un raccourci"
 msgid "<not set>"
 msgstr "<non configuré>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:31
-msgid "Recent documents"
-msgstr "Documents récents"
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
+msgid "Recently used"
+msgstr "Récents"
 
 #: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
 msgid "Search:"
@@ -540,6 +540,14 @@ msgstr "Parcourir les fichiers supprimés"
 msgid "Empty trash"
 msgstr "Vider la corbeille"
 
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+"Erreur lors de la sauvegarde des applications récentes. Vérifiez l'accès en "
+"écriture à ~/.linuxmint/mintMenu"
+
 #~ msgid "Show recent documents"
 #~ msgstr "Afficher les documents récents"
 
@@ -563,6 +571,9 @@ msgstr "Vider la corbeille"
 
 #~ msgid "File not found"
 #~ msgstr "Fichier introuvable"
+
+#~ msgid "Recent documents"
+#~ msgstr "Documents récents"
 
 #~ msgid "Not a valid .menu file"
 #~ msgstr "Ceci n'est pas un fichier .menu valide"

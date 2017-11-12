@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-11-26 15:10+0000\n"
+"POT-Creation-Date: 2017-09-11 15:47+0100\n"
 "PO-Revision-Date: 2017-03-10 17:40+0000\n"
 "Last-Translator: GunChleoc <Unknown>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -17,32 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:42+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:53+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 "Language: gd\n"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:34 generate_desktop_files:26
-#: generate_desktop_files:42
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:41 generate_desktop_files:28
+#: generate_desktop_files:43
 msgid "Driver Manager"
 msgstr "Manaidsear nan draibhearan"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:38
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:45
 msgid "Re_vert"
 msgstr "Ai_sig"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:40
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:47
 msgid "_Apply Changes"
 msgstr "_Cuir an sàs na h-atharraichean"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:42
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:49
 msgid "_Cancel"
 msgstr "Sguir _dheth"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:44
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:51
 msgid "_Restart..."
 msgstr "_Ath-thòisich..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:69
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:78
 msgid ""
 "Drivers cannot be installed.\n"
 "Please connect to the Internet or insert the Linux Mint installation DVD (or "
@@ -52,65 +52,76 @@ msgstr ""
 "Ceangail ris an eadar-lìon no cuir a-steach DVD (no bioran USB) stàladh "
 "Linux Mint."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:188
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:198
 msgid "Applying changes..."
 msgstr "A' cur an sàs nan atharraichean..."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:334
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:352
 msgid "This device is using the recommended driver."
 msgstr "Tha an t-uidheam seo a' cleachdadh an draibheir a mholar."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:335
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:353
 msgid "This device is using an alternative driver."
 msgstr "Tha an t-uidheam seo a' cleachdadh draibhear eile."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:336
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:354
 msgid "This device is using a manually-installed driver."
 msgstr ""
 "Tha an t-uidheam seo a' cleachdadh draibhear a chaidh a stàladh de làimh."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:337
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:355
 msgid "This device is not working."
 msgstr "Chan eil an t-uidheam seo ag obair."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:346
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:364
 msgid "Continue using a manually installed driver"
 msgstr "Cum a' dol a' cleachdadh draibhear a chaidh a stàladh de làimh"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:373
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:391
 msgid "Version"
 msgstr "Tionndadh"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:376
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:381
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:394
 msgid "recommended"
 msgstr "air a mholadh"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:378
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:396
 msgid "open-source"
 msgstr "bun-tùs fosgailte"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:384
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:399
 msgid "requires a connection to the Internet"
 msgstr "bidh feum air ceangal dhan eadar-lìn"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:408
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:423
 msgid "Do not use the device"
 msgstr "Na cleachd an t-uidheam seo"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:426
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:427
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:471
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:441
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:442
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:504
 msgid "Unknown"
 msgstr "Neo-aithnichte"
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:539
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:465
+msgid "Processor"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:486
+msgid "Processor microcode"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:538
+msgid "Do not update the CPU microcode"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:573
 msgid "You need to restart the computer to complete the driver changes."
 msgstr ""
 "Feumaidh tu an coimpiutair ath-thòiseachadh gus atharrachadh an draibheir a "
 "choileanadh."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:553
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:587
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -119,7 +130,7 @@ msgstr[1] "%(count)d dhraibhear malairteach 'ga chleachdadh."
 msgstr[2] "%(count)d draibhearan malairteach 'ga chleachdadh."
 msgstr[3] "%(count)d draibhear malairteach 'ga chleachdadh."
 
-#: usr/lib/linuxmint/mintDrivers/mintDrivers.py:558
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:592
 msgid "No proprietary drivers are in use."
 msgstr "Chan eil draibhearan malairteach 'gan cleachdadh."
 
@@ -129,6 +140,6 @@ msgstr ""
 "Cuir am facal-faire agad a-steach gus manaidsear nan draibhearan a chur gu "
 "dol"
 
-#: generate_desktop_files:26 generate_desktop_files:42
+#: generate_desktop_files:28 generate_desktop_files:43
 msgid "Manage the drivers for your devices"
 msgstr "Stiùirich draibhearan nan uidheaman agad"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: mintstick\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-07 12:22+0100\n"
-"PO-Revision-Date: 2017-05-07 14:54+0000\n"
-"Last-Translator: Úr Balázs <urbalazs@gmail.com>\n"
+"PO-Revision-Date: 2017-11-12 06:57+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:42+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-12 09:53+0000\n"
+"X-Generator: Launchpad (build 18505)\n"
 "Language: hu\n"
 
 #: lib/mintstick.py:82
@@ -76,7 +76,7 @@ msgstr "A lemezkép sikeresen ki lett írva."
 
 #: lib/mintstick.py:414
 msgid "Not enough space on the USB stick."
-msgstr "Nincs elég hely a pendrive-on."
+msgstr "Nincs elég hely a pendrive eszközön."
 
 #: lib/mintstick.py:416
 msgid "An error occured while copying the image."
@@ -109,7 +109,8 @@ msgstr " "
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr "Ez minden adatot megsemmisít a pendrive-on, biztosan folytatja?"
+msgstr ""
+"Minden adat törlése a pendrive eszközről. Biztosan folytatni kívánja?"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid ""
@@ -123,7 +124,7 @@ msgstr "Formázás:"
 
 #: share/mintstick/mintstick.ui.h:6
 msgid "Select a USB stick"
-msgstr "Válasszon egy pendrive-ot"
+msgstr "Válasszon egy pendrive eszközt"
 
 #: share/mintstick/mintstick.ui.h:7
 msgid "as"
@@ -153,15 +154,17 @@ msgstr ""
 "\n"
 "NTFS \n"
 "  + Windows kompatibilitás.\n"
-"   - Nem kompatibilis Mac-kel és a legtöbb hardvereszközzel.\n"
-"   - Esetenként kompatibilitási problémák lehetnek Linux-on (az NTFS zárt "
-"formátum és visszafejtett).\n"
+"   - Nem kompatibilis Mac operációs rendszerrel és a legtöbb "
+"hardvereszközzel.\n"
+"   - Esetenként kompatibilitási problémák lehetnek Linux operációs "
+"rendszeren (az NTFS zárt formátum és visszafejtett).\n"
 "\n"
 "EXT4 \n"
 "\n"
 "  + Modern, stabil, gyors és naplózott.\n"
 "  + Támogatja a Linux jogosultság-kezelését.\n"
-"   - Nem kompatibilis Windows-zal, Mac-kel és a legtöbb hardvereszközzel.\n"
+"   - Nem kompatibilis a Windows, a Mac operációs rendszerekkel és a legtöbb "
+"hardvereszközzel.\n"
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
@@ -169,7 +172,7 @@ msgstr "Kötetcímke:"
 
 #: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
-msgstr "Válasszon nevet a pendrive-nak"
+msgstr "Válasszon nevet a pendrive eszköznek"
 
 #: share/mintstick/mintstick.ui.h:25
 msgid "USB Stick"
