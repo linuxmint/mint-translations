@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
 "PO-Revision-Date: 2016-12-17 09:30+0000\n"
 "Last-Translator: tomoe_musashi <hkg.musashi@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh_TW@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -977,95 +977,81 @@ msgstr ""
 "核心回溯可能影響您的網路連線或圖形登入環境。DKMS "
 "模組是為您電腦上的最新核心所編譯。如果您現正使用專屬驅動程式而您想使用較舊的核心，您將需要先移除較新的核心。"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "請稍候，這將需要一些時間"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "%s 版核心已移除"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "%s 版核心已安裝"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "移除"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "此核心無法被移除 (使用中)。"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "安装"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "此核心無法被安裝。"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "您是否確定要移除 %s 版核心?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "您是否確定要安裝 %s 版核心?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "警示!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "小心行事"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
 "and how to check your DKMS status."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "關閉"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "使用中"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "已安裝"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "正在使用以下內核："
 
@@ -1912,12 +1898,5 @@ msgstr "請輸入您的密碼以執行此升級"
 #~ msgid "Safe?"
 #~ msgstr "勾選?"
 
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "內核是 Linux 最重要的部分。「退步」可導致網路、音效、圖像顯示等無法使用，甚至無法開機。若對內核、驅動程式、DKMS "
-#~ "模組有經驗，請僅安裝或移除內核，以修復無法開機的電腦。"
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "請稍候，這將需要一些時間"

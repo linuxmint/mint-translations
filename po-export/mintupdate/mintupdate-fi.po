@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
 "PO-Revision-Date: 2017-10-20 06:20+0000\n"
 "Last-Translator: Elias Ojala <Unknown>\n"
 "Language-Team: Finnish <>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:45+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 "Language: fi\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
@@ -1081,95 +1081,81 @@ msgstr ""
 "viimeisimpiin tietokoneellesi asennettuihin ytimiin. Jos käytät suljettuja "
 "ajureita ja haluat vanhemman ytimen, sinun täytyy poistaa uudempi ensin."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Odota hetki, tämä voi kestää jonkin aikaa"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "Käyttöjärjestelmäydin %s poistettiin"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "Käyttöjärjestelmäydin %s asennettiin"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Poista"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Tätä ydintä ei voi poistaa, sillä se on tällä hetkellä käytössä."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Asenna"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Tämä ydin ei ole asennettavissa."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Haluatko varmasti poistaa käyttöjärjestelmäytimen %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Haluatko varmasti asentaa käyttöjärjestelmäytimen %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Ytimet"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Jatka"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Älä näytä tätä viestiä uudelleen"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Varoitus!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Etene varoen"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
 "and how to check your DKMS status."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Sulje"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Aktiivinen"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Asennettu"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Käytät nyt seuraavaa ydintä:"
 
@@ -2033,6 +2019,9 @@ msgstr "Ole hyvä ja syötä salasanasi suorittaaksesi päivityksen."
 #~ msgid "Software Updates"
 #~ msgstr "Ohjelmistopäivitykset"
 
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Odota hetki, tämä voi kestää jonkin aikaa"
+
 #~ msgid ""
 #~ "Unsafe packages. Could potentially affect the stability of the system."
 #~ msgstr ""
@@ -2053,16 +2042,3 @@ msgstr "Ole hyvä ja syötä salasanasi suorittaaksesi päivityksen."
 
 #~ msgid "Auto-Refresh"
 #~ msgstr "Automaattinen tarkistus"
-
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Linux-ydin on järjestelmän kriittisin osa. Sen ongelmat voivat johtaa "
-#~ "verkkoyhteyden, äänten tai graafisen ympäristön puuttumiseen tai jopa "
-#~ "siihen, ettei järjestelmä käynnisty. Asenna ja poista ytimen osia vain, jos "
-#~ "sinulla on kokemusta ytimestä, ajureista ja DKMS-moduuleista ja tiedät, mitä "
-#~ "tehdä käynnistymättömälle tietokoneelle."

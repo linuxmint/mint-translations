@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
-"PO-Revision-Date: 2017-10-28 14:10+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
+"PO-Revision-Date: 2017-11-20 20:21+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:45+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -1205,75 +1205,64 @@ msgstr ""
 "dira. Jabedun kontrolatzaileak erabiltzen ari bazara eta nukleo zaharrago "
 "bat erabili nahi baduzu berria kendu beharko duzu lehenik."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Itxaron mesedez, baliteke honek denbora pixka bat behar izatea"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "%s nukleoa kendu da"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "%s nukleoa instalatu da"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Kendu"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Ezin da nukleo hau kendu unean erabiltzen ari delako."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Instalatu"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Nukleo hau ezin da instalatu."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Ziur zaude %s nukleoa kendu nahi duzula?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Ziur zaude %s nukleoa instalatu nahi duzula?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Nukleoak"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Jarraitu"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Ez erakutsi mezu hau berriro"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Kontuz!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Jarraitu arretaz"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
+"Linux nukleoa sistemaren zati kritiko bat da. Erregresioek sare, soinu edo "
+"ingurune grafikorik gabe geratzea edo ordenagailua ezin abiaraztea eragin "
+"dezakete."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
@@ -1283,20 +1272,20 @@ msgstr ""
 "nola hautatu, eguneraketak nola leheneratu eta DKMS egoera nola egiaztatu "
 "jakiteko."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Itxi"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Aktibo"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Instalatuta"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Une honetan ondorengo nukleoa erabiltzen ari zara:"
 
@@ -2128,6 +2117,9 @@ msgstr "Mesedez, sartu zure pasahitza bertsio-berritzeko"
 #~ msgid "Log file"
 #~ msgstr "Egunkari fitxategia"
 
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Itxaron mesedez, baliteke honek denbora pixka bat behar izatea"
+
 #~ msgid "Update is complete"
 #~ msgstr "Eguneraketa burutu da"
 
@@ -2192,16 +2184,3 @@ msgstr "Mesedez, sartu zure pasahitza bertsio-berritzeko"
 #~ msgstr ""
 #~ "Pakete honentzako eskuragarri dauden bertsio-berritze guztiei ezikusia "
 #~ "egingo zaie."
-
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Linux nukleoa sistemaren zati kritikoa da. Erregresioen ondorioz sarea, "
-#~ "soinua edo ingurune grafikoa galtzea eragin dezakete eta baita ordenagailua "
-#~ "ezin abiaraztea ere. Nukleo, kontrolatzaile, DKMS moduloekin esperientzia "
-#~ "baduzu eta abiarazten ez den ordenagailu bat nola errekuperatu baldin "
-#~ "badakizu soilik instalatu edo kendu nukleoak."

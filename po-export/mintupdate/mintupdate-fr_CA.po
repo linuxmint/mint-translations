@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
 "PO-Revision-Date: 2016-11-12 13:59+0000\n"
 "Last-Translator: Fr-coord <Unknown>\n"
 "Language-Team: French (Canada) <fr_CA@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -981,95 +981,81 @@ msgid ""
 "to remove the new one first."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Veuillez patienter, ceci peut prendre un certain temps"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "Le noyau %s a été retiré"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "Le noyau %s a été installé"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Désinstaller"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Ce noyau ne peut pas être supprimé car il est actuellement utilisé."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Installer"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Ce noyau ne peut être installé"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Êtes-vous certain de vouloir supprimer ce %s  noyau ?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Êtes-vous certain de vouloir installer ce %s noyau ?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Avertissement!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Procédez avec précaution"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
 "and how to check your DKMS status."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Fermer"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Installé"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Vous utilisez actuellement le noyau suivant :"
 
@@ -1774,6 +1760,9 @@ msgstr "Veuillez saisir votre mot de passe afin d'effectuer la mise à niveau"
 #~ msgid "Software Updates"
 #~ msgstr "Mises à jour logicielles"
 
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Veuillez patienter, ceci peut prendre un certain temps"
+
 #~ msgid "Update is complete"
 #~ msgstr "La mise à jour est terminée"
 
@@ -1873,16 +1862,3 @@ msgstr "Veuillez saisir votre mot de passe afin d'effectuer la mise à niveau"
 
 #~ msgid "Busy"
 #~ msgstr "Occupé"
-
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Le noyau Linux est une partie critique du système. Les régressions peuvent "
-#~ "entraîner une perte de réseau, de son, de l'environnement graphique et même "
-#~ "l'impossibilité de démarrer l'ordinateur. Installez ou supprimez des noyaux "
-#~ "uniquement si vous avez de l'expérience avec les noyaux, pilotes, modules "
-#~ "DKMS et si vous savez comment récupérer un ordinateur ne démarrant plus."

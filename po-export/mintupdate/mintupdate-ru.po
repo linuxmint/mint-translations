@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
-"PO-Revision-Date: 2017-10-28 09:55+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
+"PO-Revision-Date: 2017-11-13 15:44+0000\n"
 "Last-Translator: Dmitriy Kulikov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 "Language: ru\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
@@ -1193,7 +1193,6 @@ msgstr ""
 "  Alexander Mischenko https://launchpad.net/~shultz-5\n"
 "  Alexey https://launchpad.net/~lcbgreen\n"
 "  Andrew Denezhkin https://launchpad.net/~steepler\n"
-"  AsstZD https://launchpad.net/~eskaer-spamsink\n"
 "  Clement Lefebvre https://launchpad.net/~clementlefebvre\n"
 "  CyberTailor https://launchpad.net/~cybertailor\n"
 "  Dmitriy Kulikov https://launchpad.net/~kulikoff\n"
@@ -1244,77 +1243,66 @@ msgstr ""
 "Вашем компьютере. Если вы используете проприетарные драйверы, и вы хотите "
 "использовать старые ядра, вам нужно снять новый первый."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Пожалуйста, подождите, процесс может занять некоторое время"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "Ядро %s было удалено"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "Ядро %s было установлено"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Удалить"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr ""
 "Данное ядро не может быть удалено, поскольку оно используется в настоящий "
 "момент."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Установить"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Данное ядро нельзя установить."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Вы уверены, что хотите удалить ядро %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Вы уверены, что хотите установить ядро %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Ядра"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Далее"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Больше не показывать это сообщение"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Внимание!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Действуйте с осторожностью"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
+"Ядро Linux является критически важной частью системы. Регрессии могут "
+"привести к неработоспособности подключений к сетям, отсутствию звука, "
+"невозможности запуска графической среды или даже загрузки компьютера."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
@@ -1324,20 +1312,20 @@ msgstr ""
 "убедиться, что вы знаете, как выбирать ядра, как отменить обновления и как "
 "проверить статус DKMS."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Выход"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Активно"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Установлено"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "В данный момент используется следующее ядро системы:"
 
@@ -2193,6 +2181,9 @@ msgstr "Пожалуйста, введите свой пароль для вып
 #~ msgid "%d recommended updates available"
 #~ msgstr "Доступно %d рекомендованных обновлений"
 
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Пожалуйста, подождите, процесс может занять некоторое время"
+
 #~ msgid "Satisfy changing dependencies using dist-upgrade?"
 #~ msgstr ""
 #~ "Согласны изменить зависимости, используя dist-upgrade (обновление "
@@ -2240,17 +2231,3 @@ msgstr "Пожалуйста, введите свой пароль для вып
 
 #~ msgid "System up-to-date"
 #~ msgstr "Система обновлена"
-
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Ядро Linux это важная часть системы. Из возможных недостатков обновления "
-#~ "ядра можно выделить: неисправности в работе сети, неисправность в работе "
-#~ "звука, неисправность работы графической среды или невозможности запуска "
-#~ "компьютера. Устанавливайте или удаляйте ядра только в том случае, если Вы "
-#~ "имеете опыт в установке: ядер, драйверов, модулей DKMS, также в случае, если "
-#~ "Вы знаете как восстановить не запускаемый компьютер."

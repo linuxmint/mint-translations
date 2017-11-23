@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-04 11:21+0100\n"
-"PO-Revision-Date: 2017-10-04 12:59+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"PO-Revision-Date: 2017-11-19 17:02+0000\n"
+"Last-Translator: Niko Krause <nikokrause@gmx.de>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-12 10:00+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:47+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
 #: generate_desktop_files:41
@@ -29,7 +29,7 @@ msgstr "Sind Sie sicher, dass Sie diesen Bericht löschen wollen?"
 #: usr/lib/linuxmint/mintreport/mintreport.py:230
 msgid "The report will be permanently deleted and will no longer be visible."
 msgstr ""
-"Dieser Bericht wird dauerhaft gelöscht und wird nicht weiter sichtbar sein."
+"Dieser Bericht wird dauerhaft gelöscht und wird nicht mehr sichtbar sein."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:293
 #, python-format
@@ -37,7 +37,7 @@ msgid ""
 "The file %s could not be read.\n"
 "Please fix its permissions."
 msgstr ""
-"Die Datei »%s« kann nicht gelesen werden.\n"
+"Die Datei »%s« konnte nicht gelesen werden.\n"
 "Bitte die Zugriffsrechte anpassen."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:327
@@ -56,9 +56,10 @@ msgid ""
 "If you want to generate a stack trace for this crash report, please "
 "reinstall it."
 msgstr ""
-"Das Paket, welches »%s« enthält kann nicht gefunden werden.\n"
-"Wenn Sie einen Stapelspeicher für dieses Paket erstellen wollen,\n"
-"dann bitte installieren Sie dieses."
+"Das Paket, welches »%s« enthält, konnte nicht gefunden werden.\n"
+"Wenn Sie eine Stapelspeicherzurückverfolgung für dieses Paket erstellen "
+"wollen,\n"
+"dann installieren Sie dieses bitte."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:372
 msgid ""
@@ -70,18 +71,18 @@ msgid ""
 msgstr ""
 "Die auf Ihrem System installierten Kopfzeilen oder Binärdateien\n"
 "stimmen nicht mit dem Code überein, der beim Absturz ausgeführt wurde.\n"
-"Sie wurden wahrscheinlich aktualisiert.\n"
-"Ein Stacktrace ist in den lokalen Dateien verfügbar\n"
+"Sie wurden wahrscheinlich seitdem aktualisiert.\n"
+"Eine Stapelspeicherzurückverfolgung ist in den lokalen Dateien verfügbar,\n"
 "aber der Inhalt ist möglicherweise ungenau."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:410
 msgid "The report could not be deleted."
-msgstr "Der Bericht kann nicht gelöscht werden."
+msgstr "Der Bericht konnte nicht gelöscht werden."
 
 #: usr/lib/linuxmint/mintreport/mintreport.py:411
 #, python-format
 msgid "Check the permissions for /var/crash and %s."
-msgstr "Die Zugriffsrechte für »/var/crash« und »%s« überprüfen."
+msgstr "Bitte die Zugriffsrechte für »/var/crash« und »%s« überprüfen."
 
 #: generate_desktop_files:27 generate_desktop_files:41
 msgid "Troubleshoot problems"
@@ -97,17 +98,17 @@ msgstr "Absturzberichte:"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:2
 msgid "Stack trace:"
-msgstr "Stapelspeicher:"
+msgstr "Stapelspeicherzurückverfolgung:"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:3
 msgid ""
 "When seeking help, check for existing bug reports, pastebin the trace, share "
 "crash.tar.gz (from Local Files) and explain how to reproduce the crash."
 msgstr ""
-"Bei der Suche nach Hilfe, bitte nach vorhandenen Fehlerberichten suchen, den "
-"Stapelspeicher durch pastebin hochladen, crash.tar.gz freigeben (aus den "
-"lokalen Dateien) und bitte erläutern, wie der Absturz erneut erzeugt werden "
-"kann."
+"Bei der Suche nach Hilfe, bitte nach vorhandenen Fehlerberichten suchen, die "
+"Stapelspeicherzurückverfolgung auf Pastebin hochladen, crash.tar.gz (aus den "
+"lokalen Dateien) freigeben und erläutern, wie der Absturz erneut erzeugt "
+"werden kann."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:4
 msgid "Local Files"
@@ -120,11 +121,11 @@ msgstr ""
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:6
 msgid "Bug Tracker"
-msgstr "Fehlererfassung"
+msgstr "Fehlerverfolgungssystem"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:7
 msgid "Find the most appropriate bug tracker."
-msgstr "Die passende Fehlererfassung finden."
+msgstr "Das am besten geeignete Fehlerverfolgungssystem finden."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:8
 msgid "Pastebin"
@@ -132,7 +133,7 @@ msgstr "Pastebin"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:9
 msgid "Upload the trace to the Internet."
-msgstr "Den Stapelspeicher in das Internet hochladen."
+msgstr "Die Stapelspeicherzurückverfolgung in das Internet hochladen."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:10
 msgid "Delete"
@@ -148,9 +149,10 @@ msgid ""
 "Always provide a trace and reliable instructions to trigger/observe the "
 "problem."
 msgstr ""
-"Entwickler benötigen die Information, wo der Code fehlgeschlagen ist oder "
-"wie der Fehler erneut erzeugt werden kann. Bitte immer den Stapelspeicher "
-"und zuverlässige Informationen, um das Problem auszulösen bzw. zu beobachten."
+"Entwickler müssen wissen, wo der Code fehlgeschlagen ist oder wie der Fehler "
+"erneut erzeugt werden kann. Bitte immer die Stapelspeicherzurückverfolgung "
+"und zuverlässige Anweisungen angeben, um das Problem auszulösen bzw. zu "
+"beobachten."
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:13
 msgid "Crash reports"

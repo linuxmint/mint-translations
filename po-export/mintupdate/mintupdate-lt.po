@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
 "PO-Revision-Date: 2017-11-10 21:33+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -1217,68 +1217,54 @@ msgstr ""
 "jūs naudojate nuosavybines tvarkykles ir norite naudoti senesnį branduolį, "
 "tuomet, iš pradžių, jums reikės pašalinti naująjį branduolį."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Prašome palaukti, tai gali šiek tiek užtrukti"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "%s branduolys buvo pašalintas"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "Buvo įdiegtas %s branduolys"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Pašalinti"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Šis branduolys negali būti pašalintas, nes jis dabar yra naudojamas."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Įdiegti"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Šis branduolys negali būti įdiegtas."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Ar tirkai norite pašalinti %s branduolį?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Ar tikrai norite įdiegti %s branduolį?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Branduoliai"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Tęsti"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Daugiau neberodyti šio pranešimo"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Įspėjimas!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Tęskite apdairiai"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
@@ -1288,7 +1274,7 @@ msgstr ""
 "prie to, kad negalėsite jungtis prie tinklo, neveiks garsas, nebus grafinės "
 "aplinkos arba netgi negalėsite paleisti kompiuterio."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
@@ -1298,20 +1284,20 @@ msgstr ""
 "sekciją, kad žinotumėte kaip pasirinkti branduolius, kaip sugrąžinti "
 "atnaujinimus bei kaip patikrinti savo DKMS būseną."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Užverti"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Aktyvus"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Įdiegta"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Šiuo metu jūs naudojate šį branduolį:"
 
@@ -2180,6 +2166,9 @@ msgstr "Kad atliktumėte atnaujinimą, įveskite savo slaptažodį"
 #~ "kurie dar nėra įdiegti, nebus įdiegiami automatiškai ir naujausios tokių "
 #~ "paketų versijos bus tiesiog ignoruojamos."
 
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Prašome palaukti, tai gali šiek tiek užtrukti"
+
 #~ msgid "Could not connect to the Internet"
 #~ msgstr "Nepavyko prisijungti prie interneto"
 
@@ -2206,16 +2195,3 @@ msgstr "Kad atliktumėte atnaujinimą, įveskite savo slaptažodį"
 
 #~ msgid "Auto-Refresh"
 #~ msgstr "Automatiškai įkelti iš naujo"
-
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Linux branduolys yra kritinė sistemos dalis. Regresijos gali privesti prie "
-#~ "to, kad gali dingti internetas, garsas, grafinė aplinka arba netgi "
-#~ "negalėsite paleisti kompiuterį. Įdiekite ar šalinkite branduolius tik tuo "
-#~ "atveju, jei turite patirties su branduoliais, tvarkyklėmis, DKMS moduliais "
-#~ "ir žinote kaip atkurti kompiuterį, kuris nepasileidžia."

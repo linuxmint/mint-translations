@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
 "PO-Revision-Date: 2017-01-23 17:53+0000\n"
 "Last-Translator: Tony <tonyzet988@gmail.com>\n"
 "Language-Team: Greek <el@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:45+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 "Language: el\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
@@ -997,97 +997,83 @@ msgstr ""
 "σας. Εάν χρησιμοποιείτε ιδιόκτητους οδηγούς και θέλετε να χρησιμοποιήσετε "
 "έναν παλιότερο πυρήνα, θα πρέπει να αφαιρέσετε πρώτα το νέο."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Παρακαλώ περιμένετε, θα χρειαστούν μερικά λεπτά"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "Ο πυρήνας %s αφαιρέθηκε"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "Ο πυρήνας %s εγκαταστάθηκε"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr ""
 "Αυτός ο πυρήνας δεν μπορεί να αφαιρεθεί επειδή χρησιμοποιείται αυτή τη "
 "στιγμή."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Εγκατάσταση"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Αυτός ο πυρήνας δεν είναι εγκαταστάσιμος."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Είστε σίγουρος ότι θέλετε να αφαιρέσετε τον πυρήνα %s;"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Είστε σίγουρος ότι θέλετε να εγκαταστήσετε τον πυρήνα %s;"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Προειδοποίηση!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Προχωρήστε με προσοχή"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
 "and how to check your DKMS status."
 msgstr ""
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Ενεργό"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Εγκαταστάθηκε"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Αυτή τη στιγμή χρησιμοποιείτε τον ακόλουθο πυρήνα:"
 
@@ -1788,6 +1774,9 @@ msgstr "Εμφάνιση και εγκατάσταση διαθέσιμων εν
 msgid "Please enter your password to perform the upgrade"
 msgstr "Παρακαλώ πληκτρολογήστε τον κωδικό πρόσβασής σας για αναβάθμιση"
 
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Παρακαλώ περιμένετε, θα χρειαστούν μερικά λεπτά"
+
 #~ msgid "Update is complete"
 #~ msgstr "Η ενημέρωση ολοκληρώθηκε"
 
@@ -1981,17 +1970,3 @@ msgstr "Παρακαλώ πληκτρολογήστε τον κωδικό πρό
 #~ msgid "All available upgrades for this package will be ignored."
 #~ msgstr ""
 #~ "Όλες οι διαθέσιμες αναβαθμίσεις για το συγκεκριμένο πακέτο θα παραβλεφθούν."
-
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Ο πυρήνας (του) Linux είναι κρίσιμο τμήμα του συστήματος. Οι οπισθοδρομήσεις "
-#~ "μπορούν να οδηγήσουν σε απώλεια του δικτύου, του ήχου, του γραφικού "
-#~ "περιβάλλοντος, ακόμη και στην αδυναμία εκκίνησης του υπολογιστή; "
-#~ "Εγκαταστήστε ή αφαιρέστε πυρήνες μόνον αν έχετε εμπειρία με πυρήνες, "
-#~ "υλικολογισμικά (οδηγούς), αρθρώματα DKMS και αν γνωρίζετε πώς να ανακτήσετε "
-#~ "έναν υπολογιστή που δεν εκκινεί."

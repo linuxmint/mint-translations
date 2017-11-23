@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
 "PO-Revision-Date: 2017-11-10 22:24+0000\n"
 "Last-Translator: Pavel Borecki <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:45+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 "Language: cs\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
@@ -1174,12 +1174,9 @@ msgstr ""
 "Launchpad Contributions:\n"
 "  AsciiWolf https://launchpad.net/~asciiwolf\n"
 "  D https://launchpad.net/~dv2718281\n"
-"  Elias Kabicek https://launchpad.net/~elias-kabicek-deactivatedaccount\n"
-"  Filip Faltejsek https://launchpad.net/~grysnakh\n"
 "  František Zatloukal https://launchpad.net/~zatloukal-frantisek\n"
 "  Karel WÄLZER https://launchpad.net/~husky-viking\n"
 "  Konki https://launchpad.net/~pavel-konkol\n"
-"  Kuvaly [LCT] https://launchpad.net/~kuvaly\n"
 "  Ladislav Urbanek https://launchpad.net/~urbanek-n\n"
 "  Lubor PETR https://launchpad.net/~luborpetr\n"
 "  Martin Šácha https://launchpad.net/~sachy\n"
@@ -1220,68 +1217,54 @@ msgstr ""
 "tedy používáte proprietární ovladače chcete použít starší jádro, bude třeba "
 "nejprve odebrat to novější."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Vyčkejte prosím, tato operace může trvat delší dobu"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "Jádro %s bylo odebráno"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "Jádro %s bylo nainstalováno"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Odebrat"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Toto jádro nelze odebrat, protože je právě používáno."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Nainstalovat"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Toto jádro není možné nainstalovat."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Opravdu chcete odebrat jádro %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Opravdu chcete nainstalovat jádro %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Jádra"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Tuto zprávu už nezobrazovat"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Varování!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Postupujte opatrně"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
@@ -1291,7 +1274,7 @@ msgstr ""
 "nefunkčnosti připojení k síti, zvuku, grafického uživatelského rozhraní nebo "
 "dokonce nemožnosti spustit operační systém."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
@@ -1302,20 +1285,20 @@ msgstr ""
 "počítače, jak vrátit zpátky stav před aktualizací a jak zkontrolovat stav "
 "DKMS."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Zavřít"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Aktivní"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Nainstalované"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Právě používáte následující jádro:"
 
@@ -2220,15 +2203,5 @@ msgstr "Pro provedení přechodu na novější verzi zadejte své heslo"
 #~ msgid "Ignored packages"
 #~ msgstr "Ignorované balíčky"
 
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Linuxové jádro je kritická součást systému. Regrese v něm mohou vést k "
-#~ "problémům se sítí, zvukem, grafickým prostředím a možná systém dokonce vůbec "
-#~ "nedokončí spouštění. Jádra instalujte nebo odebírejte jen pokud máte "
-#~ "zkušenost s jádry, ovladači, DKMS moduly a víte, jak spravit nenabíhající "
-#~ "systém."
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Vyčkejte prosím, tato operace může trvat delší dobu"

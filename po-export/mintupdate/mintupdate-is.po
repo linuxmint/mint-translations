@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mintupdate_mintupdate-is\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
-"PO-Revision-Date: 2017-08-26 14:39+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
+"PO-Revision-Date: 2017-11-22 05:59+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:45+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 "Language: is\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
@@ -1203,75 +1203,66 @@ msgstr ""
 "uppsettir eru á tölvunni. Ef þú notar séreignarekla og vilt nota eldri "
 "kjarna, verðurðu fyrst að fjarlægja nýju kjarnana."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Bíddu aðeins, þetta getur tekið dálítinn tíma"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "%s kjarninn var fjarlægður"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "%s kjarninn var settur upp"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Fjarlægja"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Ekki er unnt að fjarlægja þennan kjarna þar sem hann er í notkun."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Setja upp"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Uppsetning þessa kjarna er ekki möguleg."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Ertu viss að þú viljir fjarlægja %s kjarnann?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Ertu viss að þú viljir setja inn %s kjarnann?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Kjarnar"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Halda áfram"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Ekki sýna þessi skilaboð aftur"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Viðvörun!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Haltu áfram mjög varlega"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
+"Linux-kjarninn er grundvallarþáttur kerfisins. Gallaðar uppfærslur hans geta "
+"\r\n"
+"leitt til truflana á nettengingum, hljóði, grafísku umhverfi, eða jafnvel "
+"\r\n"
+"komið í veg fyrir ræsingu tölvunnar."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
@@ -1281,20 +1272,20 @@ msgstr ""
 "hjálparhlutanum, til að vera viss um hvernig eigi að velja kjarna, hvernig "
 "eigi að afturkalla uppfærslur og hvernig eigi að skoða stöðu DKMS."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Loka"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Virkt"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Uppsett"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Þú ert núna að nota eftirfarandi kjarna:"
 
@@ -1328,11 +1319,11 @@ msgstr "Þessi uppfærsla hefur í för með sér viðbótarbreytingar"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
 msgid "The following packages will be removed:"
-msgstr ""
+msgstr "Eftirfarandi pakkar verða fjarlægðir:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
 msgid "The following packages will be installed:"
-msgstr ""
+msgstr "Eftirfarandi pakkar verða settir inn:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
@@ -1433,15 +1424,15 @@ msgstr "Engar uppfærslur eru valdar"
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgid_plural "%(selected)d updates selected (%(size)s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(selected)d uppfærsla valin (%(size)s)"
+msgstr[1] "%(selected)d uppfærslur valdar (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
 msgid "%d update available"
 msgid_plural "%d updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d uppfærsla tiltæk"
+msgstr[1] "%d uppfærslur tiltækar"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
@@ -1467,8 +1458,8 @@ msgstr "Ekki er hægt að nálgast %s"
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d day ago"
 msgid_plural "The last update on %(mirror)s was %(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Síðasta uppfærsla á %(mirror)s var fyrir %(days)d degi síðan"
+msgstr[1] "Síðasta uppfærsla á %(mirror)s var fyrir %(days)d dögum síðan"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
@@ -1730,7 +1721,7 @@ msgstr "Um"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
 msgid "Packages included in this update:"
-msgstr ""
+msgstr "Pakkar sem eru í þessari uppfærslu:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"
@@ -2081,6 +2072,9 @@ msgstr "Sláðu inn lykilorðið þitt til að uppfæra"
 #~ msgid "Extra Info"
 #~ msgstr "Aukalegar upplýsingar"
 
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Bíddu aðeins, þetta getur tekið dálítinn tíma"
+
 #~ msgid "Update is complete"
 #~ msgstr "Uppfærslu er lokið"
 
@@ -2186,16 +2180,3 @@ msgstr "Sláðu inn lykilorðið þitt til að uppfæra"
 #, python-format
 #~ msgid "%d recommended updates available"
 #~ msgstr "%d uppfærslur tiltækar sem mælt er með"
-
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Linux-kjarninn er grundvallarþáttur kerfisins. Gallaðar uppfærslur hans geta "
-#~ "leitt til truflana á nettengingum, hljóði, grafísku umhverfi, eða jafnvel "
-#~ "komið í veg fyrir ræsingu tölvunnar. Ekki setja inn eða fjarlægja kjarna "
-#~ "nema þú hafir einhverja reynslu af sýsli með kjarna, rekla og DKMS-einingar, "
-#~ "og þú vitir hvernig eigi að endurheimta óræsanlegar tölvur."

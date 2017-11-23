@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
-"PO-Revision-Date: 2017-07-09 21:59+0000\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
+"PO-Revision-Date: 2017-11-12 11:25+0000\n"
 "Last-Translator: Tiago Santos <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -1216,75 +1216,64 @@ msgstr ""
 "utilizar drivers proprietários e quiser utilizar um kernel mais antigo, irá "
 "precisar de remover o mais recente primeiro."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Por favor, aguarde. Pode demorar algum tempo..."
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "O kernel %s foi removido"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "O kernel %s foi instalado"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Remover"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Este kernel não pode ser removido porque está em uso neste momento."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Instalar"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Este kernel não é instalável."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Tem a certeza que quer remover o kernel %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Tem a certeza que quer instalar o kernel %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Kernels"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Continuar"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Não mostrar esta mensagem novamente"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Atenção!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Prossiga com cuidado"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
+"O kernel Linux é uma parte fundamental do sistema. Regressões podem levar à "
+"perda de rede, som, ambiente gráfico ou até a instabilidade ao arrancar o "
+"computador."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
@@ -1294,20 +1283,20 @@ msgstr ""
 "secção de ajuda, para garantir que sabe selecionar o kernel, como reverter "
 "atualizações, e como verificar o estado do DKMS."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Fechar"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Ativo"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Instalado"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Neste momento está a utilizar o seguinte kernel:"
 
@@ -1341,11 +1330,11 @@ msgstr "Esta atualização irá desencadear alterações adicionais"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
 msgid "The following packages will be removed:"
-msgstr ""
+msgstr "Os seguintes pacotes serão removidos:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
 msgid "The following packages will be installed:"
-msgstr ""
+msgstr "Serão instalados os seguintes pacotes:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
@@ -1446,15 +1435,15 @@ msgstr "Nenhuma atualização selecionada"
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgid_plural "%(selected)d updates selected (%(size)s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(selected)d atualização selecionada (%(size)s)"
+msgstr[1] "%(selected)d atualizações selecionadas (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
 msgid "%d update available"
 msgid_plural "%d updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d atualização disponível"
+msgstr[1] "%d atualizações disponíveis"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
@@ -1479,8 +1468,8 @@ msgstr "%s está inacessível"
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d day ago"
 msgid_plural "The last update on %(mirror)s was %(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "A última atualização de %(mirror)s à %(days)d dia"
+msgstr[1] "A última atualização de %(mirror)s à %(days)d dias"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
@@ -1743,7 +1732,7 @@ msgstr "Sobre"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
 msgid "Packages included in this update:"
-msgstr ""
+msgstr "Pacotes incluídos nesta atualização:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"
@@ -2202,15 +2191,5 @@ msgstr "Introduza a palavra-passe para actualizar"
 #~ msgid "Update Method"
 #~ msgstr "Método de atualização"
 
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "O kernel do Linux é uma parte crítica do seu sistema. Regressões podem levar "
-#~ "à perda de rede, som, falhas gráficas no ambiente de trabalho ou mesmo fazer "
-#~ "com que não possa arrancar o seu sistema. Só instale ou remova kernels se "
-#~ "tiver experiência com kernels, drivers, módulos DKMS e souber como recuperar "
-#~ "um computador que não arranca."
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Por favor, aguarde. Pode demorar algum tempo..."

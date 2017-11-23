@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-11-10 13:36+0000\n"
-"PO-Revision-Date: 2017-06-28 17:00+0000\n"
-"Last-Translator: kristian <Unknown>\n"
+"POT-Creation-Date: 2017-11-22 12:09+0000\n"
+"PO-Revision-Date: 2017-11-17 03:26+0000\n"
+"Last-Translator: Arve Eriksson <Unknown>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-12 09:46+0000\n"
-"X-Generator: Launchpad (build 18505)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -1212,75 +1212,64 @@ msgstr ""
 "sluten kod och du vill använda en äldre kärna, så måste den nya tas bort "
 "först."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:37
-msgid "Please wait, this can take some time"
-msgstr "Vänligen vänta, detta kan ta lite tid"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:40
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "Kärnan %s togs bort"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:42
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "Kärnan %s installerades"
-
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:163
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:154
 msgid "Remove"
 msgstr "Ta bort"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:166
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:157
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "Denna kärna används för närvarande och kan ej tas bort."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:170
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:161
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1180
 msgid "Install"
 msgstr "Installera"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:173
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:164
 msgid "This kernel is not installable."
 msgstr "Denna kärna går ej att installera."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:187
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:178
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "Är du säker på att du vill ta bort kärnan %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:189
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:180
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "Är du säker på att du vill installera kärnan %s?"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:207
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:198
 msgid "Kernels"
 msgstr "Kärnor"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:223
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:214
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:225
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:216
 msgid "Do not show this message again"
 msgstr "Visa inte det här meddelandet igen"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:227
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:218
 msgid "Warning!"
 msgstr "Varning!"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:228
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:219
 msgid "Proceed with caution"
 msgstr "Fortsätt med varsamhet"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:229
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:220
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
+"Linuxkärnan är en kritisk del av systemet. Regressioner kan leda till att "
+"nätverket inte fungerar, inget ljud, ingen grafisk miljö, eller till och med "
+"till att datorn inte kan starta."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:230
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
 "Before installing or removing kernels, please make sure to read the help "
 "section, to make sure you know how to select kernels, how to revert updates "
@@ -1290,20 +1279,20 @@ msgstr ""
 "att du skall veta hur man väljer kärnor, återställer uppdateringar och "
 "kontrollerar sin DKMS-status."
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
 msgid "Close"
 msgstr "Stäng"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:259
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:250
 msgid "Active"
 msgstr "Aktiv"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:261
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:252
 msgid "Installed"
 msgstr "Installerad"
 
-#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:296
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:287
 msgid "You are currently using the following kernel:"
 msgstr "Du använder för närvarande följande kärna:"
 
@@ -1337,11 +1326,11 @@ msgstr "Denna uppdatering kommer att trigga ytterligare förändringar"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
 msgid "The following packages will be removed:"
-msgstr ""
+msgstr "Följande paket kommer att tas bort:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
 msgid "The following packages will be installed:"
-msgstr ""
+msgstr "Följande paket kommer att installeras:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
@@ -1445,15 +1434,15 @@ msgstr "Inga uppdateringar valda"
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgid_plural "%(selected)d updates selected (%(size)s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(selected)d uppdatering markerad (%(size)s)"
+msgstr[1] "%(selected)d uppdateringar markerade (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
 msgid "%d update available"
 msgid_plural "%d updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d uppdatering tillgänglig"
+msgstr[1] "%d uppdateringar tillgängliga"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
@@ -1477,8 +1466,8 @@ msgstr "%s kan ej nås"
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d day ago"
 msgid_plural "The last update on %(mirror)s was %(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Den senaste uppdateringen på %(mirror)s var %(days)d dag sedan"
+msgstr[1] "Den senaste uppdateringen på %(mirror)s var %(days)d dagar sedan"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
@@ -1740,7 +1729,7 @@ msgstr "Om"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
 msgid "Packages included in this update:"
-msgstr ""
+msgstr "Paket inkluderade i denna uppdatering:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"
@@ -2202,15 +2191,5 @@ msgstr "Var god och ange ditt lösenord för att utföra uppgraderingen"
 #~ msgid "Auto-Refresh"
 #~ msgstr "Uppdatera automatiskt"
 
-#~ msgid ""
-#~ "The Linux kernel is a critical part of the system. Regressions can lead to "
-#~ "lack of networking, lack of sound, lack of graphical environment or even the "
-#~ "inability to boot the computer. Only install or remove kernels if you are "
-#~ "experienced with kernels, drivers, DKMS modules and you know how to recover "
-#~ "a non-booting computer."
-#~ msgstr ""
-#~ "Linuxkärnan är en kritisk del av operativsystemet. Regressioner kan leda "
-#~ "till avsaknad av nätverk, avsaknad av ljud och grafisk miljö och kan också "
-#~ "göra att datorn inte går att starta. Installera och ta bort kärnor endast om "
-#~ "du är erfaren med kärnor, drivrutiner, DKMS moduler och vet hur man "
-#~ "återhämtar en dator som inte går att starta."
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Vänligen vänta, detta kan ta lite tid"
