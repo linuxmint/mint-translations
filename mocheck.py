@@ -32,6 +32,7 @@ BAD_UNESCAPED_QUOTE = 3
 BAD_EXCLUSIONS = 80
 BAD_MISCOUNT_MAYBE_DATE = 99
 BAD_MISMATCH_MAYBE_DATE = 100
+RST_SCHAR_MISMATCH = 200
 
 UNSUPPORTED_LOCALES = ["yi"]
 
@@ -145,6 +146,8 @@ class Main:
             return "Tokens not in correct order or mismatch (could be a date/time)"
         elif status == BAD_UNESCAPED_QUOTE:
             return "Bad quotes"
+        elif status == RST_SCHAR_MISMATCH:
+            return "Mistmatch in RST special chars"
         else:
             return ""
 
@@ -199,23 +202,31 @@ class Main:
         for entry in mo.mofile:
             if entry.obsolete:
                 continue # skip obsolete translations (prefixed with #~ in po file)
-            res = self.check_entry(entry.msgid, entry.msgstr)
             issue_found = False
             msgid = entry.msgid
             msgstr = entry.msgstr
-            if (res != GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
-                issue_found = True
-            elif (len(entry.msgstr_plural) > 0):
-                for plurality in entry.msgstr_plural.keys():
-                    msgstr = entry.msgstr_plural[plurality]
-                    if plurality > 0:
-                        msgid = "plural[%d]: %s" % (plurality, entry.msgid_plural)
-                    else:
-                        msgid = "plural[%d]: %s" % (plurality, entry.msgid)
-                    res = self.check_entry(msgid, msgstr, is_plural=True, is_python=(".py:" in str(entry)))
-                    if (res != GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
+            if ".rst" in str(entry):
+                # restructuredtext
+                for special_char in ["``", "<", ">", "_", "-->", ":kbd:", ":guilabel:", "`"]:
+                    if msgid.count(special_char) != msgstr.count(special_char):
                         issue_found = True
+                        res = RST_SCHAR_MISMATCH
                         break
+            else:
+                res = self.check_entry(entry.msgid, entry.msgstr)
+                if (res != GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
+                    issue_found = True
+                elif (len(entry.msgstr_plural) > 0):
+                    for plurality in entry.msgstr_plural.keys():
+                        msgstr = entry.msgstr_plural[plurality]
+                        if plurality > 0:
+                            msgid = "plural[%d]: %s" % (plurality, entry.msgid_plural)
+                        else:
+                            msgid = "plural[%d]: %s" % (plurality, entry.msgid)
+                        res = self.check_entry(msgid, msgstr, is_plural=True, is_python=(".py:" in str(entry)))
+                        if (res != GOOD and res < BAD_MISCOUNT_MAYBE_DATE):
+                            issue_found = True
+                            break
             if issue_found:
                 self.add_issue_to_treeview(mo, mo.project, msgid, msgstr, res, mo.current_index)
             mo.current_index += 1
