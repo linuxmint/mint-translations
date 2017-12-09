@@ -208,7 +208,7 @@ class Main:
             if ".rst" in str(entry):
                 # restructuredtext
                 for special_char in ["``", "<", ">", "_", "-->", ":kbd:", ":guilabel:", "`"]:
-                    if msgid.count(special_char) != msgstr.count(special_char):
+                    if msgstr != "" and msgid.count(special_char) != msgstr.count(special_char):
                         issue_found = True
                         res = RST_SCHAR_MISMATCH
                         break
