@@ -1,2 +1,2 @@
-./mocheck.py -po po-export
+mint-check-translations po-export
 
