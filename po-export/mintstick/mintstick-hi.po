@@ -1,0 +1,201 @@
+# Hindi translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-05-07 12:22+0100\n"
+"PO-Revision-Date: 2018-01-05 16:37+0000\n"
+"Last-Translator: Lars Vogdt <Unknown>\n"
+"Language-Team: Hindi <hi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-01-06 14:21+0000\n"
+"X-Generator: Launchpad (build 18521)\n"
+
+#: lib/mintstick.py:82
+msgid "Write"
+msgstr "राइट"
+
+#: lib/mintstick.py:131 generate_additional_files.py:78
+msgid "Format"
+msgstr "फॉर्मेट"
+
+#: lib/mintstick.py:218
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: lib/mintstick.py:313 lib/mintstick.py:315
+msgid "The USB stick was formatted successfully."
+msgstr "USB स्टिक सफलतापूर्वक फॉर्मेट हो गयी।"
+
+#: lib/mintstick.py:318
+#, python-format
+msgid "An error occured while creating a partition on %s."
+msgstr "%s पर विभाजन बनाते समय त्रुटि हो गयी।"
+
+#: lib/mintstick.py:320 lib/mintstick.py:418
+msgid "Authentication Error."
+msgstr "प्रमाणीकरण त्रुटि"
+
+#: lib/mintstick.py:322 lib/mintstick.py:420
+msgid "An error occurred."
+msgstr "कोई त्रुटि हुई है।"
+
+#: lib/mintstick.py:338
+msgid "Image:"
+msgstr "इमेज"
+
+#: lib/mintstick.py:339
+msgid "USB stick:"
+msgstr "USB स्टिक"
+
+#: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
+#: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
+msgid "USB Image Writer"
+msgstr "USB इमेज राइटर"
+
+#: lib/mintstick.py:390
+#, python-format
+msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
+msgstr "%(VAR_FILE)s को %(VAR_DEV)s में राइट करने की प्रक्रिया चल रही है"
+
+#: lib/mintstick.py:391
+#, python-format
+msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
+msgstr ""
+"%(VAR_SOURCE)s से %(VAR_TARGET)s में कॉपी करने की प्रक्रिया आरंभ हो रही है"
+
+#: lib/mintstick.py:408 lib/mintstick.py:411
+msgid "The image was successfully written."
+msgstr "इमेज को सफलतापूर्वक राइट कर दिया गया।"
+
+#: lib/mintstick.py:414
+msgid "Not enough space on the USB stick."
+msgstr "USB स्टिक पर पर्याप्त स्पेस नहीं है।"
+
+#: lib/mintstick.py:416
+msgid "An error occured while copying the image."
+msgstr "इमेज को कॉपी करते समय त्रुटि हुई।"
+
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: generate_additional_files.py:68
+msgid "Make a bootable USB stick"
+msgstr "बूट करने योग्य एक USB स्टिक बनाएं"
+
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: share/mintstick/mintstick.ui.h:4
+msgid "USB Stick Formatter"
+msgstr "USB स्टिक फॉर्मेट करने हेतु साधन"
+
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: generate_additional_files.py:78
+msgid "Format a USB stick"
+msgstr "USB स्टिक फॉर्मेट करें"
+
+#: generate_additional_files.py:68
+msgid "Make bootable USB stick"
+msgstr "बूट करने योग्य USB स्टिक बनाएं"
+
+#: share/mintstick/mintstick.ui.h:1
+msgid " "
+msgstr " "
+
+#: share/mintstick/mintstick.ui.h:2
+msgid ""
+"This will destroy all data on the USB stick, are you sure you want to "
+"proceed?"
+msgstr ""
+"यह USB स्टिक पर सारे डेटा को नष्ट करेगा, क्या आप वाकई प्रक्रिया जारी रखना "
+"चाहते हैं?"
+
+#: share/mintstick/mintstick.ui.h:3
+msgid ""
+"Something went wrong, please see the details window for the exact error."
+msgstr "कुछ गलत हो गया, कृपया सटीक त्रुटि के लिए विवरण विंडो देखें।"
+
+#: share/mintstick/mintstick.ui.h:5
+msgid "Format:"
+msgstr "फॉर्मेटः"
+
+#: share/mintstick/mintstick.ui.h:6
+msgid "Select a USB stick"
+msgstr "एक USB स्टिक का चयन करें"
+
+#: share/mintstick/mintstick.ui.h:7
+msgid "as"
+msgstr "के रूप में"
+
+#: share/mintstick/mintstick.ui.h:8
+msgid ""
+"FAT32 \n"
+"   + Compatible everywhere.\n"
+"   -  Cannot handle files larger than 4GB.\n"
+"\n"
+"NTFS \n"
+"  + Compatible with Windows.\n"
+"   - Not compatible with Mac and most hardware devices.\n"
+"   - Occasional compatibility problems with Linux (NTFS is proprietary and "
+"reverse engineered).\n"
+"\n"
+"EXT4 \n"
+"\n"
+"  + Modern, stable, fast, journalized.\n"
+"  + Supports Linux file permissions.\n"
+"   - Not compatible with Windows, Mac and most hardware devices.\n"
+msgstr ""
+"FAT32 \n"
+"   + सभी ऑपरेटिंग सिस्टम के साथ संगत (ज़्यादातर इसे ही सुझाया जाता है!)\n"
+"   - 4GB से अधिक साइज की फ़ाइलों को नहीं संभाल सकता\n"
+"\n"
+"NTFS \n"
+"  + केवल विंडोज के साथ संगत\n"
+"   - मैक(एप्पल) और ज़्यादातर हार्डवेयर डिवाइस के साथ असंगत\n"
+"   - कभी कभी लिनक्स के साथ संगतता समस्याएं (NTFS अमुक्त स्रोत व उत्क्रम "
+"अभियांत्रिक है)\n"
+"\n"
+"EXT4 \n"
+"\n"
+"  + आधुनिक, स्थिर, तेज, फ़ाइल व्यवस्था की दैनिकी युक्त\n"
+"  + लिनक्स की फाइल अनुमतियों का समर्थन करता है\n"
+"   -  विंडोज, मैक(एप्पल) और ज़्यादातर हार्डवेयर डिवाइस के साथ असंगत\n"
+
+#: share/mintstick/mintstick.ui.h:23
+msgid "Volume label:"
+msgstr "नामपत्र"
+
+#: share/mintstick/mintstick.ui.h:24
+msgid "Choose a name for your USB Stick"
+msgstr "अपनी USB स्टिक के लिए एक नाम चुनें"
+
+#: share/mintstick/mintstick.ui.h:25
+msgid "USB Stick"
+msgstr "USB स्टिक"
+
+#: share/mintstick/mintstick.ui.h:26
+msgid "Details"
+msgstr "ब्यौरा"
+
+#: share/mintstick/mintstick.ui.h:28
+msgid "Write image:"
+msgstr "राइट इमेज:"
+
+#: share/mintstick/mintstick.ui.h:29
+msgid "Select an image"
+msgstr "एक इमेज चुने"
+
+#: share/mintstick/mintstick.ui.h:30
+msgid "Select Image"
+msgstr "इमेज चुने"
+
+#: share/mintstick/mintstick.ui.h:31
+msgid "to"
+msgstr "को"
+
+#: share/mintstick/mintstick.ui.h:32
+msgid "The image was written successfully."
+msgstr "इमेज सफलतापूर्वक राईट कर दी गयी।"

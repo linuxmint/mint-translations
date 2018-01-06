@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the linuxmint package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-# Ari Ervasti <ari.ervasti87@gmail.com>, 2015.
+# Ari Ervasti <ari.ervasti87@gmail.com>, 2015, 2017.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-11-22 12:09+0000\n"
-"PO-Revision-Date: 2017-10-20 06:20+0000\n"
-"Last-Translator: Elias Ojala <Unknown>\n"
+"PO-Revision-Date: 2017-12-25 16:21+0000\n"
+"Last-Translator: Ari Ervasti <ari.ervasti87@gmail.com>\n"
 "Language-Team: Finnish <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
-"X-Generator: Launchpad (build 18509)\n"
+"X-Launchpad-Export-Date: 2018-01-06 14:17+0000\n"
+"X-Generator: Launchpad (build 18521)\n"
 "Language: fi\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
@@ -298,7 +299,7 @@ msgstr ""
 "näkyvillä ja aloittelevien käyttäjien kehotetaan noudattamaan varovaisuutta "
 "niiden valinnassa ja asentamisessa. Tällaiset päivitykset on parasta asentaa "
 "yksitellen ja joko edistyneemmän käyttäjän avustuksella tai sen jälkeen kun "
-"he ovat tottuneet keskustelupalstan ja chat kanavan käyttöön, jotta he "
+"he ovat tottuneet keskustelupalstan ja chat–kanavan käyttöön, jotta he "
 "osaavat hakea tarvittaessa apua."
 
 #: usr/share/help/C/mintupdate/policy.page:49(title)
@@ -311,18 +312,26 @@ msgid ""
 "users aren't new to Linux and either know how to solve common problems, or "
 "they know where to find help."
 msgstr ""
+"Toinen käytäntö on tehty valtaosalle ihmisistä. Se olettaa etteivät nämä ole "
+"uusia Linuxin käyttäjiä ja joko tietävät kuinka ratkaista yleisiä ongelmia "
+"tai he tietävät mistä löytää apua."
 
 #: usr/share/help/C/mintupdate/policy.page:53(p)
 msgid ""
 "This policy shows all recommended updates. Security updates and safe bug-fix "
 "updates (level 1 and 2) are preselected by default."
 msgstr ""
+"Tämä käytäntö näyttää kaikki suositellut päivitykset. Tietoturvapäivitykset "
+"ja turvalliset virheiden korjauspäivitykset (taso 1 ja 2) ovat "
+"oletusarvoisesti esivalittuina."
 
 #: usr/share/help/C/mintupdate/policy.page:55(p)
 msgid ""
 "Users are recommended to select and apply level 3 and level 4 updates with "
 "caution and in isolation and to seek help if something goes wrong."
 msgstr ""
+"Käyttäjiä suositellaan valitsemaan ja käyttämään tasojen 3 ja 4 päivityksiä "
+"varovaisesti ja valikoivasti ja etsimään apua, jos jokin menee pieleen."
 
 #: usr/share/help/C/mintupdate/policy.page:61(title)
 msgid "Advanced users"
@@ -334,11 +343,17 @@ msgid ""
 "critical regressions is acceptable. It assumes these users are able to fix "
 "any issue and want to apply all updates all at once."
 msgstr ""
+"Tämä käytäntö on tehty kokeneille käyttäjille tietokoneissa, joissa "
+"kriittisten regressioiden riski on hyväksyttävä. Se olettaa näiden "
+"käyttäjien olevan kykeneviä korjaamaan minkä tahansa ongelman ja heidän "
+"haluavan ottaa kaikki päivitykset kerralla käyttöön."
 
 #: usr/share/help/C/mintupdate/policy.page:65(p)
 msgid ""
 "In this policy, all recommended updates are visible and selected by default."
 msgstr ""
+"Tässä käytännössä, kaikki suositellut päivitykset näytetään ja valitaan "
+"oletusarvoisesti."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:16(desc)
 msgid "Updating from the command line"
@@ -353,43 +368,51 @@ msgid ""
 "The Update Manager provides a command line utility called \"mintupdate-"
 "tool\"."
 msgstr ""
+"Päivitysten hallinta tarjoaa komentorivityökalun, jota kutsutaan nimellä "
+"\"mintupdate-tool\"."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:23(p)
 msgid ""
 "If you are experienced with Linux, you can use this tool in your scripts or "
 "your cron jobs to automate the installation of software updates."
 msgstr ""
+"Jos olet kokenut Linuxin parissa, voit käyttää tätä työkalua skripteissäsi "
+"tai cron–töissä automatisoidaksesi ohjelmistopäivitykset."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:27(title)
 msgid "Listing updates"
-msgstr ""
+msgstr "Listataan päivityksiä"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:29(p)
 msgid "You can use the \"list\" command to list updates:"
-msgstr ""
+msgstr "Voit käyttää \"list\" komentoa listataksesi päivitykset:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:31(screen)
 #, no-wrap
 msgid "mintupdate-tool list"
-msgstr ""
+msgstr "mintupdate-tool list"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:33(p)
 msgid "The list can be filtered by levels with the -l argument."
-msgstr ""
+msgstr "Lista voidaan suodattaa tasoittain -l valinnalla."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:35(p)
 msgid "You can add security updates with -s."
-msgstr ""
+msgstr "Voit lisätä tietoturvapäivitykset -s valinnalla."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:37(p)
 msgid "You can add kernel updates with -k, or remove them with -nk."
 msgstr ""
+"Voit lisätä ytimen päivitykset käyttäen -k valintaa tai poistaa ne -nk "
+"valinnalla."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:39(p)
 msgid ""
 "For instance, the following command lists all security updates, as well as "
 "level 1 and 2 bug fixes update:"
 msgstr ""
+"Esimerkiksi, seuraava komento listaa kaikki tietoturvapäivitykset, kuten "
+"myös tasojen 1 ja 2 virheenkorjauspäivitykset:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:41(screen)
 #, no-wrap
@@ -399,18 +422,22 @@ msgstr "mintupdate-tool list -l12 -s -nk"
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:47(title)
 #: usr/share/help/C/mintupdate/index.page:35(title)
 msgid "Applying updates"
-msgstr ""
+msgstr "Toteutetaan päivityksiä"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:49(p)
 msgid ""
 "You can use the \"upgrade\" command to apply updates, using the same options."
 msgstr ""
+"Voit käyttää \"upgrade\" komentoa toteuttaaksesi päivitykset käyttäen samoja "
+"asetuksia."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:51(p)
 msgid ""
 "For instance, the following command applies all security updates as well as "
 "level 1 and 2 bug fix updates:"
 msgstr ""
+"Esimerkiksi, seuraava komento toteuttaa kaikki tietoturvapäivitykset, sekä "
+"tasojen 1 ja 2 virheenkorjauspäivitykset:"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:53(screen)
 #, no-wrap
@@ -419,7 +446,7 @@ msgstr "sudo mintupdate-tool upgrade -r -l12 -s -nk"
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:55(p)
 msgid "Note the -r argument, which was added to refresh the cache."
-msgstr ""
+msgstr "Huomaa -r valinta, joka lisättiin välimuistin virkistykseen."
 
 #: usr/share/help/C/mintupdate/mintupdate-tool.page:57(p)
 msgid ""
@@ -484,6 +511,8 @@ msgid ""
 "Updates are given a level indicating how much of an impact they have on the "
 "operating system"
 msgstr ""
+"Päivityksille on annettu tasot, jotka kuvaavat kuinka paljon niillä on "
+"vaikutusta käyttöjärjestelmään"
 
 #: usr/share/help/C/mintupdate/levels.page:19(title)
 msgid "Update levels"
@@ -494,6 +523,8 @@ msgid ""
 "Updates are given a level indicating how much of an impact they have on the "
 "operating system."
 msgstr ""
+"Päivityksille on annettu tasot, jotka kuvaavat kuinka paljon niillä on "
+"vaikutusta käyttöjärjestelmään."
 
 #: usr/share/help/C/mintupdate/levels.page:23(p)
 msgid "There are 4 levels:"
@@ -527,23 +558,25 @@ msgstr "Suuri"
 #: usr/share/help/C/mintupdate/levels.page:39(p)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1862
 msgid "Apply with caution. Impact on multiple applications."
-msgstr "Käytä varoen. Vaikuttaa useisiin sovelluksiin."
+msgstr "Toteuta varoen. Vaikuttaa useisiin sovelluksiin."
 
 #: usr/share/help/C/mintupdate/levels.page:43(p)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1857
 msgid "Sensitive"
-msgstr ""
+msgstr "Herkkä"
 
 #: usr/share/help/C/mintupdate/levels.page:44(p)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1863
 msgid "Apply one by one. Impact on sensitive parts of the system."
-msgstr ""
+msgstr "Toteuta yksi kerrallaan. Vaikuttaa järjestelmän herkkiin osiin."
 
 #: usr/share/help/C/mintupdate/levels.page:48(p)
 msgid ""
 "And there's also a special level which is given to updates with known "
 "critical issues:"
 msgstr ""
+"On myös erikoistaso, joka on annettu päivityksille joiden tiedetään "
+"aiheuttavan kriittisiä ongelmia:"
 
 #: usr/share/help/C/mintupdate/levels.page:53(p)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1858
@@ -568,10 +601,13 @@ msgid ""
 "Level 1 updates are updates which only affect their own software and have no "
 "impact on the rest of the system."
 msgstr ""
+"Tason 1 päivitykset ovat päivityksiä, jotka vaikuttavat ainoastaan niiden "
+"omaan ohjelmistoon ja niillä ei ole vaikutusta muuhun järjestelmään."
 
 #: usr/share/help/C/mintupdate/levels.page:63(p)
 msgid "They're usually updates for single applications. For instance:"
 msgstr ""
+"Ne ovat yleensä päivityksiä yksittäisille sovelluksille. Esimerkiksi:"
 
 #: usr/share/help/C/mintupdate/levels.page:66(p)
 msgid "The calculator"
@@ -595,6 +631,9 @@ msgid ""
 "case scenario a regression would only affect the software you're upgrading, "
 "not the operating system itself."
 msgstr ""
+"Voit ottaa nämä päivitykset käyttöön ilman huolta regressioista. Pahimmassa "
+"tapauksessa regressio voisi vaikuttaa ainoastaan ohjelmistoon jota olet "
+"päivittämässä, ei itse käyttöjärjestelmään."
 
 #: usr/share/help/C/mintupdate/levels.page:77(title)
 msgid ""
@@ -607,25 +646,32 @@ msgstr ""
 #: usr/share/help/C/mintupdate/levels.page:79(p)
 msgid ""
 "This is the default level, so the vast majority of updates are level 2."
-msgstr ""
+msgstr "Tämä on oletustaso, joten suurin osa päivityksistä on tasoa 2."
 
 #: usr/share/help/C/mintupdate/levels.page:81(p)
 msgid ""
 "These updates aren't known to impact large areas or sensitive parts of the "
 "system, but they're not guaranteed to only affect their own software either."
 msgstr ""
+"Näiden päivitysten ei tiedetä vaikuttavan laajasti tai järjestelmän herkkiin "
+"osiin, muttei ole taattua, että ne vaikuttavat vain niiden omaan "
+"ohjelmistoon."
 
 #: usr/share/help/C/mintupdate/levels.page:83(p)
 msgid ""
 "In general, you should be able to apply these updates without worrying about "
 "regressions."
 msgstr ""
+"Yleensä, sinun pitäisi pystyä asentamaan nämä päivitykset ilman huolta "
+"regressioista."
 
 #: usr/share/help/C/mintupdate/levels.page:85(p)
 msgid ""
 "If an important regression, or potential for regression, was found in a "
 "level 2 update, its level would be changed to 3 or 4."
 msgstr ""
+"Jos tärkeä regressio tai potentiaalinen regressio löytyy tason 2 "
+"päivityksestä, sen taso voidaan muuttaa tasolle 3 tai 3."
 
 #: usr/share/help/C/mintupdate/levels.page:90(title)
 msgid ""
@@ -640,6 +686,8 @@ msgid ""
 "Level 3 updates are updates which not only affect themselves but also have "
 "an impact on other applications."
 msgstr ""
+"Tason 3 päivitykset ovat päivityksiä jotka eivät vaikuta ainoastaan niihin, "
+"vaan niillä on myös vaikutusta muihin sovelluksiin."
 
 #: usr/share/help/C/mintupdate/levels.page:94(p)
 msgid ""
@@ -647,12 +695,17 @@ msgid ""
 "these updates wouldn't stop your computer from booting properly, but it "
 "could impact many applications."
 msgstr ""
+"Tyypillisiä esimerkkejä tason 3 päivityksistä ovat GTK, DBUS, jne... "
+"Regressio näissä päivityksissä ei estä tietokoneesi normaalia "
+"käynnistymistä, mutta voi vaikuttaa moniin sovelluksiin."
 
 #: usr/share/help/C/mintupdate/levels.page:96(p)
 msgid ""
 "Desktop environments are also level 3 updates. If a critical regression "
 "happens in Cinnamon, you might be unable to log in."
 msgstr ""
+"Työpöytäympäristöt ovat myös tason 3 päivityksiä. Jos Cinnamon:ssa tapahtuu "
+"kriittinen regressio, et ehkä voi kirjautua sisään."
 
 #: usr/share/help/C/mintupdate/levels.page:98(p)
 msgid ""
@@ -660,6 +713,9 @@ msgid ""
 "caution and in isolation. Take note of what updates you are applying, check "
 "the system afterwards to make sure everything is working fine."
 msgstr ""
+"Ei ole monia tason 3 päivityksiä. On suositeltua toteuttaa ne varovaisesti "
+"ja erikseen. Huomioi mitä muutoksia olet toteuttamassa, tarkasta järjestelmä "
+"jälkikäteen varmistaaksesi kaiken toimivuuden."
 
 #: usr/share/help/C/mintupdate/levels.page:100(p)
 #: usr/share/help/C/mintupdate/levels.page:127(p)
@@ -667,6 +723,8 @@ msgid ""
 "If something breaks, seek help on the forums or the chat channel and tell "
 "people which update caused the regression and what is broken."
 msgstr ""
+"Jos jotain rikkoutuu, etsi apua foorumeilta tai chat–kanavalta ja kerro "
+"ihmisille mikä päivitys aiheutti regression ja mikä on rikki."
 
 #: usr/share/help/C/mintupdate/levels.page:102(p)
 msgid ""
@@ -675,6 +733,10 @@ msgid ""
 "recommended but you are expected to be cautious and to know what you are "
 "upgrading."
 msgstr ""
+"Jos toteutat sokeasti satoja päivityksiä, etkä tiedä mikä niistä aiheuttaa "
+"pulmia, et todennäköisesti löydä apua. Kaikki tason 3 päivitykset ovat "
+"suositeltuja, mutta sinun odotetaan olevan varovainen ja tietävän mitä olet "
+"päivittämässä."
 
 #: usr/share/help/C/mintupdate/levels.page:107(title)
 msgid ""
@@ -689,10 +751,12 @@ msgid ""
 "Level 4 updates are updates which affect sensitive parts of the operating "
 "system such as:"
 msgstr ""
+"Tason 4 päivitykset ovat päivityksiä jotka vaikuttavat järjestelmän herkkiin "
+"osiin kuten:"
 
 #: usr/share/help/C/mintupdate/levels.page:112(p)
 msgid "The boot sequence"
-msgstr ""
+msgstr "Käynnistysjärjestys"
 
 #: usr/share/help/C/mintupdate/levels.page:113(p)
 msgid "The display manager (login screen, session management)"
@@ -700,7 +764,7 @@ msgstr ""
 
 #: usr/share/help/C/mintupdate/levels.page:114(p)
 msgid "The kernel (hardware support)"
-msgstr ""
+msgstr "Ydin (laitteistotuki)"
 
 #: usr/share/help/C/mintupdate/levels.page:115(p)
 msgid "The drivers (networking, NVIDIA/AMD)"
@@ -708,19 +772,23 @@ msgstr "Ajurit (verkkoyhteydet, NVIDIA/AMD)"
 
 #: usr/share/help/C/mintupdate/levels.page:116(p)
 msgid "The display (Xorg, mesa)"
-msgstr ""
+msgstr "Näyttö (Xorg, mesa)"
 
 #: usr/share/help/C/mintupdate/levels.page:119(p)
 msgid ""
 "Like other updates, all level 4 updates are recommended, especially if they "
 "are security updates."
 msgstr ""
+"Kuten muutkin päivitykset, kaikki tason 4 päivitykset ovat suositeltuja, "
+"etenkin, jos ne ovat tietoturvapäivityksiä."
 
 #: usr/share/help/C/mintupdate/levels.page:121(p)
 msgid ""
 "However, if a critical regression was present in one of these updates it "
 "could impact a sensitive part of your system."
 msgstr ""
+"Kuitenkin, jos yhdessä näissä päivityksistä olisi kriittinen regressio, se "
+"voisi vaikuttaa järjestelmäsi herkkiin osiin."
 
 #: usr/share/help/C/mintupdate/levels.page:123(p)
 msgid ""
@@ -728,6 +796,9 @@ msgid ""
 "ability to start the desktop environment or even without the ability to boot "
 "the operating system."
 msgstr ""
+"Saattaisit löytää itsesi tilanteesta ilman yhteyttä Internetiin, ilman "
+"mahdollisuutta käynnistää työpöytäympäristöä tai jopa ilman mahdollisuutta "
+"käynnistää käyttöjärjestelmä."
 
 #: usr/share/help/C/mintupdate/levels.page:125(p)
 msgid ""
@@ -735,6 +806,9 @@ msgid ""
 "(including kernel updates). Apply them one by one and take note of the "
 "versions you're applying."
 msgstr ""
+"Tästä syystä sinun tulisi aina olla varovainen, kun toteutat tason 4 "
+"päivityksiä (mukaan lukien ytimen päivitykset). Toteuta ne yksitellen ja "
+"huomioi toteuttamiesi päivitysten versiot."
 
 #: usr/share/help/C/mintupdate/levels.page:129(p)
 msgid ""
@@ -743,6 +817,10 @@ msgid ""
 "recommended but you are expected to be cautious and to know what you are "
 "upgrading."
 msgstr ""
+"Jos toteutat sokeasti satoja päivityksiä etkä voi osoittaa tarkasti ongelmia "
+"aiheuttavaa, et todennäköisesti löydä apua. Kaikki tason 4 päivitykset ovat "
+"suositeltuja, mutta sinun odotetaan olevan varovainen ja tietävän mitä olet "
+"päivitämässä."
 
 #: usr/share/help/C/mintupdate/levels.page:134(title)
 msgid ""
@@ -809,6 +887,7 @@ msgstr ""
 msgid ""
 "From a security point of view, it is important to apply kernel updates."
 msgstr ""
+"Turvallisuuden näkökulmasta, on tärkeää toteuttaa ytimen päivitykset."
 
 #: usr/share/help/C/mintupdate/kernels.page:27(p)
 msgid ""
@@ -816,22 +895,29 @@ msgid ""
 "Internet, to start your desktop environment or even to boot the operating "
 "system."
 msgstr ""
+"Ytimen regressiot voivat kuitenkin vaikuttaa mahdollisuuksiisi yhdistää "
+"Internetiin, käynnistää työpöytäympäristöäsi tai jopa käyttöjärjestelmän "
+"käynnistämiseen."
 
 #: usr/share/help/C/mintupdate/kernels.page:29(p)
 msgid ""
 "For this reason it is important to be cautious when applying kernel updates "
 "and to know how to revert them when something goes wrong."
 msgstr ""
+"Tästä syystä on tärkeää olla varovainen, kun toteutetaan ytimen päivityksiä "
+"ja tietää kuinka perua muutokset, jos jokin menee pieleen."
 
 #: usr/share/help/C/mintupdate/kernels.page:32(title)
 msgid "Multiple kernels can be installed"
-msgstr ""
+msgstr "Useita ytimiä voidaan asentaa"
 
 #: usr/share/help/C/mintupdate/kernels.page:34(p)
 msgid ""
 "When you apply an update, you replace the old version of the software with "
 "the new version."
 msgstr ""
+"Kun toteutat päivityksen, korvaat ohjelmiston vanhan version uudella "
+"versiolla."
 
 #: usr/share/help/C/mintupdate/kernels.page:36(p)
 msgid ""
@@ -839,20 +925,25 @@ msgid ""
 "update\", you don't actually update the kernel, you install a new kernel "
 "alongside the existing one."
 msgstr ""
+"Ytimien kohdalla tilanne on toinen. Kun toteutat ytimen päivityksen (kernel "
+"update), et itse asiassa päivitä ydintä, vaan asennat uuden ytimen vanhan "
+"rinnalle."
 
 #: usr/share/help/C/mintupdate/kernels.page:38(p)
 msgid ""
 "Every time you apply a kernel update, you install a new kernel on the "
 "system, without removing the old ones."
 msgstr ""
+"Jokaisella kerralla jolloin toteutat ytimen päivityksen, asennat "
+"järjestelmään uuden ytimen, poistamatta vanhoja."
 
 #: usr/share/help/C/mintupdate/kernels.page:40(p)
 msgid "At boot time, the computer selects the most recent one."
-msgstr ""
+msgstr "Käynnistettäessä tietokone valitsee tuoreimman"
 
 #: usr/share/help/C/mintupdate/kernels.page:45(title)
 msgid "Identifying the current kernel"
-msgstr ""
+msgstr "Nykyisen ytimen tunnistaminen"
 
 #: usr/share/help/C/mintupdate/kernels.page:47(p)
 msgid ""
@@ -883,6 +974,8 @@ msgid ""
 "You cannot remove the kernel you are currently using. To remove it, you need "
 "to reboot and select a different kernel to boot with."
 msgstr ""
+"Et voi poistaa käytössä olevaa ydintä. Poistaaksesi sen, sinun täytyy valita "
+"toinen ydin käynnistystä varten."
 
 #: usr/share/help/C/mintupdate/kernels.page:65(title)
 msgid "Selecting a kernel"
@@ -893,6 +986,8 @@ msgid ""
 "You can have multiple kernels installed, but you can only run one kernel at "
 "a time."
 msgstr ""
+"Sinulla voi olla useita ytimiä asennettuna, mutta voit käyttää vain yhtä "
+"kerrallaan."
 
 #: usr/share/help/C/mintupdate/kernels.page:69(p)
 msgid ""
@@ -900,6 +995,9 @@ msgid ""
 "This menu allows you to choose operating systems but you can also use it to "
 "select a kernel."
 msgstr ""
+"Kun käynnistät tietokoneen, ensimmäistä ruutua kutsutaan Grub–valikoksi. "
+"Tämä valikko mahdollistaa käyttöjärjestelmän valinnan, mutta voit myös "
+"käyttää sitä ytimen valintaan."
 
 #: usr/share/help/C/mintupdate/kernels.page:71(p)
 msgid ""
@@ -907,6 +1005,9 @@ msgid ""
 "skip the Grub menu. To force the Grub menu to show, boot the computer and "
 "keep pressing the left <key>Shift</key> key."
 msgstr ""
+"Jos sinulla on vain yksi käyttöjärjestelmä asennettuna, käynnistysvaihe "
+"saattaa ohittaa Grub–valikon. Pakottaaksesi grub–valikon esiin, käynnistä "
+"tietoko ja paina vasenta <key>Shift</key> näppäintä."
 
 #: usr/share/help/C/mintupdate/kernels.page:73(p)
 msgid ""
@@ -914,10 +1015,13 @@ msgid ""
 "see all the kernels currently installed. Select the one you want to use and "
 "your computer will boot with that one."
 msgstr ""
+"Valitaksesi ytimen, valitse \"Advanced options\" Grub–valikosta. Sinun "
+"tulisi nähdä kaikki asennetut ytimet. Valitse niistä se jota haluat käyttää "
+"ja tietokoneesi käynnistyy sillä."
 
 #: usr/share/help/C/mintupdate/kernels.page:78(title)
 msgid "Checking the DKMS status"
-msgstr ""
+msgstr "Tarkastetaan DKMS:n tila"
 
 #: usr/share/help/C/mintupdate/kernels.page:80(p)
 msgid ""
@@ -926,12 +1030,18 @@ msgid ""
 "they need to compile themselves against every kernel you install. This is "
 "done via a mechanism called DKMS."
 msgstr ""
+"Ydin sisältää kaikki avoimen lähdekoodin ajurit ja ne toimivat yleensä "
+"erittäin hyvin. Suljetut ajurit (NVIDIA, AMD, Broadcom...jne) eivät sisälly "
+"ja ne täytyy kääntää jokaista asentamaasi ydintä varten. Tämä tapahtuu "
+"mekanismilla jota kutsutaan nimellä DKMS."
 
 #: usr/share/help/C/mintupdate/kernels.page:82(p)
 msgid ""
 "If a proprietary driver isn't properly recompiled with DKMS for one of your "
 "kernels, it will not function correctly with that kernel."
 msgstr ""
+"Jos suljettua ajuria ei ole käännetty kunnolla DKMS:llä yhdelle ytimistäsi, "
+"se ei toimi oikein sen ytimen kanssa."
 
 #: usr/share/help/C/mintupdate/kernels.page:84(p)
 msgid ""
@@ -939,6 +1049,9 @@ msgid ""
 "make sure all proprietary drivers are properly installed for each of your "
 "kernels with the following command:"
 msgstr ""
+"Ytimen asentamisen tai poistamisen jälkeen voit tarkastaa DKMS:n tilan "
+"varmistaaksesi kaikkien suljettujen ajurien olevan kunnolla asennettuna "
+"jokaiselle ytimellesi seuraavalla komennolla:"
 
 #: usr/share/help/C/mintupdate/kernels.page:86(screen)
 #, no-wrap
@@ -952,10 +1065,14 @@ msgid ""
 "recommended to stick to kernel updates and not to install kernels from "
 "series which are newer than the series of the recommended kernels."
 msgstr ""
+"Uusi ytimen sarja tulee yleensä saataville ennen kuin suljetut ajurit "
+"tukevat niitä DKMS:llä. Jos käytät suljettuja ajureita, on suositeltavaa "
+"pysytellä ytimen päivityksissä ja olla asentamatta ytimiä sarjoista jotka "
+"ovat uudempia kuin suositeltujen ytimien sarja."
 
 #: usr/share/help/C/mintupdate/kernels.page:93(title)
 msgid "Reverting a kernel update"
-msgstr ""
+msgstr "Ytimen päivityksen peruminen"
 
 #: usr/share/help/C/mintupdate/kernels.page:95(p)
 msgid ""
@@ -963,6 +1080,9 @@ msgid ""
 "latest kernel update), reboot, select the kernel you were previously using, "
 "remove the new kernel and reboot again."
 msgstr ""
+"Jos jokin ei toimi viimeisimmällä asentamallasi ytimellä (tai viimeisimmällä "
+"ytimen päivityksellä), käynnistä uudelleen, valitse ydin jota käytit "
+"aiemmin, poista uusi ydin ja käynnistä uudelleen."
 
 #: usr/share/help/C/mintupdate/index.page:18(title)
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:919
@@ -989,12 +1109,16 @@ msgid ""
 "Updates are important because they keep your computer safe, eliminate bugs "
 "and can even add new features to your operating system."
 msgstr ""
+"Päivitykset ovat tärkeitä, koska ne pitävät tietokoneesi turvassa, korjaavat "
+"virheitä ja voivat jopa lisätä uusia ominaisuuksia käyttöjärjestelmääsi."
 
 #: usr/share/help/C/mintupdate/index.page:24(p)
 msgid ""
 "Unfortunately they also sometimes introduce new issues called 'regressions', "
 "which can break things which worked well before."
 msgstr ""
+"Valitettavasti ne joskus tuovat myös mukanaan uusia pulmia joita kutsutaan "
+"\"regressioiksi\", ne voivat rikkoa asioita jotka toimivat aiemmin hyvin."
 
 #: usr/share/help/C/mintupdate/index.page:26(p)
 msgid ""
@@ -1002,6 +1126,10 @@ msgid ""
 "updates can affect your computer, so you can review them, apply them with "
 "caution and be prepared in case something goes wrong."
 msgstr ""
+"On suositeltua toteuttaa tietoturvapäivitykset, mutta myös ymmärtää kuinka "
+"päivitykset voivat vaikuttaa tietokoneeseesi, joten voit tarkastella niitä, "
+"toteuttaa ne varovaisesti ja olla varautunut tilanteeseen jossa jokin menee "
+"pieleen."
 
 #: usr/share/help/C/mintupdate/index.page:29(title)
 msgid "Core concepts"
@@ -1009,11 +1137,11 @@ msgstr "Ydinkonseptit"
 
 #: usr/share/help/C/mintupdate/index.page:31(p)
 msgid "This section explains the core concepts related to software updates."
-msgstr ""
+msgstr "Tämä osio selittää ohjelmistopäivityksiin liittyvät ydinkonseptit."
 
 #: usr/share/help/C/mintupdate/index.page:37(p)
 msgid "This section explains update levels, policies."
-msgstr ""
+msgstr "Tämä osio selittää päivitystasot, käytännöt."
 
 #: usr/share/help/C/mintupdate/index.page:43(p)
 msgid "This section explains kernel updates."
@@ -1021,11 +1149,11 @@ msgstr "Tämä osio selittää ytimen päivitykset."
 
 #: usr/share/help/C/mintupdate/index.page:47(title)
 msgid "Advanced techniques"
-msgstr ""
+msgstr "Kehittyneet tekniikat"
 
 #: usr/share/help/C/mintupdate/index.page:49(p)
 msgid "This section explains advanced techniques."
-msgstr ""
+msgstr "Tämä osio selittää kehittyneet tekniikat."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintupdate/index.page:0(None)
@@ -1134,6 +1262,9 @@ msgid ""
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
+"Linux–ydin on kriittinen osa järjestelmää. Regressiot voivat johtaa "
+"verkkoyhteyden puuttumiseen, äänen puuttumiseen, graafisen käyttöliittymän "
+"puuttumiseen tai jopa estää tietokoneen käynnistymisen."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
@@ -1141,6 +1272,9 @@ msgid ""
 "section, to make sure you know how to select kernels, how to revert updates "
 "and how to check your DKMS status."
 msgstr ""
+"Ennen ytimien asentamista tai poistoa, luethan ohjeosion, varmistat, että "
+"tiedät kuinka valita ytimiä, kuinka perua päivitykset ja kuinka tarkistat "
+"DKMS:n tilan."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:233
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1127
@@ -1189,11 +1323,11 @@ msgstr "Tämä päivitys aiheuttaa lisämuutoksia"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
 msgid "The following packages will be removed:"
-msgstr ""
+msgstr "Seuraavat paketit poistetaan:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
 msgid "The following packages will be installed:"
-msgstr ""
+msgstr "Seuraavat paketit asennetaan:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
@@ -1294,15 +1428,15 @@ msgstr "Päivityksiä ei valittu"
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgid_plural "%(selected)d updates selected (%(size)s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(selected)d päivitys valittuna (%(size)s)"
+msgstr[1] "%(selected)d päivitystä valittuna (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
 msgid "%d update available"
 msgid_plural "%d updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d päivitys saatavilla"
+msgstr[1] "%d päivitystä saatavilla"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
@@ -1328,8 +1462,8 @@ msgstr "%s on tavoittamattomissa"
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d day ago"
 msgid_plural "The last update on %(mirror)s was %(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Edellinen päivitys %(mirror)s oli %(days)d päivä sitten"
+msgstr[1] "Edellinen päivitys %(mirror)s oli %(days)d päivää sitten"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
@@ -1438,16 +1572,19 @@ msgstr "Suositeltu valinta uusille käyttäjille."
 msgid ""
 "Select updates which do not impact important parts of the operating systems."
 msgstr ""
+"Valitse päivitykset jotka eivät vaikuta käyttöjärjestelmän tärkeisiin osiin."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1109
 msgid ""
 "Show security and kernel updates so I can review them and apply them with "
 "caution."
 msgstr ""
+"Näytä tietoturvapäivitykset ja ytimen päivitykset, jotta voin tarkastaa ne "
+"ja ottaa ne varoen käyttöön."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1111
 msgid "Let me review sensitive updates"
-msgstr ""
+msgstr "Anna minun tarkastella herkkiä päivityksiä"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1112
 msgid "Recommended for most users."
@@ -1458,12 +1595,16 @@ msgid ""
 "Select security updates and updates which do not impact important parts of "
 "the operating systems."
 msgstr ""
+"Valitse tietoturvapäivitykset ja päivitykset jotka eivät vaikuta "
+"käyttöjärjestelmän tärkeisiin osiin."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1113
 msgid ""
 "Show kernel updates and sensitive updates so I can review them and apply "
 "them with caution."
 msgstr ""
+"Näytä ytimen päivitykset ja herkät päivitykset jotta voin tarkastella niitä "
+"ja toteuttaa ne varoen."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1115
 msgid "Always update everything"
@@ -1479,7 +1620,7 @@ msgstr "Valitse aina kaikki päivitykset."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1117
 msgid "If a regression breaks something, I'll fix it."
-msgstr ""
+msgstr "Jos regressio rikkoo jotain, korjaan sen."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1119
 msgid ""
@@ -1487,6 +1628,9 @@ msgid ""
 "(very rare) are always hidden. You can change this and fine-tune your policy "
 "in the preferences."
 msgstr ""
+"Tietoturva– ja ytimen päivitykset ovat aina näkyvissä ja päivitykset, joissa "
+"on tunnettuja ongelmia (hyvin harvoin) ovat aina piilotettuina. Voit muuttaa "
+"tätä ja hienosäätää käytäntöjäsi asetuksista."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1121
 msgid "_File"
@@ -1507,27 +1651,27 @@ msgstr "Ohjelmalähteet"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1188
 msgid "Select level 1 updates"
-msgstr ""
+msgstr "Valitse tason 1 päivitykset"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1194
 msgid "Select level 2 updates"
-msgstr ""
+msgstr "Valitse tason 2 päivitykset"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1200
 msgid "Select level 3 updates"
-msgstr ""
+msgstr "Valitse tason 3 päivitykset"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1206
 msgid "Select level 4 updates"
-msgstr ""
+msgstr "Valitse tason 4 päivitykset"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1212
 msgid "Select security updates"
-msgstr ""
+msgstr "Valitse tietoturvapäivitykset"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1218
 msgid "Select kernel updates"
-msgstr ""
+msgstr "Valitse ytimen päivitykset"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1244
 #, python-format
@@ -1580,7 +1724,7 @@ msgstr "Tietoja"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
 msgid "Packages included in this update:"
-msgstr ""
+msgstr "Paketit jotka sisältyvät tähän päivitykseen:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"
@@ -1620,7 +1764,7 @@ msgstr "Vaikutusten taso"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1851
 msgid "Selected"
-msgstr ""
+msgstr "Valitut"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1852
 msgid "Visible"

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-11-22 12:09+0000\n"
-"PO-Revision-Date: 2017-07-05 17:33+0000\n"
-"Last-Translator: lang-it <Unknown>\n"
+"PO-Revision-Date: 2017-12-05 07:57+0000\n"
+"Last-Translator: Luca Polito <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2017-11-23 10:33+0000\n"
-"X-Generator: Launchpad (build 18509)\n"
+"X-Launchpad-Export-Date: 2018-01-06 14:17+0000\n"
+"X-Generator: Launchpad (build 18521)\n"
 
 #: usr/share/help/C/mintupdate/updates.page:10(name)
 #: usr/share/help/C/mintupdate/regressions.page:10(name)
@@ -1203,6 +1203,7 @@ msgstr ""
 "  Claudio Mezzasalma https://launchpad.net/~cm0901\n"
 "  Fantu https://launchpad.net/~fantonifabio\n"
 "  Francesco Bedini https://launchpad.net/~bedo2991\n"
+"  Luca Polito https://launchpad.net/~adevur\n"
 "  Mad Hatter https://launchpad.net/~vanhelgen\n"
 "  Nicola Patruno https://launchpad.net/~erusmei\n"
 "  Nicolò Santamaria https://launchpad.net/~lion-santa\n"
@@ -1296,6 +1297,9 @@ msgid ""
 "lack of networking, lack of sound, lack of graphical environment or even the "
 "inability to boot the computer."
 msgstr ""
+"Il kernel Linux è una parte critica del sistema. Le regressioni possono "
+"causare malfunzionamenti della rete, la mancanza di audio, dell'ambiente "
+"grafico, o addirittura potrebbe non essere più possibile avviare il computer."
 
 #: usr/lib/linuxmint/mintUpdate/kernelwindow.py:221
 msgid ""
@@ -1354,11 +1358,11 @@ msgstr "L'aggiornamento causerà ulteriori modifiche"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
 msgid "The following packages will be removed:"
-msgstr ""
+msgstr "I seguenti pacchetti saranno rimossi:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:372
 msgid "The following packages will be installed:"
-msgstr ""
+msgstr "I seguenti pacchetti saranno installati:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:415
 msgid "Installing updates"
@@ -1461,15 +1465,15 @@ msgstr "Nessun aggiornamento selezionato"
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgid_plural "%(selected)d updates selected (%(size)s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(selected)d aggiornamento selezionato (%(size)s)"
+msgstr[1] "%(selected)d aggiornamenti selezionati (%(size)s)"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:746
 #, python-format
 msgid "%d update available"
 msgid_plural "%d updates available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d aggiornamento disponibile"
+msgstr[1] "%d aggiornamenti disponibili"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:783
 msgid "Do you want to switch to a local mirror?"
@@ -1493,8 +1497,8 @@ msgstr "%s è irraggiungibile"
 #, python-format
 msgid "The last update on %(mirror)s was %(days)d day ago"
 msgid_plural "The last update on %(mirror)s was %(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "L'ultimo aggiornamento di %(mirror)s è stato %(days)d giorno fa"
+msgstr[1] "L'ultimo aggiornamento di %(mirror)s è stato %(days)d giorni fa"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:928
 msgid "Exit"
@@ -1758,7 +1762,7 @@ msgstr "Informazioni su..."
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1646
 msgid "Packages included in this update:"
-msgstr ""
+msgstr "Pacchetti inclusi in questo aggiornamento:"
 
 #: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1655
 msgid "Ignore updates for this package"

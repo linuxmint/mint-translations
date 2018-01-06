@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:03+0100\n"
-"PO-Revision-Date: 2016-11-18 09:06+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"PO-Revision-Date: 2018-01-03 15:48+0000\n"
+"Last-Translator: Goran Vučković <Unknown>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-23 10:34+0000\n"
-"X-Generator: Launchpad (build 18509)\n"
+"X-Launchpad-Export-Date: 2018-01-06 14:18+0000\n"
+"X-Generator: Launchpad (build 18521)\n"
 "Language: sr\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:32
 msgid "Backups"
-msgstr ""
+msgstr "Резервне копије"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:159
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:199
@@ -32,43 +32,45 @@ msgstr "Алатка за резерве"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:222
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr ""
+msgstr "%s није у вашем home директоријуму."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:262
 msgid "Please choose a directory."
-msgstr ""
+msgstr "Молим вас иаберите директоријум."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:265
 msgid "You do not have the permission to write in the selected directory."
-msgstr ""
+msgstr "Немате дозволу да записујете у изабраном директоријуму."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:325
 msgid "Please choose a backup file."
-msgstr ""
+msgstr "Молим вас изаберите резервну копију."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:333
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
+"Ова резервна копија је превише стара или створена другим алатом. Молим вас "
+"распакујте је ручно."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:342
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
-msgstr ""
+msgstr "Дошло је до грешке приликом отварања резервне копије: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:356
 msgid "No packages need to be installed."
-msgstr ""
+msgstr "Није потребно инсталирати ниједан пакет."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:363
 msgid "Please select packages to install."
-msgstr ""
+msgstr "Молим вас изаберите пакете које желите инсталирати."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:417
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr ""
+msgstr "Прескачем %s  јер named pipes нису подржане."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
@@ -81,22 +83,24 @@ msgstr "Израчунавам..."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:454
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:558
 msgid "The following errors occurred:"
-msgstr ""
+msgstr "Дошло је до следећих грешака:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "The backup was aborted."
-msgstr ""
+msgstr "Прављење резервне копије је заустављено."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr ""
+msgstr "Васи фајлови су успешно сачувани у %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
+"Упозорење: Мета фајл није могао бити сачуван. Ова резервна копија неђе бити "
+"прихваћена за повратак система."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
@@ -104,6 +108,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
+"Упозорење: Неки фајлови нису сачувани. Само %(archived)d фајлови су сачувани "
+"од %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:547
 msgid "Restoring:"
@@ -111,34 +117,34 @@ msgstr "Враћам:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:564
 msgid "The restoration was aborted."
-msgstr ""
+msgstr "Повратак система је прекинут."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "Your files were successfully restored."
-msgstr ""
+msgstr "Ваше датотеке су успешно враћене."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr ""
+msgstr "Упозорење: Само %(number)d фајлова је враћено од %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:710
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr ""
+msgstr "Ваш избот програма је сачуван у %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:726
 msgid "The selected file is not a valid software selection."
-msgstr ""
+msgstr "Изабрани фајл не садржи валидну листу програма."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:731
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:760
 msgid "An error occurred while reading the file."
-msgstr ""
+msgstr "Дошло је до грешке приликом очитавања фајла."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:748
 msgid "Could not locate the package."
-msgstr ""
+msgstr "Пакет није могао бити пронађен."
 
 #: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
@@ -146,37 +152,39 @@ msgstr "Направите резервни примерак личне фасц
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
-msgstr ""
+msgstr "Лични подаци"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr ""
+msgstr "Ваши фајлови, подешавања и садржај васег home директоријума."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
-msgstr ""
+msgstr "Врати..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr ""
+msgstr "Сними резервну копију сада..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr ""
+msgstr "Избор програма"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr ""
+msgstr "Листа програма инсталираних на вашем компијутеру"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr ""
+msgstr "Молим вас изаберите где желите да сачувате вашу резервну копију."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
+"Молим вас додајте фајлове и директоријуме у листу испод ако зелите да не "
+"буду снимљени у резервну копију."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -195,44 +203,54 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
+"Слривени фајлови и скривени фолдери који се налазе у root-у васег home "
+"директоријума нису снимљени уколико не измените подразумевана подешавања."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
+"Уколико желите да додате неке од њих у резервну копију, молим вас додајте их "
+"на листу испод."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr ""
+msgstr "Додај фајлове."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr ""
+msgstr "Додај директоријуме"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"Ови фајлови и фолдери обично садрже привремене податке или подешавања ваших "
+"апликација."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
 msgstr ""
+"Молим вас сачекајте док ваши фајлови буди снимљени у резервну копију."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr ""
+msgstr "Молим вас изаберите резервну копију коју зелите да вратите."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr ""
+msgstr "Пиши преко постојећих фајлова?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"Не, само врати постојеће фајлове.\n"
+"<small>Ова опција је најбезбедија и не утиче на ваше постојеће "
+"фајлове.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -240,28 +258,33 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"Да, писи преко постојећих фајлова и врати садржај свих фајлова који постоје "
+"у резервној копији.\n"
+"<small>Користите ову опцију пажљиво.Промене које сте начинили после прављења "
+"резервне копије ће бити изгубљене.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr ""
+msgstr "Молим вас сачекајте да ваши фајлови буду враћени."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
+"Листа испод показује апликације које су инсталиране Software Manager-ом."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "Молим вас изаберите апликације које желите да сачувате."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
-msgstr ""
+msgstr "Селектуј све"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect all"
-msgstr ""
+msgstr "Деселектуј све"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -269,14 +292,17 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"Назнака: Ако желите да сачувате комплетну листу свих пакета инсталираних на "
+"систему, молим вас користите команду 'dpkg --get-selections > mylist.list' у "
+"терминалу."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
+msgstr "Молим вас изаберите листу програма (.list фајл)"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr ""
+msgstr "Изаберите пакете које желите да инсталирате."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
@@ -284,7 +310,7 @@ msgstr "Освежи"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr ""
+msgstr "Сви пакети у вашем избору програма су инсталирани."
 
 #~ msgid "Hidden paths"
 #~ msgstr "Скривене путање"
