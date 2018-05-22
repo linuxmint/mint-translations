@@ -7,78 +7,79 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-07 12:22+0100\n"
+"POT-Creation-Date: 2018-05-07 13:13+0100\n"
 "PO-Revision-Date: 2016-09-29 19:07+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: Occitan (post 1500) <oc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-01-06 14:21+0000\n"
-"X-Generator: Launchpad (build 18521)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:21+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
-#: lib/mintstick.py:82
+#: lib/mintstick.py:86
 msgid "Write"
 msgstr "Escriure"
 
-#: lib/mintstick.py:131 generate_additional_files.py:78
+#: lib/mintstick.py:134 generate_additional_files.py:78
 msgid "Format"
 msgstr "Formatar"
 
-#: lib/mintstick.py:218
+#: lib/mintstick.py:224
 msgid "unknown"
 msgstr ""
 
-#: lib/mintstick.py:313 lib/mintstick.py:315
+#: lib/mintstick.py:348 lib/mintstick.py:350
 msgid "The USB stick was formatted successfully."
 msgstr "La clau USB es estada formatada amb succès."
 
-#: lib/mintstick.py:318
+#: lib/mintstick.py:353
 #, python-format
 msgid "An error occured while creating a partition on %s."
 msgstr ""
 "Una error s'es produita al moment de la creacion d'una particion sus %s."
 
-#: lib/mintstick.py:320 lib/mintstick.py:418
+#: lib/mintstick.py:355 lib/mintstick.py:463
 msgid "Authentication Error."
 msgstr "Error d'autentificacion."
 
-#: lib/mintstick.py:322 lib/mintstick.py:420
+#: lib/mintstick.py:357 lib/mintstick.py:465
 msgid "An error occurred."
 msgstr "Una error s'es produita."
 
-#: lib/mintstick.py:338
+#: lib/mintstick.py:375
 msgid "Image:"
 msgstr "Imatge :"
 
-#: lib/mintstick.py:339
+#: lib/mintstick.py:376
 msgid "USB stick:"
 msgstr "Clau USB :"
 
-#: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
-#: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
+#: lib/mintstick.py:395 lib/mintstick.py:401 lib/mintstick.py:496
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: share/mintstick/mintstick.ui.h:31
 msgid "USB Image Writer"
 msgstr "Creator de clau USB"
 
-#: lib/mintstick.py:390
+#: lib/mintstick.py:435
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
 msgstr "Escritura de %(VAR_FILE)s cap a %(VAR_DEV)s"
 
-#: lib/mintstick.py:391
+#: lib/mintstick.py:436
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
 msgstr "Còpia de %(VAR_SOURCE)s cap a %(VAR_TARGET)s començada"
 
-#: lib/mintstick.py:408 lib/mintstick.py:411
+#: lib/mintstick.py:453 lib/mintstick.py:456
 msgid "The image was successfully written."
 msgstr "L'imatge es estat escrit amb succès."
 
-#: lib/mintstick.py:414
+#: lib/mintstick.py:459
 msgid "Not enough space on the USB stick."
 msgstr "Pas pro d'espaci sus la clau USB."
 
-#: lib/mintstick.py:416
+#: lib/mintstick.py:461
 msgid "An error occured while copying the image."
 msgstr "Una error s'es produita al moment de la còpia de l'imatge."
 
@@ -135,68 +136,58 @@ msgstr "en"
 #: share/mintstick/mintstick.ui.h:8
 msgid ""
 "FAT32 \n"
-"   + Compatible everywhere.\n"
-"   -  Cannot handle files larger than 4GB.\n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
 "\n"
 "NTFS \n"
 "  + Compatible with Windows.\n"
-"   - Not compatible with Mac and most hardware devices.\n"
-"   - Occasional compatibility problems with Linux (NTFS is proprietary and "
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
 "reverse engineered).\n"
 "\n"
 "EXT4 \n"
-"\n"
 "  + Modern, stable, fast, journalized.\n"
 "  + Supports Linux file permissions.\n"
-"   - Not compatible with Windows, Mac and most hardware devices.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
-"FAT32\n"
-"   + Compatible pertot.\n"
-"   - Gerís pas los fichièrs de mai de 4 Gio.\n"
-"\n"
-"NTFS\n"
-"   + Compatible amb Windows.\n"
-"   - Pas compatible amb Mac e la màger part dels periferics.\n"
-"   - Problèmas ocasionals d'incompatibilitat amb Linux (NTFS es proprietari "
-"e retroconcebut).\n"
-"\n"
-"EXT4\n"
-"   + Modèrne, estable, rapid, jornalizat.\n"
-"   + Supòrta los dreits d'accès Linux.\n"
-"   - Pas compatible amb Windows, Mac e la màger part dels periferics.\n"
 
-#: share/mintstick/mintstick.ui.h:23
+#: share/mintstick/mintstick.ui.h:27
 msgid "Volume label:"
 msgstr "Nom de volum :"
 
-#: share/mintstick/mintstick.ui.h:24
+#: share/mintstick/mintstick.ui.h:28
 msgid "Choose a name for your USB Stick"
 msgstr "Causissètz un nom per vòstra clau USB"
 
-#: share/mintstick/mintstick.ui.h:25
+#: share/mintstick/mintstick.ui.h:29
 msgid "USB Stick"
 msgstr "Clau USB"
 
-#: share/mintstick/mintstick.ui.h:26
+#: share/mintstick/mintstick.ui.h:30
 msgid "Details"
 msgstr "Detalhs"
 
-#: share/mintstick/mintstick.ui.h:28
+#: share/mintstick/mintstick.ui.h:32
 msgid "Write image:"
 msgstr "Ecriure l'imatge :"
 
-#: share/mintstick/mintstick.ui.h:29
+#: share/mintstick/mintstick.ui.h:33
 msgid "Select an image"
 msgstr "Seleccionatz un imatge"
 
-#: share/mintstick/mintstick.ui.h:30
+#: share/mintstick/mintstick.ui.h:34
 msgid "Select Image"
 msgstr "Causissètz un imatge"
 
-#: share/mintstick/mintstick.ui.h:31
+#: share/mintstick/mintstick.ui.h:35
 msgid "to"
 msgstr "a"
 
-#: share/mintstick/mintstick.ui.h:32
+#: share/mintstick/mintstick.ui.h:36
 msgid "The image was written successfully."
 msgstr "L'imatge es estat escrit amb succès."

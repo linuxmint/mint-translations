@@ -1,77 +1,75 @@
-# Arabic translation for linuxmint
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-27 13:03+0100\n"
-"PO-Revision-Date: 2014-12-07 15:25+0000\n"
-"Last-Translator: Faissal Chamekh <Unknown>\n"
-"Language-Team: Arabic <ar@li.org>\n"
+"PO-Revision-Date: 2018-04-10 15:30+0000\n"
+"Last-Translator: انور الاسكندرانى <Unknown>\n"
+"Language-Team: anwar AL_iskandrany <anwareleskndrany13@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-01-06 14:18+0000\n"
-"X-Generator: Launchpad (build 18521)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:18+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
+"Language: ar_EG\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:32
 msgid "Backups"
-msgstr ""
+msgstr "النسخ الاحتياطي"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:159
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:199
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:206 generate_desktop_files:26
 #: generate_desktop_files:41
 msgid "Backup Tool"
-msgstr "اداة النسخ الإحتياطي"
+msgstr "أداة النسخ الاحتياطي"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:222
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr ""
+msgstr "لا يوجد %s في دليل المجلد الرئيسي."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:262
 msgid "Please choose a directory."
-msgstr ""
+msgstr "يرجى اختيار الدليل."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:265
 msgid "You do not have the permission to write in the selected directory."
-msgstr ""
+msgstr "ليس لديك إذن الكتابة في الدليل المحدد."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:325
 msgid "Please choose a backup file."
-msgstr ""
+msgstr "يرجى اختيار ملف النسخ الاحتياطي."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:333
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
+"إما أن ملف النسخة الاحتياطية قديم جداً أو تم إنشاؤه باستخدام أداة مختلفة. "
+"يرجى استخراجها يدويا."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:342
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
-msgstr ""
+msgstr "حدث خطأ أثناء فتح ملف النسخة الاحتياطية: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:356
 msgid "No packages need to be installed."
-msgstr ""
+msgstr "لا تحتاج إلى تثبيت الحزم."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:363
 msgid "Please select packages to install."
-msgstr ""
+msgstr "يرجى تحديد الحزم للتثبيت."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:417
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr ""
+msgstr "يتم تخطي %s لأن قنوات الإتصال المسماة غير معتمدة."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
-msgstr "يتم نسخ احتياطي لــ:"
+msgstr "النسخة الإحتياطية:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:450
 msgid "Calculating..."
@@ -80,110 +78,112 @@ msgstr "جاري الحساب..."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:454
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:558
 msgid "The following errors occurred:"
-msgstr ""
+msgstr "وقعت الأخطاء التالية:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "The backup was aborted."
-msgstr ""
+msgstr "تم إجهاض النسخ الاحتياطي."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr ""
+msgstr "تم حفظ ملفاتك بنجاح في %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
+"تحذير: لا يمكن حفظ ملف التعريف. لن يتم قبول هذه النسخة الاحتياطية للاستعادة."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
-msgstr ""
+msgstr "تحذير: لم يتم حفظ بعض الملفات. تم نسخ %(archived)d من %(total)d فقط."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:547
 msgid "Restoring:"
-msgstr "استعادة:"
+msgstr "استعادة"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:564
 msgid "The restoration was aborted."
-msgstr ""
+msgstr "تم إجهاض الاستعادة."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "Your files were successfully restored."
-msgstr ""
+msgstr "تمت استعادة ملفاتك بنجاح."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr ""
+msgstr "تحذير: تمت استعادة %(number)d ملفات فقط من%(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:710
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr ""
+msgstr "تم حفظ اختيار البرنامج الخاص بك في %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:726
 msgid "The selected file is not a valid software selection."
-msgstr ""
+msgstr "الملف المحدد ليس اختيار برنامج صالح."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:731
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:760
 msgid "An error occurred while reading the file."
-msgstr ""
+msgstr "حدث خطأ أثناء قراءة الملف."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:748
 msgid "Could not locate the package."
-msgstr ""
+msgstr "لا يمكن تحديد موقع الحزمة."
 
 #: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
-msgstr "قم بعمل نسخة احتياطية من مجلد المنزل الخاص بك"
+msgstr "عمل نسخة احتياطية من دليل مجلدك الرئيسي"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
-msgstr ""
+msgstr "البيانات الشخصية"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr ""
+msgstr "ملفاتك وإعداداتك ومحتوى دليل مجلدك الرئيسي"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
-msgstr ""
+msgstr "استعادة..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr ""
+msgstr "النسخ الاحتياطي الآن..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr ""
+msgstr "اختيار البرامج"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr ""
+msgstr "قائمة التطبيقات المثبتة على جهاز الكمبيوتر الخاص بك"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr ""
+msgstr "الرجاء تحديد المكان الذي تريد حفظ ملف النسخة الاحتياطية فيه:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
+"الرجاء إضافة ملفات أو أدلة إلى القائمة أدناه لاستبعادها من النسخ الاحتياطي."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
-msgstr "استبعد الملفات"
+msgstr "استبعاد الملفات"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
 msgid "Exclude directories"
-msgstr "استثناء مجلدات"
+msgstr "استبعاد الدلائل"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
 msgid "Remove"
@@ -194,44 +194,51 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
+"لا يتم افتراضياً تضمين الملفات المخفية والمجلدات المخفية الموجودة في جذر "
+"الدليل الرئيسي."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
+"إذا كنت تريد تضمين بعض منها في النسخ الاحتياطي، فيرجى إضافتها إلى القائمة "
+"أدناه."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr ""
+msgstr "تضمين الملفات"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr ""
+msgstr "تضمين الدلائل"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"تحتوي هذه الملفات والمجلدات عادةً على بيانات مؤقتة أو تفضيلات لتطبيقاتك."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr ""
+msgstr "الرجاء الانتظار بينما يتم الاحتفاظ بنسخة احتياطية من ملفاتك."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr ""
+msgstr "يرجى تحديد النسخة الاحتياطية لاستعادتها:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr ""
+msgstr "الكتابة فوق الملفات الموجودة؟"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"لا، استعادة الملفات المفقودة فقط.\n"
+"<small>هذا الخيار آمن ولا يؤثر على ملفاتك الحالية.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -239,28 +246,31 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"نعم ، قم بالكتابة فوق التغييرات واستعادة محتوى أي ملفات موجودة.\n"
+"<small>استخدم هذا الخيار بحذر. سيتم فقد التغييرات التي أجريتها على الملفات "
+"منذ النسخ الاحتياطي.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr ""
+msgstr "يرجى الانتظار حتى يتم استعادة ملفاتك."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
-msgstr ""
+msgstr "تعرض القائمة أدناه التطبيقات التي ثبتها مع مدير البرامج."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "يرجى تحديد التطبيقات التي تريد حفظها."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
-msgstr ""
+msgstr "تحديد الكل"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect all"
-msgstr ""
+msgstr "عدم تحديد الكل"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -268,14 +278,16 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"ملاحظة: إذا كنت تريد حفظ القائمة الكاملة لجميع الحزم المثبتة على النظام، "
+"فالرجاء استخدام الأمر 'dpkg --get-selections > mylist.list' في الطرفية."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
+msgstr "يرجى تحديد اختيار برنامج تم حفظه (.list file):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr ""
+msgstr "حدد الحزم التي تريد تثبيتها."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
@@ -283,7 +295,7 @@ msgstr "تحديث"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr ""
+msgstr "تم تثبيت جميع الحزم في اختيار البرنامج الخاص بك."
 
 #~ msgid "Extracting the content of the backup into your home directory..."
 #~ msgstr "يتم فك ضغط محتوى النسخ الإحتياطي إلى مجلد المنزل الخاص بك..."

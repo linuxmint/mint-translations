@@ -1,0 +1,166 @@
+# Chinese (Traditional) translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-10-04 11:21+0100\n"
+"PO-Revision-Date: 2018-02-26 16:28+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:25+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "System Reports"
+msgstr "系統報告"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:229
+msgid "Are you sure you want to delete this report?"
+msgstr "您確定要刪除這份報告？"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:230
+msgid "The report will be permanently deleted and will no longer be visible."
+msgstr "這份報告將永久刪除，不復存在。"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:293
+#, python-format
+msgid ""
+"The file %s could not be read.\n"
+"Please fix its permissions."
+msgstr ""
+"%s 檔案無法讀取。\n"
+"請修正檔案的權限。"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#, python-format
+msgid ""
+"The debug symbols are missing for %(program)s.\n"
+"Please install %(package)s."
+msgstr ""
+"%(program)s 遺失除錯符號。\n"
+"請安裝 %(package)s。"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#, python-format
+msgid ""
+"The package providing %s could not be found.\n"
+"If you want to generate a stack trace for this crash report, please "
+"reinstall it."
+msgstr ""
+"找不到提供 %s 的軟體包。\n"
+"如果您想要生成此崩潰報告的堆疊追蹤資訊，請重新安裝該軟體。"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:372
+msgid ""
+"The headers or binaries installed on your system do not match the code which "
+"was executed during the crash.\n"
+"They probably got upgraded since.\n"
+"A stack trace is available in 'Local Files' but its content is probably "
+"inaccurate."
+msgstr ""
+"您系統上安裝的標頭檔或二進位檔與崩潰發生時執行的程式碼不符。\n"
+"很可能是因為那之後有升級過。\n"
+"堆疊追蹤資料可以在「本機檔案」中找到，但內容很可能不準確。"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:410
+msgid "The report could not be deleted."
+msgstr "報告無法刪除。"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:411
+#, python-format
+msgid "Check the permissions for /var/crash and %s."
+msgstr "請檢查 /var/crash 和 %s 的權限。"
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Troubleshoot problems"
+msgstr "排解問題"
+
+#: generate_desktop_files:41
+msgid "Troubleshooting Tool"
+msgstr "疑難排解工具"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Crash reports:"
+msgstr "崩潰報告："
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid "Stack trace:"
+msgstr "堆疊追蹤："
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid ""
+"When seeking help, check for existing bug reports, pastebin the trace, share "
+"crash.tar.gz (from Local Files) and explain how to reproduce the crash."
+msgstr ""
+"當查詢幫助時，請檢查是否存在既有的報告、將追蹤資料貼到 pastebin、分享 crash.tar.gz（取自本機檔案）、解釋如何重現崩潰問題的步驟等。"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Local Files"
+msgstr "本機檔案"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "Open the directory containing crash.tar.gz and its content."
+msgstr "開啟包含 crash.tar.gz 與其內容的目錄。"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Bug Tracker"
+msgstr "臭蟲追蹤器"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid "Find the most appropriate bug tracker."
+msgstr "尋找最適當的臭蟲追蹤器。"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+msgid "Upload the trace to the Internet."
+msgstr "將追蹤上傳到網際網路。"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
+msgid "Delete"
+msgstr "刪除"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
+msgid "Delete this crash report."
+msgstr "刪除此崩潰報告。"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+msgid ""
+"Developers need to know where the code fails or how to reproduce the issue. "
+"Always provide a trace and reliable instructions to trigger/observe the "
+"problem."
+msgstr "開發者需要知道程式碼的哪裡造成失敗，或是知道該怎麼重現這個議題。請務必提供追蹤資料和觸發/觀察問題的可靠指示步驟。"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+msgid "Crash reports"
+msgstr "崩潰報告"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+msgid "Information reports:"
+msgstr "資訊報告："
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+msgid "Report:"
+msgstr "報告："
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+msgid "Delete this report"
+msgstr "刪除此報告"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+msgid "Note: Information reports can only be shown in English."
+msgstr "注意：資訊報告僅可用英文顯示。"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+msgid "Information reports"
+msgstr "資訊報告"

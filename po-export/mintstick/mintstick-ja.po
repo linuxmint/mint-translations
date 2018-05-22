@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
-"POT-Creation-Date: 2017-05-07 12:22+0100\n"
+"POT-Creation-Date: 2018-05-07 13:13+0100\n"
 "PO-Revision-Date: 2014-01-24 08:11+0000\n"
 "Last-Translator: lindwurm <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
@@ -16,70 +16,71 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-01-06 14:21+0000\n"
-"X-Generator: Launchpad (build 18521)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:21+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
-#: lib/mintstick.py:82
+#: lib/mintstick.py:86
 msgid "Write"
 msgstr "書き込み"
 
-#: lib/mintstick.py:131 generate_additional_files.py:78
+#: lib/mintstick.py:134 generate_additional_files.py:78
 msgid "Format"
 msgstr "フォーマット"
 
-#: lib/mintstick.py:218
+#: lib/mintstick.py:224
 msgid "unknown"
 msgstr ""
 
-#: lib/mintstick.py:313 lib/mintstick.py:315
+#: lib/mintstick.py:348 lib/mintstick.py:350
 msgid "The USB stick was formatted successfully."
 msgstr "USB メモリのフォーマットに成功しました。"
 
-#: lib/mintstick.py:318
+#: lib/mintstick.py:353
 #, python-format
 msgid "An error occured while creating a partition on %s."
 msgstr "%s 上にパーティションを作成する際にエラーが発生しました。"
 
-#: lib/mintstick.py:320 lib/mintstick.py:418
+#: lib/mintstick.py:355 lib/mintstick.py:463
 msgid "Authentication Error."
 msgstr "認証エラー。"
 
-#: lib/mintstick.py:322 lib/mintstick.py:420
+#: lib/mintstick.py:357 lib/mintstick.py:465
 msgid "An error occurred."
 msgstr "エラーが発生しました。"
 
-#: lib/mintstick.py:338
+#: lib/mintstick.py:375
 msgid "Image:"
 msgstr "イメージ："
 
-#: lib/mintstick.py:339
+#: lib/mintstick.py:376
 msgid "USB stick:"
 msgstr "USB メモリ:"
 
-#: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
-#: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
+#: lib/mintstick.py:395 lib/mintstick.py:401 lib/mintstick.py:496
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: share/mintstick/mintstick.ui.h:31
 msgid "USB Image Writer"
 msgstr "USB イメージライタ"
 
-#: lib/mintstick.py:390
+#: lib/mintstick.py:435
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
 msgstr "%(VAR_FILE)s を %(VAR_DEV)s に書き込み中"
 
-#: lib/mintstick.py:391
+#: lib/mintstick.py:436
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
 msgstr "%(VAR_SOURCE)s から %(VAR_TARGET)s にコピーを開始しています"
 
-#: lib/mintstick.py:408 lib/mintstick.py:411
+#: lib/mintstick.py:453 lib/mintstick.py:456
 msgid "The image was successfully written."
 msgstr "イメージの書き込みに成功しました。"
 
-#: lib/mintstick.py:414
+#: lib/mintstick.py:459
 msgid "Not enough space on the USB stick."
 msgstr "USB メモリの空き領域が足りません。"
 
-#: lib/mintstick.py:416
+#: lib/mintstick.py:461
 msgid "An error occured while copying the image."
 msgstr "イメージのコピー中にエラーが発生しました。"
 
@@ -132,68 +133,58 @@ msgstr "as"
 #: share/mintstick/mintstick.ui.h:8
 msgid ""
 "FAT32 \n"
-"   + Compatible everywhere.\n"
-"   -  Cannot handle files larger than 4GB.\n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
 "\n"
 "NTFS \n"
 "  + Compatible with Windows.\n"
-"   - Not compatible with Mac and most hardware devices.\n"
-"   - Occasional compatibility problems with Linux (NTFS is proprietary and "
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
 "reverse engineered).\n"
 "\n"
 "EXT4 \n"
-"\n"
 "  + Modern, stable, fast, journalized.\n"
 "  + Supports Linux file permissions.\n"
-"   - Not compatible with Windows, Mac and most hardware devices.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
-"FAT32 \n"
-"   + どの環境にも対応しています\n"
-"   -  4GB を超える大きさのファイルを扱えません\n"
-"\n"
-"NTFS \n"
-"  + Windows に対応しています\n"
-"   - Mac や多くのハードウェアに対応していません\n"
-"   - Linux で互換性の問題が起きるかも知れません (NTFS はプロプライエタリなためリバースエンジニアリングによって対応しています)\n"
-"\n"
-"EXT4 \n"
-"\n"
-"  + 現代的で、安定しており、速く、ジャーナルに対応しています。\n"
-"  + Linux のファイルパーミッションをサポートしています\n"
-"   - Windows や Mac 、その他多くのハードウェアに対応していません。\n"
 
-#: share/mintstick/mintstick.ui.h:23
+#: share/mintstick/mintstick.ui.h:27
 msgid "Volume label:"
 msgstr "ボリュームラベル:"
 
-#: share/mintstick/mintstick.ui.h:24
+#: share/mintstick/mintstick.ui.h:28
 msgid "Choose a name for your USB Stick"
 msgstr "USB メモリの名前を選択してください"
 
-#: share/mintstick/mintstick.ui.h:25
+#: share/mintstick/mintstick.ui.h:29
 msgid "USB Stick"
 msgstr "USB メモリ"
 
-#: share/mintstick/mintstick.ui.h:26
+#: share/mintstick/mintstick.ui.h:30
 msgid "Details"
 msgstr "詳細"
 
-#: share/mintstick/mintstick.ui.h:28
+#: share/mintstick/mintstick.ui.h:32
 msgid "Write image:"
 msgstr "書き込むイメージ:"
 
-#: share/mintstick/mintstick.ui.h:29
+#: share/mintstick/mintstick.ui.h:33
 msgid "Select an image"
 msgstr "イメージの選択"
 
-#: share/mintstick/mintstick.ui.h:30
+#: share/mintstick/mintstick.ui.h:34
 msgid "Select Image"
 msgstr "イメージの選択"
 
-#: share/mintstick/mintstick.ui.h:31
+#: share/mintstick/mintstick.ui.h:35
 msgid "to"
 msgstr "書き込み先"
 
-#: share/mintstick/mintstick.ui.h:32
+#: share/mintstick/mintstick.ui.h:36
 msgid "The image was written successfully."
 msgstr "イメージの書き込みに成功しました。"

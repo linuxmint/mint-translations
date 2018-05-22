@@ -7,77 +7,78 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-07 12:22+0100\n"
-"PO-Revision-Date: 2017-05-07 11:47+0000\n"
+"POT-Creation-Date: 2018-05-07 13:13+0100\n"
+"PO-Revision-Date: 2018-05-15 09:57+0000\n"
 "Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-01-06 14:21+0000\n"
-"X-Generator: Launchpad (build 18521)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:21+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
-#: lib/mintstick.py:82
+#: lib/mintstick.py:86
 msgid "Write"
 msgstr "写入"
 
-#: lib/mintstick.py:131 generate_additional_files.py:78
+#: lib/mintstick.py:134 generate_additional_files.py:78
 msgid "Format"
 msgstr "格式化"
 
-#: lib/mintstick.py:218
+#: lib/mintstick.py:224
 msgid "unknown"
 msgstr "未知"
 
-#: lib/mintstick.py:313 lib/mintstick.py:315
+#: lib/mintstick.py:348 lib/mintstick.py:350
 msgid "The USB stick was formatted successfully."
 msgstr "U 盘格式化成功。"
 
-#: lib/mintstick.py:318
+#: lib/mintstick.py:353
 #, python-format
 msgid "An error occured while creating a partition on %s."
 msgstr "在 %s 上创建分区时出错。"
 
-#: lib/mintstick.py:320 lib/mintstick.py:418
+#: lib/mintstick.py:355 lib/mintstick.py:463
 msgid "Authentication Error."
 msgstr "身份验证出错。"
 
-#: lib/mintstick.py:322 lib/mintstick.py:420
+#: lib/mintstick.py:357 lib/mintstick.py:465
 msgid "An error occurred."
 msgstr "出现错误。"
 
-#: lib/mintstick.py:338
+#: lib/mintstick.py:375
 msgid "Image:"
 msgstr "镜像："
 
-#: lib/mintstick.py:339
+#: lib/mintstick.py:376
 msgid "USB stick:"
 msgstr "U 盘："
 
-#: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
-#: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
+#: lib/mintstick.py:395 lib/mintstick.py:401 lib/mintstick.py:496
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: share/mintstick/mintstick.ui.h:31
 msgid "USB Image Writer"
 msgstr "USB 镜像写入工具"
 
-#: lib/mintstick.py:390
+#: lib/mintstick.py:435
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
 msgstr "正在将 %(VAR_FILE)s 写入 %(VAR_DEV)s"
 
-#: lib/mintstick.py:391
+#: lib/mintstick.py:436
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
 msgstr "开始从 %(VAR_SOURCE)s 复制到 %(VAR_TARGET)s"
 
-#: lib/mintstick.py:408 lib/mintstick.py:411
+#: lib/mintstick.py:453 lib/mintstick.py:456
 msgid "The image was successfully written."
 msgstr "镜像写入成功。"
 
-#: lib/mintstick.py:414
+#: lib/mintstick.py:459
 msgid "Not enough space on the USB stick."
 msgstr "U 盘空间不足。"
 
-#: lib/mintstick.py:416
+#: lib/mintstick.py:461
 msgid "An error occured while copying the image."
 msgstr "复制镜像时出错。"
 
@@ -130,68 +131,76 @@ msgstr "成"
 #: share/mintstick/mintstick.ui.h:8
 msgid ""
 "FAT32 \n"
-"   + Compatible everywhere.\n"
-"   -  Cannot handle files larger than 4GB.\n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
 "\n"
 "NTFS \n"
 "  + Compatible with Windows.\n"
-"   - Not compatible with Mac and most hardware devices.\n"
-"   - Occasional compatibility problems with Linux (NTFS is proprietary and "
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
 "reverse engineered).\n"
 "\n"
 "EXT4 \n"
-"\n"
 "  + Modern, stable, fast, journalized.\n"
 "  + Supports Linux file permissions.\n"
-"   - Not compatible with Windows, Mac and most hardware devices.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
 "FAT32 \n"
-"   + 各系统和设备均兼容。\n"
-"   -  单个文件大小不能超过 4GB。\n"
+"  + 处处兼容。\n"
+"  - 无法处理大于 4GB 的文件。\n"
+"\n"
+"exFAT\n"
+"  + 几乎处处兼容。\n"
+"  + 可以处理大于 4GB 的文件。\n"
+"  - 兼容性不如 FAT32。\n"
 "\n"
 "NTFS \n"
-"  + 与 Windows 系统兼容。\n"
-"   - 与 Mac 系统及多数硬件设备不兼容。\n"
-"   - 在 Linux 中偶尔会有兼容性问题(NTFS 是私有的，Linux 使用的是逆向工程的驱动程序)。\n"
+"  + 与 Windows 兼容。\n"
+"  - 与 Mac 和大多数硬件设备不兼容。\n"
+"  - 偶尔与 Linux 有兼容性问题（NTFS 是专有的，其 Linux 支持基于逆向工程）。\n"
 "\n"
 "EXT4 \n"
-"\n"
-"  + 现代、稳定、快速，日志式文件系统。\n"
+"  + 现代，稳定，快速，支持日志文件。\n"
 "  + 支持 Linux 文件权限。\n"
-"   - 与 Windows, Mac 系统和多数硬件设备不兼容。\n"
+"  - 与 Windows，Mac 以及大多数硬件设备不兼容。\n"
 
-#: share/mintstick/mintstick.ui.h:23
+#: share/mintstick/mintstick.ui.h:27
 msgid "Volume label:"
 msgstr "卷标："
 
-#: share/mintstick/mintstick.ui.h:24
+#: share/mintstick/mintstick.ui.h:28
 msgid "Choose a name for your USB Stick"
 msgstr "为您的 U 盘起个名字"
 
-#: share/mintstick/mintstick.ui.h:25
+#: share/mintstick/mintstick.ui.h:29
 msgid "USB Stick"
 msgstr "U 盘"
 
-#: share/mintstick/mintstick.ui.h:26
+#: share/mintstick/mintstick.ui.h:30
 msgid "Details"
 msgstr "详情"
 
-#: share/mintstick/mintstick.ui.h:28
+#: share/mintstick/mintstick.ui.h:32
 msgid "Write image:"
 msgstr "写入镜像："
 
-#: share/mintstick/mintstick.ui.h:29
+#: share/mintstick/mintstick.ui.h:33
 msgid "Select an image"
 msgstr "选择一个镜像"
 
-#: share/mintstick/mintstick.ui.h:30
+#: share/mintstick/mintstick.ui.h:34
 msgid "Select Image"
 msgstr "选择镜像"
 
-#: share/mintstick/mintstick.ui.h:31
+#: share/mintstick/mintstick.ui.h:35
 msgid "to"
 msgstr "到"
 
-#: share/mintstick/mintstick.ui.h:32
+#: share/mintstick/mintstick.ui.h:36
 msgid "The image was written successfully."
 msgstr "镜像写入成功。"

@@ -7,77 +7,78 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-07 12:22+0100\n"
-"PO-Revision-Date: 2017-06-23 21:11+0000\n"
+"POT-Creation-Date: 2018-05-07 13:13+0100\n"
+"PO-Revision-Date: 2018-05-07 12:56+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-01-06 14:21+0000\n"
-"X-Generator: Launchpad (build 18521)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:21+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
-#: lib/mintstick.py:82
+#: lib/mintstick.py:86
 msgid "Write"
 msgstr "Įrašyti"
 
-#: lib/mintstick.py:131 generate_additional_files.py:78
+#: lib/mintstick.py:134 generate_additional_files.py:78
 msgid "Format"
 msgstr "Formatuoti"
 
-#: lib/mintstick.py:218
+#: lib/mintstick.py:224
 msgid "unknown"
 msgstr "nežinoma"
 
-#: lib/mintstick.py:313 lib/mintstick.py:315
+#: lib/mintstick.py:348 lib/mintstick.py:350
 msgid "The USB stick was formatted successfully."
 msgstr "USB atmintinė buvo sėkmingai formatuota."
 
-#: lib/mintstick.py:318
+#: lib/mintstick.py:353
 #, python-format
 msgid "An error occured while creating a partition on %s."
 msgstr "Kuriant %s skaidinį, įvyko klaida."
 
-#: lib/mintstick.py:320 lib/mintstick.py:418
+#: lib/mintstick.py:355 lib/mintstick.py:463
 msgid "Authentication Error."
 msgstr "Tapatybės nustatymo klaida."
 
-#: lib/mintstick.py:322 lib/mintstick.py:420
+#: lib/mintstick.py:357 lib/mintstick.py:465
 msgid "An error occurred."
 msgstr "Įvyko klaida."
 
-#: lib/mintstick.py:338
+#: lib/mintstick.py:375
 msgid "Image:"
 msgstr "Atvaizdis:"
 
-#: lib/mintstick.py:339
+#: lib/mintstick.py:376
 msgid "USB stick:"
 msgstr "USB atmintinė:"
 
-#: lib/mintstick.py:357 lib/mintstick.py:452 generate_additional_files.py:23
-#: generate_additional_files.py:35 share/mintstick/mintstick.ui.h:27
+#: lib/mintstick.py:395 lib/mintstick.py:401 lib/mintstick.py:496
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: share/mintstick/mintstick.ui.h:31
 msgid "USB Image Writer"
 msgstr "USB atvaizdžių rašyklė"
 
-#: lib/mintstick.py:390
+#: lib/mintstick.py:435
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
 msgstr "Rašoma %(VAR_FILE)s į %(VAR_DEV)s"
 
-#: lib/mintstick.py:391
+#: lib/mintstick.py:436
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
 msgstr "Pradedama kopijuoti iš %(VAR_SOURCE)s į %(VAR_TARGET)s"
 
-#: lib/mintstick.py:408 lib/mintstick.py:411
+#: lib/mintstick.py:453 lib/mintstick.py:456
 msgid "The image was successfully written."
 msgstr "Atvaizdis buvo sėkmingai įrašytas."
 
-#: lib/mintstick.py:414
+#: lib/mintstick.py:459
 msgid "Not enough space on the USB stick."
 msgstr "USB atmintinėje neužtenka vietos."
 
-#: lib/mintstick.py:416
+#: lib/mintstick.py:461
 msgid "An error occured while copying the image."
 msgstr "Kopijuojant atvaizdį įvyko klaida."
 
@@ -132,69 +133,78 @@ msgstr "kaip"
 #: share/mintstick/mintstick.ui.h:8
 msgid ""
 "FAT32 \n"
-"   + Compatible everywhere.\n"
-"   -  Cannot handle files larger than 4GB.\n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
 "\n"
 "NTFS \n"
 "  + Compatible with Windows.\n"
-"   - Not compatible with Mac and most hardware devices.\n"
-"   - Occasional compatibility problems with Linux (NTFS is proprietary and "
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
 "reverse engineered).\n"
 "\n"
 "EXT4 \n"
-"\n"
 "  + Modern, stable, fast, journalized.\n"
 "  + Supports Linux file permissions.\n"
-"   - Not compatible with Windows, Mac and most hardware devices.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
 "FAT32 \n"
-"   + Suderinama su viskuo.\n"
-"   -  Negali laikyti didesnių kaip 4 GB failų.\n"
+"  + Suderinamas visur.\n"
+"  -  Neapdoroja didesnius nei 4GB failus.\n"
+"\n"
+"exFAT\n"
+"  + Suderinamas beveik visur.\n"
+"  + Gali apdoroti didesnius nei 4GB failus.\n"
+"  -  Ne toks suderinamas kaip FAT32.\n"
 "\n"
 "NTFS \n"
-"  + Suderinama su Windows.\n"
-"   - Nesuderinama su Mac ir dauguma aparatinės įrangos prietaisų.\n"
-"   - Kartais sukelia problemų Linux (NTFS yra nuosavybinė ir ne visai "
-"palaikoma).\n"
+"  + Suderinamas su Windows.\n"
+"  -  Nesuderinamas su Mac ir daugeliu aparatinės įrangos įrenginių.\n"
+"  -  Kartais pasitaikančios suderinimo su Linux problemos (NTFS yra "
+"nuosavybinis formatas ir yra atgaminamas naudojant apgrąžos inžineriją).\n"
 "\n"
 "EXT4 \n"
-"\n"
-"  + Moderni, stabili, greita, su registru.\n"
-"  + Palaiko Linux failų prieigos leidimus.\n"
-"   - Nesuderinama su Windows, Mac ir dauguma aparatinės įrangos prietaisų.\n"
+"  + Šiuolaikiškas, stabilus, greitas, rašomas į žurnalą.\n"
+"  + Palaiko Linux failų leidimus.\n"
+"  -  Nesuderinamas su Windows, Mac ir daugeliu aparatinės įrangos "
+"įrenginių.\n"
 
-#: share/mintstick/mintstick.ui.h:23
+#: share/mintstick/mintstick.ui.h:27
 msgid "Volume label:"
 msgstr "Tomo etiketė:"
 
-#: share/mintstick/mintstick.ui.h:24
+#: share/mintstick/mintstick.ui.h:28
 msgid "Choose a name for your USB Stick"
 msgstr "Pasirinkite USB atmintinės pavadinimą"
 
-#: share/mintstick/mintstick.ui.h:25
+#: share/mintstick/mintstick.ui.h:29
 msgid "USB Stick"
 msgstr "USB atmintinė"
 
-#: share/mintstick/mintstick.ui.h:26
+#: share/mintstick/mintstick.ui.h:30
 msgid "Details"
 msgstr "Informacija"
 
-#: share/mintstick/mintstick.ui.h:28
+#: share/mintstick/mintstick.ui.h:32
 msgid "Write image:"
 msgstr "Įrašyti atvaizdį:"
 
-#: share/mintstick/mintstick.ui.h:29
+#: share/mintstick/mintstick.ui.h:33
 msgid "Select an image"
 msgstr "Pasirinkti atvaizdį"
 
-#: share/mintstick/mintstick.ui.h:30
+#: share/mintstick/mintstick.ui.h:34
 msgid "Select Image"
 msgstr "Pasirinkti atvaizdį"
 
-#: share/mintstick/mintstick.ui.h:31
+#: share/mintstick/mintstick.ui.h:35
 msgid "to"
 msgstr "į"
 
-#: share/mintstick/mintstick.ui.h:32
+#: share/mintstick/mintstick.ui.h:36
 msgid "The image was written successfully."
 msgstr "Atvaizdis buvo sėkmingai įrašytas."

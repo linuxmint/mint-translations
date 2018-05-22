@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:03+0100\n"
-"PO-Revision-Date: 2015-03-14 22:34+0000\n"
+"PO-Revision-Date: 2018-04-21 10:25+0000\n"
 "Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-01-06 14:18+0000\n"
-"X-Generator: Launchpad (build 18521)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:18+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:32
 msgid "Backups"
-msgstr ""
+msgstr "Varukoopiad"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:159
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:199
@@ -31,43 +31,45 @@ msgstr "Varundustööriist"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:222
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr ""
+msgstr "%s ei asu sinu kodukaustas."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:262
 msgid "Please choose a directory."
-msgstr ""
+msgstr "Palun vali kataloog."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:265
 msgid "You do not have the permission to write in the selected directory."
-msgstr ""
+msgstr "Sul puuduvad õigused kirjutada valitud kataloogi."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:325
 msgid "Please choose a backup file."
-msgstr ""
+msgstr "Palun vali varundusfail."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:333
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
+"See varundusfail on kas liiga vana või loodud teistsuguse tööriistaga. Paki "
+"see käsitsi lahti."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:342
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
-msgstr ""
+msgstr "Varundusfaili avamisel esines viga: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:356
 msgid "No packages need to be installed."
-msgstr ""
+msgstr "Pakette pole vaja paigaldada."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:363
 msgid "Please select packages to install."
-msgstr ""
+msgstr "Palun vali paketid, mida paigaldada."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:417
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr ""
+msgstr "%s jäetakse vahele, sest nimelised torud pole toetatud."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
@@ -80,22 +82,24 @@ msgstr "Arvutamine..."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:454
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:558
 msgid "The following errors occurred:"
-msgstr ""
+msgstr "Esinesid järgnevad vead:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "The backup was aborted."
-msgstr ""
+msgstr "Varundamine katkestati."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr ""
+msgstr "Sinu failid salvestati edukalt asukohta %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
+"Hoiatus: metafaili ei õnnestunud salvestada. Varundust ei saa selle "
+"tööriistaga taastada."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
@@ -103,6 +107,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
+"Hoiatus: mõningaid faile ei salvestatud. Ainult %(archived)d faili varundati "
+"kokku %(total)d failist."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:547
 msgid "Restoring:"
@@ -110,34 +116,34 @@ msgstr "Taastamine:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:564
 msgid "The restoration was aborted."
-msgstr ""
+msgstr "Taastamine katkestati."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "Your files were successfully restored."
-msgstr ""
+msgstr "Sinu failid taastati edukalt."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr ""
+msgstr "Hoiatus: ainult %(number)d faili %(total)d-st taastati."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:710
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr ""
+msgstr "Sinu tarkvaravalik salvestati kohta %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:726
 msgid "The selected file is not a valid software selection."
-msgstr ""
+msgstr "Valitud fail ei ole sobiv tarkvaravalik."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:731
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:760
 msgid "An error occurred while reading the file."
-msgstr ""
+msgstr "Faili lugemisel esines viga."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:748
 msgid "Could not locate the package."
-msgstr ""
+msgstr "Paketti ei õnnestunud leida."
 
 #: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
@@ -145,37 +151,39 @@ msgstr "Kodukataloogist varukoopia tegemine"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
-msgstr ""
+msgstr "Isiklikud andmed"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr ""
+msgstr "Sinu failid, seadistus ja kodukausta sisu."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
-msgstr ""
+msgstr "Taasta..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr ""
+msgstr "Varunda..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr ""
+msgstr "Tarkvaravalik"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr ""
+msgstr "Sinu arvutisse paigaldatud rakenduste loetelu"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr ""
+msgstr "Palun vali, kuhu tahad varundusfaili salvestada:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
+"Järgnevasse loetelusse lisa failid või kataloogid, mille soovid varundusest "
+"välja jätta."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -194,44 +202,51 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
+"Peidetud failid ja kaustad, mis paiknevad otse kodukaustas, jäetakse "
+"vaikimisi välja."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
+"Kui soovid mõne neist siiski varundusse kaasata, lisa see alumisse "
+"loetelusse."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr ""
+msgstr "Lisatavad failid"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr ""
+msgstr "Lisatavad kaustad"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"Need failid sisaldavad tavaliselt ajutisi andmeid või rakenduste seadistust."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr ""
+msgstr "Palun oota, kuni su faile varundatakse."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr ""
+msgstr "Palun vali varundus, mida soovid taastada:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr ""
+msgstr "Kas kirjutada olemasolevad failid üle?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"Ei, taasta ainult puuduvad failid.\n"
+"<small>See valik on turvaline ja ei muuda juba olemasolevaid faile.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -239,28 +254,33 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"Jah, kirjuta muudatused üle ja taasta kõigi olemasolevate failide esialgne "
+"sisu.\n"
+"<small>Selle valikuga tuleb olla ettevaatlik. Kõik nende failide muudatused, "
+"mis tehti pärast varundust, lähevad kaotsi.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr ""
+msgstr "Palun oota, kuni su faile taastatakse."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
+"Järgnevas loetelus on rakendused, mis sa oled paigaldanud tarkvarahalduriga."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "Palun vali, millised rakendused tahad salvestada."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
-msgstr ""
+msgstr "Vali kõik"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect all"
-msgstr ""
+msgstr "Tühista valik"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -268,14 +288,16 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"Märkus: Kui tahad näha täielikku loetelu siia arvutisse paigaldatud "
+"pakettidest, käivita terminalis käsk 'dpkg --get-selections > mylist.list'"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
+msgstr "Palun vali salvestatud tarkvaravalik (.list fail):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr ""
+msgstr "Vali paketid, mida soovid paigaldada."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
@@ -283,7 +305,7 @@ msgstr "Värskenda"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr ""
+msgstr "Kõik paketid sinu tarkvaravalikus paigaldatakse."
 
 #~ msgid "Cleaning up..."
 #~ msgstr "Puhastamine..."

@@ -7,89 +7,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 12:58+0100\n"
-"PO-Revision-Date: 2017-12-25 15:29+0000\n"
+"POT-Creation-Date: 2018-05-07 12:22+0100\n"
+"PO-Revision-Date: 2018-05-07 11:34+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-01-06 14:20+0000\n"
-"X-Generator: Launchpad (build 18521)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:20+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:42
+#: usr/lib/linuxmint/mintSources/mintSources.py:63
 msgid "You are about to remove the following PPA:"
 msgstr "Esteu a punt de treure el següent PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:45
-#: usr/lib/linuxmint/mintSources/mintSources.py:121
+#: usr/lib/linuxmint/mintSources/mintSources.py:66
+#: usr/lib/linuxmint/mintSources/mintSources.py:142
 #, python-format
 msgid " More info: %s"
 msgstr " Més informació: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:49
-#: usr/lib/linuxmint/mintSources/mintSources.py:125
+#: usr/lib/linuxmint/mintSources/mintSources.py:70
+#: usr/lib/linuxmint/mintSources/mintSources.py:146
 msgid "Press Enter to continue or Ctrl+C to cancel"
 msgstr "Premeu Retorn per continuar, o Ctrl + C per cancel·lar"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:53
-#: usr/lib/linuxmint/mintSources/mintSources.py:129
+#: usr/lib/linuxmint/mintSources/mintSources.py:74
+#: usr/lib/linuxmint/mintSources/mintSources.py:150
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "No es pot sol·licitar resposta. Executi-ho amb -y"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:57
+#: usr/lib/linuxmint/mintSources/mintSources.py:78
 msgid "Cancelling..."
 msgstr "Cancel·lant..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:60
+#: usr/lib/linuxmint/mintSources/mintSources.py:81
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "No es troba informació del PPA: '%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:80
+#: usr/lib/linuxmint/mintSources/mintSources.py:101
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "no s'ha pogut esborrar el PPA: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:97
+#: usr/lib/linuxmint/mintSources/mintSources.py:118
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "no s'ha pogut esborrar el dipòsit: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:104
+#: usr/lib/linuxmint/mintSources/mintSources.py:125
 msgid "Adding PPAs is not supported"
 msgstr "No s'admet l'addició dels PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:111
-#: usr/lib/linuxmint/mintSources/mintSources.py:1068
+#: usr/lib/linuxmint/mintSources/mintSources.py:132
+#: usr/lib/linuxmint/mintSources/mintSources.py:1056
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "No es pot afegir el PPA: «%s»."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:115
+#: usr/lib/linuxmint/mintSources/mintSources.py:136
 msgid "Adding private PPAs is not supported currently"
 msgstr "Actualment no és possible afegir PPA privats"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:118
+#: usr/lib/linuxmint/mintSources/mintSources.py:139
 msgid "You are about to add the following PPA:"
 msgstr "Esteu a punt d'afegir el següent PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:177
-#: usr/lib/linuxmint/mintSources/mintSources.py:180
+#: usr/lib/linuxmint/mintSources/mintSources.py:198
+#: usr/lib/linuxmint/mintSources/mintSources.py:201
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "Aquest PPA no és compatible amb %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:328
-#: usr/lib/linuxmint/mintSources/mintSources.py:356
+#: usr/lib/linuxmint/mintSources/mintSources.py:347
+#: usr/lib/linuxmint/mintSources/mintSources.py:376
 msgid "Sources"
 msgstr "Orígens"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:335
+#: usr/lib/linuxmint/mintSources/mintSources.py:355
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (disc d'instal·lació)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:375
+#: usr/lib/linuxmint/mintSources/mintSources.py:395
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -101,197 +101,70 @@ msgstr ""
 "oficials. A menys que estigueu participant en proves beta, no heu "
 "d'habilitar aquest dipòsit. Esteu segur que voleu habilitar Romeu?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:403
+#: usr/lib/linuxmint/mintSources/mintSources.py:423
 msgid "Select a mirror"
-msgstr "Selecciona el servidor"
+msgstr "Seleccioneu una rèplica"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:414
+#: usr/lib/linuxmint/mintSources/mintSources.py:435
 msgid "Country"
 msgstr "País"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:419
+#: usr/lib/linuxmint/mintSources/mintSources.py:440
 msgid "URL"
 msgstr "Adreça URL"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:424
+#: usr/lib/linuxmint/mintSources/mintSources.py:445
 msgid "Speed"
 msgstr "Velocitat"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:447
+#: usr/lib/linuxmint/mintSources/mintSources.py:471
 msgid "Worldwide"
 msgstr "A escala mundial"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:520
-#: usr/lib/linuxmint/mintSources/mintSources.py:534
+#: usr/lib/linuxmint/mintSources/mintSources.py:549
+#: usr/lib/linuxmint/mintSources/mintSources.py:563
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:523
+#: usr/lib/linuxmint/mintSources/mintSources.py:552
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:526
+#: usr/lib/linuxmint/mintSources/mintSources.py:555
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:567
+#: usr/lib/linuxmint/mintSources/mintSources.py:598
 msgid "Obsolete"
 msgstr "Obsolet"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:570
+#: usr/lib/linuxmint/mintSources/mintSources.py:601
 msgid "Unreachable"
 msgstr "Inaccessible"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:691 generate_desktop_files:27
+#: usr/lib/linuxmint/mintSources/mintSources.py:724 generate_desktop_files:27
 #: generate_desktop_files:42
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:1
 msgid "Software Sources"
 msgstr "Orígens de programari"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:708
+#: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid "Backported packages"
 msgstr "Paquets backports"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:710
+#: usr/lib/linuxmint/mintSources/mintSources.py:745
 msgid "Unstable packages"
 msgstr "Paquets inestables"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:723
-#: usr/lib/linuxmint/mintSources/mintSources.py:1389
-msgid "No action required"
-msgstr "No es requereix cap acció"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:725
-msgid "Official repositories"
-msgstr "Dipòsits oficials"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:726
-msgid "PPAs"
-msgstr "PPA"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:727
-msgid "Additional repositories"
-msgstr "Dipòsits addicionals"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:728
-msgid "Authentication keys"
-msgstr "Claus d'autenticació"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:729
-msgid "Maintenance"
-msgstr "Manteniment"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:731
-msgid "Mirrors"
-msgstr "Rèpliques"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:732
+#: usr/lib/linuxmint/mintSources/mintSources.py:758
 msgid "Main"
 msgstr "Principal"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:733
+#: usr/lib/linuxmint/mintSources/mintSources.py:759
 msgid "Base"
 msgstr "Base"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:734
-#: usr/lib/linuxmint/mintSources/mintSources.py:735
-msgid "Select a faster server..."
-msgstr "Selecciona un servidor més ràpid..."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:737
-msgid "Optional components"
-msgstr "Components opcionals"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:738
-msgid "Source code"
-msgstr "Codi font"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:740
-msgid "Add a new PPA..."
-msgstr "Afegeix un PPA nou..."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:741
-#: usr/lib/linuxmint/mintSources/mintSources.py:747
-msgid "Edit URL..."
-msgstr "Edita l'URL..."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:742
-#: usr/lib/linuxmint/mintSources/mintSources.py:748
-#: usr/lib/linuxmint/mintSources/mintSources.py:752
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:41
-msgid "Remove"
-msgstr "Treu"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:743
-msgid "Open PPA"
-msgstr "Obre el PPA"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:744
-msgid "Look inside the PPA and install packages it provides"
-msgstr "Veu el contingut del PPA i instal·la els paquets que proporciona"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:746
-msgid "Add a new repository..."
-msgstr "Afegeix un dipòsit nou..."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:750
-msgid "Import key file..."
-msgstr "Importa el fitxer de la clau..."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:751
-msgid "Download a key..."
-msgstr "Baixa una clau..."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:754
-msgid "Fix MergeList problems"
-msgstr "Corregeix els problemes de MergeList"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:755
-msgid ""
-"If you experience MergeList problems, click this button to solve the problem."
-msgstr ""
-"Si teniu problemes de MergeList, feu clic en aquest botó per corregir-ho."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:756
-msgid "Purge residual configuration"
-msgstr "Purga la configuració residual"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:757
-msgid ""
-"Packages sometimes leave configuration files on the system even after they "
-"are removed."
-msgstr ""
-"Els paquets, inclús després de ser esborrats, de vegades deixen fitxers de "
-"configuració al sistema."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:758
-msgid "Remove foreign packages"
-msgstr "Elimina els paquets externs"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:759
-msgid ""
-"Packages which do not come from known repositories are listed here and can "
-"be removed."
-msgstr ""
-"Els paquets que no procedeixen de dipòsits coneguts es llisten aquí i poden "
-"ser eliminats."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:760
-msgid "Downgrade foreign packages"
-msgstr "Reverteix els paquets externs"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:761
-msgid ""
-"Packages which version does not come from known repositories are listed here "
-"and can be downgraded."
-msgstr ""
-"Els paquets amb una versió procedent de dipòsits no coneguts es llisten aquí "
-"i poden ser revertits."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:767
-msgid "Enable source code repositories"
-msgstr "Habilita els dipòsits de codi font"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:777
+#: usr/lib/linuxmint/mintSources/mintSources.py:768
 msgid ""
 "Warning: Unstable packages can introduce regressions and negatively impact "
 "your system. Please do not enable these options in Linux Mint unless it was "
@@ -301,45 +174,47 @@ msgstr ""
 "negativament el sistema. No habiliteu aquestes opcions si no és per "
 "indicació de l'equip de desenvolupament de Linux Mint."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:841
-#: usr/lib/linuxmint/mintSources/mintSources.py:865
+#: usr/lib/linuxmint/mintSources/mintSources.py:832
+#: usr/lib/linuxmint/mintSources/mintSources.py:856
 msgid "Enabled"
 msgstr "Habilitat"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:847
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:40
+#: usr/lib/linuxmint/mintSources/mintSources.py:838
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:871
+#: usr/lib/linuxmint/mintSources/mintSources.py:862
 msgid "Repository"
 msgstr "Dipòsit"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:887
+#: usr/lib/linuxmint/mintSources/mintSources.py:878
 msgid "Key"
 msgstr "Clau"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:900
-msgid "Restore the default settings"
-msgstr "Restaura els ajusts predeterminats"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:901
-msgid "Restore the official repositories to their default settings"
-msgstr "Restaura els dipòsits oficials als ajusts predeterminats"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:986
+#: usr/lib/linuxmint/mintSources/mintSources.py:974
 msgid "There is no more residual configuration on the system."
 msgstr "Ja no hi ha cap configuració residual al sistema."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:992
+#: usr/lib/linuxmint/mintSources/mintSources.py:980
 msgid "The problem was fixed. Please reload the cache."
 msgstr "El problema s'ha corregit. Torneu a carregar la memòria cau."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1018
+#: usr/lib/linuxmint/mintSources/mintSources.py:1006
 msgid "Open.."
 msgstr "Obre.."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1034
+#: usr/lib/linuxmint/mintSources/mintSources.py:1009
+#: usr/lib/linuxmint/mintSources/mintSources.py:1245
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:32
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1010
+msgid "Open"
+msgstr "Obre"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1022
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -347,23 +222,23 @@ msgstr ""
 "Si us plau, introduïu els 8 caràcters de la clau pública que voleu baixar "
 "del servidor de claus keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1047
+#: usr/lib/linuxmint/mintSources/mintSources.py:1035
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Està segur que desitja esborrar permanentment aquesta clau?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1061
+#: usr/lib/linuxmint/mintSources/mintSources.py:1049
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Introduïu el nom del PPA que voleu afegir:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1114
+#: usr/lib/linuxmint/mintSources/mintSources.py:1101
 msgid "Edit the URL of the PPA"
 msgstr "Edita l'URL del PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1124
+#: usr/lib/linuxmint/mintSources/mintSources.py:1111
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Esteu segur que voler eliminar permanentment aquest PPA?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1162
+#: usr/lib/linuxmint/mintSources/mintSources.py:1149
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
@@ -371,68 +246,62 @@ msgstr ""
 "No hi ha disponible el contingut d'aquest PPA. Refresqueu la memòria cau i "
 "torneu-ho a provar."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1176
+#: usr/lib/linuxmint/mintSources/mintSources.py:1163
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Introduïu el nom del dipòsit que voleu afegir:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1195
+#: usr/lib/linuxmint/mintSources/mintSources.py:1182
 msgid "Edit the URL of the repository"
 msgstr "Editeu l'URL del dipòsit"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1205
+#: usr/lib/linuxmint/mintSources/mintSources.py:1192
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Esteu segur que voleu eliminar permanentment aquest dipòsit?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1383
-msgid "Update the cache"
-msgstr "Actualitza la memòria cau"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1246
+#: usr/lib/linuxmint/mintSources/mintSources.py:1379
+msgid "OK"
+msgstr "D'acord"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1384
-msgid "Click here to update your APT cache with your new sources"
-msgstr ""
-"Feu clic aquí per actualitzar la memòria cau APT amb els vostres orígens nous"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+msgid "Your configuration changed"
+msgstr "La vostra configuració ha canviat"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1390
-msgid "Your APT cache is up to date"
-msgstr "La vostra memòria cau APT està al dia"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+msgid "Click OK to update your APT cache"
+msgstr "Feu clic a d'acord per actualitzar la vostra memòria cau APT"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:46
-msgid "Install"
-msgstr "Instal·la"
-
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:49
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:50
-msgid "Cancel"
-msgstr "Cancel·la"
-
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:50
-msgid ""
-"This PPA provides the following packages. Please select the ones you want to "
-"install:"
-msgstr ""
-"Aquest PPA proporciona els paquets següents. Seleccioneu els que voleu "
-"instal·lar:"
-
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:81
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:88
 #, python-format
 msgid "version %s already installed"
 msgstr "La versió %s ja està instal·lada"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:31
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:91
+msgid "already installed"
+msgstr "ja instal·lat"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 msgid "Foreign packages"
 msgstr "Paquets externs"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:38
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:46
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:33
 msgid "Downgrade"
 msgstr "Reverteix"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:39
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:47
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:30
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
 msgstr "La versió dels següents paquets no coincideix amb la dels dipòsits:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:42
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:49
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:16
+msgid "Remove"
+msgstr "Treu"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:50
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
@@ -440,40 +309,27 @@ msgstr ""
 "Els paquets següents estan instal·lats al vostre ordinador, però no estan "
 "presents als dipòsits:"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:47
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:190
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:55
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:197
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:31
 msgid "Select All"
 msgstr "Selecciona-ho tot"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:51
-msgid "WARNING"
-msgstr "ATENCIÓ"
-
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:52
-msgid ""
-"Review the information below very carefully before validating the command:"
-msgstr "Reviseu acuradament la següent informació abans de validar l'ordre:"
-
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:69
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:73
 msgid "Package"
 msgstr "Paquet"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:74
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:78
 msgid "Installed version"
 msgstr "Versió instal·lada"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:80
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:84
 msgid "Repository version"
 msgstr "Versió del dipòsit"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:193
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:200
 msgid "Clear"
 msgstr "Neteja"
-
-#: usr/bin/software-sources:9
-msgid "Please enter your password to configure the software sources"
-msgstr ""
-"Introduïu la vostra contrasenya per configurar els orígens de programari"
 
 #: usr/bin/add-apt-repository:10
 msgid "Error: must run as root"
@@ -486,4 +342,160 @@ msgstr "Error: cal un dipòsit com a argument"
 #: generate_desktop_files:27 generate_desktop_files:42
 msgid "Configure the sources for installable software and updates"
 msgstr ""
-"Configureu els orígens per a les actualitzacions i el programari instal·lable"
+"Configureu els orígens per al programari instal·lable i actualitzacions"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:2
+msgid "Official repositories"
+msgstr "Dipòsits oficials"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:3
+msgid "PPAs"
+msgstr "PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:4
+msgid "Additional repositories"
+msgstr "Dipòsits addicionals"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:5
+msgid "Authentication keys"
+msgstr "Claus d'autenticació"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:6
+msgid "Maintenance"
+msgstr "Manteniment"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:7
+msgid "Select a faster server..."
+msgstr "Selecciona un servidor més ràpid..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:8
+msgid "Mirrors"
+msgstr "Rèpliques"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:9
+msgid "Optional components"
+msgstr "Components opcionals"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:10
+msgid "Enable source code repositories"
+msgstr "Habilita els dipòsits de codi font"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:11
+msgid "Source code"
+msgstr "Codi font"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:12
+msgid "Restore the default settings"
+msgstr "Restaura els ajusts predeterminats"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:13
+msgid "Restore the official repositories to their default settings"
+msgstr "Restaura els dipòsits oficials als ajusts predeterminats"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:14
+msgid "Add a new PPA..."
+msgstr "Afegeix un PPA nou..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:15
+msgid "Edit URL..."
+msgstr "Edita l'URL..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:17
+msgid "Open PPA"
+msgstr "Obre el PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:18
+msgid "Look inside the PPA and install packages it provides"
+msgstr "Veu el contingut del PPA i instal·la els paquets que proporciona"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:19
+msgid "Add a new repository..."
+msgstr "Afegeix un dipòsit nou..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:20
+msgid "Import key file..."
+msgstr "Importa el fitxer de la clau..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:21
+msgid "Download a key..."
+msgstr "Baixa una clau..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:22
+msgid "Fix MergeList problems"
+msgstr "Corregeix els problemes de MergeList"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:23
+msgid ""
+"If you experience MergeList problems, click this button to solve the problem."
+msgstr ""
+"Si teniu problemes de MergeList, feu clic a aquest botó per resoldre el "
+"problema."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:24
+msgid "Purge residual configuration"
+msgstr "Purga la configuració residual"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:25
+msgid ""
+"Packages sometimes leave configuration files on the system even after they "
+"are removed."
+msgstr ""
+"Els paquets, inclús després de ser esborrats, de vegades deixen fitxers de "
+"configuració al sistema."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:26
+msgid "Remove foreign packages"
+msgstr "Elimina els paquets externs"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:27
+msgid ""
+"Packages which do not come from known repositories are listed here and can "
+"be removed."
+msgstr ""
+"Els paquets que no procedeixen de dipòsits coneguts es llisten aquí i poden "
+"ser eliminats."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:28
+msgid "Downgrade foreign packages"
+msgstr "Reverteix els paquets externs"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:29
+msgid ""
+"Packages which version does not come from known repositories are listed here "
+"and can be downgraded."
+msgstr ""
+"Els paquets amb una versió procedent de dipòsits no coneguts es llisten aquí "
+"i poden ser revertits."
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:34
+msgid "WARNING"
+msgstr "ATENCIÓ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:35
+msgid ""
+"Review the information below very carefully before validating the command:"
+msgstr "Reviseu acuradament la següent informació abans de validar l'ordre:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:36
+msgid "VTE"
+msgstr "VTE"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:37
+msgid "Select mirror"
+msgstr "Seleccioneu una rèplica"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:38
+msgid "Apply"
+msgstr "Aplica"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:39
+msgid ""
+"This PPA provides the following packages. Please select the ones you want to "
+"install:"
+msgstr ""
+"Aquest PPA proporciona els paquets següents. Seleccioneu els que voleu "
+"instal·lar:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.glade.h:40
+msgid "Install"
+msgstr "Instal·la"
