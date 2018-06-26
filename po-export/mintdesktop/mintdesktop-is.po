@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mintdesktop_mintdesktop-is\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 13:10+0100\n"
+"POT-Creation-Date: 2018-05-31 13:55+0100\n"
 "PO-Revision-Date: 2017-11-22 05:51+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <rglug@rglug.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-05-22 09:17+0000\n"
-"X-Generator: Launchpad (build 18658)\n"
+"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
+"X-Generator: Launchpad (build 18688)\n"
 "Language: is\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
@@ -40,7 +40,7 @@ msgid "Here's a description of some of the window managers available."
 msgstr "Hér er lýsing á nokkrum af þeim gluggastýringum sem tiltækar eru"
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:270
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:282
 msgid "Marco"
 msgstr "Marco"
 
@@ -61,7 +61,7 @@ msgstr ""
 "<cmd>apt install marco</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:275
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:287
 msgid "Metacity"
 msgstr "Metacity"
 
@@ -83,7 +83,7 @@ msgstr ""
 "<cmd>apt install metacity</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:280
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:292
 msgid "Xfwm4"
 msgstr "Xfwm4"
 
@@ -104,7 +104,7 @@ msgstr ""
 "<cmd>apt install xfwm4</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:289
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
 msgid "Compiz"
 msgstr "Compiz"
 
@@ -150,7 +150,7 @@ msgstr ""
 "<cmd>apt install compton</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:285
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:297
 msgid "Openbox"
 msgstr "Openbox"
 
@@ -167,7 +167,7 @@ msgstr ""
 "<cmd>apt install openbox</cmd>."
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165 generate_desktop_files:28
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190 generate_desktop_files:28
 msgid "Desktop Settings"
 msgstr "Skjáborðsstillingar"
 
@@ -176,7 +176,7 @@ msgid "Welcome to Desktop Settings."
 msgstr "Velkomin í skjáborðsstillingahlutann"
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
 msgid "Windows"
 msgstr "Gluggar"
 
@@ -205,8 +205,6 @@ msgid "Compositing (shadows, animations, effects, GPU rendering)"
 msgstr "Skjásamsetning (skuggar, hreyfingar, sjónbrellur, myndgerð með GPU)"
 
 #: usr/share/help/C/mintdesktop/index.page:33(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:128
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
 msgid "Terminal"
 msgstr "Skjáhermir"
 
@@ -285,170 +283,154 @@ msgstr ""
 "Launchpad Contributions:\n"
 "  Sveinn í Felli https://launchpad.net/~sveinki"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
 msgid "Desktop"
 msgstr "Skjáborð"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:127
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:153
 msgid "Interface"
 msgstr "Viðmót"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
 msgid "Desktop icons"
 msgstr "Táknmyndir á skjáborði"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:170
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:195
 msgid "Marco settings"
 msgstr "Stillingar fyrir Macro"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:171
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
 msgid "Metacity settings"
 msgstr "Stillingar fyrir Metacity"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:172
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
 msgid "Compiz settings"
 msgstr "Stillingar fyrir Compiz"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
 msgid "Configure Compiz"
 msgstr "Setja upp Compiz"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:174
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
 msgid "Reset Compiz settings"
 msgstr "Frumstilla Compiz stillingar"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
 msgid "Icons"
 msgstr "Táknmyndir"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
-msgid "Context menus"
-msgstr "Samhengisvalmyndir"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
 msgid "Toolbars"
 msgstr "Tækjaslár"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:179
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:202
 msgid "Window Manager"
 msgstr "Gluggastjóri"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
 msgid "Select the items you want to see on the desktop:"
 msgstr "Veldu þau atriði sem þú vilt sjá á skjáborðinu:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
 msgid "Computer"
 msgstr "Tölva"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:184
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:207
 msgid "Home"
 msgstr "Einkamappa"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:208
 msgid "Network"
 msgstr "Netkerfi"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:209
 msgid "Trash"
 msgstr "Rusl"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
 msgid "Mounted Volumes"
 msgstr "Tengdar gagnahirslur"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:212
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:215
 msgid "Don't show window content while dragging them"
 msgstr "Ekki sýna innihald glugga á meðan þeir eru dregnir"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:193
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:213
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:216
 msgid "Use system font in titlebar"
 msgstr "Nota kerfisletur í titilslá"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:214
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:217
 msgid "Buttons layout:"
 msgstr "Útlit hnappa:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
-msgid "Show fortune cookies"
-msgstr "Birta málshætti"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:219
 msgid "Show icons on menus"
 msgstr "Sýna táknmyndir í valmyndum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:220
 msgid "Show icons on buttons"
 msgstr "Sýnir táknmyndir á hnöppum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
-msgid "Show Input Methods menu in context menus"
-msgstr "Sýna inntaksaðferðavalmynd í samhengisvalmyndum"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
-msgid "Show Unicode Control Character menu in context menus"
-msgstr "Sýna Unicode-stjórnstafavalmynd í samhengisvalmyndum"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:203
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
 msgid "Buttons labels:"
 msgstr "Merkingar á hnöppum:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
 msgid "Icon size:"
 msgstr "Stærð táknmynda:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:250
 msgid "Traditional style (Right)"
 msgstr "Hefðbundinn stíll (hægra megin)"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:251
 msgid "Mac style (Left)"
 msgstr "Makkastíll (vinstra megin)"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:250
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:267
 msgid "Small"
 msgstr "Litlar"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:251
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:268
 msgid "Large"
 msgstr "Stórar"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:271
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:283
 msgid "Marco + Compositing"
 msgstr "Marco + skjásamsetning"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:273
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:285
 msgid "Marco + Compton"
 msgstr "Marco + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:276
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:288
 msgid "Metacity + Compositing"
 msgstr "Metacity + Compositing"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:278
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:290
 msgid "Metacity + Compton"
 msgstr "Metacity + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:281
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:293
 msgid "Xfwm4 + Compositing"
 msgstr "Xfwm4 + skjásamsetning"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:283
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:295
 msgid "Xfwm4 + Compton"
 msgstr "Xfwm4 + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:287
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:299
 msgid "Openbox + Compton"
 msgstr "Openbox + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:291
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:303
 msgid "Awesome"
 msgstr "Frábært"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:295
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:307
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
@@ -459,19 +441,35 @@ msgstr ""
 "gluggastjóra.\n"
 "Notaðu 'wm-detect' skipunina til að athuga hvaða gluggastjóri er í gangi."
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:314
+msgid "Auto"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:315
+msgid "Normal"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:316
+msgid "Double (HiDPI)"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:319
+msgid "User interface scaling"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:326
 msgid "Text below items"
 msgstr "Texti fyrir neðan hluti"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:302
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:327
 msgid "Text beside items"
 msgstr "Texti við hliðina á hlutum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:303
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:328
 msgid "Icons only"
 msgstr "Aðeins táknmyndir"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:304
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:329
 msgid "Text only"
 msgstr "Bara texti"
 

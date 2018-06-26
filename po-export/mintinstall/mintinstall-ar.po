@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-07 12:02+0100\n"
-"PO-Revision-Date: 2018-04-10 15:30+0000\n"
-"Last-Translator: انور الاسكندرانى <Unknown>\n"
+"PO-Revision-Date: 2018-06-02 19:19+0000\n"
+"Last-Translator: Kemeral Jones <kemeral@gmail.com>\n"
 "Language-Team: anwar AL_iskandrany <anwareleskndrany13@gmail.com >\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
 "3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
-"X-Launchpad-Export-Date: 2018-05-22 09:17+0000\n"
-"X-Generator: Launchpad (build 18658)\n"
+"X-Launchpad-Export-Date: 2018-06-26 10:06+0000\n"
+"X-Generator: Launchpad (build 18688)\n"
 "Language: ar_EG\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:68
@@ -62,14 +62,20 @@ msgstr "حول"
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d مهمة تعمل حاليا"
+msgstr[1] "%d مهمات تعمل حاليا"
+msgstr[2] "%d مهمات تعمل حاليا"
+msgstr[3] "%d مهمات تعمل حاليا"
+msgstr[4] "%d مهمات تعمل حاليا"
+msgstr[5] "%d مهمات تعمل حاليا"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1076
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
 msgstr ""
+"هناك عمليات نشطة حاليا.\n"
+"هل أنت متأكد من أنك تريد الخروج؟"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1124
 msgid "Installed Applications"
@@ -77,7 +83,7 @@ msgstr "التطبيقات المثبتة"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1127
 msgid "Currently working on the following packages"
-msgstr ""
+msgstr "يتم العمل حاليا على الحزم التالية"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1129
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
@@ -230,11 +236,11 @@ msgstr "الأساسيات"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1610
 msgid "All operations complete"
-msgstr ""
+msgstr "تم الإنتهاء من كل العمليات"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1612
 msgid "No matching packages found"
-msgstr ""
+msgstr "لم يتم العثور على حزم مطابقة"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1807
 msgid "No reviews available"
@@ -271,20 +277,20 @@ msgstr "جاري التثبيت"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1885
 msgid "Cannot remove"
-msgstr ""
+msgstr "لا يمكن إزالته"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1886
 msgid "Removing this package could cause irreparable damage to your system."
-msgstr ""
+msgstr "قد يؤدي إزالة هذه الحزمة إلى تلف لا يمكن إصلاحه في نظامك."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1888
 msgid "Cannot install"
-msgstr ""
+msgstr "لا يمكن تثبيته"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1889
 msgid ""
 "Installing this package could cause irreparable damage to your system."
-msgstr ""
+msgstr "قد يؤدي تثبيت هذه الحزمة إلى تلف لا يمكن إصلاحه في نظامك."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1897
 msgid "Not available"
@@ -320,11 +326,11 @@ msgstr "تثبيت التطبيقات الجديدة"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
 msgid "Limit search to current listing"
-msgstr ""
+msgstr "تحديد  البحث على القائمة الحالية"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "<big><b>Generating cache, one moment</b></big>"
-msgstr ""
+msgstr "<big><b>جارٍ إنشاء ذاكرة تخزين مؤقت ، لحظة من فضلك</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Categories"
@@ -332,11 +338,11 @@ msgstr "الفئات"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "page0"
-msgstr ""
+msgstr "الصفحة0"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "page1"
-msgstr ""
+msgstr "الصفحة 1"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Launch"

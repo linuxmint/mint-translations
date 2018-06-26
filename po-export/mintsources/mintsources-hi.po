@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 12:22+0100\n"
-"PO-Revision-Date: 2018-05-17 05:55+0000\n"
+"PO-Revision-Date: 2018-06-17 14:17+0000\n"
 "Last-Translator: Panwar <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-05-22 09:20+0000\n"
-"X-Generator: Launchpad (build 18658)\n"
+"X-Launchpad-Export-Date: 2018-06-26 10:12+0000\n"
+"X-Generator: Launchpad (build 18688)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:63
 msgid "You are about to remove the following PPA:"
@@ -54,7 +54,7 @@ msgstr "PPA हटाने में विफलता: '%s'"
 #: usr/lib/linuxmint/mintSources/mintSources.py:118
 #, python-format
 msgid "failed to remove repository: '%s'"
-msgstr "Repository हटाने में विफलता: '%s'"
+msgstr "पैकेज-संग्रह हटाने में विफलता: '%s'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:125
 msgid "Adding PPAs is not supported"
@@ -96,14 +96,14 @@ msgid ""
 "Unless you are participating in beta-testing, you should not enable this "
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
-"लिनक्स मिंट अपरीक्षित पैकेज के लिए Romeo का उपयोग करता है। परीक्षण होने के "
-"बाद, ये आधिकारिक repository में स्थानांतरित हो जाते हैं। अगर आप beta-परीक्षण "
-"में भाग नहीं लेते हैं, तो इसे सक्रिय न करें। क्या आप Romeo repository को "
-"सक्रिय करना चाहते हैं?"
+"लिनक्स मिंट अपरीक्षित पैकेज के लिए रोमियो का उपयोग करता है। परीक्षण होने के "
+"बाद, ये आधिकारिक पैकेज-संग्रह में स्थानांतरित हो जाते हैं। अगर आप बीटा-"
+"परीक्षण में भाग नहीं लेते हैं, तो इसे सक्रिय न करें। क्या आप रोमियो पैकेज-"
+"संग्रह को सक्रिय करना चाहते हैं?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:423
 msgid "Select a mirror"
-msgstr "दर्पण(mirror) सर्वर चुनें"
+msgstr "मिरर-सर्वर सर्वर चुनें"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:435
 msgid "Country"
@@ -150,7 +150,7 @@ msgstr "सॉफ्टवेयर स्रोत"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:743
 msgid "Backported packages"
-msgstr "Backport किये गए पैकेज"
+msgstr "बैकपोर्ट किए गए पैकेज"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:745
 msgid "Unstable packages"
@@ -186,11 +186,11 @@ msgstr "PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:862
 msgid "Repository"
-msgstr "Repository"
+msgstr "पैकेज-संग्रह"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:878
 msgid "Key"
-msgstr "Key"
+msgstr "कुंजी"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:974
 msgid "There is no more residual configuration on the system."
@@ -247,15 +247,15 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1163
 msgid "Please enter the name of the repository you want to add:"
-msgstr "कृपया उस Repository का नाम दर्ज करें जिसे आप जोड़ना चाहते हैं:"
+msgstr "कृपया उस पैकेज-संग्रह का नाम दर्ज करें जिसे आप जोड़ना चाहते हैं:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1182
 msgid "Edit the URL of the repository"
-msgstr "Repository का URL संपादित करें"
+msgstr "पैकेज-संग्रह का URL संपादित करें"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1192
 msgid "Are you sure you want to permanently remove this repository?"
-msgstr "क्या आप इस repository को हमेशा के लिए हटा देना चाहते हैं?"
+msgstr "क्या आप इस पैकेज-संग्रह को हमेशा के लिए हटा देना चाहते हैं?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1246
 #: usr/lib/linuxmint/mintSources/mintSources.py:1379
@@ -294,7 +294,7 @@ msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
 msgstr ""
-"निम्नलिखित पैकेज के संस्करण repository वाले संस्करण से मेल नहीं खातें:"
+"निम्नलिखित पैकेज के संस्करण पैकेज-संग्रह वाले संस्करण से मेल नहीं खातें :"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:16
@@ -306,7 +306,8 @@ msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
 msgstr ""
-"ये पैकेज आपके कंप्यूटर में इंस्टॉल हैं लेकिन repository में मौजूद नहीं हैं:"
+"ये पैकेज आपके कंप्यूटर में इंस्टॉल हैं लेकिन पैकेज-संग्रह में मौजूद नहीं हैं "
+":"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:197
@@ -324,7 +325,7 @@ msgstr "इंस्टॉल हो रखा संस्करण"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:84
 msgid "Repository version"
-msgstr "Repository संस्करण"
+msgstr "पैकेज-संग्रह संस्करण"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:200
 msgid "Clear"
@@ -332,11 +333,11 @@ msgstr "हटाएँ"
 
 #: usr/bin/add-apt-repository:10
 msgid "Error: must run as root"
-msgstr "त्रुटि: Root के रूप में शुरू किया जाना चाहिए"
+msgstr "त्रुटि : रुट के रूप में शुरू किया जाना चाहिए"
 
 #: usr/bin/add-apt-repository:23
 msgid "Error: need a repository as argument"
-msgstr "त्रुटि: Argument के तौर पर Repository की आवश्यकता है"
+msgstr "त्रुटि: Argument के तौर पर पैकेज-संग्रह की आवश्यकता है"
 
 #: generate_desktop_files:27 generate_desktop_files:42
 msgid "Configure the sources for installable software and updates"
@@ -344,7 +345,7 @@ msgstr "इंस्टॉल योग्य सॉफ़्टवेयर व
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:2
 msgid "Official repositories"
-msgstr "आधिकारिक repository"
+msgstr "आधिकारिक पैकेज-संग्रह"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:3
 msgid "PPAs"
@@ -352,7 +353,7 @@ msgstr "PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:4
 msgid "Additional repositories"
-msgstr "अतिरिक्त repository"
+msgstr "अतिरिक्त पैकेज-संग्रह"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:5
 msgid "Authentication keys"
@@ -368,7 +369,7 @@ msgstr "तेज़ सर्वर चुनें..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:8
 msgid "Mirrors"
-msgstr "दर्पण(mirror)"
+msgstr "मिरर-सर्वर"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:9
 msgid "Optional components"
@@ -376,7 +377,7 @@ msgstr "वैकल्पिक घटक"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:10
 msgid "Enable source code repositories"
-msgstr "स्रोत कोड repository सक्रिय करें"
+msgstr "स्रोत कोड पैकेज-संग्रह सक्रिय करें"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:11
 msgid "Source code"
@@ -388,7 +389,7 @@ msgstr "डिफ़ॉल्ट सेटिंग्स पुन: स्थ�
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:13
 msgid "Restore the official repositories to their default settings"
-msgstr "आधिकारिक repository की डिफ़ॉल्ट सेटिंग्स पुन: स्थापित करें"
+msgstr "आधिकारिक पैकेज-संग्रह की डिफ़ॉल्ट सेटिंग्स पुन: स्थापित करें"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:14
 msgid "Add a new PPA..."
@@ -408,7 +409,7 @@ msgstr "PPA व उसके द्वारा प्रदान किए ज
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:19
 msgid "Add a new repository..."
-msgstr "नई Repository जोड़ें..."
+msgstr "नया पैकेज-संग्रह जोड़ें..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:20
 msgid "Import key file..."
@@ -449,7 +450,7 @@ msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
 msgstr ""
-"अनुप्रयोग जो ज्ञात repository से नहीं आते, वे यहाँ सूचीबद्ध है व उन्हें "
+"अनुप्रयोग जो ज्ञात पैकेज-संग्रह से नहीं आते, वे यहाँ सूचीबद्ध है व उन्हें "
 "हटाया जा सकता है।"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:28
@@ -461,7 +462,7 @@ msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
 msgstr ""
-"अनुप्रयोग जो ज्ञात repository से नहीं आते, वे यहाँ सूचीबद्ध है व उन्हें "
+"अनुप्रयोग जो ज्ञात पैकेज-संग्रह से नहीं आते, वे यहाँ सूचीबद्ध है व उन्हें "
 "डाउनग्रेड किया जा सकता है।"
 
 #: usr/lib/linuxmint/mintSources/mintSources.glade.h:34
