@@ -7,28 +7,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-02-24 17:11+0100\n"
+"POT-Creation-Date: 2018-08-08 10:50+0200\n"
 "PO-Revision-Date: 2015-03-04 10:23+0000\n"
 "Last-Translator: Damir Jerovšek <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-08-14 12:12+0000\n"
+"X-Generator: Launchpad (build 18747)\n"
 
-#: usr/lib/live-installer/installer.py:69
+#: usr/lib/live-installer/installer.py:70
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
 msgstr "Formatiranje %(partition)s kot %(format)s ..."
 
-#: usr/lib/live-installer/installer.py:91
-#: usr/lib/live-installer/installer.py:102
+#: usr/lib/live-installer/installer.py:94
+#: usr/lib/live-installer/installer.py:105
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
 msgstr "Priklapljanje %(partition)s na %(mountpoint)s"
 
-#: usr/lib/live-installer/installer.py:127
+#: usr/lib/live-installer/installer.py:130
 msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
@@ -36,7 +36,7 @@ msgstr ""
 "NAPAKA: če želite opraviti namestitev po meri, morate najprej ročno "
 "priklopiti vaš ciljni datotečni sistem(e) na /cilj!"
 
-#: usr/lib/live-installer/installer.py:135
+#: usr/lib/live-installer/installer.py:138
 msgid ""
 "ERROR: Something is wrong with the installation medium! This is usually "
 "caused by burning tools which are not compatible with LMDE (YUMI or other "
@@ -47,61 +47,52 @@ msgstr ""
 "zapisovalna orodja, ki niso združljiva z LMDE (YUMI ali druga večzagonska "
 "orodja). Zapišite odtis ISO na DVD/USB z uporabo drugega orodja."
 
-#: usr/lib/live-installer/installer.py:159
-msgid "Indexing files to be copied.."
-msgstr "Beleženje datotek, namenjenih kopiranju ..."
-
-#: usr/lib/live-installer/installer.py:179
+#: usr/lib/live-installer/installer.py:172
 #, python-format
 msgid "Copying %s"
 msgstr "Kopiranje %s"
 
-#: usr/lib/live-installer/installer.py:221
-#, python-format
-msgid "Restoring meta-information on %s"
-msgstr "Obnavljanje metapodatkov na %s"
-
-#: usr/lib/live-installer/installer.py:231
+#: usr/lib/live-installer/installer.py:180
 msgid "Entering the system ..."
 msgstr "Vstopanje v sistem ..."
 
-#: usr/lib/live-installer/installer.py:273
+#: usr/lib/live-installer/installer.py:222
 msgid "Removing live configuration (packages)"
 msgstr "Odstranjevanje \"žive\" nastavitve (paketi)"
 
-#: usr/lib/live-installer/installer.py:281
+#: usr/lib/live-installer/installer.py:234
 msgid "Adding new user to the system"
 msgstr "Dodajanje novega uporabnika v sistem"
 
-#: usr/lib/live-installer/installer.py:321
+#: usr/lib/live-installer/installer.py:279
 msgid "Writing filesystem mount information to /etc/fstab"
 msgstr "Zapisovanje podatkov o priklopu datotečnega sistema v /etc/fstab"
 
-#: usr/lib/live-installer/installer.py:374
+#: usr/lib/live-installer/installer.py:332
 msgid "Setting hostname"
 msgstr "Določanje imena gostitelja"
 
-#: usr/lib/live-installer/installer.py:393
+#: usr/lib/live-installer/installer.py:351
 msgid "Setting locale"
 msgstr "Določanje jezikovnih oznak"
 
-#: usr/lib/live-installer/installer.py:407
+#: usr/lib/live-installer/installer.py:366
 msgid "Localizing packages"
 msgstr "Krajevno prilagajanje paketov"
 
-#: usr/lib/live-installer/installer.py:422
+#: usr/lib/live-installer/installer.py:381
 msgid "Installing drivers"
 msgstr "Nameščanje gonilnikov"
 
-#: usr/lib/live-installer/installer.py:437
+#: usr/lib/live-installer/installer.py:396
 msgid "Setting keyboard options"
 msgstr "Določanje možnosti tipkovnice"
 
-#: usr/lib/live-installer/installer.py:476
+#: usr/lib/live-installer/installer.py:441
 msgid "Installing bootloader"
 msgstr "Nameščanje zagonskega nalagalnika"
 
-#: usr/lib/live-installer/installer.py:485
+#: usr/lib/live-installer/installer.py:452
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
@@ -109,170 +100,189 @@ msgstr ""
 "OPOZORILO: zagonski nalagalnik grub ni bil pravilno nastavljen! Potrebno ga "
 "je nastaviti ročno."
 
-#: usr/lib/live-installer/installer.py:498
+#: usr/lib/live-installer/installer.py:465
 msgid "Cleaning APT"
 msgstr "Čiščenje APT"
 
-#: usr/lib/live-installer/installer.py:522
-#: usr/lib/live-installer/frontend/gtk_interface.py:967
+#: usr/lib/live-installer/installer.py:489
+#: usr/lib/live-installer/frontend/gtk_interface.py:966
 msgid "Installation finished"
 msgstr "Namestitev je končana"
 
-#: usr/lib/live-installer/installer.py:532
+#: usr/lib/live-installer/installer.py:499
 msgid "Configuring bootloader"
 msgstr "Nastavljanje zagonskega nalagalnika"
 
-#: usr/lib/live-installer/installer.py:541
+#: usr/lib/live-installer/installer.py:508
 msgid "Checking bootloader"
 msgstr "Preverjanje zagonskega nalagalnika"
 
-#: usr/lib/live-installer/main.py:31
-msgid "Unexpected error"
-msgstr "Nepričakovana napaka"
+#: usr/lib/live-installer/frontend/gtk_interface.py:94
+#: usr/lib/live-installer/frontend/gtk_interface.py:113
+#: usr/lib/live-installer/frontend/gtk_interface.py:370
+msgid "Language"
+msgstr "Jezik"
 
-#: usr/lib/live-installer/main.py:32
-msgid "The installer failed with the following error."
-msgstr "Namestilnik je spodletel z naslednjo napako."
+#: usr/lib/live-installer/frontend/gtk_interface.py:95
+msgid "Timezone"
+msgstr "Časovni pas"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:75
-#: usr/lib/live-installer/frontend/gtk_interface.py:77
+#: usr/lib/live-installer/frontend/gtk_interface.py:96
+msgid "Keyboard layout"
+msgstr "Razporeditev tipk"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:97
+msgid "User info"
+msgstr "Podatki o uporabniku"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:98
+msgid "Partitioning"
+msgstr "Ustvarjanje razdelkov"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:99
+msgid "Please make sure you wish to manage partitions manually"
+msgstr "Prepričajte se, da želite ročno upravljati z razdelki"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:100
+msgid "Advanced options"
+msgstr "Napredne možnosti"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:101
+msgid "Summary"
+msgstr "Povzetek"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:102
+msgid "Installing Linux Mint..."
+msgstr "Nameščanje Linux Minta ..."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:103
+msgid "Installation paused: please finish the custom installation"
+msgstr "Namestitev je v premoru: dokončajte namestitev po meri"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:116
+#: usr/lib/live-installer/frontend/gtk_interface.py:371
+msgid "Country"
+msgstr "Država"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:128
+#: usr/lib/live-installer/frontend/gtk_interface.py:400
+msgid "Take a photo..."
+msgstr "Zajemi fotografijo ..."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:130
+#: usr/lib/live-installer/frontend/gtk_interface.py:401
+msgid "Browse for more pictures..."
+msgstr "Brskanje med več slikami ..."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:160
+msgid "Select timezone"
+msgstr "Izberite časovni pas"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:207
+#: usr/lib/live-installer/frontend/gtk_interface.py:441
+msgid "Layout"
+msgstr "Razporeditev"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:213
+#: usr/lib/live-installer/frontend/gtk_interface.py:442
+msgid "Variant"
+msgstr "Različica"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:222
+#: usr/lib/live-installer/frontend/gtk_interface.py:443
+msgid "Overview"
+msgstr "Pregled"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:226
+msgid "Calculating file indexes ..."
+msgstr "Računanje datotečnih kazal ..."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:288
+#: usr/lib/live-installer/frontend/gtk_interface.py:374
+msgid "Cancel"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:288
+msgid "Open"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:291
+msgid "Images"
+msgstr "Slike"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:366
+#: usr/lib/live-installer/frontend/gtk_interface.py:368
 #, python-format
 msgid "%s Installer"
 msgstr "Namestitveni program %s"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:92
-#: usr/lib/live-installer/frontend/gtk_interface.py:111
-msgid "Language"
-msgstr "Jezik"
+#: usr/lib/live-installer/frontend/gtk_interface.py:375
+#: usr/lib/live-installer/dialogs.py:31 usr/lib/live-installer/dialogs.py:42
+#: usr/lib/live-installer/dialogs.py:47
+msgid "OK"
+msgstr ""
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:93
-msgid "Timezone"
-msgstr "Časovni pas"
+#: usr/lib/live-installer/frontend/gtk_interface.py:376
+msgid "Quit"
+msgstr ""
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:94
-msgid "Keyboard layout"
-msgstr "Razporeditev tipk"
+#: usr/lib/live-installer/frontend/gtk_interface.py:377
+msgid "Back"
+msgstr ""
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:95
-msgid "User info"
-msgstr "Podatki o uporabniku"
+#: usr/lib/live-installer/frontend/gtk_interface.py:378
+msgid "Forward"
+msgstr ""
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:96
-msgid "Partitioning"
-msgstr "Ustvarjanje razdelkov"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:97
-msgid "Please make sure you wish to manage partitions manually"
-msgstr "Prepričajte se, da želite ročno upravljati z razdelki"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:98
-msgid "Advanced options"
-msgstr "Napredne možnosti"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:99
-msgid "Summary"
-msgstr "Povzetek"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:100
-msgid "Installing Linux Mint..."
-msgstr "Nameščanje Linux Minta ..."
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:101
-msgid "Installation paused: please finish the custom installation"
-msgstr "Namestitev je v premoru: dokončajte namestitev po meri"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:114
-msgid "Country"
-msgstr "Država"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:126
-msgid "Click to change your picture"
-msgstr "Kliknite za spremembo slike"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:128
-msgid "Take a photo..."
-msgstr "Zajemi fotografijo ..."
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:131
-msgid "Browse for more pictures..."
-msgstr "Brskanje med več slikami ..."
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:170
-msgid "Select timezone"
-msgstr "Izberite časovni pas"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:174
+#: usr/lib/live-installer/frontend/gtk_interface.py:380
 msgid "Edit partitions"
 msgstr "Uredi razdelke"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:175
+#: usr/lib/live-installer/frontend/gtk_interface.py:381
 msgid "Refresh"
 msgstr "Osveži"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:176
+#: usr/lib/live-installer/frontend/gtk_interface.py:382
 msgid "Expert mode"
 msgstr "Napredni način"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:220
-#: usr/lib/live-installer/frontend/gtk_interface.py:444
-msgid "Layout"
-msgstr "Razporeditev"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:226
-#: usr/lib/live-installer/frontend/gtk_interface.py:445
-msgid "Variant"
-msgstr "Različica"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:235
-#: usr/lib/live-installer/frontend/gtk_interface.py:446
-msgid "Overview"
-msgstr "Pregled"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:239
-msgid "Calculating file indexes ..."
-msgstr "Računanje datotečnih kazal ..."
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:311
-msgid "Images"
-msgstr "Slike"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:390
+#: usr/lib/live-installer/frontend/gtk_interface.py:383
 msgid "Your full name"
 msgstr "Vaše polno ime"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:391
+#: usr/lib/live-installer/frontend/gtk_interface.py:384
 msgid "Please enter your full name."
 msgstr "Vnesite svoje ime in priimek."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:392
+#: usr/lib/live-installer/frontend/gtk_interface.py:385
 msgid "Your username"
 msgstr "Vaše uporabniško ime"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:393
+#: usr/lib/live-installer/frontend/gtk_interface.py:386
 msgid "This is the name you will use to log in to your computer."
 msgstr "To je ime, ki ga boste uporabljali med prijavo v vaš računalnik."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:394
+#: usr/lib/live-installer/frontend/gtk_interface.py:387
 msgid "Your password"
 msgstr "Vaše geslo"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:395
+#: usr/lib/live-installer/frontend/gtk_interface.py:388
 msgid "Please enter your password twice to ensure it is correct."
 msgstr "Vnesite svoje geslo dvakrat za zagotavljanje pravilnosti."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:396
+#: usr/lib/live-installer/frontend/gtk_interface.py:389
 msgid "Hostname"
 msgstr "Ime gostitelja"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:397
+#: usr/lib/live-installer/frontend/gtk_interface.py:390
 msgid "This hostname will be the computer's name on the network."
 msgstr "Ime gostitelja bo ime računalnika v omrežju."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:398
+#: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Automatic login"
 msgstr "Samodejna prijava"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:399
+#: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
@@ -280,15 +290,15 @@ msgstr ""
 "Če je omogočeno, bo med zagonom sistema prijavni zaslon preskočen ter boste "
 "samodejno prijavljeni v namizno sejo."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:400
+#: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "Log in automatically"
 msgstr "Prijavi me samodejno"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:403
+#: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Your picture"
 msgstr "Vaša slika"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:404
+#: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid ""
 "This picture represents your user account. It is used in the login screen "
 "and a few other places."
@@ -296,31 +306,35 @@ msgstr ""
 "Ta slika predstavlja vaš uporabniški račun. Uporablja se v prijavnem zaslonu "
 "in nekaterih drugih mestih."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:407
+#: usr/lib/live-installer/frontend/gtk_interface.py:399
+msgid "Click to change your picture"
+msgstr "Kliknite za spremembo slike"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:404
 msgid "Selected timezone:"
 msgstr "Izbran časovni pas:"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:410
+#: usr/lib/live-installer/frontend/gtk_interface.py:407
 msgid "Bootloader"
 msgstr "Zagonski nalagalnik"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:411
+#: usr/lib/live-installer/frontend/gtk_interface.py:408
 msgid "Install GRUB"
 msgstr "Namesti GRUB"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:412
+#: usr/lib/live-installer/frontend/gtk_interface.py:409
 msgid "GRUB is a bootloader used to load the Linux kernel."
 msgstr "GRUB je zagonski nalagalnik, uporabljen za nalaganje jedra Linux."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:415
+#: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "Use this box to test your keyboard layout."
 msgstr "Uporabite to polje za preizkus vaše razporeditve tipk."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:416
+#: usr/lib/live-installer/frontend/gtk_interface.py:413
 msgid "Model"
 msgstr "Model"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:419
+#: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
@@ -328,18 +342,18 @@ msgstr ""
 "Izbrali ste ročno upravljanje vaših razdelkov. Ta zmožnost je SAMO ZA "
 "NAPREDNE UPORABNIKE."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:420
+#: usr/lib/live-installer/frontend/gtk_interface.py:417
 msgid "Before continuing, please mount your target filesystem(s) at /target."
 msgstr ""
 "Pred nadaljevanjem priklopite vaš ciljni datotečni sistem(e) na /cilj."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:421
+#: usr/lib/live-installer/frontend/gtk_interface.py:418
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
 "NE priklapljajte navideznih naprav, kot je /dev, /proc, /sys itd. na /cilj/."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:422
+#: usr/lib/live-installer/frontend/gtk_interface.py:419
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
@@ -347,12 +361,12 @@ msgstr ""
 "Med nameščanjem boste imeli čas za uporabo opravila chroot v /target ter "
 "namestitev paketov, ki bodo potrebni med zagonom v vaš nov sistem."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:423
+#: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
 msgstr "Med nameščanjem boste morali zapisati svoj /etc/fstab."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:424
+#: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
@@ -360,12 +374,12 @@ msgstr ""
 "Če niste prepričani, kaj vse to pomeni, se vrnite ter odstranite izbiro "
 "ročnega upravljanja z razdelki."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:427
+#: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr "Storite naslednje ter kliknite Naprej za dokončanje namestitve:"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:428
+#: usr/lib/live-installer/frontend/gtk_interface.py:425
 msgid ""
 "Create /target/etc/fstab for the filesystems as they will be mounted in your "
 "new system, matching those currently mounted at /target (without using the "
@@ -375,7 +389,7 @@ msgstr ""
 "nov sistem, ki se ujemajo s trenutno priklopljeni na /cilj (brez uporabe "
 "predpone v samih poteh priklopa)"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:429
+#: usr/lib/live-installer/frontend/gtk_interface.py:426
 msgid ""
 "Install any packages that may be needed for first boot (mdadm, cryptsetup, "
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
@@ -385,7 +399,7 @@ msgstr ""
 "cryptsetup, dmraid, itd.) s klicem \"sudo chroot /cilj\", čemur sledijo "
 "ustrezne namestitve apt-get/aptitude."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:430
+#: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Note that in order for update-initramfs to work properly in some cases (such "
 "as dm-crypt), you may need to have drives currently mounted using the same "
@@ -395,7 +409,7 @@ msgstr ""
 "primerih (kot je dm-crypt) morali imeti pogone trenutno priklopljene z "
 "uporabo enakega imena bločne naprave, kot se pojavijo v /cilj/etc/fstab."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:431
+#: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
 "Double-check that your /target/etc/fstab is correct, matches what your new "
 "system will have at first boot, and matches what is currently mounted at "
@@ -405,105 +419,112 @@ msgstr ""
 "kar bo vaš nov sistem imel pri prvem zagonu in da se ujema s tem, kar je "
 "trenutno priklopljeno na /cilj."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:435
+#: usr/lib/live-installer/frontend/gtk_interface.py:432
 msgid "Device"
 msgstr "Naprava"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:436
+#: usr/lib/live-installer/frontend/gtk_interface.py:433
 msgid "Type"
 msgstr "Vrsta"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:437
+#: usr/lib/live-installer/frontend/gtk_interface.py:434
 msgid "Operating system"
 msgstr "Operacijski sistem"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:438
+#: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Mount point"
 msgstr "Priklopna točka"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:439
+#: usr/lib/live-installer/frontend/gtk_interface.py:436
 msgid "Format as"
 msgstr "Formatiraj kot"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:440
+#: usr/lib/live-installer/frontend/gtk_interface.py:437
 msgid "Size"
 msgstr "Velikost"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:441
-#: usr/lib/live-installer/partitioning.py:338
+#: usr/lib/live-installer/frontend/gtk_interface.py:438
+#: usr/lib/live-installer/partitioning.py:401
 msgid "Free space"
 msgstr "Nezaseden prostor"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:467
+#: usr/lib/live-installer/frontend/gtk_interface.py:468
 msgid "Quit?"
 msgstr "Končaj?"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:467
+#: usr/lib/live-installer/frontend/gtk_interface.py:468
 msgid "Are you sure you want to quit the installer?"
 msgstr "Ali ste prepričani, da želite končati namestilnik?"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:686
+#: usr/lib/live-installer/frontend/gtk_interface.py:705
+msgid ""
+"* Your username, hostname and password should only contain Latin characters. "
+"In addition to your selected layout, English (US) is set as the default. You "
+"can switch layouts by pressing both Ctrl keys together."
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:744
 msgid "Passwords do not match."
 msgstr "Gesli se ne ujemata."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:689
+#: usr/lib/live-installer/frontend/gtk_interface.py:747
 msgid "Passwords match."
 msgstr "Gesli se ujemata."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:714
-#: usr/lib/live-installer/frontend/gtk_interface.py:787
-#: usr/lib/live-installer/frontend/gtk_interface.py:800
-#: usr/lib/live-installer/frontend/gtk_interface.py:803
-#: usr/lib/live-installer/frontend/gtk_interface.py:813
-#: usr/lib/live-installer/frontend/gtk_interface.py:816
-#: usr/lib/live-installer/frontend/gtk_interface.py:821
-#: usr/lib/live-installer/frontend/gtk_interface.py:825
-#: usr/lib/live-installer/frontend/gtk_interface.py:829
-#: usr/lib/live-installer/partitioning.py:217
+#: usr/lib/live-installer/frontend/gtk_interface.py:770
+#: usr/lib/live-installer/frontend/gtk_interface.py:844
+#: usr/lib/live-installer/frontend/gtk_interface.py:857
+#: usr/lib/live-installer/frontend/gtk_interface.py:860
+#: usr/lib/live-installer/frontend/gtk_interface.py:870
+#: usr/lib/live-installer/frontend/gtk_interface.py:873
+#: usr/lib/live-installer/frontend/gtk_interface.py:878
+#: usr/lib/live-installer/frontend/gtk_interface.py:882
+#: usr/lib/live-installer/frontend/gtk_interface.py:886
+#: usr/lib/live-installer/partitioning.py:238
 msgid "Installation Tool"
 msgstr "Namestitveno orodje"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:714
+#: usr/lib/live-installer/frontend/gtk_interface.py:770
 msgid "Please choose a language"
 msgstr "Izberite jezik"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:754
+#: usr/lib/live-installer/frontend/gtk_interface.py:811
 msgid "Please provide your full name."
 msgstr "Vpišite svoje ime in priimek."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:757
+#: usr/lib/live-installer/frontend/gtk_interface.py:814
 msgid "Please provide a username."
 msgstr "Vpišite uporabniško ime."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:760
+#: usr/lib/live-installer/frontend/gtk_interface.py:817
 msgid "Please provide a password for your user account."
 msgstr "Vpišite geslo za vaš uporabniški račun."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:763
+#: usr/lib/live-installer/frontend/gtk_interface.py:820
 msgid "Your passwords do not match."
 msgstr "Vaši gesli se ne ujemata."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:766
+#: usr/lib/live-installer/frontend/gtk_interface.py:823
 msgid "Please provide a hostname."
 msgstr "Vpišite skrbniško ime."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:771
+#: usr/lib/live-installer/frontend/gtk_interface.py:828
 msgid "Your username must be lower case."
 msgstr "Vaše uporabniško ime mora biti zapisano z malimi črkami."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:775
+#: usr/lib/live-installer/frontend/gtk_interface.py:832
 msgid "Your username may not contain whitespace characters."
 msgstr "Vaše uporabniško ime ne sme vsebovati presledkov."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:780
+#: usr/lib/live-installer/frontend/gtk_interface.py:837
 msgid "The hostname must be lower case."
 msgstr "Skrbniško ime mora biti zapisano z malimi črkami."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:784
+#: usr/lib/live-installer/frontend/gtk_interface.py:841
 msgid "The hostname may not contain whitespace characters."
 msgstr "Skrbniško ime ne sme vsebovati presledkov."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:800
+#: usr/lib/live-installer/frontend/gtk_interface.py:857
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
@@ -511,11 +532,11 @@ msgstr ""
 "Pred nadaljevanjem nakažite datotečni sistem za formatiranje korenskega (/) "
 "razdelka."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:803
+#: usr/lib/live-installer/frontend/gtk_interface.py:860
 msgid "Please select a root (/) partition."
 msgstr "Izberite korenski (/) razdelek."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:803
+#: usr/lib/live-installer/frontend/gtk_interface.py:860
 msgid ""
 "A root partition is needed to install Linux Mint on.\n"
 "\n"
@@ -531,24 +552,24 @@ msgstr ""
 " - Priporočena vrsta datotečnega sistema: ext4\n"
 " "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:813
+#: usr/lib/live-installer/frontend/gtk_interface.py:870
 msgid "The EFI partition is not bootable. Please edit the partition flags."
 msgstr "Razdelek EFI ni zagonski. Uredite zastavice razdelka."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:816
+#: usr/lib/live-installer/frontend/gtk_interface.py:873
 msgid "The EFI partition is too small. It must be at least 100MB."
 msgstr "Razdelek EFI je premajhen. Velik mora biti najmanj 100MB."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:821
-#: usr/lib/live-installer/frontend/gtk_interface.py:825
+#: usr/lib/live-installer/frontend/gtk_interface.py:878
+#: usr/lib/live-installer/frontend/gtk_interface.py:882
 msgid "The EFI partition must be formatted as vfat."
 msgstr "Razdelek EFI mora biti zapisan kot vfat."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:829
+#: usr/lib/live-installer/frontend/gtk_interface.py:886
 msgid "Please select an EFI partition."
 msgstr "Izberite razdelek EFI."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:829
+#: usr/lib/live-installer/frontend/gtk_interface.py:886
 msgid ""
 "An EFI system partition is needed with the following requirements:\n"
 "\n"
@@ -572,101 +593,86 @@ msgstr ""
 "razdelek diska kot sistemski razdelek EFI.\n"
 " "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:879
+#: usr/lib/live-installer/frontend/gtk_interface.py:899
+msgid "Install"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:936
 msgid "Localization"
 msgstr "Krajevna prilagoditev"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:880
+#: usr/lib/live-installer/frontend/gtk_interface.py:937
 msgid "Language: "
 msgstr "Jezik: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:881
+#: usr/lib/live-installer/frontend/gtk_interface.py:938
 msgid "Timezone: "
 msgstr "Časovni pas: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:882
+#: usr/lib/live-installer/frontend/gtk_interface.py:939
 msgid "Keyboard layout: "
 msgstr "Razporeditev tipk: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:885
+#: usr/lib/live-installer/frontend/gtk_interface.py:942
 msgid "User settings"
 msgstr "Uporabniške nastavitve"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:886
+#: usr/lib/live-installer/frontend/gtk_interface.py:943
 msgid "Real name: "
 msgstr "Pravo ime: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:887
+#: usr/lib/live-installer/frontend/gtk_interface.py:944
 msgid "Username: "
 msgstr "Uporabniško ime: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:888
+#: usr/lib/live-installer/frontend/gtk_interface.py:945
 msgid "Automatic login: "
 msgstr "Samodejna prijava: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:888
+#: usr/lib/live-installer/frontend/gtk_interface.py:945
 msgid "enabled"
 msgstr "omogočeno"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:888
+#: usr/lib/live-installer/frontend/gtk_interface.py:945
 msgid "disabled"
 msgstr "onemogočeno"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:889
+#: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "System settings"
 msgstr "Sistemske nastavitve"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:890
+#: usr/lib/live-installer/frontend/gtk_interface.py:947
 msgid "Hostname: "
 msgstr "Ime gostitelja: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:891
+#: usr/lib/live-installer/frontend/gtk_interface.py:948
 msgid "Filesystem operations"
 msgstr "Opravila datotečnega sistema"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:892
+#: usr/lib/live-installer/frontend/gtk_interface.py:949
 #, python-format
 msgid "Install bootloader on %s"
 msgstr "Namesti zagonski nalagalnik na %s"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:892
+#: usr/lib/live-installer/frontend/gtk_interface.py:949
 msgid "Do not install bootloader"
 msgstr "Ne namesti zagonskega nalagalnika"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:894
+#: usr/lib/live-installer/frontend/gtk_interface.py:951
 msgid "Use already-mounted /target."
 msgstr "Uporabi že priklopljen /target."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:898
+#: usr/lib/live-installer/frontend/gtk_interface.py:955
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
 msgstr "Formatiraj %(path)s kot %(filesystem)s"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:901
+#: usr/lib/live-installer/frontend/gtk_interface.py:958
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
 msgstr "Priklopi %(path)s kot %(mount)s"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:933
-#: usr/lib/live-installer/frontend/gtk_interface.py:937
-#: usr/lib/live-installer/frontend/gtk_interface.py:957
-#: usr/lib/live-installer/frontend/gtk_interface.py:965
-msgid "Installation error"
-msgstr "Napaka med namestitvijo"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:946
-msgid "Installation paused"
-msgstr "Namestitev je v premoru"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:946
-msgid ""
-"The installation is now paused. Please read the instructions on the page "
-"carefully before clicking Forward to finish the installation."
-msgstr ""
-"Namestitev je zdaj v premoru. Natančno preberite navodila na strani, preden "
-"kliknete Naprej za dokončanje namestitve."
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:967
+#: usr/lib/live-installer/frontend/gtk_interface.py:966
 msgid ""
 "The installation is now complete. Do you want to restart your computer to "
 "use the new system?"
@@ -674,51 +680,70 @@ msgstr ""
 "Namestitev je zdaj končana. Ali želite znova zagnati računalnik za uporabo "
 "novega sistema?"
 
-#: usr/lib/live-installer/partitioning.py:129
+#: usr/lib/live-installer/frontend/gtk_interface.py:978
+msgid "Installation paused"
+msgstr "Namestitev je v premoru"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:978
+msgid ""
+"The installation is now paused. Please read the instructions on the page "
+"carefully before clicking Forward to finish the installation."
+msgstr ""
+"Namestitev je zdaj v premoru. Natančno preberite navodila na strani, preden "
+"kliknete Naprej za dokončanje namestitve."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:1007
+#: usr/lib/live-installer/frontend/gtk_interface.py:1010
+#: usr/lib/live-installer/frontend/gtk_interface.py:1024
+#: usr/lib/live-installer/frontend/gtk_interface.py:1031
+msgid "Installation error"
+msgstr "Napaka med namestitvijo"
+
+#: usr/lib/live-installer/partitioning.py:134
 msgid "Edit"
 msgstr "Uredi"
 
-#: usr/lib/live-installer/partitioning.py:134
+#: usr/lib/live-installer/partitioning.py:139
 msgid "Assign to /"
 msgstr "Dodeli v /"
 
-#: usr/lib/live-installer/partitioning.py:137
+#: usr/lib/live-installer/partitioning.py:142
 msgid "Assign to /home"
 msgstr "Dodeli v /home"
 
-#: usr/lib/live-installer/partitioning.py:143
+#: usr/lib/live-installer/partitioning.py:148
 msgid "Assign to /boot/efi"
 msgstr "Dodeli v /boot/efi"
 
-#: usr/lib/live-installer/partitioning.py:198
+#: usr/lib/live-installer/partitioning.py:212
 msgid "B"
 msgstr "B"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "kB"
 msgstr "kB"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "MB"
 msgstr "MB"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "GB"
 msgstr "GB"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "TB"
 msgstr "TB"
 
-#: usr/lib/live-installer/partitioning.py:203
+#: usr/lib/live-installer/partitioning.py:217
 msgid "Removable:"
 msgstr "Odstranljivo:"
 
-#: usr/lib/live-installer/partitioning.py:218
+#: usr/lib/live-installer/partitioning.py:239
 #, python-format
 msgid ""
 "No partition table was found on the hard drive: %s. Do you want the "
@@ -729,30 +754,38 @@ msgstr ""
 "namestilnik ustvari za vas niz razdelkov? Opomba: to bo IZBRISALO VSE "
 "PODATKE, prisotne na tem disku."
 
-#: usr/lib/live-installer/partitioning.py:336
+#: usr/lib/live-installer/partitioning.py:399
 msgid "Logical partition"
 msgstr "Logični razdelek"
 
-#: usr/lib/live-installer/partitioning.py:337
+#: usr/lib/live-installer/partitioning.py:400
 msgid "Extended partition"
 msgstr "Razširjeni razdelek"
 
-#: usr/lib/live-installer/partitioning.py:341
+#: usr/lib/live-installer/partitioning.py:404
 msgid "Unknown"
 msgstr "Neznano"
 
-#: usr/lib/live-installer/partitioning.py:436
+#: usr/lib/live-installer/partitioning.py:517
 msgid "Edit partition"
 msgstr "Uredi razdelek"
 
-#: usr/lib/live-installer/partitioning.py:437
+#: usr/lib/live-installer/partitioning.py:518
 msgid "Device:"
 msgstr "Naprava:"
 
-#: usr/lib/live-installer/partitioning.py:439
+#: usr/lib/live-installer/partitioning.py:520
 msgid "Format as:"
 msgstr "Formatiraj kot:"
 
-#: usr/lib/live-installer/partitioning.py:440
+#: usr/lib/live-installer/partitioning.py:521
 msgid "Mount point:"
 msgstr "Priklopna točka:"
+
+#: usr/lib/live-installer/dialogs.py:36
+msgid "No"
+msgstr ""
+
+#: usr/lib/live-installer/dialogs.py:37
+msgid "Yes"
+msgstr ""

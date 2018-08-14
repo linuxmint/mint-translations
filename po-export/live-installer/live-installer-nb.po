@@ -7,28 +7,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-02-24 17:11+0100\n"
+"POT-Creation-Date: 2018-08-08 10:50+0200\n"
 "PO-Revision-Date: 2016-11-13 23:01+0000\n"
 "Last-Translator: Emil Våge <Unknown>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-08-14 12:12+0000\n"
+"X-Generator: Launchpad (build 18747)\n"
 
-#: usr/lib/live-installer/installer.py:69
+#: usr/lib/live-installer/installer.py:70
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
 msgstr "Formaterer %(partition)s som %(format)s ..."
 
-#: usr/lib/live-installer/installer.py:91
-#: usr/lib/live-installer/installer.py:102
+#: usr/lib/live-installer/installer.py:94
+#: usr/lib/live-installer/installer.py:105
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
 msgstr "Monterer %(partition)s i %(mountpoint)s"
 
-#: usr/lib/live-installer/installer.py:127
+#: usr/lib/live-installer/installer.py:130
 msgid ""
 "ERROR: You must first manually mount your target filesystem(s) at /target to "
 "do a custom install!"
@@ -36,7 +36,7 @@ msgstr ""
 "FEIL: Du må først montere ditt mål filsystem(er) på /target for å gjøre en "
 "tilpasset installasjon!"
 
-#: usr/lib/live-installer/installer.py:135
+#: usr/lib/live-installer/installer.py:138
 msgid ""
 "ERROR: Something is wrong with the installation medium! This is usually "
 "caused by burning tools which are not compatible with LMDE (YUMI or other "
@@ -48,61 +48,52 @@ msgstr ""
 "verktøy). Vennligst brenn ISO-filen til en DVD/USB ved hjelp av et annet "
 "verktøy."
 
-#: usr/lib/live-installer/installer.py:159
-msgid "Indexing files to be copied.."
-msgstr "Indekserer filene som skal kopieres.."
-
-#: usr/lib/live-installer/installer.py:179
+#: usr/lib/live-installer/installer.py:172
 #, python-format
 msgid "Copying %s"
 msgstr "Kopierer %s"
 
-#: usr/lib/live-installer/installer.py:221
-#, python-format
-msgid "Restoring meta-information on %s"
-msgstr "Gjenoppretter meta-opplysninger på %s"
-
-#: usr/lib/live-installer/installer.py:231
+#: usr/lib/live-installer/installer.py:180
 msgid "Entering the system ..."
 msgstr "Starter systemet ..."
 
-#: usr/lib/live-installer/installer.py:273
+#: usr/lib/live-installer/installer.py:222
 msgid "Removing live configuration (packages)"
 msgstr "Fjerner midlertidige innstillinger (pakker)"
 
-#: usr/lib/live-installer/installer.py:281
+#: usr/lib/live-installer/installer.py:234
 msgid "Adding new user to the system"
 msgstr "Legger til ny bruker til systemet"
 
-#: usr/lib/live-installer/installer.py:321
+#: usr/lib/live-installer/installer.py:279
 msgid "Writing filesystem mount information to /etc/fstab"
 msgstr "Skriver filsystemets monteringsinformasjon til /etc/fstab"
 
-#: usr/lib/live-installer/installer.py:374
+#: usr/lib/live-installer/installer.py:332
 msgid "Setting hostname"
 msgstr "Setter vertsnavn"
 
-#: usr/lib/live-installer/installer.py:393
+#: usr/lib/live-installer/installer.py:351
 msgid "Setting locale"
 msgstr "Setter opp område-opplysninger"
 
-#: usr/lib/live-installer/installer.py:407
+#: usr/lib/live-installer/installer.py:366
 msgid "Localizing packages"
 msgstr "Lokaliserer pakker."
 
-#: usr/lib/live-installer/installer.py:422
+#: usr/lib/live-installer/installer.py:381
 msgid "Installing drivers"
 msgstr "Installerer drivere"
 
-#: usr/lib/live-installer/installer.py:437
+#: usr/lib/live-installer/installer.py:396
 msgid "Setting keyboard options"
 msgstr "Setter opp tastaturinnstillinger"
 
-#: usr/lib/live-installer/installer.py:476
+#: usr/lib/live-installer/installer.py:441
 msgid "Installing bootloader"
 msgstr "Installerer oppstartslasteren"
 
-#: usr/lib/live-installer/installer.py:485
+#: usr/lib/live-installer/installer.py:452
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
@@ -110,174 +101,193 @@ msgstr ""
 "ADVARSEL: Oppstartslasteren (grub) ble ikke ordentlig konfigurert. Du må "
 "konfigurere den manuelt."
 
-#: usr/lib/live-installer/installer.py:498
+#: usr/lib/live-installer/installer.py:465
 msgid "Cleaning APT"
 msgstr "Renser APT"
 
-#: usr/lib/live-installer/installer.py:522
-#: usr/lib/live-installer/frontend/gtk_interface.py:967
+#: usr/lib/live-installer/installer.py:489
+#: usr/lib/live-installer/frontend/gtk_interface.py:966
 msgid "Installation finished"
 msgstr "Installasjonen er fullført"
 
-#: usr/lib/live-installer/installer.py:532
+#: usr/lib/live-installer/installer.py:499
 msgid "Configuring bootloader"
 msgstr "Konfigurerer oppstartslasteren"
 
-#: usr/lib/live-installer/installer.py:541
+#: usr/lib/live-installer/installer.py:508
 msgid "Checking bootloader"
 msgstr "Sjekker oppstartslasteren"
 
-#: usr/lib/live-installer/main.py:31
-msgid "Unexpected error"
-msgstr "Uventet feil"
-
-#: usr/lib/live-installer/main.py:32
-msgid "The installer failed with the following error."
-msgstr "Installasjonsprogrammet mislyktes med følgende feil."
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:75
-#: usr/lib/live-installer/frontend/gtk_interface.py:77
-#, python-format
-msgid "%s Installer"
-msgstr "%s-installasjonsprogram"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:92
-#: usr/lib/live-installer/frontend/gtk_interface.py:111
+#: usr/lib/live-installer/frontend/gtk_interface.py:94
+#: usr/lib/live-installer/frontend/gtk_interface.py:113
+#: usr/lib/live-installer/frontend/gtk_interface.py:370
 msgid "Language"
 msgstr "Språk"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:93
+#: usr/lib/live-installer/frontend/gtk_interface.py:95
 msgid "Timezone"
 msgstr "Tidssone"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:94
+#: usr/lib/live-installer/frontend/gtk_interface.py:96
 msgid "Keyboard layout"
 msgstr "Tastaturoppsett"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:95
+#: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "User info"
 msgstr "Brukerinformasjon"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:96
+#: usr/lib/live-installer/frontend/gtk_interface.py:98
 msgid "Partitioning"
 msgstr "Partisjonering"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:97
+#: usr/lib/live-installer/frontend/gtk_interface.py:99
 msgid "Please make sure you wish to manage partitions manually"
 msgstr "Vær sikker på om du ønsker å håndtere partisjoner manuelt"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:98
+#: usr/lib/live-installer/frontend/gtk_interface.py:100
 msgid "Advanced options"
 msgstr "Avanserte innstillinger"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:99
+#: usr/lib/live-installer/frontend/gtk_interface.py:101
 msgid "Summary"
 msgstr "Oppsummering."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:100
+#: usr/lib/live-installer/frontend/gtk_interface.py:102
 msgid "Installing Linux Mint..."
 msgstr "Installerer Linux Mint..."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:101
+#: usr/lib/live-installer/frontend/gtk_interface.py:103
 msgid "Installation paused: please finish the custom installation"
 msgstr ""
 "Installasjonen er midlertidig stoppet: vennligst fullfør den tilpassede "
 "installasjonen"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:114
+#: usr/lib/live-installer/frontend/gtk_interface.py:116
+#: usr/lib/live-installer/frontend/gtk_interface.py:371
 msgid "Country"
 msgstr "Land"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:126
-msgid "Click to change your picture"
-msgstr "Klikk for å endre ditt bilde"
-
 #: usr/lib/live-installer/frontend/gtk_interface.py:128
+#: usr/lib/live-installer/frontend/gtk_interface.py:400
 msgid "Take a photo..."
 msgstr "Ta et bilde..."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:131
+#: usr/lib/live-installer/frontend/gtk_interface.py:130
+#: usr/lib/live-installer/frontend/gtk_interface.py:401
 msgid "Browse for more pictures..."
 msgstr "Bla gjennom for flere bilder..."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:170
+#: usr/lib/live-installer/frontend/gtk_interface.py:160
 msgid "Select timezone"
 msgstr "Velg tidssone"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:174
-msgid "Edit partitions"
-msgstr "Endre på partisjoner"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:175
-msgid "Refresh"
-msgstr "Oppdater"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:176
-msgid "Expert mode"
-msgstr "Ekspertmodus"
-
-#: usr/lib/live-installer/frontend/gtk_interface.py:220
-#: usr/lib/live-installer/frontend/gtk_interface.py:444
+#: usr/lib/live-installer/frontend/gtk_interface.py:207
+#: usr/lib/live-installer/frontend/gtk_interface.py:441
 msgid "Layout"
 msgstr "Utforming"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:226
-#: usr/lib/live-installer/frontend/gtk_interface.py:445
+#: usr/lib/live-installer/frontend/gtk_interface.py:213
+#: usr/lib/live-installer/frontend/gtk_interface.py:442
 msgid "Variant"
 msgstr "Variant"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:235
-#: usr/lib/live-installer/frontend/gtk_interface.py:446
+#: usr/lib/live-installer/frontend/gtk_interface.py:222
+#: usr/lib/live-installer/frontend/gtk_interface.py:443
 msgid "Overview"
 msgstr "Oversikt"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:239
+#: usr/lib/live-installer/frontend/gtk_interface.py:226
 msgid "Calculating file indexes ..."
 msgstr "Kalkulerer filindekser ..."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:311
+#: usr/lib/live-installer/frontend/gtk_interface.py:288
+#: usr/lib/live-installer/frontend/gtk_interface.py:374
+msgid "Cancel"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:288
+msgid "Open"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:291
 msgid "Images"
 msgstr "Bilder"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:390
+#: usr/lib/live-installer/frontend/gtk_interface.py:366
+#: usr/lib/live-installer/frontend/gtk_interface.py:368
+#, python-format
+msgid "%s Installer"
+msgstr "%s-installasjonsprogram"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:375
+#: usr/lib/live-installer/dialogs.py:31 usr/lib/live-installer/dialogs.py:42
+#: usr/lib/live-installer/dialogs.py:47
+msgid "OK"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:376
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:377
+msgid "Back"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:378
+msgid "Forward"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:380
+msgid "Edit partitions"
+msgstr "Endre på partisjoner"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:381
+msgid "Refresh"
+msgstr "Oppdater"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:382
+msgid "Expert mode"
+msgstr "Ekspertmodus"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:383
 msgid "Your full name"
 msgstr "Fullt navn"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:391
+#: usr/lib/live-installer/frontend/gtk_interface.py:384
 msgid "Please enter your full name."
 msgstr "Vennligst oppgi ditt fulle navn."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:392
+#: usr/lib/live-installer/frontend/gtk_interface.py:385
 msgid "Your username"
 msgstr "Brukernavn"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:393
+#: usr/lib/live-installer/frontend/gtk_interface.py:386
 msgid "This is the name you will use to log in to your computer."
 msgstr "Dette er navnet du vil bruke for å logge inn på din datamaskin."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:394
+#: usr/lib/live-installer/frontend/gtk_interface.py:387
 msgid "Your password"
 msgstr "Passord"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:395
+#: usr/lib/live-installer/frontend/gtk_interface.py:388
 msgid "Please enter your password twice to ensure it is correct."
 msgstr ""
 "Vennligst oppgi ditt passord to ganger for å være sikker på at det er "
 "korrekt."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:396
+#: usr/lib/live-installer/frontend/gtk_interface.py:389
 msgid "Hostname"
 msgstr "Vertsnavn"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:397
+#: usr/lib/live-installer/frontend/gtk_interface.py:390
 msgid "This hostname will be the computer's name on the network."
 msgstr "Dette vertsnavnet vil bli datamaskinens navn på nettverket."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:398
+#: usr/lib/live-installer/frontend/gtk_interface.py:391
 msgid "Automatic login"
 msgstr "Automatisk innlogging"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:399
+#: usr/lib/live-installer/frontend/gtk_interface.py:392
 msgid ""
 "If enabled, the login screen is skipped when the system starts, and you are "
 "signed into your desktop session automatically."
@@ -285,15 +295,15 @@ msgstr ""
 "Hvis aktivert, vil innloggingskjermen bli hoppet over når systemet starter, "
 "og du blir automatisk logget inn på skrivebordet."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:400
+#: usr/lib/live-installer/frontend/gtk_interface.py:393
 msgid "Log in automatically"
 msgstr "Logg inn automatisk"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:403
+#: usr/lib/live-installer/frontend/gtk_interface.py:396
 msgid "Your picture"
 msgstr "Ditt bilde"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:404
+#: usr/lib/live-installer/frontend/gtk_interface.py:397
 msgid ""
 "This picture represents your user account. It is used in the login screen "
 "and a few other places."
@@ -301,31 +311,35 @@ msgstr ""
 "Dette bildet representerer din brukerkonto. Det er brukt i login skjermen og "
 "et par andre plasser."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:407
+#: usr/lib/live-installer/frontend/gtk_interface.py:399
+msgid "Click to change your picture"
+msgstr "Klikk for å endre ditt bilde"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:404
 msgid "Selected timezone:"
 msgstr "Valgt tidssone:"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:410
+#: usr/lib/live-installer/frontend/gtk_interface.py:407
 msgid "Bootloader"
 msgstr "Oppstartslaster"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:411
+#: usr/lib/live-installer/frontend/gtk_interface.py:408
 msgid "Install GRUB"
 msgstr "Installer GRUB"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:412
+#: usr/lib/live-installer/frontend/gtk_interface.py:409
 msgid "GRUB is a bootloader used to load the Linux kernel."
 msgstr "GRUB er en oppstartslaster brukt til å laste inn Linux-kjernen"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:415
+#: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "Use this box to test your keyboard layout."
 msgstr "Bruk denne boksen for å teste ditt tastaturoppsett."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:416
+#: usr/lib/live-installer/frontend/gtk_interface.py:413
 msgid "Model"
 msgstr "Modell"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:419
+#: usr/lib/live-installer/frontend/gtk_interface.py:416
 msgid ""
 "You have selected to manage your partitions manually, this feature is for "
 "ADVANCED USERS ONLY."
@@ -333,17 +347,17 @@ msgstr ""
 "Du har valgt å manuelt sette opp dine partisjoner, denne funksjonen er BARE "
 "FOR AVANSERTE BRUKERE."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:420
+#: usr/lib/live-installer/frontend/gtk_interface.py:417
 msgid "Before continuing, please mount your target filesystem(s) at /target."
 msgstr "Før du fortsetter, vennligst monter ditt målsystem(er) i /mål."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:421
+#: usr/lib/live-installer/frontend/gtk_interface.py:418
 msgid ""
 "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
 msgstr ""
 "IKKE monter virtuelle enheter som /dev, /proc, /sys og lignende i /mål/."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:422
+#: usr/lib/live-installer/frontend/gtk_interface.py:419
 msgid ""
 "During the install, you will be given time to chroot into /target and "
 "install any packages that will be needed to boot your new system."
@@ -351,13 +365,13 @@ msgstr ""
 "Under installasjonen vil du få mulighet til å chroot inn i /target, og "
 "installere pakker som er nødvendige for oppstart av ditt nye system."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:423
+#: usr/lib/live-installer/frontend/gtk_interface.py:420
 msgid ""
 "During the install, you will be required to write your own /etc/fstab."
 msgstr ""
 "Under installasjonen vil du bli påkrevd å skrive din egen /etc/fstab."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:424
+#: usr/lib/live-installer/frontend/gtk_interface.py:421
 msgid ""
 "If you aren't sure what any of this means, please go back and deselect "
 "manual partition management."
@@ -365,20 +379,20 @@ msgstr ""
 "Hvis du er usikker på hva noe av dette betyr, vennligst gå tilbake og velg "
 "bort manuell partisjonshåndtering."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:427
+#: usr/lib/live-installer/frontend/gtk_interface.py:424
 msgid ""
 "Please do the following and then click Forward to finish installation:"
 msgstr ""
 "Vennligst gjør følgende, klikk så  videre for å fullføre installasjonen."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:428
+#: usr/lib/live-installer/frontend/gtk_interface.py:425
 msgid ""
 "Create /target/etc/fstab for the filesystems as they will be mounted in your "
 "new system, matching those currently mounted at /target (without using the "
 "/target prefix in the mount paths themselves)."
 msgstr ""
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:429
+#: usr/lib/live-installer/frontend/gtk_interface.py:426
 msgid ""
 "Install any packages that may be needed for first boot (mdadm, cryptsetup, "
 "dmraid, etc) by calling \"sudo chroot /target\" followed by the relevant apt-"
@@ -388,7 +402,7 @@ msgstr ""
 "cryptsetup, dmraid og lignende) ved å kalle på \"sudo chroot /mål\" "
 "etterfulgt av de relevante apt-get/aptitude-installasjonene."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:430
+#: usr/lib/live-installer/frontend/gtk_interface.py:427
 msgid ""
 "Note that in order for update-initramfs to work properly in some cases (such "
 "as dm-crypt), you may need to have drives currently mounted using the same "
@@ -398,7 +412,7 @@ msgstr ""
 "crypt), må man i noen tilfeller ha enhetene montert med samme "
 "blokkenhetsnavn som de har i /mål/etc/fstab."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:431
+#: usr/lib/live-installer/frontend/gtk_interface.py:428
 msgid ""
 "Double-check that your /target/etc/fstab is correct, matches what your new "
 "system will have at first boot, and matches what is currently mounted at "
@@ -407,105 +421,112 @@ msgstr ""
 "Dobbelsjekk at /target/etc/fstab er korrekt og stemmer med hva ditt nye "
 "system vil ha på første oppstart og stemmer med /target akkurat nå."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:435
+#: usr/lib/live-installer/frontend/gtk_interface.py:432
 msgid "Device"
 msgstr "Enhet"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:436
+#: usr/lib/live-installer/frontend/gtk_interface.py:433
 msgid "Type"
 msgstr "Skriv"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:437
+#: usr/lib/live-installer/frontend/gtk_interface.py:434
 msgid "Operating system"
 msgstr "Operativsystem"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:438
+#: usr/lib/live-installer/frontend/gtk_interface.py:435
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:439
+#: usr/lib/live-installer/frontend/gtk_interface.py:436
 msgid "Format as"
 msgstr "Formater som"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:440
+#: usr/lib/live-installer/frontend/gtk_interface.py:437
 msgid "Size"
 msgstr "Størrelse"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:441
-#: usr/lib/live-installer/partitioning.py:338
+#: usr/lib/live-installer/frontend/gtk_interface.py:438
+#: usr/lib/live-installer/partitioning.py:401
 msgid "Free space"
 msgstr "Tilgjengelig plass"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:467
+#: usr/lib/live-installer/frontend/gtk_interface.py:468
 msgid "Quit?"
 msgstr "Avslutt?"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:467
+#: usr/lib/live-installer/frontend/gtk_interface.py:468
 msgid "Are you sure you want to quit the installer?"
 msgstr "Er du sikker på at du vil avslutte installasjonsprogrammet?"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:686
+#: usr/lib/live-installer/frontend/gtk_interface.py:705
+msgid ""
+"* Your username, hostname and password should only contain Latin characters. "
+"In addition to your selected layout, English (US) is set as the default. You "
+"can switch layouts by pressing both Ctrl keys together."
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:744
 msgid "Passwords do not match."
 msgstr "Passordene stemmer ikke overens."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:689
+#: usr/lib/live-installer/frontend/gtk_interface.py:747
 msgid "Passwords match."
 msgstr "Passordene samsvarer med hverandre."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:714
-#: usr/lib/live-installer/frontend/gtk_interface.py:787
-#: usr/lib/live-installer/frontend/gtk_interface.py:800
-#: usr/lib/live-installer/frontend/gtk_interface.py:803
-#: usr/lib/live-installer/frontend/gtk_interface.py:813
-#: usr/lib/live-installer/frontend/gtk_interface.py:816
-#: usr/lib/live-installer/frontend/gtk_interface.py:821
-#: usr/lib/live-installer/frontend/gtk_interface.py:825
-#: usr/lib/live-installer/frontend/gtk_interface.py:829
-#: usr/lib/live-installer/partitioning.py:217
+#: usr/lib/live-installer/frontend/gtk_interface.py:770
+#: usr/lib/live-installer/frontend/gtk_interface.py:844
+#: usr/lib/live-installer/frontend/gtk_interface.py:857
+#: usr/lib/live-installer/frontend/gtk_interface.py:860
+#: usr/lib/live-installer/frontend/gtk_interface.py:870
+#: usr/lib/live-installer/frontend/gtk_interface.py:873
+#: usr/lib/live-installer/frontend/gtk_interface.py:878
+#: usr/lib/live-installer/frontend/gtk_interface.py:882
+#: usr/lib/live-installer/frontend/gtk_interface.py:886
+#: usr/lib/live-installer/partitioning.py:238
 msgid "Installation Tool"
 msgstr "Installasjonsverktøy"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:714
+#: usr/lib/live-installer/frontend/gtk_interface.py:770
 msgid "Please choose a language"
 msgstr "Vennligst velg et språk"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:754
+#: usr/lib/live-installer/frontend/gtk_interface.py:811
 msgid "Please provide your full name."
 msgstr "Vennligst oppgi ditt fulle navn."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:757
+#: usr/lib/live-installer/frontend/gtk_interface.py:814
 msgid "Please provide a username."
 msgstr "Vennligst oppgi et brukernavn."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:760
+#: usr/lib/live-installer/frontend/gtk_interface.py:817
 msgid "Please provide a password for your user account."
 msgstr "Vennligst oppgi et passord for din brukerkonto."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:763
+#: usr/lib/live-installer/frontend/gtk_interface.py:820
 msgid "Your passwords do not match."
 msgstr "Passordene du oppga stemmer ikke overens."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:766
+#: usr/lib/live-installer/frontend/gtk_interface.py:823
 msgid "Please provide a hostname."
 msgstr "Vennligst oppgi et vertsnavn."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:771
+#: usr/lib/live-installer/frontend/gtk_interface.py:828
 msgid "Your username must be lower case."
 msgstr "Brukernavnet må bestå av små bokstaver."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:775
+#: usr/lib/live-installer/frontend/gtk_interface.py:832
 msgid "Your username may not contain whitespace characters."
 msgstr "Ditt brukernavn kan ikke inneholde blanke tegn."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:780
+#: usr/lib/live-installer/frontend/gtk_interface.py:837
 msgid "The hostname must be lower case."
 msgstr "Vertsnavnet må bestå av små bokstaver."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:784
+#: usr/lib/live-installer/frontend/gtk_interface.py:841
 msgid "The hostname may not contain whitespace characters."
 msgstr "Vertsnavnet kan ikke inneholde blanke tegn."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:800
+#: usr/lib/live-installer/frontend/gtk_interface.py:857
 msgid ""
 "Please indicate a filesystem to format the root (/) partition with before "
 "proceeding."
@@ -513,11 +534,11 @@ msgstr ""
 "Vennligst indiker ett filsystem du vil formatere rotpartisjonen (/)  med før "
 "du fortsetter"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:803
+#: usr/lib/live-installer/frontend/gtk_interface.py:860
 msgid "Please select a root (/) partition."
 msgstr "Vennligst velg en rotpartisjon(/)."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:803
+#: usr/lib/live-installer/frontend/gtk_interface.py:860
 msgid ""
 "A root partition is needed to install Linux Mint on.\n"
 "\n"
@@ -533,25 +554,25 @@ msgstr ""
 " - Anbefalt filsystemformat: ext4\n"
 " "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:813
+#: usr/lib/live-installer/frontend/gtk_interface.py:870
 msgid "The EFI partition is not bootable. Please edit the partition flags."
 msgstr ""
 "EFI partisjonen er ikke oppstartsbar. Vennligst rediger partisjonsflaggene."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:816
+#: usr/lib/live-installer/frontend/gtk_interface.py:873
 msgid "The EFI partition is too small. It must be at least 100MB."
 msgstr "EFI partisjonen er for liten. Den må være minst 100MB."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:821
-#: usr/lib/live-installer/frontend/gtk_interface.py:825
+#: usr/lib/live-installer/frontend/gtk_interface.py:878
+#: usr/lib/live-installer/frontend/gtk_interface.py:882
 msgid "The EFI partition must be formatted as vfat."
 msgstr "EFI partisjonen må formateres som vfat."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:829
+#: usr/lib/live-installer/frontend/gtk_interface.py:886
 msgid "Please select an EFI partition."
 msgstr "Vennligst velg en EFI-partisjon."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:829
+#: usr/lib/live-installer/frontend/gtk_interface.py:886
 msgid ""
 "An EFI system partition is needed with the following requirements:\n"
 "\n"
@@ -575,93 +596,98 @@ msgstr ""
 "første partisjonen som EFI systempartisjon.\n"
 " "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:879
+#: usr/lib/live-installer/frontend/gtk_interface.py:899
+msgid "Install"
+msgstr ""
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:936
 msgid "Localization"
 msgstr "Plassering"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:880
+#: usr/lib/live-installer/frontend/gtk_interface.py:937
 msgid "Language: "
 msgstr "Språk: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:881
+#: usr/lib/live-installer/frontend/gtk_interface.py:938
 msgid "Timezone: "
 msgstr "Tidssone: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:882
+#: usr/lib/live-installer/frontend/gtk_interface.py:939
 msgid "Keyboard layout: "
 msgstr "Tastaturutforming: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:885
+#: usr/lib/live-installer/frontend/gtk_interface.py:942
 msgid "User settings"
 msgstr "Brukerinnstillinger"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:886
+#: usr/lib/live-installer/frontend/gtk_interface.py:943
 msgid "Real name: "
 msgstr "Virkelig navn: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:887
+#: usr/lib/live-installer/frontend/gtk_interface.py:944
 msgid "Username: "
 msgstr "Brukernavn: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:888
+#: usr/lib/live-installer/frontend/gtk_interface.py:945
 msgid "Automatic login: "
 msgstr "Automatisk innlogging: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:888
+#: usr/lib/live-installer/frontend/gtk_interface.py:945
 msgid "enabled"
 msgstr "aktivert"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:888
+#: usr/lib/live-installer/frontend/gtk_interface.py:945
 msgid "disabled"
 msgstr "deaktivert"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:889
+#: usr/lib/live-installer/frontend/gtk_interface.py:946
 msgid "System settings"
 msgstr "Systeminnstillinger"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:890
+#: usr/lib/live-installer/frontend/gtk_interface.py:947
 msgid "Hostname: "
 msgstr "Vertsnavn: "
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:891
+#: usr/lib/live-installer/frontend/gtk_interface.py:948
 msgid "Filesystem operations"
 msgstr "Filsystemhandlinger"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:892
+#: usr/lib/live-installer/frontend/gtk_interface.py:949
 #, python-format
 msgid "Install bootloader on %s"
 msgstr "Installer oppstartslaster på %s"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:892
+#: usr/lib/live-installer/frontend/gtk_interface.py:949
 msgid "Do not install bootloader"
 msgstr "Ikke installer oppstartslasteren"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:894
+#: usr/lib/live-installer/frontend/gtk_interface.py:951
 msgid "Use already-mounted /target."
 msgstr "Bruk den allerede monterte /target."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:898
+#: usr/lib/live-installer/frontend/gtk_interface.py:955
 #, python-format
 msgid "Format %(path)s as %(filesystem)s"
 msgstr "Formater %(path)s som %(filesystem)s"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:901
+#: usr/lib/live-installer/frontend/gtk_interface.py:958
 #, python-format
 msgid "Mount %(path)s as %(mount)s"
 msgstr "Monter %(path)s som %(mount)s"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:933
-#: usr/lib/live-installer/frontend/gtk_interface.py:937
-#: usr/lib/live-installer/frontend/gtk_interface.py:957
-#: usr/lib/live-installer/frontend/gtk_interface.py:965
-msgid "Installation error"
-msgstr "Installasjonsfeil"
+#: usr/lib/live-installer/frontend/gtk_interface.py:966
+msgid ""
+"The installation is now complete. Do you want to restart your computer to "
+"use the new system?"
+msgstr ""
+"Installasjonen er nå fullført. Vil du starte datamaskinen på nytt for å ta i "
+"bruk det nye systemet?"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:946
+#: usr/lib/live-installer/frontend/gtk_interface.py:978
 msgid "Installation paused"
 msgstr "Installasjon midlertidig stoppet"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:946
+#: usr/lib/live-installer/frontend/gtk_interface.py:978
 msgid ""
 "The installation is now paused. Please read the instructions on the page "
 "carefully before clicking Forward to finish the installation."
@@ -670,59 +696,58 @@ msgstr ""
 "instruksjonene på siden før du klikker på fortsett for å fullføre "
 "installasjonen."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:967
-msgid ""
-"The installation is now complete. Do you want to restart your computer to "
-"use the new system?"
-msgstr ""
-"Installasjonen er nå fullført. Vil du starte datamaskinen på nytt for å ta i "
-"bruk det nye systemet?"
+#: usr/lib/live-installer/frontend/gtk_interface.py:1007
+#: usr/lib/live-installer/frontend/gtk_interface.py:1010
+#: usr/lib/live-installer/frontend/gtk_interface.py:1024
+#: usr/lib/live-installer/frontend/gtk_interface.py:1031
+msgid "Installation error"
+msgstr "Installasjonsfeil"
 
-#: usr/lib/live-installer/partitioning.py:129
+#: usr/lib/live-installer/partitioning.py:134
 msgid "Edit"
 msgstr "Endre"
 
-#: usr/lib/live-installer/partitioning.py:134
+#: usr/lib/live-installer/partitioning.py:139
 msgid "Assign to /"
 msgstr "Tildel til /"
 
-#: usr/lib/live-installer/partitioning.py:137
+#: usr/lib/live-installer/partitioning.py:142
 msgid "Assign to /home"
 msgstr "Tildel til /home"
 
-#: usr/lib/live-installer/partitioning.py:143
+#: usr/lib/live-installer/partitioning.py:148
 msgid "Assign to /boot/efi"
 msgstr "Tildel til /boot/efi"
 
-#: usr/lib/live-installer/partitioning.py:198
+#: usr/lib/live-installer/partitioning.py:212
 msgid "B"
 msgstr "B"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "kB"
 msgstr "kB"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "MB"
 msgstr "MB"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "GB"
 msgstr "GB"
 
-#: usr/lib/live-installer/partitioning.py:198
-#: usr/lib/live-installer/partitioning.py:303
+#: usr/lib/live-installer/partitioning.py:212
+#: usr/lib/live-installer/partitioning.py:356
 msgid "TB"
 msgstr "TB"
 
-#: usr/lib/live-installer/partitioning.py:203
+#: usr/lib/live-installer/partitioning.py:217
 msgid "Removable:"
 msgstr "Flyttbar:"
 
-#: usr/lib/live-installer/partitioning.py:218
+#: usr/lib/live-installer/partitioning.py:239
 #, python-format
 msgid ""
 "No partition table was found on the hard drive: %s. Do you want the "
@@ -733,30 +758,38 @@ msgstr ""
 "installasjonsprogrammet skal opprette partisjoner for deg? Merk: Dette vil "
 "SLETTE ALLE DATA som enda er på disken."
 
-#: usr/lib/live-installer/partitioning.py:336
+#: usr/lib/live-installer/partitioning.py:399
 msgid "Logical partition"
 msgstr "Logisk partisjon"
 
-#: usr/lib/live-installer/partitioning.py:337
+#: usr/lib/live-installer/partitioning.py:400
 msgid "Extended partition"
 msgstr "Utvidet partisjon"
 
-#: usr/lib/live-installer/partitioning.py:341
+#: usr/lib/live-installer/partitioning.py:404
 msgid "Unknown"
 msgstr "Ukjent"
 
-#: usr/lib/live-installer/partitioning.py:436
+#: usr/lib/live-installer/partitioning.py:517
 msgid "Edit partition"
 msgstr "Endre partisjon"
 
-#: usr/lib/live-installer/partitioning.py:437
+#: usr/lib/live-installer/partitioning.py:518
 msgid "Device:"
 msgstr "Enhet:"
 
-#: usr/lib/live-installer/partitioning.py:439
+#: usr/lib/live-installer/partitioning.py:520
 msgid "Format as:"
 msgstr "Formater som:"
 
-#: usr/lib/live-installer/partitioning.py:440
+#: usr/lib/live-installer/partitioning.py:521
 msgid "Mount point:"
 msgstr "Monteringspunkt:"
+
+#: usr/lib/live-installer/dialogs.py:36
+msgid "No"
+msgstr ""
+
+#: usr/lib/live-installer/dialogs.py:37
+msgid "Yes"
+msgstr ""
