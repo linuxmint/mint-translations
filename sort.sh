@@ -17,7 +17,7 @@ for project in ["cinnamon", "cinnamon-bluetooth", "cinnamon-control-center", "ci
 		os.system("mv %s FOREIGN/cinnamon-translations/" % project)
 
 # individual projects
-for project in ["blueberry", "lightdm-settings", "mdm", "nemo-emblems", "folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "mintupdate"]:
+for project in ["blueberry", "lightdm-settings", "mdm", "nemo-emblems", "folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "mintupdate"]:
 	if os.path.exists(project):
 		os.system("mv %s FOREIGN/" % project)
 
