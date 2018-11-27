@@ -7,315 +7,478 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 12:02+0100\n"
-"PO-Revision-Date: 2017-08-10 20:33+0000\n"
-"Last-Translator: David <Unknown>\n"
+"POT-Creation-Date: 2018-11-19 14:56+0000\n"
+"PO-Revision-Date: 2018-07-30 14:58+0000\n"
+"Last-Translator: Vendelín Slezák <Unknown>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:43+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:68
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:69
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:71
 msgid "Multimedia Codecs"
 msgstr "Multimediálne kodeky"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:69
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
 msgid "Multimedia Codecs for KDE"
 msgstr "Multimediálne kodeky pre KDE"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:311
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1760
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1791
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1972
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2003
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Reviews"
 msgstr "Recenzie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:410
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:409
 msgid "All"
 msgstr "Všetko"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:533
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:990 generate_desktop_files:26
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:520
+msgid ""
+"Cannot process this file while there are active operations.\n"
+"Please try again after they finish."
+msgstr ""
+"Tento súbor sa nedá spracovať pokiaľ bežia operácie.\n"
+"Prosím skúste to po ich dokončení."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:541
+msgid "The Flatpak repo you are trying to add already exists."
+msgstr "Flatpak repo ktoré sa pokúšate pridať už existuje."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:549
+msgid "An error occurred attempting to add the Flatpak repo."
+msgstr "Vyskstla sa chyba pri pokuse o pridaní Flatpak repo."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:557
+msgid "Flatpak support is not currently available. Try installing flatpak."
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:576
+msgid ""
+"Flatpak support is not currently available. Try installing flatpak and "
+"gir1.2-flatpak-1.0."
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:597
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1141 generate_desktop_files:26
 #: generate_desktop_files:37
 msgid "Software Manager"
 msgstr "Správca softvéru"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:563
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:630
 msgid "Show installed applications"
-msgstr ""
+msgstr "Zobratiť nainštalované aplikácie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:572
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:639
 msgid "Search in packages summary (slower search)"
 msgstr "Hľadať v popisoch balíčkov (pomalšie hľadanie)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:578
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:645
 msgid "Search in packages description (even slower search)"
 msgstr "Hľadať v popise balíčkov (ešte pomalšie hľadanie)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:588
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:988
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:655
+msgid "Refresh the list of packages"
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:665
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1139
 msgid "About"
 msgstr "O programe"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:815
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:915
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Prebieha %d úloha"
+msgstr[1] "Prebiehajú %d úlohy"
+msgstr[2] "Prebieha %d úloh"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1076
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1229
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
 msgstr ""
+"Práve je aktívnych niekoľko operácií.\n"
+"Ste si istý že chcete skončiť?"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1124
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1281
 msgid "Installed Applications"
-msgstr ""
+msgstr "Nainštalované aplikácie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1127
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1284
 msgid "Currently working on the following packages"
-msgstr ""
+msgstr "Pracuje sa na týchto balíčkoch"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1129
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1286
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
 msgid "Editors' Picks"
-msgstr ""
+msgstr "Odporúčané programy"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1145
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1302
 msgid "Internet"
 msgstr "Internet"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1304
 msgid "Web"
 msgstr "Web"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1152
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1309
 msgid "Email"
 msgstr "E-mail"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1156
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1313
 msgid "Chat"
 msgstr "Chat"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1159
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1316
 msgid "File sharing"
 msgstr "Zdieľanie súborov"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1165
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1322
 msgid "Sound and video"
 msgstr "Zvuk a video"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1167
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1324
 msgid "Sound"
 msgstr "Zvuk"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1169
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1326
 msgid "Video"
 msgstr "Video"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1331
 msgid "Graphics"
 msgstr "Grafika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1335
 msgid "3D"
 msgstr "3D"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1337
 msgid "Drawing"
 msgstr "Kresba"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1339
 msgid "Photography"
 msgstr "Fotografia"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1184
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1341
 msgid "Publishing"
 msgstr "Publikovanie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1186
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1343
 msgid "Scanning"
 msgstr "Skenovanie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1188
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1345
 msgid "Viewers"
 msgstr "Prehliadače"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1350
 msgid "Office"
 msgstr "Kancelária"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1199
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1356
 msgid "Games"
 msgstr "Hry"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1203
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1360
 msgid "Board games"
 msgstr "Stolné hry"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1205
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1362
 msgid "First-person"
-msgstr ""
+msgstr "3D hry"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1364
 msgid "Real-time strategy"
 msgstr "Real-time stratégie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1366
 msgid "Turn-based strategy"
 msgstr "Ťahové stratégie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1368
 msgid "Emulators"
 msgstr "Emulátory"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1370
 msgid "Simulation and racing"
 msgstr "Simulácie a preteky"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1218
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1375
 msgid "Accessories"
 msgstr "Príslušenstvo"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1224
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1381
 msgid "System tools"
 msgstr "Systémové nástroje"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1231
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1388
 msgid "Fonts"
 msgstr "Písma"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1237
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1394
 msgid "Science and Education"
 msgstr "Veda a vzdelávanie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1238
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1395
 msgid "Science"
 msgstr "Veda"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1240
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1397
 msgid "Maths"
 msgstr "Matematika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1242
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1399
 msgid "Education"
 msgstr "Vzdelávanie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1244
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1401
 msgid "Electronics"
-msgstr ""
+msgstr "Elektronika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1250
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1407
 msgid "Programming"
 msgstr "Programovanie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1252
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1409
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1254
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1411
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1256
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1413
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1258
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1415
 msgid "Essentials"
-msgstr ""
+msgstr "Editory"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1610
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1801
 msgid "All operations complete"
-msgstr ""
+msgstr "Všetky operácie sú hotové"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1612
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1805
 msgid "No matching packages found"
+msgstr "Nenašiel sa žiaden balíček"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1808
+msgid ""
+"No packages to show.\n"
+"This may indicate a problem - try refreshing the cache."
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1807
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1943
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2019
 msgid "No reviews available"
-msgstr ""
+msgstr "Žiadne recenzie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1813
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2025
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
-msgstr ""
+msgstr "Klikni <a href='%s'>here</a> na pridanie recenzie."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1869
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2081
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:48
 msgid "Remove"
 msgstr "Odstrániť"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1872
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2084
 msgid "Installed"
 msgstr "Nainštalovaný"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1874
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid "Removing"
-msgstr ""
+msgstr "Odstraňuje sa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1876
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2088
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:39
 msgid "Install"
 msgstr "Inštalovať"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1879
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
 msgid "Not installed"
 msgstr "Nenainštalované"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1881
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2093
 msgid "Installing"
-msgstr ""
+msgstr "Inštaluje sa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1885
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2097
 msgid "Cannot remove"
-msgstr ""
+msgstr "Nemôžem odstrániť"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1886
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr ""
+"Odstránenie tohoto balíčku by mohli spôsobiť nenapraviteľné škody vo vašom "
+"systéme."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1888
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2100
 msgid "Cannot install"
-msgstr ""
+msgstr "Nemôžem nainštalovať"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1889
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
+"Nainštalovanie tohto balíčku by mohlo spôsobiť nenapraviteľné škody vo vašom "
+"systéme."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1897
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2109
 msgid "Not available"
 msgstr "Nedostupné"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1900
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2112
 msgid "Please use apt-get to install this package."
 msgstr "Prosím použite apt-get na inštaláciu balíčka."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1915
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2131
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "%(localSize)s diskového priestoru uvoľnené"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1918
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "%(localSize)s vyžaduje diskového priestoru"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1922
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s sa stiahne, %(localSize)s bude uvoľnené na disku"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1925
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2141
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s sa stiahne, %(localSize)s potrebných na disku"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Flatpaky"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "Aktualizovať"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "Prosím skontrolujte zoznam zmien nižšie."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "Musí byť nainštalovaný ďaľší softvér"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "Musí byť odstránený ďaľší softvér"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "Musí byť aktualizovaný ďaľší softvér"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "Je potrebné urobiť ďaľšie zmeny"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "Celkovo bude stiahnutých %s ."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "%s priestoru na disku bude uvoľnených."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "Použije sa o %s viac miesta na disku."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak prebieha"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "Zrušené"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "Operácia bola zrušená pred dokončením."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "Prebieha inicializácia"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "Inštalujem Flatpaky"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "Inštaluje sa %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "Odstraňujem Flatpaky"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "Odstaňuje sa %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "Aktualizujem Flatpaky"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "Aktualizuje sa %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:237
+msgid "Finished"
+msgstr "Ukončilo sa"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "Operácia sa úspešne dokončila"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:240
+msgid "Failed"
+msgstr "Neúspešné"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"Vyskytla sa chyba:\n"
+"\n"
+"%s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "Vyskytla sa chyba"
 
 #: generate_desktop_files:26 generate_desktop_files:37
 msgid "Install new applications"
@@ -323,11 +486,11 @@ msgstr "Inštalovať nové aplikácie"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
 msgid "Limit search to current listing"
-msgstr ""
+msgstr "Obmedziť vyhľadávanie na aktuálnu listinu"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "<big><b>Generating cache, one moment</b></big>"
-msgstr ""
+msgstr "<big><b>Generujem cache, prosím počkajte</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Categories"
@@ -335,47 +498,47 @@ msgstr "Kategórie"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "page0"
-msgstr ""
+msgstr "strana 0"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
-msgid "page1"
+msgid "<big><b>No matching packages found</b></big>"
 msgstr ""
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
-msgid "Launch"
+msgid "Refresh"
 msgstr ""
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
-msgid "Please be patient. This can take some time..."
-msgstr ""
+msgid "Launch"
+msgstr "Spustiť"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
-msgid "Details"
-msgstr "Podrobnosti"
+msgid "Please be patient. This can take some time..."
+msgstr "Prosím buďte trpezlivý, môže to trvať nejaký čas..."
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Size"
 msgstr "Veľkosť"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
-msgid "Version"
-msgstr ""
-
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+msgid "Version"
+msgstr "Verzia"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Package"
 msgstr "Balíček"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
-msgid "Branch"
-msgstr ""
-
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
-msgid "Architecture"
-msgstr ""
+msgid "Branch"
+msgstr "Typ verzie"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+msgid "Architecture"
+msgstr "Architektúra"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
 msgid "Remote"
-msgstr ""
+msgstr "Umiestnenie"
 
 #, python-format
 #~ msgid "Install %s?"
@@ -390,9 +553,6 @@ msgstr ""
 #, python-format
 #~ msgid "Upgrade %s?"
 #~ msgstr "Aktualizovať %s?"
-
-#~ msgid "Upgrade"
-#~ msgstr "Aktualizovať"
 
 #~ msgid "Default repositories"
 #~ msgstr "Predvolené repozitáre"
@@ -735,9 +895,6 @@ msgstr ""
 #, python-format
 #~ msgid "Could not find package: %s"
 #~ msgstr "Nenašiel sa balíček: %s"
-
-#~ msgid "Finished"
-#~ msgstr "Ukončilo sa"
 
 #~ msgid "Using the following repositories:"
 #~ msgstr "Budú použité nasledovné repozitáre:"

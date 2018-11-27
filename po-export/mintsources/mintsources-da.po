@@ -7,89 +7,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 12:22+0100\n"
-"PO-Revision-Date: 2018-05-09 17:14+0000\n"
+"POT-Creation-Date: 2018-09-21 12:45+0100\n"
+"PO-Revision-Date: 2018-09-22 15:21+0000\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:12+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:47+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:63
+#: usr/lib/linuxmint/mintSources/mintSources.py:66
 msgid "You are about to remove the following PPA:"
 msgstr "Du er ved at fjerne følgende PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:66
-#: usr/lib/linuxmint/mintSources/mintSources.py:142
+#: usr/lib/linuxmint/mintSources/mintSources.py:69
+#: usr/lib/linuxmint/mintSources/mintSources.py:145
 #, python-format
 msgid " More info: %s"
 msgstr " Yderligere information: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:70
-#: usr/lib/linuxmint/mintSources/mintSources.py:146
+#: usr/lib/linuxmint/mintSources/mintSources.py:73
+#: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Press Enter to continue or Ctrl+C to cancel"
 msgstr "Tryk Enter for at fortsætte eller Ctrl+C for at annullere"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:74
-#: usr/lib/linuxmint/mintSources/mintSources.py:150
+#: usr/lib/linuxmint/mintSources/mintSources.py:77
+#: usr/lib/linuxmint/mintSources/mintSources.py:153
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "Kunne ikke spørge efter svar. Kør venligst med -y"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:78
+#: usr/lib/linuxmint/mintSources/mintSources.py:81
 msgid "Cancelling..."
 msgstr "Annullerer …"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:81
+#: usr/lib/linuxmint/mintSources/mintSources.py:84
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "Kan ikke få informationer om PPA: \"%s\""
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:101
+#: usr/lib/linuxmint/mintSources/mintSources.py:104
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "kunne ikke fjerne PPA: \"%s\""
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:118
+#: usr/lib/linuxmint/mintSources/mintSources.py:121
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "kunne ikke fjerne pakkearkiv: \"%s\""
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:125
+#: usr/lib/linuxmint/mintSources/mintSources.py:128
 msgid "Adding PPAs is not supported"
 msgstr "Tilføjelse af PPA'er er ikke understøttet"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:132
-#: usr/lib/linuxmint/mintSources/mintSources.py:1056
+#: usr/lib/linuxmint/mintSources/mintSources.py:135
+#: usr/lib/linuxmint/mintSources/mintSources.py:1058
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Kan ikke tilføje PPA: \"%s\"."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:136
+#: usr/lib/linuxmint/mintSources/mintSources.py:139
 msgid "Adding private PPAs is not supported currently"
 msgstr "Tilføjelse af private PPA'er understøttes indtil videre ikke"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:139
+#: usr/lib/linuxmint/mintSources/mintSources.py:142
 msgid "You are about to add the following PPA:"
 msgstr "Du er ved at tilføje følgende PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:198
-#: usr/lib/linuxmint/mintSources/mintSources.py:201
+#: usr/lib/linuxmint/mintSources/mintSources.py:190
+#: usr/lib/linuxmint/mintSources/mintSources.py:193
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "Dette PPA understøtter ikke %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:347
-#: usr/lib/linuxmint/mintSources/mintSources.py:376
+#: usr/lib/linuxmint/mintSources/mintSources.py:339
+#: usr/lib/linuxmint/mintSources/mintSources.py:368
 msgid "Sources"
 msgstr "Kilder"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:355
+#: usr/lib/linuxmint/mintSources/mintSources.py:347
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (Installationsdisk)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:395
+#: usr/lib/linuxmint/mintSources/mintSources.py:396
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -101,121 +101,112 @@ msgstr ""
 "deltager i beta-testning, bør du ikke aktivere dette pakkearkiv. Er du "
 "sikker på, du vil aktivere Romeo?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:423
+#: usr/lib/linuxmint/mintSources/mintSources.py:425
 msgid "Select a mirror"
 msgstr "Vælg et spejl"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:435
+#: usr/lib/linuxmint/mintSources/mintSources.py:437
 msgid "Country"
 msgstr "Land"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:440
+#: usr/lib/linuxmint/mintSources/mintSources.py:442
 msgid "URL"
 msgstr "Adresse"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:445
+#: usr/lib/linuxmint/mintSources/mintSources.py:447
 msgid "Speed"
 msgstr "Hastighed"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:471
+#: usr/lib/linuxmint/mintSources/mintSources.py:473
 msgid "Worldwide"
 msgstr "Hele verden"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:549
-#: usr/lib/linuxmint/mintSources/mintSources.py:563
+#: usr/lib/linuxmint/mintSources/mintSources.py:551
+#: usr/lib/linuxmint/mintSources/mintSources.py:565
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:552
+#: usr/lib/linuxmint/mintSources/mintSources.py:554
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:555
+#: usr/lib/linuxmint/mintSources/mintSources.py:557
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:598
+#: usr/lib/linuxmint/mintSources/mintSources.py:600
 msgid "Obsolete"
 msgstr "Forældet"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:601
+#: usr/lib/linuxmint/mintSources/mintSources.py:603
 msgid "Unreachable"
 msgstr "Ikke tilgængelig"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724 generate_desktop_files:27
-#: generate_desktop_files:42
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:1
+#: usr/lib/linuxmint/mintSources/mintSources.py:727 generate_desktop_files:25
+#: generate_desktop_files:53
 msgid "Software Sources"
 msgstr "Programkilder"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:743
+#: usr/lib/linuxmint/mintSources/mintSources.py:745
 msgid "Backported packages"
 msgstr "Bagudporterede pakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:745
+#: usr/lib/linuxmint/mintSources/mintSources.py:747
 msgid "Unstable packages"
 msgstr "Ustabile pakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:758
+#: usr/lib/linuxmint/mintSources/mintSources.py:760
 msgid "Main"
 msgstr "Primær"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:759
+#: usr/lib/linuxmint/mintSources/mintSources.py:761
 msgid "Base"
 msgstr "Basis"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:768
-msgid ""
-"Warning: Unstable packages can introduce regressions and negatively impact "
-"your system. Please do not enable these options in Linux Mint unless it was "
-"suggested by the development team."
-msgstr ""
-"Advarsel: Ustabile pakker kan indføre regressioner og påvirke dit system "
-"negativt. Aktivér ikke disse tilvalg i Linux Mint, med mindre det er "
-"foreslået af udviklingsteamet."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:832
-#: usr/lib/linuxmint/mintSources/mintSources.py:856
+#: usr/lib/linuxmint/mintSources/mintSources.py:825
+#: usr/lib/linuxmint/mintSources/mintSources.py:851
 msgid "Enabled"
 msgstr "Aktiveret"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:838
+#: usr/lib/linuxmint/mintSources/mintSources.py:831
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:862
+#: usr/lib/linuxmint/mintSources/mintSources.py:857
 msgid "Repository"
 msgstr "Pakkearkiv"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:878
+#: usr/lib/linuxmint/mintSources/mintSources.py:875
 msgid "Key"
 msgstr "Nøgle"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:974
+#: usr/lib/linuxmint/mintSources/mintSources.py:961
 msgid "There is no more residual configuration on the system."
 msgstr ""
 "Der er ikke flere tiloversblevende konfigurationsfiler tilbage i systemet."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:980
+#: usr/lib/linuxmint/mintSources/mintSources.py:967
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Problemet er løst. Genindlæs venligst cachen."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1006
+#: usr/lib/linuxmint/mintSources/mintSources.py:1005
 msgid "Open.."
 msgstr "Åbn.."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1009
-#: usr/lib/linuxmint/mintSources/mintSources.py:1245
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:32
+#: usr/lib/linuxmint/mintSources/mintSources.py:1008
+#: usr/lib/linuxmint/mintSources/mintSources.py:1252
+#: usr/lib/linuxmint/mintSources/mintSources.py:1386
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
 msgid "Cancel"
 msgstr "Annullér"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1010
+#: usr/lib/linuxmint/mintSources/mintSources.py:1009
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "Open"
 msgstr "Åbn"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1022
+#: usr/lib/linuxmint/mintSources/mintSources.py:1021
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -223,51 +214,51 @@ msgstr ""
 "Indtast de otte tegn på den offentlige nøgle, du ønsker at hente fra "
 "keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1035
+#: usr/lib/linuxmint/mintSources/mintSources.py:1034
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Er du sikker på, at du permanent ønsker at slette denne nøgle?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1049
+#: usr/lib/linuxmint/mintSources/mintSources.py:1051
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Indtast navnet på det PPA du ønsker at tilføje:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1101
+#: usr/lib/linuxmint/mintSources/mintSources.py:1103
 msgid "Edit the URL of the PPA"
 msgstr "Redigér adressen på PPA'et"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1111
+#: usr/lib/linuxmint/mintSources/mintSources.py:1113
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Er du sikker på, du ønsker at slette dette PPA permanent?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1149
+#: usr/lib/linuxmint/mintSources/mintSources.py:1154
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
 "Indholdet af dette PPA er ikke tilgængeligt. Genindlæs cachen og prøv igen."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1163
+#: usr/lib/linuxmint/mintSources/mintSources.py:1172
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Indtast navnet på det pakkearkiv, du ønsker at tilføje:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1182
+#: usr/lib/linuxmint/mintSources/mintSources.py:1190
 msgid "Edit the URL of the repository"
 msgstr "Redigér adressen på pakkearkivet"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1192
+#: usr/lib/linuxmint/mintSources/mintSources.py:1200
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Er du sikker på, du ønsker at slette dette pakkearkiv permanent?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1246
-#: usr/lib/linuxmint/mintSources/mintSources.py:1379
+#: usr/lib/linuxmint/mintSources/mintSources.py:1253
+#: usr/lib/linuxmint/mintSources/mintSources.py:1385
 msgid "OK"
 msgstr "OK"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:1381
 msgid "Your configuration changed"
 msgstr "Din konfiguration blev ændret"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:1381
 msgid "Click OK to update your APT cache"
 msgstr "Klik OK for at opdatere din APT-cache"
 
@@ -281,16 +272,17 @@ msgid "already installed"
 msgstr "allerede installeret"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:39
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
 msgid "Foreign packages"
 msgstr "Fremmede pakker"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:46
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:33
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
 msgid "Downgrade"
 msgstr "Nedgradér"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:47
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:30
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
@@ -299,7 +291,7 @@ msgstr ""
 "pakkearkivet:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:16
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
 msgid "Remove"
 msgstr "Fjern"
 
@@ -313,7 +305,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:197
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:31
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
 msgstr "Vælg alle"
 
@@ -341,158 +333,106 @@ msgstr "Fejl: skal køre som root"
 msgid "Error: need a repository as argument"
 msgstr "Fejl: kræver et pakkearkiv som argument"
 
-#: generate_desktop_files:27 generate_desktop_files:42
+#: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
 msgstr "Konfigurér kilderne for installérbare programmer og opdateringer"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:2
-msgid "Official repositories"
-msgstr "Officielle pakkearkiver"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
+msgid "Warning"
+msgstr "Advarsel"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:3
-msgid "PPAs"
-msgstr "Personlige pakkearkiver"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
+msgid ""
+"Review the information below very carefully before validating the command."
+msgstr ""
+"Gennemse oplysningerne nedenfor meget grundigt, før du bekræfter kommandoen."
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:4
-msgid "Additional repositories"
-msgstr "Øvrige pakkearkiver"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:5
-msgid "Authentication keys"
-msgstr "Godkendelsesnøgler"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:6
-msgid "Maintenance"
-msgstr "Vedligeholdelse"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:7
-msgid "Select a faster server..."
-msgstr "Vælg en hurtigere server …"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:8
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
 msgstr "Spejle"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:9
-msgid "Optional components"
-msgstr "Valgfrie komponenter"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
+msgid "Optional Sources"
+msgstr "Valgfrie kilder"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:10
-msgid "Enable source code repositories"
-msgstr "Aktivér pakkearkiver med kildekode"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
+msgid "Source code repositories"
+msgstr "Kildekodearkiver"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:11
-msgid "Source code"
-msgstr "Kildekode"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
+msgid "Debug symbols"
+msgstr "Fejlfindingssymboler"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:12
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
 msgstr "Gendan standardopsætning"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:13
-msgid "Restore the official repositories to their default settings"
-msgstr "Gendan de officelle pakkearkiver til deres standardopsætning"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
+msgid "Official Repositories"
+msgstr "Officielle arkiver"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:14
-msgid "Add a new PPA..."
-msgstr "Tilføj et nyt PPA …"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
+msgid "Add"
+msgstr "Tilføj"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:15
-msgid "Edit URL..."
-msgstr "Redigér URL …"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
+msgid "Edit"
+msgstr "Redigér"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:17
-msgid "Open PPA"
-msgstr "Åbn PPA"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+msgid "PPAs"
+msgstr "Personlige pakkearkiver"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:18
-msgid "Look inside the PPA and install packages it provides"
-msgstr "Kig i PPA'et og installér pakker fra det"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+msgid "Additional Repositories"
+msgstr "Yderligere arkiver"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:19
-msgid "Add a new repository..."
-msgstr "Tilføj et nyt pakkearkiv …"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
+msgid "Import"
+msgstr "Importér"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:20
-msgid "Import key file..."
-msgstr "Importér nøglefil …"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
+msgid "Download"
+msgstr "Hent"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:21
-msgid "Download a key..."
-msgstr "Hent en nøgle …"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
+msgid "Authentication Keys"
+msgstr "Godkendelsesnøgler"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:22
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Fix MergeList problems"
 msgstr "Løs problemer med MergeList"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:23
-msgid ""
-"If you experience MergeList problems, click this button to solve the problem."
-msgstr "Tryk på denne knap for at løse problemer med MergeList."
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:24
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Purge residual configuration"
 msgstr "Fjern tiloversblevende konfigurationsfiler"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:25
-msgid ""
-"Packages sometimes leave configuration files on the system even after they "
-"are removed."
-msgstr ""
-"Selvom de er blevet fjernet, kan pakker godt efterlade konfigurationsfiler."
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:26
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Remove foreign packages"
 msgstr "Fjern fremmede pakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:27
-msgid ""
-"Packages which do not come from known repositories are listed here and can "
-"be removed."
-msgstr ""
-"Pakker, som ikke kommer fra kendte pakkearkiver, er vist her og kan fjernes."
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:28
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Downgrade foreign packages"
 msgstr "Nedgradér fremmede pakker"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:29
-msgid ""
-"Packages which version does not come from known repositories are listed here "
-"and can be downgraded."
-msgstr ""
-"Pakker, hvis version ikke kommer fra kendte pakkearkiver, er vist her og kan "
-"nedgraderes."
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+msgid "Maintenance"
+msgstr "Vedligeholdelse"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:34
-msgid "WARNING"
-msgstr "ADVARSEL"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:35
-msgid ""
-"Review the information below very carefully before validating the command:"
-msgstr ""
-"Gennemse informationen neden for grundigt, før du bekræfter kommandoen:"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:36
-msgid "VTE"
-msgstr "VTE"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:37
-msgid "Select mirror"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+msgid "Select Mirror"
 msgstr "Vælg spejl"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:38
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Apply"
 msgstr "Anvend"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:39
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
-"install:"
-msgstr ""
-"Dette PPA indeholder følgende pakker. Vælg dem, du ønsker at installere:"
+"install."
+msgstr "Dette PPA indeholder følgende pakker. Vælg dem, du vil installere."
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:40
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Install"
 msgstr "Installér"

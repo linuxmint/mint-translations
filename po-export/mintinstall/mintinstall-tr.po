@@ -2,70 +2,104 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mint Install\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-07 12:02+0100\n"
-"PO-Revision-Date: 2018-05-07 14:12+0000\n"
+"POT-Creation-Date: 2018-11-19 14:56+0000\n"
+"PO-Revision-Date: 2018-11-20 18:32+0000\n"
 "Last-Translator: Butterfly <Unknown>\n"
 "Language-Team: Linux Mint Türkiye Çeviri Tayfası <hsngrms@ovi.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:43+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 "X-Poedit-Country: TURKEY\n"
 "Language: \n"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:68
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:69
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:71
 msgid "Multimedia Codecs"
 msgstr "Çokluortam Çözücüleri"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:69
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
 msgid "Multimedia Codecs for KDE"
 msgstr "KDE için Çokluortam Çözücüleri"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:311
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1760
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1791
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1972
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2003
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Reviews"
 msgstr "İncelemeler"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:410
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:409
 msgid "All"
 msgstr "Tümü"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:533
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:990 generate_desktop_files:26
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:520
+msgid ""
+"Cannot process this file while there are active operations.\n"
+"Please try again after they finish."
+msgstr ""
+"Bu dosya aktif işlemler varken işlenemiyor.\n"
+"Lütfen bittikten sonra yeniden deneyin."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:541
+msgid "The Flatpak repo you are trying to add already exists."
+msgstr "Eklemek çalıştığınız Flatpak deposu zaten var."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:549
+msgid "An error occurred attempting to add the Flatpak repo."
+msgstr "Flatpak deposunu eklemeye çalışırken bir hata oluştu."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:557
+msgid "Flatpak support is not currently available. Try installing flatpak."
+msgstr ""
+"Flatpak desteği şu an kullanılabilir değildir. Kullanabilmek için flatpak "
+"paketini yüklemeyi deneyin."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:576
+msgid ""
+"Flatpak support is not currently available. Try installing flatpak and "
+"gir1.2-flatpak-1.0."
+msgstr ""
+"Flatpak desteği şu an kullanılabilir değildir. Kullanabilmek için flatpak ve "
+"gir1.2-flatpak-1.0 paketlerini yüklemeyi deneyin."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:597
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1141 generate_desktop_files:26
 #: generate_desktop_files:37
 msgid "Software Manager"
 msgstr "Yazılım Yöneticisi"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:563
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:630
 msgid "Show installed applications"
 msgstr "Yüklü uygulamaları göster"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:572
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:639
 msgid "Search in packages summary (slower search)"
 msgstr "Paketlerin özet bilgilerinde ara (yavaş arama)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:578
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:645
 msgid "Search in packages description (even slower search)"
 msgstr "Paketlerin tanımında ara (daha yavaş arama)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:588
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:988
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:655
+msgid "Refresh the list of packages"
+msgstr "Paketlerin listesini yenile"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:665
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1139
 msgid "About"
 msgstr "Hakkında"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:815
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:915
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
 msgstr[0] "%d görev çalışıyor"
 msgstr[1] "%d görev çalışıyor"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1076
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1229
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
@@ -73,252 +107,380 @@ msgstr ""
 "Şu anda etkin işlemler mevcut.\n"
 "Çıkmak istediğinize emin misiniz?"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1124
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1281
 msgid "Installed Applications"
 msgstr "Yüklü Uygulamalar"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1127
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1284
 msgid "Currently working on the following packages"
 msgstr "Şu anda aşağıdaki paketlerde çalışılıyor"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1129
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1286
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
 msgid "Editors' Picks"
 msgstr "Editörün Seçtikleri"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1145
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1302
 msgid "Internet"
 msgstr "İnternet"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1304
 msgid "Web"
 msgstr "Web"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1152
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1309
 msgid "Email"
 msgstr "E-posta"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1156
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1313
 msgid "Chat"
 msgstr "Sohbet"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1159
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1316
 msgid "File sharing"
 msgstr "Dosya paylaşımı"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1165
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1322
 msgid "Sound and video"
 msgstr "Ses ve Video"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1167
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1324
 msgid "Sound"
 msgstr "Ses"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1169
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1326
 msgid "Video"
 msgstr "Video"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1331
 msgid "Graphics"
 msgstr "Grafikler"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1335
 msgid "3D"
 msgstr "3D"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1337
 msgid "Drawing"
 msgstr "Çizim"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1339
 msgid "Photography"
 msgstr "Fotoğrafçılık"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1184
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1341
 msgid "Publishing"
 msgstr "Yayımlama"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1186
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1343
 msgid "Scanning"
 msgstr "Tarama"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1188
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1345
 msgid "Viewers"
 msgstr "Görüntüleyiciler"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1350
 msgid "Office"
 msgstr "Ofis"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1199
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1356
 msgid "Games"
 msgstr "Oyunlar"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1203
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1360
 msgid "Board games"
 msgstr "Masa oyunları"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1205
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1362
 msgid "First-person"
 msgstr "Birinci-sahış"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1364
 msgid "Real-time strategy"
 msgstr "Gerçek zamanlı strateji"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1366
 msgid "Turn-based strategy"
 msgstr "Turn-based strateji"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1368
 msgid "Emulators"
 msgstr "Öykünücüler"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1370
 msgid "Simulation and racing"
 msgstr "Simülasyon ve yarış"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1218
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1375
 msgid "Accessories"
 msgstr "Donatılar"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1224
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1381
 msgid "System tools"
 msgstr "Sistem Araçları"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1231
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1388
 msgid "Fonts"
 msgstr "Yazı Tipleri"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1237
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1394
 msgid "Science and Education"
 msgstr "Bilim ve Eğitim"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1238
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1395
 msgid "Science"
 msgstr "Bilim"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1240
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1397
 msgid "Maths"
 msgstr "Matematik"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1242
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1399
 msgid "Education"
 msgstr "Eğitim"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1244
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1401
 msgid "Electronics"
 msgstr "Elektronik"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1250
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1407
 msgid "Programming"
 msgstr "Programlama"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1252
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1409
 msgid "Java"
 msgstr "Java"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1254
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1411
 msgid "PHP"
 msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1256
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1413
 msgid "Python"
 msgstr "Python"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1258
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1415
 msgid "Essentials"
 msgstr "Gerekliler"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1610
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1801
 msgid "All operations complete"
 msgstr "Tüm işlemler tamamlandı"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1612
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1805
 msgid "No matching packages found"
 msgstr "Eşleşen paket bulunamadı"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1807
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1808
+msgid ""
+"No packages to show.\n"
+"This may indicate a problem - try refreshing the cache."
+msgstr ""
+"Gösterilecek paket yok.\n"
+"Bu bir sorun olduğunu gösterebilir - önbelleği yenilemeyi deneyin."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1943
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+msgid "Details"
+msgstr "Detaylar"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2019
 msgid "No reviews available"
 msgstr "Mevcut inceleme yok"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1813
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2025
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
 msgstr "Kendi incelemenizi eklemek için <a href='%s'>buraya</a> tıklayın."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1869
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2081
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:48
 msgid "Remove"
 msgstr "Kaldır"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1872
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2084
 msgid "Installed"
 msgstr "Kuruldu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1874
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid "Removing"
 msgstr "Siliniyor"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1876
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2088
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:39
 msgid "Install"
 msgstr "Kur"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1879
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
 msgid "Not installed"
 msgstr "Kurulmadı"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1881
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2093
 msgid "Installing"
 msgstr "Kuruluyor"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1885
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2097
 msgid "Cannot remove"
 msgstr "Kaldırılamıyor"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1886
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr ""
 "Bu paketin kaldırılması sisteminizde onarılması mümkün olmayan hasara neden "
 "olabilir."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1888
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2100
 msgid "Cannot install"
 msgstr "Kurulamıyor"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1889
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
 "Bu paketin kurulması sisteminizde onarılması mümkün olmayan hasara neden "
 "olabilir."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1897
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2109
 msgid "Not available"
 msgstr "Kullanılabilir değil"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1900
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2112
 msgid "Please use apt-get to install this package."
-msgstr "Bu paketi lütfen apt-get ile yükleyiniz"
+msgstr "Bu paketi yüklemek için lütfen apt-get kullanınız."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1915
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2131
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "%(localSize)s disk alanı boşalacak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1918
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "%(localSize)s disk alanı gerekli"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1922
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s indirilecek, %(localSize)s disk alanı boşalacak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1925
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2141
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s indirilecek, %(localSize)s disk alanı gerekli"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Flatpak uygulamaları"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "Lütfen aşağıdaki değişikliklerin listesini inceleyiniz."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "Ek yazılımın yüklenmesi gerekiyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "Ek yazılımın kaldırılması gerekiyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "Ek yazılım güncellemesi gerekiyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "Ek değişiklikler gerekiyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "Toplamda %s indirilecek."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "%s disk alanı boşaltılacak."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "%s ek disk alanı kullanılacak."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak Süreci"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "İptal Edildi"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "İşlem tamamlanmadan iptal edildi."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "Başlatılıyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "Flatpak uygulamaları kuruluyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "Kuruluyor: %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "Falatpak uygulamaları kaldırılıyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "Kaldırılıyor: %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "Flatpak uygulamaları güncelleniyor"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "Güncelleniyor: %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:237
+msgid "Finished"
+msgstr "Tamamlandı"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "İşlem başarıyla tamamlandı"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:240
+msgid "Failed"
+msgstr "Başarısız oldu"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"Bir hata oluştu:\n"
+"\n"
+"%s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "Bir hata oluştu"
 
 #: generate_desktop_files:26 generate_desktop_files:37
 msgid "Install new applications"
@@ -341,42 +503,42 @@ msgid "page0"
 msgstr "sayfa0"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
-msgid "page1"
-msgstr "sayfa1"
+msgid "<big><b>No matching packages found</b></big>"
+msgstr "<big><b>Eşleşen paket bulunamadı</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
+msgid "Refresh"
+msgstr "Yenile"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Launch"
 msgstr "Başlat"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "Please be patient. This can take some time..."
 msgstr "Lütfen sabırlı olunuz. Bu biraz zaman alabilir..."
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
-msgid "Details"
-msgstr "Detaylar"
-
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Size"
 msgstr "Boyut"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
 msgid "Version"
 msgstr "Sürüm"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Package"
 msgstr "Paket"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "Branch"
 msgstr "Dal"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
 msgid "Architecture"
 msgstr "Mimari"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
 msgid "Remote"
 msgstr "Uzak"
 
@@ -388,12 +550,6 @@ msgstr "Uzak"
 
 #~ msgid "Close"
 #~ msgstr "Kapat"
-
-#~ msgid "Finished"
-#~ msgstr "Tamamlandı"
-
-#~ msgid "Upgrade"
-#~ msgstr "Yükselt"
 
 #~ msgid "Search for a .mint application"
 #~ msgstr ".mint uygulaması ara"

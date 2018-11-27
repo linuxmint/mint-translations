@@ -7,318 +7,480 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 12:02+0100\n"
-"PO-Revision-Date: 2012-11-28 12:46+0000\n"
-"Last-Translator: Zlatan Vasović <Unknown>\n"
+"POT-Creation-Date: 2018-11-19 14:56+0000\n"
+"PO-Revision-Date: 2018-08-14 13:31+0000\n"
+"Last-Translator: Knez <Unknown>\n"
 "Language-Team: Serbian <sr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:68
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
-msgid "Multimedia Codecs"
-msgstr ""
+"X-Launchpad-Export-Date: 2018-11-27 17:43+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:69
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:71
+msgid "Multimedia Codecs"
+msgstr "Multimedijski kodeci"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
 msgid "Multimedia Codecs for KDE"
-msgstr ""
+msgstr "Multimedijski kodeci za KDE"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:311
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1760
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1791
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1972
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2003
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Reviews"
 msgstr "Kritike"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:410
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:409
 msgid "All"
+msgstr "Sve"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:520
+msgid ""
+"Cannot process this file while there are active operations.\n"
+"Please try again after they finish."
+msgstr ""
+"Nije moguće obrađivati ovu datoteku kada su radnje u toku.\n"
+"Molim vas pokušajte ponovo nakon završetka."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:541
+msgid "The Flatpak repo you are trying to add already exists."
+msgstr "Flatpak repozitorij koji pokušavate dodati već postoji."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:549
+msgid "An error occurred attempting to add the Flatpak repo."
+msgstr "Dogodila se greška pri pokušaju dodavanja Flatpak repozitorija."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:557
+msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:533
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:990 generate_desktop_files:26
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:576
+msgid ""
+"Flatpak support is not currently available. Try installing flatpak and "
+"gir1.2-flatpak-1.0."
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:597
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1141 generate_desktop_files:26
 #: generate_desktop_files:37
 msgid "Software Manager"
 msgstr "Menadžer programa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:563
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:630
 msgid "Show installed applications"
-msgstr ""
+msgstr "Prikaži instalirane aplikacije"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:572
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:639
 msgid "Search in packages summary (slower search)"
 msgstr "Pretraga unutar paketa (sporija pretraga)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:578
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:645
 msgid "Search in packages description (even slower search)"
 msgstr "Traži u opisu paketa (još sporija pretraga)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:588
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:988
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:655
+msgid "Refresh the list of packages"
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:665
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1139
 msgid "About"
 msgstr "O programu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:815
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:915
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d zadatak pokrenut"
+msgstr[1] "%d zadatka pokrenuta"
+msgstr[2] "%d zadataka pokrenuto"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1076
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1229
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
 msgstr ""
+"Trenutno postoje aktivne operacije.\n"
+"Da li ste sigurni da želite da zatvorite?"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1124
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1281
 msgid "Installed Applications"
-msgstr ""
+msgstr "Instalirane aplikacije"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1127
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1284
 msgid "Currently working on the following packages"
-msgstr ""
+msgstr "Trenutno se radi na sledećim paketima"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1129
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1286
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
 msgid "Editors' Picks"
-msgstr ""
+msgstr "Odabir distribucije"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1145
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1302
 msgid "Internet"
 msgstr "Internet"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1304
 msgid "Web"
 msgstr "Veb"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1152
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1309
 msgid "Email"
 msgstr "E-pošta"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1156
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1313
 msgid "Chat"
 msgstr "Ćaskanje"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1159
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1316
 msgid "File sharing"
 msgstr "Razmena datoteka"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1165
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1322
 msgid "Sound and video"
 msgstr "Zvuk i video"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1167
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1324
 msgid "Sound"
-msgstr ""
+msgstr "Zvuk"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1169
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1326
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1331
 msgid "Graphics"
 msgstr "Grafika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1335
 msgid "3D"
 msgstr "3D"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1337
 msgid "Drawing"
 msgstr "Crtanje"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1339
 msgid "Photography"
 msgstr "Fotografija"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1184
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1341
 msgid "Publishing"
 msgstr "Izdavaštvo"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1186
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1343
 msgid "Scanning"
 msgstr "Pregledanje"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1188
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1345
 msgid "Viewers"
 msgstr "Prikazivači"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1350
 msgid "Office"
 msgstr "Kancelarija"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1199
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1356
 msgid "Games"
 msgstr "Igrice"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1203
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1360
 msgid "Board games"
 msgstr "Igre na tabli"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1205
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1362
 msgid "First-person"
-msgstr ""
+msgstr "Uloga prvog osobe"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1364
 msgid "Real-time strategy"
 msgstr "Strategija u sadašnjem vremenu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1366
 msgid "Turn-based strategy"
 msgstr "Strategija \"potez za potez\""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1368
 msgid "Emulators"
 msgstr "Emulatori"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1370
 msgid "Simulation and racing"
 msgstr "Simulacija i vožnja"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1218
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1375
 msgid "Accessories"
 msgstr "Pribor"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1224
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1381
 msgid "System tools"
 msgstr "Sistemske alatke"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1231
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1388
 msgid "Fonts"
 msgstr "Slovolikovi"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1237
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1394
 msgid "Science and Education"
 msgstr "Nauka i obrazovanje"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1238
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1395
 msgid "Science"
-msgstr ""
+msgstr "Nauka"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1240
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1397
 msgid "Maths"
-msgstr ""
+msgstr "Matematika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1242
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1399
 msgid "Education"
 msgstr "Obrazovanje"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1244
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1401
 msgid "Electronics"
-msgstr ""
+msgstr "Elektronika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1250
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1407
 msgid "Programming"
 msgstr "Programiranje"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1252
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1409
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1254
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1411
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1256
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1413
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1258
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1415
 msgid "Essentials"
-msgstr ""
+msgstr "Osnove"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1610
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1801
 msgid "All operations complete"
-msgstr ""
+msgstr "Sve radnje su završene"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1612
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1805
 msgid "No matching packages found"
+msgstr "Nema pronađenih odgovarajućih paketa"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1808
+msgid ""
+"No packages to show.\n"
+"This may indicate a problem - try refreshing the cache."
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1807
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1943
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+msgid "Details"
+msgstr "Detalji"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2019
 msgid "No reviews available"
-msgstr ""
+msgstr "Nema dostupnih recenzija"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1813
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2025
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
-msgstr ""
+msgstr "Kliknite <a href='%s'>ovde</a> kako bi dodali svoju recenziju."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1869
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2081
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:48
 msgid "Remove"
 msgstr "Ukloni"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1872
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2084
 msgid "Installed"
 msgstr "Instaliran"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1874
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid "Removing"
-msgstr ""
+msgstr "Ukloni"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1876
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2088
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:39
 msgid "Install"
 msgstr "Instaliraj"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1879
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
 msgid "Not installed"
 msgstr "Nije instaliran"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1881
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2093
 msgid "Installing"
-msgstr ""
+msgstr "Instaliraj"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1885
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2097
 msgid "Cannot remove"
-msgstr ""
+msgstr "Nemoguće ukloniti"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1886
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr ""
+"Uklanjanje ovog paketa može uzrokovati nepopravljivu štetu vašem sistemu."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1888
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2100
 msgid "Cannot install"
-msgstr ""
+msgstr "Nemoguće instalirati"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1889
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
+"Instaliranje ovog paketa može dovesti do nepopravljive štete na vašem "
+"sistemu."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1897
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2109
 msgid "Not available"
-msgstr ""
+msgstr "Nedostupno"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1900
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2112
 msgid "Please use apt-get to install this package."
-msgstr ""
+msgstr "Molim vas koristite 'apt-get' za instalaciju ovog paketa."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1915
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2131
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "%(localSize)s prostora na disku oslobođeno"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1918
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "%(localSize)s prostora na disku potrebno"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1922
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr ""
 "%(downloadSize)s za preuzimanje, %(localSize)s prostora na disku oslobođeno"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1925
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2141
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr ""
 "%(downloadSize)s za preuzimanje, %(localSize)s prostora na disku potrebno"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Flatpak paketi"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "Nadogradi"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "Molim vas pogledajte zapis o promenama ispod."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "Dodatni softver mora biti instaliran"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "Dodatni softver mora biti ukonjen"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "Dodatni softver mora biti nadograđen"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "Dodatne promene su potrebne"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "%s biti će ukupno preuzeto."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "%s prostora na disku će biti oslobođeno."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "%s više prostora na disku će biti zauzeto."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak napredak"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "Prekinuto"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "Radnja je prekinuta pre nego što se završila."
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "Pokretanje"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "Instalacija flatpak paketa"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "Instaliram: %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "Uklanjanje flatpak paketa"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "Uklanjam: %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "Dopuna flatpak paketa"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "Dopunjavam: %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:237
+msgid "Finished"
+msgstr "Završeno"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "Radnja je uspešno završena"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:240
+msgid "Failed"
+msgstr "Neuspelo"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"Greška se dogodila:\n"
+"\n"
+"%s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "Greška se dogodila"
 
 #: generate_desktop_files:26 generate_desktop_files:37
 msgid "Install new applications"
@@ -326,11 +488,11 @@ msgstr "Instaliraj nove programe"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
 msgid "Limit search to current listing"
-msgstr ""
+msgstr "Ograničite pretragu na trenutnu listu"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "<big><b>Generating cache, one moment</b></big>"
-msgstr ""
+msgstr "<big><b>Kreiranje predmemorije, sačekajte malo</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Categories"
@@ -338,50 +500,47 @@ msgstr "Kategorije"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "page0"
-msgstr ""
+msgstr "stranica 0"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
-msgid "page1"
+msgid "<big><b>No matching packages found</b></big>"
 msgstr ""
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
-msgid "Launch"
+msgid "Refresh"
 msgstr ""
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
-msgid "Please be patient. This can take some time..."
-msgstr ""
+msgid "Launch"
+msgstr "Pokreni"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
-msgid "Details"
-msgstr "Detalji"
+msgid "Please be patient. This can take some time..."
+msgstr "Molim vas budite strpljivi. Ovo može potrajati dugo..."
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Size"
 msgstr "Veličina"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
-msgid "Version"
-msgstr ""
-
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+msgid "Version"
+msgstr "Izdanje"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Package"
 msgstr "Paket"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
-msgid "Branch"
-msgstr ""
-
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
-msgid "Architecture"
-msgstr ""
+msgid "Branch"
+msgstr "Grana"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
-msgid "Remote"
-msgstr ""
+msgid "Architecture"
+msgstr "Arhitektura"
 
-#~ msgid "Finished"
-#~ msgstr "Završeno"
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+msgid "Remote"
+msgstr "Udaljeni"
 
 #~ msgid "_File"
 #~ msgstr "_Datoteka"
@@ -453,9 +612,6 @@ msgstr ""
 
 #~ msgid "The following packages will be upgraded:"
 #~ msgstr "Sledeći paketi će biti nadograđeni:"
-
-#~ msgid "Upgrade"
-#~ msgstr "Nadogradi"
 
 #~ msgid "Find Software"
 #~ msgstr "Pronađi program"

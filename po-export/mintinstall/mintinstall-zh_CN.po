@@ -7,67 +7,97 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 12:02+0100\n"
-"PO-Revision-Date: 2018-06-08 05:39+0000\n"
+"POT-Creation-Date: 2018-11-19 14:56+0000\n"
+"PO-Revision-Date: 2018-11-20 10:22+0000\n"
 "Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
 "Language-Team: Simplified Chinese <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:43+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:68
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:69
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:71
 msgid "Multimedia Codecs"
 msgstr "多媒体编码译码器"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:69
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:70
 msgid "Multimedia Codecs for KDE"
 msgstr "用于KDE的多媒体编码解码器"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:311
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1760
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1791
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1972
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2003
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Reviews"
 msgstr "评论"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:410
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:409
 msgid "All"
 msgstr "全部"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:533
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:990 generate_desktop_files:26
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:520
+msgid ""
+"Cannot process this file while there are active operations.\n"
+"Please try again after they finish."
+msgstr ""
+"无法在有活动的操作时处理此文件。\n"
+"请在其完成后再次尝试。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:541
+msgid "The Flatpak repo you are trying to add already exists."
+msgstr "您要添加的 Flatpak 仓库已经存在。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:549
+msgid "An error occurred attempting to add the Flatpak repo."
+msgstr "试图添加 Flatpak 仓库时出现错误。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:557
+msgid "Flatpak support is not currently available. Try installing flatpak."
+msgstr "Flatpak 支持目前不可用。请尝试安装 flatpak。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:576
+msgid ""
+"Flatpak support is not currently available. Try installing flatpak and "
+"gir1.2-flatpak-1.0."
+msgstr "Flatpak 支持目前不可用。请尝试安装 flatpak 和 gir1.2-flatpak-1.0。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:597
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1141 generate_desktop_files:26
 #: generate_desktop_files:37
 msgid "Software Manager"
 msgstr "软件管理器"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:563
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:630
 msgid "Show installed applications"
 msgstr "显示已安装应用程序"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:572
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:639
 msgid "Search in packages summary (slower search)"
 msgstr "在软件包摘要中搜索(搜索较慢)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:578
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:645
 msgid "Search in packages description (even slower search)"
 msgstr "在软件包描述中搜索(搜索更慢)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:588
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:988
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:655
+msgid "Refresh the list of packages"
+msgstr "刷新软件包列表"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:665
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1139
 msgid "About"
 msgstr "关于"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:815
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:915
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
 msgstr[0] "正在运行 %d 项任务"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1076
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1229
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
@@ -75,248 +105,376 @@ msgstr ""
 "有正在进行中的操作。\n"
 "您确定要退出吗？"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1124
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1281
 msgid "Installed Applications"
 msgstr "已安装的应用"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1127
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1284
 msgid "Currently working on the following packages"
 msgstr "正在处理以下的软件包"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1129
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1286
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
 msgid "Editors' Picks"
 msgstr "编辑精选"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1145
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1302
 msgid "Internet"
 msgstr "互联网"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1304
 msgid "Web"
 msgstr "网络"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1152
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1309
 msgid "Email"
 msgstr "电子邮件"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1156
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1313
 msgid "Chat"
 msgstr "聊天"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1159
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1316
 msgid "File sharing"
 msgstr "文件共享"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1165
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1322
 msgid "Sound and video"
 msgstr "影音"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1167
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1324
 msgid "Sound"
 msgstr "音频"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1169
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1326
 msgid "Video"
 msgstr "视频"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1331
 msgid "Graphics"
 msgstr "图像"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1335
 msgid "3D"
 msgstr "3D"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1337
 msgid "Drawing"
 msgstr "绘图"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1339
 msgid "Photography"
 msgstr "摄影"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1184
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1341
 msgid "Publishing"
 msgstr "出版"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1186
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1343
 msgid "Scanning"
 msgstr "扫描"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1188
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1345
 msgid "Viewers"
 msgstr "查看器"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1350
 msgid "Office"
 msgstr "办公软件"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1199
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1356
 msgid "Games"
 msgstr "游戏"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1203
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1360
 msgid "Board games"
 msgstr "棋牌类"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1205
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1362
 msgid "First-person"
 msgstr "第一人称视角"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1364
 msgid "Real-time strategy"
 msgstr "即时战略"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1366
 msgid "Turn-based strategy"
 msgstr "回合制战略"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1368
 msgid "Emulators"
 msgstr "模拟器"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1370
 msgid "Simulation and racing"
 msgstr "飞行模拟与赛车"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1218
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1375
 msgid "Accessories"
 msgstr "附件"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1224
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1381
 msgid "System tools"
 msgstr "系统工具"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1231
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1388
 msgid "Fonts"
 msgstr "字体"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1237
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1394
 msgid "Science and Education"
 msgstr "科学及教育"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1238
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1395
 msgid "Science"
 msgstr "科学"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1240
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1397
 msgid "Maths"
 msgstr "数学"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1242
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1399
 msgid "Education"
 msgstr "教育"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1244
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1401
 msgid "Electronics"
 msgstr "电子"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1250
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1407
 msgid "Programming"
 msgstr "程序设计"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1252
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1409
 msgid "Java"
 msgstr "Java"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1254
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1411
 msgid "PHP"
 msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1256
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1413
 msgid "Python"
 msgstr "Python"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1258
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1415
 msgid "Essentials"
 msgstr "必需组件"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1610
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1801
 msgid "All operations complete"
 msgstr "已完成所有操作"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1612
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1805
 msgid "No matching packages found"
 msgstr "找不到匹配的软件包"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1807
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1808
+msgid ""
+"No packages to show.\n"
+"This may indicate a problem - try refreshing the cache."
+msgstr ""
+"没有软件包可展示。\n"
+"这可能表示存在问题。请尝试刷新缓存。"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1943
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+msgid "Details"
+msgstr "细节"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2019
 msgid "No reviews available"
 msgstr "没有可用的评论"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1813
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2025
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
 msgstr "点击<a href='%s'>此处</a>来添加您的评价。"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1869
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2081
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:48
 msgid "Remove"
 msgstr "移除"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1872
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2084
 msgid "Installed"
 msgstr "已安装"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1874
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid "Removing"
 msgstr "正在移除"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1876
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2088
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:39
 msgid "Install"
 msgstr "安装"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1879
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
 msgid "Not installed"
 msgstr "未安装"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1881
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2093
 msgid "Installing"
 msgstr "正在安装"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1885
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2097
 msgid "Cannot remove"
 msgstr "无法移除"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1886
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr "移除此软件包将对您的系统造成不可修复的损害。"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1888
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2100
 msgid "Cannot install"
 msgstr "无法安装"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1889
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr "安装此软件包将对您的系统造成不可修复的损害。"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1897
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2109
 msgid "Not available"
 msgstr "不可用"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1900
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2112
 msgid "Please use apt-get to install this package."
 msgstr "请使用 apt-get 命令来安装这个软件包"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1915
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2131
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "释放了 %(localSize)s 磁盘空间"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1918
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "需要 %(localSize)s 磁盘空间"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1922
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "需下载 %(downloadSize)s，释放了 %(localSize)s 磁盘空间"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1925
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2141
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "需下载 %(downloadSize)s，需要 %(localSize)s 磁盘空间"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Flatpak"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "升级"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "请查看下面的修改列表。"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "需要安装额外的软件"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "需要移除额外的软件"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "需要升级额外的软件"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "需要额外的更改"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "共需下载 %s。"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "将释放 %s 的磁盘空间。"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "将消耗 %s 的额外磁盘空间。"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak 进度"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "已取消"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "操作在完成前被取消。"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "正在初始化"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "正在安装 flatpak"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "正在安装： %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "正在移除 flatpak"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "正在移除： %s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "正在更新 flatpak"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "正在更新：%s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:237
+msgid "Finished"
+msgstr "完成"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "成功完成操作"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:240
+msgid "Failed"
+msgstr "失败"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"出现错误：\n"
+"\n"
+"%s"
+
+#: usr/lib/linuxmint/mintinstall/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "出现错误"
 
 #: generate_desktop_files:26 generate_desktop_files:37
 msgid "Install new applications"
@@ -339,56 +497,50 @@ msgid "page0"
 msgstr "第0页"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
-msgid "page1"
-msgstr "第1页"
+msgid "<big><b>No matching packages found</b></big>"
+msgstr "<big><b>未找到匹配的软件包</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
+msgid "Refresh"
+msgstr "刷新"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Launch"
 msgstr "启动"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "Please be patient. This can take some time..."
 msgstr "请耐心等待。这可能需要一些时间..."
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
-msgid "Details"
-msgstr "细节"
-
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Size"
 msgstr "大小"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
 msgid "Version"
 msgstr "版本"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Package"
 msgstr "软件包"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "Branch"
 msgstr "分支"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
 msgid "Architecture"
 msgstr "架构"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
 msgid "Remote"
 msgstr "远程"
 
 #~ msgid "Installation is complete"
 #~ msgstr "安装完成"
 
-#~ msgid "Finished"
-#~ msgstr "完成"
-
 #~ msgid "Close"
 #~ msgstr "关闭"
-
-#~ msgid "Upgrade"
-#~ msgstr "升级"
 
 #~ msgid "Find Software"
 #~ msgstr "查找软件"

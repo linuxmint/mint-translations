@@ -7,89 +7,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 12:22+0100\n"
-"PO-Revision-Date: 2018-05-07 14:29+0000\n"
+"POT-Creation-Date: 2018-09-21 12:45+0100\n"
+"PO-Revision-Date: 2018-09-22 12:24+0000\n"
 "Last-Translator: Dmitriy Kulikov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:12+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:47+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:63
+#: usr/lib/linuxmint/mintSources/mintSources.py:66
 msgid "You are about to remove the following PPA:"
 msgstr "Вы хотите удалить следующие PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:66
-#: usr/lib/linuxmint/mintSources/mintSources.py:142
+#: usr/lib/linuxmint/mintSources/mintSources.py:69
+#: usr/lib/linuxmint/mintSources/mintSources.py:145
 #, python-format
 msgid " More info: %s"
 msgstr " Больше информации: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:70
-#: usr/lib/linuxmint/mintSources/mintSources.py:146
+#: usr/lib/linuxmint/mintSources/mintSources.py:73
+#: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Press Enter to continue or Ctrl+C to cancel"
 msgstr "Нажмите Enter, чтобы продолжить или Ctrl+C для отмены"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:74
-#: usr/lib/linuxmint/mintSources/mintSources.py:150
+#: usr/lib/linuxmint/mintSources/mintSources.py:77
+#: usr/lib/linuxmint/mintSources/mintSources.py:153
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "Невозможно запросить ответ. Пожалуйста, запустите с ключом -y"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:78
+#: usr/lib/linuxmint/mintSources/mintSources.py:81
 msgid "Cancelling..."
 msgstr "Отмена…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:81
+#: usr/lib/linuxmint/mintSources/mintSources.py:84
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "Не могу найти информацию о PPA:'%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:101
+#: usr/lib/linuxmint/mintSources/mintSources.py:104
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "не удалось удалить PPA: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:118
+#: usr/lib/linuxmint/mintSources/mintSources.py:121
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "не удалось удалить репозиторий:'%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:125
+#: usr/lib/linuxmint/mintSources/mintSources.py:128
 msgid "Adding PPAs is not supported"
 msgstr "Добавление PPA не поддерживается"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:132
-#: usr/lib/linuxmint/mintSources/mintSources.py:1056
+#: usr/lib/linuxmint/mintSources/mintSources.py:135
+#: usr/lib/linuxmint/mintSources/mintSources.py:1058
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Не удаётся добавить PPA: «%s»."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:136
+#: usr/lib/linuxmint/mintSources/mintSources.py:139
 msgid "Adding private PPAs is not supported currently"
 msgstr "В данный момент не поддерживается добавление частных PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:139
+#: usr/lib/linuxmint/mintSources/mintSources.py:142
 msgid "You are about to add the following PPA:"
 msgstr "Вы хотите добавить следующие PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:198
-#: usr/lib/linuxmint/mintSources/mintSources.py:201
+#: usr/lib/linuxmint/mintSources/mintSources.py:190
+#: usr/lib/linuxmint/mintSources/mintSources.py:193
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "Данный PPA не поддерживает %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:347
-#: usr/lib/linuxmint/mintSources/mintSources.py:376
+#: usr/lib/linuxmint/mintSources/mintSources.py:339
+#: usr/lib/linuxmint/mintSources/mintSources.py:368
 msgid "Sources"
 msgstr "Источники"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:355
+#: usr/lib/linuxmint/mintSources/mintSources.py:347
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (Установочный диск)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:395
+#: usr/lib/linuxmint/mintSources/mintSources.py:396
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -101,120 +101,111 @@ msgstr ""
 "участвуете в бета-тестировании, то вам не нужно активировать этот "
 "репозиторий. Вы уверены, что хотите активировать Romeo?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:423
+#: usr/lib/linuxmint/mintSources/mintSources.py:425
 msgid "Select a mirror"
 msgstr "Выбор зеркала"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:435
+#: usr/lib/linuxmint/mintSources/mintSources.py:437
 msgid "Country"
 msgstr "Страна"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:440
+#: usr/lib/linuxmint/mintSources/mintSources.py:442
 msgid "URL"
 msgstr "Адрес"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:445
+#: usr/lib/linuxmint/mintSources/mintSources.py:447
 msgid "Speed"
 msgstr "Скорость"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:471
+#: usr/lib/linuxmint/mintSources/mintSources.py:473
 msgid "Worldwide"
 msgstr "Глобально"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:549
-#: usr/lib/linuxmint/mintSources/mintSources.py:563
+#: usr/lib/linuxmint/mintSources/mintSources.py:551
+#: usr/lib/linuxmint/mintSources/mintSources.py:565
 msgid "kB/s"
 msgstr "кбит/c"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:552
+#: usr/lib/linuxmint/mintSources/mintSources.py:554
 msgid "MB/s"
 msgstr "Мбит/с"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:555
+#: usr/lib/linuxmint/mintSources/mintSources.py:557
 msgid "GB/s"
 msgstr "Гбит/с"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:598
+#: usr/lib/linuxmint/mintSources/mintSources.py:600
 msgid "Obsolete"
 msgstr "Устаревший"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:601
+#: usr/lib/linuxmint/mintSources/mintSources.py:603
 msgid "Unreachable"
 msgstr "Недоступно"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724 generate_desktop_files:27
-#: generate_desktop_files:42
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:1
+#: usr/lib/linuxmint/mintSources/mintSources.py:727 generate_desktop_files:25
+#: generate_desktop_files:53
 msgid "Software Sources"
 msgstr "Источники приложений"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:743
+#: usr/lib/linuxmint/mintSources/mintSources.py:745
 msgid "Backported packages"
 msgstr "Портированные пакеты"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:745
+#: usr/lib/linuxmint/mintSources/mintSources.py:747
 msgid "Unstable packages"
 msgstr "Нестабильные пакеты"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:758
+#: usr/lib/linuxmint/mintSources/mintSources.py:760
 msgid "Main"
 msgstr "Основной"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:759
+#: usr/lib/linuxmint/mintSources/mintSources.py:761
 msgid "Base"
 msgstr "Базовый"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:768
-msgid ""
-"Warning: Unstable packages can introduce regressions and negatively impact "
-"your system. Please do not enable these options in Linux Mint unless it was "
-"suggested by the development team."
-msgstr ""
-"Внимание: нестабильные пакеты могут привести к регрессии и негативным "
-"последствиям для вашей системы. Пожалуйста, не активируйте эти компоненты в "
-"Linux Mint, если это не было предложено разработчиками."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:832
-#: usr/lib/linuxmint/mintSources/mintSources.py:856
+#: usr/lib/linuxmint/mintSources/mintSources.py:825
+#: usr/lib/linuxmint/mintSources/mintSources.py:851
 msgid "Enabled"
 msgstr "Используется"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:838
+#: usr/lib/linuxmint/mintSources/mintSources.py:831
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 msgid "PPA"
 msgstr "Персональный архив пакетов (PPA)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:862
+#: usr/lib/linuxmint/mintSources/mintSources.py:857
 msgid "Repository"
 msgstr "Репозиторий"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:878
+#: usr/lib/linuxmint/mintSources/mintSources.py:875
 msgid "Key"
 msgstr "Ключ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:974
+#: usr/lib/linuxmint/mintSources/mintSources.py:961
 msgid "There is no more residual configuration on the system."
 msgstr "В системе больше нет остаточной конфигурации."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:980
+#: usr/lib/linuxmint/mintSources/mintSources.py:967
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Проблема была решена. Пожалуйста, обновите кэш"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1006
+#: usr/lib/linuxmint/mintSources/mintSources.py:1005
 msgid "Open.."
 msgstr "Открыть..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1009
-#: usr/lib/linuxmint/mintSources/mintSources.py:1245
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:32
+#: usr/lib/linuxmint/mintSources/mintSources.py:1008
+#: usr/lib/linuxmint/mintSources/mintSources.py:1252
+#: usr/lib/linuxmint/mintSources/mintSources.py:1386
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
 msgid "Cancel"
 msgstr "Отмена"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1010
+#: usr/lib/linuxmint/mintSources/mintSources.py:1009
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "Open"
 msgstr "Открыть"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1022
+#: usr/lib/linuxmint/mintSources/mintSources.py:1021
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -222,51 +213,51 @@ msgstr ""
 "Пожалуйста, введите 8 символов открытого ключа, который вы хотите загрузить "
 "с сервера keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1035
+#: usr/lib/linuxmint/mintSources/mintSources.py:1034
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Вы уверены, что хотите удалить данный ключ?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1049
+#: usr/lib/linuxmint/mintSources/mintSources.py:1051
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "Введите название PPA-репозитория, который хотите добавить:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1101
+#: usr/lib/linuxmint/mintSources/mintSources.py:1103
 msgid "Edit the URL of the PPA"
 msgstr "Изменить URL-адрес этого PPA-репозитория"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1111
+#: usr/lib/linuxmint/mintSources/mintSources.py:1113
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Вы уверены, что хотите удалить этот PPA-репозиторий?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1149
+#: usr/lib/linuxmint/mintSources/mintSources.py:1154
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
 "Содержимое PPA-репозитория недоступно. Обновите кэш и попробуйте ещё раз."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1163
+#: usr/lib/linuxmint/mintSources/mintSources.py:1172
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Введите имя репозитория, который требуется добавить:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1182
+#: usr/lib/linuxmint/mintSources/mintSources.py:1190
 msgid "Edit the URL of the repository"
 msgstr "Изменить URL-адрес этого репозитория"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1192
+#: usr/lib/linuxmint/mintSources/mintSources.py:1200
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Вы уверены, что хотите удалить данный репозиторий?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1246
-#: usr/lib/linuxmint/mintSources/mintSources.py:1379
+#: usr/lib/linuxmint/mintSources/mintSources.py:1253
+#: usr/lib/linuxmint/mintSources/mintSources.py:1385
 msgid "OK"
 msgstr "OK"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:1381
 msgid "Your configuration changed"
 msgstr "Конфигурация изменена"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1376
+#: usr/lib/linuxmint/mintSources/mintSources.py:1381
 msgid "Click OK to update your APT cache"
 msgstr "Нажмите ОК для обновления кэша APT"
 
@@ -280,16 +271,17 @@ msgid "already installed"
 msgstr "уже установлено"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:39
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
 msgid "Foreign packages"
 msgstr "Сторонние пакеты"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:46
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:33
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
 msgid "Downgrade"
 msgstr "Понизить версию"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:47
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:30
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
@@ -297,7 +289,7 @@ msgstr ""
 "Версии этих пакетов не соответствуют версиям пакетов из репозиториев:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:16
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
 msgid "Remove"
 msgstr "Удалить"
 
@@ -309,7 +301,7 @@ msgstr "Установленные пакеты, отсутствующие в �
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:197
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:31
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
 msgstr "Выделить всё"
 
@@ -337,161 +329,109 @@ msgstr "Ошибка: необходимо запускать с правами 
 msgid "Error: need a repository as argument"
 msgstr "Ошибка: в качестве аргумента должен быть указан репозиторий"
 
-#: generate_desktop_files:27 generate_desktop_files:42
+#: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
 msgstr "Настроить источники установки и обновления программ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:2
-msgid "Official repositories"
-msgstr "Официальные репозитории"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
+msgid "Warning"
+msgstr "Предупреждение"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:3
-msgid "PPAs"
-msgstr "PPA-репозитории"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
+msgid ""
+"Review the information below very carefully before validating the command."
+msgstr ""
+"Перед подтверждением команды внимательно ознакомьтесь с приведенной ниже "
+"информацией."
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:4
-msgid "Additional repositories"
-msgstr "Дополнительные репозитории"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:5
-msgid "Authentication keys"
-msgstr "Проверка подлинности ключей"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:6
-msgid "Maintenance"
-msgstr "Обслуживание"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:7
-msgid "Select a faster server..."
-msgstr "Выберите самый быстрый сервер..."
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:8
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
 msgstr "Зеркала"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:9
-msgid "Optional components"
-msgstr "Дополнительные компоненты"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
+msgid "Optional Sources"
+msgstr "Дополнительные источники"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:10
-msgid "Enable source code repositories"
-msgstr "Использовать репозитории с исходным кодом"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
+msgid "Source code repositories"
+msgstr "Репозитории исходного кода"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:11
-msgid "Source code"
-msgstr "Исходный код"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
+msgid "Debug symbols"
+msgstr "Символы отладки"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:12
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
 msgstr "Восстановить стандартные настройки"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:13
-msgid "Restore the official repositories to their default settings"
-msgstr "Восстановить стандартные репозитории"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
+msgid "Official Repositories"
+msgstr "Оффициальные репозитории"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:14
-msgid "Add a new PPA..."
-msgstr "Добавить новый PPA-репозиторий..."
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
+msgid "Add"
+msgstr "Добавить"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:15
-msgid "Edit URL..."
-msgstr "Редактировать URL..."
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
+msgid "Edit"
+msgstr "Изменить"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:17
-msgid "Open PPA"
-msgstr "Открыть репозиторий"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+msgid "PPAs"
+msgstr "PPA-репозитории"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:18
-msgid "Look inside the PPA and install packages it provides"
-msgstr ""
-"Просмотрите репозиторий и установите пакеты, которые он предоставляет"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+msgid "Additional Repositories"
+msgstr "Дополнительные репозитории"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:19
-msgid "Add a new repository..."
-msgstr "Добавить новый репозиторий..."
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
+msgid "Import"
+msgstr "Импорт"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:20
-msgid "Import key file..."
-msgstr "Импортировать файл ключа..."
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
+msgid "Download"
+msgstr "Скачать"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:21
-msgid "Download a key..."
-msgstr "Загрузить ключ..."
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
+msgid "Authentication Keys"
+msgstr "Ключи авторизации"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:22
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Fix MergeList problems"
 msgstr "Исправление проблем списка пакетов"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:23
-msgid ""
-"If you experience MergeList problems, click this button to solve the problem."
-msgstr ""
-"Если у вас возникли проблемы при работе со списком пакетов, нажмите на эту "
-"кнопку, чтобы решить проблему."
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:24
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Purge residual configuration"
 msgstr "Очистка остаточной конфигурации"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:25
-msgid ""
-"Packages sometimes leave configuration files on the system even after they "
-"are removed."
-msgstr ""
-"Иногда пакеты оставляют в системе конфигурационные файлы даже после своего "
-"удаления."
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:26
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Remove foreign packages"
 msgstr "Удаление сторонних пакетов"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:27
-msgid ""
-"Packages which do not come from known repositories are listed here and can "
-"be removed."
-msgstr ""
-"Просмотр и удаление пакетов, установленных из неизвестных репозиториев."
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:28
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Downgrade foreign packages"
 msgstr "Откат сторонних пакетов"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:29
-msgid ""
-"Packages which version does not come from known repositories are listed here "
-"and can be downgraded."
-msgstr ""
-"Просмотр и откат пакетов, версии которых не соответствуют версиям пакетов из "
-"известных репозиториев."
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+msgid "Maintenance"
+msgstr "Обслуживание"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:34
-msgid "WARNING"
-msgstr "ВНИМАНИЕ"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+msgid "Select Mirror"
+msgstr "Выбрать зеркало"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:35
-msgid ""
-"Review the information below very carefully before validating the command:"
-msgstr "Внимательно просмотрите информацию перед подтверждением команды:"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:36
-msgid "VTE"
-msgstr "VTE"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:37
-msgid "Select mirror"
-msgstr "Выберите зеркало"
-
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:38
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Apply"
 msgstr "Применить"
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:39
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
-"install:"
+"install."
 msgstr ""
-"Репозиторий предоставляет следующие пакеты (выберите нужные для установки):"
+"Этот PPA предоставляет следующие пакеты. Выберите те, которые хотите "
+"установить."
 
-#: usr/lib/linuxmint/mintSources/mintSources.glade.h:40
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Install"
 msgstr "Установить"

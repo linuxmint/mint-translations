@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 12:12+0100\n"
-"PO-Revision-Date: 2018-05-07 12:25+0000\n"
+"POT-Creation-Date: 2018-09-19 12:39+0100\n"
+"PO-Revision-Date: 2018-09-22 08:59+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,12 +16,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:13+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:49+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/linuxmint/mintlocale/add.py:42
 msgid "Add a New Language"
 msgstr "Pridėti kitą kalbą"
+
+#: usr/lib/linuxmint/mintlocale/im.py:90
+msgid "Already installed"
+msgstr "Jau įdiegta"
+
+#: usr/lib/linuxmint/mintlocale/im.py:117
+msgid "Input Method"
+msgstr "Įvesties metodas"
+
+#: usr/lib/linuxmint/mintlocale/im.py:187
+msgid "XIM"
+msgstr "XIM"
+
+#: usr/lib/linuxmint/mintlocale/im.py:190
+msgid "None"
+msgstr "Joks"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:73
 msgid "Install / Remove Languages"
@@ -35,130 +51,48 @@ msgstr "Trūksta kai kurių kalbos paketų"
 msgid "Fully installed"
 msgstr "Pilnai įdiegta"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:72
-#: usr/share/linuxmint/mintlocale/add.ui.h:2
-msgid "Install"
-msgstr "Įdiegti"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:82
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:84
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:86
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:88
-msgid "Installed"
-msgstr "Įdiegta"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:82
-#, python-format
-msgid "Use %s or %s"
-msgstr "Naudokite %s arba %s"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:84
-#, python-format
-msgid "Use %s, %s or %s"
-msgstr "Naudokite %s, %s arba %s"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:86
-#, python-format
-msgid "Use %s"
-msgstr "Naudokite %s"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:427
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:320
 msgid "Language Settings"
 msgstr "Kalbos nustatymai"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:460
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:337
 msgid "Apply System-Wide"
 msgstr "Pritaikyti visai sistemai"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:465
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:342
 msgid "Install / Remove Languages..."
 msgstr "Įdiegti / šalinti kalbas..."
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:473
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:475
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:478
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Language"
 msgstr "Kalba"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:478
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Language, interface, date and time..."
 msgstr "Kalba, sąsaja, data ir laikas..."
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:483
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Region"
 msgstr "Regionas"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:483
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Numbers, currency, addresses, measurement..."
 msgstr "Skaičiai, valiuta, adresai, matavimo vienetai..."
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:497
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:525
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:527 generate_desktop_files:39
-msgid "Input method"
-msgstr "Įvesties metodas"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:512
-msgid ""
-"Input methods are used to write symbols and characters which are not present "
-"on the keyboard. They are useful to write in Chinese, Japanese, Korean, "
-"Thai, Vietnamese..."
-msgstr ""
-"Įvesties metodai yra skirti rašyti simbolius, kurių nėra klaviatūroje. Jie "
-"yra naudingi, norint rašyti Kinų, Japonų, Korėjiečių, Tajų, Vietnamiečių bei "
-"kitomis kalbomis..."
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:517
-msgid "Simplified Chinese"
-msgstr "Kinų supaprastinta"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:518
-msgid "Traditional Chinese"
-msgstr "Kinų tradicinė"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:519
-msgid "Japanese"
-msgstr "Japonų"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:520
-msgid "Korean"
-msgstr "Korėjiečių"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:521
-msgid "Vietnamese"
-msgstr "Vietnamiečių"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:522
-msgid "Thai"
-msgstr "Tajų"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:523
-msgid "Telugu"
-msgstr "Telugu"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:532
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:777
-msgid "Language support"
-msgstr "Kalbų palaikymas"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:665
-msgid "XIM"
-msgstr "XIM"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:668
-msgid "None"
-msgstr "Joks"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:709
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:710
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:467
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:468
 msgid "No locale defined"
 msgstr "Nenurodyta lokalė"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:773
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:531
 msgid "System locale"
 msgstr "Sistemos lokalė"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:777
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:535
+msgid "Language support"
+msgstr "Kalbų palaikymas"
+
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:535
 #, python-format
 msgid "%d language installed"
 msgid_plural "%d languages installed"
@@ -170,9 +104,225 @@ msgstr[2] "Įdiegta %d kalbų"
 msgid "Cancel"
 msgstr "Atsisakyti"
 
+#: usr/share/linuxmint/mintlocale/add.ui.h:2
+#: usr/share/linuxmint/mintlocale/im.ui.h:8
+msgid "Install"
+msgstr "Įdiegti"
+
 #: usr/share/linuxmint/mintlocale/add.ui.h:3
 msgid "Install the selected language"
 msgstr "Įdiegti pasirinktą kalbą"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:1
+msgid "Input method framework:"
+msgstr "Įvesties metodo karkasas:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:2
+msgid "Welcome"
+msgstr "Sveiki"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:3
+msgid ""
+"Input methods are used to write symbols and characters which are not present "
+"on the keyboard. They are useful to write in Chinese, Japanese, Korean, "
+"Thai, Vietnamese..."
+msgstr ""
+"Įvesties metodai yra skirti rašyti simbolius, kurių nėra klaviatūroje. Jie "
+"yra naudingi, norint rašyti Kinų, Japonų, Korėjiečių, Tajų, Vietnamiečių bei "
+"kitomis kalbomis..."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:4
+msgid ""
+"To add support for a particular language, select it in the sidebar and "
+"follow the instructions."
+msgstr ""
+"Norėdami pridėti tam tikros kalbos palaikymą, pasirinkite ją šoninėje "
+"juostoje ir sekite nurodymus."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:5
+msgid "Help"
+msgstr "Žinynas"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:6
+msgid "To write in simplified Chinese follow the steps below:"
+msgstr ""
+"Norėdami rašyti supaprastinta Kinų kalba, sekite žemiau nurodytus žingsnius:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:7
+msgid "- Install the language support packages: "
+msgstr "- Įdiekite kalbos palaikymo paketus: "
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:9
+msgid "- Log out and log back in."
+msgstr "- Atsijunkite ir vėl prisijunkite."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:10
+msgid ""
+"- Right-click the Fcitx applet in the system tray and choose \"Configure\"."
+msgstr ""
+"- Spustelėkite sistemos dėkle dešiniu pelės mygtuku ant Fcitx programėlės ir "
+"pasirinkite \"Konfigūruoti\"."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:11
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Pinyin</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+"- Fcitx konfigūravimo ekrane pridėkite <b>Pinyin</b> įvesties metodą (jei "
+"reikia, nuimkite žymėjimą nuo \"Rodyti tik dabartinę kalbą\")."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:12
+msgid "- Switch between input methods with <b>Ctrl+Space</b>."
+msgstr "- Perjunkite tarp įvesties metodų, naudodami <b>Ctrl+Tarpas</b>."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:13
+msgid "- Change the input method framework to <b>Fcitx</b>."
+msgstr "- Pakeiskite įvesties metodo karkasą į <b>Fcitx</b>."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:14
+msgid "Note: SunPinyin can also be used (either with Fcitx or IBus)."
+msgstr ""
+"Pastaba: Taip pat gali būti naudojamas SunPinyin (arba su Fcitx, arba su "
+"IBus)."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:15
+msgid "Simplified Chinese"
+msgstr "Kinų supaprastinta"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:16
+msgid "To write in traditional Chinese follow the steps below:"
+msgstr ""
+"Norėdami rašyti tradicine Kinų kalba, sekite žemiau nurodytus žingsnius:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:17
+msgid "Note: Chewing can also be used (either with Fcitx or IBus)."
+msgstr ""
+"Pastaba: Taip pat gali būti naudojamas Chewing (arba su Fcitx, arba su IBus)."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:18
+msgid "Traditional Chinese"
+msgstr "Kinų tradicinė"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:19
+msgid "To write in Hiragana, Katakana and Kanji follow the steps below:"
+msgstr ""
+"Norėdami rašyti Hiragana, Katakana ir Kanji kalbomis, sekite žemiau "
+"nurodytus žingsnius:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:20
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Mozc</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+"- Fcitx konfigūravimo ekrane pridėkite <b>Mozc</b> įvesties metodą (jei "
+"reikia, nuimkite žymėjimą nuo \"Rodyti tik dabartinę kalbą\")."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:21
+msgid "Note: Mozc can also be used with the IBus input method."
+msgstr "Pastaba: Mozc taip pat gali būti naudojama su IBus įvesties metodu."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:22
+msgid "Japanese"
+msgstr "Japonų"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:23
+msgid "To write in Hangul follow the steps below:"
+msgstr "Norėdami rašyti Hangul kalba, sekite žemiau nurodytus žingsnius:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:24
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Hangul</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+"- Fcitx konfigūravimo ekrane pridėkite <b>Hangul</b> įvesties metodą (jei "
+"reikia, nuimkite žymėjimą nuo \"Rodyti tik dabartinę kalbą\")."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:25
+msgid "Note: Hangul can also be used with the IBus input method."
+msgstr ""
+"Pastaba: Hangul taip pat gali būti naudojama su IBus įvesties metodu."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:26
+msgid "Korean"
+msgstr "Korėjiečių"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:27
+msgid "To write in Thai follow the steps below:"
+msgstr "Norėdami rašyti Tajų kalba, sekite žemiau nurodytus žingsnius:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:28
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Thai</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+"- Fcitx konfigūravimo ekrane pridėkite <b>Tajų</b> įvesties metodą (jei "
+"reikia, nuimkite žymėjimą nuo \"Rodyti tik dabartinę kalbą\")."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:29
+msgid ""
+"Note: You can also use iBus or define a Thai keyboard layout without using "
+"any input method."
+msgstr ""
+"Pastaba: Taip pat galite naudoti iBus ar apibrėžti Tajų klaviatūros "
+"išdėstymą nenaudodami jokio įvesties metodo."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:30
+msgid "Thai"
+msgstr "Tajų"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:31
+msgid "To write in Vietnamese follow the steps below:"
+msgstr ""
+"Norėdami rašyti Vietnamiečių kalba, sekite žemiau nurodytus žingsnius:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:32
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Unikey</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+"- Fcitx konfigūravimo ekrane pridėkite <b>Unikey</b> įvesties metodą (jei "
+"reikia, nuimkite žymėjimą nuo \"Rodyti tik dabartinę kalbą\")."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:33
+msgid "Note: Unikey can also be used with the IBus input method."
+msgstr ""
+"Pastaba: Unikey taip pat gali būti naudojama su IBus įvesties metodu."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:34
+msgid "Vietnamese"
+msgstr "Vietnamiečių"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:35
+msgid "To write in Telugu follow the steps below:"
+msgstr "Norėdami rašyti Telugu kalba, sekite žemiau nurodytus žingsnius:"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:36
+msgid "- Change the input method framework to <b>IBus</b>."
+msgstr "- Pakeiskite įvesties metodo karkasą į <b>IBus</b>."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:37
+msgid ""
+"- Right-click the IBus applet in the system tray and choose \"Preferences\"."
+msgstr ""
+"- Spustelėkite sistemos dėkle dešiniu pelės mygtuku ant IBus programėlės ir "
+"pasirinkite \"Nuostatos\"."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:38
+msgid ""
+"- In the IBus configuration screen, add the <b>Telugu</b> input method."
+msgstr "- IBus konfigūravimo ekrane pridėkite <b>Telugu</b> įvesties metodą."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:39
+msgid "- Switch between input methods with <b>Super+Space</b>."
+msgstr "- Perjunkite tarp įvesties metodų, naudodami <b>Super+Tarpas</b>."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:40
+msgid "Note: Telugu can also be used with Fcitx."
+msgstr "Pastaba: Telugu taip pat gali būti naudojama su Fcitx."
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:41
+msgid "Telugu"
+msgstr "Telugu"
 
 #: usr/share/linuxmint/mintlocale/install_remove.ui.h:1
 msgid ""
@@ -214,10 +364,15 @@ msgstr ""
 msgid "Close"
 msgstr "Užverti"
 
-#: generate_desktop_files:26
+#: generate_desktop_files:26 generate_desktop_files:65
+#: generate_desktop_files:86
 msgid "Languages"
 msgstr "Kalbos"
 
 #: generate_desktop_files:26 generate_desktop_files:39
 msgid "Language settings"
 msgstr "Kalbos nustatymai"
+
+#: generate_desktop_files:39
+msgid "Input method"
+msgstr "Įvesties metodas"

@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-07 13:13+0100\n"
+"PO-Revision-Date: 2018-10-27 19:06+0000\n"
+"Last-Translator: amm <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:48+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
+"Language: \n"
+
+#: lib/mintstick.py:86
+msgid "Write"
+msgstr "Iscrie"
+
+#: lib/mintstick.py:134 generate_additional_files.py:78
+msgid "Format"
+msgstr "Formatu"
+
+#: lib/mintstick.py:224
+msgid "unknown"
+msgstr "disconnotu"
+
+#: lib/mintstick.py:348 lib/mintstick.py:350
+msgid "The USB stick was formatted successfully."
+msgstr "Dispositivu USB formatadu."
+
+#: lib/mintstick.py:353
+#, python-format
+msgid "An error occured while creating a partition on %s."
+msgstr "Faddina in sa creatzione de una partitzione in %s."
+
+#: lib/mintstick.py:355 lib/mintstick.py:463
+msgid "Authentication Error."
+msgstr "Faddina de autenticatzione"
+
+#: lib/mintstick.py:357 lib/mintstick.py:465
+msgid "An error occurred."
+msgstr "B'at àpidu una faddina."
+
+#: lib/mintstick.py:375
+msgid "Image:"
+msgstr "Immàgine:"
+
+#: lib/mintstick.py:376
+msgid "USB stick:"
+msgstr "Dispositivu USB:"
+
+#: lib/mintstick.py:395 lib/mintstick.py:401 lib/mintstick.py:496
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: share/mintstick/mintstick.ui.h:31
+msgid "USB Image Writer"
+msgstr "Iscritore de imàgines de USB"
+
+#: lib/mintstick.py:435
+#, python-format
+msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
+msgstr "Iscriende %(VAR_FILE)s in %(VAR_DEV)s"
+
+#: lib/mintstick.py:436
+#, python-format
+msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
+msgstr "Copiende dae %(VAR_SOURCE)s in %(VAR_TARGET)s"
+
+#: lib/mintstick.py:453 lib/mintstick.py:456
+msgid "The image was successfully written."
+msgstr "Iscritura de s'imàgine cumpletada."
+
+#: lib/mintstick.py:459
+msgid "Not enough space on the USB stick."
+msgstr "Non b'at ispàtziu bastante in su dispositivu USB."
+
+#: lib/mintstick.py:461
+msgid "An error occured while copying the image."
+msgstr "Faddina in sa copia de s'imàgine."
+
+#: generate_additional_files.py:23 generate_additional_files.py:35
+#: generate_additional_files.py:68
+msgid "Make a bootable USB stick"
+msgstr ""
+
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: share/mintstick/mintstick.ui.h:4
+msgid "USB Stick Formatter"
+msgstr "Formatadore de dispositivos USB"
+
+#: generate_additional_files.py:47 generate_additional_files.py:59
+#: generate_additional_files.py:78
+msgid "Format a USB stick"
+msgstr ""
+
+#: generate_additional_files.py:68
+msgid "Make bootable USB stick"
+msgstr ""
+
+#: share/mintstick/mintstick.ui.h:1
+msgid " "
+msgstr " "
+
+#: share/mintstick/mintstick.ui.h:2
+msgid ""
+"This will destroy all data on the USB stick, are you sure you want to "
+"proceed?"
+msgstr ""
+
+#: share/mintstick/mintstick.ui.h:3
+msgid ""
+"Something went wrong, please see the details window for the exact error."
+msgstr ""
+
+#: share/mintstick/mintstick.ui.h:5
+msgid "Format:"
+msgstr "Formatu:"
+
+#: share/mintstick/mintstick.ui.h:6
+msgid "Select a USB stick"
+msgstr "Sèbera unu dispositivu USB"
+
+#: share/mintstick/mintstick.ui.h:7
+msgid "as"
+msgstr "comente"
+
+#: share/mintstick/mintstick.ui.h:8
+msgid ""
+"FAT32 \n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
+"\n"
+"NTFS \n"
+"  + Compatible with Windows.\n"
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
+"reverse engineered).\n"
+"\n"
+"EXT4 \n"
+"  + Modern, stable, fast, journalized.\n"
+"  + Supports Linux file permissions.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
+msgstr ""
+"FAT32 \n"
+"  + Cumpatìbile cun totu is sistemas.\n"
+"  - Non podet manigiare archìvios prus mannos de 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Cumpatìbile cun belle totu is sistemas.\n"
+"  + Podet manigiare archìvios prus mannos de 4GB.\n"
+"  - Prus pagu cumpatìbile de FAT32.\n"
+"\n"
+"NTFS \n"
+"  + Cumpatìbile cun Windows.\n"
+"  - No est cumpatìbile cun Mac e sa prus parte de dispositivos.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
+"reverse engineered).\n"
+"\n"
+"EXT4 \n"
+"  + Modern, stable, fast, journalized.\n"
+"  + Cumpatìbile cun permissos de archìviu de Linux.\n"
+"  - No est cumpatìbile cun Windows, Mac e sa prus parte de dispositivos.\n"
+
+#: share/mintstick/mintstick.ui.h:27
+msgid "Volume label:"
+msgstr "Eticheta de su volùmene:"
+
+#: share/mintstick/mintstick.ui.h:28
+msgid "Choose a name for your USB Stick"
+msgstr "Sèbera unu nùmene pro su dispositivu USB tuo"
+
+#: share/mintstick/mintstick.ui.h:29
+msgid "USB Stick"
+msgstr "Dispositivu USB"
+
+#: share/mintstick/mintstick.ui.h:30
+msgid "Details"
+msgstr "Informatziones"
+
+#: share/mintstick/mintstick.ui.h:32
+msgid "Write image:"
+msgstr "Iscrie imàgine:"
+
+#: share/mintstick/mintstick.ui.h:33
+msgid "Select an image"
+msgstr "Sèbera un'imàgine"
+
+#: share/mintstick/mintstick.ui.h:34
+msgid "Select Image"
+msgstr "Sèbera imàgine"
+
+#: share/mintstick/mintstick.ui.h:35
+msgid "to"
+msgstr "a"
+
+#: share/mintstick/mintstick.ui.h:36
+msgid "The image was written successfully."
+msgstr "Iscritura de s'imàgine cumpletada."

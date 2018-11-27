@@ -7,20 +7,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 12:12+0100\n"
-"PO-Revision-Date: 2017-04-18 13:44+0000\n"
+"POT-Creation-Date: 2018-09-19 12:39+0100\n"
+"PO-Revision-Date: 2018-07-19 15:32+0000\n"
 "Last-Translator: M. Nishonov <mnishonov@gmail.com>\n"
 "Language-Team: Uzbek <uz@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:13+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:49+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/linuxmint/mintlocale/add.py:42
 msgid "Add a New Language"
 msgstr "Янги тил қўшиш"
+
+#: usr/lib/linuxmint/mintlocale/im.py:90
+msgid "Already installed"
+msgstr ""
+
+#: usr/lib/linuxmint/mintlocale/im.py:117
+msgid "Input Method"
+msgstr ""
+
+#: usr/lib/linuxmint/mintlocale/im.py:187
+msgid "XIM"
+msgstr "XIM"
+
+#: usr/lib/linuxmint/mintlocale/im.py:190
+msgid "None"
+msgstr "Ҳеч қайси"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:73
 msgid "Install / Remove Languages"
@@ -34,70 +50,75 @@ msgstr "Ушбу тил учун баъзи пакетлар ўрнатилма�
 msgid "Fully installed"
 msgstr "Тўлиқ ўрнатилган"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:72
-#: usr/share/linuxmint/mintlocale/add.ui.h:2
-msgid "Install"
-msgstr "Тизимга ўрнатиш"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:82
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:84
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:86
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:88
-msgid "Installed"
-msgstr "Тизимга ўрнатилган"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:82
-#, python-format
-msgid "Use %s or %s"
-msgstr "%s ни ёки %s ни қўллаш"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:84
-#, python-format
-msgid "Use %s, %s or %s"
-msgstr "%s, %s ларни ёки %s ни қўллаш"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:86
-#, python-format
-msgid "Use %s"
-msgstr "%s қўллаш"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:427
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:320
 msgid "Language Settings"
 msgstr "Тил созламалари"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:460
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:337
 msgid "Apply System-Wide"
 msgstr "Бутун тизим бўйлаб қўллаш"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:465
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:342
 msgid "Install / Remove Languages..."
 msgstr "Тилларни тизимга ўрнатиш / тизимдан олиб ташлаш..."
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:473
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:475
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:478
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Language"
 msgstr "Тил"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:478
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Language, interface, date and time..."
 msgstr "Тил, интерфейс, сана ва вақт..."
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:483
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Region"
 msgstr "Ҳудуд"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:483
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Numbers, currency, addresses, measurement..."
 msgstr "Рақамлар, пул бирлиги, манзиллар, ўлчов бирликлари..."
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:497
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:525
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:527 generate_desktop_files:39
-msgid "Input method"
-msgstr "Киритиш усули"
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:467
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:468
+msgid "No locale defined"
+msgstr "Тизим учун маҳаллий тил аниқланмаган"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:512
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:531
+msgid "System locale"
+msgstr "Тизим учун маҳаллий тил"
+
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:535
+msgid "Language support"
+msgstr "Тилни қўллаб-қувватлаш"
+
+#: usr/lib/linuxmint/mintlocale/mintlocale.py:535
+#, python-format
+msgid "%d language installed"
+msgid_plural "%d languages installed"
+msgstr[0] "%d тил ўрнатилди"
+
+#: usr/share/linuxmint/mintlocale/add.ui.h:1
+msgid "Cancel"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/add.ui.h:2
+#: usr/share/linuxmint/mintlocale/im.ui.h:8
+msgid "Install"
+msgstr "Тизимга ўрнатиш"
+
+#: usr/share/linuxmint/mintlocale/add.ui.h:3
+msgid "Install the selected language"
+msgstr "Танланган тилни тизимга ўрнатиш"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:1
+msgid "Input method framework:"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:2
+msgid "Welcome"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:3
 msgid ""
 "Input methods are used to write symbols and characters which are not present "
 "on the keyboard. They are useful to write in Chinese, Japanese, Korean, "
@@ -107,70 +128,170 @@ msgstr ""
 "учун ишлатилади. Улар хитой, япон, корейс, тай, въетнам ва ҳ.к. миллатлар "
 "алфавитлари билан ишлашда фойдали."
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:517
+#: usr/share/linuxmint/mintlocale/im.ui.h:4
+msgid ""
+"To add support for a particular language, select it in the sidebar and "
+"follow the instructions."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:5
+msgid "Help"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:6
+msgid "To write in simplified Chinese follow the steps below:"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:7
+msgid "- Install the language support packages: "
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:9
+msgid "- Log out and log back in."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:10
+msgid ""
+"- Right-click the Fcitx applet in the system tray and choose \"Configure\"."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:11
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Pinyin</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:12
+msgid "- Switch between input methods with <b>Ctrl+Space</b>."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:13
+msgid "- Change the input method framework to <b>Fcitx</b>."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:14
+msgid "Note: SunPinyin can also be used (either with Fcitx or IBus)."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:15
 msgid "Simplified Chinese"
 msgstr "Соддалаштирилган хитой тили"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:518
+#: usr/share/linuxmint/mintlocale/im.ui.h:16
+msgid "To write in traditional Chinese follow the steps below:"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:17
+msgid "Note: Chewing can also be used (either with Fcitx or IBus)."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:18
 msgid "Traditional Chinese"
 msgstr "Ананавий хитой тили"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:519
+#: usr/share/linuxmint/mintlocale/im.ui.h:19
+msgid "To write in Hiragana, Katakana and Kanji follow the steps below:"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:20
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Mozc</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:21
+msgid "Note: Mozc can also be used with the IBus input method."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:22
 msgid "Japanese"
 msgstr "Япон тили"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:520
+#: usr/share/linuxmint/mintlocale/im.ui.h:23
+msgid "To write in Hangul follow the steps below:"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:24
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Hangul</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:25
+msgid "Note: Hangul can also be used with the IBus input method."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:26
 msgid "Korean"
 msgstr "Корейс тили"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:521
-msgid "Vietnamese"
-msgstr "Въетнам тили"
+#: usr/share/linuxmint/mintlocale/im.ui.h:27
+msgid "To write in Thai follow the steps below:"
+msgstr ""
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:522
+#: usr/share/linuxmint/mintlocale/im.ui.h:28
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Thai</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:29
+msgid ""
+"Note: You can also use iBus or define a Thai keyboard layout without using "
+"any input method."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:30
 msgid "Thai"
 msgstr "Тай тили"
 
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:523
+#: usr/share/linuxmint/mintlocale/im.ui.h:31
+msgid "To write in Vietnamese follow the steps below:"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:32
+msgid ""
+"- In the Fcitx configuration screen, add the <b>Unikey</b> input method "
+"(uncheck \"Only Show Current Language\" if necessary)."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:33
+msgid "Note: Unikey can also be used with the IBus input method."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:34
+msgid "Vietnamese"
+msgstr "Въетнам тили"
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:35
+msgid "To write in Telugu follow the steps below:"
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:36
+msgid "- Change the input method framework to <b>IBus</b>."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:37
+msgid ""
+"- Right-click the IBus applet in the system tray and choose \"Preferences\"."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:38
+msgid ""
+"- In the IBus configuration screen, add the <b>Telugu</b> input method."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:39
+msgid "- Switch between input methods with <b>Super+Space</b>."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:40
+msgid "Note: Telugu can also be used with Fcitx."
+msgstr ""
+
+#: usr/share/linuxmint/mintlocale/im.ui.h:41
 msgid "Telugu"
 msgstr "Телегу тили"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:532
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:777
-msgid "Language support"
-msgstr "Тилни қўллаб-қувватлаш"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:665
-msgid "XIM"
-msgstr ""
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:668
-msgid "None"
-msgstr "Ҳеч қайси"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:709
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:710
-msgid "No locale defined"
-msgstr "Тизим учун маҳаллий тил аниқланмаган"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:773
-msgid "System locale"
-msgstr "Тизим учун маҳаллий тил"
-
-#: usr/lib/linuxmint/mintlocale/mintlocale.py:777
-#, python-format
-msgid "%d language installed"
-msgid_plural "%d languages installed"
-msgstr[0] ""
-msgstr[1] ""
-
-#: usr/share/linuxmint/mintlocale/add.ui.h:1
-msgid "Cancel"
-msgstr ""
-
-#: usr/share/linuxmint/mintlocale/add.ui.h:3
-msgid "Install the selected language"
-msgstr "Танланган тилни тизимга ўрнатиш"
 
 #: usr/share/linuxmint/mintlocale/install_remove.ui.h:1
 msgid ""
@@ -213,10 +334,15 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: generate_desktop_files:26
+#: generate_desktop_files:26 generate_desktop_files:65
+#: generate_desktop_files:86
 msgid "Languages"
 msgstr "Тиллар"
 
 #: generate_desktop_files:26 generate_desktop_files:39
 msgid "Language settings"
 msgstr "Тил созламалари"
+
+#: generate_desktop_files:39
+msgid "Input method"
+msgstr "Киритиш усули"

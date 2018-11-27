@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:03+0100\n"
-"PO-Revision-Date: 2018-05-07 08:05+0000\n"
-"Last-Translator: Aril Apria Susanto <Unknown>\n"
+"PO-Revision-Date: 2018-08-26 19:19+0000\n"
+"Last-Translator: jemmy surya <j4m13s@yahoo.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:07+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:43+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:32
 msgid "Backups"
@@ -35,7 +35,7 @@ msgstr "%s tidak terletak pada direktori beranda Anda"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:262
 msgid "Please choose a directory."
-msgstr "Pilih direktori"
+msgstr "Mohon pilih sebuah direktori"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:265
 msgid "You do not have the permission to write in the selected directory."
@@ -69,7 +69,7 @@ msgstr "Pilih paket untuk dipasang."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:417
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr ""
+msgstr "Melewati %s karena named pipes tidak didukung."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:442
 msgid "Backing up:"
@@ -82,22 +82,24 @@ msgstr "Menghitung..."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:454
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:558
 msgid "The following errors occurred:"
-msgstr ""
+msgstr "Kesalahan berikut telah terjadi"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "The backup was aborted."
-msgstr ""
+msgstr "Pencadangan telah dibatalkan"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr ""
+msgstr "Berkas-berkas anda telah berhasil disimpan di %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
+"Perhatian: berkas meta tidak dapat disimpan. Pencadangan ini tidak dapat "
+"diterima untuk pemulihan."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:532
 #, python-format
@@ -112,11 +114,11 @@ msgstr "Menyimpan ulang:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:564
 msgid "The restoration was aborted."
-msgstr ""
+msgstr "Pemulihan telah dibatalkan."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "Your files were successfully restored."
-msgstr ""
+msgstr "Berkas-berkas anda telah berhasil dipulihkan."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:656
 #, python-format
@@ -126,20 +128,20 @@ msgstr ""
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:710
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr ""
+msgstr "Pilihan perangkat lunak anda telah disimpan di %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:726
 msgid "The selected file is not a valid software selection."
-msgstr ""
+msgstr "Berkas terpilih tidak sesuai dengan pilihan perangkat lunak."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:731
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:760
 msgid "An error occurred while reading the file."
-msgstr ""
+msgstr "Sebuah kesalahan telah terjadi ketika sedang membaca berkas."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:748
 msgid "Could not locate the package."
-msgstr ""
+msgstr "Tidak dapat menemukan paket."
 
 #: generate_desktop_files:26 generate_desktop_files:41
 msgid "Make a backup of your home directory"
@@ -147,11 +149,11 @@ msgstr "Buat cadangan direktori rumah anda"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
-msgstr ""
+msgstr "Data personal"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr ""
+msgstr "Berkas-berkas anda, settingan dan konten direktori rumah anda"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
@@ -205,35 +207,40 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr ""
+msgstr "Termasuk berkas-berkas"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr ""
+msgstr "Termasuk direktori-direktori"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"Berkas-berkas ini dan map biasanya mengandung data sementara atau preferensi "
+"dari aplikasi-aplikasi anda."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr ""
+msgstr "Mohon tunggu ketika berkas-berkas anda sedang dicadangkan."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr ""
+msgstr "Mohon pilih cadangkan atau pulihkan:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr ""
+msgstr "Tulis ulang berkas-berkas yang sudah ada?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"Tidak, hanya pulihkan berkas-berkas yang hilang.\n"
+"<small>Pilihan ini aman dan tidak berpengaruh kepada berkas-berkas yang "
+"sudah ada.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -241,20 +248,26 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"Ya, tulis ulang setiap perubahan dan pulihkan konten semua berkas-berkas "
+"yang sudah ada.\n"
+"<small>Gunakan pilihan ini dengan hati-hati. Perubahan yang telah anda buat "
+"kepada berkas-berkas sejak pemulihan akan hilang.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr ""
+msgstr "Mohon tunggu sebentar ketika berkas-berkas anda sedang dipulihkan."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
+"Daftar dibawah ini menampilkan aplikasi yang sudah terpasang oleh anda "
+"dengan Manajer Perangkat Lunak."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "Mohon pilih aplikasi yang ingin anda simpan."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
@@ -270,6 +283,9 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"Catatan: Jika anda ingin menyimpan semua daftar aplikasi yang terpasang "
+"disistem, mohon gunakan perintah 'dpkg --get-selections > mylist.list' di "
+"terminal."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
@@ -277,7 +293,7 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr ""
+msgstr "Pilih paket yang ingin anda pasang."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
