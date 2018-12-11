@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-09-19 12:39+0100\n"
-"PO-Revision-Date: 2018-09-29 13:50+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2018-12-02 00:53+0000\n"
+"Last-Translator: Balázs Meskó <Unknown>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2018-11-27 17:49+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Launchpad-Export-Date: 2018-12-11 11:57+0000\n"
+"X-Generator: Launchpad (build 18837)\n"
 "Language: hu\n"
 
 #: usr/lib/linuxmint/mintlocale/add.py:42
@@ -29,7 +29,7 @@ msgstr "Már telepítve van"
 
 #: usr/lib/linuxmint/mintlocale/im.py:117
 msgid "Input Method"
-msgstr "Beviteli módszer"
+msgstr "Beviteli mód"
 
 #: usr/lib/linuxmint/mintlocale/im.py:187
 msgid "XIM"
@@ -57,7 +57,7 @@ msgstr "Nyelvi beállítások"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:337
 msgid "Apply System-Wide"
-msgstr "Alkalmazás rendszer szinten"
+msgstr "Alkalmazás rendszerszinten"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:342
 msgid "Install / Remove Languages..."
@@ -114,7 +114,7 @@ msgstr "A kiválasztott nyelv telepítése"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:1
 msgid "Input method framework:"
-msgstr ""
+msgstr "Beviteli mód:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:2
 msgid "Welcome"
@@ -126,15 +126,17 @@ msgid ""
 "on the keyboard. They are useful to write in Chinese, Japanese, Korean, "
 "Thai, Vietnamese..."
 msgstr ""
-"Beviteli módok olyan szimbólumok és karakterek beírására szolgál, amelyek "
-"nem találhatók meg a billentyűzeten. Ezek olyan szövegek írásakor hasznosak, "
-"mint például: kínai, japán, koreai, thai, vietnami…"
+"A beviteli módok olyan szimbólumok és karakterek beírására szolgálnak, "
+"amelyek nem találhatók meg a billentyűzeten. Ezek olyan szövegek írásakor "
+"hasznosak, mint például: kínai, japán, koreai, thai, vietnámi…"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:4
 msgid ""
 "To add support for a particular language, select it in the sidebar and "
 "follow the instructions."
 msgstr ""
+"Egy adott nyelvi felület használatához az oldalsávban kell kiválasztani a "
+"nyelvet és a leírt utasításokat kell végrehajtani."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:5
 msgid "Help"
@@ -142,38 +144,47 @@ msgstr "Súgó"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:6
 msgid "To write in simplified Chinese follow the steps below:"
-msgstr ""
+msgstr "Egyszerűsített kínai íráshoz a következőkre van szükség:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:7
 msgid "- Install the language support packages: "
-msgstr ""
+msgstr "- Nyelvi csomagok telepítése: "
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:9
 msgid "- Log out and log back in."
-msgstr ""
+msgstr "- Lépjen ki és lépjen be újra."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:10
 msgid ""
 "- Right-click the Fcitx applet in the system tray and choose \"Configure\"."
 msgstr ""
+"- Kattintson jobb gombbal az értesítési területen található Fcitx "
+"kisalkalmazásra és válassza a „Beállítások” lehetőséget."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:11
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Pinyin</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
+"- Az Fcitx beállítások képernyőn adja hozzá a <b>Pinyin</b> beviteli módot "
+"(kapcsolja ki a „Csak a beállított nyelv megjelenítése” lehetőséget, ha "
+"szükséges)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:12
 msgid "- Switch between input methods with <b>Ctrl+Space</b>."
 msgstr ""
+"- Váltás a beviteli módok között a <b>Ctrl+Space</b> billentyűkombináció "
+"használatával."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:13
 msgid "- Change the input method framework to <b>Fcitx</b>."
-msgstr ""
+msgstr "- A beviteli mód változtatása <b>Fcitx</b>-re."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:14
 msgid "Note: SunPinyin can also be used (either with Fcitx or IBus)."
 msgstr ""
+"Megjegyzés: A SunPinyin is használható (a Fcitx-szel vagy az IBus-szal "
+"együtt)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:15
 msgid "Simplified Chinese"
@@ -181,11 +192,12 @@ msgstr "kínai (egyszerűsített)"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:16
 msgid "To write in traditional Chinese follow the steps below:"
-msgstr ""
+msgstr "Hagyományos kínai íráshoz a következőkre van szükség:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:17
 msgid "Note: Chewing can also be used (either with Fcitx or IBus)."
 msgstr ""
+"Megjegyzés: A Chewing is használható (a Fcitx-szel vagy az IBus-szal együtt)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:18
 msgid "Traditional Chinese"
@@ -193,17 +205,20 @@ msgstr "kínai (hagyományos)"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:19
 msgid "To write in Hiragana, Katakana and Kanji follow the steps below:"
-msgstr ""
+msgstr "Hiragana, katakana és kandzsi íráshoz a következőkre van szükség:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:20
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Mozc</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
+"- Az Fcitx beállítások képernyőn adja hozzá a <b>Mozc</b> beviteli módot "
+"(kapcsolja ki a „Csak a beállított nyelv megjelenítése” lehetőséget, ha "
+"szükséges)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:21
 msgid "Note: Mozc can also be used with the IBus input method."
-msgstr ""
+msgstr "Megjegyzés: A Mozc az IBus beviteli móddal együtt is használható."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:22
 msgid "Japanese"
@@ -211,17 +226,20 @@ msgstr "japán"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:23
 msgid "To write in Hangul follow the steps below:"
-msgstr ""
+msgstr "Hangul íráshoz a következőkre van szükség:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:24
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Hangul</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
+"- Az Fcitx beállítások képernyőn adja hozzá a <b>Hangul</b> beviteli módot "
+"(kapcsolja ki a „Csak a beállított nyelv megjelenítése” lehetőséget, ha "
+"szükséges)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:25
 msgid "Note: Hangul can also be used with the IBus input method."
-msgstr ""
+msgstr "Megjegyzés: A Hangul az IBus beviteli móddal együtt is használható."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:26
 msgid "Korean"
@@ -229,19 +247,24 @@ msgstr "koreai"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:27
 msgid "To write in Thai follow the steps below:"
-msgstr ""
+msgstr "Thai íráshoz  a következőkre van szükség:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:28
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Thai</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
+"- Az Fcitx beállítások képernyőn adja hozzá a <b>Thai</b> beviteli módot "
+"(kapcsolja ki a „Csak a beállított nyelv megjelenítése” lehetőséget, ha "
+"szükséges)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:29
 msgid ""
 "Note: You can also use iBus or define a Thai keyboard layout without using "
 "any input method."
 msgstr ""
+"Megjegyzés: Használhat iBust is, vagy megadhat egy Thai "
+"billentyűzetkiosztást anélkül, hogy beviteli módot adna meg."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:30
 msgid "Thai"
@@ -249,17 +272,20 @@ msgstr "thai"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:31
 msgid "To write in Vietnamese follow the steps below:"
-msgstr ""
+msgstr "Vietnámi íráshoz a következőkre van szükség:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:32
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Unikey</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
+"- Az Fcitx beállítások képernyőn adja hozzá a <b>Unikey</b> beviteli módot "
+"(kapcsolja ki a „Csak a beállított nyelv megjelenítése” lehetőséget, ha "
+"szükséges)."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:33
 msgid "Note: Unikey can also be used with the IBus input method."
-msgstr ""
+msgstr "Megjegyzés: A Unikey az IBus beviteli móddal is használható."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:34
 msgid "Vietnamese"
@@ -267,29 +293,32 @@ msgstr "vietnámi"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:35
 msgid "To write in Telugu follow the steps below:"
-msgstr ""
+msgstr "Telugu  íráshoz a következőkre van szükség:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:36
 msgid "- Change the input method framework to <b>IBus</b>."
-msgstr ""
+msgstr "- A beviteli mód módosítása <b>IBus</b>-ra."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:37
 msgid ""
 "- Right-click the IBus applet in the system tray and choose \"Preferences\"."
 msgstr ""
+"- Kattintson jobb gombbal az értesítési területen található IBus "
+"kisalkalmazásra és válassza a „Beállítások” lehetőséget."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:38
 msgid ""
 "- In the IBus configuration screen, add the <b>Telugu</b> input method."
 msgstr ""
+"- Az IBus beállítások képernyőn adja hozzá a <b>Telugu</b> beviteli módot."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:39
 msgid "- Switch between input methods with <b>Super+Space</b>."
-msgstr ""
+msgstr "- Váltás a beviteli módok között a <b>Super+Space</b> használatával."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:40
 msgid "Note: Telugu can also be used with Fcitx."
-msgstr ""
+msgstr "Megjegyzés: A Telugu az Fcitx-szel együtt is használható."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:41
 msgid "Telugu"

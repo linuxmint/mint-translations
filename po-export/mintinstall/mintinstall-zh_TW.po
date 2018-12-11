@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-11-19 14:56+0000\n"
-"PO-Revision-Date: 2018-11-06 05:04+0000\n"
+"PO-Revision-Date: 2018-12-05 14:33+0000\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Traditional Chinese <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2018-11-27 17:43+0000\n"
-"X-Generator: Launchpad (build 18826)\n"
+"X-Launchpad-Export-Date: 2018-12-11 11:50+0000\n"
+"X-Generator: Launchpad (build 18837)\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:69
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:71
@@ -48,21 +48,21 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:541
 msgid "The Flatpak repo you are trying to add already exists."
-msgstr ""
+msgstr "您嘗試加入的 Flatpak 軟體庫已存在。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:549
 msgid "An error occurred attempting to add the Flatpak repo."
-msgstr ""
+msgstr "嘗試加入 Flatpak 軟體庫時發生錯誤。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:557
 msgid "Flatpak support is not currently available. Try installing flatpak."
-msgstr ""
+msgstr "Flatpak 支援目前無法使用。嘗試安裝 flatpak。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:576
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
-msgstr ""
+msgstr "Flatpak 支援目前無法使用。嘗試安裝 flatpak 和 gir1.2-flatpak-1.0。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:597
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1141 generate_desktop_files:26
@@ -84,7 +84,7 @@ msgstr "在軟體包描述中搜尋（搜尋速度更慢）"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:655
 msgid "Refresh the list of packages"
-msgstr ""
+msgstr "重新整理軟體包列表"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:665
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1139
@@ -111,7 +111,7 @@ msgstr "安裝的應用程式"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1284
 msgid "Currently working on the following packages"
-msgstr ""
+msgstr "目前正在處理下列軟體包"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1286
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
@@ -268,13 +268,15 @@ msgstr "所有操作完成"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1805
 msgid "No matching packages found"
-msgstr ""
+msgstr "找不到符合的軟體包"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1808
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
 msgstr ""
+"沒有軟體包可顯示。\n"
+"這可能代表有問題 - 請試試重新整理快取。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1943
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
@@ -322,7 +324,7 @@ msgstr "不能移除"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
 msgid "Removing this package could cause irreparable damage to your system."
-msgstr ""
+msgstr "移除這個軟體包可能會造成系統無法修復的傷害。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2100
 msgid "Cannot install"
@@ -331,7 +333,7 @@ msgstr "不能安裝"
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
 msgid ""
 "Installing this package could cause irreparable damage to your system."
-msgstr ""
+msgstr "安裝這個軟體包可能會造成系統無法修復的傷害。"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2109
 msgid "Not available"
@@ -375,19 +377,19 @@ msgstr "請查看下方的變更清單。"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:75
 msgid "Additional software has to be installed"
-msgstr ""
+msgstr "必須安裝額外軟體"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:77
 msgid "Additional software has to be removed"
-msgstr ""
+msgstr "必須移除額外軟體"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:79
 msgid "Additional software has to be upgraded"
-msgstr ""
+msgstr "必須升級額外軟體"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:88
 msgid "Additional changes are required"
-msgstr ""
+msgstr "需要額外變更"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:94
 #, python-format
@@ -414,7 +416,7 @@ msgstr "已取消"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:223
 msgid "The operation was cancelled before it could complete."
-msgstr ""
+msgstr "操作在完成之前就被取消。"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:225
 msgid "Initializing"
@@ -445,7 +447,7 @@ msgstr "正在更新 flatpaks"
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:235
 #, python-format
 msgid "Updating: %s"
-msgstr ""
+msgstr "正在更新：%s"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:237
 msgid "Finished"
@@ -453,11 +455,11 @@ msgstr "已完成"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:238
 msgid "Operation completed successfully"
-msgstr ""
+msgstr "操作已成功完成"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:240
 msgid "Failed"
-msgstr ""
+msgstr "失敗"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:241
 #, python-format
@@ -466,10 +468,13 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"有錯誤發生：\n"
+"\n"
+"%s"
 
 #: usr/lib/linuxmint/mintinstall/installer/dialogs.py:314
 msgid "An error occurred"
-msgstr ""
+msgstr "發生錯誤"
 
 #: generate_desktop_files:26 generate_desktop_files:37
 msgid "Install new applications"
@@ -477,11 +482,11 @@ msgstr "安裝新應用程式"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
 msgid "Limit search to current listing"
-msgstr ""
+msgstr "限制搜尋於目前的列表"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "<big><b>Generating cache, one moment</b></big>"
-msgstr ""
+msgstr "<big><b>正在產生快取，請稍候</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Categories"
@@ -489,15 +494,15 @@ msgstr "類別"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "page0"
-msgstr ""
+msgstr "第0頁"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "<big><b>No matching packages found</b></big>"
-msgstr ""
+msgstr "<big><b>找不到符合的軟體包</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Refresh"
-msgstr ""
+msgstr "重新整理"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Launch"
