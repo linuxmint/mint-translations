@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-31 13:55+0100\n"
-"PO-Revision-Date: 2015-09-14 15:06+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"POT-Creation-Date: 2019-06-03 10:16+0100\n"
+"PO-Revision-Date: 2019-05-12 19:20+0000\n"
+"Last-Translator: M A Al Masud <Unknown>\n"
 "Language-Team: Bengali <bn@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:50+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -27,7 +27,7 @@ msgstr ""
 #: usr/share/help/C/mintdesktop/index.page:7(email)
 #: usr/share/help/C/mintdesktop/compositing.page:9(email)
 msgid "root@linuxmint.com"
-msgstr ""
+msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintdesktop/wms.page:16(title)
 msgid "Overview of some window managers"
@@ -38,7 +38,7 @@ msgid "Here's a description of some of the window managers available."
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:282
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:146
 msgid "Marco"
 msgstr ""
 
@@ -55,9 +55,9 @@ msgid ""
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:287
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
 msgid "Metacity"
-msgstr ""
+msgstr "মেটাসিটি"
 
 #: usr/share/help/C/mintdesktop/wms.page:28(p)
 msgid ""
@@ -72,7 +72,7 @@ msgid ""
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:292
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:156
 msgid "Xfwm4"
 msgstr ""
 
@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165
 msgid "Compiz"
 msgstr ""
 
@@ -124,7 +124,7 @@ msgid ""
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:297
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
 msgid "Openbox"
 msgstr ""
 
@@ -139,7 +139,7 @@ msgid ""
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190 generate_desktop_files:28
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:113 generate_desktop_files:26
 msgid "Desktop Settings"
 msgstr "ডেস্কটপ সেটিংস"
 
@@ -148,7 +148,7 @@ msgid "Welcome to Desktop Settings."
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:82
 msgid "Windows"
 msgstr "উইন্ডোসমূহ"
 
@@ -172,28 +172,6 @@ msgstr ""
 
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
-msgstr ""
-
-#: usr/share/help/C/mintdesktop/index.page:33(title)
-msgid "Terminal"
-msgstr "টার্মিন্যাল"
-
-#: usr/share/help/C/mintdesktop/index.page:34(p)
-msgid ""
-"The terminal section lets you enable or disable <gui>fortune cookies</gui>."
-msgstr ""
-
-#: usr/share/help/C/mintdesktop/index.page:35(p)
-msgid ""
-"If this option is enabled, each time you open a terminal, a little animal "
-"appears and says some randomly picked humoristic message."
-msgstr ""
-
-#: usr/share/help/C/mintdesktop/index.page:36(p)
-msgid ""
-"Some people might find some of the messages offensive (that's why this "
-"option is disabled by default). Please note that these messages are not "
-"authored by Linux Mint."
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/compositing.page:16(title)
@@ -241,193 +219,199 @@ msgstr ""
 "  nasir khan saikat https://launchpad.net/~nasirkhan\n"
 "  tutul https://launchpad.net/~tutulahmed66"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:81
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:153
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:83
 msgid "Interface"
 msgstr "ইন্টারফেস"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
 msgid "Desktop icons"
 msgstr "ডেক্সটপ আইকনসমূহ"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:195
-msgid "Marco settings"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
-msgid "Metacity settings"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
-msgid "Compiz settings"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
-msgid "Configure Compiz"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
-msgid "Reset Compiz settings"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
-msgid "Icons"
-msgstr "আইকনসমূহ"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
-msgid "Toolbars"
-msgstr "টুলবারসমূহ"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:202
-msgid "Window Manager"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
 msgid "Select the items you want to see on the desktop:"
 msgstr "ডেক্সটপে দেখতে চান এমন বিষয়সমূহ নির্বাচন করুনঃ"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:122
 msgid "Computer"
 msgstr "কম্পিউটার"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:207
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:123
 msgid "Home"
 msgstr "হোম"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:208
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:124
 msgid "Network"
 msgstr "নেটওয়ার্ক"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:209
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
 msgid "Trash"
 msgstr "ট্রাশ"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
 msgid "Mounted Volumes"
 msgstr "মাউন্টকৃত ভলিউমসমূহ"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:212
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:215
-msgid "Don't show window content while dragging them"
-msgstr "উইন্ডো ড্রাগ করার সময় কন্টেন্ট প্রদর্শন বন্ধ রাখুন"
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
+msgid "Window Manager"
+msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:213
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:216
-msgid "Use system font in titlebar"
-msgstr "টাইটেলবারে সিস্টেম ফন্ট ব্যবহার করুন"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:214
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:217
-msgid "Buttons layout:"
-msgstr "বাটন লেআউট"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:219
-msgid "Show icons on menus"
-msgstr "মেন্যুতে আইকন প্রদর্শন"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:220
-msgid "Show icons on buttons"
-msgstr "বাটনগুলোতে আইকনসমূহ প্রদর্শন"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
-msgid "Buttons labels:"
-msgstr "বাটনসমূহের লেবেল"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
-msgid "Icon size:"
-msgstr "আইকন সাইজ"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:250
-msgid "Traditional style (Right)"
-msgstr "ট্রেডিশনাল ধরণ (ডান)"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:251
-msgid "Mac style (Left)"
-msgstr "ম্যাক স্টাইল (বাম)"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:267
-msgid "Small"
-msgstr "ছোট"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:268
-msgid "Large"
-msgstr "বড়"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:283
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:147
 msgid "Marco + Compositing"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:285
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:149
 msgid "Marco + Compton"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:288
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
 msgid "Metacity + Compositing"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:290
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:154
 msgid "Metacity + Compton"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:293
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:157
 msgid "Xfwm4 + Compositing"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:295
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
 msgid "Xfwm4 + Compton"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:299
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
 msgid "Openbox + Compton"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:303
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:167
 msgid "Awesome"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:307
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
 "Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:314
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Auto"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:315
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
 msgid "Normal"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:316
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
 msgid "Double (HiDPI)"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:319
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
 msgid "User interface scaling"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:326
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:180
+msgid "Marco settings"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
+msgid "Use system font in titlebar"
+msgstr "টাইটেলবারে সিস্টেম ফন্ট ব্যবহার করুন"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
+msgid "Don't show window content while dragging them"
+msgstr "উইন্ডো ড্রাগ করার সময় কন্টেন্ট প্রদর্শন বন্ধ রাখুন"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
+msgid "Traditional style (Right)"
+msgstr "ট্রেডিশনাল ধরণ (ডান)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
+msgid "Mac style (Left)"
+msgstr "ম্যাক স্টাইল (বাম)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
+msgid "Buttons layout:"
+msgstr "বাটন লেআউট"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
+msgid "Buttons layout (CSD windows):"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
+msgid "Metacity settings"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
+msgid "Compiz settings"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
+msgid "Configure Compiz"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
+msgid "Reset Compiz settings"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:221
+msgid "Icons"
+msgstr "আইকনসমূহ"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
+msgid "Show icons on menus"
+msgstr "মেন্যুতে আইকন প্রদর্শন"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
+msgid "Show icons on buttons"
+msgstr "বাটনগুলোতে আইকনসমূহ প্রদর্শন"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:225
+msgid "Toolbars"
+msgstr "টুলবারসমূহ"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
 msgid "Text below items"
 msgstr "আইটেমগুলোর নিচের টেক্সট"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:327
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:229
 msgid "Text beside items"
 msgstr "আইটেমগুলোর পাশের টেক্সট"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:328
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:230
 msgid "Icons only"
 msgstr "শুধুমাত্র আইকন"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:329
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
 msgid "Text only"
 msgstr "শুধুমাত্র টেক্সট"
 
-#: generate_desktop_files:28
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
+msgid "Buttons labels:"
+msgstr "বাটনসমূহের লেবেল"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:235
+msgid "Small"
+msgstr "ছোট"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:236
+msgid "Large"
+msgstr "বড়"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:237
+msgid "Icon size:"
+msgstr "আইকন সাইজ"
+
+#: generate_desktop_files:26
 msgid "Fine-tune desktop settings"
 msgstr "ফাইন-টিউন ডেস্কটপ সেটিংস"
 

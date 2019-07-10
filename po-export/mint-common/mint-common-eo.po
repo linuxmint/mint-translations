@@ -7,30 +7,138 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-03-31 16:29+0100\n"
-"PO-Revision-Date: 2018-12-01 15:13+0000\n"
+"POT-Creation-Date: 2019-02-27 10:54+0000\n"
+"PO-Revision-Date: 2019-03-03 21:18+0000\n"
 "Last-Translator: Piet Coppens <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:51+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/common/mint-which-launcher.py:9
-#: usr/lib/linuxmint/common/mint-which-launcher.py:11
-msgid "Please enter your password"
-msgstr "Bonvolu tajpi vian pasvorton"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Flatpakoj"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:36
-msgid "Please wait, this can take some time"
-msgstr "Bonvolu atendi, necesas iom da tempo"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
+msgid "Install"
+msgstr "Instali"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:38
-msgid "Application removed successfully"
-msgstr "Aplikaĵo sukcese forigita"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:48
+msgid "Remove"
+msgstr "Forigi"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:57
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "Promocii"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "Bonvolu rigardi suban liston de ŝanĝoj."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "Plia programaro estu instalita"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "Plia programaro estu forigita"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "Plia programaro estu promociita"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "Pliaj ŝanĝoj estas postulataj"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "%s estos elŝutitaj entute."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "%s da diskospaco estos malokupitaj."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "%s da plia diskospaco estos uzitaj."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak-plenumo"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "Nuligita"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "La operacio estis nuligita antaŭ ol iĝi kompleta."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "Pravalorizado"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "Instalado de flatpakoj"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "Instalado: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "Forigado de flatpakoj"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "Forigado: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "Ĝisdatigado de flatpakoj"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "Ĝisdatigado: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:237
+msgid "Finished"
+msgstr "Finita"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "Operacio sukcese kompletigita"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:240
+msgid "Failed"
+msgstr "Malsukcesis"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"Okazis eraro:\n"
+"\n"
+"%s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "Okazis eraro"
+
+#: usr/lib/linuxmint/common/mint-remove-application.py:25
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
@@ -38,18 +146,13 @@ msgstr ""
 "Ĉi tiu menuero ne rilatas al iu ajn pakaĵo. Ĉu vi ĉiaokaze deziras ĝin "
 "forigi el la menuo?"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:67
+#: usr/lib/linuxmint/common/mint-remove-application.py:37
 msgid "The following packages will be removed:"
 msgstr "La jenaj pakaĵoj estas forigotaj:"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:71
+#: usr/lib/linuxmint/common/mint-remove-application.py:42
 msgid "Packages to be removed"
 msgstr "Pakaĵoj forigotaj"
 
-#: generate_additional_files.py:49
-msgid "Send by Email"
-msgstr "Elsendi per retpoŝto"
-
-#: generate_additional_files.py:49
-msgid "Send as email attachment"
-msgstr "Elsendi per retpoŝta kunsendaĵo"
+#~ msgid "Please enter your password"
+#~ msgstr "Bonvolu tajpi vian pasvorton"

@@ -7,98 +7,119 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-11-28 12:30+0000\n"
-"PO-Revision-Date: 2018-12-04 19:37+0000\n"
+"POT-Creation-Date: 2019-05-15 14:58+0100\n"
+"PO-Revision-Date: 2019-05-18 03:38+0000\n"
 "Last-Translator: spacy01 <Unknown>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:56+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:26+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:68
+#: usr/lib/linuxmint/mintSources/mintSources.py:75
 msgid "You are about to remove the following PPA:"
 msgstr "На път сте да премахнете следното PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:71
-#: usr/lib/linuxmint/mintSources/mintSources.py:144
+#: usr/lib/linuxmint/mintSources/mintSources.py:78
+#: usr/lib/linuxmint/mintSources/mintSources.py:158
 #, python-format
 msgid " More info: %s"
 msgstr " Повече информация: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:75
-#: usr/lib/linuxmint/mintSources/mintSources.py:148
+#: usr/lib/linuxmint/mintSources/mintSources.py:82
+#: usr/lib/linuxmint/mintSources/mintSources.py:162
 msgid "Press Enter to continue or Ctrl+C to cancel"
 msgstr "Натиснете Enter за да продължите или Ctrl+C за отказ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:79
-#: usr/lib/linuxmint/mintSources/mintSources.py:152
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
+#: usr/lib/linuxmint/mintSources/mintSources.py:166
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "Не се изисква отговор. Моля стартирайте с -y"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:83
+#: usr/lib/linuxmint/mintSources/mintSources.py:90
 msgid "Cancelling..."
 msgstr "Спиране…"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:86
+#: usr/lib/linuxmint/mintSources/mintSources.py:93
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "Не мога да получа информация за PPA: '%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:106
+#: usr/lib/linuxmint/mintSources/mintSources.py:115
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "Неспешно премахване на PPA: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:120
+#: usr/lib/linuxmint/mintSources/mintSources.py:134
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "Неуспешно премахване на хранилище: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:127
+#: usr/lib/linuxmint/mintSources/mintSources.py:141
 msgid "Adding PPAs is not supported"
 msgstr "Добавянето на PPA не се поддържа"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:134
-#: usr/lib/linuxmint/mintSources/mintSources.py:1154
+#: usr/lib/linuxmint/mintSources/mintSources.py:148
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Не може да се добави хранилище: '%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:138
+#: usr/lib/linuxmint/mintSources/mintSources.py:152
 msgid "Adding private PPAs is not supported currently"
 msgstr "Добавянето на частни хранилища не се поддържа в момента"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:141
+#: usr/lib/linuxmint/mintSources/mintSources.py:155
 msgid "You are about to add the following PPA:"
 msgstr "На път сте да добавите следното PPA:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:169
-#: usr/lib/linuxmint/mintSources/mintSources.py:1273
+#: usr/lib/linuxmint/mintSources/mintSources.py:185
+#: usr/lib/linuxmint/mintSources/mintSources.py:1487
 msgid "Malformed input, repository not added."
 msgstr "Недобре оформени данни, хранилището не е добавено."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:172
+#: usr/lib/linuxmint/mintSources/mintSources.py:188
 msgid "Repository already exists."
 msgstr "Хранилището вече съществува"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:214
-#: usr/lib/linuxmint/mintSources/mintSources.py:217
+#: usr/lib/linuxmint/mintSources/mintSources.py:241
+msgid "Connection timed out, check your connection or try again later."
+msgstr ""
+"Времето за изчакване приключи, проверете връзката и опитайте по-късно пак."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:243
+msgid "Failed to establish a secure connection."
+msgstr "Грешка при установяване на защитена връзка."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:245
+#, python-format
+msgid "Failed to download the PPA: %s."
+msgstr "Провал при свалянето на  PPA: %s."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:254
+#: usr/lib/linuxmint/mintSources/mintSources.py:258
+msgid "No supported PPA of this name was found."
+msgstr "Няма намерено поддържано PPA с това име."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:266
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "Това PPA не поддържа %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:365
-#: usr/lib/linuxmint/mintSources/mintSources.py:403
+#: usr/lib/linuxmint/mintSources/mintSources.py:406
+#: usr/lib/linuxmint/mintSources/mintSources.py:446
 msgid "Sources"
 msgstr "Източници"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:374
+#: usr/lib/linuxmint/mintSources/mintSources.py:415
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (Инсталационен диск)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:432
+#: usr/lib/linuxmint/mintSources/mintSources.py:427
+msgid "Local Repository"
+msgstr "Местно хранилище"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:475
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -110,119 +131,156 @@ msgstr ""
 "хранилища. Вие не бива да включвате това хранилище, освен ако не искате да "
 "участвате в тестването. Сигурни ли сте че искате да включите Romeo?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:464
+#: usr/lib/linuxmint/mintSources/mintSources.py:507
 msgid "Select a mirror"
 msgstr "Избор на огледало"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:476
+#: usr/lib/linuxmint/mintSources/mintSources.py:519
 msgid "Country"
 msgstr "Страна"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:481
+#: usr/lib/linuxmint/mintSources/mintSources.py:524
 msgid "URL"
 msgstr "URL"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:486
+#: usr/lib/linuxmint/mintSources/mintSources.py:529
 msgid "Speed"
 msgstr "Скорост"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:555
 msgid "Worldwide"
 msgstr "Глобално"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:590
-#: usr/lib/linuxmint/mintSources/mintSources.py:604
+#: usr/lib/linuxmint/mintSources/mintSources.py:633
+#: usr/lib/linuxmint/mintSources/mintSources.py:647
 msgid "kB/s"
 msgstr "кБ/сек"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:593
+#: usr/lib/linuxmint/mintSources/mintSources.py:636
 msgid "MB/s"
 msgstr "МБ/сек"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:596
+#: usr/lib/linuxmint/mintSources/mintSources.py:639
 msgid "GB/s"
 msgstr "ГБ/сек"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:639
+#: usr/lib/linuxmint/mintSources/mintSources.py:682
 msgid "Obsolete"
 msgstr "Остаряло"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:642
+#: usr/lib/linuxmint/mintSources/mintSources.py:685
 msgid "Unreachable"
 msgstr "Недостъпно"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:766 generate_desktop_files:25
+#: usr/lib/linuxmint/mintSources/mintSources.py:809 generate_desktop_files:25
 #: generate_desktop_files:53
 msgid "Software Sources"
 msgstr "Софтуерни източници"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:784
+#: usr/lib/linuxmint/mintSources/mintSources.py:827
 msgid "Backported packages"
 msgstr "Привнесени пакети"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:786
+#: usr/lib/linuxmint/mintSources/mintSources.py:829
 msgid "Unstable packages"
 msgstr "Нестабилни пакети"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:799
+#: usr/lib/linuxmint/mintSources/mintSources.py:842
 msgid "Main"
 msgstr "Главен"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:800
+#: usr/lib/linuxmint/mintSources/mintSources.py:843
 msgid "Base"
 msgstr "База"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:876
-#: usr/lib/linuxmint/mintSources/mintSources.py:902
+#: usr/lib/linuxmint/mintSources/mintSources.py:885
+#: usr/lib/linuxmint/mintSources/mintSources.py:909
 msgid "Enabled"
 msgstr "Включено"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:882
+#: usr/lib/linuxmint/mintSources/mintSources.py:891
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:908
+#: usr/lib/linuxmint/mintSources/mintSources.py:915
 msgid "Repository"
 msgstr "Хранилище"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:926
+#: usr/lib/linuxmint/mintSources/mintSources.py:931
 msgid "Key"
 msgstr "Ключ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1016
+#: usr/lib/linuxmint/mintSources/mintSources.py:1069
 msgid "There is no more residual configuration on the system."
 msgstr "Няма други остатъчни конфигурации в системата."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1022
+#: usr/lib/linuxmint/mintSources/mintSources.py:1078
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Проблема беше решен. Моля презаредете кеша."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1062
+#: usr/lib/linuxmint/mintSources/mintSources.py:1121
 msgid "Duplicate entries were removed. Please reload the cache."
 msgstr "Дублираните източници са премахнати. Моля презаредете кеша."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1065
+#: usr/lib/linuxmint/mintSources/mintSources.py:1127
 msgid "No duplicate entries were found."
 msgstr "Няма дублирани източници."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1101
+#: usr/lib/linuxmint/mintSources/mintSources.py:1140
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr "Грешка в APT конфигурацията, може би трябва да презаредите кеша."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1235
+msgid "All missing keys were successfully added."
+msgstr "Всички липсващи ключове бяха успешно добавени."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1237
+msgid "Not all missing keys could be found."
+msgstr "Не бяха намерени всички липсващи ключове."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1240
+msgid "Keys were added for the following repositories:"
+msgstr "Бяха добавени ключове за следните хранилища:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1245
+msgid "Keys are still missing for the following repositories:"
+msgstr "Все още липсват ключове за следните хранилища:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1246
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories or PPAs."
+msgstr ""
+"Добавете оставащите ключ(ове) ръчно, или премахнете свързаните хранилища или "
+"PPA-та."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1255
+msgid "Please reload the cache."
+msgstr "Моля презаредете кеша."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1260
+msgid "No missing keys were found."
+msgstr "Няма липсващи ключове."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1296
 msgid "Open.."
 msgstr "Отваряне.."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1104
-#: usr/lib/linuxmint/mintSources/mintSources.py:1354
-#: usr/lib/linuxmint/mintSources/mintSources.py:1489
+#: usr/lib/linuxmint/mintSources/mintSources.py:1299
+#: usr/lib/linuxmint/mintSources/mintSources.py:1567
+#: usr/lib/linuxmint/mintSources/mintSources.py:1701
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
 msgid "Cancel"
 msgstr "Отмени"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1105
+#: usr/lib/linuxmint/mintSources/mintSources.py:1300
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "Open"
 msgstr "Отвори"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1117
+#: usr/lib/linuxmint/mintSources/mintSources.py:1312
 msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -230,23 +288,27 @@ msgstr ""
 "Моля въведете отпечатъка на публичния ключ, който искате да свалите от "
 "keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1130
+#: usr/lib/linuxmint/mintSources/mintSources.py:1329
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "Наистина ли искате да изтриете този ключ завинаги?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1147
-msgid "Please enter the name of the PPA you want to add:"
-msgstr "Моля въведете име на PPA-то, което искате да добавите:"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1347
+msgid "Please enter the name or the URL of the PPA you want to add:"
+msgstr "Моля, въведете име, или URL на PPA, които искате да добавите:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1198
+#: usr/lib/linuxmint/mintSources/mintSources.py:1356
+msgid "The name of the PPA you entered isn't formatted correctly."
+msgstr "Името на PPA-то, което въведохте, не е форматирано правилно."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1412
 msgid "Edit the URL of the PPA"
 msgstr "Редактиране на URL адреса на PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1208
+#: usr/lib/linuxmint/mintSources/mintSources.py:1422
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "Наистина ли искате да изтриете това PPA завинаги?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1249
+#: usr/lib/linuxmint/mintSources/mintSources.py:1463
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
@@ -254,33 +316,33 @@ msgstr ""
 "Съдържанието на тези хранилища не е налично. Моля обновете кеша и опитайте "
 "отново."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1268
+#: usr/lib/linuxmint/mintSources/mintSources.py:1482
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Моля въведете име на хранилището, което искате да добавите:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1285
+#: usr/lib/linuxmint/mintSources/mintSources.py:1499
 msgid ""
 "This repository is already configured, you cannot add it a second time."
 msgstr "Хранилището е вече конфигурирано, не може да го добавите втори път."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1292
+#: usr/lib/linuxmint/mintSources/mintSources.py:1506
 msgid "Edit the URL of the repository"
 msgstr "Редактиране URL адреса на хранилището"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1302
+#: usr/lib/linuxmint/mintSources/mintSources.py:1516
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "Наистина ли искате да изтриете това хранилище завинаги?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1355
-#: usr/lib/linuxmint/mintSources/mintSources.py:1488
+#: usr/lib/linuxmint/mintSources/mintSources.py:1568
+#: usr/lib/linuxmint/mintSources/mintSources.py:1700
 msgid "OK"
 msgstr "ОК"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1484
+#: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Your configuration changed"
 msgstr "Вашата конфигурация е променена"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1484
+#: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Click OK to update your APT cache"
 msgstr "Натиснете ОК, за да обновите АРТ кеша"
 
@@ -323,7 +385,7 @@ msgstr ""
 "Пакетите по-долу са инсталирани на Вашия компютър, но не са от хранилищата:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:197
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:227
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
 msgstr "Избор на всичко"
@@ -340,11 +402,11 @@ msgstr "Инсталирана версия"
 msgid "Repository version"
 msgstr "Версия от хранилището"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:200
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:230
 msgid "Clear"
 msgstr "Изчистване"
 
-#: usr/bin/add-apt-repository:10
+#: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
 msgstr "Грешка: трябва да се изпълни като администратор"
 
@@ -431,32 +493,36 @@ msgid "Remove duplicate entries"
 msgstr "Премахване на дублираните източници"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
+msgid "Add missing keys"
+msgstr "Добавяне на липсващи ключове"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Remove foreign packages"
 msgstr "Премахни чуждите пакети"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Downgrade foreign packages"
 msgstr "Де-актуализиране на чуждите пакети"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Maintenance"
 msgstr "Поддръжка"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid "Select Mirror"
 msgstr "Избор на огледало"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Apply"
 msgstr "Приложи"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
 msgstr ""
 "Това РРА доставя следните пакети. Изберете тези, които искате да инсталирате."
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Install"
 msgstr "Инсталирай"

@@ -7,39 +7,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-04 11:21+0100\n"
-"PO-Revision-Date: 2017-12-25 15:28+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
+"POT-Creation-Date: 2019-03-07 14:25+0000\n"
+"PO-Revision-Date: 2019-03-08 10:04+0000\n"
+"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 12:02+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:32+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
-#: generate_desktop_files:41
+#: usr/lib/linuxmint/mintreport/mintreport.py:117 generate_desktop_files:25
+#: generate_desktop_files:39
 msgid "System Reports"
 msgstr "Informes del sistema"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:229
+#: usr/lib/linuxmint/mintreport/mintreport.py:209
+msgid "An error occurred while gathering the system information."
+msgstr "S'ha produït un error en recopilar la informació del sistema."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:223
+msgid "System information copied"
+msgstr "S'ha copiat la informació del sistema"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:223
+msgid ""
+"Your system information was copied into your clipboard so you can paste it "
+"on the forums."
+msgstr ""
+"La informació del sistema s'ha copiat al porta-retalls perquè pugueu "
+"enganxar-la en els fòrums."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:232
+msgid "System information uploaded"
+msgstr "S'ha enviat la informació del sistema"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:232
+#, python-format
+msgid ""
+"Your system information was uploaded to %s. This link was placed in your "
+"clipboard so you can paste it on IRC."
+msgstr ""
+"La informació del sistema s'ha enviat a %s. Aquest enllaç s'ha copiat al "
+"porta-retalls perquè pugueu enganxar-lo a IRC."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:234
+msgid "An error occurred while uploading the system information"
+msgstr "S'ha produït un error en enviar la informació del sistema."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:234
+msgid ""
+"Copy and paste the system information manually into a pastebin site like "
+"https://pastebin.com and share the link on IRC."
+msgstr ""
+"Copieu i enganxeu la informació del sistema manualment en un lloc pastebin "
+"com https://pastebin.com i compartiu l'enllaç a l'IRC."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:307
 msgid "Are you sure you want to delete this report?"
 msgstr "Esteu segur que voleu suprimir aquest informe?"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:230
+#: usr/lib/linuxmint/mintreport/mintreport.py:308
 msgid "The report will be permanently deleted and will no longer be visible."
 msgstr "L'informe se suprimirà permanentment i ja no serà visible."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:293
-#, python-format
-msgid ""
-"The file %s could not be read.\n"
-"Please fix its permissions."
-msgstr ""
-"No s'ha pogut obrir el fitxer %s.\n"
-"Corregiu els permisos."
-
-#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#: usr/lib/linuxmint/mintreport/mintreport.py:419
 #, python-format
 msgid ""
 "The debug symbols are missing for %(program)s.\n"
@@ -48,7 +80,7 @@ msgstr ""
 "Falten els símbols de depuració per %(program)s.\n"
 "Instal·leu %(package)s."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#: usr/lib/linuxmint/mintreport/mintreport.py:433
 #, python-format
 msgid ""
 "The package providing %s could not be found.\n"
@@ -59,7 +91,7 @@ msgstr ""
 "Si voleu generar una traça de la pila per aquest informe d'error, "
 "reinstal·leu-lo."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:372
+#: usr/lib/linuxmint/mintreport/mintreport.py:461
 msgid ""
 "The headers or binaries installed on your system do not match the code which "
 "was executed during the crash.\n"
@@ -73,32 +105,58 @@ msgstr ""
 "Hi ha disponible un traçat de pila a «Fitxers locals», però el seu contingut "
 "pot ser inexacte."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:410
-msgid "The report could not be deleted."
-msgstr "No s'ha pogut suprimir l'informe."
-
-#: usr/lib/linuxmint/mintreport/mintreport.py:411
-#, python-format
-msgid "Check the permissions for /var/crash and %s."
-msgstr "Comproveu els permisos de /var/crash i %s."
-
-#: generate_desktop_files:27 generate_desktop_files:41
+#: generate_desktop_files:25 generate_desktop_files:39
 msgid "Troubleshoot problems"
 msgstr "Resoleu els problemes"
 
-#: generate_desktop_files:41
+#: generate_desktop_files:39
 msgid "Troubleshooting Tool"
 msgstr "Eina per resoldre els problemes"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Copy"
+msgstr "Copia"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid ""
+"Copy to clipboard (code tags are added to make it easy to paste the system "
+"information into the forums)"
+msgstr ""
+"Copia al porta-retalls (s'agreguen etiquetes de codi per facilitar enganxar "
+"la informació del sistema en els fòrums)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid "Upload"
+msgstr "Envia"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Upload to a pastebin service (no personal information included)"
+msgstr "Enviar a un servei pastebin (no s'inclourà informació personal)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "System information"
+msgstr "Informació del sistema"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Crash reports are not available"
+msgstr "Els informes d'error no estan disponibles"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid ""
+"To enable crash reporting, install systemd-coredump and reboot your computer."
+msgstr ""
+"Per habilitar els informes d'errors, instal·leu systemd-coredump i reinicieu "
+"l'ordinador."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
 msgid "Crash reports:"
 msgstr "Informes de fallades:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
 msgid "Stack trace:"
 msgstr "Traça de la pila:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
 msgid ""
 "When seeking help, check for existing bug reports, pastebin the trace, share "
 "crash.tar.gz (from Local Files) and explain how to reproduce the crash."
@@ -107,39 +165,31 @@ msgstr ""
 "de la traça, compartiu el fitxer crash.tar.gz (a partir de fitxers locals) i "
 "expliqueu com reproduir el bloqueig."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
 msgid "Local Files"
 msgstr "Fitxers locals"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
 msgid "Open the directory containing crash.tar.gz and its content."
 msgstr "Obre la carpeta que conté crash.tar.gz i el seu contingut."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
 msgid "Bug Tracker"
 msgstr "Seguiment d'errors"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
 msgid "Find the most appropriate bug tracker."
 msgstr "Troba el rastrejador d'errors més apropiat."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
 msgid "Pastebin"
 msgstr "Pastebin"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
 msgid "Upload the trace to the Internet."
 msgstr "Puja la traça a Internet."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
-msgid "Delete"
-msgstr "Suprimeix"
-
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
-msgid "Delete this crash report."
-msgstr "Suprimeix aquest informe d'error."
-
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
 msgid ""
 "Developers need to know where the code fails or how to reproduce the issue. "
 "Always provide a trace and reliable instructions to trigger/observe the "
@@ -149,26 +199,30 @@ msgstr ""
 "problema. Proporcioneu sempre una traça i les instruccions fiables per "
 "activar/observar el problema."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
 msgid "Crash reports"
 msgstr "Informes de fallades"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:19
 msgid "Information reports:"
 msgstr "Informes indicatius:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:20
 msgid "Report:"
 msgstr "Informe:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:21
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:22
 msgid "Delete this report"
 msgstr "Suprimeix aquest informe"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:23
 msgid "Note: Information reports can only be shown in English."
 msgstr "Nota: els informes indicatius només es mostren en anglès."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:24
 msgid "Information reports"
 msgstr "Informes indicatius"

@@ -7,55 +7,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-01-20 17:54+0000\n"
-"PO-Revision-Date: 2016-08-02 09:24+0000\n"
-"Last-Translator: Kamala Kannan <Unknown>\n"
+"POT-Creation-Date: 2019-07-04 17:24+0200\n"
+"PO-Revision-Date: 2019-03-27 21:59+0000\n"
+"Last-Translator: Sudhakaran Pooriyaalar <Unknown>\n"
 "Language-Team: Tamil <ta@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:49+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:22
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:32 generate_desktop_files:25
+#: generate_desktop_files:39 generate_desktop_files:67
+msgid "Domain Blocker"
+msgstr "வலைய நிர்வாக முடப்பான்"
+
+#. the treeview
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:36
+msgid "Blocked domains"
+msgstr "முடக்கப்பட்ட வலைய நிர்வாகங்கள்"
+
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:68
 msgid "Please type the domain name you want to block"
 msgstr ""
+"தயவுச்செய்து நீங்கள் முடக்க வேண்டிய வலைய நிர்வாகப் பெயரைத் தட்டு அச்சு இடுக"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:23
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:69
 msgid "Domain name"
-msgstr "களப்பெயர்"
+msgstr "வலைய நிர்வாகப் பெயர்"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:45
+#. User has passed an invalid domain (one that contains invalid characters)
+#. Display an error dialog to inform them why we're not adding it to the list
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:99
 msgid "Invalid Domain"
-msgstr ""
+msgstr "தகுந்தா வலைய நிர்வாகம்"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:47
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:101
 #, python-format
 msgid "%s is not a valid domain name."
-msgstr ""
+msgstr "%s ஒரு தகுந்தா வலைய நிர்வாகப் பெயர்"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:48
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:102
 msgid ""
 "Domain names must start and end with a letter or a digit, and can only "
 "contain letters, digits, dots and hyphens."
 msgstr ""
+"வலைய நிர்வாகப் பெயர்கள் ஒரு ஆங்கிலயெழுத்தில் அல்லது ஒரு எண்ணில் தொடங்கி "
+"முடிய வேண்டும், மேலும் ஆங்கிலயெழுத்துகள், எண்கள், முற்றுப்புள்ளிகள் மற்றும் "
+"இணைப்புக்கோடுகள் ஆகியவையே இப்பெயர்கள் கொண்டிருக்கப் பெறும்."
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:49
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:103
 msgid "Example: my.number1domain.com"
-msgstr ""
-
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:107 generate_desktop_files:25
-#: generate_desktop_files:39
-msgid "Domain Blocker"
-msgstr "களத் தடுப்பான்"
-
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:113
-msgid "Blocked domains"
-msgstr "தடுக்கப்பட்ட களங்கள்"
+msgstr "எடுத்துக்காட்டு: my.number1domain.com"
 
 #: generate_desktop_files:25 generate_desktop_files:39
 msgid "Block access to selected domain names"
-msgstr "தேர்ந்தெடுக்கப்பட்ட களப் பெயர்களுக்கு அணுகலைத் தடு"
+msgstr "தேர்ந்தெடுக்கப்பட்ட வலைய நிர்வாகப் பெயர்களுக்கு அணுகல்-ஐ முடக்கு"
 
 #: generate_desktop_files:39
 msgid "Parental Control"

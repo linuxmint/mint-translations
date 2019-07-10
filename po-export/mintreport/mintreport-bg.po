@@ -7,39 +7,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-04 11:21+0100\n"
-"PO-Revision-Date: 2017-10-05 03:20+0000\n"
+"POT-Creation-Date: 2019-03-07 14:25+0000\n"
+"PO-Revision-Date: 2019-03-12 15:59+0000\n"
 "Last-Translator: spacy01 <Unknown>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 12:02+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:32+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
-#: generate_desktop_files:41
+#: usr/lib/linuxmint/mintreport/mintreport.py:117 generate_desktop_files:25
+#: generate_desktop_files:39
 msgid "System Reports"
 msgstr "Системен отчет"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:229
+#: usr/lib/linuxmint/mintreport/mintreport.py:209
+msgid "An error occurred while gathering the system information."
+msgstr "Възникна грешка при събирането на системна информация."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:223
+msgid "System information copied"
+msgstr "Системната информация е копирана."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:223
+msgid ""
+"Your system information was copied into your clipboard so you can paste it "
+"on the forums."
+msgstr ""
+"Системната ви информация беше копирана в клипборда, за да може да я "
+"поставите във форумите."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:232
+msgid "System information uploaded"
+msgstr "Системната информация е качена"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:232
+#, python-format
+msgid ""
+"Your system information was uploaded to %s. This link was placed in your "
+"clipboard so you can paste it on IRC."
+msgstr ""
+"Вашата системна информация беше качена на %s. Линка ще бъде копиран в "
+"клипборда, за да може да го изпратите по IRC."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:234
+msgid "An error occurred while uploading the system information"
+msgstr "Възникна грешка при качването на системната информация"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:234
+msgid ""
+"Copy and paste the system information manually into a pastebin site like "
+"https://pastebin.com and share the link on IRC."
+msgstr ""
+"Копирайте системната информация ръчно и я поставете в сайт от типа на "
+"https://pastebin.com и споделете линка в IRC."
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:307
 msgid "Are you sure you want to delete this report?"
 msgstr "Наистина ли искате да изтриете този отчет?"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:230
+#: usr/lib/linuxmint/mintreport/mintreport.py:308
 msgid "The report will be permanently deleted and will no longer be visible."
 msgstr "Отчета ще бъде изтрит окончателно и няма да е наличен."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:293
-#, python-format
-msgid ""
-"The file %s could not be read.\n"
-"Please fix its permissions."
-msgstr ""
-"Файла %s  не може да бъде прочетен.\n"
-"Моля оправете правата."
-
-#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#: usr/lib/linuxmint/mintreport/mintreport.py:419
 #, python-format
 msgid ""
 "The debug symbols are missing for %(program)s.\n"
@@ -48,7 +80,7 @@ msgstr ""
 "Липсват дебъг символи за %(program)s.\n"
 "Моля инсталирайте %(package)s."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#: usr/lib/linuxmint/mintreport/mintreport.py:433
 #, python-format
 msgid ""
 "The package providing %s could not be found.\n"
@@ -58,7 +90,7 @@ msgstr ""
 "Пакета, съдържащ %s не може да бъде открит.\n"
 "Ако искате да генерирате проследяване за този отчет, моля преинсталирайте го."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:372
+#: usr/lib/linuxmint/mintreport/mintreport.py:461
 msgid ""
 "The headers or binaries installed on your system do not match the code which "
 "was executed during the crash.\n"
@@ -72,32 +104,58 @@ msgstr ""
 "Проследяването е налично в 'Локални файлове', но съдържанието му вероятно е "
 "неточно."
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:410
-msgid "The report could not be deleted."
-msgstr "Отчета не може да бъде изтрит."
-
-#: usr/lib/linuxmint/mintreport/mintreport.py:411
-#, python-format
-msgid "Check the permissions for /var/crash and %s."
-msgstr "Проверете правата на /var/crash и на %s."
-
-#: generate_desktop_files:27 generate_desktop_files:41
+#: generate_desktop_files:25 generate_desktop_files:39
 msgid "Troubleshoot problems"
 msgstr "Отстраняване на проблеми"
 
-#: generate_desktop_files:41
+#: generate_desktop_files:39
 msgid "Troubleshooting Tool"
 msgstr "Инструмент за отстраняване на проблеми"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Copy"
+msgstr "Копирай"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid ""
+"Copy to clipboard (code tags are added to make it easy to paste the system "
+"information into the forums)"
+msgstr ""
+"Копирай в клипборда (добавени са кодови тагове, за да е по-лесно да "
+"поставите системната информация във форумите)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid "Upload"
+msgstr "Качи"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Upload to a pastebin service (no personal information included)"
+msgstr "Качено в pastebin (лична информация не е включена)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "System information"
+msgstr "Системна информация"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Crash reports are not available"
+msgstr "Отчети за сривове не са налични"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid ""
+"To enable crash reporting, install systemd-coredump and reboot your computer."
+msgstr ""
+"За включване на отчета за срив, инсталирайте systemd-coredump и "
+"рестартирайте компютъра."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
 msgid "Crash reports:"
 msgstr "Отчети за сривове:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
 msgid "Stack trace:"
 msgstr "Трасиране на стек:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
 msgid ""
 "When seeking help, check for existing bug reports, pastebin the trace, share "
 "crash.tar.gz (from Local Files) and explain how to reproduce the crash."
@@ -106,39 +164,31 @@ msgstr ""
 "в pastebin, споделете crash.tar.gz (от локалните файлове) и обяснете как да "
 "възпроизведем срива."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
 msgid "Local Files"
 msgstr "Локални файлове"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
 msgid "Open the directory containing crash.tar.gz and its content."
 msgstr "Отвори директорията, съдържаща crash.tar.gz и неговото съдържимо."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
 msgid "Bug Tracker"
 msgstr "Проследяване на бъг"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
 msgid "Find the most appropriate bug tracker."
 msgstr "Намери най-подходящия бъг тркер."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
 msgid "Pastebin"
 msgstr "Pastebin"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
 msgid "Upload the trace to the Internet."
 msgstr "Качи проследяването в интернет."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
-msgid "Delete"
-msgstr "Изтрий"
-
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
-msgid "Delete this crash report."
-msgstr "Изтрий този отчет."
-
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
 msgid ""
 "Developers need to know where the code fails or how to reproduce the issue. "
 "Always provide a trace and reliable instructions to trigger/observe the "
@@ -148,27 +198,31 @@ msgstr ""
 "възпроизведат проблема. Винаги давайте следи и подходящи инструкции за "
 "отключване/изследване на проблема."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
 msgid "Crash reports"
 msgstr "Отчети за грешки"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:19
 msgid "Information reports:"
 msgstr "Информационни отчети:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:20
 msgid "Report:"
 msgstr "Отчет:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:21
+msgid "Delete"
+msgstr "Изтрий"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:22
 msgid "Delete this report"
 msgstr "Изтрий този отчет"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:23
 msgid "Note: Information reports can only be shown in English."
 msgstr ""
 "Бележка: Информационните отчети могат да се показват само на английски."
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:24
 msgid "Information reports"
 msgstr "Информационни отчети"

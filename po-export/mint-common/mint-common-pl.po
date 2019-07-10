@@ -7,30 +7,138 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-03-31 16:29+0100\n"
-"PO-Revision-Date: 2014-04-05 15:43+0000\n"
-"Last-Translator: Piotr Strębski <strebski@gmail.com>\n"
+"POT-Creation-Date: 2019-02-27 10:54+0000\n"
+"PO-Revision-Date: 2019-05-11 13:52+0000\n"
+"Last-Translator: Mateusz Łukasik <Unknown>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:51+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/common/mint-which-launcher.py:9
-#: usr/lib/linuxmint/common/mint-which-launcher.py:11
-msgid "Please enter your password"
-msgstr "Podaj swoje hasło"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Paczki Flatpak"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:36
-msgid "Please wait, this can take some time"
-msgstr "Proszę czekać, to może trochę potrwać"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
+msgid "Install"
+msgstr "Zainstaluj"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:38
-msgid "Application removed successfully"
-msgstr "Program został pomyślnie usunięty"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:48
+msgid "Remove"
+msgstr "Usuń"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:57
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "Aktualizuj"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "Proszę przejrzeć listę zmian poniżej."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "Należy zainstalować dodatkowe oprogramowanie"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "Należy usunąć dodatkowe oprogramowanie"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "Należy zaktualizować dodatkowe oprogramowanie"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "Wymagane są dodatkowe zmiany"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "za %s zostanie pobrany do końca."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "zwolni się %s miejsca na dysku."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "Zostanie użyte %s miejsca na dysku."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak Progress"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "Anulowano"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "Operacja została anulowana przed jej zakończeniem."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "Inicjalizacja"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "Instalowanie flatpaków"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "Instalowanie: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "Usuwanie flatpaków"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "Usuwanie: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "Aktualizowanie flatpaków"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "Aktualizowanie: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:237
+msgid "Finished"
+msgstr "Zakończono"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "Operacja zakończona pomyślnie"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:240
+msgid "Failed"
+msgstr "Niepowodzenie"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"Wystąpił błąd:\n"
+"\n"
+"%s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "Wystąpił błąd"
+
+#: usr/lib/linuxmint/common/mint-remove-application.py:25
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
@@ -38,18 +146,13 @@ msgstr ""
 "Ten element menu nie jest powiązany z żadnym z pakietów. Czy chcesz mimo to "
 "usunąć go z menu?"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:67
+#: usr/lib/linuxmint/common/mint-remove-application.py:37
 msgid "The following packages will be removed:"
 msgstr "Następujące pakiety zostaną usunięte:"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:71
+#: usr/lib/linuxmint/common/mint-remove-application.py:42
 msgid "Packages to be removed"
 msgstr "Pakiety do usunięcia"
 
-#: generate_additional_files.py:49
-msgid "Send by Email"
-msgstr "Wyślij e-mailem"
-
-#: generate_additional_files.py:49
-msgid "Send as email attachment"
-msgstr "Wyślij jako załącznik do e-maila"
+#~ msgid "Please enter your password"
+#~ msgstr "Podaj swoje hasło"

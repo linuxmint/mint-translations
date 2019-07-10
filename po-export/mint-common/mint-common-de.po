@@ -7,30 +7,138 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-03-31 16:29+0100\n"
-"PO-Revision-Date: 2016-06-07 12:06+0000\n"
-"Last-Translator: Georg B. <Unknown>\n"
+"POT-Creation-Date: 2019-02-27 10:54+0000\n"
+"PO-Revision-Date: 2019-03-02 13:50+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:51+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/common/mint-which-launcher.py:9
-#: usr/lib/linuxmint/common/mint-which-launcher.py:11
-msgid "Please enter your password"
-msgstr "Bitte geben Sie Ihr Passwort ein"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Flatpaks"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:36
-msgid "Please wait, this can take some time"
-msgstr "Bitte warten, das kann etwas Zeit in Anspruch nehmen."
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
+msgid "Install"
+msgstr "Installieren"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:38
-msgid "Application removed successfully"
-msgstr "Anwendung erfolgreich entfernt"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:48
+msgid "Remove"
+msgstr "Entfernen"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:57
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "Aktualisieren"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "Bitte beachten Sie das unten stehende Änderungsprotokoll."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "Zusätzliche Programme müssen installiert werden"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "Zusätzliche Programme müssen entfernt werden"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "Zusätzliche Programme müssen aktualisiert werden"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "Zusätzliche Änderungen sind erforderlich"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "%s werden insgesamt heruntergeladen."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "%s Speicherplatz wird freigegeben."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "%s mehr Speicherplatz wird verwendet."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak-Fortschritt"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "Der Vorgang wurde abgebrochen, bevor er vollendet werden konnte."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "Initialisierung"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "Flatpaks werden installiert"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "%s wird installiert"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "Flatpaks werden entfernt"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "%s wird entfernt"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "Flatpaks werden aktualisiert"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "%s wird aktualisiert"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:237
+msgid "Finished"
+msgstr "Fertiggestellt"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "Vorgang vollständig abgeschlossen"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:240
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"Ein Fehler ist aufgetreten:\n"
+"\n"
+"%s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "Ein Fehler ist aufgetreten"
+
+#: usr/lib/linuxmint/common/mint-remove-application.py:25
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
@@ -38,18 +146,13 @@ msgstr ""
 "Dieser Menüpunkt ist keinem Paket zugeordnet. Wollen Sie ihn aus dem Menü "
 "entfernen?"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:67
+#: usr/lib/linuxmint/common/mint-remove-application.py:37
 msgid "The following packages will be removed:"
 msgstr "Folgende Pakete werden entfernt:"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:71
+#: usr/lib/linuxmint/common/mint-remove-application.py:42
 msgid "Packages to be removed"
 msgstr "Zu entfernende Pakete"
 
-#: generate_additional_files.py:49
-msgid "Send by Email"
-msgstr "Per E-Mail versenden"
-
-#: generate_additional_files.py:49
-msgid "Send as email attachment"
-msgstr "Als E-Mail-Anhang versenden"
+#~ msgid "Please enter your password"
+#~ msgstr "Bitte geben Sie Ihr Passwort ein"

@@ -7,30 +7,138 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-03-31 16:29+0100\n"
-"PO-Revision-Date: 2017-06-20 22:36+0000\n"
+"POT-Creation-Date: 2019-02-27 10:54+0000\n"
+"PO-Revision-Date: 2019-02-27 20:51+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:51+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/common/mint-which-launcher.py:9
-#: usr/lib/linuxmint/common/mint-which-launcher.py:11
-msgid "Please enter your password"
-msgstr "Prašome įvesti savo slaptažodį"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:36
+msgid "Flatpaks"
+msgstr "Flatpak paketai"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:36
-msgid "Please wait, this can take some time"
-msgstr "Prašome palaukti, tai gali šiek tiek užtrukti"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
+msgid "Install"
+msgstr "Įdiegti"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:38
-msgid "Application removed successfully"
-msgstr "Programa sėkmingai pašalinta"
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:48
+msgid "Remove"
+msgstr "Šalinti"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:57
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:57
+msgid "Upgrade"
+msgstr "Naujinti"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:65
+msgid "Please take a look at the list of changes below."
+msgstr "Peržiūrėkite žemiau esantį pakeitimų sąrašą."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:75
+msgid "Additional software has to be installed"
+msgstr "Turi būti įdiegta papildoma programinė įranga"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:77
+msgid "Additional software has to be removed"
+msgstr "Turi būti pašalinta papildoma programinė įranga"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:79
+msgid "Additional software has to be upgraded"
+msgstr "Turi būti atnaujinta papildoma programinė įranga"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
+msgid "Additional changes are required"
+msgstr "Reikalingi papildomi pakeitimai"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:94
+#, python-format
+msgid "%s will be downloaded in total."
+msgstr "Viso bus atsisiųsta %s."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:98
+#, python-format
+msgid "%s of disk space will be freed."
+msgstr "Bus atlaisvinta %s disko vietos."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:102
+#, python-format
+msgid "%s more disk space will be used."
+msgstr "Bus papildomai panaudota %s vietos diske."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:176
+msgid "Flatpak Progress"
+msgstr "Flatpak eiga"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:222
+msgid "Cancelled"
+msgstr "Atsisakyta"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:223
+msgid "The operation was cancelled before it could complete."
+msgstr "Operacijos buvo atsisakyta dar prieš jai pasibaigus."
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:225
+msgid "Initializing"
+msgstr "Inicijuojama"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:228
+msgid "Installing flatpaks"
+msgstr "Įdiegiami flatpak paketai"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:229
+#, python-format
+msgid "Installing: %s"
+msgstr "Įdiegiama: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:231
+msgid "Removing flatpaks"
+msgstr "Šalinami flatpak paketai"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:232
+#, python-format
+msgid "Removing: %s"
+msgstr "Šalinama: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:234
+msgid "Updating flatpaks"
+msgstr "Atnaujinami flatpak paketai"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:235
+#, python-format
+msgid "Updating: %s"
+msgstr "Atnaujinama: %s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:237
+msgid "Finished"
+msgstr "Užbaigta"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:238
+msgid "Operation completed successfully"
+msgstr "Operacija sėkmingai užbaigta"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:240
+msgid "Failed"
+msgstr "Nepavyko"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:241
+#, python-format
+msgid ""
+"An error occurred:\n"
+"\n"
+"%s"
+msgstr ""
+"Įvyko klaida:\n"
+"\n"
+"%s"
+
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:314
+msgid "An error occurred"
+msgstr "Įvyko klaida"
+
+#: usr/lib/linuxmint/common/mint-remove-application.py:25
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
@@ -38,18 +146,13 @@ msgstr ""
 "Šis meniu elementas nėra susietas su jokiu paketu. Ar vis tiek norite "
 "pašalinti jį iš meniu?"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:67
+#: usr/lib/linuxmint/common/mint-remove-application.py:37
 msgid "The following packages will be removed:"
 msgstr "Bus pašalinti šie paketai:"
 
-#: usr/lib/linuxmint/common/mint-remove-application.py:71
+#: usr/lib/linuxmint/common/mint-remove-application.py:42
 msgid "Packages to be removed"
 msgstr "Paketai, kurie bus pašalinti"
 
-#: generate_additional_files.py:49
-msgid "Send by Email"
-msgstr "Siųsti el. paštu"
-
-#: generate_additional_files.py:49
-msgid "Send as email attachment"
-msgstr "Išsiųsti kaip el. laiško priedą"
+#~ msgid "Please enter your password"
+#~ msgstr "Prašome įvesti savo slaptažodį"

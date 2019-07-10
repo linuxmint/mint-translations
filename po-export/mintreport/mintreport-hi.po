@@ -7,39 +7,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-04 11:21+0100\n"
-"PO-Revision-Date: 2018-06-15 13:35+0000\n"
+"POT-Creation-Date: 2019-03-07 14:25+0000\n"
+"PO-Revision-Date: 2019-06-28 07:46+0000\n"
 "Last-Translator: Panwar <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 12:02+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:32+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:95 generate_desktop_files:27
-#: generate_desktop_files:41
+#: usr/lib/linuxmint/mintreport/mintreport.py:117 generate_desktop_files:25
+#: generate_desktop_files:39
 msgid "System Reports"
 msgstr "सिस्टम रिपोर्ट"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:229
+#: usr/lib/linuxmint/mintreport/mintreport.py:209
+msgid "An error occurred while gathering the system information."
+msgstr "सिस्टम की जानकारी एकत्र करते समय त्रुटि हुई"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:223
+msgid "System information copied"
+msgstr "सिस्टम की जानकारी कॉपी कर दी गई है"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:223
+msgid ""
+"Your system information was copied into your clipboard so you can paste it "
+"on the forums."
+msgstr ""
+"आपके सिस्टम की जानकारी आपके क्लिपबोर्ड पर कॉपी कर दी गई ताकि आप इसे इंटरनेट "
+"फोरम पर पेस्ट कर सकें।"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:232
+msgid "System information uploaded"
+msgstr "सिस्टम की जानकारी अपलोड कर दी गई है"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:232
+#, python-format
+msgid ""
+"Your system information was uploaded to %s. This link was placed in your "
+"clipboard so you can paste it on IRC."
+msgstr ""
+"आपकी सिस्टम की जानकारी %s पर अपलोड कर दी गई। यह लिंक आपके क्लिपबोर्ड पर है "
+"ताकि आप इसे IRC पर पेस्ट कर सकें।"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:234
+msgid "An error occurred while uploading the system information"
+msgstr "सिस्टम की जानकारी अपलोड करते समय त्रुटि हुई"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:234
+msgid ""
+"Copy and paste the system information manually into a pastebin site like "
+"https://pastebin.com and share the link on IRC."
+msgstr ""
+"सिस्टम की जानकारी मैन्युअल रूप से https://pastebin.com जैसी टेक्स्ट संचयन "
+"साइट पर कॉपी-पेस्ट करें व IRC पर लिंक साझा करें।"
+
+#: usr/lib/linuxmint/mintreport/mintreport.py:307
 msgid "Are you sure you want to delete this report?"
 msgstr "क्या आप वाकई इस रिपोर्ट को हटाना चाहते हैं?"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:230
+#: usr/lib/linuxmint/mintreport/mintreport.py:308
 msgid "The report will be permanently deleted and will no longer be visible."
 msgstr "यह रिपोर्ट स्थायी रूप से यह हटा दी जाएगी व दृश्यमान नहीं रहेगी।"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:293
-#, python-format
-msgid ""
-"The file %s could not be read.\n"
-"Please fix its permissions."
-msgstr ""
-"फ़ाइल %s को पढ़ा नहीं जा सका।\n"
-"कृपया इसकी अनुमतियों को ठीक करें।"
-
-#: usr/lib/linuxmint/mintreport/mintreport.py:327
+#: usr/lib/linuxmint/mintreport/mintreport.py:419
 #, python-format
 msgid ""
 "The debug symbols are missing for %(program)s.\n"
@@ -48,7 +80,7 @@ msgstr ""
 "%(program)s के लिए दोषमार्जन(डिबग) प्रतीक अनुपस्थित हैं।\n"
 "कृपया %(package)s इंस्टॉल करें।"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:341
+#: usr/lib/linuxmint/mintreport/mintreport.py:433
 #, python-format
 msgid ""
 "The package providing %s could not be found.\n"
@@ -59,7 +91,7 @@ msgstr ""
 "यदि इस क्रैश रिपोर्ट के लिए स्टैक ट्रेस उत्पन्न करना चाहते हैं, तो इसे पुन: "
 "इंस्टॉल करें।"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:372
+#: usr/lib/linuxmint/mintreport/mintreport.py:461
 msgid ""
 "The headers or binaries installed on your system do not match the code which "
 "was executed during the crash.\n"
@@ -73,32 +105,60 @@ msgstr ""
 "एक स्टैक ट्रेस 'स्थानीय फाइल' में उपलब्ध है, लेकिन उसकी सामग्री शायद "
 "त्रुटिपूर्ण है।"
 
-#: usr/lib/linuxmint/mintreport/mintreport.py:410
-msgid "The report could not be deleted."
-msgstr "रिपोर्ट को हटाया नहीं जा सका।"
-
-#: usr/lib/linuxmint/mintreport/mintreport.py:411
-#, python-format
-msgid "Check the permissions for /var/crash and %s."
-msgstr "/var/crash व %s की अनुमतियों को जाँचे।"
-
-#: generate_desktop_files:27 generate_desktop_files:41
+#: generate_desktop_files:25 generate_desktop_files:39
 msgid "Troubleshoot problems"
 msgstr "समस्याओं का निवारण करें"
 
-#: generate_desktop_files:41
+#: generate_desktop_files:39
 msgid "Troubleshooting Tool"
 msgstr "समस्या निवारण हेतु साधन"
 
 #: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Copy"
+msgstr "कॉपी करें"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid ""
+"Copy to clipboard (code tags are added to make it easy to paste the system "
+"information into the forums)"
+msgstr ""
+"क्लिपबोर्ड पर कॉपी करें (इंटरनेट फोरम पर सिस्टम की जानकारी पेस्ट करना सरल "
+"करने हेतु कोड टैग्स जोड़ें गए हैं)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid "Upload"
+msgstr "अपलोड करें"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Upload to a pastebin service (no personal information included)"
+msgstr ""
+"टेक्स्ट संचयन साइट (pastebin) पर अपलोड करें (कोई व्यक्तिगत जानकारी शामिल "
+"नहीं)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid "System information"
+msgstr "सिस्टम की जानकारी"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Crash reports are not available"
+msgstr "क्रैश रिपोर्ट उपलब्ध नहीं हैं"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid ""
+"To enable crash reporting, install systemd-coredump and reboot your computer."
+msgstr ""
+"क्रैश रिपोर्टिंग सक्रिय करने हेतु, systemd-coredump  इंस्टॉल कर अपने "
+"कंप्यूटर को पुनः आरंभ करें।"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
 msgid "Crash reports:"
 msgstr "क्रैश रिपोर्ट"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
 msgid "Stack trace:"
 msgstr "स्टैक ट्रेस:"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
 msgid ""
 "When seeking help, check for existing bug reports, pastebin the trace, share "
 "crash.tar.gz (from Local Files) and explain how to reproduce the crash."
@@ -107,39 +167,31 @@ msgstr ""
 "डाले, crash.tar.gz की सामग्री को साझा करें (लोकल फाइलों से प्राप्त करें) व "
 "यह बताएं कि क्रैश दोबारा कैसे उत्पन्न किया जा सकता है।"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
 msgid "Local Files"
 msgstr "लोकल फ़ाइलें"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
 msgid "Open the directory containing crash.tar.gz and its content."
 msgstr "crash.tar.gz व इसकी सामग्री वाले फ़ोल्डर को खोलें।"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
 msgid "Bug Tracker"
 msgstr "बग ट्रैकर"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
 msgid "Find the most appropriate bug tracker."
 msgstr "सबसे उपयुक्त बग ट्रैकर खोजें।"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
 msgid "Pastebin"
 msgstr "Pastebin"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
 msgid "Upload the trace to the Internet."
 msgstr "ट्रेस को इंटरनेट पर अपलोड करें।"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
-msgid "Delete"
-msgstr "हटाएँ"
-
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
-msgid "Delete this crash report."
-msgstr "इस क्रैश रिपोर्ट को हटाएँ।"
-
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
 msgid ""
 "Developers need to know where the code fails or how to reproduce the issue. "
 "Always provide a trace and reliable instructions to trigger/observe the "
@@ -149,27 +201,31 @@ msgstr ""
 "पुन: उत्पन्न किया जा सकता है। समस्या को उत्प्रेरित/समीक्षा करने के लिए हमेशा "
 "एक ट्रेस व विश्वसनीय निर्देश प्रदान करें।"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
 msgid "Crash reports"
 msgstr "क्रैश रिपोर्ट"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:19
 msgid "Information reports:"
 msgstr "सूचना रिपोर्ट"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:20
 msgid "Report:"
 msgstr "रिपोर्ट"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:21
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:22
 msgid "Delete this report"
 msgstr "इस रिपोर्ट को हटाएँ"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:23
 msgid "Note: Information reports can only be shown in English."
 msgstr ""
 "ध्यान दें: सूचना रिपोर्ट केवल अंग्रेज़ी में ही प्रदर्शित की जा सकती है।"
 
-#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:24
 msgid "Information reports"
 msgstr "सूचना रिपोर्ट"

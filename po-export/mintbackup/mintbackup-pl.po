@@ -7,45 +7,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 13:03+0100\n"
-"PO-Revision-Date: 2017-12-28 08:10+0000\n"
-"Last-Translator: Mateusz Łukasik <Unknown>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-03-18 12:37+0000\n"
+"Last-Translator: Mariusz <wisniowy@g.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:51+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:32
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
 msgstr "Kopie zapasowe"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:159
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:199
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:206 generate_desktop_files:26
-#: generate_desktop_files:41
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
 msgid "Backup Tool"
 msgstr "Narzędzie do tworzenia kopii zapasowych"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "%s nie jest umieszczony w Twoim katalogu domowym."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:262
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
 msgid "Please choose a directory."
 msgstr "Prosimy wybrać katalog."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:265
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
 msgid "You do not have the permission to write in the selected directory."
 msgstr "Nie posiadasz uprawnień, aby zapisywać w wybranym katalogu."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:325
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
 msgid "Please choose a backup file."
 msgstr "Prosimy wybrać plik kopii zapasowej."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
@@ -53,47 +53,47 @@ msgstr ""
 "Ten plik kopii zapasowej jest zbyt stary, lub został utworzony przez inne "
 "narzędzie. Prosimy rozpakować go ręcznie."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "Wystąpił błąd podczas otwierania pliku kopii zapasowej: %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:356
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "No packages need to be installed."
 msgstr "Nie jest wymagana instalacja żadnych pakietów."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
 msgid "Please select packages to install."
 msgstr "Prosimy wybrać pakiety do zainstalowania."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:417
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr "Pomijanie %s ponieważ potoki nazwane nie są obsługiwane."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:442
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
 msgid "Backing up:"
 msgstr "Wykonywanie kopii zapasowej:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:450
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "Calculating..."
 msgstr "Obliczanie..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:454
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:558
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "The following errors occurred:"
 msgstr "Wystąpiły następujące błędy:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
 msgid "The backup was aborted."
 msgstr "Tworzenie kopii zapasowej zostało przerwane."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
 #, python-format
 msgid "Your files were successfully saved in %s."
 msgstr "Twoje pliki zostały pomyślnie zapisane w %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
@@ -101,7 +101,7 @@ msgstr ""
 "Ostrzeżenie: Plik meta nie może zostać zapisany. Ta kopia zapasowa nie "
 "będzie akceptowana przy przywracaniu."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:532
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
@@ -110,44 +110,48 @@ msgstr ""
 "Ostrzeżenie: Niektóre pliki nie zostały zapisane. Tylko dla %(archived)d "
 "plików utworzono kopię zapasową z łącznej liczby %(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:547
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
 msgid "Restoring:"
 msgstr "Przywracanie:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:564
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
 msgid "The restoration was aborted."
 msgstr "Przywracanie z kopii zapasowej zostało przerwane."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
 msgid "Your files were successfully restored."
 msgstr "Pomyślnie przywrócono pliki."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:656
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
 "Ostrzeżenie: Tylko %(number)d plików zostało przywróconych z łącznej liczby "
 "%(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:710
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Lista poniżej ukazuje aplikacje zainstalowane przez Ciebie."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
 #, python-format
 msgid "Your software selection was saved in %s"
 msgstr "Twój wybór oprogramowania został zapisany w %s"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:726
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
 msgid "The selected file is not a valid software selection."
 msgstr "Wybrany plik nie jest poprawnym wyborem oprogramowania."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:731
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:760
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
 msgid "An error occurred while reading the file."
 msgstr "Wystąpił błąd podczas odczytywania pliku."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:748
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
 msgid "Could not locate the package."
 msgstr "Nie można odnaleźć pakietu."
 
-#: generate_desktop_files:26 generate_desktop_files:41
+#: generate_desktop_files:24 generate_desktop_files:39
 msgid "Make a backup of your home directory"
 msgstr "Stwórz kopię zapasową swojego katalogu domowego"
 

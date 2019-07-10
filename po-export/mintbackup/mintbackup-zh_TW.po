@@ -7,139 +7,143 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 13:03+0100\n"
-"PO-Revision-Date: 2018-11-29 04:56+0000\n"
-"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-04-21 12:21+0000\n"
+"Last-Translator: Will Peix <Unknown>\n"
 "Language-Team: Traditional Chinese <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:51+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:32
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
 msgstr "備份"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:159
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:199
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:206 generate_desktop_files:26
-#: generate_desktop_files:41
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
 msgid "Backup Tool"
 msgstr "備份工具"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "%s 不在您的家目錄裡。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:262
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
 msgid "Please choose a directory."
 msgstr "請選擇一個目錄。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:265
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
 msgid "You do not have the permission to write in the selected directory."
 msgstr "您在選取的目錄中沒有寫入權限。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:325
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
 msgid "Please choose a backup file."
 msgstr "請選擇一個備份檔案。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:333
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr "備份檔可能太舊或者它是由不同的工具建立的。請手動將它解壓縮。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:342
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "開啟備份檔案時發生錯誤：%s。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:356
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "No packages need to be installed."
 msgstr "沒有需要安裝的軟體包。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:363
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
 msgid "Please select packages to install."
 msgstr "請選擇要安裝的軟體包。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:417
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr "略過 %s，因為不支援命名的管道。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:442
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
 msgid "Backing up:"
 msgstr "備份中:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:450
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "Calculating..."
 msgstr "計算中..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:454
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:558
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "The following errors occurred:"
 msgstr "發生下列錯誤："
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
 msgid "The backup was aborted."
 msgstr "備份已中止。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
 #, python-format
 msgid "Your files were successfully saved in %s."
 msgstr "您的檔案已成功的儲存於 %s。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr "警告：詮釋資料檔案無法儲存。這次備份將不能用於還原。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:532
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr "警告：部分檔案無法儲存。全部 %(total)d 檔案中只有 %(archived)d 檔案完成備份。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:547
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
 msgid "Restoring:"
 msgstr "還原中:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:564
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
 msgid "The restoration was aborted."
 msgstr "還原作業已中止。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
 msgid "Your files were successfully restored."
 msgstr "您的檔案已成功還原。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:656
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr "警告：全部 %(total)d 檔案中只有 %(number)d 檔案還原。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:710
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "底下的列表顯示了您所安裝的程式。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
 #, python-format
 msgid "Your software selection was saved in %s"
 msgstr "您的軟體選擇已儲存於 %s"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:726
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
 msgid "The selected file is not a valid software selection."
 msgstr "選取的檔案不是有效的軟體選擇。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:731
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:760
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
 msgid "An error occurred while reading the file."
 msgstr "讀取檔案時發生錯誤。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:748
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
 msgid "Could not locate the package."
 msgstr "無法定位軟體包。"
 
-#: generate_desktop_files:26 generate_desktop_files:41
+#: generate_desktop_files:24 generate_desktop_files:39
 msgid "Make a backup of your home directory"
 msgstr "備份您的家目錄"
 

@@ -7,34 +7,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-01-20 17:54+0000\n"
+"POT-Creation-Date: 2019-07-04 17:24+0200\n"
 "PO-Revision-Date: 2016-02-22 15:25+0000\n"
 "Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:49+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:22
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:32 generate_desktop_files:25
+#: generate_desktop_files:39 generate_desktop_files:67
+msgid "Domain Blocker"
+msgstr "โปรแกรมบล็อกโดเมน"
+
+#. the treeview
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:36
+msgid "Blocked domains"
+msgstr "โดเมนที่บล็อกไว้"
+
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:68
 msgid "Please type the domain name you want to block"
 msgstr "โปรดพิมพ์ชื่อโดเมนที่คุณจะบล็อก"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:23
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:69
 msgid "Domain name"
 msgstr "ชื่อโดเมน"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:45
+#. User has passed an invalid domain (one that contains invalid characters)
+#. Display an error dialog to inform them why we're not adding it to the list
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:99
 msgid "Invalid Domain"
 msgstr "โดเมนไม่ถูกต้อง"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:47
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:101
 #, python-format
 msgid "%s is not a valid domain name."
 msgstr "%s ไม่ใช่ชื่อโดเมนที่ใช้ได้"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:48
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:102
 msgid ""
 "Domain names must start and end with a letter or a digit, and can only "
 "contain letters, digits, dots and hyphens."
@@ -42,18 +54,9 @@ msgstr ""
 "ชื่อโดเมนต้องขึ้นต้นและลงท้ายด้วยตัวอักษร หรือตัวเลขเท่านั้น  "
 "และป้อนได้เฉพาะตัวอักษร ตัวเลข จุด และยัติภังค์เท่านั้น"
 
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:49
+#: usr/lib/linuxmint/mintnanny/mintnanny.py:103
 msgid "Example: my.number1domain.com"
 msgstr "ตัวอย่าง: my.number1domain.com"
-
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:107 generate_desktop_files:25
-#: generate_desktop_files:39
-msgid "Domain Blocker"
-msgstr "โปรแกรมบล็อกโดเมน"
-
-#: usr/lib/linuxmint/mintnanny/mintnanny.py:113
-msgid "Blocked domains"
-msgstr "โดเมนที่บล็อกไว้"
 
 #: generate_desktop_files:25 generate_desktop_files:39
 msgid "Block access to selected domain names"

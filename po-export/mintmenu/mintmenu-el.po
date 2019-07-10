@@ -7,553 +7,404 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-06 16:17+0100\n"
-"PO-Revision-Date: 2018-07-07 20:40+0000\n"
-"Last-Translator: George <g_christodoulides@yahoo.gr>\n"
+"POT-Creation-Date: 2019-06-29 18:11+0200\n"
+"PO-Revision-Date: 2019-07-01 04:15+0000\n"
+"Last-Translator: Vasilis Thomopoulos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:50+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:42
+#: usr/lib/linuxmint/mintMenu/preferences.py:60
 msgid "Menu preferences"
 msgstr "Προτιμήσεις Μενού"
 
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:55
+#: usr/lib/linuxmint/mintMenu/preferences.py:127
 msgid "Show category icons"
 msgstr "Εμφάνιση κατηγορίας εικονιδίων"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:67
-msgid "Main button"
-msgstr "Κυρίως πλήκτρο"
-
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:205
-msgid "Shutdown, restart, suspend or hibernate"
-msgstr "Τερματισμός, επανεκκίνηση, αναστολή λειτουργίας ή αδρανοποίηση"
 
 #~ msgid "Packages to be removed"
 #~ msgstr "Πακέτα προς αφαίρεση"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:30
-msgid "Menu"
-msgstr "Μενού"
+#~ msgid "Main button"
+#~ msgstr "Κυρίως πλήκτρο"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:195
-msgid "Couldn't load plugin:"
-msgstr "Αδυναμία φόρτωσης πρόσθετου:"
+#~ msgid "Shutdown, restart, suspend or hibernate"
+#~ msgstr "Τερματισμός, επανεκκίνηση, αναστολή λειτουργίας ή αδρανοποίηση"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:270
-msgid "Couldn't initialize plugin"
-msgstr "Αδυναμία προετοιμασίας πρόσθετου"
-
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:694
-msgid "Advanced MATE Menu"
-msgstr "Προηγμένο Μενού MATE"
-
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:783
-msgid "Preferences"
-msgstr "Προτιμήσεις"
-
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:786
-msgid "Edit menu"
-msgstr "Επεξεργασία μενού"
-
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:789
-msgid "Reload plugins"
-msgstr "Επαναφόρτωση προσθέτων"
-
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:792
-msgid "About"
-msgstr "Σχετικά"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:45
-msgid "Always start with favorites pane"
-msgstr "Εκκίνηση πάντα με την μπάρα αγαπημένων"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:46
-msgid "Show button icon"
-msgstr "Εμφάνιση εικονιδίου κουμπιού"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:47
-msgid "Enable Internet search"
-msgstr "Ενεργοποίηση της αναζήτησης στο διαδίκτυο"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:48
-msgid "Use custom colors"
-msgstr "Χρήση προσαρμοσμένων χρωμάτων"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:49
-msgid "Show recent documents plugin"
-msgstr "Εμφάνιση πρόσθετου για πρόσφατα έγγραφα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:50
-msgid "Show applications plugin"
-msgstr "Εμφάνιση πρόσθετου για εφαρμογές"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:51
-msgid "Show system plugin"
-msgstr "Εμφάνιση πρόσθετου για σύστημα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:52
-msgid "Show places plugin"
-msgstr "Εμφάνιση πρόσθετου για τοποθεσίες"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:54
-msgid "Show application comments"
-msgstr "Εμφάνιση σχολίων εφαρμογής"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:56
-msgid "Hover"
-msgstr "Αιώρηση"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:57
-msgid "Remember the last category or search"
-msgstr "Απομνημόνευση της τελευταίας κατηγορίας ή αναζήτησης"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:58
-msgid "Search for packages to install"
-msgstr "Αναζήτηση πακέτων προς εγκατάσταση"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:59
-msgid "Swap name and generic name"
-msgstr "Εναλλαγή ονόματος και γενικού ονόματος"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:61
-msgid "Button text:"
-msgstr "Κείμενο πλήκτρου:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:62
-msgid "Options"
-msgstr "Επιλογές"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:63
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:192
-msgid "Applications"
-msgstr "Εφαρμογές"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:65
-msgid "Theme"
-msgstr "Θέμα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:69
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:202
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:203
-msgid "Favorites"
-msgstr "Αγαπημένα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:68
-msgid "Plugins"
-msgstr "Πρόσθετα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:70
-msgid "Background:"
-msgstr "Φόντο:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:71
-msgid "Headings:"
-msgstr "Επικεφαλίδες:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:72
-msgid "Theme:"
-msgstr "Θέμα:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:76
-msgid "Number of columns:"
-msgstr "Αριθμός στηλών:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:77
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:78
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:79
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:80
-msgid "Icon size:"
-msgstr "Μέγεθος εικονιδίου:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:81
-msgid "Hover delay (ms):"
-msgstr "Καθυστέρηση αιώρησης (ms)"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:82
-msgid "Button icon:"
-msgstr "Εικονίδιο κουμπιού:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:83
-msgid "Search command:"
-msgstr "Εντολή εύρεσης:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:85
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:40
-msgid "Places"
-msgstr "Τοποθεσίες"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:86
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:98
-msgid "Allow Scrollbar"
-msgstr "Ύπαρξη μπάρας κύλισης"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:87
-msgid "Show GTK Bookmarks"
-msgstr "Εμφάνιση σελιδοδεικτών GTK"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:88
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:99
-msgid "Height:"
-msgstr "Ύψος:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:89
-msgid "Toggle Default Places:"
-msgstr "Εναλλαγή Προεπιλεγμένων Τoποθεσιών:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:90
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:137
-msgid "Computer"
-msgstr "Υπολογιστής"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:91
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:147
-msgid "Home Folder"
-msgstr "Προσωπικός φάκελος"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:92
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:160
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:162
-msgid "Network"
-msgstr "Δίκτυο"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:93
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:184
-msgid "Desktop"
-msgstr "Επιφάνεια Εργασίας"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:94
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:194
-msgid "Trash"
-msgstr "Απορρίμματα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:95
-msgid "Custom Places:"
-msgstr "Προσαρμοσμένες Τoποθεσίες:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:97
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:40
-msgid "System"
-msgstr "Σύστημα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:100
-msgid "Toggle Default Items:"
-msgstr "Εναλλαγή Προεπιλεγμένων Στοιχείων:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:101
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:156
-msgid "Software Manager"
-msgstr "Διαχειριστής Λογισμικού"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:102
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:163
-msgid "Package Manager"
-msgstr "Διαχειριστής Πακέτων"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:103
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:170
-msgid "Control Center"
-msgstr "Κέντρο Ελέγχου"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:104
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:177
-msgid "Terminal"
-msgstr "Τερματικό"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:105
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:187
-msgid "Lock Screen"
-msgstr "Κλείδωμα Οθόνης"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:106
-msgid "Log Out"
-msgstr "Αποσύνδεση"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:107
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:201
-msgid "Quit"
-msgstr "Έξοδος"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:109
-msgid "Edit Place"
-msgstr "Επεξεργασία Τοποθεσίας"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:110
-msgid "New Place"
-msgstr "Νέα Τοποθεσία"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:111
-msgid "Select a folder"
-msgstr "Επιλέξτε ένα φάκελο"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:138
-msgid "Keyboard shortcut:"
-msgstr "Συντόμευση πληκτρολογίου:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:144
-msgid "Images"
-msgstr "Εικόνες"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:260
-msgid "Name"
-msgstr "Όνομα"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:261
-msgid "Path"
-msgstr "Διαδρομή"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:276
-msgid "Desktop theme"
-msgstr "Θέμα επιφάνειας εργασίας"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:411
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:442
-msgid "Name:"
-msgstr "Όνομα:"
-
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:412
-#: usr/lib/linuxmint/mintMenu/mintMenuConfig.py:443
-msgid "Path:"
-msgstr "Διαδρομή:"
-
-#: usr/lib/linuxmint/mintMenu/keybinding.py:171
+#: usr/lib/linuxmint/mintMenu/keybinding.py:168
 msgid ""
 "Click to set a new accelerator key for opening and closing the menu.  "
 msgstr ""
 "Κάντε κλικ για να ορίσετε ένα νέο πλήκτρο για το άνοιγμα και το κλείσιμο του "
 "Μενού.  "
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:172
+#: usr/lib/linuxmint/mintMenu/keybinding.py:169
 msgid "Press Escape or click again to cancel the operation.  "
 msgstr ""
 "Πατήστε το πλήκτρο Escape ή κάνετε ξανά κλικ για να ακυρώσετε την "
 "λειτουργία.  "
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:173
+#: usr/lib/linuxmint/mintMenu/keybinding.py:170
 msgid "Press Backspace to clear the existing keybinding."
 msgstr ""
 "Πατήστε το πλήκτρο Backspace για να καθαρίσετε τις υπάρχουσες συντομεύσεις "
 "πληκτρολογίου."
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:186
+#: usr/lib/linuxmint/mintMenu/keybinding.py:182
 msgid "Pick an accelerator"
 msgstr "Επιλέξτε επιταχυντή."
 
-#: usr/lib/linuxmint/mintMenu/keybinding.py:238
+#: usr/lib/linuxmint/mintMenu/keybinding.py:234
 msgid "<not set>"
 msgstr "<μη ορισμένο>"
 
-#: usr/lib/linuxmint/mintMenu/plugins/recent.py:32
-msgid "Recently used"
-msgstr "Πρόσφατα χρησιμοποιημένα"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:34
+msgid "Menu"
+msgstr "Μενού"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:187
-msgid "Search:"
-msgstr "Αναζήτηση:"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:178
+msgid "Couldn't load plugin:"
+msgstr "Αδυναμία φόρτωσης πρόσθετου:"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:191
-msgid "All applications"
-msgstr "Όλες οι εφαρμογές"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:243
+msgid "Couldn't initialize plugin"
+msgstr "Αδυναμία προετοιμασίας πρόσθετου"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:582
-#, python-format
-msgid "Search DuckDuckGo for %s"
-msgstr "Αναζήτηση DuckDuckGo για %s"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:661
+msgid "Advanced MATE Menu"
+msgstr "Προηγμένο Μενού MATE"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:589
-#, python-format
-msgid "Search Wikipedia for %s"
-msgstr "Αναζήτηση στο Wikipedia για %s"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:768
+msgid "Preferences"
+msgstr "Προτιμήσεις"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:605
-#, python-format
-msgid "Lookup %s in Dictionary"
-msgstr "Εύρεση του %s στο Λεξικό"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:771
+msgid "Edit menu"
+msgstr "Επεξεργασία μενού"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:612
-#, python-format
-msgid "Search Computer for %s"
-msgstr "Αναζήτηση στον Υπολογιστή για %s"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:774
+msgid "Reload plugins"
+msgstr "Επαναφόρτωση προσθέτων"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:690
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:743
-#, python-format
-msgid "Install package '%s'"
-msgstr "Εγκατάσταση πακέτου '%s'"
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:777
+msgid "About"
+msgstr "Σχετικά"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:876
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:946
-msgid "Add to desktop"
-msgstr "Προσθήκη στην επιφάνεια εργασίας"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:877
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:947
-msgid "Add to panel"
-msgstr "Προσθήκη στην γραμμή εργασιών"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:879
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:928
-msgid "Insert space"
-msgstr "Εισαγωγή διαστήματος"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:880
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:929
-msgid "Insert separator"
-msgstr "Εισαγωγή διαχωριστικού"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:882
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:950
-msgid "Launch when I log in"
-msgstr "Εκτέλεση κατά την είσοδό μου"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:884
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:952
-msgid "Launch"
-msgstr "Εκτέλεση"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:885
-msgid "Remove from favorites"
-msgstr "Αφαίρεση από τα αγαπημένα"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:887
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:956
-msgid "Edit properties"
-msgstr "Επεξεργασία ιδιοτήτων"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:927
-msgid "Remove"
-msgstr "Αφαίρεση"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:949
-msgid "Show in my favorites"
-msgstr "Εμφάνιση στα αγαπημένα μου"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:953
-msgid "Uninstall"
-msgstr "Απεγκατάσταση"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:954
-msgid "Delete from menu"
-msgstr "Διαγραφή από το μενού"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1011
-msgid "Search DuckDuckGo"
-msgstr "Αναζήτηση DuckDuckGo"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1018
-msgid "Search Wikipedia"
-msgstr "Αναζήτηση στο Wikipedia"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1028
-msgid "Lookup Dictionary"
-msgstr "Αναζήτηση στο λεξικό"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1035
-msgid "Search Computer"
-msgstr "Αναζήτηση στον Υπολογιστή"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1046
-msgid "Find Software"
-msgstr "Εύρεση Λογισμικού"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1053
-msgid "Find Tutorials"
-msgstr "Εύρεση Οδηγών Εκμάθησης"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1060
-msgid "Find Hardware"
-msgstr "Εύρεση Υλικού"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1067
-msgid "Find Ideas"
-msgstr "Εύρεση Ιδεών"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1074
-msgid "Find Users"
-msgstr "Εύρεση Χρηστών"
-
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1511
-msgid ""
-"Couldn't save favorites. Check if you have write access to "
-"~/.linuxmint/mintMenu"
+#: usr/lib/linuxmint/mintMenu/preferences.py:24
+msgid "Custom Place"
 msgstr ""
-"Δεν έγινε αποθήκευση των αγαπημένων. Ελέγξετε αν έχετε δικαίωμα εγγραφής στο "
-"~/.linuxmint/mintMenu"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1721
-msgid "All"
-msgstr "Όλα"
+#: usr/lib/linuxmint/mintMenu/preferences.py:35
+msgid "Name:"
+msgstr "Όνομα:"
 
-#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1721
-msgid "Show all applications"
-msgstr "Εμφάνιση όλων των εφαρμογών"
+#: usr/lib/linuxmint/mintMenu/preferences.py:39
+msgid "Select a folder"
+msgstr "Επιλέξτε ένα φάκελο"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:160
-msgid "Browse and install available software"
-msgstr "Εύρεση και εγκατάσταση διαθέσιμου λογισμικού"
+#: usr/lib/linuxmint/mintMenu/preferences.py:41
+msgid "Folder:"
+msgstr "Φάκελος:"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:167
-msgid "Install, remove and upgrade software packages"
-msgstr "Εγκατάσταση, αφαίρεση και αναβάθμιση πακέτων λογισμικού"
+#: usr/lib/linuxmint/mintMenu/preferences.py:67
+msgid "Menu button"
+msgstr "Πλήκτρο μενού"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:174
-msgid "Configure your system"
-msgstr "Ρυθμίστε το σύστημά σας"
+#: usr/lib/linuxmint/mintMenu/preferences.py:67
+msgid "Applet button in the panel"
+msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:184
-msgid "Use the command line"
-msgstr "Χρήση της γραμμής εντολών"
+#: usr/lib/linuxmint/mintMenu/preferences.py:68
+msgid "Show button icon"
+msgstr "Εμφάνιση εικονιδίου κουμπιού"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:191
-msgid "Requires password to unlock"
-msgstr "Απαιτείται ο κωδικός πρόσβασης για ξεκλείδωμα"
+#: usr/lib/linuxmint/mintMenu/preferences.py:69
+msgid "Button text"
+msgstr "Πλήκτρο κειμένου"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:194
+#: usr/lib/linuxmint/mintMenu/preferences.py:70
+msgid "Button icon"
+msgstr "Εικονίδιο πλήκτρου"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:75
+msgid "Keyboard shortcut"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:81
+msgid "Options"
+msgstr "Επιλογές"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:81
+msgid "General applet options"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:82
+msgid "Show system management"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:85
+msgid "Show places"
+msgstr "Εμφάνιση τοποθεσιών"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:88
+msgid "Show recently used documents and applications"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:92
+msgid "Show tooltips"
+msgstr "Εμφάνιση συμβουλών"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:96
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:96
+msgid "Custom colors and theme"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:97
+msgid "Use custom colors"
+msgstr "Χρήση προσαρμοσμένων χρωμάτων"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:98
+msgid "Headings"
+msgstr "Kεφαλίδες"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:99
+msgid "Background"
+msgstr "Παρασκήνιο"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:101
+msgid "Desktop theme"
+msgstr "Θέμα επιφάνειας εργασίας"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:111
+msgid "Theme:"
+msgstr "Θέμα:"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:113
+msgid "Icon sizes"
+msgstr "Μεγέθη εικονιδίων"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:113
+msgid "The size of the icons"
+msgstr "Το μέγεθος των εικονιδίων"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/share/linuxmint/mintmenu/applications.ui.h:1
+#: usr/share/linuxmint/mintmenu/preferences.ui.h:3
+msgid "Favorites"
+msgstr "Αγαπημένα"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:115
+#: usr/share/linuxmint/mintmenu/applications.ui.h:3
+#: usr/share/linuxmint/mintmenu/preferences.ui.h:4
+#: usr/share/linuxmint/mintmenu/recent.ui.h:2
+msgid "Applications"
+msgstr "Εφαρμογές"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:116
+#: usr/share/linuxmint/mintmenu/preferences.ui.h:5
+msgid "System"
+msgstr "Σύστημα"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:117
+#: usr/share/linuxmint/mintmenu/preferences.ui.h:6
+msgid "Places"
+msgstr "Τοποθεσίες"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:122
+#: usr/lib/linuxmint/mintMenu/preferences.py:140
+#: usr/lib/linuxmint/mintMenu/preferences.py:148
+#: usr/lib/linuxmint/mintMenu/preferences.py:164
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:122
+#: usr/lib/linuxmint/mintMenu/preferences.py:140
+#: usr/lib/linuxmint/mintMenu/preferences.py:148
+#: usr/lib/linuxmint/mintMenu/preferences.py:164
+msgid "Section layout"
+msgstr "Διάταξη τμήματος"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
+msgid "Show search bar on top"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:124
+msgid "Show applications comments"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
+msgid "Applications categories"
+msgstr "Κατηγορίες εφαρμογών"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
+msgid "Switch categories on hover"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:129
+msgid "Hover delay"
+msgstr "Καθυστέρηση περάσματος ποντικιού"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:129
+msgid "milliseconds"
+msgstr "χιλιοστά δευτερολέπτου"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:131
+msgid "Search"
+msgstr "Aναζήτηση"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:131
+msgid "Search options"
+msgstr "Επιλογές αναζήτησης"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:132
+msgid "Search for packages to install"
+msgstr "Αναζήτηση πακέτων προς εγκατάσταση"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:133
+msgid "Remember the last category or search"
+msgstr "Απομνημόνευση της τελευταίας κατηγορίας ή αναζήτησης"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:134
+msgid "Enable Internet search"
+msgstr "Ενεργοποίηση της αναζήτησης στο διαδίκτυο"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:135
+msgid "Search command"
+msgstr "Εντολή αναζήτησης"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:141
+msgid "Number of columns"
+msgstr "Πλήθος στηλών"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:142
+msgid "Swap name and generic name"
+msgstr "Εναλλαγή ονόματος και γενικού ονόματος"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:143
+msgid "Show favorites when the menu is open"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
+msgid "Custom height"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:150
+#: usr/lib/linuxmint/mintMenu/preferences.py:166
+msgid "Height"
+msgstr "Ύψος"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:152
+#: usr/lib/linuxmint/mintMenu/preferences.py:168
+msgid "Items"
+msgstr "Αντικείμενα"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:152
+#: usr/lib/linuxmint/mintMenu/preferences.py:168
+msgid "Toggle default items"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:153
+msgid "Software Manager"
+msgstr "Διαχειριστής Λογισμικού"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:154
+msgid "Package Manager"
+msgstr "Διαχειριστής Πακέτων"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:155
+msgid "Control Center"
+msgstr "Κέντρο Ελέγχου"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:156
+msgid "Terminal"
+msgstr "Τερματικό"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:157
+msgid "Lock Screen"
+msgstr "Κλείδωμα Οθόνης"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:158
 msgid "Logout"
 msgstr "Αποσύνδεση"
 
-#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:198
-msgid "Log out or switch user"
-msgstr "Αποσύνδεση ή αλλαγή χρήστη"
+#: usr/lib/linuxmint/mintMenu/preferences.py:159
+msgid "Quit"
+msgstr "Έξοδος"
 
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:144
-msgid ""
-"Browse all local and remote disks and folders accessible from this computer"
+#: usr/lib/linuxmint/mintMenu/preferences.py:169
+msgid "Computer"
+msgstr "Υπολογιστής"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:170
+msgid "Home Folder"
+msgstr "Προσωπικός φάκελος"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:171
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:172
+msgid "Desktop"
+msgstr "Επιφάνεια Εργασίας"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
+msgid "Trash"
+msgstr "Απορρίμματα"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:174
+msgid "GTK Bookmarks"
+msgstr "Σελιδοδείκτες GTK"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:176
+msgid "Custom places"
 msgstr ""
-"Περιήγηση σε όλους τους τοπικούς και απομακρυσμένους δίσκους που είναι "
-"προσβάσιμοι από αυτόν τον υπολογιστή"
 
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:154
-msgid "Open your personal folder"
-msgstr "Άνοιγμα του προσωπικού σας φακέλου"
-
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:169
-msgid "Browse bookmarked and local network locations"
-msgstr "Περιήγηση τοποθεσιών στους σελιδοδείκτες και στο τοπικό δίκτυο"
-
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:191
-msgid "Browse items placed on the desktop"
-msgstr "Αναζήτηση αντικειμένων στην επιφάνεια εργασίας"
-
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:205
-msgid "Browse deleted files"
-msgstr "Περιήγηση στα διεγραμμένα αρχεία"
-
-#: usr/lib/linuxmint/mintMenu/plugins/places.py:260
-msgid "Empty trash"
-msgstr "Άδειασμα απορριμμάτων"
-
-#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:44
-msgid ""
-"Couldn't save recent apps. Check if you have write access to "
-"~/.linuxmint/mintMenu"
+#: usr/lib/linuxmint/mintMenu/preferences.py:176
+msgid "You can add your own places in the menu"
 msgstr ""
-"Δεν ήταν δυνατή η αποθήκευση πρόσφατων εφαρμογών. Ελέγξτε αν έχετε πρόσβαση "
-"σε εγγραφή στο ~/.linuxmint/mintMenu"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:191
+msgid "Name"
+msgstr "Όνομα"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:192
+msgid "Path"
+msgstr "Διαδρομή"
+
+#: usr/share/linuxmint/mintmenu/applications.ui.h:2
+msgid "All applications"
+msgstr "Όλες οι εφαρμογές"
+
+#: usr/share/linuxmint/mintmenu/applications.ui.h:4
+msgid "Show additional search options"
+msgstr ""
+
+#: usr/share/linuxmint/mintmenu/preferences.ui.h:1
+msgid "General"
+msgstr "Γενικά"
+
+#: usr/share/linuxmint/mintmenu/preferences.ui.h:2
+msgid "Appearance"
+msgstr ""
+
+#: usr/share/linuxmint/mintmenu/preferences.ui.h:7
+msgid "Default"
+msgstr ""
+
+#: usr/share/linuxmint/mintmenu/recent.ui.h:1
+msgid "Documents"
+msgstr ""
 
 #~ msgid "Application removed successfully"
 #~ msgstr "Η εφαρμογή αφαιρέθηκε επιτυχώς"
@@ -567,6 +418,24 @@ msgstr ""
 #~ msgid "pixels"
 #~ msgstr "εικονοστοιχεία"
 
+#~ msgid "Show application comments"
+#~ msgstr "Εμφάνιση σχολίων εφαρμογής"
+
+#~ msgid "Headings:"
+#~ msgstr "Επικεφαλίδες:"
+
+#~ msgid "Background:"
+#~ msgstr "Φόντο:"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Αριθμός στηλών:"
+
+#~ msgid "Icon size:"
+#~ msgstr "Μέγεθος εικονιδίου:"
+
+#~ msgid "Search command:"
+#~ msgstr "Εντολή εύρεσης:"
+
 #~ msgid "File not found"
 #~ msgstr "Το αρχείο δεν βρέθηκε"
 
@@ -576,6 +445,9 @@ msgstr ""
 #, python-format
 #~ msgid "Search repositories for '%s'"
 #~ msgstr "Έρευνα στα αποθετήρια για '%s'"
+
+#~ msgid "Keyboard shortcut:"
+#~ msgstr "Συντόμευση πληκτρολογίου:"
 
 #~ msgid "Filter:"
 #~ msgstr "Φίλτρο:"
@@ -590,21 +462,131 @@ msgstr ""
 #~ msgid "Search portal for '%s'"
 #~ msgstr "Έρευνα της πύλης για '%s'"
 
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgid "Insert separator"
+#~ msgstr "Εισαγωγή διαχωριστικού"
+
+#~ msgid "Launch when I log in"
+#~ msgstr "Εκτέλεση κατά την είσοδό μου"
+
+#~ msgid "Insert space"
+#~ msgstr "Εισαγωγή διαστήματος"
+
+#~ msgid "Show in my favorites"
+#~ msgstr "Εμφάνιση στα αγαπημένα μου"
+
+#~ msgid "Uninstall"
+#~ msgstr "Απεγκατάσταση"
+
+#~ msgid "Remove from favorites"
+#~ msgstr "Αφαίρεση από τα αγαπημένα"
+
+#~ msgid "Launch"
+#~ msgstr "Εκτέλεση"
+
+#~ msgid "Install, remove and upgrade software packages"
+#~ msgstr "Εγκατάσταση, αφαίρεση και αναβάθμιση πακέτων λογισμικού"
+
+#~ msgid "Configure your system"
+#~ msgstr "Ρυθμίστε το σύστημά σας"
+
+#~ msgid "Show all applications"
+#~ msgstr "Εμφάνιση όλων των εφαρμογών"
+
+#~ msgid "Browse and install available software"
+#~ msgstr "Εύρεση και εγκατάσταση διαθέσιμου λογισμικού"
+
+#~ msgid "Open your personal folder"
+#~ msgstr "Άνοιγμα του προσωπικού σας φακέλου"
+
+#~ msgid ""
+#~ "Browse all local and remote disks and folders accessible from this computer"
+#~ msgstr ""
+#~ "Περιήγηση σε όλους τους τοπικούς και απομακρυσμένους δίσκους που είναι "
+#~ "προσβάσιμοι από αυτόν τον υπολογιστή"
+
+#~ msgid "Hover"
+#~ msgstr "Αιώρηση"
+
+#~ msgid "Button icon:"
+#~ msgstr "Εικονίδιο κουμπιού:"
+
+#~ msgid "Hover delay (ms):"
+#~ msgstr "Καθυστέρηση αιώρησης (ms)"
+
 #, python-format
 #~ msgid "Show package '%s'"
 #~ msgstr "Εμφάνιση πακέτου '%s'"
 
+#, python-format
+#~ msgid "Install package '%s'"
+#~ msgstr "Εγκατάσταση πακέτου '%s'"
+
+#~ msgid "All"
+#~ msgstr "Όλα"
+
+#~ msgid "Browse items placed on the desktop"
+#~ msgstr "Αναζήτηση αντικειμένων στην επιφάνεια εργασίας"
+
+#~ msgid "Browse bookmarked and local network locations"
+#~ msgstr "Περιήγηση τοποθεσιών στους σελιδοδείκτες και στο τοπικό δίκτυο"
+
+#~ msgid "Browse deleted files"
+#~ msgstr "Περιήγηση στα διεγραμμένα αρχεία"
+
 #~ msgid "Based on USP from S.Chanderbally"
 #~ msgstr "Βασισμένο στο USP (από τον S. Chanderbally)"
+
+#~ msgid "Button text:"
+#~ msgstr "Κείμενο πλήκτρου:"
+
+#~ msgid "Toggle Default Items:"
+#~ msgstr "Εναλλαγή Προεπιλεγμένων Στοιχείων:"
+
+#~ msgid "Allow Scrollbar"
+#~ msgstr "Ύπαρξη μπάρας κύλισης"
+
+#~ msgid "Height:"
+#~ msgstr "Ύψος:"
+
+#~ msgid "New Place"
+#~ msgstr "Νέα Τοποθεσία"
+
+#~ msgid "Edit Place"
+#~ msgstr "Επεξεργασία Τοποθεσίας"
+
+#~ msgid "Log Out"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Path:"
+#~ msgstr "Διαδρομή:"
 
 #~ msgid "Advanced Gnome Menu"
 #~ msgstr "Μενού Gnome για προχωρημένους"
 
+#~ msgid "Toggle Default Places:"
+#~ msgstr "Εναλλαγή Προεπιλεγμένων Τoποθεσιών:"
+
+#~ msgid "Custom Places:"
+#~ msgstr "Προσαρμοσμένες Τoποθεσίες:"
+
+#~ msgid "Empty trash"
+#~ msgstr "Άδειασμα απορριμμάτων"
+
 #~ msgid "Please wait, this can take some time"
 #~ msgstr "Παρακαλώ περιμένετε, αυτό μπορεί να πάρει λίγο χρόνο"
 
-#~ msgid "Colors"
-#~ msgstr "Χρώματα"
+#~ msgid "Log out or switch user"
+#~ msgstr "Αποσύνδεση ή αλλαγή χρήστη"
+
+#~ msgid ""
+#~ "Couldn't save favorites. Check if you have write access to "
+#~ "~/.linuxmint/mintMenu"
+#~ msgstr ""
+#~ "Δεν έγινε αποθήκευση των αγαπημένων. Ελέγξετε αν έχετε δικαίωμα εγγραφής στο "
+#~ "~/.linuxmint/mintMenu"
 
 #~ msgid "Border width:"
 #~ msgstr "Πλάτος περιγράμματος:"
@@ -614,6 +596,12 @@ msgstr ""
 
 #~ msgid "No matching package found"
 #~ msgstr "Δε βρέθηκε πακέτο που να ταιριάζει"
+
+#~ msgid "Use the command line"
+#~ msgstr "Χρήση της γραμμής εντολών"
+
+#~ msgid "Requires password to unlock"
+#~ msgstr "Απαιτείται ο κωδικός πρόσβασης για ξεκλείδωμα"
 
 #~ msgid "Do you want to remove this menu entry?"
 #~ msgstr "Θέλετε να αφαιρέσετε αυτήν την καταχώρηση από το μενού;"

@@ -7,98 +7,120 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-11-28 12:30+0000\n"
-"PO-Revision-Date: 2018-09-28 05:24+0000\n"
+"POT-Creation-Date: 2019-05-15 14:58+0100\n"
+"PO-Revision-Date: 2019-06-28 14:10+0000\n"
 "Last-Translator: Panwar <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:56+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:26+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:68
+#: usr/lib/linuxmint/mintSources/mintSources.py:75
 msgid "You are about to remove the following PPA:"
 msgstr "आप निम्नलिखित PPA हटाने वाले हैं:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:71
-#: usr/lib/linuxmint/mintSources/mintSources.py:144
+#: usr/lib/linuxmint/mintSources/mintSources.py:78
+#: usr/lib/linuxmint/mintSources/mintSources.py:158
 #, python-format
 msgid " More info: %s"
 msgstr " अधिक जानकारी: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:75
-#: usr/lib/linuxmint/mintSources/mintSources.py:148
+#: usr/lib/linuxmint/mintSources/mintSources.py:82
+#: usr/lib/linuxmint/mintSources/mintSources.py:162
 msgid "Press Enter to continue or Ctrl+C to cancel"
 msgstr "जारी रखने के लिए Enter व रद्द करने के लिए Ctrl+C दबाएँ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:79
-#: usr/lib/linuxmint/mintSources/mintSources.py:152
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
+#: usr/lib/linuxmint/mintSources/mintSources.py:166
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "प्रतिक्रिया का संकेत नहीं मिला। कृपया -y के साथ प्रयास करें"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:83
+#: usr/lib/linuxmint/mintSources/mintSources.py:90
 msgid "Cancelling..."
 msgstr "रद्द किया जा रहा है..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:86
+#: usr/lib/linuxmint/mintSources/mintSources.py:93
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "PPA के बारे में जानकारी नहीं मिली: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:106
+#: usr/lib/linuxmint/mintSources/mintSources.py:115
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "PPA हटाने में विफलता: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:120
+#: usr/lib/linuxmint/mintSources/mintSources.py:134
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "पैकेज-संग्रह हटाने में विफलता: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:127
+#: usr/lib/linuxmint/mintSources/mintSources.py:141
 msgid "Adding PPAs is not supported"
 msgstr "PPA जोड़ना समर्थित नहीं है"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:134
-#: usr/lib/linuxmint/mintSources/mintSources.py:1154
+#: usr/lib/linuxmint/mintSources/mintSources.py:148
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "PPA जोड़ी नहीं जा सकी: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:138
+#: usr/lib/linuxmint/mintSources/mintSources.py:152
 msgid "Adding private PPAs is not supported currently"
 msgstr "वर्तमान में, निजी PPA जोड़ना समर्थित नहीं है"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:141
+#: usr/lib/linuxmint/mintSources/mintSources.py:155
 msgid "You are about to add the following PPA:"
 msgstr "आप निम्नलिखित PPA जोड़ने वाले हैं:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:169
-#: usr/lib/linuxmint/mintSources/mintSources.py:1273
+#: usr/lib/linuxmint/mintSources/mintSources.py:185
+#: usr/lib/linuxmint/mintSources/mintSources.py:1487
 msgid "Malformed input, repository not added."
-msgstr ""
+msgstr "विकृत इनपुट, पैकेज-संग्रह जोड़ा नहीं गया।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:172
+#: usr/lib/linuxmint/mintSources/mintSources.py:188
 msgid "Repository already exists."
-msgstr ""
+msgstr "पैकेज-संग्रह पहले से मौजूद है।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:214
-#: usr/lib/linuxmint/mintSources/mintSources.py:217
+#: usr/lib/linuxmint/mintSources/mintSources.py:241
+msgid "Connection timed out, check your connection or try again later."
+msgstr ""
+"कनेक्शन स्थापित करने का समय समाप्त, अपना कनेक्शन जांचें या बाद में पुनः "
+"प्रयास करें।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:243
+msgid "Failed to establish a secure connection."
+msgstr "सुरक्षित कनेक्शन स्थापित करने में विफल।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:245
+#, python-format
+msgid "Failed to download the PPA: %s."
+msgstr "यह निजी पैकेज-संग्रह डाउनलोड करने में विफल : %s।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:254
+#: usr/lib/linuxmint/mintSources/mintSources.py:258
+msgid "No supported PPA of this name was found."
+msgstr "इस नाम का कोई समर्थित निजी पैकेज-संग्रह (पीपीए) नहीं मिला।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:266
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "यह PPA समर्थन नहीं करती %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:365
-#: usr/lib/linuxmint/mintSources/mintSources.py:403
+#: usr/lib/linuxmint/mintSources/mintSources.py:406
+#: usr/lib/linuxmint/mintSources/mintSources.py:446
 msgid "Sources"
 msgstr "स्रोत"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:374
+#: usr/lib/linuxmint/mintSources/mintSources.py:415
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (इंस्टॉल के लिए डिस्क)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:432
+#: usr/lib/linuxmint/mintSources/mintSources.py:427
+msgid "Local Repository"
+msgstr "स्थानीय पैकेज-संग्रह"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:475
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -110,174 +132,222 @@ msgstr ""
 "परीक्षण में भाग नहीं लेते हैं, तो इसे सक्रिय न करें। क्या आप रोमियो पैकेज-"
 "संग्रह को सक्रिय करना चाहते हैं?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:464
+#: usr/lib/linuxmint/mintSources/mintSources.py:507
 msgid "Select a mirror"
 msgstr "मिरर-सर्वर सर्वर चुनें"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:476
+#: usr/lib/linuxmint/mintSources/mintSources.py:519
 msgid "Country"
 msgstr "देश"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:481
+#: usr/lib/linuxmint/mintSources/mintSources.py:524
 msgid "URL"
 msgstr "URL"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:486
+#: usr/lib/linuxmint/mintSources/mintSources.py:529
 msgid "Speed"
 msgstr "गति"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:512
+#: usr/lib/linuxmint/mintSources/mintSources.py:555
 msgid "Worldwide"
 msgstr "विश्वव्यापी"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:590
-#: usr/lib/linuxmint/mintSources/mintSources.py:604
+#: usr/lib/linuxmint/mintSources/mintSources.py:633
+#: usr/lib/linuxmint/mintSources/mintSources.py:647
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:593
+#: usr/lib/linuxmint/mintSources/mintSources.py:636
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:596
+#: usr/lib/linuxmint/mintSources/mintSources.py:639
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:639
+#: usr/lib/linuxmint/mintSources/mintSources.py:682
 msgid "Obsolete"
 msgstr "पुराने"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:642
+#: usr/lib/linuxmint/mintSources/mintSources.py:685
 msgid "Unreachable"
 msgstr "पहुँच से बाहर"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:766 generate_desktop_files:25
+#: usr/lib/linuxmint/mintSources/mintSources.py:809 generate_desktop_files:25
 #: generate_desktop_files:53
 msgid "Software Sources"
 msgstr "सॉफ्टवेयर स्रोत"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:784
+#: usr/lib/linuxmint/mintSources/mintSources.py:827
 msgid "Backported packages"
 msgstr "बैकपोर्ट किए गए पैकेज"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:786
+#: usr/lib/linuxmint/mintSources/mintSources.py:829
 msgid "Unstable packages"
 msgstr "अस्थिर पैकेज"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:799
+#: usr/lib/linuxmint/mintSources/mintSources.py:842
 msgid "Main"
 msgstr "मुख्य"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:800
+#: usr/lib/linuxmint/mintSources/mintSources.py:843
 msgid "Base"
 msgstr "मूल"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:876
-#: usr/lib/linuxmint/mintSources/mintSources.py:902
+#: usr/lib/linuxmint/mintSources/mintSources.py:885
+#: usr/lib/linuxmint/mintSources/mintSources.py:909
 msgid "Enabled"
 msgstr "सक्रिय हैं"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:882
+#: usr/lib/linuxmint/mintSources/mintSources.py:891
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:908
+#: usr/lib/linuxmint/mintSources/mintSources.py:915
 msgid "Repository"
 msgstr "पैकेज-संग्रह"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:926
+#: usr/lib/linuxmint/mintSources/mintSources.py:931
 msgid "Key"
 msgstr "कुंजी"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1016
+#: usr/lib/linuxmint/mintSources/mintSources.py:1069
 msgid "There is no more residual configuration on the system."
 msgstr "सिस्टम में कोई अवशिष्ट विन्यास नहीं है।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1022
+#: usr/lib/linuxmint/mintSources/mintSources.py:1078
 msgid "The problem was fixed. Please reload the cache."
 msgstr "समस्या हल हो गई। कृपया cache को पुनः लोड करें।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1062
+#: usr/lib/linuxmint/mintSources/mintSources.py:1121
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr ""
+msgstr "प्रतिरूपित प्रविष्टियों को हटा दिया गया था। कृपया कैश पुनः लोड करें।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1065
+#: usr/lib/linuxmint/mintSources/mintSources.py:1127
 msgid "No duplicate entries were found."
-msgstr ""
+msgstr "कोई प्रतिरूपित प्रविष्टि नहीं मिली।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1101
+#: usr/lib/linuxmint/mintSources/mintSources.py:1140
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr "APT विन्यास सेटिंग्स में त्रुटि, आप पहले कैश को पुनः लोड करें।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1235
+msgid "All missing keys were successfully added."
+msgstr "सभी अनुपस्थित कुंजियों को सफलतापूर्वक जोड़ दिया गया।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1237
+msgid "Not all missing keys could be found."
+msgstr "सभी अनुपस्थित कुंजियों नहीं मिल सकीं।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1240
+msgid "Keys were added for the following repositories:"
+msgstr "निम्नलिखित पैकेज-संग्रह हेतु कुंजियाँ जोड़ी गईं :"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1245
+msgid "Keys are still missing for the following repositories:"
+msgstr "निम्नलिखित पैकेज-संग्रह हेतु कुंजियाँ अभी भी अनुपस्थित हैं :"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1246
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories or PPAs."
+msgstr ""
+"शेष अनुपस्थित कुंजी/कुंजियों को मैन्युअल रूप से जोड़ें या संबंधित पैकेज-"
+"संग्रहों या निजी पैकेज-संग्रहों(पीपीए) को हटा दें।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1255
+msgid "Please reload the cache."
+msgstr "कृपया कैश पुनः लोड करें।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1260
+msgid "No missing keys were found."
+msgstr "कोई अनुपस्थित कुंजी नहीं मिली।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1296
 msgid "Open.."
 msgstr "खोलें"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1104
-#: usr/lib/linuxmint/mintSources/mintSources.py:1354
-#: usr/lib/linuxmint/mintSources/mintSources.py:1489
+#: usr/lib/linuxmint/mintSources/mintSources.py:1299
+#: usr/lib/linuxmint/mintSources/mintSources.py:1567
+#: usr/lib/linuxmint/mintSources/mintSources.py:1701
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
 msgid "Cancel"
 msgstr "रद्द करें"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1105
+#: usr/lib/linuxmint/mintSources/mintSources.py:1300
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "Open"
 msgstr "खोलें"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1117
+#: usr/lib/linuxmint/mintSources/mintSources.py:1312
 msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr ""
+"कृपया उस सार्वजनिक कुंजी का फिंगरप्रिंट दर्ज करें जिसे आप "
+"keyserver.ubuntu.com से डाउनलोड करना चाहते हैं।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1130
+#: usr/lib/linuxmint/mintSources/mintSources.py:1329
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "क्या आप इस key को हमेशा के लिए हटा देना चाहते हैं?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1147
-msgid "Please enter the name of the PPA you want to add:"
-msgstr "कृपया उस PPA का नाम दर्ज करें जिसे आप जोड़ना चाहते हैं:"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1347
+msgid "Please enter the name or the URL of the PPA you want to add:"
+msgstr ""
+"कृपया उस निजी पैकेज-संग्रह(पीपीए) का नाम या URL दर्ज करें जिसे आप जोड़ना "
+"चाहते हैं :"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1198
+#: usr/lib/linuxmint/mintSources/mintSources.py:1356
+msgid "The name of the PPA you entered isn't formatted correctly."
+msgstr ""
+"आपके द्वारा दर्ज  निजी पैकेज-संग्रह(पीपीए) का नाम सही रूप में प्रारूपित नहीं "
+"है।"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1412
 msgid "Edit the URL of the PPA"
 msgstr "PPA का URL संपादित करें"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1208
+#: usr/lib/linuxmint/mintSources/mintSources.py:1422
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "क्या आप इस PPA को हमेशा के लिए हटा देना चाहते हैं?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1249
+#: usr/lib/linuxmint/mintSources/mintSources.py:1463
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
 "इस PPA की सामग्री उपलब्ध नहीं है। कृपया cache रिफ्रेश कर पुन: प्रयास करें।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1268
+#: usr/lib/linuxmint/mintSources/mintSources.py:1482
 msgid "Please enter the name of the repository you want to add:"
 msgstr "कृपया उस पैकेज-संग्रह का नाम दर्ज करें जिसे आप जोड़ना चाहते हैं:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1285
+#: usr/lib/linuxmint/mintSources/mintSources.py:1499
 msgid ""
 "This repository is already configured, you cannot add it a second time."
 msgstr ""
+"यह पैकेज-संग्रह पहले से ही विन्यस्त है, आप इसे दोबारा नहीं जोड़ सकते।"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1292
+#: usr/lib/linuxmint/mintSources/mintSources.py:1506
 msgid "Edit the URL of the repository"
 msgstr "पैकेज-संग्रह का URL संपादित करें"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1302
+#: usr/lib/linuxmint/mintSources/mintSources.py:1516
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "क्या आप इस पैकेज-संग्रह को हमेशा के लिए हटा देना चाहते हैं?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1355
-#: usr/lib/linuxmint/mintSources/mintSources.py:1488
+#: usr/lib/linuxmint/mintSources/mintSources.py:1568
+#: usr/lib/linuxmint/mintSources/mintSources.py:1700
 msgid "OK"
 msgstr "ठीक है"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1484
+#: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Your configuration changed"
 msgstr "आपकी विन्यास सेटिंग्स बदल गई है"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1484
+#: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Click OK to update your APT cache"
 msgstr "अपनी कैश अपडेट करने हेतु ठीक है दबाएँ"
 
@@ -322,7 +392,7 @@ msgstr ""
 ":"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:197
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:227
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
 msgstr "सभी चुनें"
@@ -339,11 +409,11 @@ msgstr "इंस्टॉल हो रखा संस्करण"
 msgid "Repository version"
 msgstr "पैकेज-संग्रह संस्करण"
 
-#: usr/lib/linuxmint/mintSources/foreign_packages.py:200
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:230
 msgid "Clear"
 msgstr "हटाएँ"
 
-#: usr/bin/add-apt-repository:10
+#: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
 msgstr "त्रुटि : रुट के रूप में शुरू किया जाना चाहिए"
 
@@ -427,29 +497,33 @@ msgstr "अवशिष्ट विन्यास मिटाएँ"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Remove duplicate entries"
-msgstr ""
+msgstr "प्रतिरूपित प्रविष्टियों को हटाएँ"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
+msgid "Add missing keys"
+msgstr "अनुपस्थित कुंजियाँ जोड़ें"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Remove foreign packages"
 msgstr "बाहरी पैकेज हटाएँ"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Downgrade foreign packages"
 msgstr "बाहरी पैकेज डाउनग्रेड करें"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Maintenance"
 msgstr "रखरखाव"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid "Select Mirror"
 msgstr "मिरर-सर्वर चुनें"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Apply"
 msgstr "लागू करें"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
@@ -457,6 +531,6 @@ msgstr ""
 "यह PPA(बाहरी पैकेज-संग्रह) निम्नलिखित पैकेज प्रदान करता है। कृपया वे पैकेज "
 "चुनें जिन्हें आप इंस्टॉल करना चाहते हैं।"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Install"
 msgstr "इंस्‍टॉल करें"

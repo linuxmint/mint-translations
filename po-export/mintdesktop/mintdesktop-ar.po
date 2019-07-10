@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-31 13:55+0100\n"
-"PO-Revision-Date: 2018-06-02 19:20+0000\n"
-"Last-Translator: fahad jameel <Unknown>\n"
+"POT-Creation-Date: 2019-06-03 10:16+0100\n"
+"PO-Revision-Date: 2019-02-27 21:33+0000\n"
+"Last-Translator: Ibrahim Saed <ibraheem5000@gmail.com>\n"
 "Language-Team: anwar AL_iskandrany <anwareleskndrany13@gmail.com >\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-12-11 11:50+0000\n"
-"X-Generator: Launchpad (build 18837)\n"
+"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
+"X-Generator: Launchpad (build 19007)\n"
 "Language: ar_EG\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
@@ -34,7 +34,7 @@ msgid "Here's a description of some of the window managers available."
 msgstr "فيما يلي وصف لبعض مديري النوافذ المتاحة."
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:282
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:146
 msgid "Marco"
 msgstr "Marco"
 
@@ -54,7 +54,7 @@ msgstr ""
 "إذا لم يتم تثبيت Marco بالفعل، فيمكنك تثبيته مع <cmd>apt install marco</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:287
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
 msgid "Metacity"
 msgstr "Metacity"
 
@@ -75,7 +75,7 @@ msgstr ""
 "metacity</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:292
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:156
 msgid "Xfwm4"
 msgstr "Xfwm4"
 
@@ -95,7 +95,7 @@ msgstr ""
 "إذا لم يتم تثبيت Xfwm4 بالفعل، فيمكنك تثبيته مع <cmd>apt install xfwm4</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165
 msgid "Compiz"
 msgstr "Compiz"
 
@@ -137,7 +137,7 @@ msgstr ""
 "compton</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:297
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
 msgid "Openbox"
 msgstr "Openbox"
 
@@ -154,7 +154,7 @@ msgstr ""
 "openbox</cmd>."
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190 generate_desktop_files:28
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:113 generate_desktop_files:26
 msgid "Desktop Settings"
 msgstr "إعدادات سطح المكتب"
 
@@ -163,7 +163,7 @@ msgid "Welcome to Desktop Settings."
 msgstr "مرحبًا بك في إعدادات سطح المكتب."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:82
 msgid "Windows"
 msgstr "النوافذ"
 
@@ -188,33 +188,6 @@ msgstr "أحداث النوافذ (نقل، تغيير الحجم، تركيز �
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
 msgstr "التركيب (الظلال، والحركة، التأثيرات، وتقديم الجرافيك)"
-
-#: usr/share/help/C/mintdesktop/index.page:33(title)
-msgid "Terminal"
-msgstr "المحطة الطرفية"
-
-#: usr/share/help/C/mintdesktop/index.page:34(p)
-msgid ""
-"The terminal section lets you enable or disable <gui>fortune cookies</gui>."
-msgstr ""
-"يتيح لك قسم المحطة الطرفية تمكين أو تعطيل <strong>ملفات تعريف الارتباط</gui>."
-
-#: usr/share/help/C/mintdesktop/index.page:35(p)
-msgid ""
-"If this option is enabled, each time you open a terminal, a little animal "
-"appears and says some randomly picked humoristic message."
-msgstr ""
-"إذا تم تمكين هذا الخيار، ففي كل مرة تفتح فيها المحطة الطرفية، يظهر حيوان "
-"صغير ويقول بعض الرسائل الفكاهية المختارة عشوائياً."
-
-#: usr/share/help/C/mintdesktop/index.page:36(p)
-msgid ""
-"Some people might find some of the messages offensive (that's why this "
-"option is disabled by default). Please note that these messages are not "
-"authored by Linux Mint."
-msgstr ""
-"قد يجد بعض الأشخاص بعض الرسائل المسيئة (ولهذا السبب يتم تعطيل هذا الخيار "
-"افتراضياً). يرجى ملاحظة أن هذه الرسائل ليست من تأليف Linux Mint."
 
 #: usr/share/help/C/mintdesktop/compositing.page:16(title)
 msgid "Pros and cons of compositing"
@@ -271,6 +244,7 @@ msgstr ""
 "  Awad Habashi عوض الحبشى https://launchpad.net/~awdhbshi\n"
 "  Faissal Chamekh https://launchpad.net/~chamfay\n"
 "  Hadi Al-Marri https://launchpad.net/~qataruk-h\n"
+"  Ibrahim Saed https://launchpad.net/~ibraheem5000\n"
 "  Khaled Ebrahim https://launchpad.net/~kheb222\n"
 "  ahmed80dz https://launchpad.net/~ounis-ahmed\n"
 "  fahad jameel https://launchpad.net/~fahad.is\n"
@@ -282,154 +256,80 @@ msgstr ""
 "  saudi linux https://launchpad.net/~saudi-unix\n"
 "  انور الاسكندرانى https://launchpad.net/~anwar13"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:81
 msgid "Desktop"
 msgstr "سطح المكتب"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:153
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:83
 msgid "Interface"
 msgstr "الواجهة"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
 msgid "Desktop icons"
 msgstr "أيقونات سطح المكتب"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:195
-msgid "Marco settings"
-msgstr "إعدادات Marco"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
-msgid "Metacity settings"
-msgstr "إعدادات Metacity"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
-msgid "Compiz settings"
-msgstr "إعدادات Compiz"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
-msgid "Configure Compiz"
-msgstr "تكوين Compiz"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
-msgid "Reset Compiz settings"
-msgstr "إعادة تعيين إعدادات Compiz"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
-msgid "Icons"
-msgstr "الأيقونات"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
-msgid "Toolbars"
-msgstr "أشرطة الأدوات"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:202
-msgid "Window Manager"
-msgstr "مدير النافذة"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
 msgid "Select the items you want to see on the desktop:"
 msgstr "حدد العناصر التي تريد رؤيتها على سطح المكتب:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:122
 msgid "Computer"
 msgstr "الكمبيوتر"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:207
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:123
 msgid "Home"
 msgstr "المجلد الرئيسي"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:208
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:124
 msgid "Network"
 msgstr "الشبكة"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:209
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
 msgid "Trash"
 msgstr "سلة المهملات"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
 msgid "Mounted Volumes"
 msgstr "وحدات التخزين المحملة"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:212
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:215
-msgid "Don't show window content while dragging them"
-msgstr "عدم عرض محتوى النافذة أثناء سحبها"
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
+msgid "Window Manager"
+msgstr "مدير النافذة"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:213
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:216
-msgid "Use system font in titlebar"
-msgstr "استخدم خط النظام في شريط العنوان"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:214
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:217
-msgid "Buttons layout:"
-msgstr "تخطيط الأزرار:"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:219
-msgid "Show icons on menus"
-msgstr "عرض الأيقونات على القوائم"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:220
-msgid "Show icons on buttons"
-msgstr "عرض الأيقونات على الأزرار"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
-msgid "Buttons labels:"
-msgstr "تسميات الأزرار:"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
-msgid "Icon size:"
-msgstr "حجم الأيقونة:"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:250
-msgid "Traditional style (Right)"
-msgstr "النمط التقليدي (يمين)"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:251
-msgid "Mac style (Left)"
-msgstr "نمط Mac (يسار)"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:267
-msgid "Small"
-msgstr "صغير"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:268
-msgid "Large"
-msgstr "كبير"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:283
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:147
 msgid "Marco + Compositing"
 msgstr "Marco + Compositing"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:285
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:149
 msgid "Marco + Compton"
 msgstr "Marco + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:288
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
 msgid "Metacity + Compositing"
 msgstr "Metacity + Compositing"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:290
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:154
 msgid "Metacity + Compton"
 msgstr "Metacity + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:293
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:157
 msgid "Xfwm4 + Compositing"
 msgstr "Xfwm4 + Compositing"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:295
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
 msgid "Xfwm4 + Compton"
 msgstr "Xfwm4 + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:299
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
 msgid "Openbox + Compton"
 msgstr "Openbox + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:303
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:167
 msgid "Awesome"
 msgstr "رائع"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:307
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
@@ -439,39 +339,119 @@ msgstr ""
 "استخدم أمر 'wm-recovery' للرجوع إلى مدير النوافذ الافتراضي.\n"
 "استخدم الأمر \"wm-detect\" للتحقق من تشغيل مدير النوافذ."
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:314
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Auto"
 msgstr "تلقائي"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:315
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
 msgid "Normal"
 msgstr "طبيعي"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:316
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
 msgid "Double (HiDPI)"
-msgstr ""
+msgstr "مُضاعف (دقة عالية (HiDPI))"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:319
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
 msgid "User interface scaling"
+msgstr "تغيير حجم واجهة المستخدم"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:180
+msgid "Marco settings"
+msgstr "إعدادات Marco"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
+msgid "Use system font in titlebar"
+msgstr "استخدم خط النظام في شريط العنوان"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
+msgid "Don't show window content while dragging them"
+msgstr "عدم عرض محتوى النافذة أثناء سحبها"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
+msgid "Traditional style (Right)"
+msgstr "النمط التقليدي (يمين)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
+msgid "Mac style (Left)"
+msgstr "نمط Mac (يسار)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
+msgid "Buttons layout:"
+msgstr "تخطيط الأزرار:"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
+msgid "Buttons layout (CSD windows):"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:326
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
+msgid "Metacity settings"
+msgstr "إعدادات Metacity"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
+msgid "Compiz settings"
+msgstr "إعدادات Compiz"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
+msgid "Configure Compiz"
+msgstr "تكوين Compiz"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
+msgid "Reset Compiz settings"
+msgstr "إعادة تعيين إعدادات Compiz"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:221
+msgid "Icons"
+msgstr "الأيقونات"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
+msgid "Show icons on menus"
+msgstr "عرض الأيقونات على القوائم"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
+msgid "Show icons on buttons"
+msgstr "عرض الأيقونات على الأزرار"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:225
+msgid "Toolbars"
+msgstr "أشرطة الأدوات"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
 msgid "Text below items"
 msgstr "النص أسفل العناصر"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:327
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:229
 msgid "Text beside items"
 msgstr "النص بجانب العناصر"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:328
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:230
 msgid "Icons only"
 msgstr "الأيقونات فقط"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:329
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
 msgid "Text only"
 msgstr "النص فقط"
 
-#: generate_desktop_files:28
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
+msgid "Buttons labels:"
+msgstr "تسميات الأزرار:"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:235
+msgid "Small"
+msgstr "صغير"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:236
+msgid "Large"
+msgstr "كبير"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:237
+msgid "Icon size:"
+msgstr "حجم الأيقونة:"
+
+#: generate_desktop_files:26
 msgid "Fine-tune desktop settings"
 msgstr "ضبط إعدادات سطح المكتب بدقة"
 
