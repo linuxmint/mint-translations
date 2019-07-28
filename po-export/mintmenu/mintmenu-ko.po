@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-29 18:11+0200\n"
-"PO-Revision-Date: 2019-05-21 10:38+0000\n"
+"POT-Creation-Date: 2019-07-22 13:45+0200\n"
+"PO-Revision-Date: 2019-07-23 04:49+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
-"X-Generator: Launchpad (build 19007)\n"
+"X-Launchpad-Export-Date: 2019-07-28 09:29+0000\n"
+"X-Generator: Launchpad (build 19010)\n"
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:168
 msgid ""
@@ -42,31 +42,31 @@ msgstr "<설정 안함>"
 msgid "Menu"
 msgstr "메뉴"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:178
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:154
 msgid "Couldn't load plugin:"
 msgstr "플러그인을 불러올 수 없습니다:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:243
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:213
 msgid "Couldn't initialize plugin"
 msgstr "플러그인을 초기화할 수 없음"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:661
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:586
 msgid "Advanced MATE Menu"
 msgstr "MATE 고급 설정 메뉴"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:768
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:693
 msgid "Preferences"
 msgstr "환경설정"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:771
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:696
 msgid "Edit menu"
 msgstr "메뉴 편집"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:774
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:699
 msgid "Reload plugins"
 msgstr "재시작"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:777
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:702
 msgid "About"
 msgstr "소개"
 
@@ -139,233 +139,434 @@ msgid "Show tooltips"
 msgstr "도움말 보이기"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Colors"
-msgstr "색상"
+msgid "Theme"
+msgstr "테마"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Custom colors and theme"
-msgstr "사용자 지정 색상과 테마"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:97
-msgid "Use custom colors"
-msgstr "사용자 정의 색상 사용"
+msgid "Custom theme selection"
+msgstr "사용자 테마 모음"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:98
-msgid "Headings"
-msgstr "머리말"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:99
-msgid "Background"
-msgstr "배경화면"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:101
 msgid "Desktop theme"
 msgstr "데스크톱 테마"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:111
+#: usr/lib/linuxmint/mintMenu/preferences.py:108
 msgid "Theme:"
 msgstr "테마:"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "Icon sizes"
 msgstr "아이콘 크기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "The size of the icons"
 msgstr "아이콘의 크기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/preferences.py:111
 #: usr/share/linuxmint/mintmenu/applications.ui.h:1
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:3
 msgid "Favorites"
 msgstr "즐겨찾기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:115
+#: usr/lib/linuxmint/mintMenu/preferences.py:112
 #: usr/share/linuxmint/mintmenu/applications.ui.h:3
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:4
 #: usr/share/linuxmint/mintmenu/recent.ui.h:2
 msgid "Applications"
 msgstr "애플리케이션"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:116
+#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:41
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:5
 msgid "System"
 msgstr "시스템"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:117
+#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:46
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:6
 msgid "Places"
 msgstr "장소"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Layout"
 msgstr "레이아웃"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Section layout"
 msgstr "섹션 레이아웃"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:123
+#: usr/lib/linuxmint/mintMenu/preferences.py:120
 msgid "Show search bar on top"
 msgstr "검색창 보이기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:124
+#: usr/lib/linuxmint/mintMenu/preferences.py:121
 msgid "Show applications comments"
 msgstr "애플리케이션 코멘트 보이기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Categories"
 msgstr "카테고리"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Applications categories"
 msgstr "애플리케이션 카테고리"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:127
+#: usr/lib/linuxmint/mintMenu/preferences.py:124
 msgid "Show category icons"
 msgstr "카테고리 아이콘 보이기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:128
+#: usr/lib/linuxmint/mintMenu/preferences.py:125
 msgid "Switch categories on hover"
 msgstr "호버로 카테고리 바꾸기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "Hover delay"
 msgstr "호버 지연 시간"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "milliseconds"
 msgstr "천분의 일초"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search"
 msgstr "검색"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search options"
 msgstr "검색 옵션"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:132
+#: usr/lib/linuxmint/mintMenu/preferences.py:129
 msgid "Search for packages to install"
 msgstr "설치할 패키지 검색"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:133
+#: usr/lib/linuxmint/mintMenu/preferences.py:130
 msgid "Remember the last category or search"
 msgstr "마지막 카테고리 또는 검색 내용 저장"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:134
+#: usr/lib/linuxmint/mintMenu/preferences.py:131
 msgid "Enable Internet search"
 msgstr "인터넷 검색 설정"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:135
+#: usr/lib/linuxmint/mintMenu/preferences.py:132
 msgid "Search command"
 msgstr "검색 명령어"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:141
+#: usr/lib/linuxmint/mintMenu/preferences.py:138
 msgid "Number of columns"
 msgstr "열의 수"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:142
+#: usr/lib/linuxmint/mintMenu/preferences.py:139
 msgid "Swap name and generic name"
 msgstr "이름과 분류명 바꾸기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:143
+#: usr/lib/linuxmint/mintMenu/preferences.py:140
 msgid "Show favorites when the menu is open"
 msgstr "메뉴를 열 때 즐겨찾기 보이기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:149
-#: usr/lib/linuxmint/mintMenu/preferences.py:165
+#: usr/lib/linuxmint/mintMenu/preferences.py:146
+#: usr/lib/linuxmint/mintMenu/preferences.py:162
 msgid "Custom height"
 msgstr "사용자 지정 높이"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:150
-#: usr/lib/linuxmint/mintMenu/preferences.py:166
+#: usr/lib/linuxmint/mintMenu/preferences.py:147
+#: usr/lib/linuxmint/mintMenu/preferences.py:163
 msgid "Height"
 msgstr "높이"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
 msgid "Items"
 msgstr "항목"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
 msgid "Toggle default items"
 msgstr "기본 아이템 토글"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/preferences.py:150
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:147
 msgid "Software Manager"
 msgstr "소프트웨어 매니저"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/preferences.py:151
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:154
 msgid "Package Manager"
 msgstr "패키지 매니저"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/preferences.py:152
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:161
 msgid "Control Center"
 msgstr "제어판"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:168
 msgid "Terminal"
 msgstr "터미널"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:157
+#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:178
 msgid "Lock Screen"
 msgstr "화면 잠그기"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:158
+#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:185
 msgid "Logout"
 msgstr "로그아웃"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:159
+#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:192
 msgid "Quit"
 msgstr "종료"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/preferences.py:166
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:137
 msgid "Computer"
 msgstr "컴퓨터"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/preferences.py:167
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:144
 msgid "Home Folder"
 msgstr "홈 폴더"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:171
+#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:156
 msgid "Network"
 msgstr "네트워크"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:172
+#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:175
 msgid "Desktop"
 msgstr "바탕화면"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:173
+#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:182
 msgid "Trash"
 msgstr "휴지통"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:174
+#: usr/lib/linuxmint/mintMenu/preferences.py:171
 msgid "GTK Bookmarks"
 msgstr "GTK 북마크"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "Custom places"
 msgstr "사용자 지정 장소"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "You can add your own places in the menu"
 msgstr "메뉴에 여러분이 지정하는 장소를 추가할 수 있습니다"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:191
+#: usr/lib/linuxmint/mintMenu/preferences.py:188
 msgid "Name"
 msgstr "이름"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:192
+#: usr/lib/linuxmint/mintMenu/preferences.py:189
 msgid "Path"
 msgstr "경로"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:624
+#, python-format
+msgid "Search DuckDuckGo for %s"
+msgstr "DuckDuckGo로 %s 검색하기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:626
+#, python-format
+msgid "Search Wikipedia for %s"
+msgstr "Wikipedia로 %s 검색하기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:629
+#, python-format
+msgid "Lookup %s in Dictionary"
+msgstr "사전에서 %s 찾아보기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:631
+#, python-format
+msgid "Search Computer for %s"
+msgstr "컴퓨터에서 %s 검색하기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:689
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:731
+#, python-format
+msgid "Install package '%s'"
+msgstr "패키지 '%s'을(를) 설치"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:835
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:906
+msgid "Add to desktop"
+msgstr "바탕화면에 추가"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:836
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:907
+msgid "Add to panel"
+msgstr "패널에 추가"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:838
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:884
+msgid "Insert space"
+msgstr "공백 넣기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:839
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:885
+msgid "Insert separator"
+msgstr "분리선 넣기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:841
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:910
+msgid "Launch when I log in"
+msgstr "로그인 시 자동시작"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:843
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:912
+msgid "Launch"
+msgstr "실행"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:844
+msgid "Remove from favorites"
+msgstr "즐겨찾기에서 제거"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:846
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:916
+msgid "Edit properties"
+msgstr "속성 편집"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:883
+msgid "Remove"
+msgstr "제거"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:909
+msgid "Show in my favorites"
+msgstr "즐겨찾기에 추가"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:913
+msgid "Uninstall"
+msgstr "프로그램 제거"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:914
+msgid "Delete from menu"
+msgstr "메뉴에서 제거"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:979
+msgid "Search DuckDuckGo"
+msgstr "DuckDuckGo 검색"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:980
+msgid "Search Wikipedia"
+msgstr "Wikipedia 검색"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:982
+msgid "Search Dictionary"
+msgstr "사전에서 찾기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:983
+msgid "Search Computer"
+msgstr "컴퓨터에서 찾기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:985
+msgid "Find Software"
+msgstr "소프트웨어 찾기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:986
+msgid "Find Tutorials"
+msgstr "사용 안내서 찾기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:987
+msgid "Find Hardware"
+msgstr "하드웨어 찾기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:988
+msgid "Find Ideas"
+msgstr "아이디어 찾기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:989
+msgid "Find Users"
+msgstr "사용자 찾기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1395
+msgid ""
+"Couldn't save favorites. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr "즐겨찾기 목록을 저장하지 못하였습니다. ~/.linuxmint/mintMenu에 쓰기 권한이 있는지 확인하십시오"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1617
+msgid "All"
+msgstr "모든 애플리케이션"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1619
+msgid "Show all applications"
+msgstr "모든 애플리케이션을 표시합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:141
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr "이 컴퓨터에서 접근할 수 있는 로컬 및 원격 저장소와 디렉토리를 탐색합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:148
+msgid "Open your personal folder"
+msgstr "사용자의 개인 폴더를 엽니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:160
+msgid "Browse bookmarked and local network locations"
+msgstr "즐겨찾기한 위치 및 로컬 네트워크의 위치를 탐색합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:179
+msgid "Browse items placed on the desktop"
+msgstr "바탕화면의 항목들을 봅니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:189
+msgid "Browse deleted files"
+msgstr "휴지통의 파일을 봅니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:238
+msgid "Empty trash"
+msgstr "휴지통 비우기"
+
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:40
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr "최근 사용 앱을 저장하지 못했습니다. 쓰기 권한이 있으시면 ~/.linuxmint/mintMenu에서 확인해 보세요"
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:39
+msgid "Recently used"
+msgstr "최근 사용 기록"
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:169
+msgid "The file or location could not be opened."
+msgstr "파일이나 위치를 열 수 없습니다."
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:151
+msgid "Browse and install available software"
+msgstr "사용 가능한 소프트웨어를 찾고 설치합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:158
+msgid "Install, remove and upgrade software packages"
+msgstr "패키지를 설치, 제거 또는 업그레이드합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:165
+msgid "Configure your system"
+msgstr "시스템 설정을 변경합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:175
+msgid "Use the command line"
+msgstr "명령행을 사용합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:182
+msgid "Requires password to unlock"
+msgstr "잠금을 해제하려면 암호가 필요합니다"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:189
+msgid "Log out or switch user"
+msgstr "로그아웃하거나 사용자를 바꿉니다."
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:196
+msgid "Shutdown, restart, suspend or hibernate"
+msgstr "시스템을 종료, 재시작 또는 대기상태로 전환합니다"
 
 #: usr/share/linuxmint/mintmenu/applications.ui.h:2
 msgid "All applications"
@@ -397,6 +598,9 @@ msgstr "문서"
 #~ msgid "Based on USP from S.Chanderbally"
 #~ msgstr "S.Chanderbally의 USP에 기반을 두었음"
 
+#~ msgid "Use custom colors"
+#~ msgstr "사용자 정의 색상 사용"
+
 #~ msgid "No matching package found"
 #~ msgstr "해당되는 패키지를 찾을 수 없습니다"
 
@@ -408,6 +612,9 @@ msgstr "문서"
 
 #~ msgid "Show recent documents"
 #~ msgstr "최근 문서 보이기"
+
+#~ msgid "Colors"
+#~ msgstr "색상"
 
 #~ msgid "Hover"
 #~ msgstr "마우스로 가리킨 항목 활성화"
@@ -451,36 +658,6 @@ msgstr "문서"
 #~ msgid "Filter:"
 #~ msgstr "찾기:"
 
-#~ msgid "Remove"
-#~ msgstr "제거"
-
-#~ msgid "Insert separator"
-#~ msgstr "분리선 넣기"
-
-#~ msgid "Launch when I log in"
-#~ msgstr "로그인 시 자동시작"
-
-#~ msgid "Insert space"
-#~ msgstr "공백 넣기"
-
-#~ msgid "Uninstall"
-#~ msgstr "프로그램 제거"
-
-#~ msgid "Remove from favorites"
-#~ msgstr "즐겨찾기에서 제거"
-
-#~ msgid "Launch"
-#~ msgstr "실행"
-
-#~ msgid "Use the command line"
-#~ msgstr "명령행을 사용합니다"
-
-#~ msgid "Log out or switch user"
-#~ msgstr "로그아웃하거나 사용자를 바꿉니다."
-
-#~ msgid "Empty trash"
-#~ msgstr "휴지통 비우기"
-
 #~ msgid "Show sidepane"
 #~ msgstr "측면 패널 보이기"
 
@@ -489,9 +666,6 @@ msgstr "문서"
 
 #~ msgid "Height:"
 #~ msgstr "높이:"
-
-#~ msgid "Requires password to unlock"
-#~ msgstr "잠금을 해제하려면 암호가 필요합니다"
 
 #~ msgid "Edit Place"
 #~ msgstr "장소 수정"
@@ -523,18 +697,6 @@ msgstr "문서"
 #~ msgid "New Place"
 #~ msgstr "새로운 장소"
 
-#~ msgid "Browse and install available software"
-#~ msgstr "사용 가능한 소프트웨어를 찾고 설치합니다"
-
-#~ msgid "Configure your system"
-#~ msgstr "시스템 설정을 변경합니다"
-
-#~ msgid "Browse items placed on the desktop"
-#~ msgstr "바탕화면의 항목들을 봅니다"
-
-#~ msgid "Browse deleted files"
-#~ msgstr "휴지통의 파일을 봅니다"
-
 #~ msgid "The following packages will be removed:"
 #~ msgstr "다음의 패키지들이 제거됩니다:"
 
@@ -553,24 +715,6 @@ msgstr "문서"
 #~ msgid "Show package '%s'"
 #~ msgstr "패키지 '%s'을(를) 표시"
 
-#, python-format
-#~ msgid "Install package '%s'"
-#~ msgstr "패키지 '%s'을(를) 설치"
-
-#~ msgid "Show in my favorites"
-#~ msgstr "즐겨찾기에 추가"
-
-#~ msgid ""
-#~ "Couldn't save favorites. Check if you have write access to "
-#~ "~/.linuxmint/mintMenu"
-#~ msgstr "즐겨찾기 목록을 저장하지 못하였습니다. ~/.linuxmint/mintMenu에 쓰기 권한이 있는지 확인하십시오"
-
-#~ msgid "Install, remove and upgrade software packages"
-#~ msgstr "패키지를 설치, 제거 또는 업그레이드합니다"
-
-#~ msgid "Shutdown, restart, suspend or hibernate"
-#~ msgstr "시스템을 종료, 재시작 또는 대기상태로 전환합니다"
-
 #~ msgid "Application removed successfully"
 #~ msgstr "프로그램을 성공적으로 제거하였습니다"
 
@@ -578,27 +722,11 @@ msgstr "문서"
 #~ msgid "Remove %s?"
 #~ msgstr "%s(을)를 제거하시겠습니까?"
 
-#~ msgid ""
-#~ "Browse all local and remote disks and folders accessible from this computer"
-#~ msgstr "이 컴퓨터에서 접근할 수 있는 로컬 및 원격 저장소와 디렉토리를 탐색합니다"
-
 #~ msgid "Border width:"
 #~ msgstr "테두리 두께:"
-
-#~ msgid "Open your personal folder"
-#~ msgstr "사용자의 개인 폴더를 엽니다"
 
 #~ msgid "Please wait, this can take some time"
 #~ msgstr "잠시만 기다려 주십시오. 이 작업은 다소 시간이 걸릴 수도 있습니다"
 
-#~ msgid "Browse bookmarked and local network locations"
-#~ msgstr "즐겨찾기한 위치 및 로컬 네트워크의 위치를 탐색합니다"
-
 #~ msgid "Hover delay (ms):"
 #~ msgstr "호버 지연 시간 (ms):"
-
-#~ msgid "All"
-#~ msgstr "모든 애플리케이션"
-
-#~ msgid "Show all applications"
-#~ msgstr "모든 애플리케이션을 표시합니다"

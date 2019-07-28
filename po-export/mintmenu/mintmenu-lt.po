@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-29 18:11+0200\n"
+"POT-Creation-Date: 2019-07-22 13:45+0200\n"
 "PO-Revision-Date: 2019-05-21 13:19+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
-"X-Generator: Launchpad (build 19007)\n"
+"X-Launchpad-Export-Date: 2019-07-28 09:29+0000\n"
+"X-Generator: Launchpad (build 19010)\n"
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:168
 msgid ""
@@ -47,31 +47,31 @@ msgstr "<nenustatyta>"
 msgid "Menu"
 msgstr "Meniu"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:178
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:154
 msgid "Couldn't load plugin:"
 msgstr "Nepavyko įkelti įskiepio:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:243
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:213
 msgid "Couldn't initialize plugin"
 msgstr "Nepavyko inicijuoti įskiepio"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:661
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:586
 msgid "Advanced MATE Menu"
 msgstr "Išplėstinis MATE meniu"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:768
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:693
 msgid "Preferences"
 msgstr "Nuostatos"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:771
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:696
 msgid "Edit menu"
 msgstr "Redaguoti meniu"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:774
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:699
 msgid "Reload plugins"
 msgstr "Iš naujo įkelti įskiepius"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:777
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:702
 msgid "About"
 msgstr "Apie"
 
@@ -144,233 +144,438 @@ msgid "Show tooltips"
 msgstr "Rodyti paaiškinimus"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Colors"
-msgstr "Spalvos"
+msgid "Theme"
+msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Custom colors and theme"
-msgstr "Tinkintos spalvos ir tema"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:97
-msgid "Use custom colors"
-msgstr "Naudoti pasirinktines spalvas"
+msgid "Custom theme selection"
+msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:98
-msgid "Headings"
-msgstr "Antraštės"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:99
-msgid "Background"
-msgstr "Fonas"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:101
 msgid "Desktop theme"
 msgstr "Darbalaukio tema"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:111
+#: usr/lib/linuxmint/mintMenu/preferences.py:108
 msgid "Theme:"
 msgstr "Tema:"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "Icon sizes"
 msgstr "Piktogramų dydis"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "The size of the icons"
 msgstr "Piktogramų dydžiai"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/preferences.py:111
 #: usr/share/linuxmint/mintmenu/applications.ui.h:1
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:3
 msgid "Favorites"
 msgstr "Mėgstamos"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:115
+#: usr/lib/linuxmint/mintMenu/preferences.py:112
 #: usr/share/linuxmint/mintmenu/applications.ui.h:3
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:4
 #: usr/share/linuxmint/mintmenu/recent.ui.h:2
 msgid "Applications"
 msgstr "Programos"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:116
+#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:41
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:5
 msgid "System"
 msgstr "Sistema"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:117
+#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:46
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:6
 msgid "Places"
 msgstr "Vietos"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Layout"
 msgstr "Išdėstymas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Section layout"
 msgstr "Sekcijos išdėstymas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:123
+#: usr/lib/linuxmint/mintMenu/preferences.py:120
 msgid "Show search bar on top"
 msgstr "Rodyti paieškos juostą viršuje"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:124
+#: usr/lib/linuxmint/mintMenu/preferences.py:121
 msgid "Show applications comments"
 msgstr "Rodyti programų komentarus"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Categories"
 msgstr "Kategorijos"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Applications categories"
 msgstr "Programų kategorijos"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:127
+#: usr/lib/linuxmint/mintMenu/preferences.py:124
 msgid "Show category icons"
 msgstr "Rodyti kategorijų piktogramas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:128
+#: usr/lib/linuxmint/mintMenu/preferences.py:125
 msgid "Switch categories on hover"
 msgstr "Perjungti kategorijas užvedus pelę"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "Hover delay"
 msgstr "Užvedimo delsa"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "milliseconds"
 msgstr "milisek."
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search"
 msgstr "Paieška"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search options"
 msgstr "Paieškos parametrai"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:132
+#: usr/lib/linuxmint/mintMenu/preferences.py:129
 msgid "Search for packages to install"
 msgstr "Ieškoti diegtinų paketų"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:133
+#: usr/lib/linuxmint/mintMenu/preferences.py:130
 msgid "Remember the last category or search"
 msgstr "Prisiminti paskutinę kategoriją ar paiešką"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:134
+#: usr/lib/linuxmint/mintMenu/preferences.py:131
 msgid "Enable Internet search"
 msgstr "Įjungti paiešką internete"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:135
+#: usr/lib/linuxmint/mintMenu/preferences.py:132
 msgid "Search command"
 msgstr "Paieškos komanda"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:141
+#: usr/lib/linuxmint/mintMenu/preferences.py:138
 msgid "Number of columns"
 msgstr "Stulpelių skaičius"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:142
+#: usr/lib/linuxmint/mintMenu/preferences.py:139
 msgid "Swap name and generic name"
 msgstr "Sukeisti pavadinimą su bendriniu pavadinimu"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:143
+#: usr/lib/linuxmint/mintMenu/preferences.py:140
 msgid "Show favorites when the menu is open"
 msgstr "Atveriant meniu, rodyti mėgstamas programas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:149
-#: usr/lib/linuxmint/mintMenu/preferences.py:165
+#: usr/lib/linuxmint/mintMenu/preferences.py:146
+#: usr/lib/linuxmint/mintMenu/preferences.py:162
 msgid "Custom height"
 msgstr "Tinkintas aukštis"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:150
-#: usr/lib/linuxmint/mintMenu/preferences.py:166
+#: usr/lib/linuxmint/mintMenu/preferences.py:147
+#: usr/lib/linuxmint/mintMenu/preferences.py:163
 msgid "Height"
 msgstr "Aukštis"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
 msgid "Items"
 msgstr "Elementai"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
 msgid "Toggle default items"
 msgstr "Perjungti numatytuosius elementus"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/preferences.py:150
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:147
 msgid "Software Manager"
 msgstr "Programų tvarkytuvė"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/preferences.py:151
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:154
 msgid "Package Manager"
 msgstr "Paketų tvarkytuvė"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/preferences.py:152
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:161
 msgid "Control Center"
 msgstr "Valdymo centras"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:168
 msgid "Terminal"
 msgstr "Terminalas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:157
+#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:178
 msgid "Lock Screen"
 msgstr "Užrakinti ekraną"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:158
+#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:185
 msgid "Logout"
 msgstr "Atsijungti"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:159
+#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:192
 msgid "Quit"
 msgstr "Baigti"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/preferences.py:166
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:137
 msgid "Computer"
 msgstr "Kompiuteris"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/preferences.py:167
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:144
 msgid "Home Folder"
 msgstr "Namų aplankas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:171
+#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:156
 msgid "Network"
 msgstr "Tinklas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:172
+#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:175
 msgid "Desktop"
 msgstr "Darbalaukis"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:173
+#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:182
 msgid "Trash"
 msgstr "Šiukšlinė"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:174
+#: usr/lib/linuxmint/mintMenu/preferences.py:171
 msgid "GTK Bookmarks"
 msgstr "GTK žymelės"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "Custom places"
 msgstr "Tinkintos vietos"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "You can add your own places in the menu"
 msgstr "Meniu galite pridėti savo pačių asmenines vietas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:191
+#: usr/lib/linuxmint/mintMenu/preferences.py:188
 msgid "Name"
 msgstr "Pavadinimas"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:192
+#: usr/lib/linuxmint/mintMenu/preferences.py:189
 msgid "Path"
 msgstr "Kelias"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:624
+#, python-format
+msgid "Search DuckDuckGo for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:626
+#, python-format
+msgid "Search Wikipedia for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:629
+#, python-format
+msgid "Lookup %s in Dictionary"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:631
+#, python-format
+msgid "Search Computer for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:689
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:731
+#, python-format
+msgid "Install package '%s'"
+msgstr "Įdiegti „%s“ paketą"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:835
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:906
+msgid "Add to desktop"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:836
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:907
+msgid "Add to panel"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:838
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:884
+msgid "Insert space"
+msgstr "Įterpti tarpą"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:839
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:885
+msgid "Insert separator"
+msgstr "Įterpti skirtuką"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:841
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:910
+msgid "Launch when I log in"
+msgstr "Paleisti, kai aš prisijungiu"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:843
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:912
+msgid "Launch"
+msgstr "Paleisti"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:844
+msgid "Remove from favorites"
+msgstr "Šalinti iš mėgstamų"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:846
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:916
+msgid "Edit properties"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:883
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:909
+msgid "Show in my favorites"
+msgstr "Rodyti mėgstamų programų kategorijoje"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:913
+msgid "Uninstall"
+msgstr "Išdiegti"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:914
+msgid "Delete from menu"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:979
+msgid "Search DuckDuckGo"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:980
+msgid "Search Wikipedia"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:982
+msgid "Search Dictionary"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:983
+msgid "Search Computer"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:985
+msgid "Find Software"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:986
+msgid "Find Tutorials"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:987
+msgid "Find Hardware"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:988
+msgid "Find Ideas"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:989
+msgid "Find Users"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1395
+msgid ""
+"Couldn't save favorites. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+"Nepavyko įrašyti mėgstamų programų kategorijos. Patikrinkite, ar turite "
+"suteiktą teisę rašyti į ~/.linuxmint/mintMenu"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1617
+msgid "All"
+msgstr "Viskas"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1619
+msgid "Show all applications"
+msgstr "Rodyti visas programas"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:141
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr ""
+"Naršyti po visus vietinius ir nuotolinius diskus ir aplankus, prieinamus iš "
+"šio kompiuterio"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:148
+msgid "Open your personal folder"
+msgstr "Atverti jūsų asmeninį aplanką"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:160
+msgid "Browse bookmarked and local network locations"
+msgstr "Naršyti pažymėtas ir vietines tinklo vietas"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:179
+msgid "Browse items placed on the desktop"
+msgstr "Naršyti po darbalaukyje esančius elementus"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:189
+msgid "Browse deleted files"
+msgstr "Naršyti po ištrintus failus"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:238
+msgid "Empty trash"
+msgstr "Išvalyti šiukšlinę"
+
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:40
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:39
+msgid "Recently used"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:169
+msgid "The file or location could not be opened."
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:151
+msgid "Browse and install available software"
+msgstr "Naršyti ir įdiegti prieinamą programinę įrangą"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:158
+msgid "Install, remove and upgrade software packages"
+msgstr "Diegti, šalinti ir naujinti programinės įrangos paketus"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:165
+msgid "Configure your system"
+msgstr "Konfigūruoti savo sistemą"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:175
+msgid "Use the command line"
+msgstr "Naudoti komandų eilutę"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:182
+msgid "Requires password to unlock"
+msgstr "Atrakinimui reikia įvesti slaptažodį"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:189
+msgid "Log out or switch user"
+msgstr "Atsijungti arba pakeisti naudotoją"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:196
+msgid "Shutdown, restart, suspend or hibernate"
+msgstr "Išjungti, paleisti iš naujo, pristabdyti ar užmigdyti"
 
 #: usr/share/linuxmint/mintmenu/applications.ui.h:2
 msgid "All applications"
@@ -420,6 +625,9 @@ msgstr "Dokumentai"
 #~ msgid "Background:"
 #~ msgstr "Fonas:"
 
+#~ msgid "Colors"
+#~ msgstr "Spalvos"
+
 #~ msgid "Button text:"
 #~ msgstr "Mygtuko tekstas:"
 
@@ -449,39 +657,6 @@ msgstr "Dokumentai"
 
 #~ msgid "Filter:"
 #~ msgstr "Filtras:"
-
-#~ msgid "Insert separator"
-#~ msgstr "Įterpti skirtuką"
-
-#~ msgid "Remove"
-#~ msgstr "Pašalinti"
-
-#~ msgid "Insert space"
-#~ msgstr "Įterpti tarpą"
-
-#~ msgid "All"
-#~ msgstr "Viskas"
-
-#~ msgid "Uninstall"
-#~ msgstr "Išdiegti"
-
-#~ msgid "Launch"
-#~ msgstr "Paleisti"
-
-#~ msgid "Show all applications"
-#~ msgstr "Rodyti visas programas"
-
-#~ msgid "Open your personal folder"
-#~ msgstr "Atverti jūsų asmeninį aplanką"
-
-#~ msgid "Browse bookmarked and local network locations"
-#~ msgstr "Naršyti pažymėtas ir vietines tinklo vietas"
-
-#~ msgid "Use the command line"
-#~ msgstr "Naudoti komandų eilutę"
-
-#~ msgid "Log out or switch user"
-#~ msgstr "Atsijungti arba pakeisti naudotoją"
 
 #~ msgid "Hover"
 #~ msgstr "Užvedus pelės rodyklę"
@@ -523,18 +698,8 @@ msgstr "Dokumentai"
 #~ msgstr "Iekšoti „%s“ svetainėje"
 
 #, python-format
-#~ msgid "Install package '%s'"
-#~ msgstr "Įdiegti „%s“ paketą"
-
-#, python-format
 #~ msgid "Show package '%s'"
 #~ msgstr "Rodyti „%s“ paketą"
-
-#~ msgid "Requires password to unlock"
-#~ msgstr "Atrakinimui reikia įvesti slaptažodį"
-
-#~ msgid "Browse deleted files"
-#~ msgstr "Naršyti po ištrintus failus"
 
 #~ msgid "Path:"
 #~ msgstr "Kelias:"
@@ -551,60 +716,23 @@ msgstr "Dokumentai"
 #~ msgid "Keyboard shortcut:"
 #~ msgstr "Spartusis klavišas:"
 
-#~ msgid "Browse and install available software"
-#~ msgstr "Naršyti ir įdiegti prieinamą programinę įrangą"
-
-#~ msgid "Browse items placed on the desktop"
-#~ msgstr "Naršyti po darbalaukyje esančius elementus"
-
 #~ msgid "Recent documents"
 #~ msgstr "Paskiausi dokumentai"
 
 #~ msgid "Edit Place"
 #~ msgstr "Taisyti vietą"
 
-#~ msgid "Configure your system"
-#~ msgstr "Konfigūruoti savo sistemą"
-
-#~ msgid "Shutdown, restart, suspend or hibernate"
-#~ msgstr "Išjungti, paleisti iš naujo, pristabdyti ar užmigdyti"
-
-#~ msgid "Install, remove and upgrade software packages"
-#~ msgstr "Diegti, šalinti ir naujinti programinės įrangos paketus"
-
-#~ msgid ""
-#~ "Browse all local and remote disks and folders accessible from this computer"
-#~ msgstr ""
-#~ "Naršyti po visus vietinius ir nuotolinius diskus ir aplankus, prieinamus iš "
-#~ "šio kompiuterio"
-
-#~ msgid "Empty trash"
-#~ msgstr "Išvalyti šiukšlinę"
-
 #~ msgid "Not a valid .menu file"
 #~ msgstr "Netinkamas .menu failas"
-
-#~ msgid "Show in my favorites"
-#~ msgstr "Rodyti mėgstamų programų kategorijoje"
-
-#~ msgid ""
-#~ "Couldn't save favorites. Check if you have write access to "
-#~ "~/.linuxmint/mintMenu"
-#~ msgstr ""
-#~ "Nepavyko įrašyti mėgstamų programų kategorijos. Patikrinkite, ar turite "
-#~ "suteiktą teisę rašyti į ~/.linuxmint/mintMenu"
-
-#~ msgid "Remove from favorites"
-#~ msgstr "Šalinti iš mėgstamų"
 
 #~ msgid "Allow Scrollbar"
 #~ msgstr "Leisti rodyti slankjuostę"
 
+#~ msgid "Use custom colors"
+#~ msgstr "Naudoti pasirinktines spalvas"
+
 #~ msgid "Custom Places:"
 #~ msgstr "Pasirinktinės vietos:"
-
-#~ msgid "Launch when I log in"
-#~ msgstr "Paleisti, kai aš prisijungiu"
 
 #~ msgid "Toggle Default Places:"
 #~ msgstr "(Ne)rodyti numatytąsias vietas:"

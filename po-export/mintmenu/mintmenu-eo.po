@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-29 18:11+0200\n"
+"POT-Creation-Date: 2019-07-22 13:45+0200\n"
 "PO-Revision-Date: 2019-05-22 13:37+0000\n"
 "Last-Translator: Piet Coppens <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
-"X-Generator: Launchpad (build 19007)\n"
+"X-Launchpad-Export-Date: 2019-07-28 09:29+0000\n"
+"X-Generator: Launchpad (build 19010)\n"
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:168
 msgid ""
@@ -43,31 +43,31 @@ msgstr "<sen agordo>"
 msgid "Menu"
 msgstr "Menuo"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:178
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:154
 msgid "Couldn't load plugin:"
 msgstr "Ne eblis ŝargi kromprogramon:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:243
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:213
 msgid "Couldn't initialize plugin"
 msgstr "Ne eblis pravalorizi kromprogramon"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:661
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:586
 msgid "Advanced MATE Menu"
 msgstr "Porspertula MATE-menuo"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:768
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:693
 msgid "Preferences"
 msgstr "Agordoj"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:771
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:696
 msgid "Edit menu"
 msgstr "Redakti menuon"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:774
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:699
 msgid "Reload plugins"
 msgstr "Reŝargi kromprogramojn"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:777
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:702
 msgid "About"
 msgstr "Pri"
 
@@ -140,233 +140,438 @@ msgid "Show tooltips"
 msgstr "Montri butonajn informojn"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Colors"
-msgstr "Koloroj"
+msgid "Theme"
+msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Custom colors and theme"
-msgstr "Propraj koloroj kaj etoso"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:97
-msgid "Use custom colors"
-msgstr "Uzi proprajn kolorojn"
+msgid "Custom theme selection"
+msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:98
-msgid "Headings"
-msgstr "Kapoj"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:99
-msgid "Background"
-msgstr "Fono"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:101
 msgid "Desktop theme"
 msgstr "Labotabla etoso"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:111
+#: usr/lib/linuxmint/mintMenu/preferences.py:108
 msgid "Theme:"
 msgstr "Temo:"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "Icon sizes"
 msgstr "Grandoj de piktogramo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "The size of the icons"
 msgstr "La grando de la piktogramoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/preferences.py:111
 #: usr/share/linuxmint/mintmenu/applications.ui.h:1
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:3
 msgid "Favorites"
 msgstr "Preferaĵoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:115
+#: usr/lib/linuxmint/mintMenu/preferences.py:112
 #: usr/share/linuxmint/mintmenu/applications.ui.h:3
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:4
 #: usr/share/linuxmint/mintmenu/recent.ui.h:2
 msgid "Applications"
 msgstr "Aplikaĵoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:116
+#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:41
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:5
 msgid "System"
 msgstr "Sistemo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:117
+#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:46
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:6
 msgid "Places"
 msgstr "Lokoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Layout"
 msgstr "Aranĝo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Section layout"
 msgstr "Sekcia aranĝo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:123
+#: usr/lib/linuxmint/mintMenu/preferences.py:120
 msgid "Show search bar on top"
 msgstr "Montri serĉbreton supre"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:124
+#: usr/lib/linuxmint/mintMenu/preferences.py:121
 msgid "Show applications comments"
 msgstr "Montri aplikaĵajn komentojn"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Categories"
 msgstr "Kategorioj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Applications categories"
 msgstr "Aplikaĵaj kategorioj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:127
+#: usr/lib/linuxmint/mintMenu/preferences.py:124
 msgid "Show category icons"
 msgstr "Montri katagoriajn piktogramojn"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:128
+#: usr/lib/linuxmint/mintMenu/preferences.py:125
 msgid "Switch categories on hover"
 msgstr "Komuti kategoriojn ĉe musumo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "Hover delay"
 msgstr "Ŝveba atendo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "milliseconds"
 msgstr "milisekundoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search"
 msgstr "Serĉi"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search options"
 msgstr "Serĉaj opcioj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:132
+#: usr/lib/linuxmint/mintMenu/preferences.py:129
 msgid "Search for packages to install"
 msgstr "Serĉi instalendajn pakaĵojn"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:133
+#: usr/lib/linuxmint/mintMenu/preferences.py:130
 msgid "Remember the last category or search"
 msgstr "Memori la lastan kategorion aŭ serĉon"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:134
+#: usr/lib/linuxmint/mintMenu/preferences.py:131
 msgid "Enable Internet search"
 msgstr "Ebligi serĉi en interreto"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:135
+#: usr/lib/linuxmint/mintMenu/preferences.py:132
 msgid "Search command"
 msgstr "Serĉkomando"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:141
+#: usr/lib/linuxmint/mintMenu/preferences.py:138
 msgid "Number of columns"
 msgstr "Nombro da kolumnoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:142
+#: usr/lib/linuxmint/mintMenu/preferences.py:139
 msgid "Swap name and generic name"
 msgstr "Permuta nomo kaj komuna nomo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:143
+#: usr/lib/linuxmint/mintMenu/preferences.py:140
 msgid "Show favorites when the menu is open"
 msgstr "Montri preferaĵojn, kiam la menuo estas malfermita"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:149
-#: usr/lib/linuxmint/mintMenu/preferences.py:165
+#: usr/lib/linuxmint/mintMenu/preferences.py:146
+#: usr/lib/linuxmint/mintMenu/preferences.py:162
 msgid "Custom height"
 msgstr "Propra alto"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:150
-#: usr/lib/linuxmint/mintMenu/preferences.py:166
+#: usr/lib/linuxmint/mintMenu/preferences.py:147
+#: usr/lib/linuxmint/mintMenu/preferences.py:163
 msgid "Height"
 msgstr "Alto"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
 msgid "Items"
 msgstr "Eroj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
 msgid "Toggle default items"
 msgstr "Baskuligi defaŭltajn erojn"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/preferences.py:150
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:147
 msgid "Software Manager"
 msgstr "Programarmastrumilo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/preferences.py:151
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:154
 msgid "Package Manager"
 msgstr "Pakaĵmastrumilo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/preferences.py:152
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:161
 msgid "Control Center"
 msgstr "Stircentro"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:168
 msgid "Terminal"
 msgstr "Terminalo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:157
+#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:178
 msgid "Lock Screen"
 msgstr "Ŝlosi ekranon"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:158
+#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:185
 msgid "Logout"
 msgstr "Elsaluti"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:159
+#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:192
 msgid "Quit"
 msgstr "Eliri"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/preferences.py:166
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:137
 msgid "Computer"
 msgstr "Komputilo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/preferences.py:167
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:144
 msgid "Home Folder"
 msgstr "Hejma dosierujo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:171
+#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:156
 msgid "Network"
 msgstr "Reto"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:172
+#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:175
 msgid "Desktop"
 msgstr "Labortablo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:173
+#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:182
 msgid "Trash"
 msgstr "Rubujo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:174
+#: usr/lib/linuxmint/mintMenu/preferences.py:171
 msgid "GTK Bookmarks"
 msgstr "GTK-legosignoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "Custom places"
 msgstr "Propraj lokoj"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "You can add your own places in the menu"
 msgstr "Vi povas aldoni viajn proprajn lokojn en la menuo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:191
+#: usr/lib/linuxmint/mintMenu/preferences.py:188
 msgid "Name"
 msgstr "Nomo"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:192
+#: usr/lib/linuxmint/mintMenu/preferences.py:189
 msgid "Path"
 msgstr "Pado"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:624
+#, python-format
+msgid "Search DuckDuckGo for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:626
+#, python-format
+msgid "Search Wikipedia for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:629
+#, python-format
+msgid "Lookup %s in Dictionary"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:631
+#, python-format
+msgid "Search Computer for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:689
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:731
+#, python-format
+msgid "Install package '%s'"
+msgstr "Instali pakaĵon '%s'"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:835
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:906
+msgid "Add to desktop"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:836
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:907
+msgid "Add to panel"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:838
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:884
+msgid "Insert space"
+msgstr "Enmetu spacon"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:839
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:885
+msgid "Insert separator"
+msgstr "Enmetu disigilon"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:841
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:910
+msgid "Launch when I log in"
+msgstr "Lanĉi kiam mi ensalutas"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:843
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:912
+msgid "Launch"
+msgstr "Lanĉi"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:844
+msgid "Remove from favorites"
+msgstr "Forigi el la plej ŝatataj"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:846
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:916
+msgid "Edit properties"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:883
+msgid "Remove"
+msgstr "Forigi"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:909
+msgid "Show in my favorites"
+msgstr "Montri en mia preferitaĵoj"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:913
+msgid "Uninstall"
+msgstr "Malinstali"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:914
+msgid "Delete from menu"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:979
+msgid "Search DuckDuckGo"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:980
+msgid "Search Wikipedia"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:982
+msgid "Search Dictionary"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:983
+msgid "Search Computer"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:985
+msgid "Find Software"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:986
+msgid "Find Tutorials"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:987
+msgid "Find Hardware"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:988
+msgid "Find Ideas"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:989
+msgid "Find Users"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1395
+msgid ""
+"Couldn't save favorites. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+"Ne eblis konservi preferitaĵojn. Kontrolu, ĉu vi havas skribaatingon al "
+"~/.linuxmint/mintMenu"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1617
+msgid "All"
+msgstr "Ĉiuj"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1619
+msgid "Show all applications"
+msgstr "Montri ĉiujn aplikaĵojn"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:141
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr ""
+"Foliumi ĉiujn lokan kaj foran diskojn kaj dosierujojn atingeblajn de ĉi tiu "
+"komputilo"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:148
+msgid "Open your personal folder"
+msgstr "Malfermi vian personan dosierujon"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:160
+msgid "Browse bookmarked and local network locations"
+msgstr "Foliumi paĝosignatan kaj lokan retlokojn"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:179
+msgid "Browse items placed on the desktop"
+msgstr "Foliumi erojn metitajn en la labortablo"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:189
+msgid "Browse deleted files"
+msgstr "Foliumi forigitajn dosierojn"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:238
+msgid "Empty trash"
+msgstr "Malplenigi rubujon"
+
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:40
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:39
+msgid "Recently used"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:169
+msgid "The file or location could not be opened."
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:151
+msgid "Browse and install available software"
+msgstr "Foliumi kaj instali disponeblajn programarojn"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:158
+msgid "Install, remove and upgrade software packages"
+msgstr "Instali, forigi kaj promocii programarajn pakaĵojn"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:165
+msgid "Configure your system"
+msgstr "Agordi vian sistemon"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:175
+msgid "Use the command line"
+msgstr "Uzi la komandlinion"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:182
+msgid "Requires password to unlock"
+msgstr "Pasvorto bezonas por malŝlosi"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:189
+msgid "Log out or switch user"
+msgstr "Elsaluti aŭ ŝanĝi uzanton"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:196
+msgid "Shutdown, restart, suspend or hibernate"
+msgstr "Elŝalti, restartigi, paŭzigi aŭ pasivumigi"
 
 #: usr/share/linuxmint/mintmenu/applications.ui.h:2
 msgid "All applications"
@@ -399,6 +604,9 @@ msgstr "Dokumentoj"
 #~ msgid "Background:"
 #~ msgstr "Fono:"
 
+#~ msgid "Colors"
+#~ msgstr "Koloroj"
+
 #~ msgid "Height:"
 #~ msgstr "Alto:"
 
@@ -410,18 +618,6 @@ msgstr "Dokumentoj"
 
 #~ msgid "Log Out"
 #~ msgstr "Elsaluti"
-
-#~ msgid "Remove"
-#~ msgstr "Forigi"
-
-#~ msgid "All"
-#~ msgstr "Ĉiuj"
-
-#~ msgid "Configure your system"
-#~ msgstr "Agordi vian sistemon"
-
-#~ msgid "Log out or switch user"
-#~ msgstr "Elsaluti aŭ ŝanĝi uzanton"
 
 #~ msgid "Border width:"
 #~ msgstr "Bordera larĝo:"
@@ -440,27 +636,6 @@ msgstr "Dokumentoj"
 
 #~ msgid "Recent documents"
 #~ msgstr "Ĵusaj dokumentoj"
-
-#~ msgid "Launch"
-#~ msgstr "Lanĉi"
-
-#~ msgid "Show in my favorites"
-#~ msgstr "Montri en mia preferitaĵoj"
-
-#~ msgid "Uninstall"
-#~ msgstr "Malinstali"
-
-#~ msgid "Show all applications"
-#~ msgstr "Montri ĉiujn aplikaĵojn"
-
-#~ msgid "Open your personal folder"
-#~ msgstr "Malfermi vian personan dosierujon"
-
-#~ msgid "Browse bookmarked and local network locations"
-#~ msgstr "Foliumi paĝosignatan kaj lokan retlokojn"
-
-#~ msgid "Empty trash"
-#~ msgstr "Malplenigi rubujon"
 
 #~ msgid "Borders:"
 #~ msgstr "Borderoj:"
@@ -491,6 +666,9 @@ msgstr "Dokumentoj"
 
 #~ msgid "The following packages will be removed:"
 #~ msgstr "La jenaj pakaĵoj estos forigataj:"
+
+#~ msgid "Use custom colors"
+#~ msgstr "Uzi proprajn kolorojn"
 
 #~ msgid "pixels"
 #~ msgstr "rastrumeroj"
@@ -527,56 +705,6 @@ msgstr "Dokumentoj"
 
 #~ msgid "Path:"
 #~ msgstr "Pado:"
-
-#~ msgid "Insert separator"
-#~ msgstr "Enmetu disigilon"
-
-#~ msgid "Launch when I log in"
-#~ msgstr "Lanĉi kiam mi ensalutas"
-
-#~ msgid "Insert space"
-#~ msgstr "Enmetu spacon"
-
-#, python-format
-#~ msgid "Install package '%s'"
-#~ msgstr "Instali pakaĵon '%s'"
-
-#~ msgid "Remove from favorites"
-#~ msgstr "Forigi el la plej ŝatataj"
-
-#~ msgid ""
-#~ "Couldn't save favorites. Check if you have write access to "
-#~ "~/.linuxmint/mintMenu"
-#~ msgstr ""
-#~ "Ne eblis konservi preferitaĵojn. Kontrolu, ĉu vi havas skribaatingon al "
-#~ "~/.linuxmint/mintMenu"
-
-#~ msgid "Install, remove and upgrade software packages"
-#~ msgstr "Instali, forigi kaj promocii programarajn pakaĵojn"
-
-#~ msgid "Browse and install available software"
-#~ msgstr "Foliumi kaj instali disponeblajn programarojn"
-
-#~ msgid "Requires password to unlock"
-#~ msgstr "Pasvorto bezonas por malŝlosi"
-
-#~ msgid "Shutdown, restart, suspend or hibernate"
-#~ msgstr "Elŝalti, restartigi, paŭzigi aŭ pasivumigi"
-
-#~ msgid "Use the command line"
-#~ msgstr "Uzi la komandlinion"
-
-#~ msgid ""
-#~ "Browse all local and remote disks and folders accessible from this computer"
-#~ msgstr ""
-#~ "Foliumi ĉiujn lokan kaj foran diskojn kaj dosierujojn atingeblajn de ĉi tiu "
-#~ "komputilo"
-
-#~ msgid "Browse items placed on the desktop"
-#~ msgstr "Foliumi erojn metitajn en la labortablo"
-
-#~ msgid "Browse deleted files"
-#~ msgstr "Foliumi forigitajn dosierojn"
 
 #~ msgid "Keyboard shortcut:"
 #~ msgstr "Fulmoklavo"

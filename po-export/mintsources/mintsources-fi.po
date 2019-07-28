@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-05-15 14:58+0100\n"
-"PO-Revision-Date: 2019-05-18 08:24+0000\n"
+"PO-Revision-Date: 2019-07-14 14:12+0000\n"
 "Last-Translator: Ari Ervasti <ari.ervasti87@gmail.com>\n"
 "Language-Team: Finnish <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-10 08:26+0000\n"
-"X-Generator: Launchpad (build 19007)\n"
+"X-Launchpad-Export-Date: 2019-07-28 09:32+0000\n"
+"X-Generator: Launchpad (build 19010)\n"
 "Language: fi\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:75
 msgid "You are about to remove the following PPA:"
-msgstr "Olet poistamassa seuraavan PPA-ohjelmistolähteen:"
+msgstr "Olet poistamassa seuraavan PPA -ohjelmistolähteen:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:78
 #: usr/lib/linuxmint/mintSources/mintSources.py:158
@@ -51,38 +51,39 @@ msgstr "PPA:sta ei löytynyt tietoja: '%s'."
 #: usr/lib/linuxmint/mintSources/mintSources.py:115
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr "PPA:n poisto epäonnistui: '%s'"
+msgstr "epäonnistuttiin poistamaan PPA: '%s'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:134
 #, python-format
 msgid "failed to remove repository: '%s'"
-msgstr "Ohjelmistolähteen poisto epäonnistui: '%s'"
+msgstr "epäonnistuttiin poistamaan ohjelmistolähde: '%s'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:141
 msgid "Adding PPAs is not supported"
-msgstr "PPAn lisääminen ei ole tuettu"
+msgstr "PPA -ohjelmistolähteiden lisääminen ei ole tuettu"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:148
 #, python-format
 msgid "Cannot add PPA: '%s'."
-msgstr "PPA-ohjelmistolähteen lisäys epäonnistui: '%s'."
+msgstr "PPA -ohjelmistolähteen lisääminen epäonnistui: '%s'."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:152
 msgid "Adding private PPAs is not supported currently"
-msgstr "Yksityisten PPA-ohjelmistolähteiden lisäystä ei tueta tällä hetkellä"
+msgstr ""
+"Yksityisten PPA -ohjelmistolähteiden lisäämistä ei tueta tällä hetkellä"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:155
 msgid "You are about to add the following PPA:"
-msgstr "Olet lisäämässä seuraavan PPA-ohjelmistolähteen:"
+msgstr "Olet lisäämässä seuraavan PPA -ohjelmistolähteen:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:185
 #: usr/lib/linuxmint/mintSources/mintSources.py:1487
 msgid "Malformed input, repository not added."
-msgstr "Virheellisesti muotoiltu syöte, pakettivarastoa ei lisätty."
+msgstr "Virheellisesti muotoiltu syöte, ohjelmistolähdettä ei lisätty."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:188
 msgid "Repository already exists."
-msgstr "Pakettivarasto on jo olemassa."
+msgstr "Ohjelmistolähde on jo olemassa."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:241
 msgid "Connection timed out, check your connection or try again later."
@@ -96,12 +97,12 @@ msgstr "Salatun yhteyden luominen epäonnistui."
 #: usr/lib/linuxmint/mintSources/mintSources.py:245
 #, python-format
 msgid "Failed to download the PPA: %s."
-msgstr "PPA:n lataus epäonnistui: %s"
+msgstr "Epäonnistuttiin lataamaan PPA: %s."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:254
 #: usr/lib/linuxmint/mintSources/mintSources.py:258
 msgid "No supported PPA of this name was found."
-msgstr "Tällä nimellä ei löytynyt tuettua PPA:ta"
+msgstr "Tällä nimellä ei löytynyt tuettua PPA:ta."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:266
 #, python-format
@@ -119,7 +120,7 @@ msgstr "CD-ROM (asennuslevy)"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:427
 msgid "Local Repository"
-msgstr "Paikallinen pakettivarasto"
+msgstr "Paikallinen ohjelmistolähde"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:475
 msgid ""
@@ -129,9 +130,9 @@ msgid ""
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
 "Linux Mint käyttää Romeota testaamattomien pakettien julkaisuun. Kun nämä "
-"paketit ovat testattu, ne siirretään virallisiin pakettivarastoihin. Mikäli "
-"et osallistu beta-testaukseen, sinun ei kannata ottaa tätä pakettivarastoa "
-"käyttöön. Haluatko varmasti ottaa Romeon käyttöön?"
+"paketit ovat testattu, ne siirretään virallisiin ohjelmistolähteisiin. "
+"Mikäli et osallistu beta-testaukseen, sinun ei kannata ottaa tätä "
+"ohjelmistolähdettä käyttöön. Haluatko varmasti ottaa Romeon käyttöön?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:507
 msgid "Select a mirror"
@@ -207,7 +208,7 @@ msgstr "PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:915
 msgid "Repository"
-msgstr "Pakettivarasto"
+msgstr "Ohjelmistolähde"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:931
 msgid "Key"
@@ -247,18 +248,18 @@ msgstr "Kaikkia puuttuvia avaimia ei löydetty."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1240
 msgid "Keys were added for the following repositories:"
-msgstr "Avaimet lisättiin seuraaviin pakettivarastoihin:"
+msgstr "Avaimet lisättiin seuraaviin ohjelmistolähteisiin:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1245
 msgid "Keys are still missing for the following repositories:"
-msgstr "Avaimet puuttuvat vieläkin seuraavilta pakettivarastoilta:"
+msgstr "Avaimet puuttuvat vieläkin seuraavilta ohjelmistolähteiltä:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1246
 msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
 msgstr ""
-"Lisää puuttuvat avaimet manuaalisesti tai poista vastaavat pakettivarastot "
+"Lisää puuttuvat avaimet manuaalisesti tai poista vastaavat ohjelmistolähteet "
 "tai PPA:t."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1255
@@ -307,7 +308,7 @@ msgstr "Antamasi PPA:n nimeä ei ole muotoiltu oikein."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1412
 msgid "Edit the URL of the PPA"
-msgstr "Muokkaa PPA:n URL-osoitetta"
+msgstr "Muokkaa PPA:n URL -osoitetta"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1422
 msgid "Are you sure you want to permanently remove this PPA?"
@@ -328,7 +329,7 @@ msgstr "Syötä lisättävän ohjelmalähteen nimi:"
 msgid ""
 "This repository is already configured, you cannot add it a second time."
 msgstr ""
-"Tämä pakettivarasto on jo asetettuna, et voi lisätä sitä toista kertaa."
+"Tämä ohjelmistolähde on jo asetettuna, et voi lisätä sitä toista kertaa."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1506
 msgid "Edit the URL of the repository"
@@ -376,7 +377,8 @@ msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
 msgstr ""
-"Seuraavien pakettien versiot eivät täsmää pakettivaraston versioiden kanssa:"
+"Seuraavien pakettien versiot eivät täsmää ohjelmistolähteiden versioiden "
+"kanssa:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
@@ -389,7 +391,7 @@ msgid ""
 "repositories:"
 msgstr ""
 "Alla luetellut paketit on asennettu tietokoneeseen, mutta eivät ole "
-"pakettivarastoissa:"
+"ohjelmistolähteissä:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:227
@@ -407,7 +409,7 @@ msgstr "Asennettu versio"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:84
 msgid "Repository version"
-msgstr "Pakettivaraston versio"
+msgstr "Ohjelmistolähteen versio"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:230
 msgid "Clear"
@@ -445,7 +447,7 @@ msgstr "Vaihtoehtoiset lähteet"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
 msgid "Source code repositories"
-msgstr "Lähdekoodin pakettivarastot"
+msgstr "Lähdekoodin ohjelmistolähteet"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
 msgid "Debug symbols"
@@ -457,7 +459,7 @@ msgstr "Palauta oletusasetukset"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
-msgstr "Viralliset pakettivarastot"
+msgstr "Viralliset ohjelmistolähteet"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
@@ -509,7 +511,7 @@ msgstr "Poista muualta ladatut paketit"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Downgrade foreign packages"
-msgstr "Palauta ulkopuoliset paketit aiempaan versioon."
+msgstr "Palauta ulkopuoliset paketit aiempaan versioon"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Maintenance"

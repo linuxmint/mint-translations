@@ -7,66 +7,66 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-29 18:11+0200\n"
-"PO-Revision-Date: 2017-02-18 01:11+0000\n"
-"Last-Translator: Øystein Steffensen-Alværvik <Unknown>\n"
+"POT-Creation-Date: 2019-07-22 13:45+0200\n"
+"PO-Revision-Date: 2019-07-13 16:25+0000\n"
+"Last-Translator: Makenna Makesh <Unknown>\n"
 "Language-Team: Norwegian Nynorsk <nn@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-10 08:22+0000\n"
-"X-Generator: Launchpad (build 19007)\n"
+"X-Launchpad-Export-Date: 2019-07-28 09:29+0000\n"
+"X-Generator: Launchpad (build 19010)\n"
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:168
 msgid ""
 "Click to set a new accelerator key for opening and closing the menu.  "
-msgstr ""
+msgstr "Trykk for å velja ny hurtigtast for opning og lukking av menyen.  "
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:169
 msgid "Press Escape or click again to cancel the operation.  "
-msgstr ""
+msgstr "Trykk ESC eller trykk igjen for å avbryta handlinga.  "
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:170
 msgid "Press Backspace to clear the existing keybinding."
-msgstr ""
+msgstr "Trykk rettetast for å fjerna eksisterande hurtigtast."
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:182
 msgid "Pick an accelerator"
-msgstr ""
+msgstr "Vel hurtigtast"
 
 #: usr/lib/linuxmint/mintMenu/keybinding.py:234
 msgid "<not set>"
-msgstr ""
+msgstr "<ikkje valt>"
 
 #: usr/lib/linuxmint/mintMenu/mintMenu.py:34
 msgid "Menu"
 msgstr "Meny"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:178
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:154
 msgid "Couldn't load plugin:"
 msgstr "Klarte ikkje å laste programtillegget:"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:243
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:213
 msgid "Couldn't initialize plugin"
 msgstr "Klarte ikkje å starte programtillegget"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:661
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:586
 msgid "Advanced MATE Menu"
 msgstr "Avansert MATE-meny"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:768
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:693
 msgid "Preferences"
 msgstr "Innstillingar"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:771
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:696
 msgid "Edit menu"
 msgstr "Endre menyen"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:774
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:699
 msgid "Reload plugins"
 msgstr "Last programtillegga på nytt"
 
-#: usr/lib/linuxmint/mintMenu/mintMenu.py:777
+#: usr/lib/linuxmint/mintMenu/mintMenu.py:702
 msgid "About"
 msgstr "Om"
 
@@ -84,7 +84,7 @@ msgstr "Vel mappe"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:41
 msgid "Folder:"
-msgstr ""
+msgstr "Mappe:"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:60
 msgid "Menu preferences"
@@ -92,11 +92,11 @@ msgstr "Menyinnstillingar"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:67
 msgid "Menu button"
-msgstr ""
+msgstr "Menyknapp"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:67
 msgid "Applet button in the panel"
-msgstr ""
+msgstr "Miniprogramknapp i panelet"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:68
 msgid "Show button icon"
@@ -104,15 +104,15 @@ msgstr "Vis knappeikon"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:69
 msgid "Button text"
-msgstr ""
+msgstr "Knapptekst"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:70
 msgid "Button icon"
-msgstr ""
+msgstr "Knappikon"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:75
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Hurtigtast"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:81
 msgid "Options"
@@ -120,7 +120,7 @@ msgstr "Val"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:81
 msgid "General applet options"
-msgstr ""
+msgstr "Generelle miniprogram innstillingar"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:82
 msgid "Show system management"
@@ -128,244 +128,449 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:85
 msgid "Show places"
-msgstr ""
+msgstr "Vis stader"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:88
 msgid "Show recently used documents and applications"
-msgstr ""
+msgstr "Vis nylege brukte dokument og program"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:92
 msgid "Show tooltips"
+msgstr "Vis hjelpebobler"
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:96
+msgid "Theme"
 msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Colors"
-msgstr "Fargar"
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:96
-msgid "Custom colors and theme"
+msgid "Custom theme selection"
 msgstr ""
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:97
-msgid "Use custom colors"
-msgstr "Bruk sjølvvalde fargar"
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:98
-msgid "Headings"
-msgstr ""
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:99
-msgid "Background"
-msgstr ""
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:101
 msgid "Desktop theme"
 msgstr "Skrivebordstema"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:111
+#: usr/lib/linuxmint/mintMenu/preferences.py:108
 msgid "Theme:"
 msgstr "Tema:"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "Icon sizes"
-msgstr ""
+msgstr "Ikon sorleik"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/preferences.py:110
 msgid "The size of the icons"
-msgstr ""
+msgstr "Ikon storleik"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/preferences.py:111
 #: usr/share/linuxmint/mintmenu/applications.ui.h:1
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:3
 msgid "Favorites"
 msgstr "Favorittar"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:115
+#: usr/lib/linuxmint/mintMenu/preferences.py:112
 #: usr/share/linuxmint/mintmenu/applications.ui.h:3
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:4
 #: usr/share/linuxmint/mintmenu/recent.ui.h:2
 msgid "Applications"
 msgstr "Program"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:116
+#: usr/lib/linuxmint/mintMenu/preferences.py:113
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:41
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:5
 msgid "System"
 msgstr "System"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:117
+#: usr/lib/linuxmint/mintMenu/preferences.py:114
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:46
 #: usr/share/linuxmint/mintmenu/preferences.ui.h:6
 msgid "Places"
 msgstr "Stader"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Layout"
-msgstr ""
+msgstr "Formgjeving"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:122
-#: usr/lib/linuxmint/mintMenu/preferences.py:140
-#: usr/lib/linuxmint/mintMenu/preferences.py:148
-#: usr/lib/linuxmint/mintMenu/preferences.py:164
+#: usr/lib/linuxmint/mintMenu/preferences.py:119
+#: usr/lib/linuxmint/mintMenu/preferences.py:137
+#: usr/lib/linuxmint/mintMenu/preferences.py:145
+#: usr/lib/linuxmint/mintMenu/preferences.py:161
 msgid "Section layout"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:123
+#: usr/lib/linuxmint/mintMenu/preferences.py:120
 msgid "Show search bar on top"
-msgstr ""
+msgstr "Vis søkjefelt øvst"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:124
+#: usr/lib/linuxmint/mintMenu/preferences.py:121
 msgid "Show applications comments"
-msgstr ""
+msgstr "Vis programkommentarar"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Categories"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:126
+#: usr/lib/linuxmint/mintMenu/preferences.py:123
 msgid "Applications categories"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:127
+#: usr/lib/linuxmint/mintMenu/preferences.py:124
 msgid "Show category icons"
 msgstr "Vis kategori-ikon"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:128
+#: usr/lib/linuxmint/mintMenu/preferences.py:125
 msgid "Switch categories on hover"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "Hover delay"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:129
+#: usr/lib/linuxmint/mintMenu/preferences.py:126
 msgid "milliseconds"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:131
+#: usr/lib/linuxmint/mintMenu/preferences.py:128
 msgid "Search options"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:132
+#: usr/lib/linuxmint/mintMenu/preferences.py:129
 msgid "Search for packages to install"
 msgstr "Søk etter installasjonspakkar"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:133
+#: usr/lib/linuxmint/mintMenu/preferences.py:130
 msgid "Remember the last category or search"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:134
+#: usr/lib/linuxmint/mintMenu/preferences.py:131
 msgid "Enable Internet search"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:135
+#: usr/lib/linuxmint/mintMenu/preferences.py:132
 msgid "Search command"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:141
+#: usr/lib/linuxmint/mintMenu/preferences.py:138
 msgid "Number of columns"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:142
+#: usr/lib/linuxmint/mintMenu/preferences.py:139
 msgid "Swap name and generic name"
 msgstr "Bytt mellom namn og generisk namn"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:143
+#: usr/lib/linuxmint/mintMenu/preferences.py:140
 msgid "Show favorites when the menu is open"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:146
+#: usr/lib/linuxmint/mintMenu/preferences.py:162
+msgid "Custom height"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/preferences.py:147
+#: usr/lib/linuxmint/mintMenu/preferences.py:163
+msgid "Height"
 msgstr ""
 
 #: usr/lib/linuxmint/mintMenu/preferences.py:149
 #: usr/lib/linuxmint/mintMenu/preferences.py:165
-msgid "Custom height"
-msgstr ""
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:150
-#: usr/lib/linuxmint/mintMenu/preferences.py:166
-msgid "Height"
-msgstr ""
-
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
 msgid "Items"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:152
-#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/preferences.py:149
+#: usr/lib/linuxmint/mintMenu/preferences.py:165
 msgid "Toggle default items"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/preferences.py:150
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:147
 msgid "Software Manager"
 msgstr "Programvarehandsamar"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/preferences.py:151
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:154
 msgid "Package Manager"
 msgstr "Pakkehandsamar"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/preferences.py:152
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:161
 msgid "Control Center"
 msgstr "Kontrollsenter"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/preferences.py:153
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:168
 msgid "Terminal"
 msgstr "Terminal"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:157
+#: usr/lib/linuxmint/mintMenu/preferences.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:178
 msgid "Lock Screen"
 msgstr "Lås skjermen"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:158
+#: usr/lib/linuxmint/mintMenu/preferences.py:155
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:185
 msgid "Logout"
 msgstr "Logg ut"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:159
+#: usr/lib/linuxmint/mintMenu/preferences.py:156
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:192
 msgid "Quit"
 msgstr "Avslutt"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/preferences.py:166
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:137
 msgid "Computer"
 msgstr "Datamaskin"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/preferences.py:167
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:144
 msgid "Home Folder"
 msgstr "Heimemappe"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:171
+#: usr/lib/linuxmint/mintMenu/preferences.py:168
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:154
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:156
 msgid "Network"
 msgstr "Nettverk"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:172
+#: usr/lib/linuxmint/mintMenu/preferences.py:169
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:175
 msgid "Desktop"
 msgstr "Skrivebord"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:173
+#: usr/lib/linuxmint/mintMenu/preferences.py:170
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:182
 msgid "Trash"
 msgstr "Papirkorga"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:174
+#: usr/lib/linuxmint/mintMenu/preferences.py:171
 msgid "GTK Bookmarks"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "Custom places"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:176
+#: usr/lib/linuxmint/mintMenu/preferences.py:173
 msgid "You can add your own places in the menu"
 msgstr ""
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:191
+#: usr/lib/linuxmint/mintMenu/preferences.py:188
 msgid "Name"
 msgstr "Namn"
 
-#: usr/lib/linuxmint/mintMenu/preferences.py:192
+#: usr/lib/linuxmint/mintMenu/preferences.py:189
 msgid "Path"
 msgstr "Stig"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:624
+#, python-format
+msgid "Search DuckDuckGo for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:626
+#, python-format
+msgid "Search Wikipedia for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:629
+#, python-format
+msgid "Lookup %s in Dictionary"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:631
+#, python-format
+msgid "Search Computer for %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:689
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:731
+#, python-format
+msgid "Install package '%s'"
+msgstr "Installer pakken '%s'"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:835
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:906
+msgid "Add to desktop"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:836
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:907
+msgid "Add to panel"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:838
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:884
+msgid "Insert space"
+msgstr "Set inn mellomrom"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:839
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:885
+msgid "Insert separator"
+msgstr "Set inn skiljeteikn"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:841
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:910
+msgid "Launch when I log in"
+msgstr "Start når eg loggar inn"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:843
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:912
+msgid "Launch"
+msgstr "Start"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:844
+msgid "Remove from favorites"
+msgstr "Fjern frå favorittane"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:846
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:916
+msgid "Edit properties"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:883
+msgid "Remove"
+msgstr "Fjern"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:909
+msgid "Show in my favorites"
+msgstr "Vis i favorittane mine"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:913
+msgid "Uninstall"
+msgstr "Avinstaller"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:914
+msgid "Delete from menu"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:979
+msgid "Search DuckDuckGo"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:980
+msgid "Search Wikipedia"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:982
+msgid "Search Dictionary"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:983
+msgid "Search Computer"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:985
+msgid "Find Software"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:986
+msgid "Find Tutorials"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:987
+msgid "Find Hardware"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:988
+msgid "Find Ideas"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:989
+msgid "Find Users"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1395
+msgid ""
+"Couldn't save favorites. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+"Klarte ikkje å lagre favorittane. Sjå om du har skrivetilgang til "
+"~/.linuxmint/mintMenu"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1617
+msgid "All"
+msgstr "Alt"
+
+#: usr/lib/linuxmint/mintMenu/plugins/applications.py:1619
+msgid "Show all applications"
+msgstr "Vis all programma"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:141
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr ""
+"Bla gjennom alle lokale og eksterne platelager og mapper som denne maskina "
+"kan nå"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:148
+msgid "Open your personal folder"
+msgstr "Opna den personlege mappa di"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:160
+msgid "Browse bookmarked and local network locations"
+msgstr "Bla gjennom nettverkslokasjonane i bokmerka og lokalt"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:179
+msgid "Browse items placed on the desktop"
+msgstr "Sjå gjennom elementa på skrivebordet"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:189
+msgid "Browse deleted files"
+msgstr "Sjå gjennom sletta filer"
+
+#: usr/lib/linuxmint/mintMenu/plugins/places.py:238
+msgid "Empty trash"
+msgstr "Tøm papirkorga"
+
+#: usr/lib/linuxmint/mintMenu/plugins/recentHelper.py:40
+msgid ""
+"Couldn't save recent apps. Check if you have write access to "
+"~/.linuxmint/mintMenu"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:39
+msgid "Recently used"
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/recent.py:169
+msgid "The file or location could not be opened."
+msgstr ""
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:151
+msgid "Browse and install available software"
+msgstr "Sjå gjennom og installer tilgjengeleg programvare"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:158
+msgid "Install, remove and upgrade software packages"
+msgstr "Installer, fjern og oppgrader programpakkar"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:165
+msgid "Configure your system"
+msgstr "Konfigurer systemet"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:175
+msgid "Use the command line"
+msgstr "Bruk kommandolinja"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:182
+msgid "Requires password to unlock"
+msgstr "Krev passord for å låse opp"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:189
+msgid "Log out or switch user"
+msgstr "Logg ut eller bytt brukar"
+
+#: usr/lib/linuxmint/mintMenu/plugins/system_management.py:196
+msgid "Shutdown, restart, suspend or hibernate"
+msgstr "Avslutning, omstart, kvile- eller dvalemodus"
 
 #: usr/share/linuxmint/mintmenu/applications.ui.h:2
 msgid "All applications"
@@ -409,6 +614,9 @@ msgstr ""
 #~ msgid "Packages to be removed"
 #~ msgstr "Pakkar som vil bli fjerna"
 
+#~ msgid "Use custom colors"
+#~ msgstr "Bruk sjølvvalde fargar"
+
 #~ msgid "pixels"
 #~ msgstr "pikslar"
 
@@ -427,6 +635,9 @@ msgstr ""
 #~ msgid "Background:"
 #~ msgstr "Bakgrunn:"
 
+#~ msgid "Colors"
+#~ msgstr "Fargar"
+
 #~ msgid "Button icon:"
 #~ msgstr "Knappeikon"
 
@@ -444,49 +655,6 @@ msgstr ""
 
 #~ msgid "Filter:"
 #~ msgstr "Filter:"
-
-#~ msgid "Remove"
-#~ msgstr "Fjern"
-
-#~ msgid "Launch when I log in"
-#~ msgstr "Start når eg loggar inn"
-
-#, python-format
-#~ msgid "Install package '%s'"
-#~ msgstr "Installer pakken '%s'"
-
-#~ msgid "Launch"
-#~ msgstr "Start"
-
-#~ msgid "All"
-#~ msgstr "Alt"
-
-#~ msgid "Uninstall"
-#~ msgstr "Avinstaller"
-
-#~ msgid "Requires password to unlock"
-#~ msgstr "Krev passord for å låse opp"
-
-#~ msgid "Configure your system"
-#~ msgstr "Konfigurer systemet"
-
-#~ msgid "Browse and install available software"
-#~ msgstr "Sjå gjennom og installer tilgjengeleg programvare"
-
-#~ msgid "Install, remove and upgrade software packages"
-#~ msgstr "Installer, fjern og oppgrader programpakkar"
-
-#~ msgid "Use the command line"
-#~ msgstr "Bruk kommandolinja"
-
-#~ msgid "Empty trash"
-#~ msgstr "Tøm papirkorga"
-
-#~ msgid "Log out or switch user"
-#~ msgstr "Logg ut eller bytt brukar"
-
-#~ msgid "Browse deleted files"
-#~ msgstr "Sjå gjennom sletta filer"
 
 #~ msgid "Please wait, this can take some time"
 #~ msgstr "Vent, dette kan ta ei stund"
@@ -554,46 +722,6 @@ msgstr ""
 #, python-format
 #~ msgid "Show package '%s'"
 #~ msgstr "Vis pakken '%s'"
-
-#~ msgid "Remove from favorites"
-#~ msgstr "Fjern frå favorittane"
-
-#~ msgid "Insert separator"
-#~ msgstr "Set inn skiljeteikn"
-
-#~ msgid "Insert space"
-#~ msgstr "Set inn mellomrom"
-
-#~ msgid ""
-#~ "Couldn't save favorites. Check if you have write access to "
-#~ "~/.linuxmint/mintMenu"
-#~ msgstr ""
-#~ "Klarte ikkje å lagre favorittane. Sjå om du har skrivetilgang til "
-#~ "~/.linuxmint/mintMenu"
-
-#~ msgid "Show in my favorites"
-#~ msgstr "Vis i favorittane mine"
-
-#~ msgid "Show all applications"
-#~ msgstr "Vis all programma"
-
-#~ msgid "Shutdown, restart, suspend or hibernate"
-#~ msgstr "Avslutning, omstart, kvile- eller dvalemodus"
-
-#~ msgid "Open your personal folder"
-#~ msgstr "Opna den personlege mappa di"
-
-#~ msgid ""
-#~ "Browse all local and remote disks and folders accessible from this computer"
-#~ msgstr ""
-#~ "Bla gjennom alle lokale og eksterne platelager og mapper som denne maskina "
-#~ "kan nå"
-
-#~ msgid "Browse bookmarked and local network locations"
-#~ msgstr "Bla gjennom nettverkslokasjonane i bokmerka og lokalt"
-
-#~ msgid "Browse items placed on the desktop"
-#~ msgstr "Sjå gjennom elementa på skrivebordet"
 
 #~ msgid "Hover"
 #~ msgstr "Dvele over"
