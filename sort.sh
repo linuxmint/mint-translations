@@ -17,12 +17,12 @@ for project in ["cinnamon", "cinnamon-bluetooth", "cinnamon-control-center", "ci
 		os.system("mv %s FOREIGN/cinnamon-translations/" % project)
 
 # individual projects
-for project in ["blueberry", "lightdm-settings", "mdm", "nemo-emblems", "folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "mintupdate", "mintreport"]:
+for project in ["blueberry", "lightdm-settings", "mdm", "nemo-emblems", "folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "mintupdate", "mintreport", "xfce4-xapp-status-plugin"]:
 	if os.path.exists(project):
 		os.system("mv %s FOREIGN/" % project)
 
 # projects which require locale.po, as opposed to project-locale.po filenames
-for project in ["folder-color-switcher", "mdm", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde"]:
+for project in ["folder-color-switcher", "mdm", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "xfce4-xapp-status-plugin"]:
 	if os.path.exists("FOREIGN/%s" % project):
 		os.system("rename 's/%s-//' FOREIGN/%s/*.po" % (project, project))
 
