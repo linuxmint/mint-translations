@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-27 13:23+0000\n"
-"PO-Revision-Date: 2018-12-23 08:12+0000\n"
-"Last-Translator: Dorian Baciu <Unknown>\n"
+"PO-Revision-Date: 2019-11-14 21:27+0000\n"
+"Last-Translator: Flaviu <flaviu@gmx.com>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
-"X-Launchpad-Export-Date: 2019-07-28 09:29+0000\n"
-"X-Generator: Launchpad (build 19010)\n"
+"X-Launchpad-Export-Date: 2019-11-26 15:53+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:70
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:72
@@ -44,24 +44,29 @@ msgid ""
 "Cannot process this file while there are active operations.\n"
 "Please try again after they finish."
 msgstr ""
+"Acest fișier nu poate fi procesat cât timp alte operații sunt active.\n"
+"Te rog încearcați din nou după terminarea lor."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:545
 msgid "The Flatpak repo you are trying to add already exists."
-msgstr ""
+msgstr "Repertoriul Flatpak pe care încercați să îl adăugați există deja."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:553
 msgid "An error occurred attempting to add the Flatpak repo."
-msgstr ""
+msgstr "A intervenit o eroare încercând să se adauge repertoriul Flatpak."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:561
 msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr ""
+"Suportul Flatpak nu este disponibil momentan. Încearcă să instalezi flatpak."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:580
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
 msgstr ""
+"Suportul Flatpak nu este disponibil momentan. Încercăi să instalezi flatpak "
+"și gir1.2-flatpak-1.0."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:631
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1192 generate_desktop_files:24
@@ -83,7 +88,7 @@ msgstr "Caută în descrierea pachetelor (căutare și mai lentă)"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:689
 msgid "Refresh the list of packages"
-msgstr ""
+msgstr "Actualizează lista de pachete"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:699
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1190
@@ -94,22 +99,25 @@ msgstr "Despre"
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d task rulează"
+msgstr[1] "%d task-uri rulează"
+msgstr[2] "%d task-uri rulează"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1279
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
 msgstr ""
+"Sunt acum operații în derulare.\n"
+"Ești sigur că vrei să renunți?"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1332
 msgid "Installed Applications"
-msgstr ""
+msgstr "Aplicații instalate"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1335
 msgid "Currently working on the following packages"
-msgstr ""
+msgstr "Se lucrează la următoarele pachete"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1337
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
@@ -262,17 +270,19 @@ msgstr "Esențiale"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1856
 msgid "All operations complete"
-msgstr ""
+msgstr "Toate operațiile sunt complete"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1860
 msgid "No matching packages found"
-msgstr ""
+msgstr "Nu s-au găsit pachetele căutate"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1863
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
 msgstr ""
+"Nu există pachete de afișat.\n"
+"Acest lucru poate indica o problemă - încercă să actualizezi memoria cache."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1998
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
@@ -281,7 +291,7 @@ msgstr "Detalii"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2074
 msgid "No reviews available"
-msgstr ""
+msgstr "Nu există recenzii disponibile"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2080
 #, python-format
@@ -314,20 +324,22 @@ msgstr "Se instalează"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2152
 msgid "Cannot remove"
-msgstr ""
+msgstr "Nu se poate elimina"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2153
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr ""
+"Eliminarea acestui pachet ar putea provoca daune ireparabile sistemului tău."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2155
 msgid "Cannot install"
-msgstr ""
+msgstr "Nu se poate instala"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2156
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
+"Instalarea acestui pachet ar putea provoca daune ireparabile sistemului tău."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2164
 msgid "Not available"
@@ -365,11 +377,11 @@ msgstr "Instalează aplicații noi"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
 msgid "Limit search to current listing"
-msgstr ""
+msgstr "Limitează căutarea la listările curente"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "<big><b>Generating cache, one moment</b></big>"
-msgstr ""
+msgstr "<big><b>Se generează cache-ul, o clipă</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Categories"
@@ -377,15 +389,15 @@ msgstr "Categorii"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "page0"
-msgstr ""
+msgstr "pagina0"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "<big><b>No matching packages found</b></big>"
-msgstr ""
+msgstr "<big><b>Nu s-au găsit pachete potrivite</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Refresh"
-msgstr ""
+msgstr "Reîmprospătează"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Launch"
@@ -393,7 +405,7 @@ msgstr "Lansează"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "Please be patient. This can take some time..."
-msgstr ""
+msgstr "Te rog să ai răbdare. Acest lucru poate dura ceva timp..."
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Size"
@@ -409,19 +421,19 @@ msgstr "Pachet"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "Branch"
-msgstr ""
+msgstr "Ramifică"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
 msgid "Architecture"
-msgstr ""
+msgstr "Arhitectură"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
 msgid "Remote"
-msgstr ""
+msgstr "De la distanţă"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
 msgid "Searching software repositories, one moment"
-msgstr ""
+msgstr "Se caută depozite de software, un moment"
 
 #~ msgid "Installation is complete"
 #~ msgstr "Instalarea este completă"
