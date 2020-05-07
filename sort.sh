@@ -7,7 +7,7 @@ os.chdir("po-export")
 os.system("mkdir -p FOREIGN/cinnamon-translations")
 
 # remove forbidden locales: pt_PT, fr_FR.
-FORBIDDEN_LOCALES = ["fr_FR", "pt_PT"]
+FORBIDDEN_LOCALES = ["fr_FR", "pt_PT", "de_DE"]
 for locale in FORBIDDEN_LOCALES:
     for root, dirs, files in os.walk("."):
         for file in files:
