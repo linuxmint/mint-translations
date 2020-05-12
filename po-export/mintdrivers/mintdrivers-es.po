@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 11:51+0100\n"
-"PO-Revision-Date: 2017-11-10 16:52+0000\n"
+"POT-Creation-Date: 2020-04-21 15:36+0100\n"
+"PO-Revision-Date: 2020-04-21 16:22+0000\n"
 "Last-Translator: Isidro Pisa <isidro@utils.info>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:01+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:28
-#: generate_desktop_files:43
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:26
+#: generate_desktop_files:41 generate_desktop_files:69
 msgid "Driver Manager"
-msgstr "Administrador de controladores"
+msgstr "Gestor de controladores"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:46
 msgid "Re_vert"
@@ -29,7 +29,7 @@ msgstr "Re_vertir"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:48
 msgid "_Apply Changes"
-msgstr "_Aplicar cambios"
+msgstr "_Aplicar los cambios"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:50
 msgid "_Cancel"
@@ -51,23 +51,23 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:202
 msgid "Applying changes..."
-msgstr "Aplicando cambios..."
+msgstr "Aplicando los cambios..."
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:356
 msgid "This device is using the recommended driver."
-msgstr "Este dispositivo está usando el controlador recomendado."
+msgstr "Este dispositivo usa el controlador recomendado."
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:357
 msgid "This device is using an alternative driver."
-msgstr "Este dispositivo está usando un controlador alternativo."
+msgstr "Este dispositivo usa un controlador alternativo."
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:358
 msgid "This device is using a manually-installed driver."
-msgstr "Este dispositivo está usando un controlador instalado manualmente."
+msgstr "Este dispositivo usa un controlador instalado manualmente."
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:359
 msgid "This device is not working."
-msgstr "Este dispositivo no está funcionando."
+msgstr "Este dispositivo no funciona."
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:368
 msgid "Continue using a manually installed driver"
@@ -91,11 +91,11 @@ msgstr "requiere una conexión a Internet"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:427
 msgid "Do not use the device"
-msgstr "No usar el dispositivo"
+msgstr "No usar este dispositivo"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:445
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:446
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:508
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:509
 msgid "Unknown"
 msgstr "Desconocido"
 
@@ -103,30 +103,34 @@ msgstr "Desconocido"
 msgid "Processor"
 msgstr "Procesador"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:490
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:491
 msgid "Processor microcode"
 msgstr "Microcódigo del procesador"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:542
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:549
 msgid "Do not update the CPU microcode"
-msgstr "No actualizar el microcódigo de la CPU"
+msgstr "No actualizar el microcódigo del procesador"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:577
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:565
+msgid "Your computer does not need any additional drivers"
+msgstr "Su equipo no necesita controladores adicionales"
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:597
 msgid "You need to restart the computer to complete the driver changes."
 msgstr ""
 "Es necesario reiniciar el equipo para completar los cambios de controlador."
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:591
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:611
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
 msgstr[0] "%(count)d controlador privativo en uso."
 msgstr[1] "%(count)d controladores privativos en uso."
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:596
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:616
 msgid "No proprietary drivers are in use."
-msgstr "No se están usando controladores privativos."
+msgstr "No se usan controladores privativos."
 
-#: generate_desktop_files:28 generate_desktop_files:43
+#: generate_desktop_files:26 generate_desktop_files:41
 msgid "Manage the drivers for your devices"
-msgstr "Administrar los controladores de dispositivo"
+msgstr "Gestionar los controladores de dispositivo"

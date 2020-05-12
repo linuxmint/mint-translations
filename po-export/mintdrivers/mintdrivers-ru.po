@@ -7,20 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 11:51+0100\n"
-"PO-Revision-Date: 2017-11-13 15:36+0000\n"
-"Last-Translator: Dmitriy Kulikov <Unknown>\n"
+"POT-Creation-Date: 2020-04-21 15:36+0100\n"
+"PO-Revision-Date: 2020-04-24 00:01+0000\n"
+"Last-Translator: Dmitrij Kiryanov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:01+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
+"Language: ru\n"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:28
-#: generate_desktop_files:43
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:26
+#: generate_desktop_files:41 generate_desktop_files:69
 msgid "Driver Manager"
 msgstr "Менеджер драйверов"
 
@@ -96,7 +97,7 @@ msgstr "Не использовать это устройство"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:445
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:446
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:508
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:509
 msgid "Unknown"
 msgstr "Неизвестно"
 
@@ -104,20 +105,24 @@ msgstr "Неизвестно"
 msgid "Processor"
 msgstr "Процессор"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:490
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:491
 msgid "Processor microcode"
 msgstr "Микрокод процессора"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:542
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:549
 msgid "Do not update the CPU microcode"
 msgstr "Не обновлять микрокод процессора"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:577
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:565
+msgid "Your computer does not need any additional drivers"
+msgstr "Ваш компьютер не нуждается в дополнительных драйверах"
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:597
 msgid "You need to restart the computer to complete the driver changes."
 msgstr ""
 "Необходимо перезапустить компьютер для завершения настройки драйвера."
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:591
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:611
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -125,10 +130,10 @@ msgstr[0] "Используется %(count)d проприетарный дра�
 msgstr[1] "Используется %(count)d проприетарных драйвера."
 msgstr[2] "Используется %(count)d проприетарных драйверов."
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:596
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:616
 msgid "No proprietary drivers are in use."
 msgstr "Проприетарные драйверы не используются."
 
-#: generate_desktop_files:28 generate_desktop_files:43
+#: generate_desktop_files:26 generate_desktop_files:41
 msgid "Manage the drivers for your devices"
 msgstr "Управление драйверами для устройств"

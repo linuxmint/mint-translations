@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 13:13+0100\n"
-"PO-Revision-Date: 2018-04-15 14:16+0000\n"
-"Last-Translator: Syahmin Sukhairi <Unknown>\n"
+"PO-Revision-Date: 2020-02-27 04:17+0000\n"
+"Last-Translator: Arief Setiadi Wibowo <q_thrynx@yahoo.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:02+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: lib/mintstick.py:86
 msgid "Write"
@@ -27,20 +27,20 @@ msgstr "Format"
 
 #: lib/mintstick.py:224
 msgid "unknown"
-msgstr "tidak diketahui"
+msgstr "tidak dikenal"
 
 #: lib/mintstick.py:348 lib/mintstick.py:350
 msgid "The USB stick was formatted successfully."
-msgstr "Perangkat USB sudah diformat dengan sukses"
+msgstr "Perangkat USB sudah diformat dengan sukses."
 
 #: lib/mintstick.py:353
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Terjadi masalah ketika membuat partisi pasa %s"
+msgstr "Terjadi masalah ketika membuat partisi pada %s."
 
 #: lib/mintstick.py:355 lib/mintstick.py:463
 msgid "Authentication Error."
-msgstr "Masalah Autentikasi"
+msgstr "Masalah Autentikasi."
 
 #: lib/mintstick.py:357 lib/mintstick.py:465
 msgid "An error occurred."
@@ -48,17 +48,17 @@ msgstr "Terjadi sebuah kesalahan."
 
 #: lib/mintstick.py:375
 msgid "Image:"
-msgstr "Gambar:"
+msgstr "Citra:"
 
 #: lib/mintstick.py:376
 msgid "USB stick:"
-msgstr "Perangkat USB"
+msgstr "Perangkat USB:"
 
 #: lib/mintstick.py:395 lib/mintstick.py:401 lib/mintstick.py:496
 #: generate_additional_files.py:23 generate_additional_files.py:35
 #: share/mintstick/mintstick.ui.h:31
 msgid "USB Image Writer"
-msgstr "Penulis Berkas USB"
+msgstr "Penulis Citra USB"
 
 #: lib/mintstick.py:435
 #, python-format
@@ -72,7 +72,7 @@ msgstr "Memulai menyalin dari %(VAR_SOURCE)s ke %(VAR_TARGET)s"
 
 #: lib/mintstick.py:453 lib/mintstick.py:456
 msgid "The image was successfully written."
-msgstr "Berkas berhasil ditulis."
+msgstr "Citra sukses ditulis."
 
 #: lib/mintstick.py:459
 msgid "Not enough space on the USB stick."
@@ -122,7 +122,7 @@ msgstr ""
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Format:"
-msgstr "Fromat:"
+msgstr "Format:"
 
 #: share/mintstick/mintstick.ui.h:6
 msgid "Select a USB stick"
@@ -154,14 +154,35 @@ msgid ""
 "  + Supports Linux file permissions.\n"
 "  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
+"FAT32 \n"
+"  + Kompatibel di manapun.\n"
+"  -  Tidak dapat menangani berkas yang lebih dari 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Kompatibel hampir di manapun.\n"
+"  + Mampu menangani berkas lebih dari  4GB.\n"
+"  -  Tidak se-kompatibel FAT32.\n"
+"\n"
+"NTFS \n"
+"  + Kompatibel dengan Windows.\n"
+"  -  Tidak kompatibel dengan Mac dan hampir seluruh piranti perangkat "
+"keras.\n"
+"  -  Kadang bermasalah kompatibel dengan Linux (NTFS adalah proprietary dan "
+"telah direkayasa balik).\n"
+"\n"
+"EXT4 \n"
+"  + Modern, stabil, cepat, terjurnal.\n"
+"  + Mendukung  Linux file permissions.\n"
+"  -  Tidak kompatibel dengan Windows, Mac hampir semua piranti perangkat "
+"keras.\n"
 
 #: share/mintstick/mintstick.ui.h:27
 msgid "Volume label:"
-msgstr "Nama label:"
+msgstr "Label volume:"
 
 #: share/mintstick/mintstick.ui.h:28
 msgid "Choose a name for your USB Stick"
-msgstr "Pilih sebuah nama untuk perangkat USB-mu"
+msgstr "Pilih sebuah nama untuk perangkat USB Anda"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "USB Stick"
@@ -173,15 +194,15 @@ msgstr "Detail"
 
 #: share/mintstick/mintstick.ui.h:32
 msgid "Write image:"
-msgstr "Menulis berkas:"
+msgstr "Tulis citra:"
 
 #: share/mintstick/mintstick.ui.h:33
 msgid "Select an image"
-msgstr "Pilih sebuah berkas"
+msgstr "Pilih sebuah citra"
 
 #: share/mintstick/mintstick.ui.h:34
 msgid "Select Image"
-msgstr "Pilih Berkas"
+msgstr "Pilih Citra"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "to"
@@ -189,4 +210,4 @@ msgstr "ke"
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "The image was written successfully."
-msgstr "Berkas tertulis dengan sukses."
+msgstr "Citra sukses ditulis."

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-05-15 14:58+0100\n"
-"PO-Revision-Date: 2018-02-26 16:10+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2020-04-23 16:28+0000\n"
+"Last-Translator: Steven Liao <stevenliao0119@yahoo.com.tw>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:01+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:75
 msgid "You are about to remove the following PPA:"
@@ -125,8 +125,8 @@ msgid ""
 "Unless you are participating in beta-testing, you should not enable this "
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
-"Linux Mint 使用 Romeo 來發表未經測試的軟體包。一旦這些軟體包經過測試，它們會移到官方的軟體庫去。除非您參與 beta "
-"版本測試，否則您不該啟用這個軟體庫。 您是否確定要啟用 Romeo？"
+"Linux Mint 使用 Romeo 來發表未經測試的軟體包。一旦這些軟體包經過測試，會被移入官方的軟體庫。除非您參與 beta "
+"版本測試，否則您不該選用這個軟體庫。 您是否確定要啟用 Romeo？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:507
 msgid "Select a mirror"
@@ -218,16 +218,16 @@ msgstr "問題已修正。請重新載入快取。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1121
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr ""
+msgstr "已移除重複的項目，請重新整理快取資料。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1127
 msgid "No duplicate entries were found."
-msgstr ""
+msgstr "未發現重複的項目"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1140
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
-msgstr ""
+msgstr "APT 組態發生錯誤，您可能需要先重新整理快取資料。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1235
 msgid "All missing keys were successfully added."
@@ -331,7 +331,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Your configuration changed"
-msgstr ""
+msgstr "組態已變更"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Click OK to update your APT cache"
@@ -398,7 +398,7 @@ msgstr "清除"
 
 #: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
-msgstr "錯誤: 必須以根帳號執行"
+msgstr "錯誤：必須使用 root 身份執行"
 
 #: usr/bin/add-apt-repository:23
 msgid "Error: need a repository as argument"
@@ -423,15 +423,15 @@ msgstr "鏡像站"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
 msgid "Optional Sources"
-msgstr ""
+msgstr "可選的軟體來源"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
 msgid "Source code repositories"
-msgstr ""
+msgstr "原始碼庫"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
 msgid "Debug symbols"
-msgstr ""
+msgstr "除錯符號"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
@@ -439,7 +439,7 @@ msgstr "還原至預設值"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
-msgstr ""
+msgstr "官方軟體庫"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
@@ -455,7 +455,7 @@ msgstr "PPAs"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
 msgid "Additional Repositories"
-msgstr ""
+msgstr "額外軟體庫"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
 msgid "Import"
@@ -467,7 +467,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
 msgid "Authentication Keys"
-msgstr ""
+msgstr "認證金鑰"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Fix MergeList problems"
@@ -479,7 +479,7 @@ msgstr "清除殘餘的組態"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Remove duplicate entries"
-msgstr ""
+msgstr "移除重複的項目"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Add missing keys"

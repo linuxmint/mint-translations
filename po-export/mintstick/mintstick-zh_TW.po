@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 13:13+0100\n"
-"PO-Revision-Date: 2018-11-28 14:19+0000\n"
-"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
+"PO-Revision-Date: 2020-04-23 16:34+0000\n"
+"Last-Translator: H.G. <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:02+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: lib/mintstick.py:86
 msgid "Write"
@@ -31,12 +31,12 @@ msgstr "未知"
 
 #: lib/mintstick.py:348 lib/mintstick.py:350
 msgid "The USB stick was formatted successfully."
-msgstr "USB 隨身碟已格式化成功 。"
+msgstr "成功格式化 USB 隨身碟。"
 
 #: lib/mintstick.py:353
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "在 %s 建立磁碟分割時出現錯誤。"
+msgstr "在 %s 建立磁碟分割區時發生錯誤。"
 
 #: lib/mintstick.py:355 lib/mintstick.py:463
 msgid "Authentication Error."
@@ -44,7 +44,7 @@ msgstr "驗證錯誤。"
 
 #: lib/mintstick.py:357 lib/mintstick.py:465
 msgid "An error occurred."
-msgstr "出現錯誤。"
+msgstr "發生錯誤。"
 
 #: lib/mintstick.py:375
 msgid "Image:"
@@ -58,7 +58,7 @@ msgstr "USB 隨身碟:"
 #: generate_additional_files.py:23 generate_additional_files.py:35
 #: share/mintstick/mintstick.ui.h:31
 msgid "USB Image Writer"
-msgstr "USB 映像檔寫入程式"
+msgstr "USB 映像寫入工具"
 
 #: lib/mintstick.py:435
 #, python-format
@@ -76,11 +76,11 @@ msgstr "成功寫入映像檔。"
 
 #: lib/mintstick.py:459
 msgid "Not enough space on the USB stick."
-msgstr "USB 隨身碟無足夠空間。"
+msgstr "USB 隨身碟空間不足。"
 
 #: lib/mintstick.py:461
 msgid "An error occured while copying the image."
-msgstr "複製映像檔時出現錯誤。"
+msgstr "複製映像檔時發生錯誤。"
 
 #: generate_additional_files.py:23 generate_additional_files.py:35
 #: generate_additional_files.py:68
@@ -114,7 +114,7 @@ msgstr "這會銷毀 USB 隨身碟裡的所有資料，您是否確定要繼續?
 #: share/mintstick/mintstick.ui.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr "出現錯誤，詳情請參閱詳細資訊視窗。"
+msgstr "出現錯誤，情形請參閱詳細資訊視窗。"
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Format:"
@@ -162,7 +162,7 @@ msgstr ""
 "NTFS \n"
 "  + 相容於 Windows。\n"
 "  -  不相容 Mac 與大多數硬體裝置。\n"
-"  -  在 Linux 下偶有相容性問題 (NTFS 是專有格式，以逆向工程來完成)。\n"
+"  -  在 Linux 下偶有相容性問題 (因 NTFS 是專有格式，遂以逆向工程完成)。\n"
 "\n"
 "EXT4 \n"
 "  + 現代化、穩定、快速、具日誌功能。\n"
@@ -175,7 +175,7 @@ msgstr "儲存區標籤:"
 
 #: share/mintstick/mintstick.ui.h:28
 msgid "Choose a name for your USB Stick"
-msgstr "為您的 USB 隨身碟選擇名稱"
+msgstr "命名您的 USB 隨身碟"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "USB Stick"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-06-03 10:16+0100\n"
-"PO-Revision-Date: 2019-06-05 21:19+0000\n"
-"Last-Translator: Adolfo Jayme <Unknown>\n"
+"PO-Revision-Date: 2020-01-12 23:07+0000\n"
+"Last-Translator: Toni Estevez <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 09:58+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:54+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -31,7 +31,7 @@ msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintdesktop/wms.page:16(title)
 msgid "Overview of some window managers"
-msgstr "Repaso de algunos gestores de ventanas"
+msgstr "Resumen de algunos gestores de ventanas"
 
 #: usr/share/help/C/mintdesktop/wms.page:18(p)
 msgid "Here's a description of some of the window managers available."
@@ -112,7 +112,7 @@ msgid ""
 "amazing effects and animations. It is however the least reliable and the "
 "least stable."
 msgstr ""
-"Compiz es un impresionante gestor de ventanas, muy configurable y lleno de "
+"Compiz es un impresionante gestor de ventanas, muy configurable y repleto de "
 "efectos y animaciones asombrosas. Sin embargo, es el menos fiable y el menos "
 "estable."
 
@@ -121,7 +121,7 @@ msgid ""
 "Compiz is installed by default in Linux Mint. Note: It is not available in "
 "LMDE."
 msgstr ""
-"Compiz se instala por defecto en Linux Mint. Nota: No está disponible en "
+"Compiz se instala por defecto en Linux Mint. Nota: no está disponible en "
 "LMDE."
 
 #: usr/share/help/C/mintdesktop/wms.page:45(title)
@@ -136,7 +136,7 @@ msgid ""
 msgstr ""
 "Compton es un gestor de composición. Se puede usar en combinación con "
 "gestores de ventanas como Marco, Metacity o Xfwm4. Es conocido que en Xfce, "
-"el uso de Xfwm4 + Compton reduce el efecto de rasgado de pantalla."
+"el uso de Xfwm4 + Compton reduce el efecto bandera en pantalla."
 
 #: usr/share/help/C/mintdesktop/wms.page:47(p)
 msgid ""
@@ -170,7 +170,7 @@ msgstr "Configuración del escritorio"
 
 #: usr/share/help/C/mintdesktop/index.page:16(p)
 msgid "Welcome to Desktop Settings."
-msgstr "Bienvenido a Configuración de Escritorio."
+msgstr "Le damos la bienvenida a la configuración del escritorio."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:82
@@ -179,7 +179,7 @@ msgstr "Ventanas"
 
 #: usr/share/help/C/mintdesktop/index.page:20(p)
 msgid "The Windows section lets you choose a window manager."
-msgstr "La sección de Ventanas le permite elegir un gestor de ventanas."
+msgstr "La sección Ventanas le permite elegir un gestor de ventanas."
 
 #: usr/share/help/C/mintdesktop/index.page:22(p)
 msgid ""
@@ -191,15 +191,20 @@ msgstr ""
 
 #: usr/share/help/C/mintdesktop/index.page:24(p)
 msgid "Windows borders, title bars and window buttons"
-msgstr "Bordes de ventana, barras de título y botones de ventana"
+msgstr ""
+"Los bordes de las ventanas, las barras del título y los botones de las "
+"ventanas."
 
 #: usr/share/help/C/mintdesktop/index.page:25(p)
 msgid "Window events (moving, resizing, focusing windows)"
-msgstr "Eventos de ventanas (mover, cambiar tamaño, asignar el foco)"
+msgstr ""
+"Los eventos de las ventanas (mover, cambiar el tamaño y enfocar las "
+"ventanas)."
 
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
-msgstr "Composición (sombras, animaciones, efectos, procesamiento de GPU)"
+msgstr ""
+"La composición (sombras, animaciones, efectos y procesamiento con la GPU)."
 
 #: usr/share/help/C/mintdesktop/compositing.page:16(title)
 msgid "Pros and cons of compositing"
@@ -211,15 +216,18 @@ msgstr "Ventajas"
 
 #: usr/share/help/C/mintdesktop/compositing.page:22(p)
 msgid "Better look &amp; feel: Window animations, shadows and transparency."
-msgstr "Mejor apariencia: animación de ventanas, sombras y transparencias."
+msgstr ""
+"Mejor apariencia y comportamiento: animaciones de las ventanas, sombras y "
+"transparencias."
 
 #: usr/share/help/C/mintdesktop/compositing.page:25(p)
 msgid ""
 "Better support for modern applications: Client-side decorations in GTK3 are "
 "better supported by composited window managers."
 msgstr ""
-"Mejor soporte para aplicaciones modernas: los gestores de ventanas con "
-"composición dan mejor soporte a la decoración del lado del cliente en GTK3."
+"Mejor compatibilidad con las aplicaciones modernas: los gestores de ventanas "
+"con composición ofrecen una mejor compatibilidad con las decoraciones del "
+"lado del cliente en GTK3."
 
 #: usr/share/help/C/mintdesktop/compositing.page:31(title)
 msgid "Disadvantages"
@@ -231,18 +239,18 @@ msgid ""
 "with the GPU (as opposed to the CPU) can result in visual artefacts or "
 "screen tearing."
 msgstr ""
-"Procesamiento de GPU: dependiendo de la tarjeta gráfica y sus controladores, "
-"la representación con la GPU (a diferencia de la CPU) puede dar lugar a "
-"artefactos visuales o discontinuidades en la imagen."
+"Procesamiento con la GPU: dependiendo de la tarjeta gráfica y los "
+"controladores, el procesamiento con la GPU (a diferencia de con la CPU) "
+"puede provocar artefactos visuales o el efecto bandera."
 
 #: usr/share/help/C/mintdesktop/compositing.page:38(p)
 msgid ""
 "Resource usage: Compositing requires more resources. This can result in "
 "slower performance or reduced battery autonomy on laptop computers."
 msgstr ""
-"Uso de recursos: la composición requiere más recursos. Esto puede resultar "
-"en un rendimiento más lento o reducir la autonomía de la batería en los "
-"ordenadores portátiles."
+"Uso de recursos: la composición requiere más recursos. El resultado puede "
+"ser un descenso del rendimiento o una reducción de la autonomía de la "
+"batería en los ordenadores portátiles."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintdesktop/compositing.page:0(None)
@@ -260,6 +268,7 @@ msgstr ""
 "  Monkey https://launchpad.net/~monkey-libre\n"
 "  Paco Molinero https://launchpad.net/~franciscomol\n"
 "  Ricardo Pérez López https://launchpad.net/~ricardo\n"
+"  Toni Estevez https://launchpad.net/~toni-estevez\n"
 "  Ubunteando https://launchpad.net/~martinvives\n"
 "  argentinoandino https://launchpad.net/~argentinoandino\n"
 "  carlitoz_uno https://launchpad.net/~carlitoz-uno\n"
@@ -277,7 +286,7 @@ msgstr "Interfaz"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
 msgid "Desktop icons"
-msgstr "Iconos de escritorio"
+msgstr "Iconos del escritorio"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
 msgid "Select the items you want to see on the desktop:"
@@ -310,7 +319,7 @@ msgstr "Gestor de ventanas"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:147
 msgid "Marco + Compositing"
-msgstr "Marco + Composición"
+msgstr "Marco + composición"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:149
 msgid "Marco + Compton"
@@ -318,7 +327,7 @@ msgstr "Marco + Compton"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
 msgid "Metacity + Compositing"
-msgstr "Metacity + Composición"
+msgstr "Metacity + composición"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:154
 msgid "Metacity + Compton"
@@ -326,7 +335,7 @@ msgstr "Metacity + Compton"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:157
 msgid "Xfwm4 + Compositing"
-msgstr "Xfwm4 + Composición"
+msgstr "Xfwm4 + composición"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
 msgid "Xfwm4 + Compton"
@@ -338,7 +347,7 @@ msgstr "Openbox + Compton"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:167
 msgid "Awesome"
-msgstr "Impresionante"
+msgstr "Awesome"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid ""
@@ -346,14 +355,15 @@ msgid ""
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
 "Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
-"Haga clic en el botón de ayuda para saber más sobre los gestores de "
-"ventanas.\n"
-"Use el comando 'wm-recovery' para volver al gestor de ventanas por defecto.\n"
-"Use el comando 'wm-detect' para saber qué gestor de ventanas está activo."
+"Haga clic en el botón de ayuda para obtener más información sobre los "
+"gestores de ventanas.\n"
+"Use la orden «wm-recovery» para volver al gestor de ventanas por defecto.\n"
+"Use la orden «wm-detect» para comprobar qué gestor de ventanas se está "
+"ejecutando."
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Auto"
-msgstr "Auto"
+msgstr "Selección automática"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
 msgid "Normal"
@@ -365,11 +375,11 @@ msgstr "Doble (HiDPI)"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
 msgid "User interface scaling"
-msgstr "Escala del interfaz de usuario"
+msgstr "Escalado de la interfaz de usuario"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:180
 msgid "Marco settings"
-msgstr "Ajustes de Marco"
+msgstr "Configuración de Marco"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
@@ -378,7 +388,7 @@ msgstr "Usar la tipografía del sistema en la barra del título"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 msgid "Don't show window content while dragging them"
-msgstr "No mostrar el contenido de la ventana mientras se arrastra"
+msgstr "No mostrar el contenido de las ventanas al arrastrarlas"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
@@ -393,19 +403,19 @@ msgstr "Estilo Mac (izquierda)"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
 msgid "Buttons layout:"
-msgstr "Disposición de los botones:"
+msgstr "Distribución de los botones:"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
 msgid "Buttons layout (CSD windows):"
-msgstr "Disposición de botones (ventanas CSD):"
+msgstr "Distribución de los botones (ventanas CSD):"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
 msgid "Metacity settings"
-msgstr "Ajustes de Metacity"
+msgstr "Configuración de Metacity"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
 msgid "Compiz settings"
-msgstr "Ajustes de Compiz"
+msgstr "Configuración de Compiz"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
 msgid "Configure Compiz"
@@ -433,19 +443,19 @@ msgstr "Barras de herramientas"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
 msgid "Text below items"
-msgstr "Texto debajo de los elementos"
+msgstr "Texto debajo de los iconos"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:229
 msgid "Text beside items"
-msgstr "Texto al lado de los elementos"
+msgstr "Texto junto a los iconos"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:230
 msgid "Icons only"
-msgstr "Sólo iconos"
+msgstr "Solo iconos"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
 msgid "Text only"
-msgstr "Sólo texto"
+msgstr "Solo texto"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
 msgid "Buttons labels:"
@@ -465,7 +475,7 @@ msgstr "Tamaño de los iconos:"
 
 #: generate_desktop_files:26
 msgid "Fine-tune desktop settings"
-msgstr "Ajuste detallado de opciones de escritorio"
+msgstr "Ajuste detallado de la configuración del escritorio"
 
 #~ msgid "Desktop Items"
 #~ msgstr "Elementos del escritorio"

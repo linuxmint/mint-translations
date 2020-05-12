@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 11:51+0100\n"
+"POT-Creation-Date: 2020-04-21 15:36+0100\n"
 "PO-Revision-Date: 2018-02-24 17:06+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Welsh <cy@li.org>\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : (n != 8 && n != 11) ? "
 "2 : 3;\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:01+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:28
-#: generate_desktop_files:43
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:26
+#: generate_desktop_files:41 generate_desktop_files:69
 msgid "Driver Manager"
 msgstr "Rheolwr Gyrwyr"
 
@@ -96,7 +96,7 @@ msgstr "Peidiwch defnyddio'r ddyfais"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:445
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:446
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:508
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:509
 msgid "Unknown"
 msgstr "Anhysbys"
 
@@ -104,19 +104,23 @@ msgstr "Anhysbys"
 msgid "Processor"
 msgstr "Prosesydd"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:490
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:491
 msgid "Processor microcode"
 msgstr "Meicrogod prosesydd"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:542
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:549
 msgid "Do not update the CPU microcode"
 msgstr "Peidiwch diweddaru meicrocod y CPU"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:577
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:565
+msgid "Your computer does not need any additional drivers"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:597
 msgid "You need to restart the computer to complete the driver changes."
 msgstr "Rhaid ailgychwyn y ddyfais i gwblhau newid y gyrrwr."
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:591
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:611
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
@@ -125,10 +129,10 @@ msgstr[1] "%(count)d gyrrwr perchnogol yn cael eu defnyddio"
 msgstr[2] "%(count)d gyrrwr perchnogol yn cael eu defnyddio"
 msgstr[3] "%(count)d gyrrwr perchnogol yn cael eu defnyddio"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:596
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:616
 msgid "No proprietary drivers are in use."
 msgstr "Dim gyrrwr perchnogol yn cael eu defnyddio"
 
-#: generate_desktop_files:28 generate_desktop_files:43
+#: generate_desktop_files:26 generate_desktop_files:41
 msgid "Manage the drivers for your devices"
 msgstr "Rheoli gyrwyr eich dyfais"

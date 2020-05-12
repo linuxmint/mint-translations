@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2018-05-07 11:51+0100\n"
+"POT-Creation-Date: 2020-04-21 15:36+0100\n"
 "PO-Revision-Date: 2015-12-23 11:32+0000\n"
 "Last-Translator: Saki <Unknown>\n"
 "Language-Team: Vietnamese <vi@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:01+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:28
-#: generate_desktop_files:43
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:42 generate_desktop_files:26
+#: generate_desktop_files:41 generate_desktop_files:69
 msgid "Driver Manager"
 msgstr "Quản lý Trình điều khiển"
 
@@ -94,7 +94,7 @@ msgstr "Không dùng thiết bị"
 
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:445
 #: usr/lib/linuxmint/mintdrivers/mintdrivers.py:446
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:508
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:509
 msgid "Unknown"
 msgstr "Không xác định"
 
@@ -102,29 +102,33 @@ msgstr "Không xác định"
 msgid "Processor"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:490
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:491
 msgid "Processor microcode"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:542
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:549
 msgid "Do not update the CPU microcode"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:577
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:565
+msgid "Your computer does not need any additional drivers"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:597
 msgid "You need to restart the computer to complete the driver changes."
 msgstr ""
 "Bạn cần khởi động lại máy tính để hoàn tất việc thay đổi trình điều khiển."
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:591
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:611
 #, python-format
 msgid "%(count)d proprietary driver in use."
 msgid_plural "%(count)d proprietary drivers in use."
 msgstr[0] "Đang sử dụng %(count)d trình điều khiển độc quyền."
 
-#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:596
+#: usr/lib/linuxmint/mintdrivers/mintdrivers.py:616
 msgid "No proprietary drivers are in use."
 msgstr "Hiện đang không dùng trình điều khiển độc quyền nào."
 
-#: generate_desktop_files:28 generate_desktop_files:43
+#: generate_desktop_files:26 generate_desktop_files:41
 msgid "Manage the drivers for your devices"
 msgstr "Quản lý trình điều khiển cho các thiết bị của bạn"

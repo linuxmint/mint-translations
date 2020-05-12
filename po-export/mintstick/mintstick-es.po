@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 13:13+0100\n"
-"PO-Revision-Date: 2018-05-07 12:36+0000\n"
-"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
+"PO-Revision-Date: 2020-01-11 12:09+0000\n"
+"Last-Translator: Toni Estevez <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:02+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: lib/mintstick.py:86
 msgid "Write"
-msgstr "Escribir"
+msgstr "Grabar"
 
 #: lib/mintstick.py:134 generate_additional_files.py:78
 msgid "Format"
@@ -31,12 +31,12 @@ msgstr "desconocido"
 
 #: lib/mintstick.py:348 lib/mintstick.py:350
 msgid "The USB stick was formatted successfully."
-msgstr "La memoria USB ha sido formateada correctamente."
+msgstr "Se ha formateado correctamente la memoria USB."
 
 #: lib/mintstick.py:353
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Ha ocurrido un error al crear una partición en %s."
+msgstr "Se ha producido un error al crear una partición en %s."
 
 #: lib/mintstick.py:355 lib/mintstick.py:463
 msgid "Authentication Error."
@@ -63,16 +63,16 @@ msgstr "Grabador de imágenes USB"
 #: lib/mintstick.py:435
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
-msgstr "Escribiendo %(VAR_FILE)s en %(VAR_DEV)s"
+msgstr "Grabando %(VAR_FILE)s en %(VAR_DEV)s"
 
 #: lib/mintstick.py:436
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
-msgstr "Iniciando copia desde %(VAR_SOURCE)s a %(VAR_TARGET)s"
+msgstr "Iniciando la copia desde %(VAR_SOURCE)s a %(VAR_TARGET)s"
 
 #: lib/mintstick.py:453 lib/mintstick.py:456
 msgid "The image was successfully written."
-msgstr "La imagen ha sido grabada correctamente."
+msgstr "Se ha grabado correctamente la imagen."
 
 #: lib/mintstick.py:459
 msgid "Not enough space on the USB stick."
@@ -80,7 +80,7 @@ msgstr "No hay suficiente espacio en la memoria USB."
 
 #: lib/mintstick.py:461
 msgid "An error occured while copying the image."
-msgstr "Ha ocurrido un error al copiar la imagen."
+msgstr "Se ha producido un error al copiar la imagen."
 
 #: generate_additional_files.py:23 generate_additional_files.py:35
 #: generate_additional_files.py:68
@@ -110,18 +110,19 @@ msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
 msgstr ""
-"Esto destruirá todos los datos de la memoria USB, ¿está seguro de que desea "
+"Esta acción destruirá todos los datos de la memoria USB. ¿Seguro que quiere "
 "continuar?"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid ""
 "Something went wrong, please see the details window for the exact error."
 msgstr ""
-"Algo ha fallado, revise la ventana de detalles para ver el error exacto."
+"Se ha producido un error. Consulte la ventana de detalles para saber el "
+"error exacto."
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Format:"
-msgstr "Formato:"
+msgstr "Formatear:"
 
 #: share/mintstick/mintstick.ui.h:6
 msgid "Select a USB stick"
@@ -154,24 +155,25 @@ msgid ""
 "  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
 "FAT32 \n"
-"  + Compatible con todos los sistemas.\n"
-"  -  No puede gestionar archivos mayores de 4GB.\n"
+"  + Es compatible con todos los sistemas.\n"
+"  -  No admite archivos mayores de 4 GB.\n"
 "\n"
 "exFAT\n"
-"  + Compatible con casi todos los sistemas.\n"
-"  + Puede gestionar archivos mayores de 4GB.\n"
-"  -  No tan compatible como FAT32.\n"
+"  + Es compatible con casi todos los sistemas.\n"
+"  + Admite archivos mayores de 4 GB.\n"
+"  -  No es tan compatible como FAT32.\n"
 "\n"
 "NTFS \n"
 "  + Compatible con Windows.\n"
-"  -  No compatible con Mac ni con numerosos dispositivos hardware.\n"
-"  -  Problemas puntuales de compatibilidad con Linux (NTFS es proprietario y "
-"se ha hecho ingeniería inversa).\n"
+"  -  No es compatible con Mac ni con numerosos dispositivos de hardware.\n"
+"  -  Problemas ocasionales de compatibilidad con Linux (es privativo y "
+"requiere ingeniería inversa).\n"
 "\n"
 "EXT4 \n"
-"  + Moderno, estable, rápido, periodizado.\n"
-"  + Compatible con los permisos de archivos de Linux.\n"
-"  -  No compatible amb Windows, Mac ni con numerosos dispositivos hardware.\n"
+"  + Moderno, estable, rápido y transaccional.\n"
+"  + Es compatible con los permisos de archivo de Linux.\n"
+"  -  No es compatible con Windows, con Mac ni con numerosos dispositivos de "
+"hardware.\n"
 
 #: share/mintstick/mintstick.ui.h:27
 msgid "Volume label:"
@@ -191,7 +193,7 @@ msgstr "Detalles"
 
 #: share/mintstick/mintstick.ui.h:32
 msgid "Write image:"
-msgstr "Grabar imagen:"
+msgstr "Grabar:"
 
 #: share/mintstick/mintstick.ui.h:33
 msgid "Select an image"
@@ -207,4 +209,4 @@ msgstr "en"
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "The image was written successfully."
-msgstr "La imagen se ha grabado correctamente."
+msgstr "Se ha grabado correctamente la imagen."

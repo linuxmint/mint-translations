@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-27 13:23+0000\n"
-"PO-Revision-Date: 2017-11-05 11:35+0000\n"
+"PO-Revision-Date: 2020-03-16 15:45+0000\n"
 "Last-Translator: AO <Unknown>\n"
 "Language-Team: French (Canada) <fr_CA@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2020-01-06 09:57+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:54+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:70
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:72
@@ -43,24 +43,30 @@ msgid ""
 "Cannot process this file while there are active operations.\n"
 "Please try again after they finish."
 msgstr ""
+"Impossible de traiter ce fichier pendant que des opérations sont en cours.\n"
+"Veuillez ressayer une fois qu’elles seront terminées."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:545
 msgid "The Flatpak repo you are trying to add already exists."
-msgstr ""
+msgstr "Le dépôt Flatpak que vous essayez d’ajouter existe déjà."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:553
 msgid "An error occurred attempting to add the Flatpak repo."
-msgstr ""
+msgstr "Une erreur est survenue en essayant d’ajouter le dépôt Flatpak"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:561
 msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr ""
+"La prise en charge de Flatpak n’est pas proposée actuellement. Veuillez "
+"essayer d’installer flatpak."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:580
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
 msgstr ""
+"La prise en charge de Flatpak n’est pas proposée actuellement. Veuillez "
+"essayer d’installer flatpak et gir1.2-flatpak-1.0."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:631
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1192 generate_desktop_files:24
@@ -83,7 +89,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:689
 msgid "Refresh the list of packages"
-msgstr ""
+msgstr "Actualiser la liste des paquets"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:699
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1190
@@ -94,14 +100,16 @@ msgstr "À propos"
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d tâche en cours d’exécution"
+msgstr[1] "%d tâches en cours d’exécution"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1279
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
 msgstr ""
+"Des opérations sont en cours.\n"
+"Voulez-vous vraiment quitter ?"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1332
 msgid "Installed Applications"
@@ -109,7 +117,7 @@ msgstr "Applications installées"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1335
 msgid "Currently working on the following packages"
-msgstr ""
+msgstr "Opération en cours sur les paquets suivants"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1337
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
@@ -130,7 +138,7 @@ msgstr "Email"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1364
 msgid "Chat"
-msgstr "Chat"
+msgstr "Discussion en ligne"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1367
 msgid "File sharing"
@@ -262,17 +270,19 @@ msgstr "Les essentiels"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1856
 msgid "All operations complete"
-msgstr ""
+msgstr "Toutes les opérations sont terminées"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1860
 msgid "No matching packages found"
-msgstr ""
+msgstr "Aucun paquet correspondant n’a été trouvé"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1863
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
 msgstr ""
+"Il n’y a aucun paquet à afficher.\n"
+"Cela peut indiquer un problème. Veuillez essayer d’actualiser le cache."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1998
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
@@ -281,7 +291,7 @@ msgstr "Détails"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2074
 msgid "No reviews available"
-msgstr ""
+msgstr "Il n’y a aucune critique"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2080
 #, python-format
@@ -298,7 +308,7 @@ msgstr "Installé"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2141
 msgid "Removing"
-msgstr ""
+msgstr "Suppression"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2143
 msgid "Install"
@@ -310,24 +320,26 @@ msgstr "Non installé"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2148
 msgid "Installing"
-msgstr ""
+msgstr "Installation"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2152
 msgid "Cannot remove"
-msgstr ""
+msgstr "Désinstallation impossible"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2153
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr ""
+"Supprimer ce paquet pourrait causer des dégâts irréparables à votre système."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2155
 msgid "Cannot install"
-msgstr ""
+msgstr "Installation impossible"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2156
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
+"Installer ce paquet pourrait causer des dégâts irréparables à votre système."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2164
 msgid "Not available"
@@ -363,11 +375,11 @@ msgstr "Installer de nouvelles applications"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
 msgid "Limit search to current listing"
-msgstr ""
+msgstr "Limiter la recherche à la liste actuelle"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "<big><b>Generating cache, one moment</b></big>"
-msgstr ""
+msgstr "<big><b>Génération du cache, veuillez patienter</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Categories"
@@ -375,15 +387,15 @@ msgstr "Catégories"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "page0"
-msgstr ""
+msgstr "page 0"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "<big><b>No matching packages found</b></big>"
-msgstr ""
+msgstr "<big><b>Aucun paquet ne correspond</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Refresh"
-msgstr ""
+msgstr "Actualiser"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Launch"
@@ -391,7 +403,7 @@ msgstr "Lancer"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "Please be patient. This can take some time..."
-msgstr ""
+msgstr "Veuillez patienter. Cette opération peut prendre du temps…"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Size"
@@ -419,7 +431,7 @@ msgstr "Dépôt"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
 msgid "Searching software repositories, one moment"
-msgstr ""
+msgstr "Recherche dans les dépôts de logiciels, veuillez patienter"
 
 #~ msgid "Finished"
 #~ msgstr "Terminé"

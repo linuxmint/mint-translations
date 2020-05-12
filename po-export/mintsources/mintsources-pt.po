@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-05-15 14:58+0100\n"
-"PO-Revision-Date: 2019-12-08 22:04+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"PO-Revision-Date: 2020-01-06 23:20+0000\n"
+"Last-Translator: Sérgio Marques <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:01+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:75
 msgid "You are about to remove the following PPA:"
@@ -35,7 +35,7 @@ msgstr "Prima Enter para continuar ou Ctrl+C para cancelar"
 #: usr/lib/linuxmint/mintSources/mintSources.py:86
 #: usr/lib/linuxmint/mintSources/mintSources.py:166
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr "Incapaz de pedir resposta . Por favor execute com -y"
+msgstr "Não foi possível pedir a resposta. Experimente executar com -y"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 msgid "Cancelling..."
@@ -44,7 +44,7 @@ msgstr "A cancelar..."
 #: usr/lib/linuxmint/mintSources/mintSources.py:93
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
-msgstr "Não foi possível obter informação sobe o PPA: '%s'"
+msgstr "Não foi possível obter informação sobre o PPA: '%s'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:115
 #, python-format
@@ -54,20 +54,20 @@ msgstr "falha ao remover o PPA: '%s'"
 #: usr/lib/linuxmint/mintSources/mintSources.py:134
 #, python-format
 msgid "failed to remove repository: '%s'"
-msgstr "falha a remover repositório: '%s'"
+msgstr "falha a remover o repositório: '%s'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:141
 msgid "Adding PPAs is not supported"
-msgstr "Adicionar PPAs não é suportado"
+msgstr "A adição de PPA não é suportada"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:148
 #, python-format
 msgid "Cannot add PPA: '%s'."
-msgstr "Não foi possível adicionar o PPA: %s."
+msgstr "Não foi possível adicionar o PPA: '%s'."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:152
 msgid "Adding private PPAs is not supported currently"
-msgstr "Adicionar PPA privados não é suportado neste momento."
+msgstr "Atualmente, ainda não é possível adicionar os PPA privados"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:155
 msgid "You are about to add the following PPA:"
@@ -99,12 +99,12 @@ msgstr "Falha ao transferir o PPA: %s."
 #: usr/lib/linuxmint/mintSources/mintSources.py:254
 #: usr/lib/linuxmint/mintSources/mintSources.py:258
 msgid "No supported PPA of this name was found."
-msgstr "Nenhum PPA suportado deste nome foi encontrado."
+msgstr "Não foi encontrado qualquer PPA com este nome."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:266
 #, python-format
 msgid "This PPA does not support %s"
-msgstr "Este PPA não suporta %s"
+msgstr "Este PPA não tem suporte a %s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:406
 #: usr/lib/linuxmint/mintSources/mintSources.py:446
@@ -126,10 +126,10 @@ msgid ""
 "Unless you are participating in beta-testing, you should not enable this "
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
-"O Linux Mint usa o Romeo para publicar pacotes que não são testados. Assim "
-"que esses pacotes são testados, eles são posteriormente movidos para os "
-"repositórios oficiais. A não ser que esteja a participar num teste-beta, não "
-"deve ativar este repositório. Tem a certeza que quer ativar o Romeo?"
+"O Linux Mint usa Romeo para publicar pacotes que não são testados. Assim que "
+"esses pacotes forem testados, serão movidos para os repositórios oficiais. A "
+"não ser que esteja a participar num programa beta, não deve ativar este "
+"repositório. Tem a certeza de que deseja ativar o Romeo?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:507
 msgid "Select a mirror"
@@ -154,7 +154,7 @@ msgstr "Global"
 #: usr/lib/linuxmint/mintSources/mintSources.py:633
 #: usr/lib/linuxmint/mintSources/mintSources.py:647
 msgid "kB/s"
-msgstr "KB/s"
+msgstr "kB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:636
 msgid "MB/s"
@@ -179,7 +179,7 @@ msgstr "Repositórios"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:827
 msgid "Backported packages"
-msgstr "Pacote backported"
+msgstr "Pacotes 'backported'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:829
 msgid "Unstable packages"
@@ -213,7 +213,7 @@ msgstr "Chave"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1069
 msgid "There is no more residual configuration on the system."
-msgstr "Não existem mais ficheiros de configuração residual."
+msgstr "Não existem mais ficheiros residuais no sistema."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1078
 msgid "The problem was fixed. Please reload the cache."
@@ -221,42 +221,42 @@ msgstr "O problema foi resolvido. Por favor recarregue a cache."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1121
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr "Entradas duplicadas foram removidas. Por favor, recarregue a cache."
+msgstr ""
+"As entradas duplicadas foram removidas. Por favor, recarregue a cache."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1127
 msgid "No duplicate entries were found."
-msgstr "Nenhuma entrada duplicada foi encontrada."
+msgstr "Não foram encontradas entradas duplicadas."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1140
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
 msgstr ""
-"Erro com a configuração do APT, talvez seja necessário recarregar a cache "
-"primeiro."
+"Erro com a configuração do APT, talvez seja necessário recarregar a cache."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1235
 msgid "All missing keys were successfully added."
-msgstr "Todas as chaves em falta foram adicionadas com êxito."
+msgstr "Todas as chaves inexistentes foram adicionadas com sucesso."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1237
 msgid "Not all missing keys could be found."
-msgstr "Nem todas as chaves em falta foram encontradas."
+msgstr "Nem todas as chaves inexistentes foram encontradas."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1240
 msgid "Keys were added for the following repositories:"
-msgstr "As chaves foram adicionadas para os seguintes repositórios:"
+msgstr "Foram adicionadas chaves para os seguintes repositórios:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1245
 msgid "Keys are still missing for the following repositories:"
-msgstr "As chaves ainda faltam para os seguintes repositórios:"
+msgstr "Ainda existem chaves em falta para os seguintes repositórios:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1246
 msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
 msgstr ""
-"Adicione as restantes chaves (s) ausentes manualmente ou remova os "
-"repositórios ou PPAs correspondentes."
+"Adicione as restantes chaves manualmente ou remova os repositórios/PPA "
+"correspondentes."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1255
 msgid "Please reload the cache."
@@ -264,7 +264,7 @@ msgstr "Por favor, recarregue a cache."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1260
 msgid "No missing keys were found."
-msgstr "Não foram encontradas chaves em falta."
+msgstr "Não existem chaves em falta."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1296
 msgid "Open.."
@@ -292,15 +292,15 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1329
 msgid "Are you sure you want to permanently remove this key?"
-msgstr "Tem a certeza que quer remover permanentemente esta chave?"
+msgstr "Tem a certeza de que deseja remover esta chave permanentemente?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1347
 msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr "Digite o nome ou a URL do PPA que deseja adicionar:"
+msgstr "Introduza o nome ou o URL do PPA que pretende adicionar:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1356
 msgid "The name of the PPA you entered isn't formatted correctly."
-msgstr "O nome do PPA digitado não está formatado corretamente."
+msgstr "O nome do PPA não está com o formato correto."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1412
 msgid "Edit the URL of the PPA"
@@ -308,26 +308,25 @@ msgstr "Editar URL do PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1422
 msgid "Are you sure you want to permanently remove this PPA?"
-msgstr "Tem a certeza que quer remover permanentemente este PPA?"
+msgstr "Tem a certeza de que deseja remover este PPA permanentemente?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1463
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
-"O conteúdo deste PPA não está disponível. Por favor, actualize a cache e "
-"tente novamente."
+"O conteúdo deste PPA não está disponível. Deve recarregar a cache e tentar "
+"novamente."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1482
 msgid "Please enter the name of the repository you want to add:"
-msgstr "Por favor introduza o nome do repositório que quer adicionar:"
+msgstr "Por favor introduza o nome do repositório a adicionar:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1499
 msgid ""
 "This repository is already configured, you cannot add it a second time."
 msgstr ""
-"Esse repositório já está configurado, você não pode adicioná-lo uma segunda "
-"vez."
+"Este repositório já está configurado e não pode ser adicionado outra vez."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1506
 msgid "Edit the URL of the repository"
@@ -335,7 +334,8 @@ msgstr "Editar URL do repositório"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1516
 msgid "Are you sure you want to permanently remove this repository?"
-msgstr "Tem a certeza que quer remover permanentemente este repositório?"
+msgstr ""
+"Tem a certeza de que deseja remover este repositório permanentemente?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1568
 #: usr/lib/linuxmint/mintSources/mintSources.py:1700
@@ -357,7 +357,7 @@ msgstr "versão %s já está instalada"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:91
 msgid "already installed"
-msgstr "já se encontra instalado"
+msgstr "já está instalado"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
@@ -367,14 +367,16 @@ msgstr "Pacotes estranhos"
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:46
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
 msgid "Downgrade"
-msgstr "Desactualizar"
+msgstr "Descer de versão"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:47
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
-msgstr "A versão dos seguintes pacotes não corresponde à dos repositórios:"
+msgstr ""
+"A versão destes pacotes não é coincidente com a versão existente nos "
+"repositórios:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
@@ -393,7 +395,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:227
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
-msgstr "Selecionar todos"
+msgstr "Selecionar tudo"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:73
 msgid "Package"
@@ -405,7 +407,7 @@ msgstr "Versão instalada"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:84
 msgid "Repository version"
-msgstr "Versão no repositório"
+msgstr "Versão do repositório"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:230
 msgid "Clear"
@@ -417,7 +419,7 @@ msgstr "Erro: deve ser executado como root"
 
 #: usr/bin/add-apt-repository:23
 msgid "Error: need a repository as argument"
-msgstr "Erro: é necessário um repositório como argumento"
+msgstr "Erro: necessita de um repositório como argumento"
 
 #: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
@@ -435,7 +437,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
-msgstr "Mirrors"
+msgstr "Servidores"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
 msgid "Optional Sources"
@@ -451,7 +453,7 @@ msgstr "Símbolos de depuração"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
-msgstr "Restaurar configurações pré-definidas"
+msgstr "Restaurar definições padrão"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
@@ -467,7 +469,7 @@ msgstr "Editar"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
 msgid "PPAs"
-msgstr "PPAs"
+msgstr "PPA"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
 msgid "Additional Repositories"
@@ -507,7 +509,7 @@ msgstr "Remover pacotes estranhos"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Downgrade foreign packages"
-msgstr "Desactualizar pacotes estranhos"
+msgstr "Reverter pacote estranhos"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Maintenance"
@@ -515,7 +517,7 @@ msgstr "Manutenção"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid "Select Mirror"
-msgstr "Selecionar origem do servidor"
+msgstr "Selecionar servidor"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Apply"
@@ -526,8 +528,8 @@ msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
 msgstr ""
-"Este PPA fornece os seguintes pacotes. Por favor, selecione os que você "
-"deseja instalar."
+"Este PPA disponibiliza os seguintes pacotes. Selecione os pacotes que "
+"pretende instalar."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Install"
