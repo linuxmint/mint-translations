@@ -32,7 +32,7 @@ for project in ["blueberry", "lightdm-settings", "live-installer", "nemo-emblems
         os.system("mv %s FOREIGN/" % project)
 
 # projects which require locale.po, as opposed to project-locale.po filenames
-for project in ["folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "xfce4-xapp-status-plugin", "mintubiquity", "nvidia-prime-applet"]:
+for project in ["folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "xfce4-xapp-status-plugin", "mintubiquity", "nvidia-prime-applet", "warpinator"]:
     if os.path.exists("FOREIGN/%s" % project):
         os.system("rename 's/%s-//' FOREIGN/%s/*.po" % (project, project))
 
