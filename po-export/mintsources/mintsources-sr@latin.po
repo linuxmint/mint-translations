@@ -8,115 +8,115 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-05-15 14:58+0100\n"
-"PO-Revision-Date: 2020-01-18 15:59+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-05-14 18:53+0000\n"
+"Last-Translator: Saša Marjanović <Unknown>\n"
 "Language-Team: Serbian Latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-05-11 10:58+0000\n"
-"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
+"X-Launchpad-Export-Date: 2020-06-17 11:57+0000\n"
+"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:75
 msgid "You are about to remove the following PPA:"
-msgstr ""
+msgstr "Upravo ćete ukloniti sledeću PPA:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:78
 #: usr/lib/linuxmint/mintSources/mintSources.py:158
 #, python-format
 msgid " More info: %s"
-msgstr ""
+msgstr " Više informacija: %s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:82
 #: usr/lib/linuxmint/mintSources/mintSources.py:162
 msgid "Press Enter to continue or Ctrl+C to cancel"
-msgstr ""
+msgstr "Pritisnite Enter da nastavite ili Ctrl+C da opozovete"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:86
 #: usr/lib/linuxmint/mintSources/mintSources.py:166
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr ""
+msgstr "Ne mogu potaknuti odgovor. Unesite istu komandu sa -y"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 msgid "Cancelling..."
-msgstr ""
+msgstr "Opozivam..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:93
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
-msgstr ""
+msgstr "Ne mogu dobiti informacije o PPA: '%s'."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:115
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr ""
+msgstr "neuspešno uklanjanje PPA: '%s'."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:134
 #, python-format
 msgid "failed to remove repository: '%s'"
-msgstr ""
+msgstr "neuspešno uklanjanje repozitorijuma: '%s'."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:141
 msgid "Adding PPAs is not supported"
-msgstr ""
+msgstr "Dodavanje PPA nije podržano"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:148
 #, python-format
 msgid "Cannot add PPA: '%s'."
-msgstr ""
+msgstr "Ne mogu dodati PPA: '%s'."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:152
 msgid "Adding private PPAs is not supported currently"
-msgstr ""
+msgstr "Trenutno nije podržano dodavanje privatnih PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:155
 msgid "You are about to add the following PPA:"
-msgstr ""
+msgstr "Upravo ćete dodati sledeću PPA:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:185
 #: usr/lib/linuxmint/mintSources/mintSources.py:1487
 msgid "Malformed input, repository not added."
-msgstr ""
+msgstr "Nepravilan unos, repozitorijum nije pridodat."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:188
 msgid "Repository already exists."
-msgstr ""
+msgstr "Repozitorijum već postoji."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:241
 msgid "Connection timed out, check your connection or try again later."
-msgstr ""
+msgstr "Vezа je isteklа, proverite Vašu vezu ili pokušаjte ponovo kasnije."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:243
 msgid "Failed to establish a secure connection."
-msgstr ""
+msgstr "Ne mogu da uspostavim bezbednu vezu."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:245
 #, python-format
 msgid "Failed to download the PPA: %s."
-msgstr ""
+msgstr "Neuspešno preuzimanje PPA: %s."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:254
 #: usr/lib/linuxmint/mintSources/mintSources.py:258
 msgid "No supported PPA of this name was found."
-msgstr ""
+msgstr "Nije pronađena nijedna podržana PPA pod ovim nazivom."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:266
 #, python-format
 msgid "This PPA does not support %s"
-msgstr ""
+msgstr "Ova PPA ne podržava %s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:406
 #: usr/lib/linuxmint/mintSources/mintSources.py:446
 msgid "Sources"
-msgstr ""
+msgstr "Izvori"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:415
 msgid "CD-ROM (Installation Disc)"
-msgstr ""
+msgstr "CD-ROM (instalacioni disk)"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:427
 msgid "Local Repository"
-msgstr ""
+msgstr "Lokalni repozitorijum"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:475
 msgid ""
@@ -125,390 +125,407 @@ msgid ""
 "Unless you are participating in beta-testing, you should not enable this "
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
+"Linuks Mint koristi Romeo za objavljivanje paketa koji nisu testirani. Kada "
+"se završi testiranje ovih paketa, oni se prebacuju u zvanične "
+"repozitorijume. Osim ukoliko ne učestvujete u beta testiranju, ne biste "
+"trebali da omogućite ovaj repozitorijum. Da li ste sigurni da želite da "
+"omogućite Romeo?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:507
 msgid "Select a mirror"
-msgstr ""
+msgstr "Izaberite preslikani server"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:519
 msgid "Country"
-msgstr ""
+msgstr "Država"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:524
 msgid "URL"
-msgstr ""
+msgstr "URL adresa"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:529
 msgid "Speed"
-msgstr ""
+msgstr "Brzina"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:555
 msgid "Worldwide"
-msgstr ""
+msgstr "Globalni"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:633
 #: usr/lib/linuxmint/mintSources/mintSources.py:647
 msgid "kB/s"
-msgstr ""
+msgstr "kB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:636
 msgid "MB/s"
-msgstr ""
+msgstr "MB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:639
 msgid "GB/s"
-msgstr ""
+msgstr "GB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:682
 msgid "Obsolete"
-msgstr ""
+msgstr "Zastarelo"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:685
 msgid "Unreachable"
-msgstr ""
+msgstr "Nedostupno"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:809 generate_desktop_files:25
 #: generate_desktop_files:53
 msgid "Software Sources"
-msgstr ""
+msgstr "Izvori softvera"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:827
 msgid "Backported packages"
-msgstr ""
+msgstr "Paketi portovani sa novijih verzija"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:829
 msgid "Unstable packages"
-msgstr ""
+msgstr "Nestabilni paketi"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:842
 msgid "Main"
-msgstr ""
+msgstr "Glavni"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:843
 msgid "Base"
-msgstr ""
+msgstr "Osnovni"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:885
 #: usr/lib/linuxmint/mintSources/mintSources.py:909
 msgid "Enabled"
-msgstr ""
+msgstr "Omogućeno"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:891
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:49
 msgid "PPA"
-msgstr ""
+msgstr "PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:915
 msgid "Repository"
-msgstr ""
+msgstr "Repozitorijum"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:931
 msgid "Key"
-msgstr ""
+msgstr "Ključ"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1069
 msgid "There is no more residual configuration on the system."
-msgstr ""
+msgstr "Nema više rezidualnih konfiguracija na ovom sistemu."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1078
 msgid "The problem was fixed. Please reload the cache."
-msgstr ""
+msgstr "Problem je rešen. Učitajte ponovo keš."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1121
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr ""
+msgstr "Istovetni unosi su uklonjeni. Učitajte ponovo keš."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1127
 msgid "No duplicate entries were found."
-msgstr ""
+msgstr "Nisu pronađeni istovetni unosi."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1140
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
 msgstr ""
+"Greška u Vašoj konfiguraciji APT-a, možda ćete morati da ponovo učitate keš."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1235
 msgid "All missing keys were successfully added."
-msgstr ""
+msgstr "Svi nedostajući ključevi su uspešno dodati."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1237
 msgid "Not all missing keys could be found."
-msgstr ""
+msgstr "Nije bilo moguće pronaći sve nedostajuće ključeve."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1240
 msgid "Keys were added for the following repositories:"
-msgstr ""
+msgstr "Ključevi su dodati za sledeće repozitorijume:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1245
 msgid "Keys are still missing for the following repositories:"
-msgstr ""
+msgstr "Još uvek nedostaju ključevi za sledeće repozitorijume:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1246
 msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
 msgstr ""
+"Dodaj preostali(e) nedostajući(e) ključ(eve) ručno ili ukloni odgovarajuće "
+"repozitorijume ili PPA."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1255
 msgid "Please reload the cache."
-msgstr ""
+msgstr "Učitajte ponovo keš."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1260
 msgid "No missing keys were found."
-msgstr ""
+msgstr "Nije pronađen ni jedan nedostajući ključ."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1296
 msgid "Open.."
-msgstr ""
+msgstr "Otvori.."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1299
 #: usr/lib/linuxmint/mintSources/mintSources.py:1567
 #: usr/lib/linuxmint/mintSources/mintSources.py:1701
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
 msgid "Cancel"
-msgstr ""
+msgstr "Otkaži"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1300
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "Open"
-msgstr ""
+msgstr "Otvori"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1312
 msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr ""
+"Unesite otisak javnog ključa koji želite da preuzmete sa "
+"keyserver.ubuntu.com:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1329
 msgid "Are you sure you want to permanently remove this key?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da trajno uklonite ovaj ključ?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1347
 msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr ""
+msgstr "Unesite naziv ili URL adresu za PPA koju želite da dodate:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1356
 msgid "The name of the PPA you entered isn't formatted correctly."
-msgstr ""
+msgstr "Naziv ove PPA koji ste uneli nije ispravno formatiran."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1412
 msgid "Edit the URL of the PPA"
-msgstr ""
+msgstr "Uredite URL adresu ove PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1422
 msgid "Are you sure you want to permanently remove this PPA?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da trajno uklonite ovu PPA?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1463
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
-msgstr ""
+msgstr "Sadržaj ove PPA nije dostupan. Osvežite keš i pokušajte ponovo."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1482
 msgid "Please enter the name of the repository you want to add:"
-msgstr ""
+msgstr "Unesite naziv repozitorijuma koji želite da dodate:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1499
 msgid ""
 "This repository is already configured, you cannot add it a second time."
 msgstr ""
+"Ovaj repozitorijum je već konfigurisan, ne možete ga dodati po drugi put."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1506
 msgid "Edit the URL of the repository"
-msgstr ""
+msgstr "Uredite URL adresu ovog repozitorijuma"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1516
 msgid "Are you sure you want to permanently remove this repository?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da trajno uklonite ovaj repozitorijum?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1568
 #: usr/lib/linuxmint/mintSources/mintSources.py:1700
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Your configuration changed"
-msgstr ""
+msgstr "Vaša konfiguracija je promenjena"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1696
 msgid "Click OK to update your APT cache"
-msgstr ""
+msgstr "Kliknite na OK da ažurirate keš Vašeg APT-a"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:88
 #, python-format
 msgid "version %s already installed"
-msgstr ""
+msgstr "verzija %s je već instalirana"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:91
 msgid "already installed"
-msgstr ""
+msgstr "već je instalirano"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
 msgid "Foreign packages"
-msgstr ""
+msgstr "Strani paketi"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:46
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
 msgid "Downgrade"
-msgstr ""
+msgstr "Preinstaliraj prethodnu verziju"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:47
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
-msgstr ""
+msgstr "Verzije sledećih paketa ne odgovaraju onima iz repozitorijuma:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:50
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
 msgstr ""
+"Paketi navedeni dole su instalirani na Vašem računaru, ali ih nema u "
+"repozitorijumima:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:227
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
-msgstr ""
+msgstr "Izaberi sve"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:73
 msgid "Package"
-msgstr ""
+msgstr "Paket"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:78
 msgid "Installed version"
-msgstr ""
+msgstr "Instalirana verzija"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:84
 msgid "Repository version"
-msgstr ""
+msgstr "Verzija repozitorijuma"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:230
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
-msgstr ""
+msgstr "Greška: mora se pokrenuti kao root"
 
 #: usr/bin/add-apt-repository:23
 msgid "Error: need a repository as argument"
-msgstr ""
+msgstr "Greška: potreban repozitorijum kao argument"
 
 #: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
 msgstr ""
+"Konfigurišite izvore za softver i ažuriranja koji se mogu instalirati"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
 msgid ""
 "Review the information below very carefully before validating the command."
 msgstr ""
+"Pažljivo pregledajte ponovo informacije ispod, pre nego što potvrdite ovu "
+"komandu."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
-msgstr ""
+msgstr "Preslikani serveri"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
 msgid "Optional Sources"
-msgstr ""
+msgstr "Opcioni izvori"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
 msgid "Source code repositories"
-msgstr ""
+msgstr "Repozitorijumi izvornih kodova"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
 msgid "Debug symbols"
-msgstr ""
+msgstr "Simboli debagiranja"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
-msgstr ""
+msgstr "Vrati podrazumevana podešavanja"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
-msgstr ""
+msgstr "Zvanični repozitorijumi"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
 msgid "PPAs"
-msgstr ""
+msgstr "PPA"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
 msgid "Additional Repositories"
-msgstr ""
+msgstr "Dodatni repozitorijumi"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
 msgid "Import"
-msgstr ""
+msgstr "Uvezi"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
 msgid "Download"
-msgstr ""
+msgstr "Preuzimanje"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
 msgid "Authentication Keys"
-msgstr ""
+msgstr "Ključevi za autentifikaciju"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Fix MergeList problems"
-msgstr ""
+msgstr "Reši probleme sa MergeListom"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Purge residual configuration"
-msgstr ""
+msgstr "Pročisti preostаlu konfigurаciju"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Remove duplicate entries"
-msgstr ""
+msgstr "Ukloni duplikate unosa"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Add missing keys"
-msgstr ""
+msgstr "Dodaj nedostajuće ključeve"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Remove foreign packages"
-msgstr ""
+msgstr "Ukloni strane pakete"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Downgrade foreign packages"
-msgstr ""
+msgstr "Vrati strane pakete na prethodnu verziju"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Maintenance"
-msgstr ""
+msgstr "Održavanje"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid "Select Mirror"
-msgstr ""
+msgstr "Izaberite preslikani server"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Apply"
-msgstr ""
+msgstr "Primeni"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
 msgstr ""
+"Ova PPA daje sledeće pakete. Izaberite one koje želite da instalirate."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Install"
-msgstr ""
+msgstr "Instaliraj"
