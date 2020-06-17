@@ -6,16 +6,6 @@ os.chdir("po-export")
 
 os.system("mkdir -p FOREIGN/cinnamon-translations")
 
-# remove forbidden locales: pt_PT, fr_FR.
-FORBIDDEN_LOCALES = ["fr_FR", "pt_PT", "de_DE"]
-for locale in FORBIDDEN_LOCALES:
-    for root, dirs, files in os.walk("."):
-        for file in files:
-            if file.endswith('%s.po' % locale):
-                fullpath = os.path.join(root, file)
-                print ("%s deleted! (forbidden locale)." % fullpath)
-                os.unlink(fullpath)
-
 # special case, xedit -> xed
 if os.path.exists("xedit") and os.path.exists("xed"):
     os.system("mv xedit/* xed/")
