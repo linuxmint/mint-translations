@@ -4,6 +4,9 @@ import os
 
 os.chdir("po-export")
 
+# Remove templates
+os.system("rm -f */*.pot")
+
 # remove forbidden locales: pt_PT, fr_FR.
 FORBIDDEN_LOCALES = ["fr_FR", "pt_PT", "de_DE"]
 for locale in FORBIDDEN_LOCALES:
