@@ -17,7 +17,7 @@ for project in ["cinnamon", "cinnamon-control-center", "cinnamon-session", "cinn
         os.system("mv %s FOREIGN/cinnamon-translations/" % project)
 
 # individual projects
-for project in ["blueberry", "lightdm-settings", "live-installer", "nemo-emblems", "folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "mintupdate", "mintreport", "xfce4-xapp-status-plugin", "linuxmint-installation-guide", "warpinator", "mintubiquity", "nvidia-prime-applet"]:
+for project in ["blueberry", "lightdm-settings", "live-installer", "nemo-emblems", "folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "mintdrivers", "mintupdate", "mintreport", "xfce4-xapp-status-plugin", "linuxmint-installation-guide", "warpinator", "mintubiquity", "nvidia-prime-applet"]:
     if os.path.exists(project):
         os.system("mv %s FOREIGN/" % project)
 
