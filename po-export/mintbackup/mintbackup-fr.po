@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-24 10:03+0000\n"
-"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
+"X-Launchpad-Export-Date: 2020-12-10 10:22+0000\n"
+"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
@@ -57,7 +57,7 @@ msgstr ""
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr ""
-"Une erreur d’ouverture du fichier de sauvegarde s’est produite : %s."
+"Une erreur d’ouverture du fichier de sauvegarde s’est produite[nbsp]: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "No packages need to be installed."
@@ -74,7 +74,7 @@ msgstr "%s est ignoré, car les tubes nommés ne sont pas pris en charge."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:452
 msgid "Backing up:"
-msgstr "Sauvegarde :"
+msgstr "Sauvegarde[nbsp]:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "Calculating..."
@@ -83,7 +83,7 @@ msgstr "Calcul…"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "The following errors occurred:"
-msgstr "Les erreurs suivantes se sont produites :"
+msgstr "Les erreurs suivantes se sont produites[nbsp]:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:470
 msgid "The backup was aborted."
@@ -99,7 +99,7 @@ msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
-"Avertissement : Le fichier meta n’a pas pu être enregistré. Cette "
+"Avertissement[nbsp]: Le fichier meta n’a pas pu être enregistré. Cette "
 "sauvegarde ne sera accepté pour être restaurée."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:542
@@ -108,12 +108,12 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
-"Avertissement : Certains fichiers n’ont pas été enregistrés. Seuls "
+"Avertissement[nbsp]: Certains fichiers n’ont pas été enregistrés. Seuls "
 "%(archived)d fichiers sur %(total)d ont été sauvegardés."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:557
 msgid "Restoring:"
-msgstr "Restauration :"
+msgstr "Restauration[nbsp]:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:574
 msgid "The restoration was aborted."
@@ -127,7 +127,7 @@ msgstr "Vos fichiers ont été restaurés avec succès."
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
-"Avertissement : Seuls %(number)d fichiers sur %(total)d ont été "
+"Avertissement[nbsp]: Seuls %(number)d fichiers sur %(total)d ont été "
 "restaurés."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:691
@@ -184,7 +184,7 @@ msgstr "La liste d’applications installées sur votre ordinateur"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr "Veuillez sélectionner où enregistrer le fichier de sauvegarde :"
+msgstr "Veuillez sélectionner où enregistrer le fichier de sauvegarde[nbsp]:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
@@ -244,11 +244,11 @@ msgstr "Veuillez patienter pendant que vos fichiers sont sauvegardés."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr "Veuillez choisir la sauvegarde à restaurer :"
+msgstr "Veuillez choisir la sauvegarde à restaurer[nbsp]:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr "Écraser les fichiers existants ?"
+msgstr "Écraser les fichiers existants[nnbsp]?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
@@ -300,7 +300,7 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"Note : Si vous souhaitez enregistrer la liste entière de tous les "
+"Note[nbsp]: Si vous souhaitez enregistrer la liste entière de tous les "
 "paquets installés dans le système, veuillez utiliser la commande 'dpkg --get-"
 "selections > maliste.list' dans un terminal."
 
@@ -308,7 +308,7 @@ msgstr ""
 msgid "Please select a saved software selection (.list file):"
 msgstr ""
 "Veuillez sélectionner une liste enregistrée de logiciels (fichier "
-".list) :"
+".list)[nbsp]:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
@@ -404,10 +404,10 @@ msgstr "Tous les paquets de votre sélection de logiciels sont installés."
 #~ msgstr "Archivage de votre répertoire personnel..."
 
 #~ msgid "An error occurred during the backup:"
-#~ msgstr "Une erreur de sauvegarde s’est produite :"
+#~ msgstr "Une erreur de sauvegarde s’est produite[nbsp]:"
 
 #~ msgid "An error occurred while restoring the backup archive:"
-#~ msgstr "Une erreur de restauration de la sauvegarde s’est produite :"
+#~ msgstr "Une erreur de restauration de la sauvegarde s’est produite[nbsp]:"
 
 #~ msgid "An error occurred while opening the backup:"
-#~ msgstr "Une erreur d’ouverture de la sauvegarde s’est produite :"
+#~ msgstr "Une erreur d’ouverture de la sauvegarde s’est produite[nbsp]:"

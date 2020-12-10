@@ -2,20 +2,21 @@
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-13 16:04+0100\n"
-"PO-Revision-Date: 2019-03-31 10:26+0000\n"
-"Last-Translator: Knez <Unknown>\n"
-"Language-Team: Serbian <sr@li.org>\n"
+"PO-Revision-Date: 2020-11-28 22:16+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <(nothing)>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-24 10:07+0000\n"
-"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
+"X-Launchpad-Export-Date: 2020-12-10 10:26+0000\n"
+"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
+"Language: sr\n"
 
 #: lib/mintstick.py:95
 msgid "Write"
@@ -68,7 +69,7 @@ msgstr "Уписујем „%(VAR_FILE)s“ на „%(VAR_DEV)s“"
 #: lib/mintstick.py:455
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
-msgstr "Почињем умножавање „%(VAR_SOURCE)s“ на „%(VAR_TARGET)s“"
+msgstr "Почињем умножавање са „%(VAR_SOURCE)s“ на „%(VAR_TARGET)s“"
 
 #: lib/mintstick.py:476 lib/mintstick.py:479
 msgid "The image was successfully written."
@@ -105,12 +106,13 @@ msgstr "Направи подизни УСБ диск"
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr "Ово ће уништити све податке на УСБ диску. Да ли желите да наставите?"
+msgstr ""
+"Ово ће уништити све податке на УСБ диску, да ли сигурно желите да наставите?"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr "Нешто није у реду. Погледајте прозор детаља за грешке."
+msgstr "Нешто није у реду, у прозору детаља потражите тачну грешку."
 
 #: share/mintstick/mintstick.ui.h:4
 msgid "Format:"
@@ -156,15 +158,15 @@ msgstr ""
 "  - Није тако компатибилно са FAT32.\n"
 "\n"
 "NTFS \n"
-"  + Компатибилан са Windows.\n"
-"  - Није компатибилан са Mac и већином хардверских уређаја.\n"
+"  + Компатибилан са Виндоузом.\n"
+"  - Није компатибилан са Меком и већином хардверских уређаја.\n"
 "  - Повремени проблеми са компатибилношћу са Линуксом (NTFS је власнички и "
 "направљен обрнутим инжењерингом).\n"
 "\n"
 "EXT4 \n"
-"  + Модерна, стабилна, брза, дневнички.\n"
+"  + Модеран, стабилан, брз, дневнички.\n"
 "  + Подржава дозволе Линукс датотека.\n"
-"  - Није компатибилан са Windows, Mac и већином хардверских уређаја.\n"
+"  - Није компатибилан са Виндоузом, Меком и већином хардверских уређаја.\n"
 
 #: share/mintstick/mintstick.ui.h:26
 msgid "Volume label:"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-13 16:04+0100\n"
-"PO-Revision-Date: 2018-06-15 13:49+0000\n"
+"PO-Revision-Date: 2020-06-29 06:58+0000\n"
 "Last-Translator: Panwar <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-24 10:07+0000\n"
-"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
+"X-Launchpad-Export-Date: 2020-12-10 10:26+0000\n"
+"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
 
 #: lib/mintstick.py:95
 msgid "Write"
@@ -31,7 +31,7 @@ msgstr "अज्ञात"
 
 #: lib/mintstick.py:364 lib/mintstick.py:366
 msgid "The USB stick was formatted successfully."
-msgstr "यूएसबी डिवाइस सफलतापूर्वक फॉर्मेट हो गया।"
+msgstr "यूएसबी सफलतापूर्वक फॉर्मेट हो गई।"
 
 #: lib/mintstick.py:369
 #, python-format
@@ -40,11 +40,11 @@ msgstr "%s पर विभाजन करते समय त्रुटि�
 
 #: lib/mintstick.py:371 lib/mintstick.py:486
 msgid "Authentication Error."
-msgstr "प्रमाणीकरण त्रुटि।"
+msgstr "पुष्टिकरण त्रुटि।"
 
 #: lib/mintstick.py:373 lib/mintstick.py:488
 msgid "An error occurred."
-msgstr "कोई त्रुटि हुई।"
+msgstr "त्रुटि हुई।"
 
 #: lib/mintstick.py:391
 msgid "Image:"
@@ -52,7 +52,7 @@ msgstr "फ़ाइल :"
 
 #: lib/mintstick.py:392
 msgid "USB stick:"
-msgstr "यूएसबी डिवाइस :"
+msgstr "यूएसबी :"
 
 #: lib/mintstick.py:411 lib/mintstick.py:417 lib/mintstick.py:519
 #: generate_additional_files.py:22 generate_additional_files.py:34
@@ -63,57 +63,54 @@ msgstr "यूएसबी फ़ाइल राइटर"
 #: lib/mintstick.py:453
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
-msgstr "%(VAR_FILE)s को %(VAR_DEV)s में राइट करने की प्रक्रिया चल रही है"
+msgstr "%(VAR_FILE)s %(VAR_DEV)s में राइट हो रही है"
 
 #: lib/mintstick.py:455
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
-msgstr ""
-"%(VAR_SOURCE)s से %(VAR_TARGET)s में कॉपी करने की प्रक्रिया आरंभ हो रही है"
+msgstr "%(VAR_SOURCE)s से %(VAR_TARGET)s में कॉपी हो रही है"
 
 #: lib/mintstick.py:476 lib/mintstick.py:479
 msgid "The image was successfully written."
-msgstr "फ़ाइल को सफलतापूर्वक राइट कर दिया गया।"
+msgstr "फ़ाइल सफलतापूर्वक राइट की गई।"
 
 #: lib/mintstick.py:482
 msgid "Not enough space on the USB stick."
-msgstr "यूएसबी डिवाइस पर पर्याप्त स्पेस नहीं है।"
+msgstr "यूएसबी पर पर्याप्त स्पेस नहीं है।"
 
 #: lib/mintstick.py:484
 msgid "An error occured while copying the image."
-msgstr "फ़ाइल कॉपी करते समय त्रुटि हुई।"
+msgstr "फ़ाइल कॉपी करते समय त्रुटि।"
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: generate_additional_files.py:67
 msgid "Make a bootable USB stick"
-msgstr "बूट करने योग्य यूएसबी डिवाइस बनाएँ"
+msgstr "बूट योग्य यूएसबी बनाएँ"
 
 #: generate_additional_files.py:46 generate_additional_files.py:58
 #: share/mintstick/mintstick.ui.h:3
 msgid "USB Stick Formatter"
-msgstr "यूएसबी डिवाइस फॉर्मेट करने हेतु साधन"
+msgstr "यूएसबी फॉर्मेट हेतु साधन"
 
 #: generate_additional_files.py:46 generate_additional_files.py:58
 #: generate_additional_files.py:77
 msgid "Format a USB stick"
-msgstr "यूएसबी डिवाइस फॉर्मेट करें"
+msgstr "यूएसबी फॉर्मेट करें"
 
 #: generate_additional_files.py:67
 msgid "Make bootable USB stick"
-msgstr "बूट करने योग्य यूएसबी डिवाइस बनाएँ"
+msgstr "बूट योग्य यूएसबी बनाएँ"
 
 #: generate_additional_files.py:108 share/mintstick/mintstick.ui.h:1
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr ""
-"यह यूएसबी डिवाइस पर मौजूद सारे डाटा को नष्ट कर देगा, क्या आप प्रक्रिया जारी "
-"रखना चाहते हैं?"
+msgstr "इससे यूएसबी का सारा डाटा नष्ट हो जाएगा, क्या आप जारी रखना चाहते हैं?"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr "कुछ गलत हो गया, कृपया सटीक त्रुटि के लिए विवरण विंडो देखें।"
+msgstr "त्रुटि हुई, कृपया सटीक त्रुटि हेतु विवरण देखें।"
 
 #: share/mintstick/mintstick.ui.h:4
 msgid "Format:"
@@ -121,7 +118,7 @@ msgstr "फॉर्मेट :"
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Select a USB stick"
-msgstr "यूएसबी डिवाइस चुनें"
+msgstr "यूएसबी चुनें"
 
 #: share/mintstick/mintstick.ui.h:6
 msgid "as"
@@ -160,26 +157,26 @@ msgstr ""
 "\n"
 "NTFS \n"
 "  + विंडोज के साथ संगत।\n"
-"  - एप्पल के मैक एवं ज़्यादातर हार्डवेयर डिवाइस से साथ असंगत।\n"
+"  - एप्पल के मैक एवं ज़्यादातर हार्डवेयर के साथ असंगत।\n"
 "  - लिनक्स के साथ कभी-कभी संगतता समस्याएँ (NTFS अमुक्त है व रिवर्स-इंजीनियर "
 "किया गया है)।\n"
 "\n"
 "EXT4 \n"
 "  + आधुनिक, स्थिर, तेज़, नियमित लॉग-फ़ाइल बनता है।\n"
 "  + लिनक्स फ़ाइल अनुमतियों का समर्थन करता है।\n"
-"  -  विंडोज, एप्पल के मैक एवं ज़्यादातर हार्डवेयर डिवाइस से साथ असंगत।\n"
+"  -  विंडोज, एप्पल के मैक एवं ज़्यादातर हार्डवेयर के साथ असंगत।\n"
 
 #: share/mintstick/mintstick.ui.h:26
 msgid "Volume label:"
-msgstr "नामपत्र"
+msgstr "वॉल्यूम लेबल :"
 
 #: share/mintstick/mintstick.ui.h:27
 msgid "Choose a name for your USB Stick"
-msgstr "यूएसबी डिवाइस का नाम चुनें"
+msgstr "यूएसबी नाम चुनें"
 
 #: share/mintstick/mintstick.ui.h:28
 msgid "USB Stick"
-msgstr "यूएसबी डिवाइस"
+msgstr "यूएसबी"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "Details"
@@ -187,20 +184,20 @@ msgstr "विवरण"
 
 #: share/mintstick/mintstick.ui.h:31
 msgid "Write image:"
-msgstr "इमेज को राइट करें:"
+msgstr "फ़ाइल राइट करें:"
 
 #: share/mintstick/mintstick.ui.h:32
 msgid "Select an image"
-msgstr "एक इमेज चुने"
+msgstr "फ़ाइल चुनें"
 
 #: share/mintstick/mintstick.ui.h:33
 msgid "Select Image"
-msgstr "इमेज चुने"
+msgstr "फ़ाइल चुनें"
 
 #: share/mintstick/mintstick.ui.h:34
 msgid "to"
-msgstr "को"
+msgstr "हेतु"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "The image was written successfully."
-msgstr "इमेज सफलतापूर्वक राइट कर दी गयी।"
+msgstr "फ़ाइल सफलतापूर्वक राइट की गई।"
