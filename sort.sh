@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-
 import os
+
+MINT_PROJECTS = ["mintbackup", "mint-common", "mintdesktop", "mintinstall", "mintlocale", "mintmenu", "mintnanny", "mintsources", "mintstick", "mintupload", "mintwelcome"]
+CINNAMON_PROJECTS = ["cinnamon", "cinnamon-control-center", "cinnamon-session", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo", "nemo-extensions"]
+SIMPLE_PO_PROJECTS = ["folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "xfce4-xapp-status-plugin", "mintubiquity", "nvidia-prime-applet", "warpinator"]
 
 os.chdir("po-export")
 
@@ -14,18 +17,11 @@ if os.path.exists("xedit") and os.path.exists("xed"):
     os.system("mv xedit/* xed/")
     os.system("rm -rf xedit")
 
-# cinnamon-translations
-for project in ["cinnamon", "cinnamon-control-center", "cinnamon-session", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo", "nemo-extensions"]:
-    if os.path.exists(project):
-        os.system("mv %s FOREIGN/cinnamon-translations/" % project)
-
-# individual projects
-for project in ["blueberry", "lightdm-settings", "live-installer", "nemo-emblems", "folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "mintdrivers", "mintupdate", "mintreport", "xfce4-xapp-status-plugin", "linuxmint-installation-guide", "warpinator", "mintubiquity", "nvidia-prime-applet"]:
-    if os.path.exists(project):
-        os.system("mv %s FOREIGN/" % project)
-
-# projects which require locale.po, as opposed to project-locale.po filenames
-for project in ["folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "slideshow-mint-kde", "xfce4-xapp-status-plugin", "mintubiquity", "nvidia-prime-applet", "warpinator"]:
-    if os.path.exists("FOREIGN/%s" % project):
-        os.system("rename 's/%s-//' FOREIGN/%s/*.po" % (project, project))
-
+for project in os.listdir("."):
+    if os.path.isdir(project) and project != "FOREIGN":
+        if project in SIMPLE_PO_PROJECTS:
+            os.system("rename 's/%s-//' %s/*.po" % (project, project))
+        if project in CINNAMON_PROJECTS:
+            os.system("mv %s FOREIGN/cinnamon-translations/" % project)
+        elif project not in MINT_PROJECTS:
+            os.system("mv %s FOREIGN/" % project)
