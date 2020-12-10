@@ -6,6 +6,9 @@ os.chdir("po-export")
 
 os.system("mkdir -p FOREIGN/cinnamon-translations")
 
+# Remove templates
+os.system("rm -rf */*.pot")
+
 # special case, xedit -> xed
 if os.path.exists("xedit") and os.path.exists("xed"):
     os.system("mv xedit/* xed/")
