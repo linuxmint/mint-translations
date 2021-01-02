@@ -8,19 +8,20 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-13 13:07+0100\n"
-"PO-Revision-Date: 2020-05-07 02:29+0000\n"
-"Last-Translator: vega m57 <Unknown>\n"
+"PO-Revision-Date: 2020-12-14 17:06+0000\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2020-12-10 10:27+0000\n"
-"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
+"X-Launchpad-Export-Date: 2021-01-02 14:14+0000\n"
+"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"Language: ja\n"
 
 #: usr/lib/linuxmint/mintlocale/add.py:43
 msgid "Add a New Language"
-msgstr "新しい言語を追加します"
+msgstr "新しい言語の追加"
 
 #: usr/lib/linuxmint/mintlocale/im.py:91
 msgid "Already installed"
@@ -40,15 +41,15 @@ msgstr "なし"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:71
 msgid "Install / Remove Languages"
-msgstr "言語のインストール/削除"
+msgstr "言語のインストールと削除"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:217
 msgid "Some language packs are missing"
-msgstr "言語パッケージが不足"
+msgstr "言語パッケージが足りません"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:221
 msgid "Fully installed"
-msgstr "すべてインストール済み"
+msgstr "全てインストールされています"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:311
 msgid "Language Settings"
@@ -68,7 +69,7 @@ msgstr "言語"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:350
 msgid "Language, interface..."
-msgstr "言語､インターフェース..."
+msgstr "言語, インタフェースなど..."
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Region"
@@ -76,21 +77,21 @@ msgstr "地域"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Numbers, currency, addresses, measurement..."
-msgstr "数字、通貨、住所、単位..."
+msgstr "数字, 通貨, 住所, 単位など..."
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Time format"
-msgstr "時間の表示書式"
+msgstr "時間書式"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Date and time..."
-msgstr "日付と時刻..."
+msgstr "日付と時刻など..."
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:477
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:478
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:479
 msgid "No locale defined"
-msgstr "ロケールが設定されていません"
+msgstr "ロケール未設定"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:566
 msgid "Language:"
@@ -106,7 +107,7 @@ msgstr "時間書式:"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:569
 msgid "System locale"
-msgstr "システム ロケール"
+msgstr "システムのロケール"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:573
 msgid "Language support"
@@ -116,7 +117,7 @@ msgstr "言語サポート"
 #, python-format
 msgid "%d language installed"
 msgid_plural "%d languages installed"
-msgstr[0] "インストール済み言語: %d"
+msgstr[0] "%d 言語がインストール済み"
 
 #: usr/share/linuxmint/mintlocale/add.ui.h:1
 msgid "Cancel"
@@ -144,13 +145,14 @@ msgid ""
 "Input methods are used to write symbols and characters which are not present "
 "on the keyboard. They are useful to write in Chinese, Japanese, Korean, "
 "Thai, Vietnamese..."
-msgstr "入力方法はキーボードにはない記号や文字の入力に使用されます。中国語、日本語、韓国語、タイ語、ベトナム語などを入力するのに役立ちます。"
+msgstr ""
+"入力方式システムは、キーボードにない記号や文字の入力に使用されます。中国語、日本語、韓国語、タイ語、ベトナム語などで入力するのに役立ちます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:4
 msgid ""
 "To add support for a particular language, select it in the sidebar and "
 "follow the instructions."
-msgstr "特定の言語のサポートを追加するには、サイドバーから選択して、指示に従ってください。"
+msgstr "特定の言語のサポートを追加するには、サイドバーから言語を選択して、指示に従ってください。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:5
 msgid "Help"
@@ -158,40 +160,39 @@ msgstr "ヘルプ"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:6
 msgid "To write in simplified Chinese follow the steps below:"
-msgstr "簡体字中国語で書くには、次の手順に従ってください:"
+msgstr "簡体字中国語で入力するには、次の手順に従ってください:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:7
 msgid "- Install the language support packages: "
-msgstr "- 以下の言語サポートパッケージをインストールしてください: "
+msgstr "- 言語サポートのパッケージをインストールします: "
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:9
 msgid "- Log out and log back in."
-msgstr "- ログアウトして再度ログインしてください。"
+msgstr "- いったんログアウトし、再度ログインします。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:10
 msgid ""
 "- Right-click the Fcitx applet in the system tray and choose \"Configure\"."
-msgstr "- システムトレイにある Fcitx アプレットを右クリックして、[構成] を選択してください。"
+msgstr "- システムトレイにある Fcitx アプレットを右クリックし、\"設定\" を選択します。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:11
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Pinyin</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- Fcitx の構成画面で、<b>ピンイン</b>入力方法を追加してください (必要に応じて [現在の言語のみ表示] のチェック "
-"ボックスをオフにしてください)。"
+"- Fcitx の設定画面で、入力方式 <b>Pinyin</b> を追加します (必要に応じて \"現在の言語のみ表示\" のチェックを外します)。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:12
 msgid "- Switch between input methods with <b>Ctrl+Space</b>."
-msgstr "- <b>Ctrl+Space</b> を押すと、入力方法を切り替えることができます。"
+msgstr "- <b>Ctrl+Space</b> を押すと、入力方式を切り替えられます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:13
 msgid "- Change the input method framework to <b>Fcitx</b>."
-msgstr "- 入力方式フレームワークを <b>Fcitx</b> に変更してください。"
+msgstr "- 入力方式フレームワークを <b>Fcitx</b> に変更します。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:14
 msgid "Note: SunPinyin can also be used (either with Fcitx or IBus)."
-msgstr "注: SunPinyin、Fcitx、または IBus も使用できます。"
+msgstr "注: SunPinyin と Fcitx / IBus の組み合わせも使用できます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:15
 msgid "Simplified Chinese"
@@ -199,11 +200,11 @@ msgstr "簡体字中国語"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:16
 msgid "To write in traditional Chinese follow the steps below:"
-msgstr "繁体字中国語で書くには、次の手順に従ってください:"
+msgstr "繁体字中国語で入力するには、次の手順に従ってください:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:17
 msgid "Note: Chewing can also be used (either with Fcitx or IBus)."
-msgstr "注: Chewing、Fcitx、または IBus も使用できます。"
+msgstr "注: Chewing と Fcitx / IBus の組み合わせも使用できます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:18
 msgid "Traditional Chinese"
@@ -211,19 +212,18 @@ msgstr "繁体字中国語"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:19
 msgid "To write in Hiragana, Katakana and Kanji follow the steps below:"
-msgstr "日本語で書くには、次の手順に従ってください:"
+msgstr "日本語で入力するには、次の手順に従ってください:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:20
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Mozc</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- Fcitx の構成画面で、<b>Mozc</b> 入力方法を追加してください (必要に応じて [現在の言語のみ表示] のチェック "
-"ボックスをオフにしてください)。"
+"- Fcitx の設定画面で、入力方式 <b>Mozc</b> を追加します (必要に応じて \"現在の言語のみ表示\" のチェックを外します)。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:21
 msgid "Note: Mozc can also be used with the IBus input method."
-msgstr "注: Mozc は IBus 入力方式でも使用できます。"
+msgstr "注: Mozc は、入力方式 IBus でも使用できます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:22
 msgid "Japanese"
@@ -231,19 +231,18 @@ msgstr "日本語"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:23
 msgid "To write in Hangul follow the steps below:"
-msgstr "韓国語で書くには、次の手順に従ってください:"
+msgstr "韓国語で入力するには、次の手順に従ってください:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:24
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Hangul</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- Fcitx の構成画面で、<b>ハングル</b>入力方法を追加してください (必要に応じて [現在の言語のみ表示] のチェック "
-"ボックスをオフにしてください)。"
+"- Fcitx の設定画面で、入力方式 <b>Hangul</b> を追加します (必要に応じて \"現在の言語のみ表示\" のチェックを外します)。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:25
 msgid "Note: Hangul can also be used with the IBus input method."
-msgstr "注: ハングルは IBus 入力方式でも使用できます。"
+msgstr "注: Hangul は、入力方式 IBus でも使用できます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:26
 msgid "Korean"
@@ -251,21 +250,20 @@ msgstr "韓国語"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:27
 msgid "To write in Thai follow the steps below:"
-msgstr "タイ語で書くには、次の手順に従ってください:"
+msgstr "タイ語で入力するには、次の手順に従ってください:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:28
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Thai</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- Fcitx の構成画面で、<b>タイ語</b>入力方法を追加してください (必要に応じて [現在の言語のみ表示] のチェック "
-"ボックスをオフにしてください)。"
+"- Fcitx の設定画面で、入力方式 <b>Thai</b> を追加します (必要に応じて \"現在の言語のみ表示\" のチェックを外します)。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:29
 msgid ""
 "Note: You can also use iBus or define a Thai keyboard layout without using "
 "any input method."
-msgstr "注: 入力方式を使用せずに iBus を使用したり、タイ語のキーボードレイアウトを定義したりすることもできます。"
+msgstr "注: iBus も使用できます。また、入力方式システムなしで、タイ語のキーボードレイアウトを設定することもできます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:30
 msgid "Thai"
@@ -273,19 +271,18 @@ msgstr "タイ語"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:31
 msgid "To write in Vietnamese follow the steps below:"
-msgstr "ベトナム語で書くには、次の手順に従ってください:"
+msgstr "ベトナム語で入力するには、次の手順に従ってください:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:32
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Unikey</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- Fcitx の構成画面で、<b>Unikey</b> 入力方法を追加してください (必要に応じて [現在の言語のみ表示] のチェック "
-"ボックスをオフにしてください)。"
+"- Fcitx の設定画面で、入力方式 <b>Unikey</b> を追加します (必要に応じて \"現在の言語のみ表示\" のチェックを外します)。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:33
 msgid "Note: Unikey can also be used with the IBus input method."
-msgstr "注: Unikey は IBus 入力方式でも使用できます。"
+msgstr "注: Unikey は、入力方式 IBus でも使用できます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:34
 msgid "Vietnamese"
@@ -293,29 +290,29 @@ msgstr "ベトナム語"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:35
 msgid "To write in Telugu follow the steps below:"
-msgstr "テルグ語で書くには、次の手順に従ってください:"
+msgstr "テルグ語で入力するには、次の手順に従ってください:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:36
 msgid "- Change the input method framework to <b>IBus</b>."
-msgstr "- 入力方式フレームワークを <b>IBus</b> に変更してください。"
+msgstr "- 入力方式フレームワークを <b>IBus</b> に変更します。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:37
 msgid ""
 "- Right-click the IBus applet in the system tray and choose \"Preferences\"."
-msgstr "- システムトレイにある IBus アプレットを右クリックして、[構成] を選択してください。"
+msgstr "- システムトレイにある IBus アプレットを右クリックし、\"設定\" を選択します。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:38
 msgid ""
 "- In the IBus configuration screen, add the <b>Telugu</b> input method."
-msgstr "- IBus の構成画面で、<b>テルグ語</b>入力方法を追加してください。"
+msgstr "- IBus の設定画面で、入力方式<b>テルグ語</b>を追加します。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:39
 msgid "- Switch between input methods with <b>Super+Space</b>."
-msgstr "- <b>Super+Space</b> を押すと、入力方法を切り替えることができます。"
+msgstr "- <b>Super+Space</b> を押すと、入力方式を切り替えられます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:40
 msgid "Note: Telugu can also be used with Fcitx."
-msgstr "注: テルグ語は Fcitx と一緒に使用することもできます。"
+msgstr "注: テルグ語は Fcitx でも使用できます。"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:41
 msgid "Telugu"
@@ -325,7 +322,8 @@ msgstr "テルグ語"
 msgid ""
 "<b><small>Note: Installing or upgrading language packs can trigger the "
 "installation of additional languages</small></b>"
-msgstr "<b><small>注意: 言語パッケージを追加や更新することで追加の言語をインストールすることができます</small></b>"
+msgstr ""
+"<b><small>注: 言語パッケージをインストール、またはアップグレードすると、他の言語もインストールされることがあります</small></b>"
 
 #: usr/share/linuxmint/mintlocale/install_remove.ui.h:2
 msgid "Add..."
@@ -351,7 +349,7 @@ msgstr "言語パッケージのインストール"
 msgid ""
 "Install any missing language packs, translations files, dictionaries for the "
 "selected language"
-msgstr "選択した言語のパッケージ、翻訳ファイル、辞書をインストール"
+msgstr "選択した言語のパッケージ、翻訳ファイル、辞書をインストールします"
 
 #: usr/share/linuxmint/mintlocale/install_remove.ui.h:8
 msgid "Close"
@@ -368,4 +366,4 @@ msgstr "言語の設定"
 
 #: generate_desktop_files:37
 msgid "Input method"
-msgstr "入力方法"
+msgstr "入力方式"

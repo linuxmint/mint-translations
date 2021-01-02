@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2020-12-10 10:11+0000\n"
+"PO-Revision-Date: 2020-12-19 17:42+0000\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2020-12-10 10:21+0000\n"
-"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
+"X-Launchpad-Export-Date: 2021-01-02 14:08+0000\n"
+"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -26,7 +26,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
 #: generate_desktop_files:41
 msgid "Upload Manager"
-msgstr "アップロードマネージャ"
+msgstr "アップロードマネージャー"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:43
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
@@ -62,7 +62,7 @@ msgstr "'%(service)s' への 1 個のファイルのアップロードが完了�
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:112
 msgid "Do you want to cancel this upload?"
-msgstr "このアップロードをキャンセルしますか?"
+msgstr "このアップロードをキャンセルしますか？"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:113
 msgid "Cancel"
@@ -70,11 +70,11 @@ msgstr "キャンセル"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:114
 msgid "Run in the background"
-msgstr "バックグラウンドで動作"
+msgstr "バックグラウンドで実行"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:117
 msgid "Cancel upload?"
-msgstr "アップロードをキャンセルしますか?"
+msgstr "アップロードをキャンセルしますか？"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:137
 #, python-format
@@ -209,7 +209,7 @@ msgstr "サービス:"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
-msgstr "アップロードマネージャ..."
+msgstr "アップロードマネージャー..."
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
@@ -218,7 +218,7 @@ msgstr "終了"
 #: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
-msgstr "ここにドラッグすると %s へのアップロード開始します"
+msgstr "ここにドラッグすると %s へのアップロードを開始します"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:53
 msgid "_File"
@@ -239,7 +239,7 @@ msgstr "このアプリケーションについて"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:120
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr "<b>新規アップロードサービス名を入力して下さい:</b>"
+msgstr "<b>新しいアップロードサービスの名前を入力してください:</b>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:124
 msgid "Service name:"
@@ -247,12 +247,12 @@ msgstr "サービス名:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:127
 msgid "<i>Try to avoid spaces and special characters...</i>"
-msgstr "<i>空白と特殊文字を利用できないようにします...</i>"
+msgstr "<i>空白と特殊文字の使用は避けてください...</i>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:204
 #, python-format
 msgid "%s Properties"
-msgstr "%s プロパティ"
+msgstr "%s のプロパティ"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:207
 msgid "Check connection"
@@ -260,7 +260,7 @@ msgstr "接続を確認"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:212
 msgid "Type:"
-msgstr "タイプ:"
+msgstr "種類:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:213
 msgid "Host:"
@@ -272,7 +272,7 @@ msgstr "ポート:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:215
 msgid "User:"
-msgstr "ユーザ:"
+msgstr "ユーザー:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:216
 msgid "Password:"
@@ -289,45 +289,44 @@ msgstr "パス:"
 #: usr/lib/linuxmint/mintupload/upload-manager.py:220
 #: usr/lib/linuxmint/mintupload/upload-manager.py:221
 msgid "Hostname or IP address, default: "
-msgstr "デフォルトのホスト名または IP アドレス: "
+msgstr "ホスト名または IP アドレスです、既定値: "
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:224
 #: usr/lib/linuxmint/mintupload/upload-manager.py:225
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
-msgstr "リモートのポート、デフォルトでは FTP では 21、SFTP と SCP では 22"
+msgstr "リモートのポート番号です、既定値は 21 (FTP)、22 (SFTP と SCP)"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:228
 #: usr/lib/linuxmint/mintupload/upload-manager.py:229
 msgid "Username, defaults to your local username"
-msgstr "ユーザ名、デフォルトのローカルユーザ名"
+msgstr "ユーザー名、既定値はあなたのローカルユーザー名になります"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:232
 #: usr/lib/linuxmint/mintupload/upload-manager.py:233
 msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
-msgstr ""
-"デフォルトのパスワード: SCP 接続はパスワード無し、FTP 接続は null 文字列、SFTP 接続には ~/.ssh 鍵が使用されます"
+msgstr "パスワードです、既定値はパスワードなし (SCP 接続)、ナル文字 (FTP 接続)、~/.ssh 鍵 (SFTP 接続)"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236
 #: usr/lib/linuxmint/mintupload/upload-manager.py:237
 msgid "Timestamp format (strftime). By default:"
-msgstr "時刻の表示形式 (strftime)。デフォルト:"
+msgstr "時刻の書式です (strftime)。既定値:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:240
 #: usr/lib/linuxmint/mintupload/upload-manager.py:241
 msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
-msgstr "アップロードするディレクトリ。<TIMESTAMP> は現在の時刻を次の表示形式で表したもので置き換えられます。デフォルト:"
+msgstr "アップロード先のディレクトリです。<TIMESTAMP> は (指定された書式に従い) 現在の時刻で置き換えられます。既定値: ."
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"
-msgstr "設定の変更を保存できませんでした"
+msgstr "変更された設定を保存できませんでした"
 
 #: generate_desktop_files:27 generate_desktop_files:41
 msgid "Define upload services"
-msgstr "アップロードサービスを定義します"
+msgstr "アップロードサービスを設定します"
 
 #~ msgid "File Uploader"
 #~ msgstr "ファイルアップローダ"
