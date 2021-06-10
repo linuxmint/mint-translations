@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-27 13:57+0000\n"
-"PO-Revision-Date: 2020-12-19 21:42+0000\n"
-"Last-Translator: Kimmo Kujansuu <Unknown>\n"
+"PO-Revision-Date: 2021-03-29 08:21+0000\n"
+"Last-Translator: Ari Ervasti <ari.ervasti87@gmail.com>\n"
 "Language-Team: Finnish <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:10+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:13+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
 "Language: fi\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
@@ -33,11 +33,11 @@ msgstr "Varmuuskopiointi"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:232
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr "%s ei sijaitse kotihakemistossasi."
+msgstr "%s ei sijaitse kotikansiossasi."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:272
 msgid "Please choose a directory."
-msgstr "Valitse hakemisto."
+msgstr "Valitse kansio."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:275
 msgid "You do not have the permission to write in the selected directory."
@@ -58,11 +58,11 @@ msgstr ""
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:352
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
-msgstr "Tapahtui virhe avattaessa varmuuskopiotiedostoa: %s."
+msgstr "Avattaessa varmuuskopiotiedostoa tapahtui virhe: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "No packages need to be installed."
-msgstr "Ei asennusta tarvitsevia paketteja."
+msgstr "Ei asennusta vaativia paketteja."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:373
 msgid "Please select packages to install."
@@ -109,16 +109,16 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
-"Varoitus: Joitain tiedostoja ei tallennettu. Ainoastaan %(archived)d "
-"tiedostot varmuuskopioitiin %(total)d."
+"Varoitus: Joitakin tiedostoja ei tallennettu. Varmuuskopioitiin vain "
+"%(archived)d/%(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:557
 msgid "Restoring:"
-msgstr "Palautetaan tiedostoa:"
+msgstr "Palautetaan:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:574
 msgid "The restoration was aborted."
-msgstr "Palautus peruutettiin."
+msgstr "Palauttaminen peruttiin."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:578
 msgid "Your files were successfully restored."
@@ -127,26 +127,25 @@ msgstr "Tiedostosi palautettiin onnistuneesti."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:666
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr ""
-"Varoitus: Ainoastaan %(number)d tiedostoa palautettiin kaikkiaan %(total)d."
+msgstr "Varoitus: Vain %(number)d/%(total)d tiedostoa palautettiin."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:691
 msgid "The list below shows the applications you installed."
-msgstr "Alla olevassa luettelossa näkyvät asennetut sovellukset."
+msgstr "Asentamasi sovellukset näkyvät alta."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:735
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr "Ohjelmistovalikoimasi tallennettiin sijaintiin %s"
+msgstr "Ohjelmavalintasi tallennettiin kansioon %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:751
 msgid "The selected file is not a valid software selection."
-msgstr "Valittu tiedosto ei ole kelvollinen ohjelmistovalikoima."
+msgstr "Valittu tiedosto ei ole kelvollinen ohjelmavalinta."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:756
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:794
 msgid "An error occurred while reading the file."
-msgstr "Tapahtui virhe luettaessa tiedostoa."
+msgstr "Tiedostoa luettaessa tapahtui virhe."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:779
 msgid "Could not locate the package."
@@ -154,7 +153,7 @@ msgstr "Pakettia ei löytynyt."
 
 #: generate_desktop_files:24 generate_desktop_files:39
 msgid "Make a backup of your home directory"
-msgstr "Varmuuskopioi kotihakemistosi"
+msgstr "Varmuuskopioi kotikansiosi"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -162,7 +161,7 @@ msgstr "Henkilökohtaiset tiedot"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr "Tiedostosi, asetuksesi ja kotihakemistosi sisältö"
+msgstr "Tiedostosi, asetuksesi ja kotikansiosi sisältö"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
@@ -174,23 +173,23 @@ msgstr "Varmuuskopioi nyt..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr "Ohjelmistovalikoima"
+msgstr "Ohjelmavalinnat"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr "Lista koneellesi asennetuista sovelluksista"
+msgstr "Luettelo tietokoneelle asennetuista sovelluksista"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr "Valitse minne haluat tallentaa varmuuskopiotiedostosi:"
+msgstr "Valitse, mihin haluat varmuuskopion tallentaa:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
-"Lisää tiedostoja tai hakemistoja alla olevaan listaan jättääksesi ne pois "
-"varmuuskopiosta."
+"Sivuuta tiedostoja tai kansioita varmuuskopiosta lisäämällä ne alla olevaan "
+"luetteloon."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -209,16 +208,16 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
-"Kotihakemistosi juuressa sijaitsevia piilotettuja tiedostoja ja piilotettuja "
-"hakemistoja ei oletusarvoisesti sisällytetä."
+"Kotikansiosi juuressa sijaitsevia piilotiedostoja ja -kansioita ei "
+"oletusarvoisesti sisällytetä."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
-"Jos haluat sisällyttää joitain niistä varmuuskopioon, lisää ne alla olevaan "
-"listaan."
+"Jos haluat sisällyttää varmuuskopioon joitakin niistä, lisää ne alla olevaan "
+"luetteloon."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
@@ -246,7 +245,7 @@ msgstr "Valitse palautettava varmuuskopio:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr "Ylikirjoita olemassa olevat tiedostot?"
+msgstr "Korvataanko olemassa olevat tiedostot?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
@@ -263,10 +262,10 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
-"Kyllä, ylikirjoita muutokset ja palauta kaikkien olemassa olevien "
-"tiedostojen sisältö.\n"
-"<small>Käytä tätä valintaa varoen. Varmuuskopioinnin jälkeiset tiedostoihin "
-"tehdyt muutokset menetetään.</small>"
+"Kyllä, korvaa muutokset ja palauta kaikkien olemassa olevien tiedostojen "
+"sisältö.\n"
+"<small>Käytä valintaa varoen. Varmuuskopioinnin jälkeiset muutokset "
+"tiedostoihin menetetään.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
@@ -277,11 +276,12 @@ msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
-"Alla oleva lista näyttää Ohjelmistohallinnan kautta asentamasi paketit."
+"Ohjelmistohallinnalla asentamasi sovellukset näkyvät alla olevasta "
+"luettelosta."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr "Valitse sovellukset jotka haluat tallentaa."
+msgstr "Valitse sovellukset, jotka haluat tallentaa."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
@@ -297,13 +297,13 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"Huom: Jos haluat tallentaa täydellisen listan kaikista järjestelmään "
-"asennetuista paketeista, käytä 'dpkg --get-selections > "
-"mylist.list'–komentoa päätteessä."
+"Huom! Jos haluat tallentaa täydellisen luettelon kaikista järjestelmään "
+"asennetuista paketeista, käytä päätteessä komentoa ”dpkg --get-selections > "
+"luettelo.list”."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr "Valitse tallennettu ohjelmistovalikoima (.list tiedosto):"
+msgstr "Valitse tallennettu ohjelmavalinta (.list-tiedosto):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
@@ -315,7 +315,7 @@ msgstr "Päivitä"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr "Kaikki paketit ohjelmistovalikoimastasi on asennettu."
+msgstr "Kaikki ohjelmavalintasi paketit on asennettu."
 
 #~ msgid "Archiving your home directory..."
 #~ msgstr "Arkistoidaan kotihakemisto..."

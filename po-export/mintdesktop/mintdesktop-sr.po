@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-03 10:16+0100\n"
-"PO-Revision-Date: 2020-11-28 22:16+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"POT-Creation-Date: 2021-06-03 12:49+0100\n"
+"PO-Revision-Date: 2021-06-08 21:21+0000\n"
+"Last-Translator: Saša Marjanović <Unknown>\n"
 "Language-Team: Serbian <(nothing)>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:09+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:13+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
 "Language: sr\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
@@ -40,7 +40,7 @@ msgid "Here's a description of some of the window managers available."
 msgstr "Следи опис неких доступних управника прозора."
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:146
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:158
 msgid "Marco"
 msgstr "Марко"
 
@@ -61,7 +61,7 @@ msgstr ""
 "install marco</cmd>“."
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
 msgid "Metacity"
 msgstr "Метасити"
 
@@ -82,11 +82,32 @@ msgstr ""
 "install metacity</cmd>“."
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:156
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
+msgid "Mutter"
+msgstr "Матер"
+
+#: usr/share/help/C/mintdesktop/wms.page:34(p)
+msgid ""
+"Mutter is the default window and compositing manager for the GNOME 3 desktop "
+"environment. It is very stable and very reliable."
+msgstr ""
+"Матер је подразумевани менаџер прозора и слагања приказа за радно окружење "
+"ГНОМ 3. Веома је стабилан и врло поуздан."
+
+#: usr/share/help/C/mintdesktop/wms.page:35(p)
+msgid ""
+"If Mutter is not installed already, you can install it with <cmd>apt install "
+"mutter</cmd>."
+msgstr ""
+"Уколико Матер није већ инсталиран, можете га инсталирати командом <cmd>apt "
+"install mutter</cmd>."
+
+#: usr/share/help/C/mintdesktop/wms.page:39(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
 msgid "Xfwm4"
 msgstr "Иксфвм4"
 
-#: usr/share/help/C/mintdesktop/wms.page:34(p)
+#: usr/share/help/C/mintdesktop/wms.page:40(p)
 msgid ""
 "Xfwm4 is the default window manager for the Xfce desktop environment. It is "
 "very stable and very reliable. It can run with or without compositing."
@@ -94,7 +115,7 @@ msgstr ""
 "Иксфвм4 је подразумевани управник прозора за окружење радне површи у "
 "Иксфвм4. Веома је стабилан и веома поуздан. Може да ради са или без слагања."
 
-#: usr/share/help/C/mintdesktop/wms.page:35(p)
+#: usr/share/help/C/mintdesktop/wms.page:41(p)
 msgid ""
 "If Xfwm4 is not installed already, you can install it with <cmd>apt install "
 "xfwm4</cmd>."
@@ -102,12 +123,12 @@ msgstr ""
 "Ако Иксфвм4 није већ инсталиран, можете га инсталирати наредбом „<cmd>apt "
 "install xfwm4</cmd>“."
 
-#: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165
+#: usr/share/help/C/mintdesktop/wms.page:45(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:179
 msgid "Compiz"
 msgstr "Компиз"
 
-#: usr/share/help/C/mintdesktop/wms.page:40(p)
+#: usr/share/help/C/mintdesktop/wms.page:46(p)
 msgid ""
 "Compiz is a very impressive window manager, very configurable and full of "
 "amazing effects and animations. It is however the least reliable and the "
@@ -116,7 +137,7 @@ msgstr ""
 "Компиз је веома импресиван управник прозора, врло подесив и пун невероватних "
 "ефеката и анимација. Међутим најмање је поуздан и најмање стабилан."
 
-#: usr/share/help/C/mintdesktop/wms.page:41(p)
+#: usr/share/help/C/mintdesktop/wms.page:47(p)
 msgid ""
 "Compiz is installed by default in Linux Mint. Note: It is not available in "
 "LMDE."
@@ -124,11 +145,11 @@ msgstr ""
 "Компиз је већ унапред инсталиран у Линукс Минту. Напомена: Није доступан у "
 "ЛМДЕ-у."
 
-#: usr/share/help/C/mintdesktop/wms.page:45(title)
+#: usr/share/help/C/mintdesktop/wms.page:51(title)
 msgid "Compton"
 msgstr "Комптон"
 
-#: usr/share/help/C/mintdesktop/wms.page:46(p)
+#: usr/share/help/C/mintdesktop/wms.page:52(p)
 msgid ""
 "Compton is a compositing manager. It can be used in combination with windows "
 "managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
@@ -138,7 +159,7 @@ msgstr ""
 "прозора као што су Марко, Метасити или Иксфвм4. У Иксфце-у, познато је да "
 "Иксфвм4 са Комптоном смањује треперење екрана."
 
-#: usr/share/help/C/mintdesktop/wms.page:47(p)
+#: usr/share/help/C/mintdesktop/wms.page:53(p)
 msgid ""
 "If Compton is not installed already, you can install it with <cmd>apt "
 "install compton</cmd>."
@@ -146,16 +167,16 @@ msgstr ""
 "Ако Комптон није већ инсталиран, можете га инсталирати наредбом „<cmd>apt "
 "install compton</cmd>“."
 
-#: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
+#: usr/share/help/C/mintdesktop/wms.page:57(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
 msgid "Openbox"
 msgstr "Опенбокс"
 
-#: usr/share/help/C/mintdesktop/wms.page:52(p)
+#: usr/share/help/C/mintdesktop/wms.page:58(p)
 msgid "Openbox is a fast and light-weight window manager."
 msgstr "Опенбокс је брз и лаган управник прозора."
 
-#: usr/share/help/C/mintdesktop/wms.page:53(p)
+#: usr/share/help/C/mintdesktop/wms.page:59(p)
 msgid ""
 "If Openbox is not installed already, you can install it with <cmd>apt "
 "install openbox</cmd>."
@@ -164,7 +185,7 @@ msgstr ""
 "install openbox</cmd>“."
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:113 generate_desktop_files:26
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126 generate_desktop_files:26
 msgid "Desktop Settings"
 msgstr "Поставке радне површи"
 
@@ -173,7 +194,7 @@ msgid "Welcome to Desktop Settings."
 msgstr "Добро дошли у подешавања радне површи."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:82
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:95
 msgid "Windows"
 msgstr "Прозор"
 
@@ -255,6 +276,7 @@ msgstr ""
 "  Nikola Trifunović https://launchpad.net/~nikola-trifunovic\n"
 "  Payne https://launchpad.net/~to-je-bio\n"
 "  Pingvinche https://launchpad.net/~m-dragutin\n"
+"  Saša Marjanović https://launchpad.net/~cy6ernaut\n"
 "  Slobodan Simić https://launchpad.net/~slsimic\n"
 "  Stefan Vukanovic https://launchpad.net/~lisacvukhome\n"
 "  slw https://launchpad.net/~markovicslavoljub1978\n"
@@ -262,80 +284,80 @@ msgstr ""
 "  Мирослав Николић https://launchpad.net/~lipek\n"
 "  Саша Петровић https://launchpad.net/~salepetronije"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:81
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:94
 msgid "Desktop"
 msgstr "Радна површ"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:83
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:96
 msgid "Interface"
 msgstr "Сучеље"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:134
 msgid "Desktop icons"
 msgstr "Иконице радне површи"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:134
 msgid "Select the items you want to see on the desktop:"
 msgstr "Изаберите ставке за приказивање на радној површи:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:122
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:135
 msgid "Computer"
 msgstr "Рачунар"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:123
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:136
 msgid "Home"
 msgstr "Лична фасцикла"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:124
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:137
 msgid "Network"
 msgstr "Мрежа"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
 msgid "Trash"
 msgstr "Смеће"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:139
 msgid "Mounted Volumes"
 msgstr "Прикачени уређаји"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:150
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
 msgid "Window Manager"
 msgstr "Управник прозора"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:147
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
 msgid "Marco + Compositing"
 msgstr "Марко + слагање"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:149
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
 msgid "Marco + Compton"
 msgstr "Марко + Комптон"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:164
 msgid "Metacity + Compositing"
 msgstr "Метасити + слагање"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:154
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:166
 msgid "Metacity + Compton"
 msgstr "Метасити + Комптон"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:157
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid "Xfwm4 + Compositing"
 msgstr "Иксфвм4 + слагање"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:171
 msgid "Xfwm4 + Compton"
 msgstr "Иксфвм4 + Комптон"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Openbox + Compton"
 msgstr "Опенбокс + Комптон"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:167
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 msgid "Awesome"
 msgstr "Страва"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
@@ -346,115 +368,147 @@ msgstr ""
 "прозора.\n"
 "Користите наредбу „wm-detect“ да проверите који управник прозора је покренут."
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
-msgid "Auto"
-msgstr "Аутоматски"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
-msgid "Normal"
-msgstr "Нормалан"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
-msgid "Double (HiDPI)"
-msgstr "Двоструко (HiDPI)"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
-msgid "User interface scaling"
-msgstr "Скалирање корисничког интерфејса"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:180
-msgid "Marco settings"
-msgstr "Подешавања Марка"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
-msgid "Use system font in titlebar"
-msgstr "Користи системски фонт у наслову прозора"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
-msgid "Don't show window content while dragging them"
-msgstr "Не приказуј садржај прозора током превлачења"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:188
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
 msgid "Traditional style (Right)"
 msgstr "Уобичајени изглед (десно)"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:193
 msgid "Mac style (Left)"
 msgstr "Изглед Мек ОС-а (лево)"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
+msgid "Auto"
+msgstr "Аутоматски"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
+msgid "Normal"
+msgstr "Нормалан"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
+msgid "Double (HiDPI)"
+msgstr "Двоструко (HiDPI)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
+msgid "User interface scaling"
+msgstr "Скалирање корисничког интерфејса"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:202
+msgid "Marco settings"
+msgstr "Подешавања Марка"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:203
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:211
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:216
+msgid "Use system font in titlebar"
+msgstr "Користи системски фонт у наслову прозора"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:212
+msgid "Don't show window content while dragging them"
+msgstr "Не приказуј садржај прозора током превлачења"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:213
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:220
 msgid "Buttons layout:"
 msgstr "Распоред дугмади:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
 msgid "Buttons layout (CSD windows):"
 msgstr "Распоред типки: (ЦСД прозори):"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
 msgid "Metacity settings"
 msgstr "Подешавања Метаситија"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:215
+msgid "Mutter settings"
+msgstr "Подешавања за Матер"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:217
+msgid "Place new windows in the center of the screen"
+msgstr "Постави нове прозоре на центар екрана"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:218
+msgid "Automatically maximize nearly screen sized windows"
+msgstr "Аутоматски увећај прозоре који су приближне величине читавог екрана"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:219
+msgid "Enable edge tiling when dropping windows on screen edges"
+msgstr ""
+"Омогући уплочавање уз ивицу приликом отпуштања прозора на ивицама екрана"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
+msgid "Xfwm4 settings"
+msgstr "Подешавања за Xfwm4"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:224
+msgid "Configure Xfwm4"
+msgstr "Подесите Xfwm4"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
+msgid "Tweak Xfwm4"
+msgstr "Фино подесите Xfwm4"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
 msgid "Compiz settings"
 msgstr "Подешавања Компиза"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:234
 msgid "Configure Compiz"
 msgstr "Подесите Компиз"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:238
 msgid "Reset Compiz settings"
 msgstr "Вратите подешавања Компиза"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:221
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:255
 msgid "Icons"
 msgstr "Иконице"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:256
 msgid "Show icons on menus"
 msgstr "Прикажи иконице у изборницима"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:257
 msgid "Show icons on buttons"
 msgstr "Прикажи иконице на дугмићима"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:225
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:259
 msgid "Toolbars"
 msgstr "Траке алата"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:262
 msgid "Text below items"
 msgstr "Текст испод иконица"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:229
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:263
 msgid "Text beside items"
 msgstr "Текст поред иконица"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:230
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:264
 msgid "Icons only"
 msgstr "Само иконице"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:265
 msgid "Text only"
 msgstr "Само текст"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:266
 msgid "Buttons labels:"
 msgstr "Натписи тастера:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:235
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:269
 msgid "Small"
 msgstr "Мале"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:236
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:270
 msgid "Large"
 msgstr "Велике"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:237
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:271
 msgid "Icon size:"
 msgstr "Величина иконице:"
 

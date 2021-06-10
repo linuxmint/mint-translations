@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-03 10:16+0100\n"
+"POT-Creation-Date: 2021-06-03 12:49+0100\n"
 "PO-Revision-Date: 2019-06-03 13:54+0000\n"
 "Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
 "Language-Team: Simplified Chinese <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:09+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:13+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -38,7 +38,7 @@ msgid "Here's a description of some of the window managers available."
 msgstr "这里是一些可用的窗口管理器的说明。"
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:146
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:158
 msgid "Marco"
 msgstr "Marco"
 
@@ -55,7 +55,7 @@ msgid ""
 msgstr "如果 Marco 尚未安装，您可以通过<cmd>apt install marco</cmd>来安装它。"
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
 msgid "Metacity"
 msgstr "Metacity"
 
@@ -72,45 +72,62 @@ msgid ""
 msgstr "如果 Metacity 尚未安装，您可以通过<cmd>apt install metacity</cmd>来安装它。"
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:156
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
+msgid "Mutter"
+msgstr ""
+
+#: usr/share/help/C/mintdesktop/wms.page:34(p)
+msgid ""
+"Mutter is the default window and compositing manager for the GNOME 3 desktop "
+"environment. It is very stable and very reliable."
+msgstr ""
+
+#: usr/share/help/C/mintdesktop/wms.page:35(p)
+msgid ""
+"If Mutter is not installed already, you can install it with <cmd>apt install "
+"mutter</cmd>."
+msgstr ""
+
+#: usr/share/help/C/mintdesktop/wms.page:39(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
 msgid "Xfwm4"
 msgstr "Xfwm4"
 
-#: usr/share/help/C/mintdesktop/wms.page:34(p)
+#: usr/share/help/C/mintdesktop/wms.page:40(p)
 msgid ""
 "Xfwm4 is the default window manager for the Xfce desktop environment. It is "
 "very stable and very reliable. It can run with or without compositing."
 msgstr "Xfwm4 是 Xfce 桌面环境的默认窗口管理器。它十分稳定可靠，无论是否配合合成管理器都可以运行。"
 
-#: usr/share/help/C/mintdesktop/wms.page:35(p)
+#: usr/share/help/C/mintdesktop/wms.page:41(p)
 msgid ""
 "If Xfwm4 is not installed already, you can install it with <cmd>apt install "
 "xfwm4</cmd>."
 msgstr "如果 Xfwm4 尚未安装，您可以通过<cmd>apt install xfwm4</cmd>来安装它。"
 
-#: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165
+#: usr/share/help/C/mintdesktop/wms.page:45(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:179
 msgid "Compiz"
 msgstr "Compiz"
 
-#: usr/share/help/C/mintdesktop/wms.page:40(p)
+#: usr/share/help/C/mintdesktop/wms.page:46(p)
 msgid ""
 "Compiz is a very impressive window manager, very configurable and full of "
 "amazing effects and animations. It is however the least reliable and the "
 "least stable."
 msgstr "Compiz 是一个极为引人注目窗口管理器，可配置性很强，有各种炫目的特效和动画。然而，它的可靠性和稳定性不如其它的窗口管理器。"
 
-#: usr/share/help/C/mintdesktop/wms.page:41(p)
+#: usr/share/help/C/mintdesktop/wms.page:47(p)
 msgid ""
 "Compiz is installed by default in Linux Mint. Note: It is not available in "
 "LMDE."
 msgstr "Linux Mint 已经默认安装 Compiz。注意：它在 LMDE 中并不可用。"
 
-#: usr/share/help/C/mintdesktop/wms.page:45(title)
+#: usr/share/help/C/mintdesktop/wms.page:51(title)
 msgid "Compton"
 msgstr "Compton"
 
-#: usr/share/help/C/mintdesktop/wms.page:46(p)
+#: usr/share/help/C/mintdesktop/wms.page:52(p)
 msgid ""
 "Compton is a compositing manager. It can be used in combination with windows "
 "managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
@@ -119,29 +136,29 @@ msgstr ""
 "Compton 是一个合成管理器。它可以与 Marco、Metacity、Xfwm4 等窗口管理器一同使用。在 Xfce 中，已知使用 Xfwm4 + "
 "Compton 可以减少画面撕裂。"
 
-#: usr/share/help/C/mintdesktop/wms.page:47(p)
+#: usr/share/help/C/mintdesktop/wms.page:53(p)
 msgid ""
 "If Compton is not installed already, you can install it with <cmd>apt "
 "install compton</cmd>."
 msgstr "如果 Compton 尚未安装，您可以通过<cmd>apt install compton</cmd>来安装它。"
 
-#: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
+#: usr/share/help/C/mintdesktop/wms.page:57(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
 msgid "Openbox"
 msgstr "Openbox"
 
-#: usr/share/help/C/mintdesktop/wms.page:52(p)
+#: usr/share/help/C/mintdesktop/wms.page:58(p)
 msgid "Openbox is a fast and light-weight window manager."
 msgstr "Openbox 是一个快速而轻便的窗口管理器。"
 
-#: usr/share/help/C/mintdesktop/wms.page:53(p)
+#: usr/share/help/C/mintdesktop/wms.page:59(p)
 msgid ""
 "If Openbox is not installed already, you can install it with <cmd>apt "
 "install openbox</cmd>."
 msgstr "如果 Openbox 尚未安装，您可以通过<cmd>apt install openbox</cmd>来安装它。"
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:113 generate_desktop_files:26
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126 generate_desktop_files:26
 msgid "Desktop Settings"
 msgstr "桌面设置"
 
@@ -150,7 +167,7 @@ msgid "Welcome to Desktop Settings."
 msgstr "欢迎来到桌面设置。"
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:82
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:95
 msgid "Windows"
 msgstr "窗口"
 
@@ -229,80 +246,80 @@ msgstr ""
 "  张琦 https://launchpad.net/~hsrzq\n"
 "  张秋雨 https://launchpad.net/~vdergow"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:81
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:94
 msgid "Desktop"
 msgstr "桌面"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:83
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:96
 msgid "Interface"
 msgstr "界面"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:134
 msgid "Desktop icons"
 msgstr "桌面图标"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:134
 msgid "Select the items you want to see on the desktop:"
 msgstr "选择您想在桌面看到的项目："
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:122
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:135
 msgid "Computer"
 msgstr "计算机"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:123
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:136
 msgid "Home"
 msgstr "主目录"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:124
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:137
 msgid "Network"
 msgstr "网络"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
 msgid "Trash"
 msgstr "回收站"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:139
 msgid "Mounted Volumes"
 msgstr "已挂载的卷"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:150
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
 msgid "Window Manager"
 msgstr "窗口管理器"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:147
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
 msgid "Marco + Compositing"
 msgstr "Marco + 合成"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:149
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
 msgid "Marco + Compton"
 msgstr "Marco + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:164
 msgid "Metacity + Compositing"
 msgstr "Metacity + 合成"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:154
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:166
 msgid "Metacity + Compton"
 msgstr "Metacity + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:157
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid "Xfwm4 + Compositing"
 msgstr "Xfwm4 + 合成"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:171
 msgid "Xfwm4 + Compton"
 msgstr "Xfwm4 + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Openbox + Compton"
 msgstr "Openbox + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:167
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 msgid "Awesome"
 msgstr "棒极了"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
@@ -312,115 +329,146 @@ msgstr ""
 "使用 \"wm-recover\" 命令可切换至默认窗口管理器。\n"
 "使用 \"wm-detect\" 命令可查看当前窗口管理器。"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
-msgid "Auto"
-msgstr "自动"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
-msgid "Normal"
-msgstr "正常"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
-msgid "Double (HiDPI)"
-msgstr "双倍 (HiDPI)"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
-msgid "User interface scaling"
-msgstr "用户界面缩放"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:180
-msgid "Marco settings"
-msgstr "Marco 设置"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
-msgid "Use system font in titlebar"
-msgstr "在标题栏使用系统字体"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
-msgid "Don't show window content while dragging them"
-msgstr "拖拽时不显示窗口内容"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:188
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
 msgid "Traditional style (Right)"
 msgstr "传统风格 (右侧)"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:193
 msgid "Mac style (Left)"
 msgstr "Mac 风格 (左侧)"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
+msgid "Auto"
+msgstr "自动"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
+msgid "Normal"
+msgstr "正常"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
+msgid "Double (HiDPI)"
+msgstr "双倍 (HiDPI)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
+msgid "User interface scaling"
+msgstr "用户界面缩放"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:202
+msgid "Marco settings"
+msgstr "Marco 设置"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:203
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:211
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:216
+msgid "Use system font in titlebar"
+msgstr "在标题栏使用系统字体"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:212
+msgid "Don't show window content while dragging them"
+msgstr "拖拽时不显示窗口内容"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:213
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:220
 msgid "Buttons layout:"
 msgstr "按钮布局："
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
 msgid "Buttons layout (CSD windows):"
 msgstr "按钮布局（CSD 窗口）："
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
 msgid "Metacity settings"
 msgstr "Metacity 设置"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:215
+msgid "Mutter settings"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:217
+msgid "Place new windows in the center of the screen"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:218
+msgid "Automatically maximize nearly screen sized windows"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:219
+msgid "Enable edge tiling when dropping windows on screen edges"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
+msgid "Xfwm4 settings"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:224
+msgid "Configure Xfwm4"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
+msgid "Tweak Xfwm4"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
 msgid "Compiz settings"
 msgstr "Compiz 设置"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:234
 msgid "Configure Compiz"
 msgstr "配置 Compiz"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:238
 msgid "Reset Compiz settings"
 msgstr "重置 Compiz 设置"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:221
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:255
 msgid "Icons"
 msgstr "图标"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:256
 msgid "Show icons on menus"
 msgstr "在菜单中显示图标"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:257
 msgid "Show icons on buttons"
 msgstr "在按钮中显示图标"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:225
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:259
 msgid "Toolbars"
 msgstr "工具栏"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:262
 msgid "Text below items"
 msgstr "文本在下面"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:229
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:263
 msgid "Text beside items"
 msgstr "文本在旁边"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:230
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:264
 msgid "Icons only"
 msgstr "仅图标"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:265
 msgid "Text only"
 msgstr "仅文本"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:266
 msgid "Buttons labels:"
 msgstr "按钮标签："
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:235
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:269
 msgid "Small"
 msgstr "小"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:236
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:270
 msgid "Large"
 msgstr "大"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:237
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:271
 msgid "Icon size:"
 msgstr "图标尺寸："
 

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2018-08-14 08:07+0000\n"
-"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2021-05-08 12:16+0000\n"
+"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:08+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:12+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -30,23 +30,23 @@ msgstr "מנהל העלאות"
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr "%(percentage)s מתוך %(number)d קבצים - מעלה ל־%(service)s"
+msgstr "%(percentage)s מתוך %(number)d קבצים - העלאה ל־%(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:45
 #: usr/lib/linuxmint/mintupload/mintupload.py:141
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr "%(percentage)s מתוך קובץ אחד - מעלה ל־Uploading to %(service)s"
+msgstr "%(percentage)s מ-  קובץ 1 -  העלאה ל־ %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:81
 #, python-format
 msgid "The upload to '%(service)s' was cancelled"
-msgstr "ההעלאות ל־'%(service)s' התבטלו"
+msgstr "ההעלאה ל־'%(service)s' בוטלה"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:93
 #, python-format
 msgid "Upload to '%s' failed: "
-msgstr "העלאה ל־'%s' נכשלה: "
+msgstr "העלאה ל־'%s' כשלה: "
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:99
 #, python-format
@@ -72,17 +72,17 @@ msgstr "הרצה ברקע"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:117
 msgid "Cancel upload?"
-msgstr "לבטל העלאה?"
+msgstr "ביטול העלאה?"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:137
 #, python-format
 msgid "Uploading %(number)d files to %(service)s"
-msgstr "מעלה %(number)d קבצים ל־%(service)s"
+msgstr "האלעת %(number)d קבצים ל־%(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:140
 #, python-format
 msgid "Uploading 1 file to %(service)s"
-msgstr "מעלה קובץ אחד ל־%(service)s"
+msgstr "האלעת קובץ אחד ל־%(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:159
 #, python-format
@@ -144,7 +144,7 @@ msgstr[1] "%d שניות"
 #: usr/lib/linuxmint/mintupload/mintupload.py:236
 #, python-format
 msgid "Unknown service: %s"
-msgstr "שירות לא מוכר: %s"
+msgstr "שרות לא מוכר: %s"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:93
 msgid "KiB"
@@ -160,7 +160,7 @@ msgstr "ג\"ב"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:135
 msgid "File larger than service's maximum"
-msgstr "קובץ גדול מהמקסימום המותר ע\"י השירות"
+msgstr "קובץ חורג מהגדול המירבי שהשרות מתיר"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:145
 msgid "Could not get available space"
@@ -187,27 +187,27 @@ msgstr "מעלה את הקובץ..."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:275
 msgid "This service requires a password."
-msgstr "שירות זה מחייב סיסמה"
+msgstr "שרות זה מחייב ססמה."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:308
 msgid "URL:"
-msgstr "כתובת אינטרנט:"
+msgstr "מען URL מרשתת:"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:348
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:352
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
-msgstr "%(1)s לא מוגדר בקובץ ההגדרות הנמצא תחת %(2)s או %(3)s"
+msgstr "%(1)s לא מוגדר בקובץ ההגדרות הנמצא ב-%(2)s או ב-%(3)s"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:27
 #: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
-msgstr "שירותי העלאה"
+msgstr "שרותי העלאה"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
-msgstr "שירותים:"
+msgstr "שרותים:"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
@@ -220,7 +220,7 @@ msgstr "יציאה"
 #: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
-msgstr "גרור &amp; שחרר כאן כדי להעלות ל%s"
+msgstr "גרירה ושחרר כאן על מנת להעלות ל-%s"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:53
 msgid "_File"
@@ -228,7 +228,7 @@ msgstr "_קובץ"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:58
 msgid "Close"
-msgstr "סגור"
+msgstr "סגירה"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:62
 msgid "_Help"
@@ -241,7 +241,7 @@ msgstr "אודות"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:120
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr "<b>נא להזין שם לשירות העלאה החדש:</b>"
+msgstr "<b>נא להזין שם לשרות ההעלאה ההחדש:</b>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:124
 msgid "Service name:"
@@ -249,7 +249,7 @@ msgstr "שם השרות:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:127
 msgid "<i>Try to avoid spaces and special characters...</i>"
-msgstr "<i>נסה להימנע מרווחים ותווים מיוחדים</i>"
+msgstr "<i>נא לנסות להימנע מרווחים ותווים מיוחדים</i>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:204
 #, python-format
@@ -258,7 +258,7 @@ msgstr "מאפייני %s"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:207
 msgid "Check connection"
-msgstr "בדוק את החיבור"
+msgstr "בדיקת חיבור"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:212
 msgid "Type:"
@@ -266,7 +266,7 @@ msgstr "סוג:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:213
 msgid "Host:"
-msgstr "שרת מארח:"
+msgstr "מארח:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:214
 msgid "Port:"
@@ -278,11 +278,11 @@ msgstr "משתמש:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:216
 msgid "Password:"
-msgstr "סיסמה:"
+msgstr "ססמה:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:217
 msgid "Timestamp:"
-msgstr "חותמת זמן:"
+msgstr "חתימת זמן:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:218
 msgid "Path:"
@@ -296,12 +296,12 @@ msgstr "מארח או כתובת IP, ברירת מחדל: "
 #: usr/lib/linuxmint/mintupload/upload-manager.py:224
 #: usr/lib/linuxmint/mintupload/upload-manager.py:225
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
-msgstr "פותחה מרוחקת, ברירת המחדל היא 21 עבור FTP ו־22 עבור SFTP ו־SCP"
+msgstr "פתחה מרוחקת, ברירת המחדל היא 21 עבור FTP ו־22 עבור SFTP ו־SCP"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:228
 #: usr/lib/linuxmint/mintupload/upload-manager.py:229
 msgid "Username, defaults to your local username"
-msgstr "שם משתמש, ברירת המחדל היא שם המשתמש המקומי שלך"
+msgstr "שם משתמש, ברירת המחדל היא שם המשתמש המקומי"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:232
 #: usr/lib/linuxmint/mintupload/upload-manager.py:233
@@ -309,13 +309,13 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
-"סיסמה, כברירת מחדל: התחברות ב־SCP ללא סיסמה, התחברות FTP ללא מחרוזת ומפתחות "
+"ססמה, כברירת מחדל: התחברות ב־SCP ללא ססמה, התחברות FTP ללא מחרוזת ומפתחות "
 "ב־~/.ssh נמצאים בשימוש עבור חיבורי SFTP"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236
 #: usr/lib/linuxmint/mintupload/upload-manager.py:237
 msgid "Timestamp format (strftime). By default:"
-msgstr "סוג חותמת זמן (קידוד זמן). כברירת מחדל:"
+msgstr "סוג חתימת זמן (קידוד זמן). כברירת מחדל:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:240
 #: usr/lib/linuxmint/mintupload/upload-manager.py:241
@@ -323,16 +323,16 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
-"תיקיית יעד עבור העלאה. <TIMESTAMP> מוחלף בחותמת הזמן הנוכחית, לפי סוג חותמת "
-"הזמן שניתן. כברירת מחדל: ."
+"מחיצת יעד להעלאה. <TIMESTAMP> מוחלף בחתימת הזמן הנוכחית, לפי תבנית חתימת "
+"הזמן שניתנה. כברירת מחדל: ."
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"
-msgstr "לא ניתן לשמור את שינויי ההגדרות"
+msgstr "לא ניתן לשמור שינויי תצור"
 
 #: generate_desktop_files:27 generate_desktop_files:41
 msgid "Define upload services"
-msgstr "הגדרת שירותי העלאה"
+msgstr "הגדרת שרותי העלאה"
 
 #~ msgid "File Uploader"
 #~ msgstr "מעלה הקבצים"

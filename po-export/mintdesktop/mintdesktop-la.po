@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-03 10:16+0100\n"
-"PO-Revision-Date: 2020-11-27 13:57+0000\n"
+"POT-Creation-Date: 2021-06-03 12:49+0100\n"
+"PO-Revision-Date: 2021-04-19 10:04+0000\n"
 "Last-Translator: Davide Novemila <Unknown>\n"
 "Language-Team: Latin <la@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:09+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:13+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
+"Language: la\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -31,31 +32,34 @@ msgstr "root@linuxmint.com"
 
 #: usr/share/help/C/mintdesktop/wms.page:16(title)
 msgid "Overview of some window managers"
-msgstr ""
+msgstr "De administratoribus fenestrarum"
 
 #: usr/share/help/C/mintdesktop/wms.page:18(p)
 msgid "Here's a description of some of the window managers available."
-msgstr ""
+msgstr "De administratoribus fenestrarum paratis."
 
 #: usr/share/help/C/mintdesktop/wms.page:21(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:146
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:158
 msgid "Marco"
-msgstr "Marco"
+msgstr "Marcus"
 
 #: usr/share/help/C/mintdesktop/wms.page:22(p)
 msgid ""
 "Marco is the default window manager for the MATE desktop environment. It is "
 "very stable and very reliable. It can run with or without compositing."
 msgstr ""
+"Marcus praedesignatus administrator fenestrarum in MATE scriptorii ambiente "
+"est. Stabilissimus atque fidissimus est.  Cum vel sine compositing operatur."
 
 #: usr/share/help/C/mintdesktop/wms.page:23(p)
 msgid ""
 "If Marco is not installed already, you can install it with <cmd>apt install "
 "marco</cmd>."
 msgstr ""
+"Marco non instituto, ab <cmd>apt install marco</cmd> institueri potest."
 
 #: usr/share/help/C/mintdesktop/wms.page:27(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:151
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
 msgid "Metacity"
 msgstr "Metacity"
 
@@ -64,137 +68,173 @@ msgid ""
 "Metacity was the default window manager for the GNOME 2 desktop environment. "
 "It is very stable and very reliable. It can run with or without compositing."
 msgstr ""
+"Metacity praedesignatus administrator fenestrarum in GNOME 2 scriptorii "
+"ambiente erat. Stabilissimus atque fidissimus est.  Cum vel sine compositing "
+"operatur."
 
 #: usr/share/help/C/mintdesktop/wms.page:29(p)
 msgid ""
 "If Metacity is not installed already, you can install it with <cmd>apt "
 "install metacity</cmd>."
 msgstr ""
+"Metacity non instituto, ab <cmd>apt install metacity</cmd> institueri potest."
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:156
-msgid "Xfwm4"
-msgstr "Xfwm4"
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
+msgid "Mutter"
+msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:34(p)
 msgid ""
-"Xfwm4 is the default window manager for the Xfce desktop environment. It is "
-"very stable and very reliable. It can run with or without compositing."
+"Mutter is the default window and compositing manager for the GNOME 3 desktop "
+"environment. It is very stable and very reliable."
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:35(p)
 msgid ""
-"If Xfwm4 is not installed already, you can install it with <cmd>apt install "
-"xfwm4</cmd>."
+"If Mutter is not installed already, you can install it with <cmd>apt install "
+"mutter</cmd>."
 msgstr ""
 
 #: usr/share/help/C/mintdesktop/wms.page:39(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:165
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
+msgid "Xfwm4"
+msgstr "Xfwm4"
+
+#: usr/share/help/C/mintdesktop/wms.page:40(p)
+msgid ""
+"Xfwm4 is the default window manager for the Xfce desktop environment. It is "
+"very stable and very reliable. It can run with or without compositing."
+msgstr ""
+"Xfwm4 praedesignatus administrator fenestrarum in Xfce scriptorii ambiente "
+"est. Stabilissimus atque fidissimus est.  Cum vel sine compositing operatur."
+
+#: usr/share/help/C/mintdesktop/wms.page:41(p)
+msgid ""
+"If Xfwm4 is not installed already, you can install it with <cmd>apt install "
+"xfwm4</cmd>."
+msgstr ""
+"Xfwm4 non instituto, ab <cmd>apt install xfwm4</cmd> institueri potest."
+
+#: usr/share/help/C/mintdesktop/wms.page:45(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:179
 msgid "Compiz"
 msgstr "Compiz"
 
-#: usr/share/help/C/mintdesktop/wms.page:40(p)
+#: usr/share/help/C/mintdesktop/wms.page:46(p)
 msgid ""
 "Compiz is a very impressive window manager, very configurable and full of "
 "amazing effects and animations. It is however the least reliable and the "
 "least stable."
 msgstr ""
+"Compiz mirificus administrator fenestrarum est, admodum configurabilis atque "
+"effectis animationibusque abundans. Tamen instabilissumus atque minime fidus."
 
-#: usr/share/help/C/mintdesktop/wms.page:41(p)
+#: usr/share/help/C/mintdesktop/wms.page:47(p)
 msgid ""
 "Compiz is installed by default in Linux Mint. Note: It is not available in "
 "LMDE."
 msgstr ""
+"Compiz delectus est ut instituitur in Linuce Mint. Cave: in LMDE institueri "
+"non potest."
 
-#: usr/share/help/C/mintdesktop/wms.page:45(title)
+#: usr/share/help/C/mintdesktop/wms.page:51(title)
 msgid "Compton"
 msgstr "Compton"
 
-#: usr/share/help/C/mintdesktop/wms.page:46(p)
+#: usr/share/help/C/mintdesktop/wms.page:52(p)
 msgid ""
 "Compton is a compositing manager. It can be used in combination with windows "
 "managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
 "known to reduce screen tearing."
 msgstr ""
+"Compton est compositing administrator. Uti potest cum admistratoribus "
+"fenestrarum sicut Marco, Metacity aut Xfwm4. In Xfce: constat, si "
+"Xfwm4+Compton operantur, deformitas imaginis comminueret."
 
-#: usr/share/help/C/mintdesktop/wms.page:47(p)
+#: usr/share/help/C/mintdesktop/wms.page:53(p)
 msgid ""
 "If Compton is not installed already, you can install it with <cmd>apt "
 "install compton</cmd>."
 msgstr ""
+"Compton non instituto, ab <cmd>apt install compton</cmd> institueri potest."
 
-#: usr/share/help/C/mintdesktop/wms.page:51(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
+#: usr/share/help/C/mintdesktop/wms.page:57(title)
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
 msgid "Openbox"
 msgstr "Openbox"
 
-#: usr/share/help/C/mintdesktop/wms.page:52(p)
+#: usr/share/help/C/mintdesktop/wms.page:58(p)
 msgid "Openbox is a fast and light-weight window manager."
-msgstr ""
+msgstr "Openbox administrator fenestrarum agilis levisque est."
 
-#: usr/share/help/C/mintdesktop/wms.page:53(p)
+#: usr/share/help/C/mintdesktop/wms.page:59(p)
 msgid ""
 "If Openbox is not installed already, you can install it with <cmd>apt "
 "install openbox</cmd>."
 msgstr ""
+"Openbox non instituto, ab <cmd>apt install openbox</cmd> institueri potest."
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:113 generate_desktop_files:26
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126 generate_desktop_files:26
 msgid "Desktop Settings"
-msgstr "Optationis Scriptorium"
+msgstr "Optiones Scriptorii"
 
 #: usr/share/help/C/mintdesktop/index.page:16(p)
 msgid "Welcome to Desktop Settings."
-msgstr ""
+msgstr "Gratus advenis ad Configurationem Scriptorii."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:82
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:95
 msgid "Windows"
 msgstr "Fenestrae"
 
 #: usr/share/help/C/mintdesktop/index.page:20(p)
 msgid "The Windows section lets you choose a window manager."
-msgstr ""
+msgstr "Caput \"Fenestrae\" admistratorem fenestrarum eligere te sinit."
 
 #: usr/share/help/C/mintdesktop/index.page:22(p)
 msgid ""
 "Within the operating system, the <gui>window manager</gui> is the part which "
 "is responsible for:"
 msgstr ""
+"In systemate operativo, <gui>fenestrarum administrator</gui> pars est quae:"
 
 #: usr/share/help/C/mintdesktop/index.page:24(p)
 msgid "Windows borders, title bars and window buttons"
-msgstr ""
+msgstr "Margines fenestrarum, septum tituli et bullae fenestrae"
 
 #: usr/share/help/C/mintdesktop/index.page:25(p)
 msgid "Window events (moving, resizing, focusing windows)"
-msgstr ""
+msgstr "Eventa fenestrae (motus, variatio amplitudinis, selectio fenestrae)"
 
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
-msgstr ""
+msgstr "Compositing (umbrae, animationes, effecta, GPU renditio)"
 
 #: usr/share/help/C/mintdesktop/compositing.page:16(title)
 msgid "Pros and cons of compositing"
-msgstr ""
+msgstr "Pro aut contra compositing"
 
 #: usr/share/help/C/mintdesktop/compositing.page:19(title)
 msgid "Advantages"
-msgstr ""
+msgstr "Pro"
 
 #: usr/share/help/C/mintdesktop/compositing.page:22(p)
 msgid "Better look &amp; feel: Window animations, shadows and transparency."
-msgstr ""
+msgstr "Sensus faciesque: animationes, umbrae atque perspicuitas fenestrae."
 
 #: usr/share/help/C/mintdesktop/compositing.page:25(p)
 msgid ""
 "Better support for modern applications: Client-side decorations in GTK3 are "
 "better supported by composited window managers."
 msgstr ""
+"Melius recentes applicationes adiuvat: ornamenta latere clientis in GTK3 ab "
+"compositing admnistratore fenestrarum melius adiuvantur."
 
 #: usr/share/help/C/mintdesktop/compositing.page:31(title)
 msgid "Disadvantages"
-msgstr ""
+msgstr "Contra"
 
 #: usr/share/help/C/mintdesktop/compositing.page:35(p)
 msgid ""
@@ -202,12 +242,16 @@ msgid ""
 "with the GPU (as opposed to the CPU) can result in visual artefacts or "
 "screen tearing."
 msgstr ""
+"GPU renditio: propter tuam chartam graphicam et gubernatores, renditio cum "
+"GPU (contra CPU) errores visionis aut deformitatem imaginis generare potest."
 
 #: usr/share/help/C/mintdesktop/compositing.page:38(p)
 msgid ""
 "Resource usage: Compositing requires more resources. This can result in "
 "slower performance or reduced battery autonomy on laptop computers."
 msgstr ""
+"Usus opum: Compositing plurimas opes uterit. Propter hoc in laptop "
+"computatris segnitia aut paucitas pilae accidere potest."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintdesktop/compositing.page:0(None)
@@ -218,198 +262,233 @@ msgstr ""
 "  Davide Novemila https://launchpad.net/~dave9000\n"
 "  John Peter Yamauchi https://launchpad.net/~jpyamauchi"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:81
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:94
 msgid "Desktop"
 msgstr "Scriptorium"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:83
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:96
 msgid "Interface"
-msgstr ""
+msgstr "Interfacies"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:134
 msgid "Desktop icons"
-msgstr "Icon scriptorii"
+msgstr "Icones scriptorii"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:121
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:134
 msgid "Select the items you want to see on the desktop:"
-msgstr ""
+msgstr "Elige quod videri vis in scriptorium:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:122
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:135
 msgid "Computer"
 msgstr "Computratrum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:123
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:136
 msgid "Home"
 msgstr "Domus"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:124
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:137
 msgid "Network"
-msgstr "Reticulum"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:125
-msgid "Trash"
-msgstr "Quisquiliae"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126
-msgid "Mounted Volumes"
-msgstr ""
+msgstr "Rete"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
+msgid "Trash"
+msgstr "Purgamenta"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:139
+msgid "Mounted Volumes"
+msgstr "Volumina Colligata"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:150
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
 msgid "Window Manager"
-msgstr ""
+msgstr "Administrator Fenestrarum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:147
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
 msgid "Marco + Compositing"
-msgstr ""
+msgstr "Marco + Compositing"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:149
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
 msgid "Marco + Compton"
 msgstr "Marco + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:152
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:164
 msgid "Metacity + Compositing"
-msgstr ""
+msgstr "Metacity + Compositing"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:154
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:166
 msgid "Metacity + Compton"
 msgstr "Metacity + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:157
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 msgid "Xfwm4 + Compositing"
-msgstr ""
+msgstr "Xfwm4 + Compositing"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:171
 msgid "Xfwm4 + Compton"
 msgstr "Xfwm4 + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Openbox + Compton"
 msgstr "Openbox + Compton"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:167
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 msgid "Awesome"
-msgstr ""
+msgstr "Mirabile"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 msgid ""
 "Click on the help button for more information about window managers.\n"
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
 "Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
+"Bullam auxilii preme ut descriptiones de administratoribus fenestrarum "
+"habeas.\n"
+"Iussum 'wm-recovery' mitte ut revertas ad praedesignatum.\n"
+"Iussum 'wm-detect' mitte ut inspicias qualem operetur."
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:188
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
+msgid "Traditional style (Right)"
+msgstr "Ratio classica (Dextera)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:193
+msgid "Mac style (Left)"
+msgstr "Ratio Mac (Laeva)"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
 msgid "Auto"
-msgstr "Automaticus"
+msgstr "Automaticum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:176
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
 msgid "Normal"
 msgstr "Naturalis"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
-msgid "Double (HiDPI)"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:178
-msgid "User interface scaling"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:180
-msgid "Marco settings"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:182
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
-msgid "Use system font in titlebar"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
-msgid "Don't show window content while dragging them"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:185
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
-msgid "Traditional style (Right)"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:186
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
-msgid "Mac style (Left)"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:187
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
-msgid "Buttons layout:"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
-msgid "Buttons layout (CSD windows):"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:194
-msgid "Metacity settings"
-msgstr ""
-
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
-msgid "Compiz settings"
-msgstr ""
+msgid "Double (HiDPI)"
+msgstr "Duplex (HiDPI)"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
-msgid "Configure Compiz"
-msgstr ""
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
+msgid "User interface scaling"
+msgstr "Congruentia interfaciei utentis"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:202
+msgid "Marco settings"
+msgstr "Configuratio Marci"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:203
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:211
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:216
+msgid "Use system font in titlebar"
+msgstr "Typo systematis in tituli septo utere"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:204
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:212
+msgid "Don't show window content while dragging them"
+msgstr "Contentum fenestrae cum tractae sunt noli ostendere"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
-msgid "Reset Compiz settings"
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:213
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:220
+msgid "Buttons layout:"
+msgstr "Structura bullarum:"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
+msgid "Buttons layout (CSD windows):"
+msgstr "Structura bullarum (fenestrae CSD):"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
+msgid "Metacity settings"
+msgstr "Configuratio Metacity"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:215
+msgid "Mutter settings"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:221
-msgid "Icons"
-msgstr "Icones"
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:217
+msgid "Place new windows in the center of the screen"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:218
+msgid "Automatically maximize nearly screen sized windows"
+msgstr ""
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:219
+msgid "Enable edge tiling when dropping windows on screen edges"
+msgstr ""
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
-msgid "Show icons on menus"
-msgstr "Ostendere icones in indicibus"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
-msgid "Show icons on buttons"
+msgid "Xfwm4 settings"
 msgstr ""
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:225
-msgid "Toolbars"
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:224
+msgid "Configure Xfwm4"
 msgstr ""
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
-msgid "Text below items"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:229
-msgid "Text beside items"
-msgstr ""
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:230
-msgid "Icons only"
-msgstr "Icones solum"
-
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
-msgid "Text only"
+msgid "Tweak Xfwm4"
 msgstr ""
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
+msgid "Compiz settings"
+msgstr "Configuration Compiz"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:234
+msgid "Configure Compiz"
+msgstr "Compiz configura"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:238
+msgid "Reset Compiz settings"
+msgstr "Configurationem Compiz restitue"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:255
+msgid "Icons"
+msgstr "Icones"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:256
+msgid "Show icons on menus"
+msgstr "Icones in indicibus ostende"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:257
+msgid "Show icons on buttons"
+msgstr "Icones in bullis ostende"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:259
+msgid "Toolbars"
+msgstr "Septa instrumentorum"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:262
+msgid "Text below items"
+msgstr "Scripta sub rebus"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:263
+msgid "Text beside items"
+msgstr "Scripta apud res"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:264
+msgid "Icons only"
+msgstr "Icones modo"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:265
+msgid "Text only"
+msgstr "Scripta modo"
+
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:266
 msgid "Buttons labels:"
-msgstr ""
+msgstr "Nomines bullarum:"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:235
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:269
 msgid "Small"
-msgstr "parvum"
+msgstr "Parvum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:236
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:270
 msgid "Large"
-msgstr "Magnus"
+msgstr "Largum"
 
-#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:237
+#: usr/lib/linuxmint/mintdesktop/mintdesktop.py:271
 msgid "Icon size:"
-msgstr ""
+msgstr "Amplitudo iconum:"
 
 #: generate_desktop_files:26
 msgid "Fine-tune desktop settings"
-msgstr ""
+msgstr "Configuratio finis scriptorii"
