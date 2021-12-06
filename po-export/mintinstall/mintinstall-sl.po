@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-13 15:39+0100\n"
-"PO-Revision-Date: 2018-02-15 09:34+0000\n"
-"Last-Translator: Matic Gradišer <Unknown>\n"
+"PO-Revision-Date: 2021-11-13 17:54+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:33+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2021-12-06 14:57+0000\n"
+"X-Generator: Launchpad (build f92b6e0bb2624f8a9125e3f45b7621c6e230c5ff)\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:76
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:78
@@ -44,24 +44,29 @@ msgid ""
 "Cannot process this file while there are active operations.\n"
 "Please try again after they finish."
 msgstr ""
+"Te datoteke ni mogoče obdelati, ker je več aktivnih operacij.\n"
+"Poskusite znova kasneje, ko se zaključijo."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:650
 msgid "The Flatpak repo you are trying to add already exists."
-msgstr ""
+msgstr "Skladišče Flatpak, ki želite dodati, že obstaja."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:658
 msgid "An error occurred attempting to add the Flatpak repo."
-msgstr ""
+msgstr "Pri poskusu dodajanja skladišča Flatpak je prišlo do napake."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:666
 msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr ""
+"Podpora za Flatpak trenutno ni na voljo. Poskusite namestiti flatpak."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:685
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
 msgstr ""
+"Podpora za Flatpak je trenutno na voljo. Poskusite namestiti flatpak in "
+"gir1.2-flatpak-1.0."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:725
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1289 generate_desktop_files:24
@@ -83,7 +88,7 @@ msgstr "Iskanje po opisih paketov (še počasnejše iskanje)"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:802
 msgid "Refresh the list of packages"
-msgstr ""
+msgstr "Osveži seznam paketov"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:812
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1287
@@ -94,14 +99,18 @@ msgstr "O programu"
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d opravil je v teku"
+msgstr[1] "%d opravilo je v teku"
+msgstr[2] "%d opravili sta v teku"
+msgstr[3] "%d opravila so v teku"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1377
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
 msgstr ""
+"V teku so aktivne operacije.\n"
+"Ali ste prepričani, da želite končati z delom?"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1430
 msgid "Installed Applications"
@@ -109,7 +118,7 @@ msgstr "Nameščene aplikacije"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1433
 msgid "Currently working on the following packages"
-msgstr ""
+msgstr "Trenutno izvajanje operacij na naslednjih paketih"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1435
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
@@ -118,7 +127,7 @@ msgstr "Izbira uredništva"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1452
 msgid "All Applications"
-msgstr ""
+msgstr "Vsi programi"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1460
 msgid "Internet"
@@ -194,7 +203,7 @@ msgstr "Namizne igre"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1520
 msgid "First-person"
-msgstr ""
+msgstr "V prvi osebi"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1522
 msgid "Real-time strategy"
@@ -266,17 +275,19 @@ msgstr "Osnove"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1941
 msgid "All operations complete"
-msgstr ""
+msgstr "Vsa opravila so končana"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1945
 msgid "No matching packages found"
-msgstr ""
+msgstr "Ni zadetkov med paketi"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1948
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
 msgstr ""
+"Ni paketov za prikaz.\n"
+"To lahko predstavlja težavo: poskusite osvežiti predpomnilnik."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2082
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
@@ -290,7 +301,7 @@ msgstr "Nihče še ni podal svojega mnenja"
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2168
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
-msgstr ""
+msgstr "Kliknite <a href='%s'>sem</a>, da dodate svojo oceno."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
 msgid "Remove"
@@ -318,20 +329,24 @@ msgstr "Nameščanje"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2241
 msgid "Cannot remove"
-msgstr ""
+msgstr "Ni mogoče odstraniti"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2242
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr ""
+"Z odstranitvijo tega paketa lahko povzročite nepopravljivo škodo svojemu "
+"sistemu."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2244
 msgid "Cannot install"
-msgstr ""
+msgstr "Namestitev ni možna"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2245
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
+"Z namestitvijo tega paketa lahko povzročite nepopravljivo škodo svojemu "
+"sistemu."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2253
 msgid "Not available"
@@ -369,11 +384,11 @@ msgstr "Namesti nove programe"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
 msgid "Limit search to current listing"
-msgstr ""
+msgstr "Omeji iskanje na trenuten seznam"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "<big><b>Generating cache, one moment</b></big>"
-msgstr ""
+msgstr "<big><b>Tvorjenje predpomnilnika, počakajte trenutek</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Categories"
@@ -381,15 +396,15 @@ msgstr "Kategorije"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "page0"
-msgstr ""
+msgstr "stran0"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "<big><b>No matching packages found</b></big>"
-msgstr ""
+msgstr "<big><b>Ni zadetkov med paketi</b></big>"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Refresh"
-msgstr ""
+msgstr "Osveži"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Launch"
@@ -397,7 +412,7 @@ msgstr "Zaženi"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "Please be patient. This can take some time..."
-msgstr ""
+msgstr "Bodite potrpežljivi. To lahko traja nekaj časa ..."
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Size"
@@ -425,7 +440,7 @@ msgstr "Oddaljeno"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
 msgid "Searching software repositories, one moment"
-msgstr ""
+msgstr "Iskanje po skladiščih programka, počakajte trenutek"
 
 #~ msgid "Installation is complete"
 #~ msgstr "Namestitev je končana"

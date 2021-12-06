@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-05-15 14:58+0100\n"
-"PO-Revision-Date: 2019-07-30 10:42+0000\n"
+"PO-Revision-Date: 2021-10-28 14:54+0000\n"
 "Last-Translator: Rhoslyn Prys <Unknown>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:37+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2021-12-06 15:01+0000\n"
+"X-Generator: Launchpad (build f92b6e0bb2624f8a9125e3f45b7621c6e230c5ff)\n"
 "Language: cy\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:75
@@ -36,7 +36,7 @@ msgstr "Pwyswch Enter i barhau neu Ctrl+C i ddiddymu"
 #: usr/lib/linuxmint/mintSources/mintSources.py:86
 #: usr/lib/linuxmint/mintSources/mintSources.py:166
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr "Methu annog i gael ymateb"
+msgstr "Methu annog i gael ymateb. Rhedwch gyda -y"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 msgid "Cancelling..."
@@ -119,7 +119,7 @@ msgstr "CD-ROM (Disg Gosod)"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:427
 msgid "Local Repository"
-msgstr "Ystorfa Leol"
+msgstr "Storfa Leol"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:475
 msgid ""
@@ -181,7 +181,7 @@ msgstr "Ffynonellau Meddalwedd"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:827
 msgid "Backported packages"
-msgstr "Pecynnau'r porth cefn"
+msgstr "Pecynnau diweddarwyd"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:829
 msgid "Unstable packages"
@@ -219,11 +219,11 @@ msgstr "Nid oes rhagor o hen ffurfweddiad ar y system"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1078
 msgid "The problem was fixed. Please reload the cache."
-msgstr "Mae'r anhawster wedi ei ddatrys. Aillwythwch y storfa."
+msgstr "Mae'r anhawster wedi ei ddatrys. Ail lwythwch y storfa."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1121
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr "Tynnwyd cofnodion dyblyg. Ail-lwythwch y storfa."
+msgstr "Tynnwyd cofnodion dyblyg. Ail lwythwch y storfa."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1127
 msgid "No duplicate entries were found."
@@ -233,8 +233,8 @@ msgstr "Heb ganfod cofnodion dyblyg."
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
 msgstr ""
-"Gwall gyda ffurfweddiad eich APT, efallai y bydd yn rhaid i chi ail-lwytho'r "
-"storfa yn gyntaf."
+"Gwall gyda ffurfweddiad eich APT, efallai y bydd yn rhaid i chi ail lwytho'r "
+"storfa'n gyntaf."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1235
 msgid "All missing keys were successfully added."
@@ -246,23 +246,23 @@ msgstr "Heb ganfod yr holl allweddi coll."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1240
 msgid "Keys were added for the following repositories:"
-msgstr "Ychwanegwyd allweddi ar gyfer yr ystorfeydd canlynol:"
+msgstr "Ychwanegwyd allweddi ar gyfer y storfeydd canlynol:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1245
 msgid "Keys are still missing for the following repositories:"
-msgstr "Mae allweddi yn dal ar goll ar gyfer yr ystorfeydd canlynol:"
+msgstr "Mae allweddi yn dal ar goll ar gyfer y storfeydd canlynol:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1246
 msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
 msgstr ""
-"Ychwanegwch yr allwedd(i) coll sy'n weddill â llaw neu tynnwch yr ystorfeydd "
+"Ychwanegwch yr allwedd(i) coll sy'n weddill â llaw neu tynnwch y storfeydd "
 "neu'r PPA cyfatebol."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1255
 msgid "Please reload the cache."
-msgstr "Ail-lwythwch y storfa."
+msgstr "Ail lwythwch y storfa."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1260
 msgid "No missing keys were found."
@@ -289,7 +289,7 @@ msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr ""
-"Rhowch ôl bys yr allwedd gyhoeddus rydych am ei lwytho i lawr o "
+"Rhowch ôl bys yr allwedd gyhoeddus rydych am ei llwytho i lawr o "
 "keyserver.ubuntu.com:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1329
@@ -317,17 +317,17 @@ msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
-"Nid yw cynnwys y PPA yma yn anhysbys. Adferwch y storfa a cheisiwch eto."
+"Nid yw cynnwys y PPA yma yn ar gael. Adnewyddwch y storfa a cheisiwch eto."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1482
 msgid "Please enter the name of the repository you want to add:"
-msgstr "Rhowch enw'r storfa rydych am ei ychwanegu:"
+msgstr "Rhowch enw'r storfa rydych am ei hychwanegu:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1499
 msgid ""
 "This repository is already configured, you cannot add it a second time."
 msgstr ""
-"Mae'r storfa yma eisoes wedi ei ffurfweddu, nod oes modd ei ychwanegu'r ail "
+"Mae'r storfa yma eisoes wedi ei ffurfweddu, nod oes modd ei hychwanegu'r ail "
 "waith."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1506
@@ -354,28 +354,28 @@ msgstr "Cliciwch Iawn i ddiweddaru eich storfa APT"
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:88
 #, python-format
 msgid "version %s already installed"
-msgstr "mae fersiwn %s eisioes wedi ei osod"
+msgstr "mae fersiwn %s eisoes wedi'i osod"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:91
 msgid "already installed"
-msgstr "wedi ei osod yn barod"
+msgstr "wedi'i osod yn barod"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:39
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
 msgid "Foreign packages"
-msgstr "Pecynnau dieithr"
+msgstr "Pecynnau estron"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:46
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
 msgid "Downgrade"
-msgstr "Diraddio"
+msgstr "Israddio"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:47
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
-msgstr "Nid yw fersiwn y pecyn canlynol y cyd-fynd â'r un o'r ystorfa:"
+msgstr "Nid yw fersiwn y pecyn canlynol y cydweddu'r un o'r storfa:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:49
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
@@ -388,13 +388,13 @@ msgid ""
 "repositories:"
 msgstr ""
 "Mae'r pecynnau canlynol wedi eu gosod ar eich cyfrifiadur ond nid ydynt yn "
-"bresennol yn y casgliadau:"
+"bresennol yn y storfeydd:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:55
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:227
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
-msgstr "Dewis Popeth"
+msgstr "Dewis y Cyfan"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:73
 msgid "Package"
@@ -406,7 +406,7 @@ msgstr "Fersiwn wedi ei osod"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:84
 msgid "Repository version"
-msgstr "Fersiwn yr ystorfa"
+msgstr "Fersiwn y storfa"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:230
 msgid "Clear"
@@ -414,7 +414,7 @@ msgstr "Clirio"
 
 #: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
-msgstr "Gwall: Mae'n rhaid i redeg fel root"
+msgstr "Gwall: Mae'n rhaid ei redeg fel gwraidd"
 
 #: usr/bin/add-apt-repository:23
 msgid "Error: need a repository as argument"
@@ -423,7 +423,7 @@ msgstr "Gwall: Mae angen storfa fel ymresymiad"
 #: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
 msgstr ""
-"Ffurfweddu y ffynonellau ar gyfer meddalwedd gosodadwy a diweddariadau"
+"Ffurfweddu'r ffynonellau ar gyfer meddalwedd gosodadwy a diweddariadau"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
@@ -432,7 +432,7 @@ msgstr "Rhybudd"
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
 msgid ""
 "Review the information below very carefully before validating the command."
-msgstr "Darllenwch y manylion isod yn ofalus iawn cyn cadarnhau'r gorchymun."
+msgstr "Darllenwch y manylion isod yn ofalus iawn cyn cadarnhau'r gorchymyn."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
@@ -488,7 +488,7 @@ msgstr "Allweddi Dilysu"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Fix MergeList problems"
-msgstr "Datrys anhawsterau MergeList"
+msgstr "Datrys anawsterau MergeList"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Purge residual configuration"
@@ -504,11 +504,11 @@ msgstr "Ychwanegu allweddi coll"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Remove foreign packages"
-msgstr "Tynnu pecynnau dieithr"
+msgstr "Tynnu pecynnau estron"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Downgrade foreign packages"
-msgstr "Diraddio pecynnau dieithr"
+msgstr "Diraddio pecynnau estron"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Maintenance"
