@@ -3,5 +3,5 @@
 3. Run ./clean.sh
 4. Run ./check.sh
 5. Run ./sort.sh to move foreign translations to FOREIGN/
-6. Export foreign translations to other projects
+6. Run ./update.py to update foreign projects
 7. Build the package with dpkg-buildpackage
