@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-27 13:57+0000\n"
-"PO-Revision-Date: 2021-05-07 08:13+0000\n"
-"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"PO-Revision-Date: 2022-03-11 13:46+0000\n"
+"Last-Translator: Omer I.S. <Unknown>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-12-31 12:18+0000\n"
-"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
+"X-Launchpad-Export-Date: 2022-06-26 11:19+0000\n"
+"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
@@ -31,15 +31,15 @@ msgstr "כלי גיבוי"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:232
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr "%s לא ממוקם במחיצת הבית."
+msgstr "%s לא נמצא בתיקיית הבית."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:272
 msgid "Please choose a directory."
-msgstr "נא לבחור מחיצה."
+msgstr "נא לבחור תיקייה."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:275
 msgid "You do not have the permission to write in the selected directory."
-msgstr "אין הרשאת כתיבה למחיצה שנבחרה."
+msgstr "אין לך הרשאת כתיבה בתיקייה שנבחרה."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:335
 msgid "Please choose a backup file."
@@ -50,7 +50,7 @@ msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
-"קובץ גיבוי זה ישן מדי או שנוצר בעזרת כלי אחר. נא לחלץ אותו באופן ידני."
+"קובץ גיבוי זה ישן מדי או שנוצר באמצעות כלי אחר. נא לחלץ אותו באופן ידני."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:352
 #, python-format
@@ -59,7 +59,7 @@ msgstr "אירעה שגיאה בעת פתיחת קובץ הגיבוי: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "No packages need to be installed."
-msgstr "לא נדרשות חבילות להתקנה."
+msgstr "אין צורך בהתקנת חבילות."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:373
 msgid "Please select packages to install."
@@ -68,7 +68,7 @@ msgstr "נא לבחור חבילות להתקנה."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:427
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr "דילוג על  %s מאחר וצינורות נקובים בשם לא נתמכים."
+msgstr "דילגנו על %s כי אין תמיכה בצינורות עם שמות."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:452
 msgid "Backing up:"
@@ -76,27 +76,27 @@ msgstr "גיבוי:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:460
 msgid "Calculating..."
-msgstr "חישוב..."
+msgstr "מתבצע חישוב..."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:464
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:568
 msgid "The following errors occurred:"
-msgstr "השגיאות הבאות אירעו:"
+msgstr "אירעו השגיאות הבאות:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:470
 msgid "The backup was aborted."
-msgstr "הגיבוי בוטל."
+msgstr "הגיבוי ננטש."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:474
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr "הקבצים נשמרו בהצלחה ב-%s."
+msgstr "הקבצים נשמרו בהצלחה ב־%s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:515
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
-msgstr "אזהרה: לא ניתן היה לשמור את קובץ המטא. גיבוי זה לא יתקבל לשחזור."
+msgstr "אזהרה: לא ניתן היה לשמור את קובץ העל (מטא). הגיבוי לא יתקבל לשחזור."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:542
 #, python-format
@@ -104,7 +104,7 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
-"אזהרה: חלק מהקבצים לא נשמרו. רק %(archived)d קבצים מתוך %(total)d קבצים גובו."
+"אזהרה: חלק מהקבצים לא נשמרו. רק %(archived)d קבצים מתוך %(total)d גובו."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:557
 msgid "Restoring:"
@@ -112,7 +112,7 @@ msgstr "שחזור:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:574
 msgid "The restoration was aborted."
-msgstr "השחזור בוטל."
+msgstr "השחזור ננטש."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:578
 msgid "Your files were successfully restored."
@@ -121,20 +121,20 @@ msgstr "הקבצים שוחזרו בהצלחה."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:666
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr "אזהרה: רק %(number)d קבצים שוחזרו מתוך %(total)d קבצים."
+msgstr "אזהרה: רק %(number)d קבצים שוחזרו מתוך %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:691
 msgid "The list below shows the applications you installed."
-msgstr "הרשימה מטה מציגה את היישומים שהתקנו."
+msgstr "הרשימה מטה מציגה את היישומונים שהתקנו."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:735
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr "בחירות התכנה נשמרה ב-%s"
+msgstr "בחירת תוכנה נשמרה ב־%s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:751
 msgid "The selected file is not a valid software selection."
-msgstr "הקובץ שנבחר אינו קובץ בחירת תכנה תקין."
+msgstr "הקובץ שנבחר אינו בחירת תוכנה תקינה."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:756
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:794
@@ -147,7 +147,7 @@ msgstr "לא ניתן לאתר את החבילה."
 
 #: generate_desktop_files:24 generate_desktop_files:39
 msgid "Make a backup of your home directory"
-msgstr "גיבוי מחיצת הבית"
+msgstr "ביצוע גיבוי של מחיצת־הבית"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -155,7 +155,7 @@ msgstr "מידע אישי"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr "הקבצים, ההגדרות והתוכן של מחיצת הבית"
+msgstr "הקבצים וההגדרות שלך ותוכן תיקיית הבית שלך"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
@@ -171,17 +171,17 @@ msgstr "בחירת תכנה"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr "רשימת הישומים המותקנים על המחשב"
+msgstr "רשימת היישומים שמותקנים במחשב"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr "נא לבחור היכן לשמור את קובץ הגיבוי:"
+msgstr "נא לבחור מיקום לשמירת קובץ הגיבוי:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
-msgstr "נא להוסיף קבצים או תיקיות לרשימה מטה להחרגה מהגיבוי."
+msgstr "נא להוסיף לרשימה מטה, קבצים או מחיצות, שיוחרגו מהגיבוי."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -189,7 +189,7 @@ msgstr "החרגת קבצים"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
 msgid "Exclude directories"
-msgstr "החרגת מחיצות"
+msgstr "הוצאת תיקיות"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
 msgid "Remove"
@@ -200,14 +200,14 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
-"קבצים מוסתרים ותיקיות מוסתרות, הממוקמים במחיצת השורש של מחיצת הבית, אינם "
-"נכללים כברירת מחדל."
+"כברירת מחדל, קבצים מוסתרים ותיקיות מוסתרות, הממוקמים בשורש (root) מחיצת "
+"הבית, לא יכללו."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
-msgstr "כדי לכלול חלק מהם בגיבוי, נא להוסיף אותם לרשימה מטה."
+msgstr "כדי לכלול את חלקם בגיבוי בכל זאת, נא להוסיפם לרשימה מטה."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
@@ -221,7 +221,7 @@ msgstr "הכללת תיקיות"
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
-msgstr "קבצים ותיקיות אלה בדרך כלל מכילים מידע זמני או העדפות ליישומים."
+msgstr "קבצים ותיקיות אלה, לרוב מכילים מידע זמני או העדפות ליישומים."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
@@ -233,14 +233,14 @@ msgstr "נא לבחור קובץ גיבוי לשחזור:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr "האם להחליף קבצים קיימים?"
+msgstr "להחליף קבצים קיימים?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
-"לא, לשחזר רק קבצים חסרים.\n"
+"לא, נא לשחזר רק קבצים חסרים.\n"
 "<small>זוהי אפשרות בטוחה והיא לא תשפיע על הקבצים הקיימים.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
@@ -249,8 +249,9 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
-"כן, להחליף ולשחזר גם את התוכן של קבצים קיימים.\n"
-"<small>נא להשתמש באפשרות זו בזהירות. שינויים קבצים מאז הגיבוי יאבדו.</small>"
+"כן, להחליף את הקבצים ולשחזר את תוכנם של כל הקבצים הקיימים.\n"
+"<small>יש להיזהר בעת שימוש באפשרות זו. השינויים שביצעת בקבצים מאז הגיבוי "
+"יאבדו.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
@@ -260,19 +261,19 @@ msgstr "נא להמתין בזמן שהקבצים משוחזרים."
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
-msgstr "הרשימה מטה מציגה את היישומים שהתקנו באמצעות מנהל התכנה."
+msgstr "הרשימה מטה מציגה את היישומונים שהתקנו באמצעות מנהל התוכנה."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr "נא לבחור את היישומים לשמירה."
+msgstr "נא לבחור את היישומים שברצונך לשמור."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
-msgstr "בחירת הכול"
+msgstr "לבחור הכול"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect all"
-msgstr "ביטול בחירת הכול"
+msgstr "ביטול כל הבחירות"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -280,24 +281,24 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"הערה: לשמירת רשימה מלאה של כל החבילות המותקנות על המערכת, נא להשתמש בפקודה "
-"'dpkg --get-selections > mylist.list' במסוף."
+"הערה: לשמירת רשימת החבילות המלאה המותקנות על המערכת, נא להפעיל במסוף את "
+"הפקודה 'dpkg --get-selections > mylist.list'."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr "נא לבחור קובץ בחירת תוכנה שמור (קובץ list.):"
+msgstr "נא לבחור קובץ בחירת־תוכנה שמור (קובץ list.):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr "נא לבחור את החבילות להתקנה."
+msgstr "נא לבחור את החבילות שברצונך להתקין."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
-msgstr "רענון"
+msgstr "ריענון"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr "כל החבילות בבחירת התוכנה מותקנות."
+msgstr "כל החבילות שבאוסף התוכנה שלך מותקנות."
 
 #~ msgid "Backup"
 #~ msgstr "גיבוי"

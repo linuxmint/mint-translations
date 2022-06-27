@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-13 16:04+0100\n"
-"PO-Revision-Date: 2021-05-08 12:06+0000\n"
-"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"PO-Revision-Date: 2022-03-12 19:40+0000\n"
+"Last-Translator: Omer I.S. <Unknown>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-12-31 12:21+0000\n"
-"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
+"X-Launchpad-Export-Date: 2022-06-26 11:23+0000\n"
+"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
 
 #: lib/mintstick.py:95
 msgid "Write"
@@ -23,7 +23,7 @@ msgstr "כתיבה"
 
 #: lib/mintstick.py:143 generate_additional_files.py:77
 msgid "Format"
-msgstr "תבנות"
+msgstr "פירמוט"
 
 #: lib/mintstick.py:234
 msgid "unknown"
@@ -31,12 +31,12 @@ msgstr "לא ידוע"
 
 #: lib/mintstick.py:364 lib/mintstick.py:366
 msgid "The USB stick was formatted successfully."
-msgstr "האחסן הנשלף תובנת בהצלחה."
+msgstr "ההחסן הנייד פוּרמט בהצלחה."
 
 #: lib/mintstick.py:369
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "ארעה שגיאה בזמן יצירת מחיצה על %s."
+msgstr "אירעה שגיאה בזמן יצירת מחיצה על %s."
 
 #: lib/mintstick.py:371 lib/mintstick.py:486
 msgid "Authentication Error."
@@ -48,77 +48,77 @@ msgstr "אירעה שגיאה."
 
 #: lib/mintstick.py:391
 msgid "Image:"
-msgstr "תמונת-חטף מערכת׃"
+msgstr "קובץ דמות:"
 
 #: lib/mintstick.py:392
 msgid "USB stick:"
-msgstr "אחסן נשלף׃"
+msgstr "החסן נייד:"
 
 #: lib/mintstick.py:411 lib/mintstick.py:417 lib/mintstick.py:519
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:30
 msgid "USB Image Writer"
-msgstr "כתיבת תמונת מערכת לאחסן נשלף"
+msgstr "כותב קובצי הדמות ל־USB"
 
 #: lib/mintstick.py:453
 #, python-format
 msgid "Writing %(VAR_FILE)s to %(VAR_DEV)s"
-msgstr "העתקת %(VAR_FILE)s ל- %(VAR_DEV)s"
+msgstr "העתקת %(VAR_FILE)s אל %(VAR_DEV)s"
 
 #: lib/mintstick.py:455
 #, python-format
 msgid "Starting copy from %(VAR_SOURCE)s to %(VAR_TARGET)s"
-msgstr "התחלת העתקה מ- %(VAR_SOURCE)s ל- %(VAR_TARGET)s"
+msgstr "מתחילה ההעתקה מ־%(VAR_SOURCE)s אל %(VAR_TARGET)s"
 
 #: lib/mintstick.py:476 lib/mintstick.py:479
 msgid "The image was successfully written."
-msgstr "תמונת המערכת נכתבה בהצלחה."
+msgstr "קובץ הדמות נכתב בהצלחה."
 
 #: lib/mintstick.py:482
 msgid "Not enough space on the USB stick."
-msgstr "אין די שטח אחסון זמין באחסן הנשלף."
+msgstr "אין די שטח אחסון זמין בהחסן הנייד."
 
 #: lib/mintstick.py:484
 msgid "An error occured while copying the image."
-msgstr "ארעה שגיאה בעת העתקת תמונת מערכת."
+msgstr "אירעה שגיאה בעת העתקת קובץ הדמות."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: generate_additional_files.py:67
 msgid "Make a bootable USB stick"
-msgstr "יצירת אחסן נשלף בר איתחול"
+msgstr "יצירת החסן נייד בר־אתחול"
 
 #: generate_additional_files.py:46 generate_additional_files.py:58
 #: share/mintstick/mintstick.ui.h:3
 msgid "USB Stick Formatter"
-msgstr "תבנות אחסן נשלף"
+msgstr "מפרמט ההחסנים הניידים"
 
 #: generate_additional_files.py:46 generate_additional_files.py:58
 #: generate_additional_files.py:77
 msgid "Format a USB stick"
-msgstr "תבנות אחסן נשלף"
+msgstr "פירמוט החסן נייד"
 
 #: generate_additional_files.py:67
 msgid "Make bootable USB stick"
-msgstr "יצירת אחסן נשלף בר איתחול"
+msgstr "יצירת החסן נייד בר־אתחול"
 
 #: generate_additional_files.py:108 share/mintstick/mintstick.ui.h:1
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr "כל הנותנים באחסן הנשלף יאבדו, האם להמשיך?"
+msgstr "כל הנתונים בהחסן הנייד יימחקו, להמשיך?"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid ""
 "Something went wrong, please see the details window for the exact error."
-msgstr "משהו השתבש, נא ראו חלון פרטים  לשגיאה המדויקת."
+msgstr "משהו השתבש, פרטי השגיאה המדויקים נמצאים בחלון הפרטים."
 
 #: share/mintstick/mintstick.ui.h:4
 msgid "Format:"
-msgstr "תבנות:"
+msgstr "פירמוט:"
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Select a USB stick"
-msgstr "בחירת אחסן נשלף:"
+msgstr "בחירת החסן נייד"
 
 #: share/mintstick/mintstick.ui.h:6
 msgid "as"
@@ -171,11 +171,11 @@ msgstr "תווית כרך:"
 
 #: share/mintstick/mintstick.ui.h:27
 msgid "Choose a name for your USB Stick"
-msgstr "בחירת שם לאחסן הנשלף:"
+msgstr "נא לבחור שם להחסן הנייד שלך"
 
 #: share/mintstick/mintstick.ui.h:28
 msgid "USB Stick"
-msgstr "אחסן נשלף"
+msgstr "החסן נייד"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "Details"
@@ -183,15 +183,15 @@ msgstr "פרטים"
 
 #: share/mintstick/mintstick.ui.h:31
 msgid "Write image:"
-msgstr "כתיבת תמונת מערכת:"
+msgstr "כתיבת קובץ הדמות:"
 
 #: share/mintstick/mintstick.ui.h:32
 msgid "Select an image"
-msgstr "בחירת תמונת מערכת"
+msgstr "בחירת קובץ דמות"
 
 #: share/mintstick/mintstick.ui.h:33
 msgid "Select Image"
-msgstr "בחירת תמונת מערכת"
+msgstr "בחירת קובץ דמות"
 
 #: share/mintstick/mintstick.ui.h:34
 msgid "to"
@@ -199,4 +199,4 @@ msgstr "אל"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "The image was written successfully."
-msgstr "תמונת מערכת נכתבה בהצלחה."
+msgstr "קובץ הדמות נכתב בהצלחה."

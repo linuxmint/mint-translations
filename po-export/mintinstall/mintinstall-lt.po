@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-05-13 15:39+0100\n"
+"POT-Creation-Date: 2022-06-21 15:00+0200\n"
 "PO-Revision-Date: 2020-05-16 10:34+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
@@ -16,30 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2021-12-31 12:17+0000\n"
-"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
+"X-Launchpad-Export-Date: 2022-06-26 11:18+0000\n"
+"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:76
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:78
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:77
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:79
 msgid "Multimedia Codecs"
 msgstr "Multimedijos kodekai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:77
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:78
 msgid "Multimedia Codecs for KDE"
 msgstr "Multimedijos kodekai, skirti KDE"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:417
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2115
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2146
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
-msgid "Reviews"
-msgstr "Apžvalgos"
+#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:471
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2192
+msgid "Review"
+msgid_plural "Reviews"
+msgstr[0] ""
+msgstr[1] ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:515
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:573
 msgid "All"
 msgstr "Visos"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:629
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:687
 msgid ""
 "Cannot process this file while there are active operations.\n"
 "Please try again after they finish."
@@ -47,20 +48,20 @@ msgstr ""
 "Nepavyksta apdoroti šį failą, kol yra aktyvių operacijų.\n"
 "Joms užbaigus darbą, bandykite dar kartą."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:650
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:708
 msgid "The Flatpak repo you are trying to add already exists."
 msgstr "Flatpak saugykla, kurią bandote pridėti, jau yra."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:658
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:716
 msgid "An error occurred attempting to add the Flatpak repo."
 msgstr "Bandant pridėti Flatpak saugyklą, įvyko klaida."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:666
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:724
 msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr ""
 "Šiuo metu Flatpak palaikymas yra neprieinamas. Pabandykite įdiegti flatpak."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:685
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:743
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
@@ -68,34 +69,34 @@ msgstr ""
 "Šiuo metu Flatpak palaikymas yra neprieinamas. Pabandykite įdiegti flatpak "
 "ir gir1.2-flatpak-1.0."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:725
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1289 generate_desktop_files:24
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:783
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1332 generate_desktop_files:24
 #: generate_desktop_files:35
 msgid "Software Manager"
 msgstr "Programų tvarkytuvė"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:777
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:835
 msgid "Show installed applications"
 msgstr "Rodyti įdiegtas programas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:786
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:844
 msgid "Search in packages summary (slower search)"
 msgstr "Ieškoti paketų santraukose (lėtesnė paieška)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:792
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:850
 msgid "Search in packages description (even slower search)"
 msgstr "Ieškoti paketų aprašuose (dar lėtesnė paieška)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:802
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:860
 msgid "Refresh the list of packages"
 msgstr "Iš naujo įkelti paketų sąrašą"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:812
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1287
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:870
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1330
 msgid "About"
 msgstr "Apie"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1064
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1113
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
@@ -103,7 +104,7 @@ msgstr[0] "Vykdoma %d užduotis"
 msgstr[1] "Vykdomos %d užduotys"
 msgstr[2] "Vykdoma %d užduočių"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1377
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1420
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
@@ -111,176 +112,176 @@ msgstr ""
 "Šiuo metu yra aktyvių operacijų.\n"
 "Ar tikrai norite išeiti?"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1430
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1473
 msgid "Installed Applications"
 msgstr "Įdiegtos programos"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1433
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1476
 msgid "Currently working on the following packages"
 msgstr "Šiuo metu dirbama su šiais paketais"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1435
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1478
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
 msgid "Editors' Picks"
 msgstr "Redaktoriaus pasirinkimai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1452
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1495
 msgid "All Applications"
 msgstr "Visos programos"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1460
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1503
 msgid "Internet"
 msgstr "Internetas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1462
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1505
 msgid "Web"
 msgstr "Žiniatinklis"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1467
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1510
 msgid "Email"
 msgstr "El. paštas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1471
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1514
 msgid "Chat"
 msgstr "Pokalbiai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1474
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1517
 msgid "File sharing"
 msgstr "Failų bendrinimas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1480
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1523
 msgid "Sound and video"
 msgstr "Garsas ir vaizdas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1482
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1525
 msgid "Sound"
 msgstr "Garsas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1484
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1527
 msgid "Video"
 msgstr "Vaizdas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1489
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1532
 msgid "Graphics"
 msgstr "Grafika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1493
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1536
 msgid "3D"
 msgstr "3D"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1495
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1538
 msgid "Drawing"
 msgstr "Piešimas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1497
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1540
 msgid "Photography"
 msgstr "Fotografija"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1499
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1542
 msgid "Publishing"
 msgstr "Leidyba"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1501
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1544
 msgid "Scanning"
 msgstr "Nuskaitymas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1503
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1546
 msgid "Viewers"
 msgstr "Žiūryklės"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1508
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1551
 msgid "Office"
 msgstr "Raštinė"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1514
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1557
 msgid "Games"
 msgstr "Žaidimai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1518
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1561
 msgid "Board games"
 msgstr "Stalo žaidimai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1520
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1563
 msgid "First-person"
 msgstr "Pirmojo asmens"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1522
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1565
 msgid "Real-time strategy"
 msgstr "Realaus laiko strategija"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1524
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1567
 msgid "Turn-based strategy"
 msgstr "Ėjimais pagrįsta strategija"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1526
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1569
 msgid "Emulators"
 msgstr "Emuliatoriai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1528
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1571
 msgid "Simulation and racing"
 msgstr "Simuliacijos ir lenktynės"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1533
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1576
 msgid "Accessories"
 msgstr "Priedai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1539
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1582
 msgid "System tools"
 msgstr "Sistemos įrankiai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1546
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1589
 msgid "Fonts"
 msgstr "Šriftai"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1552
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1595
 msgid "Science and Education"
 msgstr "Švietimas ir mokslas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1553
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1596
 msgid "Science"
 msgstr "Mokslas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1555
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1598
 msgid "Maths"
 msgstr "Matematika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1557
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1600
 msgid "Education"
 msgstr "Švietimas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1559
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1602
 msgid "Electronics"
 msgstr "Elektronika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1565
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1608
 msgid "Programming"
 msgstr "Programavimas"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1567
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1610
 msgid "Java"
 msgstr "Java"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1569
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1612
 msgid "PHP"
 msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1571
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1614
 msgid "Python"
 msgstr "Python"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1573
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1616
 msgid "Essentials"
 msgstr "Reikmenys"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1941
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1986
 msgid "All operations complete"
 msgstr "Visos operacijos užbaigtos"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1945
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1990
 msgid "No matching packages found"
 msgstr "Nerasta jokių atitinkančių paketų"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1948
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1993
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
@@ -288,86 +289,92 @@ msgstr ""
 "Nėra jokių paketų, kuriuos rodyti.\n"
 "Tai gali reikšti, kad yra problemų - pabandykite įkelti podėlį iš naujo."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2082
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2143
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
 msgid "Details"
 msgstr "Informacija"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2162
+#. TRANSLATORS: reviews heading in package details view
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2226
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
+msgid "Reviews"
+msgstr "Apžvalgos"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2242
 msgid "No reviews available"
 msgstr "Nėra apžvalgų"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2168
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2248
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
 msgstr ""
 "Spustelėkite <a href='%s'>čia</a>, norėdami pridėti savo asmeninę apžvalgą."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2305
 msgid "Remove"
 msgstr "Pašalinti"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2228
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2308
 msgid "Installed"
 msgstr "Įdiegta"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2230
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2310
 msgid "Removing"
 msgstr "Šalinama"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2232
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2312
 msgid "Install"
 msgstr "Įdiegti"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2235
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2315
 msgid "Not installed"
 msgstr "Neįdiegta"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2237
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2317
 msgid "Installing"
 msgstr "Įdiegiama"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2241
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2321
 msgid "Cannot remove"
 msgstr "Nepavyksta pašalinti"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2242
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2322
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr "Šio paketo pašalinimas gali padaryti nepataisomą žalą jūsų sistemai."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2244
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2324
 msgid "Cannot install"
 msgstr "Nepavyksta įdiegti"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2245
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2325
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr "Šio paketo įdiegimas gali padaryti nepataisomą žalą jūsų sistemai."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2253
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2333
 msgid "Not available"
 msgstr "Neprieinama"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2256
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2336
 msgid "Please use apt-get to install this package."
 msgstr "Šio paketo įdiegimui naudokite apt-get."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2275
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2355
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "Atlaisvinta %(localSize)s disko vietos"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2278
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2358
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "Reikia %(localSize)s disko vietos"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2282
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2362
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s atsiųsti, %(localSize)s atlaisvintos vietos diske"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2285
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2365
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s atsiųsti, %(localSize)s reikalaujamos vietos diske"
@@ -521,9 +528,6 @@ msgstr "Minutėlę, atliekama paieška programinės įrangos saugyklose"
 
 #~ msgid "Reviewer"
 #~ msgstr "Apžvalgininkas"
-
-#~ msgid "Review"
-#~ msgstr "Recenzija"
 
 #, python-format
 #~ msgid "%d screenshots loaded"

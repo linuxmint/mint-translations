@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-27 13:57+0000\n"
-"PO-Revision-Date: 2020-05-01 09:08+0000\n"
+"PO-Revision-Date: 2022-03-21 16:57+0000\n"
 "Last-Translator: Piet Coppens <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-12-31 12:18+0000\n"
-"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
+"X-Launchpad-Export-Date: 2022-06-26 11:19+0000\n"
+"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
@@ -60,7 +60,7 @@ msgstr "Okazis eraro dum malfermo de la savdosiero: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "No packages need to be installed."
-msgstr "Neniu pako devas esti instalita."
+msgstr "Neniu pako bezonas esti instalita."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:373
 msgid "Please select packages to install."
@@ -99,7 +99,7 @@ msgid ""
 "for restoration."
 msgstr ""
 "Averto: Ne eblas konservi la metadosieron. Ĉi tiu savkopio ne estos "
-"akceptita por restaŭrado."
+"akceptita por restaŭro."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:542
 #, python-format
@@ -108,7 +108,7 @@ msgid ""
 "out of %(total)d."
 msgstr ""
 "Averto: Kelkaj dosieroj ne estis konservitaj. Nur pri %(archived)d dosieroj "
-"estis farita savkopio, el %(total)d."
+"estis faritaj savkopioj, el %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:557
 msgid "Restoring:"
@@ -116,7 +116,7 @@ msgstr "Restaŭrado:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:574
 msgid "The restoration was aborted."
-msgstr "La restaŭrado estis ĉesigita."
+msgstr "La restaŭro estis ĉesigita."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:578
 msgid "Your files were successfully restored."
@@ -179,7 +179,7 @@ msgstr "La listo de aplikaĵoj instalitaj sur via komputilo"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr "Bonvolu elekti, kie vi volas konservi la savdosieron:"
+msgstr "Bonvolu elekti, kie vi deziras konservi la savdosieron:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
@@ -214,8 +214,8 @@ msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
-"Se vi volas inkluzivi kelkajn el ili en la savkopion, bonvolu aldoni ilin al "
-"la suba listo."
+"Se vi deziras inkluzivi kelkajn el ili en la savkopion, bonvolu aldoni ilin "
+"al la suba listo."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
@@ -243,7 +243,7 @@ msgstr "Bonvolu elekti la restaŭrotan savkopion:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr "Ĉu superskribi jamajn dosierojn?"
+msgstr "Ĉu anstataŭigi ekzistantajn dosierojn?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
@@ -251,7 +251,7 @@ msgid ""
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
 "Ne, nur restaŭri mankantajn dosierojn.\n"
-"<small>Ĉi tiu opcio estas sekura kaj ne tuŝos viajn jamajn dosierojn. "
+"<small>Ĉi tiu opcio estas sekura kaj ne tuŝos viajn ekzistantajn dosierojn. "
 "</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
@@ -260,7 +260,7 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
-"Jes, superskribi ŝanĝojn kaj restaŭri la enhavon de ĉiuj ajn jamajn "
+"Jes, anstataŭigi ŝanĝojn kaj restaŭri la enhavon de ĉiuj ajn ekzistantajn "
 "dosierojn.\n"
 "<small>Uzu ĉi tiun opcion singarde. La ŝanĝoj, kiujn vi faris pri la "
 "dosieroj post farado de savkopio, perdiĝos. </small>"
@@ -279,7 +279,7 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr "Bonvolu elekti la aplikaĵojn, kiujn vi volas konservi."
+msgstr "Bonvolu elekti la aplikaĵojn, kiujn vi deziras konservi."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
@@ -295,9 +295,9 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"Komento: Se vi volas konservi la plenan liston de ĉiuj instalitaj pakoj sur "
-"la sistemo, bonvolu uzi la komandon 'dpkg --get-selections > mylist.list' en "
-"terminalo."
+"Komento: Se vi deziras konservi la plenan liston de ĉiuj sur la sistemo "
+"instalitaj pakoj, bonvolu uzi la komandon 'dpkg --get-selections > "
+"mylist.list' en terminalo."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
@@ -305,7 +305,7 @@ msgstr "Bonvolu elekti konservitan programaran elektaĵon (.list-dosieron):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr "Elektu la pakojn, kiujn vi volas instali."
+msgstr "Elektu la pakojn, kiujn vi deziras instali."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
@@ -313,7 +313,7 @@ msgstr "Aktualigi"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr "Ĉiuj pakoj en via programara elektaĵo estas instalataj."
+msgstr "Ĉiuj pakoj en via programara elektaĵo estas instalitaj."
 
 #~ msgid "Excluded paths"
 #~ msgstr "Ekskluzivataj padoj"
