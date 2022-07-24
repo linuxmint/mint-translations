@@ -8,24 +8,25 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-22 12:00+0200\n"
-"PO-Revision-Date: 2020-04-23 16:28+0000\n"
-"Last-Translator: Steven Liao <stevenliao0119@yahoo.com.tw>\n"
+"PO-Revision-Date: 2022-07-01 23:39+0000\n"
+"Last-Translator: 程政罡 <marktwtn@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-06-26 11:23+0000\n"
-"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
+"X-Launchpad-Export-Date: 2022-07-24 09:37+0000\n"
+"X-Generator: Launchpad (build 025a39fd866a641b6ae33074cda0d02a2c712d38)\n"
+"Language: zh_TW\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:83
 msgid "You are about to remove the following PPA:"
-msgstr "要移除以下 PPA："
+msgstr "您將要移除以下 PPA："
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:86
 #: usr/lib/linuxmint/mintSources/mintSources.py:166
 #, python-format
 msgid " More info: %s"
-msgstr " 更多資訊: %s"
+msgstr " 更多資訊：%s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 #: usr/lib/linuxmint/mintSources/mintSources.py:170
@@ -35,21 +36,21 @@ msgstr "按 Enter 繼續，或按 Ctrl+C 取消"
 #: usr/lib/linuxmint/mintSources/mintSources.py:94
 #: usr/lib/linuxmint/mintSources/mintSources.py:174
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr "無法提示回應。請加入參數 -y 後再執行。"
+msgstr "無法提示回應。請加入參數 -y 後再執行"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:98
 msgid "Cancelling..."
-msgstr "正在取消…"
+msgstr "正在取消..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:101
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
-msgstr "無法取得資訊關於 PPA: 「%s」。"
+msgstr "無法取得關於 PPA 的資訊：「%s」。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:123
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr "未能移除 PPA: 「%s」"
+msgstr "未能移除 PPA：「%s」"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:142
 #, python-format
@@ -58,12 +59,12 @@ msgstr "未能移除軟體庫：「%s」"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Adding PPAs is not supported"
-msgstr "不支援加入 PPA"
+msgstr "不支援加入 PPAs"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:156
 #, python-format
 msgid "Cannot add PPA: '%s'."
-msgstr "無法加入 PPA: 「%s」。"
+msgstr "無法新增 PPA：「%s」。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:160
 msgid "Adding private PPAs is not supported currently"
@@ -71,34 +72,34 @@ msgstr "目前不支援加入私人 PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:163
 msgid "You are about to add the following PPA:"
-msgstr "你即將要加入下列 PPA:"
+msgstr "您即將要加入下列 PPA："
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:193
 #: usr/lib/linuxmint/mintSources/mintSources.py:1554
 msgid "Malformed input, repository not added."
-msgstr ""
+msgstr "格式錯誤的輸入，軟體庫沒有被加入。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:196
 msgid "Repository already exists."
-msgstr ""
+msgstr "軟體庫已存在。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:260
 msgid "Connection timed out, check your connection or try again later."
-msgstr ""
+msgstr "連線逾時，請檢查您的連線或是稍候再試。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:262
 msgid "Failed to establish a secure connection."
-msgstr ""
+msgstr "無法建立安全的連線。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:264
 #, python-format
 msgid "Failed to download the PPA: %s."
-msgstr ""
+msgstr "無法下載 PPA：%s。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:273
 #: usr/lib/linuxmint/mintSources/mintSources.py:277
 msgid "No supported PPA of this name was found."
-msgstr ""
+msgstr "未發現符合名稱的 PPA。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:285
 #, python-format
@@ -116,7 +117,7 @@ msgstr "CD-ROM (安裝光碟)"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:446
 msgid "Local Repository"
-msgstr ""
+msgstr "本地軟體庫"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:494
 msgid ""
@@ -126,7 +127,7 @@ msgid ""
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
 "Linux Mint 使用 Romeo 來發表未經測試的軟體包。一旦這些軟體包經過測試，會被移入官方的軟體庫。除非您參與 beta "
-"版本測試，否則您不該選用這個軟體庫。 您是否確定要啟用 Romeo？"
+"版本測試，否則您不該選用這個軟體庫。您是否確定要啟用 Romeo？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:526
 msgid "Select a mirror"
@@ -138,7 +139,7 @@ msgstr "國家"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:544
 msgid "Mirror"
-msgstr ""
+msgstr "鏡像站"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:549
 msgid "Speed"
@@ -210,7 +211,7 @@ msgstr "金鑰"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1131
 msgid "There is no more residual configuration on the system."
-msgstr "系統已無殘餘的組態"
+msgstr "系統已無殘餘的組態。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1137
 msgid "The problem was fixed. Please reload the cache."
@@ -218,46 +219,46 @@ msgstr "問題已修正。請重新載入快取。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1180
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr "已移除重複的項目，請重新整理快取資料。"
+msgstr "已移除重複的項目，請重新載入快取資料。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1186
 msgid "No duplicate entries were found."
-msgstr "未發現重複的項目"
+msgstr "未發現重複的項目。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1199
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
-msgstr "APT 組態發生錯誤，您可能需要先重新整理快取資料。"
+msgstr "APT 組態發生錯誤，您可能需要先重新載入快取資料。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1294
 msgid "All missing keys were successfully added."
-msgstr ""
+msgstr "所有缺少的金鑰已被成功加入。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1296
 msgid "Not all missing keys could be found."
-msgstr ""
+msgstr "無法找到所有缺少的金鑰。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1299
 msgid "Keys were added for the following repositories:"
-msgstr ""
+msgstr "以下軟體庫的金鑰已被加入："
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1303
 msgid "Keys are still missing for the following repositories:"
-msgstr ""
+msgstr "以下軟體庫的金鑰仍舊缺少："
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1304
 msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
-msgstr ""
+msgstr "手動新增剩餘的缺少金鑰或是移除對應的軟體庫或 PPAs。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1312
 msgid "Please reload the cache."
-msgstr ""
+msgstr "請重新載入快取。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1317
 msgid "No missing keys were found."
-msgstr ""
+msgstr "未發現缺少的金鑰。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1353
 msgid "Open.."
@@ -273,25 +274,25 @@ msgstr "取消"
 #: usr/lib/linuxmint/mintSources/mintSources.py:1357
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "Open"
-msgstr ""
+msgstr "開啟"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1369
 msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
-msgstr ""
+msgstr "請輸入您想從 keyserver.ubuntu.com 下載的公開金鑰的指紋："
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1382
 msgid "Are you sure you want to permanently remove the selected keys?"
-msgstr ""
+msgstr "您確定您想要永久移除選擇的金鑰？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1408
 msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr ""
+msgstr "請輸入您要加入的 PPA 名稱或位址："
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1417
 msgid "The name of the PPA you entered isn't formatted correctly."
-msgstr ""
+msgstr "您輸入的 PPA 名稱格式不正確。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1473
 msgid "Edit the URL of the PPA"
@@ -299,7 +300,7 @@ msgstr "編輯 PPA 的位址"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1479
 msgid "Are you sure you want to permanently remove the selected PPAs?"
-msgstr ""
+msgstr "您確定您想要永久移除選擇的 PPA？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1529
 msgid ""
@@ -314,7 +315,7 @@ msgstr "請輸入您要加入的軟體庫名稱："
 #: usr/lib/linuxmint/mintSources/mintSources.py:1566
 msgid ""
 "This repository is already configured, you cannot add it a second time."
-msgstr ""
+msgstr "軟體庫已被配置，您無法再次新增它。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1573
 msgid "Edit the URL of the repository"
@@ -323,12 +324,12 @@ msgstr "編輯軟體庫的位址"
 #: usr/lib/linuxmint/mintSources/mintSources.py:1579
 msgid ""
 "Are you sure you want to permanently remove the selected repositories?"
-msgstr ""
+msgstr "您確定您想要永久移除選擇的軟體庫？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1638
 #: usr/lib/linuxmint/mintSources/mintSources.py:1775
 msgid "OK"
-msgstr ""
+msgstr "確定"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1771
 msgid "Your configuration changed"
@@ -336,7 +337,7 @@ msgstr "組態已變更"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1771
 msgid "Click OK to update your APT cache"
-msgstr ""
+msgstr "點擊確定來更新您的 APT 快取"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:88
 #, python-format
@@ -345,7 +346,7 @@ msgstr "版本 %s 已安裝"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:91
 msgid "already installed"
-msgstr ""
+msgstr "已安裝"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:112
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
@@ -411,12 +412,12 @@ msgstr "設定可安裝軟體與更新的來源組態"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
 msgid ""
 "Review the information below very carefully before validating the command."
-msgstr ""
+msgstr "在驗證指令之前先仔細察看下列資訊。"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
@@ -444,11 +445,11 @@ msgstr "官方軟體庫"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
-msgstr ""
+msgstr "新增"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
 msgid "PPAs"
@@ -460,11 +461,11 @@ msgstr "額外軟體庫"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
 msgid "Import"
-msgstr ""
+msgstr "匯入"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
 msgid "Download"
-msgstr ""
+msgstr "下載"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
 msgid "Authentication Keys"
@@ -484,7 +485,7 @@ msgstr "移除重複的項目"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Add missing keys"
-msgstr ""
+msgstr "加入缺少的金鑰"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Remove foreign packages"
@@ -500,17 +501,17 @@ msgstr "維護"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid "Select Mirror"
-msgstr ""
+msgstr "選擇鏡像站"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Apply"
-msgstr ""
+msgstr "套用"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
-msgstr ""
+msgstr "這個 PPA 提供了以下的軟體包。請選擇您想安裝的項目。"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Install"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-22 12:00+0200\n"
-"PO-Revision-Date: 2022-06-12 13:41+0000\n"
+"PO-Revision-Date: 2022-07-12 08:51+0000\n"
 "Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-06-26 11:23+0000\n"
-"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
+"X-Launchpad-Export-Date: 2022-07-24 09:37+0000\n"
+"X-Generator: Launchpad (build 025a39fd866a641b6ae33074cda0d02a2c712d38)\n"
 "Language: he\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:83
@@ -31,16 +31,16 @@ msgstr " מידע נוסף: %s"
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 #: usr/lib/linuxmint/mintSources/mintSources.py:170
 msgid "Press Enter to continue or Ctrl+C to cancel"
-msgstr "יש ללחוץ על Enter כדי להמשיך או על Ctrl+C כדי לבטל"
+msgstr "להמשיך, נא ללחוץ על 'אנטר',  או על Ctrl+C לביטול"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:94
 #: usr/lib/linuxmint/mintSources/mintSources.py:174
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr "לא ניתן לבקש תגובה. נא להריץ עם -y"
+msgstr "לא ניתן להנחות לקבלת תגובה. נא להריץ עם -y"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:98
 msgid "Cancelling..."
-msgstr "בהליכי ביטול..."
+msgstr "מתבצע ביטול..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:101
 #, python-format
@@ -50,42 +50,42 @@ msgstr "לא ניתן לקבל מידע על PPA: '%s'."
 #: usr/lib/linuxmint/mintSources/mintSources.py:123
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr "הסרת ה־PPA נכשלה: \"%s\""
+msgstr "הסרת ה־PPA כשלה: \"%s\""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:142
 #, python-format
 msgid "failed to remove repository: '%s'"
-msgstr "נכשלה הסרת המאגר: \"%s\""
+msgstr "כשלה הסרת מאגר: \"%s\""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Adding PPAs is not supported"
-msgstr "אין תמיכה בהוספת PPA"
+msgstr "הוספת PPA לא נתמכת"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:156
 #, python-format
 msgid "Cannot add PPA: '%s'."
-msgstr "לא ניתן להוסיף את ה־PPA:‏ '%s'."
+msgstr "לא ניתן להוסיף PPA:‏ '%s'."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:160
 msgid "Adding private PPAs is not supported currently"
-msgstr "הוספת כתובות PPA פרטיות אינה נתמכת כרגע"
+msgstr "הוספת  PPA פרטיות לא נתמכת לעת עתה"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:163
 msgid "You are about to add the following PPA:"
-msgstr "הוספת ה־PPA הבא:"
+msgstr "ה־PPA הבא יתווסף:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:193
 #: usr/lib/linuxmint/mintSources/mintSources.py:1554
 msgid "Malformed input, repository not added."
-msgstr "קלט שגוי, המאגר לא התווסף."
+msgstr "תצורת קלט לקויה, המאגר לא התווסף."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:196
 msgid "Repository already exists."
-msgstr "המאגר קיים כבר."
+msgstr "מאגר כבר קיים."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:260
 msgid "Connection timed out, check your connection or try again later."
-msgstr "תם הזמן המוקצב לחיבור, נא לבדוק את החיבור או לנסות שוב מאוחר יותר."
+msgstr "תם זמן התחברות, נא לבדוק את החיבור או לנסות שוב מאוחר יותר."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:262
 msgid "Failed to establish a secure connection."
@@ -94,7 +94,7 @@ msgstr "לא ניתן להקים חיבור מאובטח."
 #: usr/lib/linuxmint/mintSources/mintSources.py:264
 #, python-format
 msgid "Failed to download the PPA: %s."
-msgstr "נכשלה הורדת ה־PPA:‏ %s."
+msgstr "כשלה הורדת ה־PPA:‏ %s."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:273
 #: usr/lib/linuxmint/mintSources/mintSources.py:277
@@ -127,8 +127,8 @@ msgid ""
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
 "לינוקס מינט עושה שימוש במאגר 'רומיאו' לפרסום חבילות שטרם נבדקו. לאחר בדיקת "
-"חבילות אלה, הם מועברים למאגרים הרשמיים. אין צריך לאפשר מאגר זה אלא במסגרת "
-"השתתפות בבדיקות בטא. האם לאפשר את מאגר 'רומיאו'?"
+"חבילות אלה, הן מועברות למאגרים הרשמיים. אין צריך לאפשר מאגר זה אלא במסגרת "
+"השתתפות בבדיקות בטא. האם לאפשר מאגר 'רומיאו'?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:526
 msgid "Select a mirror"
@@ -169,12 +169,12 @@ msgstr "מיושן"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Unreachable"
-msgstr "בלתי ניתן להשגה"
+msgstr "לא ניתן להשגה"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:866 generate_desktop_files:25
 #: generate_desktop_files:53
 msgid "Software Sources"
-msgstr "מקורות תוכנה"
+msgstr "מקורות תכנה"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:886
 msgid "Backported packages"
@@ -186,11 +186,11 @@ msgstr "חבילות לא יציבות"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:901
 msgid "Main"
-msgstr "ראשי"
+msgstr "עיקרי"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:902
 msgid "Base"
-msgstr "בסיס"
+msgstr "בסיסי"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:945
 #: usr/lib/linuxmint/mintSources/mintSources.py:970
@@ -220,7 +220,7 @@ msgstr "הבעיה תוקנה. נא לרענן את המטמון."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1180
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr "הוסרו הרשומות הכפולות. נא לרענן את המטמון."
+msgstr "הוסרו רשומות כפולות. נא לרענן את המטמון."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1186
 msgid "No duplicate entries were found."
@@ -237,7 +237,7 @@ msgstr "כל המפתחות החסרים נוספו בהצלחה."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1296
 msgid "Not all missing keys could be found."
-msgstr "לא נמצאו כל המפתחות החסרים."
+msgstr "לא כל המפתחות החסרים נמצאו."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1299
 msgid "Keys were added for the following repositories:"
@@ -252,7 +252,8 @@ msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
 msgstr ""
-"נא להוסיף את המפתחות החסרים באופן ידנית או להסיר את המאגרים, או ה־PPA, בהתאם."
+"נא להוסיף את המפתחות החסרים באופן ידני, או להסיר את המאגרים, ו/או ה־PPA, "
+"בהתאם."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1312
 msgid "Please reload the cache."
@@ -287,11 +288,11 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1382
 msgid "Are you sure you want to permanently remove the selected keys?"
-msgstr "האם להסיר את המפתחות שנבחרו לצמיתות?"
+msgstr "האם להסיר לצמיתות את המפתחות שנבחרו?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1408
 msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr "נא להזין את השם או את הכתובת של ה־PPA להוספה:"
+msgstr "נא להזין שם או מען־URL של ה־PPA אותו מעונינים להוסיף:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1417
 msgid "The name of the PPA you entered isn't formatted correctly."
@@ -299,11 +300,11 @@ msgstr "שם ה־PPA שהוזן אינו מתובנת כראוי."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1473
 msgid "Edit the URL of the PPA"
-msgstr "עריכת כתובת ה־PPA"
+msgstr "עריכת מען ה־URL של ה־PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1479
 msgid "Are you sure you want to permanently remove the selected PPAs?"
-msgstr "האם להסיר את ה־ PPAs שנבחרו לצמיתות?"
+msgstr "האם להסיר לצמיתות את ה־PPA שנבחרו?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1529
 msgid ""
@@ -322,12 +323,12 @@ msgstr "מאגר זה כבר תוצר, לא ניתן להוסיף אותו פע�
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1573
 msgid "Edit the URL of the repository"
-msgstr "עריכת כתובת המאגר"
+msgstr "עריכת מען ה־URL של המאגר"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1579
 msgid ""
 "Are you sure you want to permanently remove the selected repositories?"
-msgstr "האם להסיר את המאגרים שנבחרו לצמיתות?"
+msgstr "האם להסיר לצמיתות את המאגרים שנבחרו?"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1638
 #: usr/lib/linuxmint/mintSources/mintSources.py:1775
@@ -377,7 +378,7 @@ msgstr "הסרה"
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
-msgstr "החבילות שמופיעות למטה מותקנות על המחשב אבל לא זמינות במאגרים:"
+msgstr "החבילות מטה מותקנות על המחשב אבל לא זמינות במאגרים:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:128
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:275
@@ -395,7 +396,7 @@ msgstr "גרסה מותקנת"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:157
 msgid "Repository version"
-msgstr "גרסה במאגר"
+msgstr "גרסת מאגר"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:278
 msgid "Clear"
@@ -411,7 +412,7 @@ msgstr "שגיאה: יש להזין מאגר כמשתנה בלתי תלוי"
 
 #: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
-msgstr "הגדרת המקורות להתקנת תוכנה ולעדכונים"
+msgstr "תצור המקורות להתקנת תכנה ועדכונים"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
@@ -436,7 +437,7 @@ msgstr "מאגרי קוד מקור"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
 msgid "Debug symbols"
-msgstr "סמלי ניפוי תקלות"
+msgstr "סמלי ניפוי תקלים"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
@@ -514,7 +515,7 @@ msgstr "החלה"
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
-msgstr "PPA זה מספק את החבילות הבאות. נא לבחור את החבילות להתקנה."
+msgstr "PPA זה מספק את החבילות הבאות. נא לבחור בחבילות אותן מעונינים להתקין."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Install"

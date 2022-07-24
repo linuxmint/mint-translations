@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-13 16:04+0100\n"
-"PO-Revision-Date: 2014-11-03 18:49+0000\n"
-"Last-Translator: Corbin <RavetcoFX@gmail.com>\n"
+"PO-Revision-Date: 2022-07-12 09:58+0000\n"
+"Last-Translator: Dawid Wiktor <Unknown>\n"
 "Language-Team: English (Canada) <en_CA@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-06-26 11:23+0000\n"
-"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
+"X-Launchpad-Export-Date: 2022-07-24 09:37+0000\n"
+"X-Generator: Launchpad (build 025a39fd866a641b6ae33074cda0d02a2c712d38)\n"
 
 #: lib/mintstick.py:95
 msgid "Write"
-msgstr ""
+msgstr "Write"
 
 #: lib/mintstick.py:143 generate_additional_files.py:77
 msgid "Format"
@@ -27,7 +27,7 @@ msgstr "Format"
 
 #: lib/mintstick.py:234
 msgid "unknown"
-msgstr ""
+msgstr "unknown"
 
 #: lib/mintstick.py:364 lib/mintstick.py:366
 msgid "The USB stick was formatted successfully."
@@ -117,15 +117,15 @@ msgstr ""
 
 #: share/mintstick/mintstick.ui.h:4
 msgid "Format:"
-msgstr ""
+msgstr "Format:"
 
 #: share/mintstick/mintstick.ui.h:5
 msgid "Select a USB stick"
-msgstr ""
+msgstr "Select a USB stick"
 
 #: share/mintstick/mintstick.ui.h:6
 msgid "as"
-msgstr ""
+msgstr "as"
 
 #: share/mintstick/mintstick.ui.h:7
 msgid ""
@@ -149,39 +149,58 @@ msgid ""
 "  + Supports Linux file permissions.\n"
 "  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
+"FAT32 \n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
+"\n"
+"NTFS \n"
+"  + Compatible with Windows.\n"
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
+"reverse engineered).\n"
+"\n"
+"EXT4 \n"
+"  + Modern, stable, fast, journalized.\n"
+"  + Supports Linux file permissions.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
 
 #: share/mintstick/mintstick.ui.h:26
 msgid "Volume label:"
-msgstr ""
+msgstr "Volume label:"
 
 #: share/mintstick/mintstick.ui.h:27
 msgid "Choose a name for your USB Stick"
-msgstr ""
+msgstr "Choose a name for your USB Stick"
 
 #: share/mintstick/mintstick.ui.h:28
 msgid "USB Stick"
-msgstr ""
+msgstr "USB Stick"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: share/mintstick/mintstick.ui.h:31
 msgid "Write image:"
-msgstr ""
+msgstr "Write image:"
 
 #: share/mintstick/mintstick.ui.h:32
 msgid "Select an image"
-msgstr ""
+msgstr "Select an image"
 
 #: share/mintstick/mintstick.ui.h:33
 msgid "Select Image"
-msgstr ""
+msgstr "Select Image"
 
 #: share/mintstick/mintstick.ui.h:34
 msgid "to"
-msgstr ""
+msgstr "to"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "The image was written successfully."
-msgstr ""
+msgstr "The image was written successfully."
