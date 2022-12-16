@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-09-26 16:26+0100\n"
-"PO-Revision-Date: 2018-05-08 20:12+0000\n"
+"PO-Revision-Date: 2022-12-11 19:09+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-02 13:29+0000\n"
-"X-Generator: Launchpad (build 51cef3d08dff1e227b5ada709bd67280c567d4be)\n"
+"X-Launchpad-Export-Date: 2022-12-16 11:45+0000\n"
+"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
 
 #: lib/mintstick.py:192
 msgid "unknown"
@@ -52,133 +52,136 @@ msgstr "Errore bat gertatu da irudia kopiatzean."
 
 #: lib/verify.py:55
 msgid "bytes"
-msgstr ""
+msgstr "byte"
 
 #: lib/verify.py:55
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: lib/verify.py:55
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: lib/verify.py:55
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: lib/verify.py:55
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: lib/verify.py:87
 msgid "ISO images"
-msgstr ""
+msgstr "ISO irudiak"
 
 #: lib/verify.py:91
 msgid "Checksum files"
-msgstr ""
+msgstr "Kontroleko baturako fitxategiak"
 
 #: lib/verify.py:95
 msgid "GPG signatures"
-msgstr ""
+msgstr "GPG sinadurak"
 
 #: lib/verify.py:107 lib/verify.py:108 lib/verify.py:109
 msgid "Calculating..."
-msgstr ""
+msgstr "Kalkulatzen..."
 
 #: lib/verify.py:164
 msgid "No volume ID found"
-msgstr ""
+msgstr "Ez da aurkitu bolumenaren IDrik"
 
 #: lib/verify.py:189
 msgid "The checksum is correct"
-msgstr ""
+msgstr "Kontroleko batura zuzena da"
 
 #: lib/verify.py:190
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
 msgstr ""
+"Kontroleko batura zuzena da, baina ez da batuketaren benetakotasuna "
+"egiaztatu."
 
 #: lib/verify.py:192
 msgid "Checksum mismatch"
-msgstr ""
+msgstr "Kontroleko batura ez dator bat"
 
 #: lib/verify.py:193
 msgid "Download the ISO image again. Its checksum does not match."
-msgstr ""
+msgstr "Deskargatu berriro ISO irudia. Bere kontroleko batura ez dator bat."
 
 #: lib/verify.py:204
 msgid "The sums file could not be downloaded. Check the URL."
 msgstr ""
+"Ezin izan da kontroleko baturako fitxategia deskargatu. Egiaztatu URLa."
 
 #: lib/verify.py:213
 msgid "The gpg file could not be downloaded. Check the URL."
-msgstr ""
+msgstr "Ezin izan da gpg fitxategia deskargatu. Egiaztatu URLa."
 
 #: lib/verify.py:224
 msgid "The sums file could not be checked."
-msgstr ""
+msgstr "Ezin izan da batura fitxategia egiaztatu."
 
 #: lib/verify.py:231
 msgid "The gpg file could not be checked."
-msgstr ""
+msgstr "Ezin izan da gpg fitxategia egiaztatu."
 
 #: lib/verify.py:241
 msgid "Integrity check failed"
-msgstr ""
+msgstr "Osotasun-egiaztapenak huts egin du"
 
 #: lib/verify.py:250
 msgid "The SHA256 sums file is not signed."
-msgstr ""
+msgstr "SHA256 baturen fitxategia ez dago sinatua."
 
 #: lib/verify.py:254
 #, python-format
 msgid "Signed by: %s"
-msgstr ""
+msgstr "Sinatzailea: %s"
 
 #: lib/verify.py:268
 msgid "Unknown signature"
-msgstr ""
+msgstr "Sinadura ezezaguna"
 
 #: lib/verify.py:269
 msgid "Key not found on keyserver."
-msgstr ""
+msgstr "Gakoa ez da aurkitu gako-zerbitzarian."
 
 #: lib/verify.py:280 lib/verify.py:286
 msgid "Everything looks good!"
-msgstr ""
+msgstr "Denak itxura ona du!"
 
 #: lib/verify.py:281
 msgid "This is an official ISO image."
-msgstr ""
+msgstr "Hau ISO irudi ofiziala da."
 
 #: lib/verify.py:287
 msgid "This ISO image is verified by a trusted signature."
-msgstr ""
+msgstr "ISO irudi hau sinadura fidagarri baten bidez egiaztatu da."
 
 #: lib/verify.py:290
 msgid "If you trust the signature you can trust the ISO."
-msgstr ""
+msgstr "Sinaduraz fidatzen bazara, ISOaz fida zaitezke."
 
 #: lib/verify.py:291
 msgid "Untrusted signature"
-msgstr ""
+msgstr "Sinadura ez fidagarria"
 
 #: lib/verify.py:292
 msgid "This ISO image is verified by an untrusted signature."
-msgstr ""
+msgstr "ISO irudi hau fidagarria ez den sinadura baten bidez egiaztatu da."
 
 #: lib/verify.py:297
 msgid "An error occurred"
-msgstr ""
+msgstr "Errore bat gertatu da"
 
 #: lib/verify.py:309
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr ""
+msgstr "ISO irudiaren SHA256 batura okerra da."
 
 #: lib/verify.py:310
 msgid "The SHA256 sums file does not contain sums for this ISO image."
-msgstr ""
+msgstr "SHA256 baturen fitxategiak ez du ISO irudi honen baturarik."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
@@ -211,11 +214,11 @@ msgstr "Formateatu"
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:32
 #: share/mintstick/verify.ui.h:7
 msgid "Verify"
-msgstr ""
+msgstr "Egiaztatu"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr ""
+msgstr "Egiaztatu irudiaren benetakotasuna eta osotasuna"
 
 #: generate_additional_files.py:117
 msgid ""
@@ -231,7 +234,7 @@ msgstr "USB memoria:"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid "Filesystem:"
-msgstr ""
+msgstr "Fitxategi-sistema:"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid "Select a USB stick"
@@ -293,7 +296,7 @@ msgstr "USB memoria"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "ISO image:"
-msgstr ""
+msgstr "ISO irudia:"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select an image"
@@ -309,72 +312,72 @@ msgstr "Idatzi"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "This ISO looks like a Windows image."
-msgstr ""
+msgstr "ISO hau Windows irudi bat dela dirudi."
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
-msgstr ""
+msgstr "Windows-eko irudiek prozesamendu berezia behar dute."
 
 #: share/mintstick/mintstick.ui.h:37
 msgid "More information"
-msgstr ""
+msgstr "Informazio gehiago"
 
 #: share/mintstick/verify.ui.h:1
 msgid "ISO:"
-msgstr ""
+msgstr "ISO:"
 
 #: share/mintstick/verify.ui.h:2
 msgid "Volume:"
-msgstr ""
+msgstr "Bolumena:"
 
 #: share/mintstick/verify.ui.h:3
 msgid "SHA256sum:"
-msgstr ""
+msgstr "SHA256 batura:"
 
 #: share/mintstick/verify.ui.h:4
 msgid "Size:"
-msgstr ""
+msgstr "Tamaina:"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr ""
+msgstr "SHA256 baturen fitxategia:"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
-msgstr ""
+msgstr "GPG sinatutako fitxategia:"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
-msgstr ""
+msgstr "URLak"
 
 #: share/mintstick/verify.ui.h:9
 msgid "SHA256 sums file"
-msgstr ""
+msgstr "SHA256 baturen fitxategia"
 
 #: share/mintstick/verify.ui.h:10
 msgid "GPG signed file"
-msgstr ""
+msgstr "GPG sinatutako fitxategia"
 
 #: share/mintstick/verify.ui.h:11
 msgid "Local files"
-msgstr ""
+msgstr "Fitxategi lokalak"
 
 #: share/mintstick/verify.ui.h:12
 msgid "SHA256 sum"
-msgstr ""
+msgstr "SHA256 batura"
 
 #: share/mintstick/verify.ui.h:13
 msgid "Check"
-msgstr ""
+msgstr "Egiaztatu"
 
 #: share/mintstick/verify.ui.h:14
 msgid "Checksum"
-msgstr ""
+msgstr "Kontroleko batura"
 
 #: share/mintstick/verify.ui.h:15
 msgid "Go back"
-msgstr ""
+msgstr "Joan atzera"
 
 #: share/mintstick/verify.ui.h:16
 msgid "ISO Verification"
-msgstr ""
+msgstr "ISO egiaztapena"

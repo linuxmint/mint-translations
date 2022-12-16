@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-11-30 19:19+0000\n"
-"PO-Revision-Date: 2022-06-22 12:21+0000\n"
+"PO-Revision-Date: 2022-12-05 10:21+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? 3 "
 ": n==6 ? 4 : 5);\n"
-"X-Launchpad-Export-Date: 2022-12-02 13:28+0000\n"
-"X-Generator: Launchpad (build 51cef3d08dff1e227b5ada709bd67280c567d4be)\n"
+"X-Launchpad-Export-Date: 2022-12-16 11:46+0000\n"
+"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
 "Language: cy\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:97
@@ -31,7 +31,7 @@ msgstr "Codecs Amlgyfrwng ar gyfer KDE"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:440
 msgid "Add"
-msgstr ""
+msgstr "Ychwanegu"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:446
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2884
@@ -40,7 +40,7 @@ msgstr "Tynnu"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:465
 msgid "Unavailable"
-msgstr ""
+msgstr "Ddim ar gael"
 
 #. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:692
@@ -48,12 +48,14 @@ msgstr ""
 #, python-format
 msgid "%d Review"
 msgid_plural "%d Reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Adolygiad"
+msgstr[1] "%d Adolygiad"
+msgstr[2] "%d Adolygiad"
+msgstr[3] "%d Adolygiad"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:745
 msgid "This package is a Flatpak"
-msgstr ""
+msgstr "Flatpack yw'r pecyn hwn"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:748
 msgid "Package"
@@ -61,7 +63,7 @@ msgstr "Pecyn"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:749
 msgid "This is a system package"
-msgstr ""
+msgstr "Mae hwn yn becyn system"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:855
 msgid "All"
@@ -135,7 +137,7 @@ msgstr[3] "%d tasg yn rhedeg"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1631
 msgid "No screenshots available"
-msgstr ""
+msgstr "Nid oes lluniau sgrin ar gael"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1902
 msgid ""
@@ -325,26 +327,26 @@ msgstr ""
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2644
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
 msgid "System Package"
-msgstr ""
+msgstr "Pecyn System"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2644
 msgid "Your system's package manager"
-msgstr ""
+msgstr "Eich rheolwr pecynnau system"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2656
 #, python-format
 msgid "Flatpak (%s)"
-msgstr ""
+msgstr "Flatpak (%s)"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2697
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Homepage"
-msgstr ""
+msgstr "Tudalen Cartref"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2706
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "Documentation"
-msgstr ""
+msgstr "Dogfennaeth"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2808
 #, python-format
@@ -356,6 +358,8 @@ msgid ""
 "Unable to communicate with servers. Check your Internet connection and try "
 "again."
 msgstr ""
+"Yn methu cyfathrebu gyda'r gwinyddion. Gwiriwch eich cysylltiad rhyngrwyd a "
+"cheisio eto."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2888
 msgid "Installed"
@@ -404,11 +408,11 @@ msgstr "Defnyddiwch apt-get i osod y pecyn hwn."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2924
 msgid "Try again"
-msgstr ""
+msgstr "Ceisio eto"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2927
 msgid "Something went wrong. Click to try again."
-msgstr ""
+msgstr "Aeth rhywbeth o'i le. Cliciwch i geisio eto."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2951
 #, python-format
@@ -441,7 +445,7 @@ msgstr "Cyfyngu'r chwilio i'r rhestr gyfredol"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
 msgid "Generating cache, one moment"
-msgstr ""
+msgstr "Wrthu'n creu storfa, un eiliad"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
 msgid "Refresh"
@@ -457,23 +461,23 @@ msgstr "Byddwch amyneddgar. Gall hyn gymryd peth amser..."
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Name:"
-msgstr ""
+msgstr "Enw:"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Version:"
-msgstr ""
+msgstr "Fersiwn:"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "Size:"
-msgstr ""
+msgstr "Maint:"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
 msgid "Branch:"
-msgstr ""
+msgstr "Cangen:"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
 msgid "Remote:"
-msgstr ""
+msgstr "Pell:"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
 msgid "Details"
@@ -485,7 +489,7 @@ msgstr "Adolygiadau"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Optional components"
-msgstr ""
+msgstr "Cydrannau dewisol"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
 msgid "Searching software repositories, one moment"
