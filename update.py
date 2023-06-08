@@ -72,7 +72,7 @@ def copy_translations(repo_name):
         for script in generate_scripts:
             os.system(f"./{script}")
         os.system("git commit -a -m 'l10n: Update files'")
-    os.system("gbp dch -a --ignore-branch -D vera --dch-opt=-U")
+    os.system("git dch")
     os.system("smerge ./")
     os.system("gnome-terminal &")
     notify(repo_name.upper(), "Press a key when ready to continue...")
