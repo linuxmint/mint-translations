@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-11-29 14:37+0000\n"
-"PO-Revision-Date: 2021-04-28 08:30+0000\n"
+"PO-Revision-Date: 2023-02-15 13:57+0000\n"
 "Last-Translator: Davide Novemila <Unknown>\n"
 "Language-Team: Latin <la@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:17+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 "Language: la\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
@@ -38,11 +38,12 @@ msgstr "Fasciculi eradendi"
 #, python-format
 msgid "Cannot remove package %s as it is required by other packages."
 msgstr ""
+"Fasciculus %s removeri non potest quia requisitus est ab aliis fasciculis."
 
 #: usr/bin/cinnamon-remove-application:149 usr/bin/mint-remove-application:149
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
-msgstr ""
+msgstr "Fasciculus %s est requisitus a fasciculis sequentibus:"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:110
@@ -51,7 +52,7 @@ msgstr "Institue"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:40
 msgid "Reinstall"
-msgstr ""
+msgstr "Iterum institue"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:41
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:120
@@ -60,7 +61,7 @@ msgstr "Erade"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:42
 msgid "Purge"
-msgstr ""
+msgstr "Purga"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:43
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:140
@@ -69,11 +70,11 @@ msgstr "Renova"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:44
 msgid "Downgrade"
-msgstr ""
+msgstr "Gradu inferiore demitte"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:45
 msgid "Skip upgrade"
-msgstr ""
+msgstr "Novationem omitte"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:61
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:145
@@ -83,33 +84,33 @@ msgstr "Indicem  mutationum  in calce inspice, quaeso."
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:68
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:155
 msgid "Additional software will be installed"
-msgstr ""
+msgstr "Programmata additicia instituenda sunt"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:70
 msgid "Additional software will be re-installed"
-msgstr ""
+msgstr "Programmata additicia iterum instituenda sunt"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:72
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:157
 msgid "Additional software will be removed"
-msgstr ""
+msgstr "Programmata additicia delenda sunt"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:74
 msgid "Additional software will be purged"
-msgstr ""
+msgstr "Programmata additicia purgenda sunt"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:76
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:159
 msgid "Additional software will be upgraded"
-msgstr ""
+msgstr "Programmata additicia renovanda sunt"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:78
 msgid "Additional software will be downgraded"
-msgstr ""
+msgstr "Programmata additicia gradu inferiore demittenda sunt"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:80
 msgid "Updates will be skipped"
-msgstr ""
+msgstr "Novationes omittentur"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:168
@@ -140,7 +141,7 @@ msgstr "Flatpak"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:251
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpack"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:332
 msgid "An error occurred"

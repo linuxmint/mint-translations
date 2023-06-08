@@ -3,20 +3,20 @@
 # Copyright (c) 2013 Free Software Foundation
 # This file is distributed under the same license as the linuxmint package.
 #
-# Sveinn í Felli <sveinki@nett.is>, 2013, 2018.
+# Sveinn í Felli <sveinki@nett.is>, 2013, 2018, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: mintstick_mintstick-is\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-09-26 16:26+0100\n"
-"PO-Revision-Date: 2022-10-25 17:15+0000\n"
+"PO-Revision-Date: 2023-02-20 12:12+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language-Team: Icelandic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:45+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:19+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 "Language: is\n"
 
 #: lib/mintstick.py:192
@@ -90,7 +90,7 @@ msgstr "Reikna..."
 
 #: lib/verify.py:164
 msgid "No volume ID found"
-msgstr ""
+msgstr "Ekkert auðkenni sýndardisks fannst"
 
 #: lib/verify.py:189
 msgid "The checksum is correct"
@@ -99,7 +99,7 @@ msgstr "Gátsumman er rétt"
 #: lib/verify.py:190
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
-msgstr ""
+msgstr "Gátsumman er rétt en uppruni gátsummunar var ekki sannvottaður."
 
 #: lib/verify.py:192
 msgid "Checksum mismatch"
@@ -107,31 +107,31 @@ msgstr "Gátsumma stemmir ekki"
 
 #: lib/verify.py:193
 msgid "Download the ISO image again. Its checksum does not match."
-msgstr ""
+msgstr "Sæktu ISO-diskmyndina aftur. Gátsumma hennar samsvarar ekki."
 
 #: lib/verify.py:204
 msgid "The sums file could not be downloaded. Check the URL."
-msgstr ""
+msgstr "Ekki var hægt að sækja gátsummuskrána. Yfirfarðu slóðina."
 
 #: lib/verify.py:213
 msgid "The gpg file could not be downloaded. Check the URL."
-msgstr ""
+msgstr "Ekki var hægt að sækja gpg-skrána. Yfirfarðu slóðina."
 
 #: lib/verify.py:224
 msgid "The sums file could not be checked."
-msgstr ""
+msgstr "Ekki var hægt að athuga gátsummuskrána"
 
 #: lib/verify.py:231
 msgid "The gpg file could not be checked."
-msgstr ""
+msgstr "Ekki var hægt að athuga gpg-skrána."
 
 #: lib/verify.py:241
 msgid "Integrity check failed"
-msgstr ""
+msgstr "Athugun á áreiðanleika mistókst"
 
 #: lib/verify.py:250
 msgid "The SHA256 sums file is not signed."
-msgstr ""
+msgstr "SHA256-gátsummuskráin er ekki undirrituð."
 
 #: lib/verify.py:254
 #, python-format
@@ -144,31 +144,31 @@ msgstr "Óþekkt undirritun"
 
 #: lib/verify.py:269
 msgid "Key not found on keyserver."
-msgstr ""
+msgstr "Dulritunarlykill fannst ekki á lyklaþjóni."
 
 #: lib/verify.py:280 lib/verify.py:286
 msgid "Everything looks good!"
-msgstr ""
+msgstr "Allt lítur vel út!"
 
 #: lib/verify.py:281
 msgid "This is an official ISO image."
-msgstr ""
+msgstr "Þetta er opinber ISO-diskmynd."
 
 #: lib/verify.py:287
 msgid "This ISO image is verified by a trusted signature."
-msgstr ""
+msgstr "Þessi diskmynd er sannvottuð með treystri undirritun."
 
 #: lib/verify.py:290
 msgid "If you trust the signature you can trust the ISO."
-msgstr ""
+msgstr "Ef þú treystir undirrituninni þá geturðu treyst ISO-diskmyndinni."
 
 #: lib/verify.py:291
 msgid "Untrusted signature"
-msgstr ""
+msgstr "Ótreyst undirritun"
 
 #: lib/verify.py:292
 msgid "This ISO image is verified by an untrusted signature."
-msgstr ""
+msgstr "Þessi diskmynd er sannvottuð með vantreystri undirritun."
 
 #: lib/verify.py:297
 msgid "An error occurred"
@@ -176,11 +176,12 @@ msgstr "Villa kom upp"
 
 #: lib/verify.py:309
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr ""
+msgstr "SHA256-gátsumma ISO-diskmyndarinnar er ekki rétt."
 
 #: lib/verify.py:310
 msgid "The SHA256 sums file does not contain sums for this ISO image."
 msgstr ""
+"SHA256-gátsummuskráin inniheldur ekki gátsummur fyrir þessa ISO-diskmynd."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
@@ -217,7 +218,7 @@ msgstr "Sannreyna"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr ""
+msgstr "Sannreydu uppruna og áreiðanleika diskmyndarinnar"
 
 #: generate_additional_files.py:117
 msgid ""
@@ -312,11 +313,11 @@ msgstr "Skrifa"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "This ISO looks like a Windows image."
-msgstr ""
+msgstr "Þessi diskmynd lítur út fyrir að vera Windows-diskmynd."
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
-msgstr ""
+msgstr "Windows-diskmyndir krefjast sérstakrar meðhöndlunar."
 
 #: share/mintstick/mintstick.ui.h:37
 msgid "More information"
@@ -340,11 +341,11 @@ msgstr "Stærð:"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr ""
+msgstr "SHA256-gátsummuskrá:"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
-msgstr ""
+msgstr "GPG-undirrituð skrá:"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
@@ -352,11 +353,11 @@ msgstr "Slóðir"
 
 #: share/mintstick/verify.ui.h:9
 msgid "SHA256 sums file"
-msgstr ""
+msgstr "SHA256-gátsummuskrá"
 
 #: share/mintstick/verify.ui.h:10
 msgid "GPG signed file"
-msgstr ""
+msgstr "GPG-undirrituð skrá"
 
 #: share/mintstick/verify.ui.h:11
 msgid "Local files"
@@ -364,20 +365,20 @@ msgstr "Staðværar skrár"
 
 #: share/mintstick/verify.ui.h:12
 msgid "SHA256 sum"
-msgstr ""
+msgstr "SHA256-gátsumma"
 
 #: share/mintstick/verify.ui.h:13
 msgid "Check"
-msgstr ""
+msgstr "Athuga"
 
 #: share/mintstick/verify.ui.h:14
 msgid "Checksum"
-msgstr ""
+msgstr "Gátsumma"
 
 #: share/mintstick/verify.ui.h:15
 msgid "Go back"
-msgstr ""
+msgstr "Fara til baka"
 
 #: share/mintstick/verify.ui.h:16
 msgid "ISO Verification"
-msgstr ""
+msgstr "ISO-sannvottun"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-22 12:00+0200\n"
-"PO-Revision-Date: 2022-06-12 05:48+0000\n"
-"Last-Translator: Aleksey Kabanov <Unknown>\n"
+"PO-Revision-Date: 2023-03-09 20:15+0000\n"
+"Last-Translator: Темак <artemkotlubai@yandex.ru>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:46+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:19+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:83
 msgid "You are about to remove the following PPA:"
@@ -30,7 +30,7 @@ msgstr " Больше информации: %s"
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 #: usr/lib/linuxmint/mintSources/mintSources.py:170
 msgid "Press Enter to continue or Ctrl+C to cancel"
-msgstr "Нажмите Enter, чтобы продолжить или Ctrl+C для отмены"
+msgstr "Нажмите клавишу ввода, чтобы продолжить или Ctrl+C для отмены"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:94
 #: usr/lib/linuxmint/mintSources/mintSources.py:174
@@ -44,17 +44,17 @@ msgstr "Отмена…"
 #: usr/lib/linuxmint/mintSources/mintSources.py:101
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
-msgstr "Не могу найти информацию о PPA:'%s'."
+msgstr "Не могу найти информацию о PPA: «%s»."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:123
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr "не удалось удалить PPA: '%s'"
+msgstr "не удалось удалить PPA: «%s»"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:142
 #, python-format
 msgid "failed to remove repository: '%s'"
-msgstr "не удалось удалить репозиторий:'%s'"
+msgstr "не удалось удалить репозиторий: «%s»"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Adding PPAs is not supported"
@@ -67,7 +67,7 @@ msgstr "Не удаётся добавить PPA: «%s»."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:160
 msgid "Adding private PPAs is not supported currently"
-msgstr "В данный момент не поддерживается добавление частных PPA"
+msgstr "В данное время не поддерживается добавление частных PPA"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:163
 msgid "You are about to add the following PPA:"
@@ -76,7 +76,7 @@ msgstr "Вы хотите добавить следующие PPA:"
 #: usr/lib/linuxmint/mintSources/mintSources.py:193
 #: usr/lib/linuxmint/mintSources/mintSources.py:1554
 msgid "Malformed input, repository not added."
-msgstr "Некорректные данные ввода, репозиторий не добавлен."
+msgstr "Неверные данные ввода, репозиторий не добавлен."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:196
 msgid "Repository already exists."
@@ -187,11 +187,11 @@ msgstr "Нестабильные пакеты"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:901
 msgid "Main"
-msgstr "Основной"
+msgstr "Главное"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:902
 msgid "Base"
-msgstr "Базовый"
+msgstr "Основное"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:945
 #: usr/lib/linuxmint/mintSources/mintSources.py:970
@@ -221,17 +221,17 @@ msgstr "Проблема была решена. Пожалуйста, обнов
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1180
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr "Дубликаты записей были удалены. Перезагрузите кеш."
+msgstr "Дубликаты записей были удалены. Перезагрузите кэш."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1186
 msgid "No duplicate entries were found."
-msgstr "Дубликаты записей были удалены. Перезагрузите кеш."
+msgstr "Дубликаты записей были удалены. Перезагрузите кэш."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1199
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
 msgstr ""
-"Ошибка в конфигурации APT, возможно, вам придется сначала перезагрузить кеш."
+"Ошибка в конфигурации APT, возможно, вам придётся сначала перезагрузить кэш."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1294
 msgid "All missing keys were successfully added."
@@ -295,15 +295,15 @@ msgstr "Вы действительно хотите безвозвратно у
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1408
 msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr "Введите имя или URL PPA, который вы хотите добавить:"
+msgstr "Введите название или адрес PPA, который вы хотите добавить:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1417
 msgid "The name of the PPA you entered isn't formatted correctly."
-msgstr "Введенное имя PPA имеет некорректный формат."
+msgstr "Введённое название PPA имеет недействительный формат."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1473
 msgid "Edit the URL of the PPA"
-msgstr "Изменить URL-адрес этого PPA-репозитория"
+msgstr "Изменить сетевой адрес этого PPA-репозитория"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1479
 msgid "Are you sure you want to permanently remove the selected PPAs?"
@@ -318,7 +318,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1549
 msgid "Please enter the name of the repository you want to add:"
-msgstr "Введите имя репозитория, который требуется добавить:"
+msgstr "Введите название репозитория, который требуется добавить:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1566
 msgid ""
@@ -327,7 +327,7 @@ msgstr "Этот репозиторий уже настроен, вы не мо�
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1573
 msgid "Edit the URL of the repository"
-msgstr "Изменить URL-адрес этого репозитория"
+msgstr "Изменить сетевой адрес этого репозитория"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1579
 msgid ""
@@ -345,7 +345,7 @@ msgstr "Конфигурация изменена"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1771
 msgid "Click OK to update your APT cache"
-msgstr "Нажмите ОК для обновления кэша APT"
+msgstr "Нажмите «ОК» для обновления кэша APT"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:88
 #, python-format
@@ -409,7 +409,7 @@ msgstr "Очистить"
 
 #: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
-msgstr "Ошибка: необходимо запускать с правами администратора"
+msgstr "Ошибка: необходимо запускать с правами суперпользователя"
 
 #: usr/bin/add-apt-repository:23
 msgid "Error: need a repository as argument"
@@ -417,7 +417,7 @@ msgstr "Ошибка: в качестве аргумента должен быт
 
 #: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
-msgstr "Настроить источники установки и обновления программ"
+msgstr "Настроить источники для устанавливаемого ПО и обновлений"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
@@ -427,7 +427,7 @@ msgstr "Предупреждение"
 msgid ""
 "Review the information below very carefully before validating the command."
 msgstr ""
-"Перед подтверждением команды внимательно ознакомьтесь с приведенной ниже "
+"Перед подтверждением команды внимательно ознакомьтесь с приведённой ниже "
 "информацией."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
@@ -448,11 +448,11 @@ msgstr "Символы отладки"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
-msgstr "Восстановить стандартные настройки"
+msgstr "Восстановить умолчательные настройки"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
-msgstr "Оффициальные репозитории"
+msgstr "Официальные репозитории"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
