@@ -7,47 +7,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-02-27 13:57+0000\n"
-"PO-Revision-Date: 2019-05-23 14:47+0000\n"
+"POT-Creation-Date: 2023-11-27 14:27+0000\n"
+"PO-Revision-Date: 2023-11-30 13:11+0000\n"
 "Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:53+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:29+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
 msgstr "Sicherungen"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
-#: generate_desktop_files:39
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:173
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:239 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "Backup Tool"
 msgstr "Datensicherungswerkzeug"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:898
+msgid "About"
+msgstr "Info"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+msgid "Quit"
+msgstr "Beenden"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "%s befindet sich nicht in Ihrem persönlichen Ordner."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
 msgid "Please choose a directory."
 msgstr "Bitte ein Verzeichnis auswählen"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
 msgid "You do not have the permission to write in the selected directory."
 msgstr ""
 "Sie haben nicht die Berechtigung, um in dem ausgewählten Verzeichnis zu "
 "schreiben."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "Please choose a backup file."
 msgstr "Bitte eine Sicherungsdatei auswählen."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
@@ -55,48 +63,48 @@ msgstr ""
 "Diese Sicherungsdatei ist entweder zu alt oder sie wurde mit einem anderen "
 "Werkzeug erstellt. Bitte extrahieren Sie es manuell."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "Beim Öffnen der Sicherungsdatei ist ein Fehler aufgetreten: %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:397
 msgid "No packages need to be installed."
 msgstr "Keine Pakete müssen installiert werden."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:404
 msgid "Please select packages to install."
 msgstr "Bitte Pakete zum Installieren auswählen."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr ""
 "%s wird übersprungen, da benannte Datenströme nicht unterstützt werden."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
 msgstr "Sicherung läuft:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:491
 msgid "Calculating..."
 msgstr "Berechnung läuft …"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:495
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:599
 msgid "The following errors occurred:"
 msgstr "Folgende Fehler sind aufgetreten:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:501
 msgid "The backup was aborted."
 msgstr "Die Sicherung wurde abgebrochen."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 #, python-format
 msgid "Your files were successfully saved in %s."
 msgstr "Ihre Dateien wurden erfolgreich in %s gespeichert."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
@@ -104,7 +112,7 @@ msgstr ""
 "Achtung: die Metadatei konnte nicht gespeichert werden. Diese Sicherung wird "
 "nicht bei der Wiederherstellung erlaubt werden."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:573
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
@@ -113,49 +121,50 @@ msgstr ""
 "Achtung: einige Dateien wurden nicht gespeichert. Nur %(archived)d Dateien "
 "wurden von %(total)d gesichert."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
 msgstr "Wiederherstellung läuft:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
 msgid "The restoration was aborted."
 msgstr "Die Wiederherstellung wurde abgebrochen."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:609
 msgid "Your files were successfully restored."
 msgstr "Ihre Dateien wurden erfolgreich wiederhergestellt."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
 "Achtung: nur %(number)d Dateien wurden von %(total)d wiederhergestellt."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
 msgstr "Die untere Liste zeigt die installierten Anwendungen."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:766
 #, python-format
 msgid "Your software selection was saved in %s"
 msgstr "Ihre Programmauswahl wurde in %s gespeichert"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 msgid "The selected file is not a valid software selection."
 msgstr "Die ausgewählte Datei ist keine gültige Programmauswahl."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:787
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:830
 msgid "An error occurred while reading the file."
 msgstr "Ein Fehler trat beim Lesen der Datei auf."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:812
 msgid "Could not locate the package."
 msgstr "Das Paket konnte nicht gefunden werden."
 
-#: generate_desktop_files:24 generate_desktop_files:39
-msgid "Make a backup of your home directory"
-msgstr "Eine Sicherung Ihres persönlichen Ordners erstellen"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
+msgid "Backup apps and files"
+msgstr "Apps und Dateien sichern"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -409,3 +418,6 @@ msgstr "Alle Pakete in Ihrer Programmauswahl sind installiert."
 
 #~ msgid "Overwrite existing files"
 #~ msgstr "Bestehende Dateien überschreiben"
+
+#~ msgid "Make a backup of your home directory"
+#~ msgstr "Eine Sicherung Ihres persönlichen Ordners erstellen"

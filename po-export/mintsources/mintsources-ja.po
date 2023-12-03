@@ -9,20 +9,20 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2022-06-22 12:00+0200\n"
-"PO-Revision-Date: 2022-06-23 19:16+0000\n"
-"Last-Translator: vega m57 <Unknown>\n"
+"PO-Revision-Date: 2023-12-02 11:02+0000\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:55+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:31+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 "Language: ja\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:83
 msgid "You are about to remove the following PPA:"
-msgstr "次の PPA を削除しようとしています:"
+msgstr "この PPA を削除しようとしています:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:86
 #: usr/lib/linuxmint/mintSources/mintSources.py:166
@@ -33,31 +33,31 @@ msgstr " 詳しい情報: %s"
 #: usr/lib/linuxmint/mintSources/mintSources.py:90
 #: usr/lib/linuxmint/mintSources/mintSources.py:170
 msgid "Press Enter to continue or Ctrl+C to cancel"
-msgstr "続けるには Enter キーを、キャンセルするには Ctrl + C を入力してください"
+msgstr "続けるには Enter を、キャンセルするには Ctrl+C を押してください"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:94
 #: usr/lib/linuxmint/mintSources/mintSources.py:174
 msgid "Unable to prompt for response.  Please run with -y"
-msgstr "応答を求めることができません。「-y」のオプションを付けて実行してください"
+msgstr "応答を促すことができません。  -y を付けて実行してください"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:98
 msgid "Cancelling..."
-msgstr "キャンセル中..."
+msgstr "キャンセルしています..."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:101
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
-msgstr "次の PPA の情報を取得できません: '%s'"
+msgstr "PPA の情報を取得できません: '%s'。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:123
 #, python-format
 msgid "failed to remove PPA: '%s'"
-msgstr "次の PPA を削除できません: '%s'"
+msgstr "PPA の削除に失敗しました: '%s'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:142
 #, python-format
 msgid "failed to remove repository: '%s'"
-msgstr "次のリポジトリを削除できません: '%s'"
+msgstr "リポジトリの削除に失敗しました: '%s'"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Adding PPAs is not supported"
@@ -66,7 +66,7 @@ msgstr "PPA の追加はサポートされていません"
 #: usr/lib/linuxmint/mintSources/mintSources.py:156
 #, python-format
 msgid "Cannot add PPA: '%s'."
-msgstr "次のPPAを追加できません: '%s'。"
+msgstr "PPA を追加できません: '%s'。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:160
 msgid "Adding private PPAs is not supported currently"
@@ -74,34 +74,34 @@ msgstr "プライベートな PPA の追加は現在サポートされていま�
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:163
 msgid "You are about to add the following PPA:"
-msgstr "次の PPA を追加しようとしています:"
+msgstr "この PPA を追加しようとしています:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:193
 #: usr/lib/linuxmint/mintSources/mintSources.py:1554
 msgid "Malformed input, repository not added."
-msgstr "不正な入力、リポジトリは追加されていません。"
+msgstr "不正な入力です。リポジトリは追加されませんでした。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:196
 msgid "Repository already exists."
-msgstr "リポジトリはすでに存在します。"
+msgstr "リポジトリがすでに存在します。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:260
 msgid "Connection timed out, check your connection or try again later."
-msgstr "接続がタイムアウトしました。接続を確認するか、しばらくしてからもう一度お試しください。"
+msgstr "接続がタイムアウトしました。接続を確認するか、あとでもう一度試してください。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:262
 msgid "Failed to establish a secure connection."
-msgstr "安全な接続を確保できませんでした。"
+msgstr "安全な接続の確立に失敗しました。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:264
 #, python-format
 msgid "Failed to download the PPA: %s."
-msgstr "PPA: %s のダウンロードに失敗しました。"
+msgstr "PPA のダウンロードに失敗しました: %s。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:273
 #: usr/lib/linuxmint/mintSources/mintSources.py:277
 msgid "No supported PPA of this name was found."
-msgstr "この名前でサポートされている PPA は見つかりませんでした。"
+msgstr "この名前の PPA は見つからなかったか、サポートされていません。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:285
 #, python-format
@@ -115,11 +115,11 @@ msgstr "配布元"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:434
 msgid "CD-ROM (Installation Disc)"
-msgstr "CD-ROM (インストール ディスク)"
+msgstr "CD-ROM (インストールディスク)"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:446
 msgid "Local Repository"
-msgstr "ローカルリポジトリ"
+msgstr "ローカルのリポジトリ"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:494
 msgid ""
@@ -130,7 +130,7 @@ msgid ""
 msgstr ""
 "Linux Mint はテストされていないパッケージの配布に Romeo "
 "を使用しています。それらは一度テストを通れば公式リポジトリへと移動します。ベータテストに参加するつもりではない限り、このリポジトリを有効にはしないでくださ"
-"い。それでも Romeo を有効にしますか?"
+"い。それでも Romeo を有効にしますか？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:526
 msgid "Select a mirror"
@@ -167,11 +167,11 @@ msgstr "GB/s"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:721
 msgid "Obsolete"
-msgstr "現在不使用"
+msgstr "古いミラー"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:724
 msgid "Unreachable"
-msgstr "接続できません"
+msgstr "到達不可"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:866 generate_desktop_files:25
 #: generate_desktop_files:53
@@ -210,11 +210,11 @@ msgstr "リポジトリ"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:993
 msgid "Key"
-msgstr "鍵"
+msgstr "キー"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1131
 msgid "There is no more residual configuration on the system."
-msgstr "システムに残された設定はありません。"
+msgstr "システムに残留している設定はありません。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1137
 msgid "The problem was fixed. Please reload the cache."
@@ -222,7 +222,7 @@ msgstr "問題が修正されました。キャッシュを再読み込みして
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1180
 msgid "Duplicate entries were removed. Please reload the cache."
-msgstr "重複したエントリが削除されました。キャッシュを再ロードしてください。"
+msgstr "重複したエントリが削除されました。キャッシュを再読み込みしてください。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1186
 msgid "No duplicate entries were found."
@@ -231,23 +231,23 @@ msgstr "重複するエントリは見つかりませんでした。"
 #: usr/lib/linuxmint/mintSources/mintSources.py:1199
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
-msgstr "APT 設定にエラーがあります。最初にキャッシュの再ロードが必要な場合があります。"
+msgstr "APT 設定にエラーがあります。まずキャッシュを再読み込みしたほうがいいかもしれません。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1294
 msgid "All missing keys were successfully added."
-msgstr "不足しているキーはすべて正常に追加されました。"
+msgstr "すべての不足しているキーが正常に追加されました。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1296
 msgid "Not all missing keys could be found."
-msgstr "すべての欠落しているキーが見つかるわけではありません。"
+msgstr "いくつかの不足しているキーは見つかりませんでした。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1299
 msgid "Keys were added for the following repositories:"
-msgstr "次のリポジトリのキーが追加されました:"
+msgstr "これらのリポジトリのキーが追加されました:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1303
 msgid "Keys are still missing for the following repositories:"
-msgstr "次のリポジトリのキーはまだありません:"
+msgstr "これらのリポジトリのキーはまだありません:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1304
 msgid ""
@@ -257,7 +257,7 @@ msgstr "残っているキーを手動で追加するか、対応するリポジ
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1312
 msgid "Please reload the cache."
-msgstr "キャッシュを再ロードしてください。"
+msgstr "キャッシュを再読み込みしてください。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1317
 msgid "No missing keys were found."
@@ -283,42 +283,42 @@ msgstr "開く"
 msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
-msgstr "keyserver.ubuntu.com からダウンロードする公開キーのフィンガープリントを入力してください:"
+msgstr "keyserver.ubuntu.com からダウンロードする公開鍵のフィンガープリントを入力してください:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1382
 msgid "Are you sure you want to permanently remove the selected keys?"
-msgstr "選択したキーを完全に削除してもよろしいですか?"
+msgstr "選択したキーを完全に削除しますか？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1408
 msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr "追加する PPA の名前または URL を入力してください:"
+msgstr "追加する PPA の名前、または URL を入力してください:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1417
 msgid "The name of the PPA you entered isn't formatted correctly."
-msgstr "入力した PPA の名前の形式が正しくありません。"
+msgstr "入力した PPA 名の形式が正しくありません。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1473
 msgid "Edit the URL of the PPA"
-msgstr "PPAのURLを編集"
+msgstr "PPA の URL を編集"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1479
 msgid "Are you sure you want to permanently remove the selected PPAs?"
-msgstr "選択したPPAを完全に削除してもよろしいですか?"
+msgstr "選択した PPA を完全に削除しますか？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1529
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
-msgstr "この PPA のコンテンツは利用できません。キャッシュを更新してもう一度お試しください。"
+msgstr "この PPA のコンテンツは利用できません。キャッシュを更新し、もう一度試してください。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1549
 msgid "Please enter the name of the repository you want to add:"
-msgstr "追加したいリポジトリの名前を入力してください:"
+msgstr "追加するリポジトリの名前を入力してください:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1566
 msgid ""
 "This repository is already configured, you cannot add it a second time."
-msgstr "このリポジトリはすでに設定されているため、再び追加することはできません。"
+msgstr "このリポジトリはすでに設定されています。重複して追加することはできません。"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1573
 msgid "Edit the URL of the repository"
@@ -327,7 +327,7 @@ msgstr "リポジトリの URL を編集"
 #: usr/lib/linuxmint/mintSources/mintSources.py:1579
 msgid ""
 "Are you sure you want to permanently remove the selected repositories?"
-msgstr "選択したリポジトリを完全に削除してもよろしいですか?"
+msgstr "選択したリポジトリを完全に削除しますか？"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1638
 #: usr/lib/linuxmint/mintSources/mintSources.py:1775
@@ -340,16 +340,16 @@ msgstr "設定が変更されました"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1771
 msgid "Click OK to update your APT cache"
-msgstr "[OK] をクリックして APT キャッシュを更新します"
+msgstr "OK をクリックして APT キャッシュを更新します"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:88
 #, python-format
 msgid "version %s already installed"
-msgstr "バージョン %s はインストール済みです"
+msgstr "バージョン %s がすでにインストール済み"
 
 #: usr/lib/linuxmint/mintSources/ppa_browser.py:91
 msgid "already installed"
-msgstr "既にインストール済"
+msgstr "すでにインストール済み"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:112
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
@@ -366,7 +366,7 @@ msgstr "ダウングレード"
 msgid ""
 "The version of the following packages doesn't match the one from the "
 "repositories:"
-msgstr "以下のパッケージのバージョンはリポジトリのものと一致しません:"
+msgstr "これらのパッケージのバージョンが、リポジトリのものと一致しません:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:122
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
@@ -377,13 +377,13 @@ msgstr "削除"
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
-msgstr "以下のパッケージはコンピュータにインストールされていますが、リポジトリには存在しません:"
+msgstr "これらのパッケージがコンピューターにインストールされていますが、リポジトリには存在しません:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:128
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:275
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
-msgstr "全て選択"
+msgstr "すべて選択"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:146
 msgid "Package"
@@ -399,19 +399,19 @@ msgstr "リポジトリのバージョン"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:278
 msgid "Clear"
-msgstr "クリア"
+msgstr "すべて選択を解除"
 
 #: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
-msgstr "エラー: rootで実行する必要があります"
+msgstr "エラー: root で実行してください"
 
 #: usr/bin/add-apt-repository:23
 msgid "Error: need a repository as argument"
-msgstr "エラー: 引数としてリポジトリが必要です"
+msgstr "エラー: 引数としてリポジトリを渡してください"
 
 #: generate_desktop_files:25
 msgid "Configure the sources for installable software and updates"
-msgstr "インストール可能なソフトウェアおよびアップデートの配布元を設定します"
+msgstr "インストール可能なソフトウェア、およびアップデートの配布元を設定します"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
@@ -420,7 +420,7 @@ msgstr "警告"
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
 msgid ""
 "Review the information below very carefully before validating the command."
-msgstr "コマンドを検証する前に、以下の情報を慎重に確認してください。"
+msgstr "コマンドを検証する前に、次の情報を慎重に確認してください。"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
@@ -428,7 +428,7 @@ msgstr "ミラー"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
 msgid "Optional Sources"
-msgstr "オプションのソース"
+msgstr "任意のソース"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
 msgid "Source code repositories"
@@ -480,11 +480,11 @@ msgstr "マージリストの問題を修正"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Purge residual configuration"
-msgstr "残りの設定を削除"
+msgstr "残留している設定を削除"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Remove duplicate entries"
-msgstr "重複したエントリを削除"
+msgstr "重複しているエントリを削除"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Add missing keys"
@@ -514,7 +514,7 @@ msgstr "適用"
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
-msgstr "この PPA は次のパッケージを提供します。インストールするものを選択してください。"
+msgstr "この PPA は、これらのパッケージを提供します。インストールするものを選択してください。"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Install"

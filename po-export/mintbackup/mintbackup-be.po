@@ -7,45 +7,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"POT-Creation-Date: 2023-11-27 14:27+0000\n"
 "PO-Revision-Date: 2021-12-05 17:48+0000\n"
 "Last-Translator: Anton Hryb <Unknown>\n"
 "Language-Team: Belarusian <be@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:53+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:29+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
 msgstr "Рэзервовыя копіі"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
-#: generate_desktop_files:39
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:173
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:239 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "Backup Tool"
 msgstr "Рэзервовае капіяванне"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:898
+msgid "About"
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "%s не знаходзіцца ў вашай хатняй папцы."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
 msgid "Please choose a directory."
 msgstr "Выберыце папку."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
 msgid "You do not have the permission to write in the selected directory."
 msgstr "У вас няма правоў запісваць у выбраную папку."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "Please choose a backup file."
 msgstr "Выберыце рэзервовы файл."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
@@ -53,47 +61,47 @@ msgstr ""
 "Гэты рэзервовы файл занадта стары або быў створаны іншай прыладай. Выцягніце "
 "яго ўручную."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "Памылка падчас адкрыцця рэзервовага файла: %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:397
 msgid "No packages need to be installed."
 msgstr "Пакеты не трэба ўсталёўваць."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:404
 msgid "Please select packages to install."
 msgstr "Выберыце пакеты для ўсталявання."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr "Прапускаецца %s таму што названыя каналы не падтрымліваюцца."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
 msgstr "Рэзервовае капіяванне:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:491
 msgid "Calculating..."
 msgstr "Падлік..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:495
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:599
 msgid "The following errors occurred:"
 msgstr "Узніклі наступныя памылкі:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:501
 msgid "The backup was aborted."
 msgstr "Рэзервовае капіяванне абарвана."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 #, python-format
 msgid "Your files were successfully saved in %s."
 msgstr "Вашы файлы паспяхова захаваны ў %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
@@ -101,7 +109,7 @@ msgstr ""
 "Папярэджанне: Не ўдалося захаваць метафайл. Гэта рэзервовая копія не будзе "
 "прынята для аднаўлення."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:573
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
@@ -110,49 +118,50 @@ msgstr ""
 "Папярэджанне: Асобныя файлы не захаваны. Рэзервавана файлаў: %(archived)d, а "
 "ўсяго: %(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
 msgstr "Аднаўленне:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
 msgid "The restoration was aborted."
 msgstr "Аднаўленне абарвана."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:609
 msgid "Your files were successfully restored."
 msgstr "Вашы файлы паспяхова адноўлены."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
 "Папярэджанне: файлаў адноўлена толькі: %(number)d, а ўсяго: %(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
 msgstr "У спісе ніжэй паказаны ўсталяваныя вамі праграмы."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:766
 #, python-format
 msgid "Your software selection was saved in %s"
 msgstr "Ваша падборка праграм была захавана ў %s"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 msgid "The selected file is not a valid software selection."
 msgstr "Выбраны файл – няправільная падборка праграм."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:787
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:830
 msgid "An error occurred while reading the file."
 msgstr "Памылка падчас чытання файла."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:812
 msgid "Could not locate the package."
 msgstr "Не ўдалося знайсці пакет."
 
-#: generate_desktop_files:24 generate_desktop_files:39
-msgid "Make a backup of your home directory"
-msgstr "Зрабіць рэзервовую копію вашай хатняй папкі"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
+msgid "Backup apps and files"
+msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -315,3 +324,6 @@ msgstr "Усе пакеты ў вашай падборцы праграм уст
 
 #~ msgid "Excluded paths"
 #~ msgstr "Забароненыя шляхі"
+
+#~ msgid "Make a backup of your home directory"
+#~ msgstr "Зрабіць рэзервовую копію вашай хатняй папкі"

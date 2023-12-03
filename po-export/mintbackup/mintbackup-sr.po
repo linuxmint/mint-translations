@@ -7,46 +7,54 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"POT-Creation-Date: 2023-11-27 14:27+0000\n"
 "PO-Revision-Date: 2020-11-28 22:15+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:53+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:29+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 "Language: sr\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
 msgstr "Резерве"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
-#: generate_desktop_files:39
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:173
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:239 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "Backup Tool"
 msgstr "Алат за резерве"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:898
+msgid "About"
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "„%s“ није у вашем личном директоријуму."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
 msgid "Please choose a directory."
 msgstr "Изаберите директоријум."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
 msgid "You do not have the permission to write in the selected directory."
 msgstr "Немате дозволу да записујете у изабраном директоријуму."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "Please choose a backup file."
 msgstr "Изаберите датотеку резерве."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
@@ -54,47 +62,47 @@ msgstr ""
 "Ова датотека резерве је превише стара или створена другим алатом. Распакујте "
 "је ручно."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "Дошло је до грешке приликом отварања датотеке резерве: %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:397
 msgid "No packages need to be installed."
 msgstr "Није потребно инсталирати ниједан пакет."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:404
 msgid "Please select packages to install."
 msgstr "Изаберите пакете које желите инсталирати."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr "Прескачем „%s“ јер именоване спојке нису подржане."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
 msgstr "Правим резерву:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:491
 msgid "Calculating..."
 msgstr "Израчунавам..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:495
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:599
 msgid "The following errors occurred:"
 msgstr "Дошло је до следећих грешака:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:501
 msgid "The backup was aborted."
 msgstr "Прављење резерве је прекинуто."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 #, python-format
 msgid "Your files were successfully saved in %s."
 msgstr "Ваше датотеке су успешно сачуване у „%s“."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
@@ -102,7 +110,7 @@ msgstr ""
 "Упозорење: Мета датотека се не може сачувати. Ова резерва неђе бити "
 "прихваћена за повратак система."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:573
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
@@ -111,48 +119,49 @@ msgstr ""
 "Упозорење: Неке датотеке нису сачуване. Само %(archived)d датотеке су "
 "сачуване од %(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
 msgstr "Враћам:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
 msgid "The restoration was aborted."
 msgstr "Повратак система је прекинут."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:609
 msgid "Your files were successfully restored."
 msgstr "Ваше датотеке су успешно враћене."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr "Упозорење: Само %(number)d датотеке су враћене од %(total)d."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
 msgstr "Списак испод приказује апликацију коју сте инсталирали."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:766
 #, python-format
 msgid "Your software selection was saved in %s"
 msgstr "Ваш избор програма је сачуван у „%s“"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 msgid "The selected file is not a valid software selection."
 msgstr "Изабрана датотека није исправан избор програма."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:787
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:830
 msgid "An error occurred while reading the file."
 msgstr "Дошло је до грешке приликом читања датотека."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:812
 msgid "Could not locate the package."
 msgstr "Пакет није могао бити пронађен."
 
-#: generate_desktop_files:24 generate_desktop_files:39
-msgid "Make a backup of your home directory"
-msgstr "Направите резерву личне фасцикле"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
+msgid "Backup apps and files"
+msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -399,3 +408,6 @@ msgstr "Сви пакети у вашем избору програма су и�
 
 #~ msgid "Restore"
 #~ msgstr "Поврати"
+
+#~ msgid "Make a backup of your home directory"
+#~ msgstr "Направите резерву личне фасцикле"

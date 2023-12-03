@@ -7,66 +7,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-09-26 16:26+0100\n"
+"POT-Creation-Date: 2023-11-27 14:33+0000\n"
 "PO-Revision-Date: 2023-05-24 08:27+0000\n"
 "Last-Translator: Daniel Slavu <detectivdan@gmail.com>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:55+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:31+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 
-#: lib/mintstick.py:192
-msgid "unknown"
-msgstr "necunoscut"
-
-#: lib/mintstick.py:318
+#: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
 msgstr "Stickul USB a fost formatat cu succes."
 
-#: lib/mintstick.py:321
+#: lib/mintstick.py:315
 #, python-format
 msgid "An error occured while creating a partition on %s."
 msgstr "A apărut o eroare în timpul creării unei partiții pe %s."
 
-#: lib/mintstick.py:323 lib/mintstick.py:423
+#: lib/mintstick.py:317 lib/mintstick.py:427
 msgid "Authentication Error."
 msgstr "Eroare de autentificare."
 
-#: lib/mintstick.py:325 lib/mintstick.py:425
+#: lib/mintstick.py:322 lib/mintstick.py:433
 msgid "An error occurred."
 msgstr "A apărut o eroare."
 
-#: lib/mintstick.py:416
+#: lib/mintstick.py:420
 msgid "The image was successfully written."
 msgstr "Imaginea a fost scrisă cu succes."
 
-#: lib/mintstick.py:419
+#: lib/mintstick.py:423
 msgid "Not enough space on the USB stick."
 msgstr "Spațiu insuficient pe stickul USB."
 
-#: lib/mintstick.py:421
+#: lib/mintstick.py:425
 msgid "An error occured while copying the image."
 msgstr "A apărut o eroare în timpul copierii imaginii."
 
-#: lib/verify.py:55
+#: lib/verify.py:54
 msgid "bytes"
 msgstr "octeți"
 
-#: lib/verify.py:55
+#: lib/verify.py:54
 msgid "KB"
 msgstr "KB"
 
-#: lib/verify.py:55
+#: lib/verify.py:54
 msgid "MB"
 msgstr "MB"
 
-#: lib/verify.py:55
+#: lib/verify.py:54
 msgid "GB"
 msgstr "GB"
 
-#: lib/verify.py:55
+#: lib/verify.py:54
 msgid "TB"
 msgstr "TB"
 
@@ -86,100 +82,100 @@ msgstr "Semnături GPG"
 msgid "Calculating..."
 msgstr "Se calculează..."
 
-#: lib/verify.py:164
+#: lib/verify.py:167
 msgid "No volume ID found"
 msgstr "Nu s-a găsit ID-ul volumului"
 
-#: lib/verify.py:189
+#: lib/verify.py:208
 msgid "The checksum is correct"
 msgstr "Codul de verificare este corect"
 
-#: lib/verify.py:190
+#: lib/verify.py:209
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
 msgstr ""
 "Codul de verificare este corect, dar autencitatea lui nu a fost verificată."
 
-#: lib/verify.py:192
+#: lib/verify.py:211
 msgid "Checksum mismatch"
 msgstr "Codul de verificare nu se potriveşte"
 
-#: lib/verify.py:193
+#: lib/verify.py:212
 msgid "Download the ISO image again. Its checksum does not match."
 msgstr ""
 "Descarcă imaginea ISO din nou. Codul ei de verificare nu se potrivește."
 
-#: lib/verify.py:204
+#: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
 msgstr "Fișierul cu codurile nu a putut fi descărcat. Verifică URL-ul."
 
-#: lib/verify.py:213
+#: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
 msgstr "Fișierul gpg nu a putut fi descărcat. Verifică URL-ul."
 
-#: lib/verify.py:224
+#: lib/verify.py:243
 msgid "The sums file could not be checked."
 msgstr "Fișierul cu codurile nu a putut fi verificat."
 
-#: lib/verify.py:231
+#: lib/verify.py:250
 msgid "The gpg file could not be checked."
 msgstr "Fișierul gpg nu a putut fi verificat."
 
-#: lib/verify.py:241
+#: lib/verify.py:260
 msgid "Integrity check failed"
 msgstr "Verificarea integrității a eșuat"
 
-#: lib/verify.py:250
+#: lib/verify.py:269
 msgid "The SHA256 sums file is not signed."
 msgstr "Fișierul cu coduri SHA256 nu este semnat."
 
-#: lib/verify.py:254
+#: lib/verify.py:273
 #, python-format
 msgid "Signed by: %s"
 msgstr "Semnat de: %s"
 
-#: lib/verify.py:268
+#: lib/verify.py:287
 msgid "Unknown signature"
 msgstr "Semnătură necunoscută"
 
-#: lib/verify.py:269
+#: lib/verify.py:288
 msgid "Key not found on keyserver."
 msgstr "Cheia nu a fost găsită pe serverul de chei."
 
-#: lib/verify.py:280 lib/verify.py:286
+#: lib/verify.py:299 lib/verify.py:305
 msgid "Everything looks good!"
 msgstr "Totul arată bine!"
 
-#: lib/verify.py:281
+#: lib/verify.py:300
 msgid "This is an official ISO image."
 msgstr "Aceasta este o imagine ISO oficială."
 
-#: lib/verify.py:287
+#: lib/verify.py:306
 msgid "This ISO image is verified by a trusted signature."
 msgstr "Această imagine ISO este verificată printr-o semnătură de încredere."
 
-#: lib/verify.py:290
+#: lib/verify.py:309
 msgid "If you trust the signature you can trust the ISO."
 msgstr "Dacă aveți încredere în semnătură, puteți avea încredere în ISO."
 
-#: lib/verify.py:291
+#: lib/verify.py:310
 msgid "Untrusted signature"
 msgstr "Semnătură de neîncredere"
 
-#: lib/verify.py:292
+#: lib/verify.py:311
 msgid "This ISO image is verified by an untrusted signature."
 msgstr ""
 "Această imagine ISO este verificată printr-o semnătură de neîncredere."
 
-#: lib/verify.py:297
+#: lib/verify.py:316
 msgid "An error occurred"
 msgstr "O eroare a avut loc"
 
-#: lib/verify.py:309
+#: lib/verify.py:327
 msgid "The SHA256 sum of the ISO image is incorrect."
 msgstr "Suma SHA256 a imaginii ISO este incorectă."
 
-#: lib/verify.py:310
+#: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
 msgstr "Fișierul sumelor SHA256 nu conține suma pentru această imagine ISO."
 
@@ -220,7 +216,7 @@ msgstr "Verifică"
 msgid "Verify the authenticity and integrity of the image"
 msgstr "Verificați autenticitatea și integritatea imaginii"
 
-#: generate_additional_files.py:117
+#: generate_additional_files.py:115 generate_additional_files.py:144
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"

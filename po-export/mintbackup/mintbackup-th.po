@@ -7,45 +7,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-02-27 13:57+0000\n"
-"PO-Revision-Date: 2021-01-16 10:08+0000\n"
+"POT-Creation-Date: 2023-11-27 14:27+0000\n"
+"PO-Revision-Date: 2023-07-31 23:20+0000\n"
 "Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:53+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:29+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
-msgstr "การสำรองข้อมูล"
+msgstr "สำรองข้อมูล"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
-#: generate_desktop_files:39
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:173
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:239 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "Backup Tool"
 msgstr "เครื่องมือสำรองข้อมูล"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:898
+msgid "About"
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "%s ไม่อยู่ในไดเรกทอรีบ้านของคุณ"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
 msgid "Please choose a directory."
 msgstr "โปรดเลือกไดเรกทอรี"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
 msgid "You do not have the permission to write in the selected directory."
 msgstr "คุณไม่มีสิทธิ์ในการเขียนในไดเรกทอรีที่เลือก"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "Please choose a backup file."
 msgstr "โปรดเลือกไฟล์การสำรองข้อมูล"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
@@ -53,101 +61,102 @@ msgstr ""
 "ไฟล์การสำรองข้อมูลนี้เก่าเกินไปหรือถูกสร้างด้วยเครื่องมืออื่น "
 "โปรดแยกไฟล์นี้ด้วยตนเอง"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "เกิดข้อผิดพลาดขณะเปิดไฟล์การสำรองข้อมูล: %s."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:397
 msgid "No packages need to be installed."
 msgstr "ไม่มีแพคเกจที่จะต้องติดตั้ง"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:404
 msgid "Please select packages to install."
 msgstr "โปรดเลือกแพคเกจที่จะติดตั้ง"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
 msgstr "กำลังสำรองข้อมูล:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:491
 msgid "Calculating..."
 msgstr "กำลังคำนวณ..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:495
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:599
 msgid "The following errors occurred:"
 msgstr "เกิดข้อผิดพลาดต่อไปนี้:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:501
 msgid "The backup was aborted."
 msgstr "การสำรองข้อมูลถูกยกเลิก"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 #, python-format
 msgid "Your files were successfully saved in %s."
 msgstr "ได้บันทึกไฟล์ของคุณใน %s สำเร็จแล้ว"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:573
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
 msgstr "กำลังกู้คืน:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
 msgid "The restoration was aborted."
 msgstr "การเรียกคืนถูกยกเลิก"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:609
 msgid "Your files were successfully restored."
 msgstr "แฟ้มของคุณถูกกู้คืนสำเร็จแล้ว"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:766
 #, python-format
 msgid "Your software selection was saved in %s"
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 msgid "The selected file is not a valid software selection."
 msgstr ""
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:787
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:830
 msgid "An error occurred while reading the file."
 msgstr "เกิดข้อผิดพลาดขณะอ่านแฟ้ม"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:812
 msgid "Could not locate the package."
 msgstr ""
 
-#: generate_desktop_files:24 generate_desktop_files:39
-msgid "Make a backup of your home directory"
-msgstr "สำรองข้อมูลในตำแหน่งของคุณ"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
+msgid "Backup apps and files"
+msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -163,7 +172,7 @@ msgstr "กู้คืน..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr ""
+msgstr "สำรองข้อมูลเดี๋ยวนี้..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
@@ -302,6 +311,9 @@ msgstr ""
 
 #~ msgid "Restore"
 #~ msgstr "เรียกคืน"
+
+#~ msgid "Make a backup of your home directory"
+#~ msgstr "สำรองข้อมูลในตำแหน่งของคุณ"
 
 #~ msgid "Excluded paths"
 #~ msgstr "เส้นทางที่ยกเว้นไว้"

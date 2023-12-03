@@ -8,99 +8,107 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
-"POT-Creation-Date: 2019-02-27 13:57+0000\n"
-"PO-Revision-Date: 2021-06-05 20:54+0000\n"
-"Last-Translator: vega m57 <Unknown>\n"
+"POT-Creation-Date: 2023-11-27 14:27+0000\n"
+"PO-Revision-Date: 2023-12-02 11:01+0000\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:53+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:29+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 "Language: ja\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
 msgstr "バックアップ"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
-#: generate_desktop_files:39
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:173
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:239 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "Backup Tool"
 msgstr "バックアップツール"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:898
+msgid "About"
+msgstr "このアプリケーションについて"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+msgid "Quit"
+msgstr "終了"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "%s はホームディレクトリにありません。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
 msgid "Please choose a directory."
 msgstr "ディレクトリを選択してください。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
 msgid "You do not have the permission to write in the selected directory."
 msgstr "選択したディレクトリに書き込む権限がありません。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "Please choose a backup file."
 msgstr "バックアップファイルを選択してください。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr "このバックアップファイルは古すぎるか、別のツールで作成されました。手動で展開してください。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "バックアップファイルを開く際にエラーが発生しました: %s。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:397
 msgid "No packages need to be installed."
 msgstr "パッケージをインストールする必要はありません。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:404
 msgid "Please select packages to install."
 msgstr "インストールするパッケージを選択してください。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr "名前付きパイプはサポートしていないため、ファイル %s をスキップします。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
-msgstr "バックアップ中:"
+msgstr "バックアップしています:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:491
 msgid "Calculating..."
-msgstr "計算中..."
+msgstr "計算しています..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:495
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:599
 msgid "The following errors occurred:"
 msgstr "これらのエラーが発生しました:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:501
 msgid "The backup was aborted."
-msgstr "バックアップは中止されました。"
+msgstr "バックアップが中止されました。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr "ファイルが %s へ正常に保存されました。"
+msgstr "ファイルが %s に正常に保存されました。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr "警告: メタファイルを保存できませんでした。このバックアップから復元することはできません。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:573
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
@@ -108,48 +116,49 @@ msgid ""
 msgstr ""
 "警告: 保存されなかったファイルがあります。%(total)d 個のファイルのうち %(archived)d 個のみがバックアップされました。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
-msgstr "復元中:"
+msgstr "復元しています:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
 msgid "The restoration was aborted."
-msgstr "復元は中止されました。"
+msgstr "復元が中止されました。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:609
 msgid "Your files were successfully restored."
 msgstr "ファイルが正常に復元されました。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr "警告: %(total)d 個のファイルのうち %(number)d 個のみが復元されました。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
 msgstr "現在、これらのアプリケーションがインストールされています。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:766
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr "選択したソフトウェアの一覧が %s に保存されました"
+msgstr "選択したソフトウェアのリストが %s に保存されました"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 msgid "The selected file is not a valid software selection."
-msgstr "選択したファイルには、ソフトウェアの一覧が正しく記載されていません。"
+msgstr "選択したファイルには、ソフトウェアのリストが正しく記載されていません。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:787
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:830
 msgid "An error occurred while reading the file."
-msgstr "ファイルの読み込み中にエラーが発生しました。"
+msgstr "ファイルの読み取り中にエラーが発生しました。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:812
 msgid "Could not locate the package."
 msgstr "パッケージが見つかりませんでした。"
 
-#: generate_desktop_files:24 generate_desktop_files:39
-msgid "Make a backup of your home directory"
-msgstr "ホームディレクトリのバックアップを作成します"
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
+msgid "Backup apps and files"
+msgstr "アプリとファイルをバックアップ"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -169,11 +178,11 @@ msgstr "バックアップ..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr "ソフトウェアの一覧"
+msgstr "ソフトウェアのリスト"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr "コンピューターにインストールされているアプリケーションの一覧"
+msgstr "コンピューターにインストールされているアプリケーションのリスト"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
@@ -187,11 +196,11 @@ msgstr "バックアップから除外したいファイル、またはディレ
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
-msgstr "ファイルの除外"
+msgstr "ファイルを除外"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
 msgid "Exclude directories"
-msgstr "ディレクトリの除外"
+msgstr "ディレクトリを除外"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
 msgid "Remove"
@@ -207,15 +216,15 @@ msgstr "既定の状態では、ホームディレクトリのルートに存在
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
-msgstr "必要であれば、それらもバックアップに含めたい場合は下の一覧に追加してください。"
+msgstr "それらもバックアップに含めたい場合は、下の一覧に追加してください。"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr "ファイルの包含"
+msgstr "ファイルを追加"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr "ディレクトリの包含"
+msgstr "ディレクトリを追加"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
@@ -241,7 +250,7 @@ msgid ""
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
 "いいえ、存在しないファイルのみを復元します。\n"
-"<small>既にあるファイルには手を加えないため、安全に復元ができます。</small>"
+"<small>すでにあるファイルには手を加えないため、安全に復元ができます。</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -268,11 +277,11 @@ msgstr "保存するアプリケーションを選択してください。"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
-msgstr "全て選択"
+msgstr "すべて選択"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect all"
-msgstr "全て選択解除"
+msgstr "すべて選択を解除"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -280,12 +289,12 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"注: システムにインストールされているソフトウェアの完全な一覧を生成するには、端末で 'dpkg --get-selections > "
+"注: システムにインストールされているソフトウェアの完全なリストを生成するには、端末で 'dpkg --get-selections > "
 "mylist.list' コマンドを実行してください。"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr "保存したソフトウェアの一覧を選択してください (.list ファイル):"
+msgstr "保存したソフトウェアのリストを選択してください (.list ファイル):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
@@ -297,7 +306,7 @@ msgstr "更新"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr "ソフトウェアの一覧に記載された、全てのパッケージがインストールされました。"
+msgstr "ソフトウェアのリストに記載された、すべてのパッケージがインストールされました。"
 
 #~ msgid "Archiving your home directory..."
 #~ msgstr "ホームディレクトリをアーカイブしています..."
@@ -385,3 +394,6 @@ msgstr "ソフトウェアの一覧に記載された、全てのパッケージ
 
 #~ msgid "Restoration successful"
 #~ msgstr "復元を完了しました"
+
+#~ msgid "Make a backup of your home directory"
+#~ msgstr "ホームディレクトリのバックアップを作成します"

@@ -9,16 +9,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://launchpad.net/~linuxmint-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2020-12-19 17:42+0000\n"
-"Last-Translator: kmyyfz8q <Unknown>\n"
+"PO-Revision-Date: 2023-12-02 11:02+0000\n"
+"Last-Translator: npaqq <Unknown>\n"
 "Language-Team: Japanese <https://launchpad.net/~linuxmint-translation-team-"
 "japanese>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:52+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:28+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
+"Language: ja\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -32,13 +33,13 @@ msgstr "アップロードマネージャー"
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr "%(percentage)s / %(number)d 個のファイル - %(service)s にアップロード中"
+msgstr "%(percentage)s / %(number)d 個のファイル - %(service)s にアップロードしています"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:45
 #: usr/lib/linuxmint/mintupload/mintupload.py:141
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr "%(percentage)s / 1 個のファイル - %(service)s にアップロード中"
+msgstr "%(percentage)s / 1 個のファイル - %(service)s にアップロードしています"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:81
 #, python-format
@@ -53,12 +54,12 @@ msgstr "'%s' へのアップロードに失敗しました: "
 #: usr/lib/linuxmint/mintupload/mintupload.py:99
 #, python-format
 msgid "Successfully uploaded %(number)d files to '%(service)s'"
-msgstr "'%(service)s' への %(number)d 個のファイルのアップロードが完了しました"
+msgstr "%(number)d 個のファイルを正常に '%(service)s' にアップロードしました"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:101
 #, python-format
 msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr "'%(service)s' への 1 個のファイルのアップロードが完了しました"
+msgstr "1 個のファイルを正常に '%(service)s' にアップロードしました"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:112
 msgid "Do you want to cancel this upload?"
@@ -79,12 +80,12 @@ msgstr "アップロードをキャンセルしますか？"
 #: usr/lib/linuxmint/mintupload/mintupload.py:137
 #, python-format
 msgid "Uploading %(number)d files to %(service)s"
-msgstr "%(number)d 個のファイルを %(service)s にアップロード中"
+msgstr "%(number)d 個のファイルを %(service)s にアップロードしています"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:140
 #, python-format
 msgid "Uploading 1 file to %(service)s"
-msgstr "1 個のファイルを %(service)s にアップロード中"
+msgstr "1 個のファイルを %(service)s にアップロードしています"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:159
 #, python-format
@@ -158,25 +159,25 @@ msgstr "GiB"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:135
 msgid "File larger than service's maximum"
-msgstr "ファイルサイズが上限値を超えています"
+msgstr "ファイルサイズが、サービスの許容上限を超えています"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:145
 msgid "Could not get available space"
-msgstr "十分な空き容量がありません"
+msgstr "残り容量を取得できませんでした"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:148
 msgid "File larger than service's available space"
-msgstr "ファイルサイズが空き容量を超えています"
+msgstr "ファイルサイズが、サービスの残り容量を超えています"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:173
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:315
 msgid "File uploaded successfully."
-msgstr "ファイルのアップロードに成功しました。"
+msgstr "ファイルを正常にアップロードしました。"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:191
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:267
 msgid "connection successfully established"
-msgstr "接続しました"
+msgstr "接続を正常に確立しました"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:202
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:233
@@ -185,7 +186,7 @@ msgstr "ファイルをアップロードしています..."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:275
 msgid "This service requires a password."
-msgstr "パスワードが必要です。"
+msgstr "このサービスには、パスワードが必要です。"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:308
 msgid "URL:"
@@ -195,7 +196,7 @@ msgstr "URL:"
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:352
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
-msgstr "%(1)s は %(2)s または %(3)s にある設定ファイルに設定されていません"
+msgstr "%(1)s は、設定ファイル %(2)s または %(3)s の項目として存在しません"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:27
 #: usr/lib/linuxmint/mintupload/file-uploader.py:30
@@ -326,7 +327,7 @@ msgstr "変更された設定を保存できませんでした"
 
 #: generate_desktop_files:27 generate_desktop_files:41
 msgid "Define upload services"
-msgstr "アップロードサービスを設定します"
+msgstr "アップロードサービスを定義します"
 
 #~ msgid "File Uploader"
 #~ msgstr "ファイルアップローダ"
