@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2022-10-10 02:25+0000\n"
-"Last-Translator: karm <melo@carmu.com>\n"
+"PO-Revision-Date: 2023-12-29 21:41+0000\n"
+"Last-Translator: famese <Unknown>\n"
 "Language-Team: Interlingua <ia@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-12-03 13:31+0000\n"
-"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
+"X-Launchpad-Export-Date: 2024-01-04 14:56+0000\n"
+"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
-msgstr "Le drive USB ha essite formatate con bon successo."
+msgstr "Le clave USB esseva formatate con bon successo."
 
 #: lib/mintstick.py:315
 #, python-format
@@ -36,7 +36,7 @@ msgstr "Un error occurreva."
 
 #: lib/mintstick.py:420
 msgid "The image was successfully written."
-msgstr "Le imagine ha essite scribite con bon successo."
+msgstr "Le imagine esseva scribite con bon successo."
 
 #: lib/mintstick.py:423
 msgid "Not enough space on the USB stick."
@@ -72,11 +72,11 @@ msgstr "Imagines ISO"
 
 #: lib/verify.py:91
 msgid "Checksum files"
-msgstr ""
+msgstr "Files de summa de controlo"
 
 #: lib/verify.py:95
 msgid "GPG signatures"
-msgstr ""
+msgstr "Signaturas GPG"
 
 #: lib/verify.py:107 lib/verify.py:108 lib/verify.py:109
 msgid "Calculating..."
@@ -84,85 +84,87 @@ msgstr "Calculante..."
 
 #: lib/verify.py:167
 msgid "No volume ID found"
-msgstr ""
+msgstr "Nulle ID de volumine trovate"
 
 #: lib/verify.py:208
 msgid "The checksum is correct"
-msgstr ""
+msgstr "Le summa de controlo es correcte"
 
 #: lib/verify.py:209
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
 msgstr ""
+"Le summa de controlo es correcte ma le authenticitate del summa non esseva "
+"verificate."
 
 #: lib/verify.py:211
 msgid "Checksum mismatch"
-msgstr ""
+msgstr "Disconcordantia del summa de controlo"
 
 #: lib/verify.py:212
 msgid "Download the ISO image again. Its checksum does not match."
-msgstr ""
+msgstr "Discarga le imagine ISO de nove. Su summa de controlo non concorda."
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
-msgstr ""
+msgstr "Le file de summas non poteva esser discargate. Verifica le URL."
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
-msgstr ""
+msgstr "Le file GPG non poteva esser descargate. Verifica le URL."
 
 #: lib/verify.py:243
 msgid "The sums file could not be checked."
-msgstr ""
+msgstr "Le file de summas non poteva esser verificate."
 
 #: lib/verify.py:250
 msgid "The gpg file could not be checked."
-msgstr ""
+msgstr "Le file gpg non poteva esser verificate."
 
 #: lib/verify.py:260
 msgid "Integrity check failed"
-msgstr ""
+msgstr "Verification de integritate fallite"
 
 #: lib/verify.py:269
 msgid "The SHA256 sums file is not signed."
-msgstr ""
+msgstr "Le file de summas SHA256 non es signate."
 
 #: lib/verify.py:273
 #, python-format
 msgid "Signed by: %s"
-msgstr ""
+msgstr "Signate per: %s"
 
 #: lib/verify.py:287
 msgid "Unknown signature"
-msgstr ""
+msgstr "Signatura incognite"
 
 #: lib/verify.py:288
 msgid "Key not found on keyserver."
-msgstr ""
+msgstr "Clave non trovate in le servitor de claves."
 
 #: lib/verify.py:299 lib/verify.py:305
 msgid "Everything looks good!"
-msgstr ""
+msgstr "Toto pare ben!"
 
 #: lib/verify.py:300
 msgid "This is an official ISO image."
-msgstr ""
+msgstr "Iste es un imagine ISO official."
 
 #: lib/verify.py:306
 msgid "This ISO image is verified by a trusted signature."
-msgstr ""
+msgstr "Iste imagine ISO es verificate per un signatura fidite."
 
 #: lib/verify.py:309
 msgid "If you trust the signature you can trust the ISO."
-msgstr ""
+msgstr "Si tu fide in le signatura, tu pote fider in le ISO."
 
 #: lib/verify.py:310
 msgid "Untrusted signature"
-msgstr ""
+msgstr "Signatura non fidite"
 
 #: lib/verify.py:311
 msgid "This ISO image is verified by an untrusted signature."
-msgstr ""
+msgstr "Iste imagine ISO es verificate per un signatura non fidite."
 
 #: lib/verify.py:316
 msgid "An error occurred"
@@ -170,11 +172,11 @@ msgstr "Un error occurreva"
 
 #: lib/verify.py:327
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr ""
+msgstr "Le summa SHA256 del imagine ISO es incorrecte."
 
 #: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
-msgstr ""
+msgstr "Le file de summas SHA256 non contine summas pro iste imagine ISO."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
@@ -198,7 +200,7 @@ msgstr "Formatar un clave USB"
 
 #: generate_additional_files.py:67
 msgid "Make bootable USB stick"
-msgstr "Render bootabile un clave USB"
+msgstr "Crear clave USB bootabile"
 
 #: generate_additional_files.py:77 share/mintstick/mintstick.ui.h:26
 msgid "Format"
@@ -211,7 +213,7 @@ msgstr "Verificar"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr ""
+msgstr "Verifica le authenticitate e integritate del imagine"
 
 #: generate_additional_files.py:115 generate_additional_files.py:144
 msgid ""
@@ -226,7 +228,7 @@ msgstr "Clave USB:"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid "Filesystem:"
-msgstr ""
+msgstr "Systema de files:"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid "Select a USB stick"
@@ -288,7 +290,7 @@ msgstr "Clave USB"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "ISO image:"
-msgstr ""
+msgstr "Imagine ISO:"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select an image"
@@ -304,15 +306,15 @@ msgstr "Scriber"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "This ISO looks like a Windows image."
-msgstr ""
+msgstr "Iste ISO pare como un imagine de Windows."
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
-msgstr ""
+msgstr "Imagines de Windows require processamento special."
 
 #: share/mintstick/mintstick.ui.h:37
 msgid "More information"
-msgstr "Altere informationes"
+msgstr "Plus information"
 
 #: share/mintstick/verify.ui.h:1
 msgid "ISO:"
@@ -332,11 +334,11 @@ msgstr "Dimension:"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr ""
+msgstr "File de summas SHA256:"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
-msgstr ""
+msgstr "File signate per GPG:"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
@@ -344,19 +346,19 @@ msgstr "URLs"
 
 #: share/mintstick/verify.ui.h:9
 msgid "SHA256 sums file"
-msgstr ""
+msgstr "File de summas SHA256"
 
 #: share/mintstick/verify.ui.h:10
 msgid "GPG signed file"
-msgstr ""
+msgstr "File signate per GPG"
 
 #: share/mintstick/verify.ui.h:11
 msgid "Local files"
-msgstr ""
+msgstr "Files local"
 
 #: share/mintstick/verify.ui.h:12
 msgid "SHA256 sum"
-msgstr ""
+msgstr "Summa SHA256"
 
 #: share/mintstick/verify.ui.h:13
 msgid "Check"
@@ -368,8 +370,8 @@ msgstr "Controlo de summa"
 
 #: share/mintstick/verify.ui.h:15
 msgid "Go back"
-msgstr ""
+msgstr "Retroceder"
 
 #: share/mintstick/verify.ui.h:16
 msgid "ISO Verification"
-msgstr ""
+msgstr "Verification de ISO"
