@@ -3,7 +3,7 @@ import os
 
 MINT_PROJECTS = ["mintbackup", "mint-common", "mintdesktop", "mintinstall", "mintlocale", "mintmenu", "mintnanny", "mintsources", "mintstick", "mintupload", "mintwelcome"]
 CINNAMON_PROJECTS = ["cinnamon", "cinnamon-control-center", "cinnamon-session", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo", "nemo-extensions"]
-SIMPLE_PO_PROJECTS = ["folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "xfce4-xapp-status-plugin", "mintubiquity", "nvidia-prime-applet", "warpinator", "timeshift","sticky"]
+SIMPLE_PO_PROJECTS = ["folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "xfce4-xapp-status-plugin", "mintubiquity", "nvidia-prime-applet", "warpinator", "timeshift","sticky", "gnome-online-accounts-gtk"]
 
 os.system("./clean.sh")
 
