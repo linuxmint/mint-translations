@@ -40,22 +40,13 @@ def copy_translations(repo_name):
     os.chdir(repo_path)
     os.system(f"cp -R {FOREIGN_DIR}/{repo_name}/*.po {repo_path}/po/")
     repo = Repo(repo_path)
-    manual_intervention_needed = False
-    changes = False
-    for file in repo.index.diff(None):
-        changes = True
-        if file.change_type == 'A':
-            if os.path.exists("po/LINGUAS"):
-                manual_intervention_needed = True
-                print(f"New PO detected: {file}. Update po/LINGUAS accordingly.")
-    if not changes:
-        notify(repo_name.upper(), "No changes detected! Press a key to continue...")
-        input()
-        os.system(f"rm -rf '{FOREIGN_DIR}/{repo_name}'")
-        return
-    if manual_intervention_needed:
-        notify(repo_name.upper(), "Update po/LINGUAS manually...")
-        os.system("xed po/LINGUAS")
+    if os.path.exists("po/LINGUAS"):
+        notify(repo_name.upper(), "Generate po/LINGUAS...")
+        os.system("rm po/LINGUAS")
+        for filename in sorted(os.listdir("po")):
+            if filename.endswith(".po"):
+                filename = filename.replace(".po", "")
+                os.system(f"echo {filename} >> po/LINGUAS")
     os.system("git add *")
     os.system("git commit -m 'l10n: Update translations'")
     generate_scripts = []
