@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-11-27 14:41+0000\n"
+"POT-Creation-Date: 2024-05-11 11:09+0100\n"
 "PO-Revision-Date: 2022-08-11 12:42+0000\n"
 "Last-Translator: Panwar <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
@@ -15,45 +15,36 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2024-01-04 14:53+0000\n"
-"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
+"X-Launchpad-Export-Date: 2024-06-18 17:49+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:97
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:99
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:101
 msgid "Multimedia Codecs"
 msgstr "मल्टीमीडिया कोडेक्स"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:98
 msgid "Multimedia Codecs for KDE"
 msgstr "KDE के लिए मल्टीमीडिया कोडेक्स"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:482
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:510
 msgid "Add"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:488
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3027
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:516
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3112
 msgid "Remove"
 msgstr "हटाएँ"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:507
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:535
 msgid "Unavailable"
 msgstr ""
 
-#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:739
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2883
-#, python-format
-msgid "%d Review"
-msgid_plural "%d Reviews"
-msgstr[0] ""
-msgstr[1] ""
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:800
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:779
 msgid "This package is a Flatpak"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:893
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:883
 msgid "All"
 msgstr "सभी"
 
@@ -65,20 +56,20 @@ msgstr ""
 "सक्रिय प्रक्रियाओं के दौरान यह फ़ाइल संसाधित नहीं की जा सकती है।\n"
 "उनके पूर्ण होने पर पुनः प्रयास करें।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1066
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1065
 msgid "The Flatpak repo you are trying to add already exists."
 msgstr "आप जिस Flatpak पैकेज-संग्रह को जोड़ रहे हैं, वह पहले से मौजूद है ।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1073
 msgid "An error occurred attempting to add the Flatpak repo."
 msgstr "Flatpak पैकेज-संग्रह को जोड़ते समय त्रुटि हुई।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1082
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1081
 msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr ""
 "फ्लैटपैक हेतु समर्थन वर्तमान में उपलब्ध नहीं है। फ्लैटपैक इनस्टॉल करें।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1100
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
@@ -86,10 +77,10 @@ msgstr ""
 "फ्लैटपैक हेतु समर्थन वर्तमान में उपलब्ध नहीं है। फ्लैटपैक व gir1.2-flatpak-"
 "1.0 इनस्टॉल करें।"
 
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1140
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1141
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1142
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1952 generate_desktop_files:24
-#: generate_desktop_files:35
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1998 generate_desktop_files:25
+#: generate_desktop_files:36
 msgid "Software Manager"
 msgstr "सॉफ्टवेयर प्रबंधक"
 
@@ -98,49 +89,45 @@ msgid "Show installed applications"
 msgstr "इंस्टॉल हो चुके अनुप्रयोग दिखाएँ"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1201
-msgid "Search in packages summary (slower search)"
-msgstr "पैकेज के सार में ढूँढे (धीमा)"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
-msgid "Search in packages description (even slower search)"
-msgstr "पैकेज के वर्णन में ढूँढे (और भी धीमा)"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
 msgid "Refresh the list of packages"
 msgstr "पैकेज सूची को रिफ्रेश करें"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1227
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1950
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+msgid "Preferences"
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1996
 msgid "About"
 msgstr "विवरण"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1452
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1475
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Top Rated"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1497
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1523
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "Featured"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1557
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1584
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Categories"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1611
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1649
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
 msgstr[0] "%d कार्य जारी है"
 msgstr[1] "%d कार्य जारी हैं"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1754
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1792
 msgid "No screenshots available"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2040
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
@@ -148,172 +135,172 @@ msgstr ""
 "वर्तमान में कुछ कार्य सक्रिय हैं।\n"
 "क्या आप वाकई छोड़ना चाहते हैं?"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2144
 msgid "Installed Applications"
 msgstr "इंस्टॉल हो चुके अनुप्रयोग"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
 msgid "Currently working on the following packages"
 msgstr "वर्तमान में सिस्टम निम्नलिखित पैकेजों पर कार्यरत है"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2106
-msgid "All Applications"
-msgstr "सभी अनुप्रयोग"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2114
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2152
 msgid "Internet"
 msgstr "इंटरनेट"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2116
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2154
 msgid "Web"
 msgstr "वेब"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2121
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2159
 msgid "Email"
 msgstr "ईमेल"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2125
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2163
 msgid "Chat"
 msgstr "चैट"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2128
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2166
 msgid "File sharing"
 msgstr "फ़ाइल साझा करें"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
 msgid "Sound and video"
 msgstr "ध्वनि व वीडियो"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2136
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
 msgid "Sound"
 msgstr "ध्वनि"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
 msgid "Video"
 msgstr "वीडियो"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2143
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2181
 msgid "Graphics"
 msgstr "ग्राफिक्स"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2185
 msgid "3D"
 msgstr "3D"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2149
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
 msgid "Drawing"
 msgstr "चित्रण"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2151
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2189
 msgid "Photography"
 msgstr "छायाचित्रण"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2153
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2191
 msgid "Publishing"
 msgstr "प्रकाशन"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2155
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
 msgid "Scanning"
 msgstr "क्रमवीक्षण (स्कैन)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2157
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2195
 msgid "Viewers"
 msgstr "दर्शक"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2162
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
 msgid "Office"
 msgstr "ऑफिस"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2168
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
 msgid "Games"
 msgstr "खेल"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2210
 msgid "Board games"
 msgstr "बोर्ड आधारित खेल"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2212
 msgid "First-person"
 msgstr "प्रथम-व्यक्ति"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2214
 msgid "Real-time strategy"
 msgstr "वास्तविक समय कार्यनीति"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2216
 msgid "Turn-based strategy"
 msgstr "बारी-आधारित रणनीति"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2218
 msgid "Emulators"
 msgstr "एमुलेटर"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2220
 msgid "Simulation and racing"
 msgstr "अनुकार व दौड़"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
 msgid "Accessories"
 msgstr "सहायक अनुप्रयोग"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2231
 msgid "System tools"
 msgstr "सिस्टम संबंधित साधन"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2238
 msgid "Fonts"
 msgstr "मुद्रलिपियाँ"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2244
 msgid "Science and Education"
 msgstr "विज्ञान व शिक्षा"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2245
 msgid "Science"
 msgstr "विज्ञान"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2247
 msgid "Maths"
 msgstr "गणित"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2249
 msgid "Education"
 msgstr "शिक्षा"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2251
 msgid "Electronics"
 msgstr "इलेक्ट्रानिक्स"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2219
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2257
 msgid "Programming"
 msgstr "प्रोग्रामिंग"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2221
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2259
 msgid "Java"
 msgstr "जावा"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2223
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2261
 msgid "PHP"
 msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2263
 msgid "Python"
 msgstr "Python"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2227
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2265
 msgid "Essentials"
 msgstr "आवश्यक अनुप्रयोग"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2651
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2270
+msgid "All Applications"
+msgstr "सभी अनुप्रयोग"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2701
 msgid "All operations complete"
 msgstr "सभी प्रक्रियाएँ पूर्ण हुई।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2655
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2705
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "No matching packages found"
 msgstr "कोई पैकेज नहीं मिला, जो मेल खाता हो"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2658
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2708
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
@@ -321,171 +308,212 @@ msgstr ""
 "प्रदर्शित करने हेतु कोई पैकेज नहीं है।\n"
 "यह एक समस्या का संकेत हो सकता है - कैश रिफ्रेश कर पुनः प्रयास करें।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "System Package"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
 msgid "Your system's package manager"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2799
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2852
 #, python-format
 msgid "Flatpak (%s)"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2879
+msgid "Unknown maintainer"
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2893
+#, python-format
+msgid "by %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2917
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
 msgid "Homepage"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2849
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2926
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
 msgid "Documentation"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2951
+#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2966
+#, python-format
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3029
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
 msgstr "<a href='%s'>here</a> पर क्लिक कर अपनी समीक्षा जोड़ें"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2998
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3083
 msgid ""
 "Unable to communicate with servers. Check your Internet connection and try "
 "again."
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3031
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3116
 msgid "Installed"
 msgstr "इंस्टॉल हैं"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3033
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3118
 msgid "Removing"
 msgstr "हटाएँ जा रहे हैं"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3035
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3120
 msgid "Install"
 msgstr "इंस्‍टॉल करें"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3043
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3128
 msgid "Not installed"
 msgstr "इंस्‍टॉल नहीं है"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3045
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3130
 msgid "Installing"
 msgstr "इंस्‍टॉल हो रहा है"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3049
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3134
 msgid "Cannot remove"
 msgstr "हटाया नहीं जा सकता"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3050
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3135
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr "इस पैकेज को हटाने से आपके सिस्टम को अपरिवर्तनीय क्षति हो सकती है।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3052
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3137
 msgid "Cannot install"
 msgstr "इंस्टॉल नहीं किया जा सकता"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3053
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3138
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
 "इस पैकेज को इंस्टॉल करने से आपके सिस्टम को अपरिवर्तनीय क्षति हो सकती है।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3061
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3146
 msgid "Not available"
 msgstr "उपलब्ध नहीं है"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3065
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3150
 msgid "Please use apt-get to install this package."
 msgstr "इस पैकेज को इंस्टॉल करने के लिए apt-get कमांड उपयोग करें।"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3067
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3152
 msgid "Use apt-get to remove this package."
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3071
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3156
 msgid "Try again"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3159
 msgid "Something went wrong. Click to try again."
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3185
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "%(localSize)s डिस्क स्पेस की आवश्यकता"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3104
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3189
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s का डाउनलोड, %(localSize)s डिस्क स्पेस मुक्त"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3107
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3192
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s का डाउनलोड, %(localSize)s डिस्क स्पेस की आवश्यकता"
 
-#: generate_desktop_files:24 generate_desktop_files:35
+#: generate_desktop_files:25 generate_desktop_files:36
 msgid "Install new applications"
 msgstr "नए अनुप्रयोग इंस्टॉल करें"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
+msgid "Unverified Flatpaks represent a huge security risk"
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+msgid ""
+"They are not officially approved by the developer of the application and "
+"could be maintained by anyone."
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+msgid ""
+"To avoid potential malware, it is strongly recommended not to use unverified "
+"Flatpaks."
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+msgid "Loading, please wait"
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "Generating cache, one moment"
 msgstr ""
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
 msgid "Refresh"
 msgstr "रिफ्रेश करें"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
-msgid "Launch"
-msgstr "चलाएँ"
-
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
-msgid "Please be patient. This can take some time..."
-msgstr "कृपया संयम रखें। इसमें कुछ समय लग सकता है..."
-
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
-msgid "Name:"
-msgstr ""
-
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
-msgid "Version:"
+msgid "Unverified Flatpak"
 msgstr ""
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
-msgid "Size:"
-msgstr ""
+msgid "Launch"
+msgstr "चलाएँ"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
-msgid "Branch:"
+msgid "Please be patient. This can take some time..."
+msgstr "कृपया संयम रखें। इसमें कुछ समय लग सकता है..."
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+msgid "Name:"
 msgstr ""
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
-msgid "Remote:"
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+msgid "Version:"
 msgstr ""
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
+msgid "Size:"
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
+msgid "Branch:"
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
+msgid "Remote:"
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:22
 msgid "Details"
 msgstr "ब्यौरा"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:23
 msgid "Reviews"
 msgstr "समीक्षाएँ"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:24
 msgid "Optional components"
 msgstr ""
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:25
 msgid "Searching software repositories, one moment"
 msgstr "सॉफ्टवेयर पैकेज-संग्रह खोजें जा रहे हैं, बस एक क्षण"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:26
 msgid "Limit search to current listing"
 msgstr "खोज को वर्तमान सूची तक ही सिमित करें"
 

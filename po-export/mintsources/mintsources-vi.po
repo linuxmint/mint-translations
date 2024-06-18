@@ -7,119 +7,115 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-06-22 12:00+0200\n"
-"PO-Revision-Date: 2021-09-18 15:21+0000\n"
-"Last-Translator: MinhTran <Unknown>\n"
+"POT-Creation-Date: 2024-03-21 22:01+0000\n"
+"PO-Revision-Date: 2024-03-31 15:11+0000\n"
+"Last-Translator: thieninox <Unknown>\n"
 "Language-Team: Vietnamese <vi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-01-04 14:55+0000\n"
-"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
+"X-Launchpad-Export-Date: 2024-06-18 17:53+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:83
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
 msgid "You are about to remove the following PPA:"
 msgstr "Bạn sắp xóa PPA sau:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:86
-#: usr/lib/linuxmint/mintSources/mintSources.py:166
+#: usr/lib/linuxmint/mintSources/mintSources.py:89
+#: usr/lib/linuxmint/mintSources/mintSources.py:155
 #, python-format
 msgid " More info: %s"
 msgstr " Thông tin thêm: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:90
-#: usr/lib/linuxmint/mintSources/mintSources.py:170
+#: usr/lib/linuxmint/mintSources/mintSources.py:93
+#: usr/lib/linuxmint/mintSources/mintSources.py:159
 msgid "Press Enter to continue or Ctrl+C to cancel"
-msgstr ""
+msgstr "Nhấn Enter để tiếp tục hoặc Ctrl+C để hủy"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:94
-#: usr/lib/linuxmint/mintSources/mintSources.py:174
+#: usr/lib/linuxmint/mintSources/mintSources.py:97
+#: usr/lib/linuxmint/mintSources/mintSources.py:163
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "Không yêu cầu phản hồi được. Vui lòng chạy với -y"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:98
-msgid "Cancelling..."
-msgstr ""
-
 #: usr/lib/linuxmint/mintSources/mintSources.py:101
+msgid "Cancelling..."
+msgstr "Đang hủy..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:104
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "Không thể nhận thông tin về PPA: '%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:123
+#: usr/lib/linuxmint/mintSources/mintSources.py:112
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "không xóa được PPA: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:142
+#: usr/lib/linuxmint/mintSources/mintSources.py:131
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "không xóa được kho lưu trữ: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:149
+#: usr/lib/linuxmint/mintSources/mintSources.py:138
 msgid "Adding PPAs is not supported"
 msgstr "Không hỗ trợ thêm PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:156
+#: usr/lib/linuxmint/mintSources/mintSources.py:145
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "Không thêm được PPA: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:160
+#: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Adding private PPAs is not supported currently"
 msgstr "Thêm PPA riêng tư hiện chưa được hỗ trợ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:163
+#: usr/lib/linuxmint/mintSources/mintSources.py:152
 msgid "You are about to add the following PPA:"
 msgstr "Bạn sắp thêm PPA sau:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:193
-#: usr/lib/linuxmint/mintSources/mintSources.py:1554
+#: usr/lib/linuxmint/mintSources/mintSources.py:179
+#: usr/lib/linuxmint/mintSources/mintSources.py:1354
+#: usr/lib/linuxmint/mintSources/mintSources.py:1417
 msgid "Malformed input, repository not added."
 msgstr "Đầu vào không đúng định dạng, kho lưu trữ không được thêm vào."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:196
+#: usr/lib/linuxmint/mintSources/mintSources.py:182
 msgid "Repository already exists."
 msgstr "Kho lưu trữ đã tồn tại."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:260
+#: usr/lib/linuxmint/mintSources/mintSources.py:251
 msgid "Connection timed out, check your connection or try again later."
 msgstr ""
 "Kết nối đã hết thời gian chờ, hãy kiểm tra kết nối của bạn hoặc thử lại sau."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:262
+#: usr/lib/linuxmint/mintSources/mintSources.py:253
 msgid "Failed to establish a secure connection."
-msgstr ""
+msgstr "Không thể thiết lập kết nối bảo mật."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:264
+#: usr/lib/linuxmint/mintSources/mintSources.py:255
 #, python-format
 msgid "Failed to download the PPA: %s."
 msgstr "Không tải xuống được PPA: %s."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:273
-#: usr/lib/linuxmint/mintSources/mintSources.py:277
+#: usr/lib/linuxmint/mintSources/mintSources.py:264
+#: usr/lib/linuxmint/mintSources/mintSources.py:268
 msgid "No supported PPA of this name was found."
 msgstr "Không tìm thấy PPA được hỗ trợ của tên này."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:285
+#: usr/lib/linuxmint/mintSources/mintSources.py:276
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "PPA này không hỗ trợ %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:425
-#: usr/lib/linuxmint/mintSources/mintSources.py:465
-msgid "Sources"
-msgstr "Nguồn"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:434
+#: usr/lib/linuxmint/mintSources/mintSources.py:376
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (Đĩa Cài đặt)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:446
+#: usr/lib/linuxmint/mintSources/mintSources.py:378
 msgid "Local Repository"
 msgstr "Kho lưu trữ cục bộ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:494
+#: usr/lib/linuxmint/mintSources/mintSources.py:458
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -131,124 +127,124 @@ msgstr ""
 "tham gia kiểm thử thì không nên bật kho này. Bạn có chắc chắn muốn bật Romeo "
 "không ?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:526
+#: usr/lib/linuxmint/mintSources/mintSources.py:490
 msgid "Select a mirror"
 msgstr "Chọn một kho sao chép"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:538
+#: usr/lib/linuxmint/mintSources/mintSources.py:502
 msgid "Country"
 msgstr "Quốc gia"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:544
+#: usr/lib/linuxmint/mintSources/mintSources.py:508
 msgid "Mirror"
-msgstr ""
+msgstr "Gương"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:549
+#: usr/lib/linuxmint/mintSources/mintSources.py:513
 msgid "Speed"
 msgstr "Tốc độ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:580
+#: usr/lib/linuxmint/mintSources/mintSources.py:544
 msgid "Worldwide"
 msgstr "Trên toàn thế giới"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:667
-#: usr/lib/linuxmint/mintSources/mintSources.py:681
+#: usr/lib/linuxmint/mintSources/mintSources.py:631
+#: usr/lib/linuxmint/mintSources/mintSources.py:645
 msgid "kB/s"
 msgstr "kB/giây"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:670
+#: usr/lib/linuxmint/mintSources/mintSources.py:634
 msgid "MB/s"
 msgstr "MB/giây"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:673
+#: usr/lib/linuxmint/mintSources/mintSources.py:637
 msgid "GB/s"
 msgstr "GB/giây"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:685
 msgid "Obsolete"
 msgstr "Lỗi thời"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
+#: usr/lib/linuxmint/mintSources/mintSources.py:688
 msgid "Unreachable"
 msgstr "Không đến được"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:866 generate_desktop_files:25
+#: usr/lib/linuxmint/mintSources/mintSources.py:830 generate_desktop_files:25
 #: generate_desktop_files:53
 msgid "Software Sources"
 msgstr "Nguồn Phần mềm"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:886
+#: usr/lib/linuxmint/mintSources/mintSources.py:850
 msgid "Backported packages"
 msgstr "Gói chuyển lại"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:888
+#: usr/lib/linuxmint/mintSources/mintSources.py:852
 msgid "Unstable packages"
 msgstr "Gói chưa ổn định"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:901
+#: usr/lib/linuxmint/mintSources/mintSources.py:865
 msgid "Main"
 msgstr "Chính"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:902
+#: usr/lib/linuxmint/mintSources/mintSources.py:866
 msgid "Base"
 msgstr "Gốc"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:945
-#: usr/lib/linuxmint/mintSources/mintSources.py:970
+#: usr/lib/linuxmint/mintSources/mintSources.py:909
+#: usr/lib/linuxmint/mintSources/mintSources.py:934
 msgid "Enabled"
 msgstr "Cho phép"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:951
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:49
+#: usr/lib/linuxmint/mintSources/mintSources.py:915
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:976
+#: usr/lib/linuxmint/mintSources/mintSources.py:940
 msgid "Repository"
 msgstr "Kho"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:993
+#: usr/lib/linuxmint/mintSources/mintSources.py:957
 msgid "Key"
 msgstr "Khoá"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1131
+#: usr/lib/linuxmint/mintSources/mintSources.py:1072
 msgid "There is no more residual configuration on the system."
 msgstr "Không còn cấu hình dư thừa nào trên hệ thống nữa."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1137
+#: usr/lib/linuxmint/mintSources/mintSources.py:1076
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Vấn đề đã được sửa. Vui lòng nạp lại bộ đệm."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1180
+#: usr/lib/linuxmint/mintSources/mintSources.py:1118
 msgid "Duplicate entries were removed. Please reload the cache."
 msgstr "Các mục trùng lặp đã bị xóa. Vui lòng tải lại bộ nhớ cache."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1186
+#: usr/lib/linuxmint/mintSources/mintSources.py:1124
 msgid "No duplicate entries were found."
 msgstr "Không có mục nhập trùng lặp nào được tìm thấy."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1199
+#: usr/lib/linuxmint/mintSources/mintSources.py:1133
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
 msgstr "Lỗi với cấu hình APT của bạn, bạn có thể phải tải lại bộ nhớ cache."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1294
+#: usr/lib/linuxmint/mintSources/mintSources.py:1245
 msgid "All missing keys were successfully added."
 msgstr "Tất cả các phím bị thiếu đã được thêm thành công."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1296
+#: usr/lib/linuxmint/mintSources/mintSources.py:1247
 msgid "Not all missing keys could be found."
 msgstr "Không phải tất cả các phím bị thiếu đều có thể được tìm thấy."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1299
+#: usr/lib/linuxmint/mintSources/mintSources.py:1250
 msgid "Keys were added for the following repositories:"
 msgstr "Các phím đã được thêm vào cho các kho sau:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1303
+#: usr/lib/linuxmint/mintSources/mintSources.py:1254
 msgid "Keys are still missing for the following repositories:"
 msgstr "Các phím vẫn còn thiếu cho các kho sau:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1304
+#: usr/lib/linuxmint/mintSources/mintSources.py:1255
 msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
@@ -256,31 +252,28 @@ msgstr ""
 "Thêm (các) phím còn thiếu theo cách thủ công hay xóa các kho lưu trữ hoặc "
 "PPA tương ứng."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1312
+#: usr/lib/linuxmint/mintSources/mintSources.py:1263
 msgid "Please reload the cache."
 msgstr "Vui lòng tải lại bộ nhớ cache."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1317
+#: usr/lib/linuxmint/mintSources/mintSources.py:1268
 msgid "No missing keys were found."
 msgstr "Không có chìa phím bị thiếu được tìm thấy."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1353
+#: usr/lib/linuxmint/mintSources/mintSources.py:1304
 msgid "Open.."
 msgstr "Mở..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1356
-#: usr/lib/linuxmint/mintSources/mintSources.py:1637
-#: usr/lib/linuxmint/mintSources/mintSources.py:1776
+#: usr/lib/linuxmint/mintSources/mintSources.py:1307
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1357
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
+#: usr/lib/linuxmint/mintSources/mintSources.py:1308
 msgid "Open"
 msgstr "Mở"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1369
+#: usr/lib/linuxmint/mintSources/mintSources.py:1318
 msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -288,72 +281,53 @@ msgstr ""
 "Vui lòng nhập dấu vân tay của khóa công khai bạn muốn tải xuống từ "
 "keyerver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1382
+#: usr/lib/linuxmint/mintSources/mintSources.py:1325
 msgid "Are you sure you want to permanently remove the selected keys?"
-msgstr ""
+msgstr "Bạn có chắc chắn muốn xóa vĩnh viễn các phím đã chọn không?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1408
+#: usr/lib/linuxmint/mintSources/mintSources.py:1349
+msgid "Please enter the name of the repository you want to add:"
+msgstr "Vui lòng nhập tên kho bạn muốn thêm:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1375
+#: usr/lib/linuxmint/mintSources/mintSources.py:1438
+msgid ""
+"This repository is already configured, you cannot add it a second time."
+msgstr ""
+"Kho lưu trữ này đã được cấu hình sẵn, bạn không thể thêm nó lần thứ hai."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1386
 msgid "Please enter the name or the URL of the PPA you want to add:"
 msgstr "Vui lòng nhập tên hoặc URL của PPA bạn muốn thêm:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1417
+#: usr/lib/linuxmint/mintSources/mintSources.py:1395
 msgid "The name of the PPA you entered isn't formatted correctly."
 msgstr "Tên của PPA bạn đã nhập không được định dạng đúng."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1473
-msgid "Edit the URL of the PPA"
-msgstr "Sửa URL của PPA"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1448
+msgid ""
+"Are you sure you want to permanently remove the selected repositories?"
+msgstr "Bạn có chắc chắn muốn xóa vĩnh viễn các kho đã chọn không?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1479
+#: usr/lib/linuxmint/mintSources/mintSources.py:1461
 msgid "Are you sure you want to permanently remove the selected PPAs?"
-msgstr ""
+msgstr "Bạn có chắc chắn muốn xóa vĩnh viễn các PPA đã chọn không?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1529
+#: usr/lib/linuxmint/mintSources/mintSources.py:1522
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
 msgstr ""
 "Nội dung PPA này không có sẵn. Xin vui lòng làm mới bộ đệm và thử lại."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1549
-msgid "Please enter the name of the repository you want to add:"
-msgstr "Vui lòng nhập tên kho bạn muốn thêm:"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1566
-msgid ""
-"This repository is already configured, you cannot add it a second time."
-msgstr ""
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1573
-msgid "Edit the URL of the repository"
-msgstr "Sửa URL của kho"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1579
-msgid ""
-"Are you sure you want to permanently remove the selected repositories?"
-msgstr ""
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1638
-#: usr/lib/linuxmint/mintSources/mintSources.py:1775
-msgid "OK"
-msgstr ""
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1771
-msgid "Your configuration changed"
-msgstr ""
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1771
-msgid "Click OK to update your APT cache"
-msgstr ""
-
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:88
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:82
 #, python-format
 msgid "version %s already installed"
 msgstr "phiên bản %s đã được cài đặt"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:91
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:85
 msgid "already installed"
-msgstr ""
+msgstr "đã được cài đặt"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:112
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
@@ -373,7 +347,7 @@ msgid ""
 msgstr "Những gói sau đây có phiên bản không khớp với phiên bản trong kho:"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:122
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
 msgid "Remove"
 msgstr "Gỡ bỏ"
 
@@ -387,7 +361,7 @@ msgstr "Những gói sau đây được cài trên máy nhưng không có trong 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:275
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
 msgid "Select All"
-msgstr ""
+msgstr "Chọn tất cả"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:146
 msgid "Package"
@@ -403,7 +377,7 @@ msgstr "Bản kho"
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:278
 msgid "Clear"
-msgstr ""
+msgstr "Xóa sạch"
 
 #: usr/bin/add-apt-repository:19
 msgid "Error: must run as root"
@@ -419,12 +393,12 @@ msgstr "Cấu hình các nguồn cài đặt phần mềm và cập nhật"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
-msgstr ""
+msgstr "Cảnh báo"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
 msgid ""
 "Review the information below very carefully before validating the command."
-msgstr ""
+msgstr "Xem lại thông tin bên dưới thật cẩn thận trước khi xác nhận lệnh."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
@@ -432,94 +406,107 @@ msgstr "Kho sao chép"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
 msgid "Optional Sources"
-msgstr ""
+msgstr "Nguồn tùy chọn"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
 msgid "Source code repositories"
-msgstr ""
+msgstr "Kho mã nguồn"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
 msgid "Debug symbols"
-msgstr ""
+msgstr "Biểu tượng gỡ lỗi"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
-msgstr "Phục hồi thiết đặt mặc định"
+msgstr "Khôi phục cài đặt mặc định"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
-msgstr ""
+msgstr "Kho chính thức"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
-msgstr ""
+msgstr "Thêm"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
-msgid "Edit"
-msgstr ""
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+msgid "Browse..."
+msgstr "Duyệt..."
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "PPAs"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
 msgid "Additional Repositories"
-msgstr ""
+msgstr "Kho bổ sung"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+msgid "Import"
+msgstr "Nhập"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
-msgid "Import"
-msgstr ""
+msgid "Download"
+msgstr "Tải xuống"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
-msgid "Download"
-msgstr ""
+msgid "Authentication Keys"
+msgstr "Khóa xác thực"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
-msgid "Authentication Keys"
-msgstr ""
-
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Fix MergeList problems"
 msgstr "Sửa vấn đề MergeList"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Purge residual configuration"
 msgstr "Loại bỏ cấu hình dư thừa"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Remove duplicate entries"
-msgstr ""
+msgstr "Xóa các mục trùng lặp"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
+msgid "Add missing keys"
+msgstr "Thêm phím còn thiếu"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
-msgid "Add missing keys"
-msgstr ""
-
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Remove foreign packages"
 msgstr "Gỡ bỏ các gói ngoại"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Downgrade foreign packages"
 msgstr "Tải xuống gói ngoại"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Maintenance"
 msgstr "Bảo trì"
 
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+msgid "Click here to update the APT cache"
+msgstr "Bấm vào đây để cập nhật bộ đệm APT"
+
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
-msgid "Select Mirror"
-msgstr ""
+msgid "Updating cache..."
+msgstr "Đang cập nhật bộ đệm..."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
-msgid "Apply"
-msgstr ""
+msgid "Error"
+msgstr "Lỗi"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+msgid "Select Mirror"
+msgstr "Chọn Gương"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:34
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
 msgstr ""
+"PPA này cung cấp các gói sau. Vui lòng chọn những thứ bạn muốn cài đặt."
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:35
 msgid "Install"
 msgstr "Cài đặt"

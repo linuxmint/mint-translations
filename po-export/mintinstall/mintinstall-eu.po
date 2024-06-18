@@ -7,53 +7,44 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-11-27 14:41+0000\n"
-"PO-Revision-Date: 2023-10-15 14:52+0000\n"
-"Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
+"POT-Creation-Date: 2024-05-11 11:09+0100\n"
+"PO-Revision-Date: 2024-05-24 20:36+0000\n"
+"Last-Translator: Alexander Gabilondo <alexgabi@disroot.org>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2024-01-04 14:53+0000\n"
-"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
+"X-Launchpad-Export-Date: 2024-06-18 17:49+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:97
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:99
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:101
 msgid "Multimedia Codecs"
 msgstr "Multimedia kodekak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:98
 msgid "Multimedia Codecs for KDE"
 msgstr "KDErentzako multimedia kodekak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:482
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:510
 msgid "Add"
 msgstr "Gehitu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:488
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3027
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:516
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3112
 msgid "Remove"
 msgstr "Kendu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:507
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:535
 msgid "Unavailable"
 msgstr "Ez dago erabilgarri"
 
-#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:739
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2883
-#, python-format
-msgid "%d Review"
-msgid_plural "%d Reviews"
-msgstr[0] "Berrikuspen %d"
-msgstr[1] "%d berrikuspen"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:800
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:779
 msgid "This package is a Flatpak"
 msgstr "Pakete hau Flatpak da"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:893
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:883
 msgid "All"
 msgstr "Guztiak"
 
@@ -65,19 +56,19 @@ msgstr ""
 "Ezin da fitxategi hau prozesatu eragiketa aktiboak dauden bitartean.\n"
 "Saiatu berriro amaitzen dutenean."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1066
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1065
 msgid "The Flatpak repo you are trying to add already exists."
 msgstr "Gehitu nahi duzun Flatpak biltegia dagoeneko existitzen da."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1073
 msgid "An error occurred attempting to add the Flatpak repo."
 msgstr "Errore bat gertatu da Flatpak biltegia gehitzen saiatzean."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1082
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1081
 msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr "Une honetan ez dago Flatpak euskarririk. Saiatu flatpak instalatzen."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1100
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
@@ -85,10 +76,10 @@ msgstr ""
 "Une honetan ez dago Flatpak euskarririk. Saiatu flatpak eta gir1.2-flatpak-"
 "1.0 instalatzen."
 
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1140
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1141
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1142
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1952 generate_desktop_files:24
-#: generate_desktop_files:35
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1998 generate_desktop_files:25
+#: generate_desktop_files:36
 msgid "Software Manager"
 msgstr "Software-kudeatzailea"
 
@@ -97,49 +88,45 @@ msgid "Show installed applications"
 msgstr "Erakutsi instalatutako aplikazioak"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1201
-msgid "Search in packages summary (slower search)"
-msgstr "Bilatu paketeen laburpenean (bilaketa mantsoagoa)"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
-msgid "Search in packages description (even slower search)"
-msgstr "Bilatu paketeen deskribapenean (bilaketa are mantsoagoa)"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
 msgid "Refresh the list of packages"
 msgstr "Freskatu paketeen zerrenda"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1227
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1950
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1996
 msgid "About"
 msgstr "Honi buruz"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1452
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1475
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Top Rated"
 msgstr "Puntuazio onena"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1497
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1523
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "Featured"
 msgstr "Nabarmenduak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1557
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1584
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Categories"
 msgstr "Kategoriak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1611
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1649
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
 msgstr[0] "Ataza %d exekutatzen"
 msgstr[1] "%d ataza exekutatzen"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1754
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1792
 msgid "No screenshots available"
 msgstr "Ez dago pantaila argazkirik eskuragarri"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2040
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
@@ -147,172 +134,172 @@ msgstr ""
 "Une honetan eragiketa aktiboak daude.\n"
 "Ziur zaude irten nahi duzula?"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2144
 msgid "Installed Applications"
 msgstr "Instalatutako aplikazioak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
 msgid "Currently working on the following packages"
 msgstr "Une honetan ondorengo paketeetan lanean"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2106
-msgid "All Applications"
-msgstr "Aplikazio guztiak"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2114
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2152
 msgid "Internet"
 msgstr "Internet"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2116
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2154
 msgid "Web"
 msgstr "Webgunea"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2121
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2159
 msgid "Email"
 msgstr "E-posta"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2125
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2163
 msgid "Chat"
 msgstr "Berriketa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2128
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2166
 msgid "File sharing"
 msgstr "Fitxategiak partekatzea"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
 msgid "Sound and video"
 msgstr "Soinua eta bideoa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2136
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
 msgid "Sound"
 msgstr "Soinua"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
 msgid "Video"
 msgstr "Bideoa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2143
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2181
 msgid "Graphics"
 msgstr "Grafikoak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2185
 msgid "3D"
 msgstr "3D"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2149
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
 msgid "Drawing"
 msgstr "Marrazketa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2151
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2189
 msgid "Photography"
 msgstr "Argazkilaritza"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2153
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2191
 msgid "Publishing"
 msgstr "Argitalpena"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2155
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
 msgid "Scanning"
 msgstr "Eskaneatzea"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2157
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2195
 msgid "Viewers"
 msgstr "Ikustaileak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2162
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
 msgid "Office"
 msgstr "Ofimatika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2168
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
 msgid "Games"
 msgstr "Jokoak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2210
 msgid "Board games"
 msgstr "Mahai jokoak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2212
 msgid "First-person"
 msgstr "Lehen pertsona"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2214
 msgid "Real-time strategy"
 msgstr "Denbora errealeko estrategia"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2216
 msgid "Turn-based strategy"
 msgstr "Txandakako estrategia"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2218
 msgid "Emulators"
 msgstr "Emulatzaileak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2220
 msgid "Simulation and racing"
 msgstr "Simulazioa eta lasterketak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
 msgid "Accessories"
 msgstr "Gehigarriak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2231
 msgid "System tools"
 msgstr "Sistemaren tresnak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2238
 msgid "Fonts"
 msgstr "Letra-tipoak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2244
 msgid "Science and Education"
 msgstr "Zientzia eta Hezkuntza"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2245
 msgid "Science"
 msgstr "Zientzia"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2247
 msgid "Maths"
 msgstr "Matematika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2249
 msgid "Education"
 msgstr "Hezkuntza"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2251
 msgid "Electronics"
 msgstr "Elektronika"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2219
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2257
 msgid "Programming"
 msgstr "Programazioa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2221
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2259
 msgid "Java"
 msgstr "Java"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2223
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2261
 msgid "PHP"
 msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2263
 msgid "Python"
 msgstr "Python"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2227
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2265
 msgid "Essentials"
 msgstr "Funtsezkoak"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2651
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2270
+msgid "All Applications"
+msgstr "Aplikazio guztiak"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2701
 msgid "All operations complete"
 msgstr "Eragiketa guztiak burutu dira"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2655
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2705
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "No matching packages found"
 msgstr "Ez da bat datorren paketerik aurkitu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2658
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2708
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
@@ -320,36 +307,53 @@ msgstr ""
 "Ez dago paketerik erakusteko.\n"
 "Honek arazo bat dagoela adierazi dezake - saiatu cache-a freskatzen."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "System Package"
 msgstr "Sistemako paketea"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
 msgid "Your system's package manager"
 msgstr "Zure sistemako pakete-kudeatzailea"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2799
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2852
 #, python-format
 msgid "Flatpak (%s)"
 msgstr "Flatpak (%s)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2879
+msgid "Unknown maintainer"
+msgstr "Mantentzaile ezezaguna"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2893
+#, python-format
+msgid "by %s"
+msgstr "Egilea: %s"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2917
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
 msgid "Homepage"
 msgstr "Webgune nagusia"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2849
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2926
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
 msgid "Documentation"
 msgstr "Dokumentazioa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2951
+#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2966
+#, python-format
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] "Berrikuspen %d"
+msgstr[1] "%d berrikuspen"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3029
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
 msgstr "Egin klik <a href='%s'>hemen</a> zure berrikuspena gehitzeko."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2998
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3083
 msgid ""
 "Unable to communicate with servers. Check your Internet connection and try "
 "again."
@@ -357,139 +361,168 @@ msgstr ""
 "Ezin da zerbitzariekin komunikatu. Egiaztatu zure Interneteko konexioa eta "
 "saiatu berriro."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3031
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3116
 msgid "Installed"
 msgstr "Instalatuta"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3033
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3118
 msgid "Removing"
 msgstr "Kentzen"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3035
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3120
 msgid "Install"
 msgstr "Instalatu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3043
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3128
 msgid "Not installed"
 msgstr "Instalatu gabe"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3045
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3130
 msgid "Installing"
 msgstr "Instalatzen"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3049
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3134
 msgid "Cannot remove"
 msgstr "Ezin da kendu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3050
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3135
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr ""
 "Pakete hau kentzeak konponbiderik gabeko kaltea eragin diezaioke zure "
 "sistemari."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3052
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3137
 msgid "Cannot install"
 msgstr "Ezin da instalatu"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3053
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3138
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr ""
 "Pakete hau instalatzeak konponbiderik gabeko kaltea eragin diezaioke zure "
 "sistemari."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3061
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3146
 msgid "Not available"
 msgstr "Ez dago eskuragarri"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3065
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3150
 msgid "Please use apt-get to install this package."
 msgstr "Mesedez erabili apt-get pakete hau instalatzeko."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3067
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3152
 msgid "Use apt-get to remove this package."
 msgstr "Erabili apt-get pakete hau kentzeko."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3071
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3156
 msgid "Try again"
 msgstr "Saiatu berriro"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3159
 msgid "Something went wrong. Click to try again."
 msgstr "Arazoren bat egon da. Egin klik berriz saiatzeko."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3185
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "Diskoko %(localSize)s behar dira"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3104
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3189
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s deskargatzeko, diskoko %(localSize)s liberatuta"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3107
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3192
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s deskargatzeko, diskoko %(localSize)s behar dira"
 
-#: generate_desktop_files:24 generate_desktop_files:35
+#: generate_desktop_files:25 generate_desktop_files:36
 msgid "Install new applications"
 msgstr "Instalatu aplikazio berriak"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
+msgid "Unverified Flatpaks represent a huge security risk"
+msgstr ""
+"Egiaztatu gabeko Flatpak-ek segurtasun arrisku handia suposatzen dute"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+msgid ""
+"They are not officially approved by the developer of the application and "
+"could be maintained by anyone."
+msgstr ""
+"Aplikazioaren garatzaileak ez ditu ofizialki onartzen eta edonork mantendu "
+"ditzake."
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+msgid ""
+"To avoid potential malware, it is strongly recommended not to use unverified "
+"Flatpaks."
+msgstr ""
+"Malware potentziala saihesteko, guztiz gomendatzen da egiaztatu gabeko "
+"Flatpak-ak ez erabiltzea."
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+msgid "Loading, please wait"
+msgstr "Kargatzen, itxaron mesedez"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "Generating cache, one moment"
 msgstr "Cache-a sortzen, momentu bat"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
 msgid "Refresh"
 msgstr "Freskatu"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+msgid "Unverified Flatpak"
+msgstr "Egiaztatu gabeko Flatpak"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
 msgid "Launch"
 msgstr "Abiarazi"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Please be patient. This can take some time..."
 msgstr "Itxaron mesedez. Honek denbora pixkat beharko du..."
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
 msgid "Name:"
 msgstr "Izena:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
 msgid "Version:"
 msgstr "Bertsioa:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Size:"
 msgstr "Tamaina:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
 msgid "Branch:"
 msgstr "Adarra:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
 msgid "Remote:"
 msgstr "Urrunekoa:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:22
 msgid "Details"
 msgstr "Xehetasunak"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:23
 msgid "Reviews"
 msgstr "Ebaluazioak"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:24
 msgid "Optional components"
 msgstr "Hautazko osagaiak"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:25
 msgid "Searching software repositories, one moment"
 msgstr "Software biltegiak bilatzen, itxaron pixka bat"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:26
 msgid "Limit search to current listing"
 msgstr "Mugatu bilaketa uneko zerrendara"
 

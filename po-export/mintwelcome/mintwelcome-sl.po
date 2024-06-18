@@ -7,40 +7,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-11-28 10:57+0000\n"
-"PO-Revision-Date: 2024-01-03 17:54+0000\n"
-"Last-Translator: Ugo Ugowsky <Unknown>\n"
+"POT-Creation-Date: 2024-04-23 11:46+0100\n"
+"PO-Revision-Date: 2024-06-08 16:23+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-01-04 14:52+0000\n"
-"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
+"X-Launchpad-Export-Date: 2024-06-18 17:48+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
-#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:129
+#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:121
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:1
 msgid "Welcome"
 msgstr "Dobrodošli"
 
-#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:134
+#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:126
 msgid "First Steps"
 msgstr "Prvi koraki"
 
-#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:139
+#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:131
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:5
 msgid "Documentation"
 msgstr "Dokumentacija"
 
-#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:143
+#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:135
 msgid "Help"
 msgstr "Pomoč"
 
-#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:147
+#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:139
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:2
 msgid "Contribute"
 msgstr "Prispevajte"
 
-#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:154
+#: usr/lib/linuxmint/mintwelcome/mintwelcome.py:146
 msgid "Show this dialog at startup"
 msgstr "Pokaži to pogovorno okno ob zagonu"
 
@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 "Dokumentacijo Linux Mint sestavlja zbirka vodnikov, ki so na voljo v "
 "številnih jezikih in v zapisih PDF, ePUB in HTML. Za izbiro in prenos "
-"kliknite na spodnji gumb."
+"kliknite spodnji gumb."
 
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:7
 msgid "New Features"
@@ -93,7 +93,7 @@ msgid ""
 "Click the button below to discover the new features introduced in this "
 "version of Linux Mint."
 msgstr ""
-"Kliknite spodnji gumb, da odkrijete novosti v tej različici Linux Mint."
+"Za novosti, ki jih prinaša ta različica Linux Minta, kliknite spodnji gumb."
 
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:9
 msgid "Release Notes"
@@ -104,8 +104,8 @@ msgid ""
 "Click the button below to read about known bugs, limitations and workarounds "
 "for this version of Linux Mint."
 msgstr ""
-"Kliknite spodnji gumb, da si preberete o znanih hroščih, omejitvah in "
-"izogibanju težavam v tej različici Linux Mint."
+"Za informacije o znanih hroščih, omejitvah in izogibanju težavam v tej "
+"različici Linux Mint kliknite spodnji gumb."
 
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:11
 msgid "Desktop Colors"
@@ -116,90 +116,58 @@ msgid ""
 "First, make yourself at home. Choose your favorite color and whether you "
 "prefer a light or a dark desktop theme."
 msgstr ""
-"Počutite se kot doma. Izberite svojo najljubšo barvo in izberite med svetlo "
-"in temno temo namizja."
+"Počutite se kot doma. Izberite svojo najljubšo barvo in preklopite med "
+"svetlo ali temno temo namizja."
 
 #: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:13
-msgid "Panel Layout"
-msgstr "Postavitev podokna"
-
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:14
-msgid "Choose your favorite layout."
-msgstr "Izberite svojo zaželeno postavitev."
-
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:15
-msgid "Modern"
-msgstr "Sodobno"
-
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:16
-msgid "A large panel with grouped windows and a small system tray."
-msgstr "Veliko podokno z okni v skupinah in majhnim sistemskim pladnjem."
-
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:17
-msgid "Traditional"
-msgstr "Tradicionalno"
-
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:18
-msgid "A small panel and a traditional window list."
-msgstr "Majhno podokno in tradicionalni seznam oken."
-
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:19
-msgid ""
-"Note: Cinnamon will restart after you choose a new layout. Any customization "
-"you made to the panel will be lost."
-msgstr ""
-"Opomba: Cinnamon se bo ponovno zagnal, potem ko izberete novo postavitev. "
-"Vsakršna prilagoditev, ki ste jo opravili v podoknu, bo izgubljena."
-
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:20
 msgid "System Snapshots"
 msgstr "Posnetki sistema"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:21
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:14
 msgid ""
 "Next, let's set automatic system snapshots. A minimum of two daily and two "
 "boot snapshots are recommended. If anything breaks, you can then restore "
 "your computer to its previous working state."
 msgstr ""
-"V naslednjem koraku nastavimo samodejne posnetke sistema. Priporočena sta "
-"najmanj dva dnevna in dva zagonska posnetka. Če se kar koli zalomi, lahko "
-"obnovite svoj računalnik na prejšnje delujoče stanje."
+"Nastavimo sedaj še samodejne posnetke sistema. Priporočamo vam vsaj dva "
+"dnevna in dva zagonska posnetka. Če bi se karkoli zalomilo, boste tako lahko "
+"obnovili svoj računalnik na prejšnje delujoče stanje."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:22
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:15
 msgid "Driver Manager"
 msgstr "Upravljalnik gonilnikov"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:23
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:16
 msgid ""
 "Check the Driver Manager to see if it recommends any additional drivers for "
 "your computer. Most hardware components are recognized by the Linux kernel "
 "and work automatically without the need to install drivers. Some however "
 "require proprietary drivers to be recognized or to work better."
 msgstr ""
-"Preverite Upravljalnik gonilnikov, da vidite, če priporoča dodatne gonilnike "
-"za vaš računalnik. Jedro Linuxa prepozna večino strojnih komponent in te "
-"delujejo samodejno brez potrebe po nameščanju gonilnikov. Nekatere pa "
-"zahtevajo lastniške gonilnike, da jih prepoznajo ali da delujejo bolje."
+"Z Upravljalnikom gonilnikov preverite, če so za vaš računalnik na voljo "
+"dodatni gonilniki. Linux sicer prepozna večino strojnih komponent, ki "
+"delujejo samodejno in brez potrebe po nameščanju gonilnikov. Nekatere pa za "
+"delovanje in naprednejše funkcije zahtevajo dodatne lastniške gonilnike."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:24
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:17
 msgid "Multimedia Codecs"
 msgstr "Večpredstavnostni kodeki"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:25
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:18
 msgid ""
 "Additional multimedia codecs are required to support some formats and to "
 "play popular audio, video and web content. Click the button below to install "
 "them."
 msgstr ""
 "Dodatni večpredstavnostni kodeki so potrebni za podporo nekaterih vrst "
-"zapisa in za predvajanje priljubljenih zvočnih, video in spletnih vsebin. "
-"Kliknite spodnji gumb, da jih namestite."
+"zapisa in za predvajanje priljubljenih zvočnih, video in spletnih vsebin. Za "
+"njihovo namestitev kliknite spodnji gumb."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:26
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:19
 msgid "Update Manager"
 msgstr "Upravljalnik posodobitev"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:27
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:20
 msgid ""
 "The little shield icon in your system tray is your Update Manager. It "
 "provides software updates, security updates and kernel updates to fix bugs, "
@@ -210,11 +178,11 @@ msgstr ""
 "posodobitve jedra, ki odpravljajo hrošče, varujejo vaš računalnik in "
 "podpirajo novejše strojne komponente."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:28
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:21
 msgid "System Settings"
 msgstr "Sistemske nastavitve"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:29
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:22
 msgid ""
 "Have a look at the system settings and configure your operating system the "
 "way you like. Don't hesitate to customize it and make it feel like home."
@@ -222,64 +190,64 @@ msgstr ""
 "Oglejte si sistemske nastavitve in prilagodite operacijski sistem svojim "
 "potrebam. Ne bojte se spreminjati nastavitev, da se približate svojim željam."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:30
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:23
 msgid "Software Manager"
 msgstr "Upravljalnik programske opreme"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:31
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:24
 msgid ""
 "There are about 60,000 applications available. Linux Mint comes with the "
 "bare minimum to get you started. The Software Manager is there if you're "
 "looking for more."
 msgstr ""
-"Na voljo je okoli 60.000 programov. Linux Mint vsebuje zgolj osnovne za "
-"pričetek dela. Če želite dodatne, vam je na voljo Upravitelj programov."
+"Na voljo je okoli 60.000 programov. Linux Mint vsebuje zgolj osnovna orodja "
+"za pričetek dela. Če želite še dodatne, vam je na voljo Upravitelj programov."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:32
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:25
 msgid "Firewall"
 msgstr "Požarni zid"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:33
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:26
 msgid "Control and monitor network traffic by enabling the firewall."
 msgstr "S požarnim zidom nadzirate in spremljate omrežni promet."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:34
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:27
 msgid "Web Forums"
 msgstr "Spletni forumi"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:35
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:28
 msgid ""
 "The Linux Mint forums are the best place to find help. Join thousands of "
 "users, search topics and threads and find solutions to your problems."
 msgstr ""
-"Forumi Linux Mint so pravo mesto za iskanje pomoči. Pridružite se tisočem "
-"uporabnikov, poiščite teme in niti ter rešitve za svoje težave."
+"Forumi Linux Mint so pravi naslov za iskanje pomoči. Pridružite se tisočim "
+"uporabnikom, preiščite teme in niti ter najdite rešitve za svoje težave."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:36
-msgid "IRC Chat Room"
-msgstr "Klepetalnica IRC"
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:29
+msgid "Chat Room"
+msgstr "Klepetelnica"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:37
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:30
 msgid ""
-"You can also connect to the IRC chat room and chat with users who are "
-"currently online. Ask a question, maybe someone there knows the solution?"
+"You can also connect to Matrix and chat with users who are currently online. "
+"Ask a question, maybe someone there knows the solution?"
 msgstr ""
-"Lahko se povežete tudi v klepetalnico IRC in klepetate z uporabniki, ki so "
-"trenutno dosegljivi. Vprašajte, morda nekdo tam pozna rešitev?"
+"Povežete se lahko tudi v Matrix in klepetate z uporabniki, ki so trenutno "
+"povezani. Postavite vprašanje, morda pa kdo tam zunaj pozna rešitev?"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:38
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:31
 msgid ""
 "Linux Mint has a great community. Many users will welcome you with open arms "
 "and be delighted to help you. Make sure to be patient and respectful with "
 "them. Keep a happy and positive attitude and provide accurate information "
 "when someone helps you."
 msgstr ""
-"Linix Mint ima krasno skupnost uporabnikov. Številni uporabniki vas bodo "
-"lepo sprejeli in bodo veseli, če vam lahko pomagajo. Potrudite se, da ste "
-"potrpežljivi in spoštljivi. Vzdržujte vesel in pozitiven odnos in zagotovite "
-"natančne podatke, ko vam nekdo pomaga."
+"Linux Mint ima krasno skupnost uporabnikov. Številni vas bodo lepo sprejeli "
+"in bodo veseli, če vam bodo lahko pomagali. Potrudite se biti potrpežljivi "
+"in spoštljivi. Vzdržujte vesel in pozitiven odnos ter zagotovite natančne "
+"podatke, ko vam nekdo skuša pomagati."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:39
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:32
 msgid ""
 "If you have a bad experience with another user, try to solve it responsibly "
 "or contact the moderation team. Although we can't guarantee everyone will "
@@ -291,37 +259,37 @@ msgstr ""
 "zagotoviti, da se bodo vsi vedli primerno, naš projekt promovira pomoč, "
 "spoštovanje, toleranco, ideje in konstruktivne razprave."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:40
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:33
 msgid "Welcome to Linux Mint"
 msgstr "Dobrodošli v Linux Mintu"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:41
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:34
 msgid "Welcome to your new operating system!"
-msgstr "Dobrodošči v vaš nov operacijski sistem!"
+msgstr "Dobrodošli v vaš nov operacijski sistem!"
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:42
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:35
 msgid ""
 "This welcome screen will guide you through your first steps, show you how to "
 "find help and where to get more information about Linux Mint."
 msgstr ""
-"Ta zaslon dobrodošlice vas bo vodil po vaših prvih korakih, vam pokazal poti "
-"do pomoči in dodanih informacij o sistemu Linux Mint."
+"Ta zaslon dobrodošlice vas bo vodil po prvih korakih, vam pokazal poti do "
+"pomoči in dodatnih informacij o sistemu Linux Mint."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:43
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:36
 msgid ""
 "On behalf of the development team and everyone involved in the project, we'd "
 "like to thank you for choosing Linux Mint. We hope you'll enjoy using it as "
 "much as we enjoy working on it."
 msgstr ""
-"V imeni razvojne ekipe in vseh vljučenih v projekt se vam zahvaljujemo, ker "
-"ste izbrali Linux Mint. Upamo, da boste v njem uživali vsaj toliko, kot mi "
-"uživamo v njegovem razvoju."
+"V imenu razvojne ekipe in vseh vključenih v projekt, se vam zahvaljujemo, "
+"ker ste izbrali Linux Mint. Upamo, da boste v njem uživali vsaj toliko, kot "
+"mi v njegovem razvoju."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:44
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:37
 msgid "Have a great time and don't hesitate to send us your feedback."
-msgstr "Uživajte in ne oklevajte nam poslati svoj odziv."
+msgstr "Uživajte in ne odlašajte z nami deliti svoje uporabniške izkušnje."
 
-#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:45
+#: usr/share/linuxmint/mintwelcome/mintwelcome.ui.h:38
 msgid "Let's go!"
 msgstr "Pa začnimo!"
 

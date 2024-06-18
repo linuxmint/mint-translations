@@ -7,53 +7,44 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-11-27 14:41+0000\n"
-"PO-Revision-Date: 2023-05-19 11:26+0000\n"
+"POT-Creation-Date: 2024-05-11 11:09+0100\n"
+"PO-Revision-Date: 2024-05-26 10:26+0000\n"
 "Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2024-01-04 14:53+0000\n"
-"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
+"X-Launchpad-Export-Date: 2024-06-18 17:49+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:97
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:99
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:101
 msgid "Multimedia Codecs"
 msgstr "מקודדי מולטימדיה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:98
 msgid "Multimedia Codecs for KDE"
 msgstr "מקודדי מולטימדיה ל־KDE"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:482
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:510
 msgid "Add"
 msgstr "הוספה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:488
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3027
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:516
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3112
 msgid "Remove"
 msgstr "הסרה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:507
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:535
 msgid "Unavailable"
 msgstr "לא זמין"
 
-#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:739
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2883
-#, python-format
-msgid "%d Review"
-msgid_plural "%d Reviews"
-msgstr[0] "ביקורת %d"
-msgstr[1] "%d ביקורות"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:800
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:779
 msgid "This package is a Flatpak"
-msgstr "זוהי חבילת Flatpak"
+msgstr "זוהי חבילת פלטפק"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:893
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:883
 msgid "All"
 msgstr "הכול"
 
@@ -65,80 +56,76 @@ msgstr ""
 "לא ניתן לעבד קובץ זה בזמן שפעולות אחרות מתבצעות.\n"
 "נא לנסות שוב לאחר שהן יסתיימו."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1066
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1065
 msgid "The Flatpak repo you are trying to add already exists."
-msgstr "מאגר ה־Flatpak להוספה, כבר קיים."
+msgstr "מאגר הפלטפק הזה כבר קיים ולא ניתן להוספה."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1073
 msgid "An error occurred attempting to add the Flatpak repo."
-msgstr "אירעה שגיאה בנסיון הוספת מאגר ה־Flatpak."
+msgstr "אירעה שגיאה בניסיון הוספת מאגר הפלטפק"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1082
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1081
 msgid "Flatpak support is not currently available. Try installing flatpak."
-msgstr "תמיכת Flatpak לא זמינה כעת. נא לנסות ולהתקין Flatpak."
+msgstr "תמיכה בפלטפק לא זמינה כעת. נא לנסות ולהתקין פלטפק."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1100
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
 msgstr ""
-"תמיכת Flatpak לא זמינה כעת. נא לנסות להתקין  Flatpak ו־gir1.2-flatpak-1.0."
+"תמיכת פלטפק לא זמינה כעת. נא לנסות להתקין  פלטפק ו־gir1.2-flatpak-1.0."
 
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1140
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1141
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1142
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1952 generate_desktop_files:24
-#: generate_desktop_files:35
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1998 generate_desktop_files:25
+#: generate_desktop_files:36
 msgid "Software Manager"
-msgstr "מנהל תוכנות"
+msgstr "מנהל תוכנה"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1192
 msgid "Show installed applications"
 msgstr "הצגת יישומונים מותקנים"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1201
-msgid "Search in packages summary (slower search)"
-msgstr "חיפוש בתקצירי חבילות (חיפוש איטי)"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
-msgid "Search in packages description (even slower search)"
-msgstr "חיפוש בתיאורי חבילות (חיפוש איטי מאד)"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
 msgid "Refresh the list of packages"
 msgstr "ריענון ברשימת החבילות"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1227
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1950
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+msgid "Preferences"
+msgstr "העדפות"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1996
 msgid "About"
 msgstr "על אודות"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1452
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1475
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Top Rated"
 msgstr "מובילים בדירוג"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1497
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1523
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "Featured"
 msgstr "מומלצים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1557
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1584
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Categories"
 msgstr "סוגי־אב"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1611
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1649
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
 msgstr[0] "משימה %d רצה"
 msgstr[1] "%d משימות רצות"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1754
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1792
 msgid "No screenshots available"
 msgstr "צילומי־מסך לא זמינים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2040
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
@@ -146,172 +133,172 @@ msgstr ""
 "קיימות פעולות בביצוע.\n"
 "האם לצאת?"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2144
 msgid "Installed Applications"
 msgstr "יישומונים מותקנים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
 msgid "Currently working on the following packages"
 msgstr "כעת מתבצעת עבודה על החבילות הבאות"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2106
-msgid "All Applications"
-msgstr "כל היישומונים"
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2114
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2152
 msgid "Internet"
 msgstr "מרשתת"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2116
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2154
 msgid "Web"
 msgstr "רשת"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2121
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2159
 msgid "Email"
 msgstr "דוא״ל"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2125
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2163
 msgid "Chat"
 msgstr "שיחוח"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2128
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2166
 msgid "File sharing"
 msgstr "שיתוף קבצים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
 msgid "Sound and video"
 msgstr "שמע וחוזי"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2136
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
 msgid "Sound"
 msgstr "שמע"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
 msgid "Video"
 msgstr "חוזי"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2143
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2181
 msgid "Graphics"
 msgstr "עיצוב"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2185
 msgid "3D"
 msgstr "תלת־ממד"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2149
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
 msgid "Drawing"
 msgstr "ציור"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2151
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2189
 msgid "Photography"
 msgstr "צילום"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2153
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2191
 msgid "Publishing"
 msgstr "פרסום"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2155
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
 msgid "Scanning"
 msgstr "סריקה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2157
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2195
 msgid "Viewers"
 msgstr "מַשְׁקֵפים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2162
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
 msgid "Office"
-msgstr "כלי משרד"
+msgstr "משרד"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2168
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
 msgid "Games"
 msgstr "משחקים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2210
 msgid "Board games"
 msgstr "משחקי לוח"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2212
 msgid "First-person"
 msgstr "גוף ראשון"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2214
 msgid "Real-time strategy"
 msgstr "אסטרטגיה בזמן אמת"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2216
 msgid "Turn-based strategy"
 msgstr "אסטרטגיה מבוססת תור"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2218
 msgid "Emulators"
 msgstr "מדמים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2220
 msgid "Simulation and racing"
 msgstr "הדמיה ומרוצים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
 msgid "Accessories"
 msgstr "עזרים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2231
 msgid "System tools"
 msgstr "כלי מערכת"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2238
 msgid "Fonts"
 msgstr "גופנים"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2244
 msgid "Science and Education"
 msgstr "מדע וחינוך"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2245
 msgid "Science"
 msgstr "מדע"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2247
 msgid "Maths"
 msgstr "מתמטיקה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2249
 msgid "Education"
 msgstr "חינוך"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2251
 msgid "Electronics"
 msgstr "אלקטרוניקה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2219
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2257
 msgid "Programming"
 msgstr "תכנות"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2221
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2259
 msgid "Java"
 msgstr "Java"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2223
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2261
 msgid "PHP"
 msgstr "PHP"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2263
 msgid "Python"
 msgstr "פייתון"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2227
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2265
 msgid "Essentials"
 msgstr "עקרונות"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2651
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2270
+msgid "All Applications"
+msgstr "כל היישומונים"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2701
 msgid "All operations complete"
 msgstr "כל הפעולות הושלמו"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2655
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2705
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "No matching packages found"
 msgstr "לא נמצאו חבילות תואמות"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2658
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2708
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
@@ -319,170 +306,213 @@ msgstr ""
 "אין חבילות להצגה.\n"
 "עשוי להצביע על בעיה – נא לרענן את המטמון."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "System Package"
 msgstr "חבילת מערכת"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
 msgid "Your system's package manager"
 msgstr "מנהל חבילת המערכת"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2799
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2852
 #, python-format
 msgid "Flatpak (%s)"
-msgstr "Flatpak (%s)"
+msgstr "פלטפק (%s)"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2879
+msgid "Unknown maintainer"
+msgstr "מתחזק לא ידוע"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2893
+#, python-format
+msgid "by %s"
+msgstr "על־ידי %s"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2917
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
 msgid "Homepage"
 msgstr "עמוד בית"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2849
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2926
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
 msgid "Documentation"
 msgstr "תיעוד"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2951
+#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2966
+#, python-format
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] "ביקורת %d"
+msgstr[1] "%d ביקורות"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3029
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
 msgstr "נא להקיש <a href='%s'>כאן</a> להוספת ביקורת אישית."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2998
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3083
 msgid ""
 "Unable to communicate with servers. Check your Internet connection and try "
 "again."
 msgstr "לא ניתן לתקשר עם השרת. נא לבדוק את החיבור למרשתת ולנסות שוב."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3031
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3116
 msgid "Installed"
 msgstr "מותקן"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3033
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3118
 msgid "Removing"
 msgstr "מתבצעת הסרה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3035
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3120
 msgid "Install"
 msgstr "התקנה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3043
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3128
 msgid "Not installed"
 msgstr "לא מותקן"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3045
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3130
 msgid "Installing"
 msgstr "מתבצעת התקנה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3049
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3134
 msgid "Cannot remove"
 msgstr "לא ניתן להסרה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3050
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3135
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr "הסרת חבילה זו עלולה לגרום נזק בלתי הפיך למערכת."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3052
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3137
 msgid "Cannot install"
 msgstr "לא ניתן להתקנה"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3053
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3138
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr "התקנת חבילה זו עלולה לגרום נזק בלתי הפיך למערכת."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3061
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3146
 msgid "Not available"
 msgstr "לא זמין"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3065
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3150
 msgid "Please use apt-get to install this package."
 msgstr "נא להשתמש ב־apt-get install להתקנת חבילה זו."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3067
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3152
 msgid "Use apt-get to remove this package."
 msgstr "נא להשתמש בפקודת apt-get להסרת חבילה זו."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3071
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3156
 msgid "Try again"
 msgstr "נא לנסות שוב"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3159
 msgid "Something went wrong. Click to try again."
 msgstr "משהו השתבש. נא להקיש לנסיון חוזר."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3185
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "נדרשים %(localSize)s מנפח הכונן"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3104
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3189
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s להורדה, %(localSize)s מנפח הכונן שוחררו"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3107
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3192
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s להורדה,  נפח כונן נדרש %(localSize)s"
 
-#: generate_desktop_files:24 generate_desktop_files:35
+#: generate_desktop_files:25 generate_desktop_files:36
 msgid "Install new applications"
 msgstr "התקנת יישומונים חדשים"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
+msgid "Unverified Flatpaks represent a huge security risk"
+msgstr "חבילות פלטפק לא מאומתים מהווים סיכון אבטחה עצום"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+msgid ""
+"They are not officially approved by the developer of the application and "
+"could be maintained by anyone."
+msgstr ""
+"הם לא אושרו באופן רשמי על ידי מפתח היישומון וכל מאן דבעי עשוי לתחזק אותם."
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+msgid ""
+"To avoid potential malware, it is strongly recommended not to use unverified "
+"Flatpaks."
+msgstr ""
+"כדי למנוע תוכנות זדוניות אפשריות, מומלץ מאוד לא להשתמש בפלטפק בלתי מאומתים."
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+msgid "Loading, please wait"
+msgstr "מתצעת טעינה, נא להמתין"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "Generating cache, one moment"
 msgstr "מתבצע חילול מטמון, רק רגע בבקשה"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
 msgid "Refresh"
 msgstr "ריענון"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+msgid "Unverified Flatpak"
+msgstr "חבילת פלטפק בלתי־מאומתת"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
 msgid "Launch"
 msgstr "שיגור"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Please be patient. This can take some time..."
 msgstr "נא להתאזר בסבלנות. פעולה זו עשויה לארוך זמן מה..."
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
 msgid "Name:"
 msgstr "שם:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
 msgid "Version:"
 msgstr "גרסה:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Size:"
 msgstr "גודל:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
 msgid "Branch:"
 msgstr "ענף:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
 msgid "Remote:"
 msgstr "מרוחק:"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:22
 msgid "Details"
 msgstr "פרטים"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:23
 msgid "Reviews"
 msgstr "ביקורות"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:24
 msgid "Optional components"
 msgstr "רכיבים חלופיים"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:25
 msgid "Searching software repositories, one moment"
 msgstr "מתבצע חיפוש מאגרי תוכנה, רק רגע בבקשה"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:26
 msgid "Limit search to current listing"
 msgstr "הגבלת חיפוש לרשימה נוכחית"
 

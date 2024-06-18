@@ -7,118 +7,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-06-22 12:00+0200\n"
-"PO-Revision-Date: 2022-06-23 06:54+0000\n"
-"Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
+"POT-Creation-Date: 2024-03-21 22:01+0000\n"
+"PO-Revision-Date: 2024-03-29 04:05+0000\n"
+"Last-Translator: vaba <Unknown>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-01-04 14:55+0000\n"
-"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
+"X-Launchpad-Export-Date: 2024-06-18 17:53+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:83
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
 msgid "You are about to remove the following PPA:"
 msgstr "Oled eemaldamas järgmist PPAd:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:86
-#: usr/lib/linuxmint/mintSources/mintSources.py:166
+#: usr/lib/linuxmint/mintSources/mintSources.py:89
+#: usr/lib/linuxmint/mintSources/mintSources.py:155
 #, python-format
 msgid " More info: %s"
 msgstr " Rohkem andmeid: %s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:90
-#: usr/lib/linuxmint/mintSources/mintSources.py:170
+#: usr/lib/linuxmint/mintSources/mintSources.py:93
+#: usr/lib/linuxmint/mintSources/mintSources.py:159
 msgid "Press Enter to continue or Ctrl+C to cancel"
 msgstr "Vajuta Enter jätkamiseks või Ctrl+C katkestamiseks"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:94
-#: usr/lib/linuxmint/mintSources/mintSources.py:174
+#: usr/lib/linuxmint/mintSources/mintSources.py:97
+#: usr/lib/linuxmint/mintSources/mintSources.py:163
 msgid "Unable to prompt for response.  Please run with -y"
 msgstr "Vastuse küsimine pole võimalik. Palun käivita võtmega -y"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:98
+#: usr/lib/linuxmint/mintSources/mintSources.py:101
 msgid "Cancelling..."
 msgstr "Katkestamine..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:101
+#: usr/lib/linuxmint/mintSources/mintSources.py:104
 #, python-format
 msgid "Cannot get info about PPA: '%s'."
 msgstr "Järgmise PPA kohta ei suudeta infot hankida: '%s'."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:123
+#: usr/lib/linuxmint/mintSources/mintSources.py:112
 #, python-format
 msgid "failed to remove PPA: '%s'"
 msgstr "järgmise PPA eemaldamine nurjus: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:142
+#: usr/lib/linuxmint/mintSources/mintSources.py:131
 #, python-format
 msgid "failed to remove repository: '%s'"
 msgstr "järgmise hoidla eemaldamine nurjus: '%s'"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:149
+#: usr/lib/linuxmint/mintSources/mintSources.py:138
 msgid "Adding PPAs is not supported"
 msgstr "PPA lisamist ei toetata"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:156
+#: usr/lib/linuxmint/mintSources/mintSources.py:145
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "PPA '%s' lisamine ebaõnnestus."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:160
+#: usr/lib/linuxmint/mintSources/mintSources.py:149
 msgid "Adding private PPAs is not supported currently"
 msgstr "Privaatsete PPA-de tugi hetkel puudub"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:163
+#: usr/lib/linuxmint/mintSources/mintSources.py:152
 msgid "You are about to add the following PPA:"
 msgstr "Oled lisamas järgmist PPAd:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:193
-#: usr/lib/linuxmint/mintSources/mintSources.py:1554
+#: usr/lib/linuxmint/mintSources/mintSources.py:179
+#: usr/lib/linuxmint/mintSources/mintSources.py:1354
+#: usr/lib/linuxmint/mintSources/mintSources.py:1417
 msgid "Malformed input, repository not added."
 msgstr "Vigane sisend, tarkvaraallikat ei lisatud."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:196
+#: usr/lib/linuxmint/mintSources/mintSources.py:182
 msgid "Repository already exists."
 msgstr "Tarkvaraallikas on juba olemas."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:260
+#: usr/lib/linuxmint/mintSources/mintSources.py:251
 msgid "Connection timed out, check your connection or try again later."
 msgstr "Ühendus aegus, kontrolli võrguühendust või proovi hiljem uuesti."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:262
+#: usr/lib/linuxmint/mintSources/mintSources.py:253
 msgid "Failed to establish a secure connection."
 msgstr "Turvalise ühenduse loomine nurjus."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:264
+#: usr/lib/linuxmint/mintSources/mintSources.py:255
 #, python-format
 msgid "Failed to download the PPA: %s."
 msgstr "PPA allalaadimine nurjus: %s."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:273
-#: usr/lib/linuxmint/mintSources/mintSources.py:277
+#: usr/lib/linuxmint/mintSources/mintSources.py:264
+#: usr/lib/linuxmint/mintSources/mintSources.py:268
 msgid "No supported PPA of this name was found."
 msgstr "Ühtegi sellenimelist toetatud PPAd ei leitud."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:285
+#: usr/lib/linuxmint/mintSources/mintSources.py:276
 #, python-format
 msgid "This PPA does not support %s"
 msgstr "Sellel PPAl puudub %s tugi"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:425
-#: usr/lib/linuxmint/mintSources/mintSources.py:465
-msgid "Sources"
-msgstr "Allikad"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:434
+#: usr/lib/linuxmint/mintSources/mintSources.py:376
 msgid "CD-ROM (Installation Disc)"
 msgstr "CD-ROM (paigaldusplaat)"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:446
+#: usr/lib/linuxmint/mintSources/mintSources.py:378
 msgid "Local Repository"
 msgstr "Kohalik repositoorium"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:494
+#: usr/lib/linuxmint/mintSources/mintSources.py:458
 msgid ""
 "Linux Mint uses Romeo to publish packages which are not tested. Once these "
 "packages are tested, they are then moved to the official repositories. "
@@ -130,124 +126,124 @@ msgstr ""
 "beeta-testimisest, ei peaks sa seda varamut lubama. Kas tahad kindlasti "
 "Romeo sisse lülitada?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:526
+#: usr/lib/linuxmint/mintSources/mintSources.py:490
 msgid "Select a mirror"
 msgstr "Vali peegel"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:538
+#: usr/lib/linuxmint/mintSources/mintSources.py:502
 msgid "Country"
 msgstr "Riik"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:544
+#: usr/lib/linuxmint/mintSources/mintSources.py:508
 msgid "Mirror"
 msgstr "Peegel"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:549
+#: usr/lib/linuxmint/mintSources/mintSources.py:513
 msgid "Speed"
 msgstr "Kiirus"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:580
+#: usr/lib/linuxmint/mintSources/mintSources.py:544
 msgid "Worldwide"
 msgstr "Maailm"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:667
-#: usr/lib/linuxmint/mintSources/mintSources.py:681
+#: usr/lib/linuxmint/mintSources/mintSources.py:631
+#: usr/lib/linuxmint/mintSources/mintSources.py:645
 msgid "kB/s"
 msgstr "kB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:670
+#: usr/lib/linuxmint/mintSources/mintSources.py:634
 msgid "MB/s"
 msgstr "MB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:673
+#: usr/lib/linuxmint/mintSources/mintSources.py:637
 msgid "GB/s"
 msgstr "GB/s"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:721
+#: usr/lib/linuxmint/mintSources/mintSources.py:685
 msgid "Obsolete"
 msgstr "Vananenud"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:724
+#: usr/lib/linuxmint/mintSources/mintSources.py:688
 msgid "Unreachable"
 msgstr "Kättesaamatu"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:866 generate_desktop_files:25
+#: usr/lib/linuxmint/mintSources/mintSources.py:830 generate_desktop_files:25
 #: generate_desktop_files:53
 msgid "Software Sources"
 msgstr "Tarkvaraallikad"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:886
+#: usr/lib/linuxmint/mintSources/mintSources.py:850
 msgid "Backported packages"
 msgstr "Uuest väljalaskest tagasi porditud paketid"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:888
+#: usr/lib/linuxmint/mintSources/mintSources.py:852
 msgid "Unstable packages"
 msgstr "Ebastabiilsed paketid"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:901
+#: usr/lib/linuxmint/mintSources/mintSources.py:865
 msgid "Main"
 msgstr "Peamine"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:902
+#: usr/lib/linuxmint/mintSources/mintSources.py:866
 msgid "Base"
 msgstr "Baas"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:945
-#: usr/lib/linuxmint/mintSources/mintSources.py:970
+#: usr/lib/linuxmint/mintSources/mintSources.py:909
+#: usr/lib/linuxmint/mintSources/mintSources.py:934
 msgid "Enabled"
 msgstr "Lubatud"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:951
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:49
+#: usr/lib/linuxmint/mintSources/mintSources.py:915
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
 msgid "PPA"
 msgstr "PPA"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:976
+#: usr/lib/linuxmint/mintSources/mintSources.py:940
 msgid "Repository"
 msgstr "Varamu"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:993
+#: usr/lib/linuxmint/mintSources/mintSources.py:957
 msgid "Key"
 msgstr "Võti"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1131
+#: usr/lib/linuxmint/mintSources/mintSources.py:1072
 msgid "There is no more residual configuration on the system."
 msgstr "Süsteemis pole rohkem maja jäetud seadistusfaile."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1137
+#: usr/lib/linuxmint/mintSources/mintSources.py:1076
 msgid "The problem was fixed. Please reload the cache."
 msgstr "Probleem on parandatud. Palun laadi vahemälu uuesti."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1180
+#: usr/lib/linuxmint/mintSources/mintSources.py:1118
 msgid "Duplicate entries were removed. Please reload the cache."
 msgstr "Duplikaatkirjed eemaldati. Palun värskenda puhvrit."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1186
+#: usr/lib/linuxmint/mintSources/mintSources.py:1124
 msgid "No duplicate entries were found."
 msgstr "Duplikaatkirjeid ei leitud."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1199
+#: usr/lib/linuxmint/mintSources/mintSources.py:1133
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
 msgstr "Viga APTi seadistuses, võib-olla tuleb puhver uuesti laadida."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1294
+#: usr/lib/linuxmint/mintSources/mintSources.py:1245
 msgid "All missing keys were successfully added."
 msgstr "Kõik puuduvad võtmed lisati edukalt."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1296
+#: usr/lib/linuxmint/mintSources/mintSources.py:1247
 msgid "Not all missing keys could be found."
 msgstr "Kõiki puuduvaid võtmeid ei leitud."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1299
+#: usr/lib/linuxmint/mintSources/mintSources.py:1250
 msgid "Keys were added for the following repositories:"
 msgstr "Lisati järgnevate tarkvaraallikate võtmed:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1303
+#: usr/lib/linuxmint/mintSources/mintSources.py:1254
 msgid "Keys are still missing for the following repositories:"
 msgstr "Puuduvad järgnevate tarkvaraallikate võtmed:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1304
+#: usr/lib/linuxmint/mintSources/mintSources.py:1255
 msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
@@ -255,31 +251,28 @@ msgstr ""
 "Lisa ülejäänud puuduvad võtmed käsitsi või eemalda vastavad tarkvaraallikad "
 "või PPAd."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1312
+#: usr/lib/linuxmint/mintSources/mintSources.py:1263
 msgid "Please reload the cache."
 msgstr "Palun värskenda uuesti puhver."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1317
+#: usr/lib/linuxmint/mintSources/mintSources.py:1268
 msgid "No missing keys were found."
 msgstr "Ühtegi puuduvat võtit ei leitud."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1353
+#: usr/lib/linuxmint/mintSources/mintSources.py:1304
 msgid "Open.."
 msgstr "Ava..."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1356
-#: usr/lib/linuxmint/mintSources/mintSources.py:1637
-#: usr/lib/linuxmint/mintSources/mintSources.py:1776
+#: usr/lib/linuxmint/mintSources/mintSources.py:1307
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
 msgid "Cancel"
 msgstr "Loobu"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1357
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
+#: usr/lib/linuxmint/mintSources/mintSources.py:1308
 msgid "Open"
 msgstr "Ava"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1369
+#: usr/lib/linuxmint/mintSources/mintSources.py:1318
 msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
@@ -287,70 +280,50 @@ msgstr ""
 "Palun sisesta avaliku võtme sõrmejälg, mida tahad alla laadida aadressilt "
 "keyserver.ubuntu.com:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1382
+#: usr/lib/linuxmint/mintSources/mintSources.py:1325
 msgid "Are you sure you want to permanently remove the selected keys?"
 msgstr "Kas tahad valitud võtmed jäädavalt eemaldada?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1408
-msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr "Sisesta selle PPA, mida soovid lisada nimi või URL:"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1417
-msgid "The name of the PPA you entered isn't formatted correctly."
-msgstr "Sisestatud PPA nimi ei ole korrektselt vormistatud."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1473
-msgid "Edit the URL of the PPA"
-msgstr "Muuda PPA veebilehe link"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1479
-msgid "Are you sure you want to permanently remove the selected PPAs?"
-msgstr "Kas tahad valitud PPAd jäädavalt eemaldada?"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1529
-msgid ""
-"The content of this PPA is not available. Please refresh the cache and try "
-"again."
-msgstr "Selle PPA sisu ei ole saadaval. Värskenda puhvrit ja proovi uuesti."
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:1549
+#: usr/lib/linuxmint/mintSources/mintSources.py:1349
 msgid "Please enter the name of the repository you want to add:"
 msgstr "Palun sisesta varamu nimi, mida soovid lisada:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1566
+#: usr/lib/linuxmint/mintSources/mintSources.py:1375
+#: usr/lib/linuxmint/mintSources/mintSources.py:1438
 msgid ""
 "This repository is already configured, you cannot add it a second time."
 msgstr ""
 "See tarkvaraallikas on juba seadistatud, seda ei saa teist korda lisada."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1573
-msgid "Edit the URL of the repository"
-msgstr "Muuda varamu URL-i"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1386
+msgid "Please enter the name or the URL of the PPA you want to add:"
+msgstr "Sisesta selle PPA, mida soovid lisada nimi või URL:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1579
+#: usr/lib/linuxmint/mintSources/mintSources.py:1395
+msgid "The name of the PPA you entered isn't formatted correctly."
+msgstr "Sisestatud PPA nimi ei ole korrektselt vormistatud."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1448
 msgid ""
 "Are you sure you want to permanently remove the selected repositories?"
 msgstr "Kas tahad valitud tarkvaraallikad jäädavalt eemaldada?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1638
-#: usr/lib/linuxmint/mintSources/mintSources.py:1775
-msgid "OK"
-msgstr "Sobib"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1461
+msgid "Are you sure you want to permanently remove the selected PPAs?"
+msgstr "Kas tahad valitud PPAd jäädavalt eemaldada?"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1771
-msgid "Your configuration changed"
-msgstr "Sinu seadistus on muutunud"
+#: usr/lib/linuxmint/mintSources/mintSources.py:1522
+msgid ""
+"The content of this PPA is not available. Please refresh the cache and try "
+"again."
+msgstr "Selle PPA sisu ei ole saadaval. Värskenda puhvrit ja proovi uuesti."
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:1771
-msgid "Click OK to update your APT cache"
-msgstr "APT puhvri uuendamiseks klõpsa 'Sobib'"
-
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:88
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:82
 #, python-format
 msgid "version %s already installed"
 msgstr "versioon %s on juba paigaldatud"
 
-#: usr/lib/linuxmint/mintSources/ppa_browser.py:91
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:85
 msgid "already installed"
 msgstr "on juba paigaldatud"
 
@@ -372,7 +345,7 @@ msgid ""
 msgstr "Järgnevate pakettide versioon ei vasta varamus leiduvale tarkvarale."
 
 #: usr/lib/linuxmint/mintSources/foreign_packages.py:122
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
 msgid "Remove"
 msgstr "Eemalda"
 
@@ -455,67 +428,79 @@ msgstr "Ametlikud allikad"
 msgid "Add"
 msgstr "Lisa"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
-msgid "Edit"
-msgstr "Muuda"
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+msgid "Browse..."
+msgstr "Sirvi..."
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "PPAs"
 msgstr "PPAd"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
 msgid "Additional Repositories"
 msgstr "Lisaallikad"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
 msgid "Import"
 msgstr "Impordi"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
 msgid "Download"
 msgstr "Laadi alla"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
 msgid "Authentication Keys"
 msgstr "Autentimise võtmed"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
 msgid "Fix MergeList problems"
 msgstr "Paranda ÜhendamisLoetelu probleemid"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
 msgid "Purge residual configuration"
 msgstr "Eemaldage allesjäänud seadistusfailid"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Remove duplicate entries"
 msgstr "Eemalda duplikaatkirjed"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Add missing keys"
 msgstr "Lisa puuduvad võtmed"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Remove foreign packages"
 msgstr "Eemalda võõrad paketid"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
 msgid "Downgrade foreign packages"
 msgstr "Asenda võõrad uuemad paketid vanematega"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
 msgid "Maintenance"
 msgstr "Hooldus"
 
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+msgid "Click here to update the APT cache"
+msgstr "APT vahemälu värskendamiseks klõpsake siin"
+
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
+msgid "Updating cache..."
+msgstr "Vahemälu värskendamine..."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+msgid "Error"
+msgstr "Viga"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
 msgid "Select Mirror"
 msgstr "Peegli valimine"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Apply"
 msgstr "Rakenda"
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:34
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
@@ -523,6 +508,6 @@ msgstr ""
 "See PPA pakub järgnevaid pakette. Palun märgi, millised paketid sa tahad "
 "paigaldada."
 
-#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:35
 msgid "Install"
 msgstr "Paigalda"

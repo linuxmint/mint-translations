@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-27 14:41+0000\n"
+"POT-Creation-Date: 2024-05-11 11:09+0100\n"
 "PO-Revision-Date: 2021-09-15 01:54+0000\n"
 "Last-Translator: amosbatto <amosbatto@yahoo.com>\n"
 "Language-Team: Aymara <aym@li.org>\n"
@@ -10,50 +10,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2024-01-04 14:53+0000\n"
-"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
+"X-Launchpad-Export-Date: 2024-06-18 17:49+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: ay\n"
 
 #  [ES] "Códecs multimedia"
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:97
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:99
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:101
 msgid "Multimedia Codecs"
 msgstr "Kirkimpi videompi códecs"
 
 #  [ES] "Códecs multimedia para KDE"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:98
 msgid "Multimedia Codecs for KDE"
 msgstr "Kirkimp videompi códecs KDE ukataki"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:482
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:510
 msgid "Add"
 msgstr ""
 
 #  [ES] "Eliminar"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:488
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3027
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:516
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3112
 msgid "Remove"
 msgstr "Chhaqhtayaña"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:507
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:535
 msgid "Unavailable"
 msgstr ""
 
-#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:739
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2883
-#, python-format
-msgid "%d Review"
-msgid_plural "%d Reviews"
-msgstr[0] ""
-msgstr[1] ""
-
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:800
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:779
 msgid "This package is a Flatpak"
 msgstr ""
 
 #  [ES] "Todas"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:893
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:883
 msgid "All"
 msgstr "Taqpacha"
 
@@ -69,20 +60,20 @@ msgstr ""
 "Tukt'ayasinxa mayamp yant'am."
 
 #  [ES] "El repositorio de Flatpak que está tratando de añadir ya existe."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1066
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1065
 msgid "The Flatpak repo you are trying to add already exists."
 msgstr "Flatpak pirwa yapañ munasktaxa utjxiwa."
 
 #  [ES] ""
 #  [ES] "Se ha producido un error al intentar añadir el repositorio de Flatpak."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1073
 msgid "An error occurred attempting to add the Flatpak repo."
 msgstr "Flatpak pirwa yapasinx pantjiwa."
 
 #  [ES] ""
 #  [ES] "Las aplicaciones en formato Flatpak no están disponibles. Pruebe a instalar "
 #  [ES] "el paquete flatpak."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1082
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1081
 msgid "Flatpak support is not currently available. Try installing flatpak."
 msgstr ""
 "Flatpak aplikasiyunanakax janiw utjkiti. flatpak q'ipicha uchantasmawa."
@@ -90,7 +81,7 @@ msgstr ""
 #  [ES] ""
 #  [ES] "Las aplicaciones en formato Flatpak no están disponibles. Pruebe a instalar "
 #  [ES] "los paquetes flatpak y gir1.2-flatpak-1.0."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1100
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
@@ -99,10 +90,10 @@ msgstr ""
 "1.0 q'ipichanak uchantasmawa."
 
 #  [ES] "Gestor de software"
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1140
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1141
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1142
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1952 generate_desktop_files:24
-#: generate_desktop_files:35
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1998 generate_desktop_files:25
+#: generate_desktop_files:36
 msgid "Software Manager"
 msgstr "Software irpiri"
 
@@ -111,59 +102,53 @@ msgstr "Software irpiri"
 msgid "Show installed applications"
 msgstr "Uchantat aplikasiyunanak uñachayaña"
 
-#  [ES] "Buscar en el resumen (búsqueda más lenta)"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1201
-msgid "Search in packages summary (slower search)"
-msgstr "Juk'aptat q'ipichanaka ukan thaqhaña (juk'amp k'achaki)"
-
-#  [ES] "Buscar en la descripción (búsqueda aún mas lenta)"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
-msgid "Search in packages description (even slower search)"
-msgstr "Q'ipichanaka yatiyawi ukan thaqhaña(juk'amp k'achaki)"
-
 #  [ES] "Recargar la lista de paquetes"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1201
 msgid "Refresh the list of packages"
 msgstr "Q'ipichanak tanta jichhaptayaña"
 
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1207
+msgid "Preferences"
+msgstr ""
+
 #  [ES] "Acerca de"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1227
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1950
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1217
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1996
 msgid "About"
 msgstr "Akxata"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1452
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1475
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
 msgid "Top Rated"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1497
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1523
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
 msgid "Featured"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1557
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1584
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
 msgid "Categories"
 msgstr ""
 
 #  [ES] msgstr[0] "%d tarea ejecutando"
 #  [ES] msgstr[1] "%d tareas ejecutando"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1611
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1649
 #, python-format
 msgid "%d task running"
 msgid_plural "%d tasks running"
 msgstr[0] "%d luraw lurasinxa"
 msgstr[1] "%d lurawinak lurasinxa"
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:1754
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1792
 msgid "No screenshots available"
 msgstr ""
 
 #  [ES] ""
 #  [ES] "Hay operaciones activas.\n"
 #  [ES] "¿Seguro que quiere salir?"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2040
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2086
 msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
@@ -172,215 +157,215 @@ msgstr ""
 "¿Mistuñ munapuntati?"
 
 #  [ES] "Aplicaciones instaladas"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2098
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2144
 msgid "Installed Applications"
 msgstr "Uchantat aplikasiyunanak"
 
 #  [ES] "Se está trabajando en los paquetes siguientes"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2101
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
 msgid "Currently working on the following packages"
 msgstr "Jutir q'ipichanakan irnaqasiski"
 
-#  [ES] "Todas las aplicaciones"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2106
-msgid "All Applications"
-msgstr "Taqpach aplikasiyunanaka"
-
 #  [ES] "Internet"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2114
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2152
 msgid "Internet"
 msgstr "Llikapura (Internet)"
 
 #  [ES] "Web"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2116
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2154
 msgid "Web"
 msgstr "Llika (web)"
 
 #  [ES] "Correo electrónico"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2121
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2159
 msgid "Email"
 msgstr "E-chaski"
 
 #  [ES] "Chat"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2125
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2163
 msgid "Chat"
 msgstr "Aruskipawi"
 
 #  [ES] "Intercambio de archivos"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2128
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2166
 msgid "File sharing"
 msgstr "Wayaqanak turkakipawi"
 
 #  [ES] "Sonido y vídeo"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2134
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
 msgid "Sound and video"
 msgstr "Kirkiwimpi videompi"
 
 #  [ES] "Sonido"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2136
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
 msgid "Sound"
 msgstr "Kirkiwi"
 
 #  [ES] "Vídeo"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
 msgid "Video"
 msgstr "Vídeo"
 
 #  [ES] "Gráficos"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2143
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2181
 msgid "Graphics"
 msgstr "Jamuqanaka"
 
 #  [ES] "3D"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2147
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2185
 msgid "3D"
 msgstr "3D"
 
 #  [ES] "Dibujo"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2149
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
 msgid "Drawing"
 msgstr "Jamuqa"
 
 #  [ES] "Fotografía"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2151
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2189
 msgid "Photography"
 msgstr "Phututaki"
 
 #  [ES] "Maquetación"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2153
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2191
 msgid "Publishing"
 msgstr "Taqiru yatxatayaña"
 
 #  [ES] "Escáner"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2155
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
 msgid "Scanning"
 msgstr "Ullakipaskiwa"
 
 #  [ES] "Visores"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2157
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2195
 msgid "Viewers"
 msgstr "Uñjiyirinaka"
 
 #  [ES] "Oficina"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2162
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
 msgid "Office"
 msgstr "Irnaqañ uta (oficina)"
 
 #  [ES] "Juegos"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2168
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
 msgid "Games"
 msgstr "Anatañanaka"
 
 #  [ES] "Juegos de mesa"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2172
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2210
 msgid "Board games"
 msgstr "Misan anatañanaka"
 
 #  [ES] "Primera persona"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2174
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2212
 msgid "First-person"
 msgstr "Mayir jaqi"
 
 #  [ES] "Estrategia en tiempo real"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2176
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2214
 msgid "Real-time strategy"
 msgstr "Jichhpach luraw thakhi"
 
 #  [ES] "Estrategia por turnos"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2178
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2216
 msgid "Turn-based strategy"
 msgstr "Turnut turnu luraw thakhi"
 
 #  [ES] "Emuladores"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2180
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2218
 msgid "Emulators"
 msgstr "Tukurinaka (emuladores)"
 
 #  [ES] "Simulación y carreras"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2182
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2220
 msgid "Simulation and racing"
 msgstr "Tukuwimpi t'ijuñanakampi"
 
 #  [ES] "Accesorios"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2187
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
 msgid "Accessories"
 msgstr "Phuqhayirinaka"
 
 #  [ES] "Herramientas del sistema"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2193
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2231
 msgid "System tools"
 msgstr "Sistema ukan irnaqañ yänaka"
 
 #  [ES] "Tipografías"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2200
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2238
 msgid "Fonts"
 msgstr "Qillqa kastanaka"
 
 #  [ES] "Ciencia y educación"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2206
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2244
 msgid "Science and Education"
 msgstr "Yatxatawimpi yatichäwimpi"
 
 #  [ES] "Ciencia"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2207
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2245
 msgid "Science"
 msgstr "Yatxatawi"
 
 #  [ES] "Matemáticas"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2209
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2247
 msgid "Maths"
 msgstr "Jakhuchawi (matemáticas)"
 
 #  [ES] "Educación"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2211
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2249
 msgid "Education"
 msgstr "Yatichawi"
 
 #  [ES] "Electrónica"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2213
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2251
 msgid "Electronics"
 msgstr "Illapata yänaka (Electrónica)"
 
 #  [ES] "Programación"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2219
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2257
 msgid "Programming"
 msgstr "Wakichayawi"
 
 #  [ES] "Java"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2221
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2259
 msgid "Java"
 msgstr "Java"
 
 #  [ES] "PHP"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2223
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2261
 msgid "PHP"
 msgstr "PHP"
 
 #  [ES] "Python"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2225
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2263
 msgid "Python"
 msgstr "Python"
 
 #  [ES] "Esenciales"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2227
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2265
 msgid "Essentials"
 msgstr "Wakiskirinaka"
 
+#  [ES] "Todas las aplicaciones"
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2270
+msgid "All Applications"
+msgstr "Taqpach aplikasiyunanaka"
+
 #  [ES] "Se han completado todas las operaciones"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2651
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2701
 msgid "All operations complete"
 msgstr "Taqpach lurawinakax phuqhasiwa"
 
 #  [ES] "No se ha encontrado ningún paquete coincidente"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2655
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2705
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
 msgid "No matching packages found"
 msgstr "Janiw ni mä puraptat q'ipicha jikiskiti"
 
 #  [ES] ""
 #  [ES] "No hay paquetes que mostrar.\n"
 #  [ES] "Pruebe a recargar la lista de paquetes."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2658
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2708
 msgid ""
 "No packages to show.\n"
 "This may indicate a problem - try refreshing the cache."
@@ -388,119 +373,136 @@ msgstr ""
 "No hay paquetes que mostrar Janiw q'ipichanak uñachayañatak utjkiti.\n"
 "Q'ipichanak tanta ukat mayamp apaqasmawa."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
 msgid "System Package"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2787
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
 msgid "Your system's package manager"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2799
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2852
 #, python-format
 msgid "Flatpak (%s)"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2840
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2879
+msgid "Unknown maintainer"
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2893
+#, python-format
+msgid "by %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2917
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
 msgid "Homepage"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2849
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2926
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
 msgid "Documentation"
 msgstr ""
 
+#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2966
+#, python-format
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
 #  [ES] "Haga clic <a href='%s'>aquí</a> para añadir su propia reseña."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2951
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3029
 #, python-format
 msgid "Click <a href='%s'>here</a> to add your own review."
 msgstr "Klik luram <a href='%s'>akjaru</a> arst'awim yapañataki."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:2998
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3083
 msgid ""
 "Unable to communicate with servers. Check your Internet connection and try "
 "again."
 msgstr ""
 
 #  [ES] "Instalado"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3031
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3116
 msgid "Installed"
 msgstr "Uchantata"
 
 #  [ES] "Eliminando"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3033
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3118
 msgid "Removing"
 msgstr "Chhaqhtayaskiwa"
 
 #  [ES] "Instalar"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3035
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3120
 msgid "Install"
 msgstr "Uchantaña"
 
 #  [ES] "No instalado"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3043
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3128
 msgid "Not installed"
 msgstr "Janiw uchantatakiti"
 
 #  [ES] "Instalando"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3045
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3130
 msgid "Installing"
 msgstr "Uchantasina"
 
 #  [ES] "No se puede eliminar"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3049
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3134
 msgid "Cannot remove"
 msgstr "Janiw chhaqtayaskaspati"
 
 #  [ES] "Eliminar este paquete podría causar un daño irreparable al sistema."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3050
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3135
 msgid "Removing this package could cause irreparable damage to your system."
 msgstr "Aka q'ipich chhaqhtayasax, sistema ukarux janipuniw walt'aykaspati."
 
 #  [ES] "No se puede instalar"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3052
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3137
 msgid "Cannot install"
 msgstr "Janiw uchantaskaspati"
 
 #  [ES] "Instalar este paquete podría causar un daño irreparable al sistema."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3053
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3138
 msgid ""
 "Installing this package could cause irreparable damage to your system."
 msgstr "Aka q'ipicha uchantasax, sistema ukarux janiw walt'aykaspati."
 
 #  [ES] "No disponible"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3061
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3146
 msgid "Not available"
 msgstr "Janiw apnaqaskaspati"
 
 #  [ES] "Use la orden apt-get para instalar este paquete."
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3065
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3150
 msgid "Please use apt-get to install this package."
 msgstr "apt-get apnaqam, aka q'ipicha uchantañataki."
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3067
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3152
 msgid "Use apt-get to remove this package."
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3071
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3156
 msgid "Try again"
 msgstr ""
 
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3074
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3159
 msgid "Something went wrong. Click to try again."
 msgstr ""
 
 #  [ES] "%(localSize)s de espacio de disco requerido"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3100
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3185
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "%(localSize)s ch'usawxa tisku(disco) ukat munasi"
 
 #  [ES] ""
 #  [ES] "%(downloadSize)s para descargar, %(localSize)s de espacio de disco liberado"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3104
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3189
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr ""
@@ -509,7 +511,7 @@ msgstr ""
 
 #  [ES] ""
 #  [ES] "%(downloadSize)s para descargar, %(localSize)s de espacio de disco requerido"
-#: usr/lib/linuxmint/mintinstall/mintinstall.py:3107
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:3192
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr ""
@@ -517,70 +519,94 @@ msgstr ""
 "munasi"
 
 #  [ES] "Instalar aplicaciones nuevas"
-#: generate_desktop_files:24 generate_desktop_files:35
+#: generate_desktop_files:25 generate_desktop_files:36
 msgid "Install new applications"
 msgstr "Machaq aplikasiyunanak uchantaña"
 
 #: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
+msgid "Unverified Flatpaks represent a huge security risk"
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+msgid ""
+"They are not officially approved by the developer of the application and "
+"could be maintained by anyone."
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+msgid ""
+"To avoid potential malware, it is strongly recommended not to use unverified "
+"Flatpaks."
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+msgid "Loading, please wait"
+msgstr ""
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
 msgid "Generating cache, one moment"
 msgstr ""
 
 #  [ES] "Recargar"
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
 msgid "Refresh"
 msgstr "Jichhaptayaña"
 
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+msgid "Unverified Flatpak"
+msgstr ""
+
 #  [ES] "Ejecutar"
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
 msgid "Launch"
 msgstr "Lurayaña"
 
 #  [ES] "Tenga paciencia, esto puede tardar un rato..."
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
 msgid "Please be patient. This can take some time..."
 msgstr "Suyt'akim, akax qhipt'aspawa..."
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
 msgid "Name:"
 msgstr ""
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
 msgid "Version:"
 msgstr ""
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
 msgid "Size:"
 msgstr ""
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
 msgid "Branch:"
 msgstr ""
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
 msgid "Remote:"
 msgstr ""
 
 #  [ES] "Detalles"
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:22
 msgid "Details"
 msgstr "Juk'amp yatiyawi"
 
 #  [ES] "Reseñas"
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:23
 msgid "Reviews"
 msgstr "Arst'awi"
 
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:19
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:24
 msgid "Optional components"
 msgstr ""
 
 #  [ES] "Buscando en los repositorios de software, un momento"
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:20
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:25
 msgid "Searching software repositories, one moment"
 msgstr "Software pirwanakan thaqhaskiwa, mä juk'a suyt'am"
 
 #  [ES] "Limitar la búsqueda a la lista actual"
-#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:21
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:26
 msgid "Limit search to current listing"
 msgstr "Jichha tanta ukanaki thaqaña"
 
