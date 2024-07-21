@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-11-29 14:37+0000\n"
-"PO-Revision-Date: 2019-02-27 14:14+0000\n"
-"Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
+"PO-Revision-Date: 2024-07-19 03:34+0000\n"
+"Last-Translator: 张鹏 <Unknown>\n"
 "Language-Team: Simplified Chinese <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-06-18 17:50+0000\n"
+"X-Launchpad-Export-Date: 2024-07-21 08:57+0000\n"
 "X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
@@ -34,12 +34,12 @@ msgstr "将移除下列软件包"
 #: usr/bin/cinnamon-remove-application:143 usr/bin/mint-remove-application:143
 #, python-format
 msgid "Cannot remove package %s as it is required by other packages."
-msgstr ""
+msgstr "无法删除%s软件包，因为被其它包依赖。"
 
 #: usr/bin/cinnamon-remove-application:149 usr/bin/mint-remove-application:149
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
-msgstr ""
+msgstr "软件包%s是以下包的依赖项："
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:110
@@ -48,7 +48,7 @@ msgstr "安装"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:40
 msgid "Reinstall"
-msgstr ""
+msgstr "重新安装"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:41
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:120
@@ -57,7 +57,7 @@ msgstr "移除"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:42
 msgid "Purge"
-msgstr ""
+msgstr "清除"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:43
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:140
@@ -66,11 +66,11 @@ msgstr "升级"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:44
 msgid "Downgrade"
-msgstr ""
+msgstr "降级"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:45
 msgid "Skip upgrade"
-msgstr ""
+msgstr "跳过升级"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:61
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:145
@@ -80,33 +80,33 @@ msgstr "请查看下面的修改列表。"
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:68
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:155
 msgid "Additional software will be installed"
-msgstr ""
+msgstr "附加软件会被安装"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:70
 msgid "Additional software will be re-installed"
-msgstr ""
+msgstr "附加软件会被重新安装"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:72
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:157
 msgid "Additional software will be removed"
-msgstr ""
+msgstr "附加软件会被移除"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:74
 msgid "Additional software will be purged"
-msgstr ""
+msgstr "其他软件将被清除"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:76
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:159
 msgid "Additional software will be upgraded"
-msgstr ""
+msgstr "附加软件会被升级"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:78
 msgid "Additional software will be downgraded"
-msgstr ""
+msgstr "附加软件会被降级"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:80
 msgid "Updates will be skipped"
-msgstr ""
+msgstr "将跳过更新"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:168
@@ -137,7 +137,7 @@ msgstr "Flatpak"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:251
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:332
 msgid "An error occurred"
