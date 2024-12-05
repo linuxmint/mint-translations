@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:27+0000\n"
-"PO-Revision-Date: 2018-11-27 12:47+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"PO-Revision-Date: 2024-09-10 12:31+0000\n"
+"Last-Translator: Roger Knutsen <Unknown>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 08:57+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:11+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
@@ -30,11 +30,11 @@ msgstr "Verktøy for sikkerhetskopiering"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:217
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:898
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:222
 msgid "Quit"
-msgstr ""
+msgstr "Avslutt"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
@@ -77,7 +77,7 @@ msgstr "Vennligst velg pakkene som skal installeres."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr ""
+msgstr "Hopper over %s fordi navngitte pipetegn ikke støttes."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
@@ -115,6 +115,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
+"Advarsel: noen filer ble ikke lagret. Bare %(archived)d filer ble "
+"sikkerhetskopiert av %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
@@ -131,68 +133,70 @@ msgstr "Filene dine ble gjenopprettet."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr ""
+msgstr "Advarsel: bare %(number)d-filer ble gjenopprettet av %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
-msgstr ""
+msgstr "Listen nedenfor viser programmene du installerte."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:766
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr ""
+msgstr "Programvarevalget ditt ble lagret i %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 msgid "The selected file is not a valid software selection."
-msgstr ""
+msgstr "Den valgte filen er ikke et gyldig programvarevalg."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:787
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:830
 msgid "An error occurred while reading the file."
-msgstr ""
+msgstr "Det oppstod en feil under lesing av filen."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:812
 msgid "Could not locate the package."
-msgstr ""
+msgstr "Kunne ikke finne pakken."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
 #: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
 msgid "Backup apps and files"
-msgstr ""
+msgstr "Sikkerhetskopier apper og filer"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
-msgstr ""
+msgstr "Personlige data"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr ""
+msgstr "Dine filer, innstillinger og innholdet i hjemmekatalogen din"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
-msgstr ""
+msgstr "Gjenopprett..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr ""
+msgstr "Sikkerhetskopier nå..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr ""
+msgstr "Programvareutvalg"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
-msgstr ""
+msgstr "Listen over programmer som er installert på datamaskinen"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr ""
+msgstr "Velg hvor du vil lagre sikkerhetskopifilen:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
+"Legg til filer eller kataloger i listen nedenfor for å ekskludere dem fra "
+"sikkerhetskopien."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -211,44 +215,53 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
+"Skjulte filer og skjulte mapper som ligger i roten av hjemmekatalogen din er "
+"ikke inkludert som standard."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
+"Hvis du vil inkludere noen av dem i sikkerhetskopien, kan du legge dem til i "
+"listen nedenfor."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
-msgstr ""
+msgstr "Inkluder filer"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr ""
+msgstr "Inkluder kataloger"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"Disse filene og mappene inneholder vanligvis midlertidige data eller "
+"preferanser for programmene dine."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr ""
+msgstr "Vent mens filene dine blir sikkerhetskopiert."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr ""
+msgstr "Velg sikkerhetskopien du vil gjenopprette:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
-msgstr ""
+msgstr "Overskrive eksisterende filer?"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"Nei, bare gjenopprett manglende filer.\n"
+"<small>Dette alternativet er trygt og påvirker ikke eksisterende "
+"filer.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -256,28 +269,32 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"Ja, overskriv endringer og gjenopprett innholdet i eksisterende filer.\n"
+"<small>Bruk dette alternativet med forsiktighet. Endringene du har gjort i "
+"filene siden sikkerhetskopien vil gå tapt.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr ""
+msgstr "Vent mens filene dine blir gjenopprettet."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
+"Listen nedenfor viser applikasjonene du installerte med Software Manager."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "Velg applikasjonene du vil lagre."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
-msgstr ""
+msgstr "Velg alle"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Deselect all"
-msgstr ""
+msgstr "Velg bort alle"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid ""
@@ -285,14 +302,17 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"Merk: hvis du vil lagre den komplette listen over alle installerte pakker på "
+"systemet, bruk kommandoen 'dpkg --get-selections > mylist.list' i et "
+"terminalvindu."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
+msgstr "Velg et lagret programvarevalg (.list-fil):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr ""
+msgstr "Velg pakkene du ønsker å installere."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"
@@ -300,7 +320,7 @@ msgstr "Oppdater"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr ""
+msgstr "Alle pakkene i programvareutvalget ditt er installert."
 
 #~ msgid "Your home directory was successfully backed-up into"
 #~ msgstr "Din hjemmekatalog ble sikkerhetskopiert til"

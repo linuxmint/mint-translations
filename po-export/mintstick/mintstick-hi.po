@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2022-10-10 14:03+0000\n"
-"Last-Translator: Devansh Mahajan <Unknown>\n"
+"PO-Revision-Date: 2024-09-19 21:21+0000\n"
+"Last-Translator: Divya kalra <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 08:59+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:14+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 "Language: hi\n"
 
 #: lib/mintstick.py:312
@@ -49,7 +49,7 @@ msgstr "फ़ाइल कॉपी करते समय त्रुटि।"
 
 #: lib/verify.py:54
 msgid "bytes"
-msgstr ""
+msgstr "बाइट्स"
 
 #: lib/verify.py:54
 msgid "KB"
@@ -69,69 +69,69 @@ msgstr "TB"
 
 #: lib/verify.py:87
 msgid "ISO images"
-msgstr ""
+msgstr "आईएसओ छवियां"
 
 #: lib/verify.py:91
 msgid "Checksum files"
-msgstr ""
+msgstr "चेकसम फाइलें"
 
 #: lib/verify.py:95
 msgid "GPG signatures"
-msgstr ""
+msgstr "GPG हस्ताक्षर"
 
 #: lib/verify.py:107 lib/verify.py:108 lib/verify.py:109
 msgid "Calculating..."
-msgstr ""
+msgstr "गणना की जा रही है..."
 
 #: lib/verify.py:167
 msgid "No volume ID found"
-msgstr ""
+msgstr "कोई वॉल्यूम आईडी नहीं मिला"
 
 #: lib/verify.py:208
 msgid "The checksum is correct"
-msgstr ""
+msgstr "चेकसम सही है"
 
 #: lib/verify.py:209
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
-msgstr ""
+msgstr "चेकसम सही है लेकिन राशि की प्रामाणिकता सत्यापित नहीं की गई थी।"
 
 #: lib/verify.py:211
 msgid "Checksum mismatch"
-msgstr ""
+msgstr "चेकसम बेमेल"
 
 #: lib/verify.py:212
 msgid "Download the ISO image again. Its checksum does not match."
-msgstr ""
+msgstr "ISO छवि को फिर से डाउनलोड करें। इसका चेकसम मेल नहीं खाता है।"
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
-msgstr ""
+msgstr "रकम फ़ाइल डाउनलोड नहीं की जा सकी. URL की जाँच करें।"
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
-msgstr ""
+msgstr "gpg फ़ाइल डाउनलोड नहीं की जा सकी. URL की जाँच करें।"
 
 #: lib/verify.py:243
 msgid "The sums file could not be checked."
-msgstr ""
+msgstr "रकम फाइल चेक नहीं की जा सकी।"
 
 #: lib/verify.py:250
 msgid "The gpg file could not be checked."
-msgstr ""
+msgstr "gpg फ़ाइल चेक नहीं की जा सकी."
 
 #: lib/verify.py:260
 msgid "Integrity check failed"
-msgstr ""
+msgstr "अखंडता जाँच विफल रही"
 
 #: lib/verify.py:269
 msgid "The SHA256 sums file is not signed."
-msgstr ""
+msgstr "SHA256 सारांश फ़ाइल हस्ताक्षरित नहीं है।"
 
 #: lib/verify.py:273
 #, python-format
 msgid "Signed by: %s"
-msgstr ""
+msgstr "द्वारा हस्ताक्षरित: %s"
 
 #: lib/verify.py:287
 msgid "Unknown signature"
@@ -139,7 +139,7 @@ msgstr "अज्ञात सिग्नेचर"
 
 #: lib/verify.py:288
 msgid "Key not found on keyserver."
-msgstr ""
+msgstr "कुंजी सर्वर पर नहीं मिली।"
 
 #: lib/verify.py:299 lib/verify.py:305
 msgid "Everything looks good!"
@@ -147,23 +147,24 @@ msgstr "सबकुछ ठीक है!"
 
 #: lib/verify.py:300
 msgid "This is an official ISO image."
-msgstr ""
+msgstr "यह एक आधिकारिक आईएसओ छवि है।"
 
 #: lib/verify.py:306
 msgid "This ISO image is verified by a trusted signature."
-msgstr ""
+msgstr "यह ISO छवि एक विश्वसनीय हस्ताक्षर द्वारा सत्यापित की गई है."
 
 #: lib/verify.py:309
 msgid "If you trust the signature you can trust the ISO."
 msgstr ""
+"यदि आप हस्ताक्षर पर विश्वास करते हैं, तो आप ISO पर भरोसा कर सकते हैं।"
 
 #: lib/verify.py:310
 msgid "Untrusted signature"
-msgstr ""
+msgstr "अविश्वसनीय हस्ताक्षर"
 
 #: lib/verify.py:311
 msgid "This ISO image is verified by an untrusted signature."
-msgstr ""
+msgstr "यह ISO छवि एक अविश्वसनीय हस्ताक्षर द्वारा सत्यापित की गई है।"
 
 #: lib/verify.py:316
 msgid "An error occurred"
@@ -171,11 +172,11 @@ msgstr "त्रुटि हुई"
 
 #: lib/verify.py:327
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr ""
+msgstr "ISO छवि का SHA256 योग गलत है।"
 
 #: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
-msgstr ""
+msgstr "SHA256 योग फ़ाइल में इस ISO छवि के लिए योग नहीं है."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
@@ -212,7 +213,7 @@ msgstr "जाँचें"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr ""
+msgstr "छवि की प्रामाणिकता और अखंडता सत्यापित करें"
 
 #: generate_additional_files.py:115 generate_additional_files.py:144
 msgid ""
@@ -226,7 +227,7 @@ msgstr "यूएसबी :"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid "Filesystem:"
-msgstr ""
+msgstr "फाइल सिस्टम:"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid "Select a USB stick"
@@ -288,7 +289,7 @@ msgstr "यूएसबी"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "ISO image:"
-msgstr ""
+msgstr "आईएसओ छवि:"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select an image"
@@ -304,11 +305,11 @@ msgstr "राइट करें"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "This ISO looks like a Windows image."
-msgstr ""
+msgstr "यह आईएसओ विंडोज इमेज की तरह दिखता है।"
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
-msgstr ""
+msgstr "Windows छवियों को विशेष संसाधन की आवश्यकता होती है."
 
 #: share/mintstick/mintstick.ui.h:37
 msgid "More information"
@@ -316,15 +317,15 @@ msgstr "अधिक जानकारी"
 
 #: share/mintstick/verify.ui.h:1
 msgid "ISO:"
-msgstr ""
+msgstr "आईएसओ:"
 
 #: share/mintstick/verify.ui.h:2
 msgid "Volume:"
-msgstr ""
+msgstr "वॉल्यूम :"
 
 #: share/mintstick/verify.ui.h:3
 msgid "SHA256sum:"
-msgstr ""
+msgstr "SHA256sum:"
 
 #: share/mintstick/verify.ui.h:4
 msgid "Size:"
@@ -332,11 +333,11 @@ msgstr "आकार"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr ""
+msgstr "SHA256 रकम फ़ाइल:"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
-msgstr ""
+msgstr "GPG हस्ताक्षरित फ़ाइल:"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
@@ -344,19 +345,19 @@ msgstr "URLs"
 
 #: share/mintstick/verify.ui.h:9
 msgid "SHA256 sums file"
-msgstr ""
+msgstr "SHA256 रकम फ़ाइल"
 
 #: share/mintstick/verify.ui.h:10
 msgid "GPG signed file"
-msgstr ""
+msgstr "GPG हस्ताक्षरित फ़ाइल"
 
 #: share/mintstick/verify.ui.h:11
 msgid "Local files"
-msgstr ""
+msgstr "स्थानीय फ़ाइलें"
 
 #: share/mintstick/verify.ui.h:12
 msgid "SHA256 sum"
-msgstr ""
+msgstr "SHA256 योग"
 
 #: share/mintstick/verify.ui.h:13
 msgid "Check"
@@ -364,7 +365,7 @@ msgstr "जाँचें"
 
 #: share/mintstick/verify.ui.h:14
 msgid "Checksum"
-msgstr ""
+msgstr "चेकसम"
 
 #: share/mintstick/verify.ui.h:15
 msgid "Go back"
@@ -372,4 +373,4 @@ msgstr "पीछे जाऐं"
 
 #: share/mintstick/verify.ui.h:16
 msgid "ISO Verification"
-msgstr ""
+msgstr "आईएसओ सत्यापन"

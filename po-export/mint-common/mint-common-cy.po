@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-11-29 14:37+0000\n"
-"PO-Revision-Date: 2022-12-05 10:12+0000\n"
+"POT-Creation-Date: 2024-11-26 10:25+0000\n"
+"PO-Revision-Date: 2024-12-03 13:59+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 08:57+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:11+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
 msgid ""
@@ -25,23 +25,27 @@ msgstr ""
 "Nid yw'r eitem dewislen yma wedi ei gysylltu ag unrhyw becyn. Hoffech chi ei "
 "dynnu o'r ddewislen beth bynnag?"
 
-#: usr/bin/cinnamon-remove-application:74 usr/bin/mint-remove-application:74
+#: usr/bin/cinnamon-remove-application:78 usr/bin/mint-remove-application:78
 msgid "The following packages will be removed:"
 msgstr "Bydd y pecynnau canlynol yn cael eu tynnu:"
 
-#: usr/bin/cinnamon-remove-application:81 usr/bin/mint-remove-application:81
+#: usr/bin/cinnamon-remove-application:85 usr/bin/mint-remove-application:85
 msgid "Packages to be removed"
 msgstr "Pecynnau i'w tynnu"
 
-#: usr/bin/cinnamon-remove-application:143 usr/bin/mint-remove-application:143
+#: usr/bin/cinnamon-remove-application:146 usr/bin/mint-remove-application:146
 #, python-format
-msgid "Cannot remove package %s as it is required by other packages."
-msgstr "Methu tynnu pecyn %s am fod ei angen ar becynnau eraill."
+msgid "Cannot remove package %s as it is required by a system package."
+msgstr "Methu tynnu pecyn %s gan fod ei angen ar becyn system."
 
-#: usr/bin/cinnamon-remove-application:149 usr/bin/mint-remove-application:149
+#: usr/bin/cinnamon-remove-application:152 usr/bin/mint-remove-application:152
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
 msgstr "Mae'r pecynnau canlynol yn dibynnu ar becyn %s :"
+
+#: usr/bin/mint-remove-flatpak:59
+msgid "Removing"
+msgstr "Wrthi'n tynnu"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:110
@@ -141,7 +145,7 @@ msgstr "Flatpaks"
 msgid "Flatpak"
 msgstr "Flatpak"
 
-#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:332
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:324
 msgid "An error occurred"
 msgstr "Digwyddodd gwall"
 

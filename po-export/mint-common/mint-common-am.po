@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-11-29 14:37+0000\n"
-"PO-Revision-Date: 2019-04-13 19:05+0000\n"
+"POT-Creation-Date: 2024-11-26 10:25+0000\n"
+"PO-Revision-Date: 2024-09-15 13:08+0000\n"
 "Last-Translator: samson <Unknown>\n"
 "Language-Team: Amharic <am@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 08:57+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:10+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
 msgid ""
@@ -23,22 +23,26 @@ msgid ""
 "from the menu anyway?"
 msgstr "ይህ ዝርዝር እቃ ከ ጥቅሎች ጋር ምንም ግንኙነት የለውም፡ ለማንኛውም ከ ዝርዝር ውስጥ ማስወገድ ይፈልጋሉ?"
 
-#: usr/bin/cinnamon-remove-application:74 usr/bin/mint-remove-application:74
+#: usr/bin/cinnamon-remove-application:78 usr/bin/mint-remove-application:78
 msgid "The following packages will be removed:"
 msgstr "የሚቀጥለው ጥቅል ይወገዳል"
 
-#: usr/bin/cinnamon-remove-application:81 usr/bin/mint-remove-application:81
+#: usr/bin/cinnamon-remove-application:85 usr/bin/mint-remove-application:85
 msgid "Packages to be removed"
 msgstr "የሚወገዱ ጥቅሎች"
 
-#: usr/bin/cinnamon-remove-application:143 usr/bin/mint-remove-application:143
+#: usr/bin/cinnamon-remove-application:146 usr/bin/mint-remove-application:146
 #, python-format
-msgid "Cannot remove package %s as it is required by other packages."
+msgid "Cannot remove package %s as it is required by a system package."
 msgstr ""
 
-#: usr/bin/cinnamon-remove-application:149 usr/bin/mint-remove-application:149
+#: usr/bin/cinnamon-remove-application:152 usr/bin/mint-remove-application:152
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
+msgstr ""
+
+#: usr/bin/mint-remove-flatpak:59
+msgid "Removing"
 msgstr ""
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
@@ -48,7 +52,7 @@ msgstr "መግጠሚያ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:40
 msgid "Reinstall"
-msgstr ""
+msgstr "እንደገና መግጠሚያ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:41
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:120
@@ -57,7 +61,7 @@ msgstr "ማስወገጃ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:42
 msgid "Purge"
-msgstr ""
+msgstr "ማስወገጃ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:43
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:140
@@ -66,11 +70,11 @@ msgstr "ማሻሻያ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:44
 msgid "Downgrade"
-msgstr ""
+msgstr "ዝቅ ማድረጊያ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:45
 msgid "Skip upgrade"
-msgstr ""
+msgstr "ማሻሻያውን መዝለያ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:61
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:145
@@ -106,7 +110,7 @@ msgstr ""
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:80
 msgid "Updates will be skipped"
-msgstr ""
+msgstr "ማሻሻያው ይዘለላል"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:168
@@ -139,7 +143,7 @@ msgstr ""
 msgid "Flatpak"
 msgstr ""
 
-#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:332
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:324
 msgid "An error occurred"
 msgstr "ስህተት ተፈጥሯል"
 

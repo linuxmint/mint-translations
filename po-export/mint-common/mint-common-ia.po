@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-11-29 14:37+0000\n"
-"PO-Revision-Date: 2024-02-17 00:29+0000\n"
-"Last-Translator: famese <Unknown>\n"
+"POT-Creation-Date: 2024-11-26 10:25+0000\n"
+"PO-Revision-Date: 2024-11-26 21:26+0000\n"
+"Last-Translator: karm <melo@carmu.com>\n"
 "Language-Team: Interlingua <ia@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 08:57+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:11+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
 msgid ""
@@ -25,25 +25,29 @@ msgstr ""
 "Iste commando del menu non es associate a alcun pacchetto. Vole tu remover "
 "lo ab le menu comocunque?"
 
-#: usr/bin/cinnamon-remove-application:74 usr/bin/mint-remove-application:74
+#: usr/bin/cinnamon-remove-application:78 usr/bin/mint-remove-application:78
 msgid "The following packages will be removed:"
 msgstr "Le sequente pacchettos essera removite:"
 
-#: usr/bin/cinnamon-remove-application:81 usr/bin/mint-remove-application:81
+#: usr/bin/cinnamon-remove-application:85 usr/bin/mint-remove-application:85
 msgid "Packages to be removed"
 msgstr "Le pacchettos a esser removite"
 
-#: usr/bin/cinnamon-remove-application:143 usr/bin/mint-remove-application:143
+#: usr/bin/cinnamon-remove-application:146 usr/bin/mint-remove-application:146
 #, python-format
-msgid "Cannot remove package %s as it is required by other packages."
+msgid "Cannot remove package %s as it is required by a system package."
 msgstr ""
-"Impossibile remover le pacchetto %s perque illo es necessari pro altere "
-"pacchettos."
+"Impossibile remover le pacchetto %s pois que illo es requirite per un "
+"pacchetto de systema."
 
-#: usr/bin/cinnamon-remove-application:149 usr/bin/mint-remove-application:149
+#: usr/bin/cinnamon-remove-application:152 usr/bin/mint-remove-application:152
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
 msgstr "Le pacchetto %s es un dependentia del pacchettos sequente:"
+
+#: usr/bin/mint-remove-flatpak:59
+msgid "Removing"
+msgstr "Remotion"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:110
@@ -143,7 +147,7 @@ msgstr "Flatpaks"
 msgid "Flatpak"
 msgstr "Flatpak"
 
-#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:332
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:324
 msgid "An error occurred"
 msgstr "Un error occurreva"
 

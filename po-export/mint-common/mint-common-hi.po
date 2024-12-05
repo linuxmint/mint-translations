@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-11-29 14:37+0000\n"
-"PO-Revision-Date: 2022-08-18 15:39+0000\n"
-"Last-Translator: Panwar <Unknown>\n"
+"POT-Creation-Date: 2024-11-26 10:25+0000\n"
+"PO-Revision-Date: 2024-09-14 10:54+0000\n"
+"Last-Translator: Divya kalra <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 08:57+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:11+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
 msgid ""
@@ -24,23 +24,27 @@ msgid ""
 msgstr ""
 "यह मेन्यू आइटम किसी पैकेज से संबंधित नहीं है। क्या आप इसे हटाना चाहते हैं ?"
 
-#: usr/bin/cinnamon-remove-application:74 usr/bin/mint-remove-application:74
+#: usr/bin/cinnamon-remove-application:78 usr/bin/mint-remove-application:78
 msgid "The following packages will be removed:"
 msgstr "निम्नलिखित पैकेज हटेंगे :"
 
-#: usr/bin/cinnamon-remove-application:81 usr/bin/mint-remove-application:81
+#: usr/bin/cinnamon-remove-application:85 usr/bin/mint-remove-application:85
 msgid "Packages to be removed"
 msgstr "हटने वाले पैकेज"
 
-#: usr/bin/cinnamon-remove-application:143 usr/bin/mint-remove-application:143
+#: usr/bin/cinnamon-remove-application:146 usr/bin/mint-remove-application:146
 #, python-format
-msgid "Cannot remove package %s as it is required by other packages."
-msgstr "%s पैकेज हटाना संभव नहीं है क्योंकि यह दूसरे पैकेज हेतु आवश्यक है।"
+msgid "Cannot remove package %s as it is required by a system package."
+msgstr ""
 
-#: usr/bin/cinnamon-remove-application:149 usr/bin/mint-remove-application:149
+#: usr/bin/cinnamon-remove-application:152 usr/bin/mint-remove-application:152
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
 msgstr "%s पैकेज निम्नलिखित पैकेज का आश्रित पैकेज है :"
+
+#: usr/bin/mint-remove-flatpak:59
+msgid "Removing"
+msgstr ""
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:110
@@ -49,7 +53,7 @@ msgstr "इंस्‍टॉल करें"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:40
 msgid "Reinstall"
-msgstr ""
+msgstr "पुनर्स्थापित"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:41
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:120
@@ -58,7 +62,7 @@ msgstr "हटाएँ"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:42
 msgid "Purge"
-msgstr ""
+msgstr "शुद्ध करना"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:43
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:140
@@ -67,11 +71,11 @@ msgstr "अपग्रेड करें"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:44
 msgid "Downgrade"
-msgstr ""
+msgstr "अवनयन"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:45
 msgid "Skip upgrade"
-msgstr ""
+msgstr "अपग्रेड छोड़ें"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:61
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:145
@@ -81,33 +85,33 @@ msgstr "कृपया निम्नलिखित बदलाव सूच
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:68
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:155
 msgid "Additional software will be installed"
-msgstr ""
+msgstr "अतिरिक्त सॉफ्टवेयर स्थापित किया जाएगा"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:70
 msgid "Additional software will be re-installed"
-msgstr ""
+msgstr "अतिरिक्त सॉफ़्टवेयर फिर से स्थापित किया जाएगा"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:72
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:157
 msgid "Additional software will be removed"
-msgstr ""
+msgstr "अतिरिक्त सॉफ्टवेयर हटा दिया जाएगा"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:74
 msgid "Additional software will be purged"
-msgstr ""
+msgstr "अतिरिक्त सॉफ्टवेयर को शुद्ध किया जाएगा"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:76
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:159
 msgid "Additional software will be upgraded"
-msgstr ""
+msgstr "अतिरिक्त सॉफ्टवेयर को अपग्रेड किया जाएगा"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:78
 msgid "Additional software will be downgraded"
-msgstr ""
+msgstr "अतिरिक्त सॉफ्टवेयर को डाउनग्रेड किया जाएगा"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:80
 msgid "Updates will be skipped"
-msgstr ""
+msgstr "अपडेट छोड़ दिए जाएंगे"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:168
@@ -138,9 +142,9 @@ msgstr "फ्लैटपैक"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:251
 msgid "Flatpak"
-msgstr ""
+msgstr "फ्लैटपैक"
 
-#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:332
+#: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:324
 msgid "An error occurred"
 msgstr "त्रुटि हुई"
 

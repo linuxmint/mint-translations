@@ -1,22 +1,22 @@
-# Portuguese translation for linuxmint
+# Portuguese translation for mintupload
 # Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# This file is distributed under the same license as the mintupload package.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2020-01-07 13:12+0000\n"
-"Last-Translator: Jcarvalho <Unknown>\n"
+"PO-Revision-Date: 2024-11-26 15:36+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2024-07-21 08:56+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:09+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 "Language: pt\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
@@ -42,22 +42,22 @@ msgstr "%(percentage)s de 1 ficheiro - A enviar para %(service)s"
 #: usr/lib/linuxmint/mintupload/mintupload.py:81
 #, python-format
 msgid "The upload to '%(service)s' was cancelled"
-msgstr "O envio para \"%(service)s\" foi cancelado"
+msgstr "O envio para '%(service)s' foi cancelado"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:93
 #, python-format
 msgid "Upload to '%s' failed: "
-msgstr "O envio para \"%s\" falhou: "
+msgstr "Erro ao enviar para '%s': "
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:99
 #, python-format
 msgid "Successfully uploaded %(number)d files to '%(service)s'"
-msgstr "Enviou com sucesso %(number)d ficheiros para \"%(service)s\""
+msgstr "Enviou com sucesso %(number)d ficheiros para '%(service)s'"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:101
 #, python-format
 msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr "Enviou com sucesso um ficheiro para \"%(service)s\""
+msgstr "Enviou com sucesso um ficheiro para '%(service)s'"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:112
 msgid "Do you want to cancel this upload?"
@@ -91,7 +91,7 @@ msgid ""
 "%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
 msgstr ""
 "Enviados %(size_so_far)s de %(total_size)s - faltam %(time_remaining)s "
-"(%(speed)s/sec)"
+"(%(speed)s/seg.)"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:161
 #, python-format
@@ -198,13 +198,15 @@ msgstr "URL:"
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:352
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
-msgstr "%(1)s não está no ficheiro de configuração em %(2)s ou %(3)s"
+msgstr ""
+"%(1)s não está definido no ficheiro de configuração que se encontra em %(2)s "
+"ou %(3)s"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:27
 #: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
-msgstr "Serviço de envios"
+msgstr "Enviar serviços"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
@@ -242,7 +244,7 @@ msgstr "Acerca"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:120
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr "<b>Por favor indique o nome para o novo serviço de envios:</b>"
+msgstr "<b>Indique o nome para o novo serviço de envios:</b>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:124
 msgid "Service name:"
@@ -292,7 +294,7 @@ msgstr "Caminho:"
 #: usr/lib/linuxmint/mintupload/upload-manager.py:220
 #: usr/lib/linuxmint/mintupload/upload-manager.py:221
 msgid "Hostname or IP address, default: "
-msgstr "Máquina  ou endereço de IP, padrão: "
+msgstr "Nome da máquina ou endereço de IP, padrão: "
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:224
 #: usr/lib/linuxmint/mintupload/upload-manager.py:225
