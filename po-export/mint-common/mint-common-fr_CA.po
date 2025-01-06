@@ -8,26 +8,26 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-11-26 10:25+0000\n"
-"PO-Revision-Date: 2022-12-01 01:27+0000\n"
-"Last-Translator: guwrt <guwrt77@gmail.com>\n"
+"PO-Revision-Date: 2024-12-30 20:04+0000\n"
+"Last-Translator: AO <Unknown>\n"
 "Language-Team: French (Canada) <fr_CA@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-12-05 10:11+0000\n"
-"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
+"X-Launchpad-Export-Date: 2025-01-06 11:51+0000\n"
+"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
 msgstr ""
-"Cet item du menu n'est associé à aucun paquet. Est-ce que vous désirez "
-"toujours le supprimer ?"
+"Cet élément du menu n’est associé à aucun paquet. Voulez-vous quand même le "
+"supprimer du menu ?"
 
 #: usr/bin/cinnamon-remove-application:78 usr/bin/mint-remove-application:78
 msgid "The following packages will be removed:"
-msgstr "Les paquets suivants seront supprimés :"
+msgstr "Les paquets suivants seront supprimés :"
 
 #: usr/bin/cinnamon-remove-application:85 usr/bin/mint-remove-application:85
 msgid "Packages to be removed"
@@ -37,15 +37,16 @@ msgstr "Paquets à supprimer"
 #, python-format
 msgid "Cannot remove package %s as it is required by a system package."
 msgstr ""
+"Impossible de supprimer le paquet %s, car un paquet système en dépend."
 
 #: usr/bin/cinnamon-remove-application:152 usr/bin/mint-remove-application:152
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
-msgstr "Le paquet %s est une dépendance des paquets suivant :"
+msgstr "Les paquets suivants dépendent du paquet %s :"
 
 #: usr/bin/mint-remove-flatpak:59
 msgid "Removing"
-msgstr ""
+msgstr "Suppression"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:39
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:110
@@ -81,7 +82,7 @@ msgstr "Ignorer la mise à niveau"
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:61
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:145
 msgid "Please take a look at the list of changes below."
-msgstr "Veuillez consulter la liste des changements ci-dessous."
+msgstr "Prenez connaissance des changements ci-dessous."
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:68
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:155
@@ -104,12 +105,11 @@ msgstr "Des logiciels supplémentaires seront purgés"
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:76
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:159
 msgid "Additional software will be upgraded"
-msgstr "Des logiciels supplémentaires seront mis à jour"
+msgstr "Des logiciels supplémentaires seront mis à niveau"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:78
 msgid "Additional software will be downgraded"
-msgstr ""
-"Des logiciels supplémentaires seront mis à jour vers des versions inférieures"
+msgstr "Une version antérieure de logiciels supplémentaires sera installée"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:80
 msgid "Updates will be skipped"
@@ -124,19 +124,19 @@ msgstr "Des changements supplémentaires sont nécessaires"
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:174
 #, python-format
 msgid "%s will be downloaded in total."
-msgstr "%s seront téléchargés au total."
+msgstr "Total des téléchargements : %s."
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:97
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:178
 #, python-format
 msgid "%s of disk space will be freed."
-msgstr "%s d’espace disque sera libéré."
+msgstr "Espace disque à libérer : %s."
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:101
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:182
 #, python-format
 msgid "%s more disk space will be used."
-msgstr "%s d’espace disque supplémentaire sera utilisé."
+msgstr "Espace disque à utiliser : %s."
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:106
 msgid "Flatpaks"

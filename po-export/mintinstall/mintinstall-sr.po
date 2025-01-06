@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-11-26 10:39+0000\n"
-"PO-Revision-Date: 2022-08-07 18:51+0000\n"
+"PO-Revision-Date: 2024-12-20 22:46+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
 "MIME-Version: 1.0\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2024-12-05 10:10+0000\n"
-"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
+"X-Launchpad-Export-Date: 2025-01-06 11:50+0000\n"
+"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
 "Language: sr\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:84
@@ -32,7 +32,7 @@ msgstr "Мултимедијални кодеци за KDE"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:220
 msgid "Add"
-msgstr ""
+msgstr "Додај"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:226
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2918
@@ -41,11 +41,11 @@ msgstr "Уклони"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:245
 msgid "Unavailable"
-msgstr ""
+msgstr "Недоступно"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:488
 msgid "This package is a Flatpak"
-msgstr ""
+msgstr "Овај пакет је Flatpak"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:592
 msgid "All"
@@ -97,11 +97,11 @@ msgstr "Освежите листу пакета"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:902
 msgid "Software sources"
-msgstr ""
+msgstr "Извори програма"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:907
 msgid "Preferences"
-msgstr ""
+msgstr "Поставке"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:917
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1796
@@ -111,17 +111,17 @@ msgstr "О програму"
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1263
 #: resources/mintinstall.glade.h:8
 msgid "Top Rated"
-msgstr ""
+msgstr "Најбоље оцењени"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1311
 #: resources/mintinstall.glade.h:6
 msgid "Featured"
-msgstr ""
+msgstr "Издвојени"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1372
 #: resources/mintinstall.glade.h:7
 msgid "Categories"
-msgstr ""
+msgstr "Категорије"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1449
 #, python-format
@@ -133,7 +133,7 @@ msgstr[2] "%d задатак је покренут"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1591
 msgid "No screenshots available"
-msgstr ""
+msgstr "Нема снимака екрана"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1887
 msgid ""
@@ -319,43 +319,44 @@ msgstr ""
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2656
 #: resources/mintinstall.glade.h:14
 msgid "System Package"
-msgstr ""
+msgstr "Системски пакет"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2656
 msgid "Your system's package manager"
-msgstr ""
+msgstr "Управник пакета вашег система"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2668
 #, python-format
 msgid "Flatpak (%s)"
-msgstr ""
+msgstr "Flatpak (%s)"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2697
 #, python-format
 msgid "by %s"
-msgstr ""
+msgstr "%s"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2699
 msgid "Unknown maintainer"
-msgstr ""
+msgstr "Непознат одржавалац"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2723
 #: resources/mintinstall.glade.h:20
 msgid "Homepage"
-msgstr ""
+msgstr "Матична страна"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2732
 #: resources/mintinstall.glade.h:21
 msgid "Documentation"
-msgstr ""
+msgstr "Документација"
 
 #. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2771
 #, python-format
 msgid "%d Review"
 msgid_plural "%d Reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d преглед"
+msgstr[1] "%d прегледа"
+msgstr[2] "%d прегледа"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2834
 #, python-format
@@ -367,6 +368,8 @@ msgid ""
 "Unable to communicate with servers. Check your Internet connection and try "
 "again."
 msgstr ""
+"Не могу да комуницирам са сервером. Проверите Интернет везу и пробајте "
+"поново."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2922
 msgid "Installed"
@@ -417,15 +420,15 @@ msgstr "Употребите „apt-get“ за уградњу овог паке
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2958
 msgid "Use apt-get to remove this package."
-msgstr ""
+msgstr "Користите „apt-get“ да уклоните овај пакет."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2962
 msgid "Try again"
-msgstr ""
+msgstr "Покушај поново"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2965
 msgid "Something went wrong. Click to try again."
-msgstr ""
+msgstr "Нешто је пошло по злу. Кликните да покушате опет."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2991
 #, python-format
@@ -446,39 +449,39 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:39
 msgid "General search options"
-msgstr ""
+msgstr "Опште опције претраге"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:41
 msgid "Search in packages summary (slower search)"
-msgstr ""
+msgstr "Тражи у сажетку пакета (споро)"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:43
 msgid "Search in packages description (even slower search)"
-msgstr ""
+msgstr "Тражи у опису пакета (још спорије)"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:46
 msgid "Flatpaks"
-msgstr ""
+msgstr "Flatpaks"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:49
 msgid "Show unverified Flatpaks (not recommended)"
-msgstr ""
+msgstr "Прикажи непроверене Flatpak програме (не препоручује се)"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:55
 msgid "List all types"
-msgstr ""
+msgstr "Испиши све врсте"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:56
 msgid "Only list the Flatpak"
-msgstr ""
+msgstr "Испиши само Flatpak"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:57
 msgid "Only list the system package"
-msgstr ""
+msgstr "Испиши само системске пакете"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:61
 msgid "When an app has multiple formats:"
-msgstr ""
+msgstr "Када програм има више облика:"
 
 #: generate_desktop_files:25 generate_desktop_files:36
 msgid "Install new applications"
@@ -486,27 +489,30 @@ msgstr "Угради нове програме"
 
 #: resources/mintinstall.glade.h:1
 msgid "Unverified Flatpaks represent a huge security risk"
-msgstr ""
+msgstr "Непроверени Flatpak пакети представљају велики безбедносни ризик"
 
 #: resources/mintinstall.glade.h:2
 msgid ""
 "They are not officially approved by the developer of the application and "
 "could be maintained by anyone."
 msgstr ""
+"Програмер апликације није их званично одобрио а може да га одржава било ко."
 
 #: resources/mintinstall.glade.h:3
 msgid ""
 "To avoid potential malware, it is strongly recommended not to use unverified "
 "Flatpaks."
 msgstr ""
+"Да избегнете потенцијалне злонамерне пакете, врло вам се препоручује да не "
+"користите непроверене Flatpak-ове."
 
 #: resources/mintinstall.glade.h:4
 msgid "Loading, please wait"
-msgstr ""
+msgstr "Учитавам, сачекајте:"
 
 #: resources/mintinstall.glade.h:5
 msgid "Generating cache, one moment"
-msgstr ""
+msgstr "Стварам оставу, тренутак"
 
 #: resources/mintinstall.glade.h:10
 msgid "Refresh"
@@ -514,7 +520,7 @@ msgstr "Освежи"
 
 #: resources/mintinstall.glade.h:11
 msgid "Unverified Flatpak"
-msgstr ""
+msgstr "Непроверени Flatpak"
 
 #: resources/mintinstall.glade.h:12
 msgid "Launch"
@@ -526,23 +532,23 @@ msgstr "Будите стрпљиви. Ово може потрајати..."
 
 #: resources/mintinstall.glade.h:15
 msgid "Name:"
-msgstr ""
+msgstr "Назив:"
 
 #: resources/mintinstall.glade.h:16
 msgid "Version:"
-msgstr ""
+msgstr "Издање:"
 
 #: resources/mintinstall.glade.h:17
 msgid "Size:"
-msgstr ""
+msgstr "Величина:"
 
 #: resources/mintinstall.glade.h:18
 msgid "Branch:"
-msgstr ""
+msgstr "Грана:"
 
 #: resources/mintinstall.glade.h:19
 msgid "Remote:"
-msgstr ""
+msgstr "Удаљено:"
 
 #: resources/mintinstall.glade.h:22
 msgid "Details"
@@ -554,7 +560,7 @@ msgstr "Утисци"
 
 #: resources/mintinstall.glade.h:24
 msgid "Optional components"
-msgstr ""
+msgstr "Изборне компоненте"
 
 #: resources/mintinstall.glade.h:25
 msgid "Searching software repositories, one moment"
