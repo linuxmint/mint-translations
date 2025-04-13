@@ -1,7 +1,7 @@
 # Ukrainian translation for linuxmint
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# Rostyslav Haitkulov <EMAIL@ADDRESS>, 2021.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
 "PO-Revision-Date: 2022-10-27 12:16+0000\n"
-"Last-Translator: Rostyslav Haitkulov <Unknown>\n"
+"Last-Translator: Serhii Starovoitov <drommer.94@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,16 +19,16 @@ msgstr ""
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
-msgstr "USB-нагромаджувач успішно відформатовано."
+msgstr "USB-накопичувач успішно відформатовано."
 
 #: lib/mintstick.py:315
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Під час створення розділу на %s. сталася помилка"
+msgstr "Під час створення розділу на %s сталася помилка."
 
 #: lib/mintstick.py:317 lib/mintstick.py:427
 msgid "Authentication Error."
-msgstr "Помилка розпізнання"
+msgstr "Помилка автентифікації"
 
 #: lib/mintstick.py:322 lib/mintstick.py:433
 msgid "An error occurred."
@@ -36,15 +36,15 @@ msgstr "Сталася помилка."
 
 #: lib/mintstick.py:420
 msgid "The image was successfully written."
-msgstr "Образ було успішно записано"
+msgstr "Образ було успішно записано."
 
 #: lib/mintstick.py:423
 msgid "Not enough space on the USB stick."
-msgstr "Бракує вільного місця на USB-нагромаджувачі"
+msgstr "Бракує місця на USB-накопичувачі."
 
 #: lib/mintstick.py:425
 msgid "An error occured while copying the image."
-msgstr "Під час копіювання образу сталася помилка"
+msgstr "Під час копіювання образу сталася помилка."
 
 #: lib/verify.py:54
 msgid "bytes"
@@ -72,7 +72,7 @@ msgstr "ISO-образи"
 
 #: lib/verify.py:91
 msgid "Checksum files"
-msgstr "Файл контрольних сум"
+msgstr "Файли контрольних сум"
 
 #: lib/verify.py:95
 msgid "GPG signatures"
@@ -88,37 +88,37 @@ msgstr "ID тому не знайдено"
 
 #: lib/verify.py:208
 msgid "The checksum is correct"
-msgstr "Невірна контрольна сума"
+msgstr "Контрольна сума правильна"
 
 #: lib/verify.py:209
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
-msgstr "Контрольна сума вірна, але її автентичність не була перевірена."
+msgstr "Контрольна сума правильна, але її автентичність не була перевірена."
 
 #: lib/verify.py:211
 msgid "Checksum mismatch"
-msgstr "Не співпадає контрольна сума"
+msgstr "Контрольна сума не збігається"
 
 #: lib/verify.py:212
 msgid "Download the ISO image again. Its checksum does not match."
-msgstr "Завантажте ISO-образ ще раз. Його контрольна сума не вірна."
+msgstr "Завантажте ISO-образ ще раз. Контрольна сума не збігається."
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
 msgstr ""
-"Файл контрольних сум не може бути завантажений. Перевірте правильність URL."
+"Не вдалося завантажити файл контрольної суми. Перевірте URL-адресу."
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
-msgstr "Файл gpg  не може бути завантажений. Перевірте правильність URL."
+msgstr "Не вдалося завантажити файл gpg. Перевірте URL-адресу."
 
 #: lib/verify.py:243
 msgid "The sums file could not be checked."
-msgstr "Файл контрольних сум не може бути перевіреним."
+msgstr "Не вдалося перевірити файл контрольної суму."
 
 #: lib/verify.py:250
 msgid "The gpg file could not be checked."
-msgstr "Файл gpg не може бути перевіреним."
+msgstr "Не вдалося перевірити файл gpg."
 
 #: lib/verify.py:260
 msgid "Integrity check failed"
@@ -126,7 +126,7 @@ msgstr "Перевірка цілосності зазнала невдачі"
 
 #: lib/verify.py:269
 msgid "The SHA256 sums file is not signed."
-msgstr "Файл суми SHA256 не підписано."
+msgstr "Файл контрольної суми SHA256 не підписано."
 
 #: lib/verify.py:273
 #, python-format
@@ -147,11 +147,11 @@ msgstr "Все виглядає добре!"
 
 #: lib/verify.py:300
 msgid "This is an official ISO image."
-msgstr "Це офіційний образ ISO."
+msgstr "Це офіційний ISO-образ."
 
 #: lib/verify.py:306
 msgid "This ISO image is verified by a trusted signature."
-msgstr "Даний образ ISO підтверджено достовірним підписом."
+msgstr "Цей ISO-образ перевірено довіреним підписом."
 
 #: lib/verify.py:309
 msgid "If you trust the signature you can trust the ISO."
@@ -163,7 +163,7 @@ msgstr "Недовірений підпис"
 
 #: lib/verify.py:311
 msgid "This ISO image is verified by an untrusted signature."
-msgstr "Цей образ ISO підтверджено недовіреним підписом."
+msgstr "Цей ISO-образ перевірено недовіреним підписом."
 
 #: lib/verify.py:316
 msgid "An error occurred"
@@ -171,35 +171,35 @@ msgstr "Виникла помилка"
 
 #: lib/verify.py:327
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr "Сума SHA256 образу ISO невірна."
+msgstr "Контрольна сума SHA256 ISO-образу є неправильною."
 
 #: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
-msgstr "Файл сум SHA256 не містить контрольних сум для цього образу ISO."
+msgstr "Файл контрольних сум SHA256 не містить сум для цього ISO-образу."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
 msgid "USB Image Writer"
-msgstr "Запис образу на USB-нагромаджувач"
+msgstr "Запис образів на USB-накопичувач"
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: generate_additional_files.py:67 share/mintstick/mintstick.ui.h:39
 msgid "Make a bootable USB stick"
-msgstr "Створити завантажувальний USB-нагромаджувач"
+msgstr "Створити завантажувальний USB-накопичувач"
 
 #: generate_additional_files.py:46 generate_additional_files.py:58
 #: share/mintstick/mintstick.ui.h:27
 msgid "USB Stick Formatter"
-msgstr "Форматування USB-нагромаджувача"
+msgstr "Форматування USB-накопичувачів"
 
 #: generate_additional_files.py:46 generate_additional_files.py:58
 #: generate_additional_files.py:77 share/mintstick/mintstick.ui.h:28
 msgid "Format a USB stick"
-msgstr "Форматувати USB-нагромаджувач"
+msgstr "Форматувати USB-накопичувач"
 
 #: generate_additional_files.py:67
 msgid "Make bootable USB stick"
-msgstr "Створити завантажувальний USB-нагромаджувач"
+msgstr "Створити завантажувальний USB-накопичувач"
 
 #: generate_additional_files.py:77 share/mintstick/mintstick.ui.h:26
 msgid "Format"
@@ -219,12 +219,11 @@ msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
 msgstr ""
-"Це знищить усі дані на USB-нагромаджувачі, Ви впевнені, що бажаєте "
-"продовжити?"
+"Всі дані на USB-накопичувачі буде знищено. Хочете продовжити?"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid "USB stick:"
-msgstr "USB-нагромаджувач:"
+msgstr "USB-накопичувач:"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid "Filesystem:"
@@ -232,7 +231,7 @@ msgstr "Файлова система:"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid "Select a USB stick"
-msgstr "Оберіть USB-нагромаджувач"
+msgstr "Оберіть USB-накопичувач"
 
 #: share/mintstick/mintstick.ui.h:4
 msgid ""
@@ -257,24 +256,24 @@ msgid ""
 "  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
 "FAT32 \n"
-"  + Сумісна з усіма ОС і апаратними пристроями.\n"
-"  - Не можна зберігати файли більші 4Гб.\n"
+"  + Сумісність з усіма ОС і апаратними пристроями.\n"
+"  - Неможливість збереження файлів розміром понад 4ГБ.\n"
 "\n"
 "exFAT\n"
-"  + Сумісна майже з усіма ОС і апаратними пристроями.\n"
-"  + Можливо зберігати файли більші 4Гб.\n"
-"  - Не така широко підтримувана, як FAT32.\n"
+"  + Сумісність майже з усіма ОС і апаратними пристроями.\n"
+"  + Можливість збереження файлів розміром понад 4ГБ.\n"
+"  - Обмеженість підтримки порівняно з FAT32.\n"
 "\n"
 "NTFS \n"
-"  + Сумісна з Windows.\n"
-"  - Несумісна з Mac і більшістю апаратних пристроїв.\n"
-"  - Незначні проблеми сумісности з Linux (NTFS є власницькою файловою "
-"системою).\n"
+"  + Сумісність з Windows.\n"
+"  - Несумісність з Mac та більшістю апаратних пристроїв.\n"
+"  - Ймовірність проблем сумісності з Linux (драйвер створено "
+"за принципом зворотної розробки).\n"
 "\n"
 "EXT4 \n"
-"  + Сучасна, стабільна, швидка, журнальована.\n"
-"  + Підтримує файлові дозволи Linux.\n"
-"  - Несумісна з Windows, Mac і більшістю апаратних пристроїв.\n"
+"  + Сучасність, стабільність, швидкість, журналізованість.\n"
+"  + Підтримка файлових дозволів Linux.\n"
+"  - Несумісність з Windows, Mac та більшістю апаратних пристроїв.\n"
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
@@ -282,7 +281,7 @@ msgstr "Мітка тому:"
 
 #: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
-msgstr "Оберіть позначку для USB-нагромаджувача"
+msgstr "Виберіть назву для вашого USB-накопичувача"
 
 #: share/mintstick/mintstick.ui.h:25
 msgid "USB Stick"
@@ -290,7 +289,7 @@ msgstr "USB Stick"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "ISO image:"
-msgstr "Образ ISO:"
+msgstr "ISO-образ:"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select an image"
@@ -306,7 +305,7 @@ msgstr "Записати"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "This ISO looks like a Windows image."
-msgstr "Цей образ ISO схожий на образ Windows."
+msgstr "Цей ISO-образ схожий на образ Windows."
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
@@ -326,7 +325,7 @@ msgstr "Том:"
 
 #: share/mintstick/verify.ui.h:3
 msgid "SHA256sum:"
-msgstr "SHA256сума:"
+msgstr "SHA256sum:"
 
 #: share/mintstick/verify.ui.h:4
 msgid "Size:"
@@ -334,19 +333,19 @@ msgstr "Розмір:"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr "Файл сум SHA256:"
+msgstr "Файл контрольної суми SHA256:"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
-msgstr "Файл підписаний GPG :"
+msgstr "Файл підписаний GPG:"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
-msgstr "URL'и"
+msgstr "Посилання"
 
 #: share/mintstick/verify.ui.h:9
 msgid "SHA256 sums file"
-msgstr "Файл сум SHA256"
+msgstr "Файл контрольної суми SHA256"
 
 #: share/mintstick/verify.ui.h:10
 msgid "GPG signed file"
