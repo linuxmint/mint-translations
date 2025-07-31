@@ -5,6 +5,7 @@ import sys
 from git import Repo
 
 SKIP = ["linuxmint-installation-guide", "mintubiquity", "slideshow-mint"]
+XAPP_PROJECTS = ["fingwit"]
 CURR_DIR = os.getcwd()
 FOREIGN_DIR = os.path.join(CURR_DIR, "po-export/FOREIGN")
 WORKING_DIR = os.path.expanduser("~/Sandbox/translations/")
@@ -32,7 +33,10 @@ def clone_or_reset(repo_name, parent_path):
         os.system("git pull origin master")
     else:
         # clone repository from github
-        os.system("git clone git@github.com:linuxmint/%s.git" % repo_name)
+        if repo_name in XAPP_PROJECTS:
+            os.system("git clone git@github.com:xapp-project/%s.git" % repo_name)
+        else:
+            os.system("git clone git@github.com:linuxmint/%s.git" % repo_name)
         os.chdir(repo_name)
 
 def copy_translations(repo_name):
