@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:27+0000\n"
-"PO-Revision-Date: 2023-01-14 07:09+0000\n"
+"PO-Revision-Date: 2025-06-15 15:51+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <ka@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 11:51+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:15+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 "Language: ka\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
@@ -31,11 +31,11 @@ msgstr "მარქაფის პროგრამა"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:217
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:898
 msgid "About"
-msgstr ""
+msgstr "შესახებ"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:222
 msgid "Quit"
-msgstr ""
+msgstr "გასვლა"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
@@ -59,6 +59,8 @@ msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
+"ეს მარქაფის ფაილი ან ძალიან ძველია, ან სხვა პროგრამით შეიქმნა. გაშალეთ ის "
+"ხელით."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
@@ -114,6 +116,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
+"გაფრთხილება: ზოგიერთი ფაილი არ შენახულა. %(total)d ფაილიდან, მხოლოდ, "
+"%(archived)d დამარქაფდა."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
@@ -130,11 +134,11 @@ msgstr "თქვენი ფაილების აღდგენა წა
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
-msgstr ""
+msgstr "გაფრთხილება: %(total)d ფაილიდან, მხოლოდ, %(number)d ფაილი აღდგა."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
-msgstr ""
+msgstr "ქვემოთ სიაა პროგრამების, რომლებიც თქვენ დააყენეთ."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:766
 #, python-format
@@ -157,7 +161,7 @@ msgstr "პაკეტის მოძებნის შეცდომა."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
 #: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
 msgid "Backup apps and files"
-msgstr ""
+msgstr "ფაილების და აპების მარქაფი"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
@@ -192,6 +196,7 @@ msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
+"დაამატეთ ფაილები და საქაღალდეები სიაში ქვემოთ, რომ ისინი მარქაფიდან ამოიღოთ."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -210,12 +215,15 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
+"დამალული ფაილები და საქაღალდეები, რომლებიც თქვენს საწყის საქაღალდეშია, "
+"ნაგულისხმევად ჩასმული არაა."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
+"თუ გნებავთ, ზოგიერთი მათგანი ჩასვათ მარქაფში, დაამატეთ ისინი სიაში ქვემოთ."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
@@ -230,10 +238,12 @@ msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"ეს ფაილები და საქაღალდეები ჩვეულებრივ შეიცავენ დროებით მონაცემებს ან "
+"პარამეტრებს თქვენი აპლიკაციებისთვის."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr ""
+msgstr "მოითმინეთ, მიმდინარეობს თქვენი ფაილების დამარქაფება."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
@@ -248,6 +258,8 @@ msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"არა, აღდგეს, მხოლოდ, ნაკლული ფაილები.\n"
+"<small>ეს არჩევანი უსაფრთხოა და არ ეხება არსებულ ფაილებს.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -255,6 +267,9 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"დიახ, გადააწერე ცვლილებები და აღადგინე არსებული ფაილების შემცველობა.\n"
+"<small>ეს არჩევანი ცოტა ფრთხილად გამოიყენეთ. ცვლილებები, რომლებიც შეიტანეთ "
+"ფაილებში მარქაფის აღებამდე - დაიკარგება.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
@@ -265,10 +280,11 @@ msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
+"სია ქვემოთ აჩვენებს აპლიკაციებს, რომლებიც პროგრამების მმართველიდან დააყენეთ."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "აირჩიეთ აპლიკაციები, რომლების შენახვაც გსურთ."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
@@ -284,10 +300,12 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"შენიშვნა: თუ გნებავთ დაყენებული აპლიკაციების სრული სიის შენახვა, გამოიყენეთ "
+"ბრძანება 'dpkg --get-selections >mylist.list' ტერმინალში."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
+msgstr "აირჩიეთ შენახული პროგრამების არჩევანი (.list ფაილი):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
@@ -299,7 +317,7 @@ msgstr "განახლება"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "All the packages in your software selection are installed."
-msgstr ""
+msgstr "ყველა პაკეტი თქვენი პროგამების არჩევანში დაყენებულია."
 
 #~ msgid "Make a backup of your home directory"
 #~ msgstr "თქვენი საწყისი საქაღალდის მარქაფი"

@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-21 22:01+0000\n"
-"PO-Revision-Date: 2022-09-05 15:13+0000\n"
-"Last-Translator: أنس <Unknown>\n"
+"PO-Revision-Date: 2025-06-07 22:43+0000\n"
+"Last-Translator: Abdualrahman Hasan <Unknown>\n"
 "Language-Team: anwar AL_iskandrany <anwareleskndrany13@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 11:56+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:19+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 "Language: ar_EG\n"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:86
@@ -220,7 +220,7 @@ msgstr "لم يتم العثور على أي مدخلات مكرّرة."
 #: usr/lib/linuxmint/mintSources/mintSources.py:1133
 msgid ""
 "Error with your APT configuration, you may have to reload the cache first."
-msgstr ""
+msgstr "حدث خطأ بتكوين ال APT خاصتك، ربما عليك أن تعيد تحميل الcache أولا."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1245
 msgid "All missing keys were successfully added."
@@ -243,6 +243,8 @@ msgid ""
 "Add the remaining missing key(s) manually or remove the corresponding "
 "repositories or PPAs."
 msgstr ""
+"أضف المفتاح (أو المفاتيح) المفقود يدويا أو أزل المستودعات المتطابقة أو ال "
+"PPAs."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1263
 msgid "Please reload the cache."
@@ -270,10 +272,12 @@ msgid ""
 "Please enter the fingerprint of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr ""
+"رجاءا أدخل بصمة الإصبع للمفتاح العام الذي تريد تنزيله من "
+"keyserver.ubuntu.com:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1325
 msgid "Are you sure you want to permanently remove the selected keys?"
-msgstr ""
+msgstr "هل أنت متأكد من إزالة المفاتيح المحددة بشكل دائم؟"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1349
 msgid "Please enter the name of the repository you want to add:"
@@ -283,24 +287,24 @@ msgstr "يرجى إدخال اسم المستودع الذي تريد إضافت
 #: usr/lib/linuxmint/mintSources/mintSources.py:1438
 msgid ""
 "This repository is already configured, you cannot add it a second time."
-msgstr ""
+msgstr "المستودع تم تكوينه مسبقا، لا يمكنك إضافته مرة ثانية."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1386
 msgid "Please enter the name or the URL of the PPA you want to add:"
-msgstr ""
+msgstr "الرجاء إدخال إسم أو عنوان ال URL الخاص بال PPA التي تريد إضافتها:"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1395
 msgid "The name of the PPA you entered isn't formatted correctly."
-msgstr ""
+msgstr "اسم ال PPA الذي أدخلته غير منسق بشكل صحيح."
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1448
 msgid ""
 "Are you sure you want to permanently remove the selected repositories?"
-msgstr ""
+msgstr "هل أنت متأكد من حذف المستودعات المحددة بشكل دائم؟"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1461
 msgid "Are you sure you want to permanently remove the selected PPAs?"
-msgstr ""
+msgstr "هل أنت متأكد من حذف ال PPAs المحددة بشكل دائم؟"
 
 #: usr/lib/linuxmint/mintSources/mintSources.py:1522
 msgid ""
@@ -385,12 +389,12 @@ msgstr "تكوين مصادر البرامج والتحديثات القابلة
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
 msgid "Warning"
-msgstr ""
+msgstr "تحذير"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
 msgid ""
 "Review the information below very carefully before validating the command."
-msgstr ""
+msgstr "راجع المعلومات أدناه بكل حذر قبل مصالحة الأمر."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
 msgid "Mirrors"
@@ -398,15 +402,15 @@ msgstr "المرايا"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
 msgid "Optional Sources"
-msgstr ""
+msgstr "مصادر إختيارية"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
 msgid "Source code repositories"
-msgstr ""
+msgstr "مستودعات النص البرمجي"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
 msgid "Debug symbols"
-msgstr ""
+msgstr "رمزيات تصحيح الأخطاء"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
 msgid "Restore the default settings"
@@ -414,15 +418,15 @@ msgstr "استعادة الإعدادات الافتراضية"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
 msgid "Official Repositories"
-msgstr ""
+msgstr "مستودعات رسمية"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
 msgid "Add"
-msgstr ""
+msgstr "أضِف"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
 msgid "Browse..."
-msgstr ""
+msgstr "إستعراض..."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
 msgid "PPAs"
@@ -430,19 +434,19 @@ msgstr "الحزم الشخصية الخاصة(PPAs)"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
 msgid "Additional Repositories"
-msgstr ""
+msgstr "مستودعات أضافية"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
 msgid "Import"
-msgstr ""
+msgstr "إستيراد"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
 msgid "Download"
-msgstr ""
+msgstr "تنزيل"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
 msgid "Authentication Keys"
-msgstr ""
+msgstr "مفاتيح المصادقة"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
 msgid "Fix MergeList problems"
@@ -454,11 +458,11 @@ msgstr "تنظيف التكوين المتبقي"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
 msgid "Remove duplicate entries"
-msgstr ""
+msgstr "أزل المدخلات المتكررة"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
 msgid "Add missing keys"
-msgstr ""
+msgstr "أضف المفاتيح المفقودة"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
 msgid "Remove foreign packages"
@@ -474,19 +478,19 @@ msgstr "الصيانة"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
 msgid "Click here to update the APT cache"
-msgstr ""
+msgstr "إضغط هنا لتحديث ال APT Cache"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
 msgid "Updating cache..."
-msgstr ""
+msgstr "تحديث الذاكرة المخبئية..."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
 msgid "Error"
-msgstr ""
+msgstr "خطأ"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
 msgid "Select Mirror"
-msgstr ""
+msgstr "حدد Mirror"
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
 msgid "Apply"
@@ -496,7 +500,7 @@ msgstr "طبّق"
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install."
-msgstr ""
+msgstr "هذه ال PPA توفر الحزم التالية. رجاءا حدد ما تريد تثبيته."
 
 #: usr/lib/linuxmint/mintSources/mintsources.glade.h:35
 msgid "Install"

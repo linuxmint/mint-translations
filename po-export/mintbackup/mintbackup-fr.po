@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:27+0000\n"
-"PO-Revision-Date: 2023-11-28 17:10+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"PO-Revision-Date: 2025-01-08 21:23+0000\n"
+"Last-Translator: AO <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 11:51+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:15+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
@@ -39,33 +39,32 @@ msgstr "Quitter"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:263
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr "%s ne se trouve pas dans votre répertoire personnel."
+msgstr "%s ne se trouve pas dans votre dossier personnel."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:303
 msgid "Please choose a directory."
-msgstr "Veuillez choisir un répertoire"
+msgstr "Choisissez un dossier."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:306
 msgid "You do not have the permission to write in the selected directory."
-msgstr "Vous n’avez pas de droit d’écrire dans le répertoire sélectionné"
+msgstr "Vous n’avez pas le droit d’écrire dans dans le dossier sélectionné."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:366
 msgid "Please choose a backup file."
-msgstr "Veuillez sélectionner un fichier de sauvegarde"
+msgstr "Sélectionnez un fichier de sauvegarde."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:374
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
-"Soit ce fichier de sauvegarde est trop ancien, soit il a été créé avec un "
-"outil différent. Veuillez l’extraire manuellement."
+"Ce fichier de sauvegarde est soit trop vieux soit créé avec un autre outil. "
+"Extrayez-le manuellement."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
-msgstr ""
-"Une erreur d’ouverture du fichier de sauvegarde s’est produite : %s."
+msgstr "Une erreur d’ouverture du fichier de sauvegarde est survenue : %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:397
 msgid "No packages need to be installed."
@@ -73,7 +72,7 @@ msgstr "Aucun paquet n’a besoin d’être installé."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:404
 msgid "Please select packages to install."
-msgstr "Veuillez sélectionner les paquets à installer."
+msgstr "Sélectionnez les paquets à installer."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
@@ -82,7 +81,7 @@ msgstr "%s est ignoré, car les tubes nommés ne sont pas pris en charge."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
-msgstr "Sauvegarde :"
+msgstr "Sauvegarde :"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:491
 msgid "Calculating..."
@@ -91,7 +90,7 @@ msgstr "Calcul…"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:495
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:599
 msgid "The following errors occurred:"
-msgstr "Les erreurs suivantes se sont produites :"
+msgstr "Les erreurs suivantes sont survenues :"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:501
 msgid "The backup was aborted."
@@ -100,7 +99,7 @@ msgstr "La sauvegarde a été abandonnée."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:505
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr "Vos fichiers ont été sauvegardés avec succès dans %s."
+msgstr "Vos fichiers ont été sauvegardés dans %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:546
 msgid ""
@@ -108,7 +107,7 @@ msgid ""
 "for restoration."
 msgstr ""
 "Avertissement : Le fichier meta n’a pas pu être enregistré. Cette "
-"sauvegarde ne sera accepté pour être restaurée."
+"sauvegarde ne sera acceptée pour être restaurée."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:573
 #, python-format
@@ -116,12 +115,12 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
-"Avertissement : Certains fichiers n’ont pas été enregistrés. Seuls "
+"Avertissement : Certains fichiers n’ont pas été enregistrés. Seuls "
 "%(archived)d fichiers sur %(total)d ont été sauvegardés."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
-msgstr "Restauration :"
+msgstr "Restauration :"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:605
 msgid "The restoration was aborted."
@@ -129,14 +128,13 @@ msgstr "La restauration a été abandonnée."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:609
 msgid "Your files were successfully restored."
-msgstr "Vos fichiers ont été restaurés avec succès."
+msgstr "Vos fichiers ont été restaurés."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:697
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
-"Avertissement : Seuls %(number)d fichiers sur %(total)d ont été "
-"restaurés."
+"Avertissement : Seuls %(number)d fichiers sur %(total)d ont été restaurés"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
@@ -155,7 +153,7 @@ msgstr "Le fichier selectionné n’est pas une sélection de logiciels valide."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:787
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:830
 msgid "An error occurred while reading the file."
-msgstr "Une erreur de lecture du fichier s’est produite."
+msgstr "Une erreur de lecture du fichier est survenue."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:812
 msgid "Could not locate the package."
@@ -173,7 +171,7 @@ msgstr "Données personnelles"
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
 msgstr ""
-"Vos fichiers, vos paramètres et le contenu de votre répertoire personnel."
+"Vos fichiers, vos paramètres et le contenu de votre dossier personnel."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
@@ -193,15 +191,15 @@ msgstr "La liste d’applications installées sur votre ordinateur"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr "Veuillez sélectionner où enregistrer le fichier de sauvegarde :"
+msgstr "Sélectionnez où enregistrer le fichier de sauvegarde :"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
-"Veuillez ajouter des fichiers et des répertoires à la liste ci-dessous pour "
-"les exclure de la sauvegarde."
+"Ajoutez des fichiers et des répertoires à la liste ci-dessous pour les "
+"exclure de la sauvegarde."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -209,7 +207,7 @@ msgstr "Exclure des fichiers"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
 msgid "Exclude directories"
-msgstr "Exclure des répertoires"
+msgstr "Exclure des dossiers"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
 msgid "Remove"
@@ -221,15 +219,15 @@ msgid ""
 "are not included by default."
 msgstr ""
 "Par défaut, les fichiers et dossiers cachés situés dans la racine de votre "
-"répertoire personnel ne sont pas inclus."
+"dossier personnel ne sont pas inclus."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
-"Si vous souhaitez en ajouter dans la sauvegarde, veuillez les ajouter à la "
-"liste ci-dessous."
+"Si vous souhaitez en ajouter dans la sauvegarde, ajoutez-les à la liste ci-"
+"dessous."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
@@ -237,7 +235,7 @@ msgstr "Inclure des fichiers"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
 msgid "Include directories"
-msgstr "Inclure des répertoires"
+msgstr "Inclure des dossiers"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid ""
@@ -249,11 +247,11 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
-msgstr "Veuillez patienter pendant que vos fichiers sont sauvegardés."
+msgstr "Patientez pendant que vos fichiers sont sauvegardés."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please select the backup to restore:"
-msgstr "Veuillez choisir la sauvegarde à restaurer :"
+msgstr "Choisissez la sauvegarde à restaurer :"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Overwrite existing files?"
@@ -265,7 +263,8 @@ msgid ""
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
 "Non, ne restaurer que les fichiers manquants.\n"
-"<small>Cette option est sûre et n’affecte pas vos fichiers existants.</small>"
+"<small>Cette option n’est pas dangereuse et n’affecte pas vos fichiers "
+"existants.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -280,7 +279,7 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
-msgstr "Veuillez patienter pendant que vos fichiers sont restaurés."
+msgstr "Patientez pendant que vos fichiers sont restaurés."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid ""
@@ -292,8 +291,7 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
-"Veuillez sélectionner les applications que vous souhaitez enregistrer."
+msgstr "Sélectionnez les applications que vous voulez sauvegarder."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
@@ -309,19 +307,17 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"Note : Si vous souhaitez enregistrer la liste entière de tous les "
-"paquets installés dans le système, veuillez utiliser la commande 'dpkg --get-"
-"selections > maliste.list' dans un terminal."
+"Note : Si vous voulez enregistrer la liste de tous les paquets installés "
+"dans le système, utilisez la commande « dpkg --get-selections > "
+"maliste.list » dans un terminal."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
-"Veuillez sélectionner une liste enregistrée de logiciels (fichier "
-".list) :"
+msgstr "Sélectionnez une liste enregistrée de logiciels (fichier .list) :"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
-msgstr "Sélectionnez les paquets que vous souhaitez installer."
+msgstr "Sélectionnez les paquets que vous voulez installer."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Refresh"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-05-30 13:56+0100\n"
-"PO-Revision-Date: 2024-12-22 14:36+0000\n"
+"PO-Revision-Date: 2025-06-24 06:07+0000\n"
 "Last-Translator: Aryan Karamtoth <Unknown>\n"
 "Language-Team: Telugu <te@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 11:51+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:14+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -187,6 +187,8 @@ msgid ""
 "If Openbox is not installed already, you can install it with <cmd>apt "
 "install openbox</cmd>."
 msgstr ""
+"ఓపెన్‌బాక్స్ ఇప్పటికే ఇన్‌స్టాల్ చేయకపోతే, మీరు దానిని <cmd>apt install "
+"openbox</cmd> తో ఇన్‌స్టాల్ చేయవచ్చు."
 
 #: usr/share/help/C/mintdesktop/index.page:14(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:126 generate_desktop_files:26
@@ -195,7 +197,7 @@ msgstr "డెస్క్‍టాప్ అమరికలు"
 
 #: usr/share/help/C/mintdesktop/index.page:16(p)
 msgid "Welcome to Desktop Settings."
-msgstr ""
+msgstr "డెస్క్‌టాప్ సెట్టింగ్‌లకు స్వాగతం."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:95
@@ -205,46 +207,52 @@ msgstr "విండోలు"
 #: usr/share/help/C/mintdesktop/index.page:20(p)
 msgid "The Windows section lets you choose a window manager."
 msgstr ""
+"విండోస్ విభాగం విండో మేనేజర్‌ను ఎంచుకోవడానికి మిమ్మల్ని అనుమతిస్తుంది."
 
 #: usr/share/help/C/mintdesktop/index.page:22(p)
 msgid ""
 "Within the operating system, the <gui>window manager</gui> is the part which "
 "is responsible for:"
 msgstr ""
+"ఆపరేటింగ్ సిస్టమ్ లోపల, <gui>విండో మేనేజర్</gui> అనేది దీనికి బాధ్యత వహించే "
+"భాగం:"
 
 #: usr/share/help/C/mintdesktop/index.page:24(p)
 msgid "Windows borders, title bars and window buttons"
-msgstr ""
+msgstr "విండోస్ సరిహద్దులు, టైటిల్ బార్‌లు మరియు విండో బటన్లు"
 
 #: usr/share/help/C/mintdesktop/index.page:25(p)
 msgid "Window events (moving, resizing, focusing windows)"
 msgstr ""
+"విండో ఈవెంట్‌లు (కదిలించడం, పరిమాణాన్ని మార్చడం, విండోలను కేంద్రీకరించడం)"
 
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
-msgstr ""
+msgstr "కంపోజిటింగ్ (షాడోలు, యానిమేషన్లు, ప్రభావాలు, GPU రెండరింగ్)"
 
 #: usr/share/help/C/mintdesktop/compositing.page:16(title)
 msgid "Pros and cons of compositing"
-msgstr ""
+msgstr "కూర్పు యొక్క లాభాలు మరియు నష్టాలు"
 
 #: usr/share/help/C/mintdesktop/compositing.page:19(title)
 msgid "Advantages"
-msgstr ""
+msgstr "ప్రయోజనాలు"
 
 #: usr/share/help/C/mintdesktop/compositing.page:22(p)
 msgid "Better look &amp; feel: Window animations, shadows and transparency."
-msgstr ""
+msgstr "మెరుగైన లుక్ & ఫీల్: విండో యానిమేషన్లు, నీడలు మరియు పారదర్శకత."
 
 #: usr/share/help/C/mintdesktop/compositing.page:25(p)
 msgid ""
 "Better support for modern applications: Client-side decorations in GTK3 are "
 "better supported by composited window managers."
 msgstr ""
+"ఆధునిక అప్లికేషన్లకు మెరుగైన మద్దతు: GTK3 లోని క్లయింట్-సైడ్ డెకరేషన్‌లు "
+"కాంపోజిటెడ్ విండో మేనేజర్‌ల ద్వారా మెరుగైన మద్దతును పొందుతాయి."
 
 #: usr/share/help/C/mintdesktop/compositing.page:31(title)
 msgid "Disadvantages"
-msgstr ""
+msgstr "ప్రతికూలతలు"
 
 #: usr/share/help/C/mintdesktop/compositing.page:35(p)
 msgid ""
@@ -252,12 +260,18 @@ msgid ""
 "with the GPU (as opposed to the CPU) can result in visual artefacts or "
 "screen tearing."
 msgstr ""
+"GPU రెండరింగ్: మీ గ్రాఫిక్స్ కార్డ్ మరియు మీ డ్రైవర్లను బట్టి, GPUతో "
+"రెండరింగ్ చేయడం వలన (CPUకి విరుద్ధంగా) దృశ్య కళాఖండాలు లేదా స్క్రీన్ "
+"చిరిగిపోవచ్చు."
 
 #: usr/share/help/C/mintdesktop/compositing.page:38(p)
 msgid ""
 "Resource usage: Compositing requires more resources. This can result in "
 "slower performance or reduced battery autonomy on laptop computers."
 msgstr ""
+"వనరుల వినియోగం: కంపోజిటింగ్‌కు మరిన్ని వనరులు అవసరం. దీని ఫలితంగా "
+"ల్యాప్‌టాప్ కంప్యూటర్లలో పనితీరు నెమ్మదించవచ్చు లేదా బ్యాటరీ స్వయంప్రతిపత్తి "
+"తగ్గవచ్చు."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: usr/share/help/C/mintdesktop/compositing.page:0(None)
@@ -308,45 +322,45 @@ msgstr "అధిరోహించబడిన సంపుటాలు"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:149
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:190
 msgid "Window Manager"
-msgstr ""
+msgstr "గవాక్ష నిర్వాహకి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:159
 msgid "Marco + Compositing"
-msgstr ""
+msgstr "మార్కో + కంపోజిటింగ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:161
 msgid "Marco + Compton"
-msgstr ""
+msgstr "మార్కో + కాంప్టన్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:164
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:166
 msgid "Metacity + Compositing"
-msgstr ""
+msgstr "మెటాసిటీ + కంపోజిటింగ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:166
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:168
 msgid "Metacity + Compton"
-msgstr ""
+msgstr "మెటాసిటీ + కాంప్టన్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:169
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:173
 msgid "Xfwm4 + Compositing"
-msgstr ""
+msgstr "Xfwm4 + కంపోజిటింగ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:171
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 msgid "Xfwm4 + Compton"
-msgstr ""
+msgstr "Xfwm4 + కాంప్టన్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:175
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 msgid "Openbox + Compton"
-msgstr ""
+msgstr "ఓపెన్‌బాక్స్ + కాంప్టన్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
 msgid "Awesome"
-msgstr ""
+msgstr "అద్భుతం"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
@@ -355,6 +369,10 @@ msgid ""
 "Use the 'wm-recovery' command to switch back to the default window manager.\n"
 "Use the 'wm-detect' command to check which window manager is running."
 msgstr ""
+"విండో మేనేజర్ల గురించి మరింత సమాచారం కోసం సహాయం బటన్ పై క్లిక్ చేయండి.\n"
+"డిఫాల్ట్ విండో మేనేజర్‌కు తిరిగి మారడానికి 'wm-recovery' ఆదేశాన్ని "
+"ఉపయోగించండి.\n"
+"ఏ విండో మేనేజర్ నడుస్తుందో తనిఖీ చేయడానికి 'wm-detect' ఆదేశాన్ని ఉపయోగించండి."
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:188
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:192
@@ -373,27 +391,27 @@ msgstr "మాక్ శైలి (ఎడమ)"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
 msgid "Auto"
-msgstr ""
+msgstr "ఆటో"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:198
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
 msgid "Normal"
-msgstr ""
+msgstr "సాధారణ"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:199
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:207
 msgid "Double (HiDPI)"
-msgstr ""
+msgstr "డబుల్ (HiDPI)"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:208
 msgid "User interface scaling"
-msgstr ""
+msgstr "వినియోగదారు ఇంటర్‌ఫేస్ స్కేలింగ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:202
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
 msgid "Marco settings"
-msgstr ""
+msgstr "మార్కో సెట్టింగులు"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:203
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:211
@@ -422,72 +440,72 @@ msgstr "బటన్ల అమరిక:"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:214
 msgid "Buttons layout (CSD windows):"
-msgstr ""
+msgstr "బటన్ల లేఅవుట్ (CSD విండోస్):"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:218
 msgid "Metacity settings"
-msgstr ""
+msgstr "మెటాసిటీ సెట్టింగ్‌లు"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:215
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:223
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
 msgid "Mutter settings"
-msgstr ""
+msgstr "మట్టర్ సెట్టింగులు"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:217
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:226
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:225
 msgid "Place new windows in the center of the screen"
-msgstr ""
+msgstr "స్క్రీన్ మధ్యలో కొత్త విండోలను ఉంచండి."
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:218
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:227
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:226
 msgid "Automatically maximize nearly screen sized windows"
-msgstr ""
+msgstr "దాదాపు స్క్రీన్ పరిమాణంలో ఉన్న విండోలను స్వయంచాలకంగా గరిష్టీకరించు"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:219
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:227
 msgid "Enable edge tiling when dropping windows on screen edges"
-msgstr ""
+msgstr "తెర అంచులనందు విండోలను విడువునప్పుడు ఎడ్జ్ టైటిలింగ్ చేతనం చేయి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:222
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:230
 msgid "Xfwm4 settings"
-msgstr ""
+msgstr "Xfwm4 సెట్టింగులు"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:224
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:231
 msgid "Configure Xfwm4"
-msgstr ""
+msgstr "Xfwm4 ను కాన్ఫిగర్ చేయండి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:228
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:235
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:234
 msgid "Tweak Xfwm4"
-msgstr ""
+msgstr "Xfwm4 ను సర్దుబాటు చేయండి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:232
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:239
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:238
 msgid "Compiz settings"
-msgstr ""
+msgstr "Compiz సెట్టింగ్‌లు"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:234
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:240
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:239
 msgid "Configure Compiz"
-msgstr ""
+msgstr "Compizని కాన్ఫిగర్ చేయండి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:238
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:243
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:242
 msgid "Reset Compiz settings"
-msgstr ""
+msgstr "Compiz సెట్టింగ్‌లను రీసెట్ చేయండి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:255
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:260
@@ -567,43 +585,45 @@ msgstr "ఉత్తమ-అలంకార డెస్క్‍టాప్ అ
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:163
 msgid "Marco + Picom"
-msgstr ""
+msgstr "మార్కో + పికామ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:170
 msgid "Metacity + Picom"
-msgstr ""
+msgstr "మెటాసిటీ + పికామ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
 msgid "Xfwm4 + Picom"
-msgstr ""
+msgstr "Xfwm4 + పికామ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 msgid "Openbox + Picom"
-msgstr ""
+msgstr "ఓపెన్‌బాక్స్ + పికామ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:97
 msgid "Applications"
-msgstr ""
+msgstr "అనువర్తనాలు"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:297
 msgid "Let applications decide"
-msgstr ""
+msgstr "దరఖాస్తులను నిర్ణయించనివ్వండి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:298
 msgid "Prefer light mode"
-msgstr ""
+msgstr "లైట్ మోడ్‌కు ప్రాధాన్యత ఇవ్వండి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:299
 msgid "Prefer dark mode"
-msgstr ""
+msgstr "డార్క్ మోడ్‌కు ప్రాధాన్యత ఇవ్వండి"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:300
 msgid "Dark mode"
-msgstr ""
+msgstr "డార్క్ మోడ్"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:301
 msgid "This setting only affects applications which support dark mode"
 msgstr ""
+"ఈ సెట్టింగ్ డార్క్ మోడ్‌కు మద్దతు ఇచ్చే అప్లికేషన్‌లను మాత్రమే ప్రభావితం "
+"చేస్తుంది."
 
 #~ msgid "Desktop Configuration Tool"
 #~ msgstr "డెస్క్‍టాప్ స్వరూపణ సాధనం"

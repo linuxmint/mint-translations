@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:27+0000\n"
-"PO-Revision-Date: 2024-07-31 11:54+0000\n"
+"PO-Revision-Date: 2025-04-01 08:42+0000\n"
 "Last-Translator: Quentin PAGÈS <Unknown>\n"
 "Language-Team: Occitan (post 1500) <oc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 11:51+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:15+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:41
 msgid "Backups"
@@ -58,11 +58,13 @@ msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
+"Aqueste fichièr de salvagarda es siá tròp ancian o foguèt creat amb una "
+"aisina diferenta. Mercés de lo traire manualament."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:383
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
-msgstr ""
+msgstr "Una error s'es producha en dobrissent lo fichièr de salvagarda : %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:397
 msgid "No packages need to be installed."
@@ -75,7 +77,7 @@ msgstr "Mercés de seleccionar los paquets d’installar."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:458
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr ""
+msgstr "Saut de %s perque las pipes nomenadas son pas presas en carga."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:483
 msgid "Backing up:"
@@ -88,7 +90,7 @@ msgstr "Calcul en cors..."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:495
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:599
 msgid "The following errors occurred:"
-msgstr ""
+msgstr "L’error seguenta s'es producha :"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:501
 msgid "The backup was aborted."
@@ -104,6 +106,8 @@ msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
+"Atencion : lo fichièr meta a pas pogut èsser salvagarda. Aquesta salvagarda "
+"serà pas acceptada per una restauracion."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:573
 #, python-format
@@ -111,6 +115,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
+"Atencion : d’unes fichièrs èran pas salvagardats. Sonque %(archived)d "
+"fichièrs son estats salvagardats de %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:588
 msgid "Restoring:"
@@ -128,6 +134,7 @@ msgstr "Vòstres fichièrs son estats restablits amb succès."
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
+"Atencion : sonque %(number)d fichièrs son estats salvagardats de %(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:722
 msgid "The list below shows the applications you installed."
@@ -189,6 +196,8 @@ msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
+"Mercés d’apondre de fichièrs o repertòris a la lista çai jos per los exclure "
+"de la salvagarda."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -207,12 +216,16 @@ msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
+"Los fichièrs e dossièrs amagats a la raiç del repertòri persona son pas "
+"incluses per defaut."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
+"Se volètz n'inclure a la salvagarda, mercés de les apondre a la lista çai "
+"jos."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
@@ -227,6 +240,8 @@ msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr ""
+"Aquestes fichièrs e dossièrs contenon sovent de donadas temporaris o de "
+"preferéncias per las aplicacions."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid "Please wait while your files are being backed up."
@@ -245,6 +260,9 @@ msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
+"Non, restaurar pas que los fichièrs mancants.\n"
+"<small>Aquesta opcion es pas perilhosa e afècta pas vòstres fichièrs "
+"existissents</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
 msgid ""
@@ -252,6 +270,10 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
+"Òc, espotir las modificacions e restaurar lo contengut de tot fichièr "
+"existissent.\n"
+"<small>Utilizatz aquesta opcion amb prudéncia. Las modificacions aportadas "
+"als fichièrs dempuèi la salvagarda seràn perdudas</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
 msgid "Please wait while your files are being restored."
@@ -262,10 +284,11 @@ msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
+"La lista çai jos mòstra las aplicacions qu’installèretz amb Software Manager."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid "Please select the applications you want to save."
-msgstr ""
+msgstr "Mercés de seleccionar las aplicacions que volètz enregistrar."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Select all"
@@ -281,10 +304,13 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
+"Nòte : se volètz enregistrar la lista de totes los paquets installats dins "
+"lo sistèma, utilizatz la comanda « dpkg --get-selections > maliste.list » "
+"dins un terminal."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
+msgstr "Seleccionatz una lista enregistrada de logicials (fichier .list) :"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Select the packages you want to install."
