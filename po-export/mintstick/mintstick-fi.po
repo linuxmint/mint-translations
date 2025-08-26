@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2024-12-11 12:24+0000\n"
+"PO-Revision-Date: 2025-08-19 15:08+0000\n"
 "Last-Translator: Kimmo Kujansuu <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-07-31 09:19+0000\n"
-"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
+"X-Launchpad-Export-Date: 2025-08-26 15:21+0000\n"
+"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
-msgstr "USB-tikun alustus onnistui."
+msgstr "Alustus onnistui."
 
 #: lib/mintstick.py:315
 #, python-format
@@ -36,15 +36,15 @@ msgstr "Tapahtui virhe."
 
 #: lib/mintstick.py:420
 msgid "The image was successfully written."
-msgstr "Levykuva kirjoitettiin onnistuneesti."
+msgstr "Kirjoittaminen onnistui."
 
 #: lib/mintstick.py:423
 msgid "Not enough space on the USB stick."
-msgstr "USB-muistitikulla ei ole riittävästi tilaa."
+msgstr "USB-tikulla ei ole riittävästi tilaa."
 
 #: lib/mintstick.py:425
 msgid "An error occured while copying the image."
-msgstr "Levykuvaa kopioitaessa tapahtui virhe."
+msgstr "Kopioinnissa tapahtui virhe."
 
 #: lib/verify.py:54
 msgid "bytes"
@@ -105,11 +105,11 @@ msgstr "Tarkistussumma ei täsmää. Lataa ISO-levykuva uudelleen."
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
-msgstr "Summatiedostoa ei voitu ladata. Tarkista URL-osoite."
+msgstr "Summatiedostoa ei voitu ladata. Tarkista verkko--osoite."
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
-msgstr "GPG-tiedostoa ei voitu ladata. Tarkista URL-osoite."
+msgstr "GPG-tiedostoa ei voitu ladata. Tarkista verkko-osoite."
 
 #: lib/verify.py:243
 msgid "The sums file could not be checked."
@@ -125,7 +125,7 @@ msgstr "Eheyden tarkistus epäonnistui"
 
 #: lib/verify.py:269
 msgid "The SHA256 sums file is not signed."
-msgstr "SHA256-summatiedostoa ei ole allekirjoitettu."
+msgstr "SHA256-summa ei ole allekirjoitettu."
 
 #: lib/verify.py:273
 #, python-format
@@ -138,7 +138,7 @@ msgstr "Tuntematon allekirjoitus"
 
 #: lib/verify.py:288
 msgid "Key not found on keyserver."
-msgstr "Avainta ei löydy avainpalvelimelta."
+msgstr "Avainta ei löydy palvelimelta."
 
 #: lib/verify.py:299 lib/verify.py:305
 msgid "Everything looks good!"
@@ -171,7 +171,7 @@ msgstr "Tapahtui virhe"
 
 #: lib/verify.py:327
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr "ISO-levykuvan SHA256-summa on virheellinen."
+msgstr "ISO-levykuvan SHA256 on virheellinen."
 
 #: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
@@ -212,17 +212,17 @@ msgstr "Tarkista"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr "Tarkista kuvan aitous ja eheys"
+msgstr "Tarkista levykuvan aitous"
 
 #: generate_additional_files.py:115 generate_additional_files.py:144
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr "Tämä tuhoaa kaikki tiedot USB-muistitikulta. Haluatko jatkaa?"
+msgstr "Tämä poistaa kaikki tiedot USB-tikulta. Haluatko jatkaa?"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid "USB stick:"
-msgstr "USB-muistitikku:"
+msgstr "USB-tikku:"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid "Filesystem:"
@@ -230,7 +230,7 @@ msgstr "Tiedostojärjestelmä:"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid "Select a USB stick"
-msgstr "Valitse USB-muistitikku"
+msgstr "Valitse USB-tikku"
 
 #: share/mintstick/mintstick.ui.h:4
 msgid ""
@@ -280,15 +280,15 @@ msgstr "Aseman nimi:"
 
 #: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
-msgstr "Valitse USB-muistitikulle nimi"
+msgstr "Valitse nimi USB-tikulle"
 
 #: share/mintstick/mintstick.ui.h:25
 msgid "USB Stick"
-msgstr "USB-muistitikku"
+msgstr "USB-tikku"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "ISO image:"
-msgstr "ISO-levykuva:"
+msgstr "Levykuva.iso:"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select an image"
