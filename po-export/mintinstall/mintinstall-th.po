@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-07-28 13:01+0200\n"
-"PO-Revision-Date: 2025-02-08 18:37+0000\n"
-"Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
+"PO-Revision-Date: 2025-10-10 06:14+0000\n"
+"Last-Translator: Phongpanot <Unknown>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2025-08-26 15:17+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
+"X-Launchpad-Export-Date: 2025-12-12 13:25+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:84
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:86
@@ -194,7 +194,7 @@ msgstr "การถ่ายภาพ"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
 msgid "Publishing"
-msgstr "Publishing"
+msgstr "การเผยแพร่"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2093
 msgid "Scanning"
@@ -238,7 +238,7 @@ msgstr "การจำลองและการแข่งรถ"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2125
 msgid "Accessories"
-msgstr "Accessories"
+msgstr "อำนวยความสะดวก"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2131
 msgid "System tools"
@@ -417,7 +417,7 @@ msgstr "ลองอีกครั้ง"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3072
 msgid "Something went wrong. Click to try again."
-msgstr ""
+msgstr "มีบางอย่างผิดปกติ คลิกเพื่อลองอีกครั้ง"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3098
 #, python-format
@@ -438,39 +438,39 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:39
 msgid "General search options"
-msgstr ""
+msgstr "ตัวเลือกการค้นหาทั่วไป"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:41
 msgid "Search in packages summary (slower search)"
-msgstr ""
+msgstr "ค้นหาในบทสรุปแพ็กเกจ (ช้าลง)"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:43
 msgid "Search in packages description (even slower search)"
-msgstr ""
+msgstr "ค้นหาในคำอธิบายแพ็กเกจ (ช้าลงยิ่งขึ้นไปอีก)"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:46
 msgid "Flatpaks"
-msgstr ""
+msgstr "Flatpak"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:49
 msgid "Show unverified Flatpaks (not recommended)"
-msgstr ""
+msgstr "แสดง Flatpak ที่ไม่ได้ยืนยัน (ไม่แนะนำ)"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:55
 msgid "List all types"
-msgstr ""
+msgstr "แสดงทุกชนิด"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:56
 msgid "Only list the Flatpak"
-msgstr ""
+msgstr "แสดงเฉพาะ Flatpak"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:57
 msgid "Only list the system package"
-msgstr ""
+msgstr "แสดงเฉพาะแพ็กเกจระบบ"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:61
 msgid "When an app has multiple formats:"
-msgstr ""
+msgstr "เมื่อแอปมีรูปแบบหลายรูปแบบ:"
 
 #: generate_desktop_files:25 generate_desktop_files:36
 msgid "Install new applications"
@@ -478,43 +478,49 @@ msgstr "ติดตั้งโปรแกรมใหม่"
 
 #: resources/mintinstall.glade.h:1
 msgid "Unverified Flatpaks represent a huge security risk"
-msgstr ""
+msgstr "Flatpak ที่ยังไม่ถูกยืนยันมีความเสี่ยงด้านความปลอดภัยสูง"
 
 #: resources/mintinstall.glade.h:2
 msgid ""
 "They are not officially approved by the developer of the application and "
 "could be maintained by anyone."
 msgstr ""
+"พวกมันยังไม่ถูกรับรองโดยผู้พัฒนาอย่างเป็นทางการและสามารถถูกดูแลด้วยใครก็ได้"
 
 #: resources/mintinstall.glade.h:3
 msgid ""
 "To avoid potential malware, it is strongly recommended not to use unverified "
 "Flatpaks."
 msgstr ""
+"เพื่อหลีกเลี่ยงมัลแวร์ที่อาจเกิดขึ้นได้ ขอแนะนำเป็นอย่างยิ่งไม่ให้ใช้ "
+"Flatpak ที่ยังไม่ผ่านการยืนยัน"
 
 #: resources/mintinstall.glade.h:4
 msgid "Package types"
-msgstr ""
+msgstr "ประเภทแพ็กเกจ"
 
 #: resources/mintinstall.glade.h:5
 msgid "System"
-msgstr ""
+msgstr "ระบบ"
 
 #: resources/mintinstall.glade.h:6
 msgid ""
 "System packages are managed by your Linux distribution and use shared "
 "libraries and resources."
 msgstr ""
+"แพ็กเกจระบบถูกจัดการโดยการแจกจ่าย Linux ของคุณและใช้ไลบรารีและทรัพยากรร่วมกัน"
 
 #: resources/mintinstall.glade.h:7
 msgid ""
 "They are safe, small and stable. They receive bug fixes and security updates "
 "but no newer versions."
 msgstr ""
+"พวกมันปลอดภัย เล็ก และเสถียร "
+"พวกมันได้รับการแก้ไขบัคและอัพเดทด้านความปลอดภัยแต่ไม่มีรุ่นใหม่"
 
 #: resources/mintinstall.glade.h:8
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #: resources/mintinstall.glade.h:9
 msgid ""
@@ -522,6 +528,8 @@ msgid ""
 "from your Linux distribution. They usually provide the most up to date "
 "version."
 msgstr ""
+"Flatpak ถูกดูแลและอัพเดทโดยเจ้าของโดยตรง และไม่มีการควบคุมจากการแจกจ่าย "
+"Linux ของคุณ โดยปกติแล้วจะเป็นเวอร์ชั่นที่ใหม่ที่สุด"
 
 #: resources/mintinstall.glade.h:10
 msgid ""
@@ -529,14 +537,17 @@ msgid ""
 "distribution, but by the Flatpak maintainer. It's essential you trust the "
 "maintainer before installing a Flatpak."
 msgstr ""
+"Flatpak ใช้พื้นที่ดิสก์มากกว่า และความปลอดภัยไม่ได้ถูกรับประกันโดยการแจกจ่าย "
+"Linux ของคุณ แต่โดยผู้ดูแล Flatpak มันเป็นเรื่องสำคัญที่คุณเชื่อใจผู้ดูแล "
+"Flatpak ก่อนที่จะติดตั้งมัน"
 
 #: resources/mintinstall.glade.h:11
 msgid "Loading, please wait"
-msgstr ""
+msgstr "กำลังโหลด โปรดรอ"
 
 #: resources/mintinstall.glade.h:12
 msgid "Generating cache, one moment"
-msgstr ""
+msgstr "กำลังสร้างแคช กรุณารอสักครู่"
 
 #: resources/mintinstall.glade.h:17
 msgid "Refresh"
@@ -544,7 +555,7 @@ msgstr "รีเฟรช"
 
 #: resources/mintinstall.glade.h:18
 msgid "Unverified Flatpak"
-msgstr ""
+msgstr "Flatpak ที่ยังไม่ยืนยัน"
 
 #: resources/mintinstall.glade.h:19
 msgid "Launch"
@@ -552,27 +563,27 @@ msgstr "เรียกใช้"
 
 #: resources/mintinstall.glade.h:20
 msgid "Please be patient. This can take some time..."
-msgstr ""
+msgstr "โปรดรอ อาจใช้เวลาสักพัก..."
 
 #: resources/mintinstall.glade.h:22
 msgid "Name:"
-msgstr ""
+msgstr "ชื่อ:"
 
 #: resources/mintinstall.glade.h:23
 msgid "Version:"
-msgstr ""
+msgstr "รุ่น:"
 
 #: resources/mintinstall.glade.h:24
 msgid "Size:"
-msgstr ""
+msgstr "ขนาด:"
 
 #: resources/mintinstall.glade.h:25
 msgid "Branch:"
-msgstr ""
+msgstr "แขนง:"
 
 #: resources/mintinstall.glade.h:26
 msgid "Remote:"
-msgstr ""
+msgstr "รีโมท:"
 
 #: resources/mintinstall.glade.h:29
 msgid "Details"
@@ -580,11 +591,11 @@ msgstr "รายละเอียด"
 
 #: resources/mintinstall.glade.h:30
 msgid "Reviews"
-msgstr "Reviews"
+msgstr "รีวิว"
 
 #: resources/mintinstall.glade.h:31
 msgid "Optional components"
-msgstr ""
+msgstr "ส่วนประกอบเสริม"
 
 #: resources/mintinstall.glade.h:32
 msgid "Searching software repositories, one moment"

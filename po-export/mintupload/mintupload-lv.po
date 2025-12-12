@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2017-07-27 03:34+0000\n"
-"Last-Translator: tuxmaniack <Unknown>\n"
+"PO-Revision-Date: 2025-09-09 16:35+0000\n"
+"Last-Translator: Klavs Petersons <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2025-08-26 15:17+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
+"X-Launchpad-Export-Date: 2025-12-12 13:25+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -30,37 +30,37 @@ msgstr "Augšupielāžu pārvaldnieks"
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr ""
+msgstr "%(percentage)s no %(number)d faili - Augšupielādē %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:45
 #: usr/lib/linuxmint/mintupload/mintupload.py:141
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr ""
+msgstr "%(percentage)s no 1 faila - Augšupielādē %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:81
 #, python-format
 msgid "The upload to '%(service)s' was cancelled"
-msgstr ""
+msgstr "Augšupielāde '%(service)s' tika atcelta"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:93
 #, python-format
 msgid "Upload to '%s' failed: "
-msgstr ""
+msgstr "Augšupielāde '%s' neizdevās: "
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:99
 #, python-format
 msgid "Successfully uploaded %(number)d files to '%(service)s'"
-msgstr ""
+msgstr "Veiksmīgi augšupielādēti %(number)d faili '%(service)s'"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:101
 #, python-format
 msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr ""
+msgstr "Veiksmīgi augšupielādēts 1 fails '%(service)s'"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:112
 msgid "Do you want to cancel this upload?"
-msgstr ""
+msgstr "Vai vēlaties atcelt šo augšupielādi?"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:113
 msgid "Cancel"
@@ -68,32 +68,34 @@ msgstr "Atcelt"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:114
 msgid "Run in the background"
-msgstr ""
+msgstr "Darbojas fonā"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:117
 msgid "Cancel upload?"
-msgstr ""
+msgstr "Atcelt augšupielādi?"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:137
 #, python-format
 msgid "Uploading %(number)d files to %(service)s"
-msgstr ""
+msgstr "Augšupielādē %(number)d failus %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:140
 #, python-format
 msgid "Uploading 1 file to %(service)s"
-msgstr ""
+msgstr "Augšupielādē 1 failu %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:159
 #, python-format
 msgid ""
 "%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
 msgstr ""
+"%(size_so_far)s no %(total_size)s - %(time_remaining)s atlicis "
+"(%(speed)s/sec)"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:161
 #, python-format
 msgid "%(size_so_far)s of %(total_size)s"
-msgstr ""
+msgstr "%(size_so_far)s no %(total_size)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:188
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:93
@@ -120,29 +122,32 @@ msgstr "GB"
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d stunda"
+msgstr[1] "%d stundas"
+msgstr[2] "%d stundas"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:202
 #: usr/lib/linuxmint/mintupload/mintupload.py:204
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minūte"
+msgstr[1] "%d minūtes"
+msgstr[2] "%d minūtes"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:205
 #: usr/lib/linuxmint/mintupload/mintupload.py:207
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d sekunde"
+msgstr[1] "%d sekundes"
+msgstr[2] "%d sekundes"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:236
 #, python-format
 msgid "Unknown service: %s"
-msgstr ""
+msgstr "Nezināms pakalpojums: %s"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:93
 msgid "KiB"
@@ -158,25 +163,25 @@ msgstr "GiB"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:135
 msgid "File larger than service's maximum"
-msgstr ""
+msgstr "Fails ir lielāks par pakalpojuma maksimālo izmēru"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:145
 msgid "Could not get available space"
-msgstr ""
+msgstr "Nevar iegūt pieejamo vietu"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:148
 msgid "File larger than service's available space"
-msgstr ""
+msgstr "Fails ir lielāks par pakalpojuma pieejamo vietu"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:173
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:315
 msgid "File uploaded successfully."
-msgstr ""
+msgstr "Fails veiksmīgi augšupielādēts."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:191
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:267
 msgid "connection successfully established"
-msgstr ""
+msgstr "savienojums veiksmīgi izveidots"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:202
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:233
@@ -196,6 +201,7 @@ msgstr "URL:"
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr ""
+"%(1)s nav iestatīts konfigurācijas failā, kas atrodas %(2)s vai %(3)s"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:27
 #: usr/lib/linuxmint/mintupload/file-uploader.py:30
@@ -213,7 +219,7 @@ msgstr "Augšupielāžu pārvaldnieks..."
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
-msgstr ""
+msgstr "Iziet"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
@@ -308,6 +314,8 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
+"Parole, pēc noklusējuma: bez paroles SCP savienojums, null-string FTP "
+"savienojums, ~/.ssh atslēgas, kas tiek izmantotas SFTP savienojumiem"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236
 #: usr/lib/linuxmint/mintupload/upload-manager.py:237
@@ -320,6 +328,8 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
+"Katalogs, uz kuru augšupielādēt. <TIMESTAMP> tiek aizstāts ar pašreizējo "
+"laika zīmogu, ievērojot norādīto laika zīmoga formātu. Pēc noklusējuma: ."
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"

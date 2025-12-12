@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-07-28 13:01+0200\n"
-"PO-Revision-Date: 2025-04-14 06:51+0000\n"
-"Last-Translator: Vasilis Kosmidis <Unknown>\n"
+"PO-Revision-Date: 2025-09-30 20:41+0000\n"
+"Last-Translator: Ourania J. Banti <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2025-08-26 15:17+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
+"X-Launchpad-Export-Date: 2025-12-12 13:25+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 "Language: el\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:84
@@ -107,7 +107,7 @@ msgstr "Προτιμήσεις"
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:903
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1899
 msgid "About"
-msgstr "Σχετικά"
+msgstr "Περί"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1363
 #: resources/mintinstall.glade.h:15
@@ -201,7 +201,7 @@ msgstr "Φωτογραφία"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
 msgid "Publishing"
-msgstr "Δημοσίευση"
+msgstr "Δημοσιεύσεις"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2093
 msgid "Scanning"
@@ -233,7 +233,7 @@ msgstr "Παιχνίδια στρατηγικής πραγματικού χρό�
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2116
 msgid "Turn-based strategy"
-msgstr "Παιχνίδια Στρατηγικής εναλλαγής σειράς"
+msgstr "Στρατηγικής εναλλαγής σειράς"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2118
 msgid "Emulators"
@@ -273,7 +273,7 @@ msgstr "Εκπαίδευση"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2151
 msgid "Electronics"
-msgstr "Ηλεκτρονικά"
+msgstr "Ηλεκτρονική"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2157
 msgid "Programming"
@@ -394,7 +394,7 @@ msgstr "Εγκαθίσταται"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3047
 msgid "Cannot remove"
-msgstr "Δεν μπορώ να το αφαιρέσω"
+msgstr "Αδυναμία απεγκατάστασης"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3048
 msgid "Removing this package could cause irreparable damage to your system."
@@ -425,7 +425,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3065
 msgid "Use apt-get to remove this package."
-msgstr "Χρήση του apt-get για αφαίρεση αυτού του πακέτου."
+msgstr "Χρησιμοποιήστε το apt-get για αφαίρεση αυτού του πακέτου."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3069
 msgid "Try again"
@@ -438,7 +438,7 @@ msgstr "Κάτι πήγε στραβά. Κάντε κλικ για να προσ
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3098
 #, python-format
 msgid "%(localSize)s of disk space required"
-msgstr "%(localSize)s χώρου στο δίσκο απαιτείται"
+msgstr "Απαιτούνται %(localSize)s χώρου στο δίσκο"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3102
 #, python-format
@@ -515,27 +515,31 @@ msgstr ""
 
 #: resources/mintinstall.glade.h:4
 msgid "Package types"
-msgstr ""
+msgstr "Τύποι πακέτων"
 
 #: resources/mintinstall.glade.h:5
 msgid "System"
-msgstr ""
+msgstr "Σύστημα"
 
 #: resources/mintinstall.glade.h:6
 msgid ""
 "System packages are managed by your Linux distribution and use shared "
 "libraries and resources."
 msgstr ""
+"Τα πακέτα συστήματος είναι διαχειριζόμενα από τη διανομή Linux σας και "
+"χρησιμοποιούν κοινόχρηστες βιβλιοθήκες και πόρους."
 
 #: resources/mintinstall.glade.h:7
 msgid ""
 "They are safe, small and stable. They receive bug fixes and security updates "
 "but no newer versions."
 msgstr ""
+"Είναι ασφαλή, μικρά και σταθερά. Λαμβάνουν διορθώσεις σφαλμάτων και "
+"ενημερώσεις ασφαλείας, αλλά όχι νεότερες εκδόσεις."
 
 #: resources/mintinstall.glade.h:8
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #: resources/mintinstall.glade.h:9
 msgid ""
@@ -543,6 +547,9 @@ msgid ""
 "from your Linux distribution. They usually provide the most up to date "
 "version."
 msgstr ""
+"Τα Flatpaks συντηρούνται και ενημερώνονται απευθείας από τον ιδιοκτήτη τους, "
+"χωρίς έλεγχο από τη διανομή Linux που χρησιμοποιείτε. Συνήθως προσφέρουν την "
+"πιο πρόσφατη έκδοση."
 
 #: resources/mintinstall.glade.h:10
 msgid ""
@@ -550,6 +557,9 @@ msgid ""
 "distribution, but by the Flatpak maintainer. It's essential you trust the "
 "maintainer before installing a Flatpak."
 msgstr ""
+"Καταλαμβάνουν περισσότερο χώρο στο δίσκο. Ο εγγυητής ασφαλείας δεν είναι η "
+"διανομή Linux που διαθέτετε, αλλά ο συντηρητής του Flatpak. Συνεπώς, είναι "
+"σημαντικό να τον εμπιστεύεστε πριν εγκαταστήσετε ένα Flatpak."
 
 #: resources/mintinstall.glade.h:11
 msgid "Loading, please wait"
@@ -613,7 +623,7 @@ msgstr "Αναζήτηση αποθετηρίων λογισμικού, περι
 
 #: resources/mintinstall.glade.h:33
 msgid "Limit search to current listing"
-msgstr "Περιορίστε την αναζήτηση στην τρέχουσα λίστα"
+msgstr "Περιορισμός της αναζήτησης στην τρέχουσα λίστα"
 
 #~ msgid "Restoring your APT sources"
 #~ msgstr "Επαναφορά των πηγών APT"

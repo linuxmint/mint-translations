@@ -1,0 +1,510 @@
+# Lao translation for linuxmint
+# Copyright (c) 2025 Rosetta Contributors and Canonical Ltd 2025
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-03-21 22:01+0000\n"
+"PO-Revision-Date: 2025-10-12 10:36+0000\n"
+"Last-Translator: boneni <Unknown>\n"
+"Language-Team: Lao <lo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2025-12-12 13:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
+msgid "You are about to remove the following PPA:"
+msgstr "ທ່ານກຳລັງຈະລຶບ PPA ຕໍ່ໄປນີ້:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:89
+#: usr/lib/linuxmint/mintSources/mintSources.py:155
+#, python-format
+msgid " More info: %s"
+msgstr " ຂໍ້ມູນເພີ່ມເຕີມ: %s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:93
+#: usr/lib/linuxmint/mintSources/mintSources.py:159
+msgid "Press Enter to continue or Ctrl+C to cancel"
+msgstr "ກົດ Enter ເພື່ອສືບຕໍ່ ຫຼື Ctrl+C ເພື່ອຍົກເລີກ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:97
+#: usr/lib/linuxmint/mintSources/mintSources.py:163
+msgid "Unable to prompt for response.  Please run with -y"
+msgstr "ບໍ່ສາມາດກະຕຸ້ນການຕອບຮັບໄດ້. ກະລຸນາແລ່ນດ້ວຍ -y"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:101
+msgid "Cancelling..."
+msgstr "ກຳລັງຍົກເລີກ..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:104
+#, python-format
+msgid "Cannot get info about PPA: '%s'."
+msgstr "ບໍ່ສາມາດຮັບຂໍ້ມູນກ່ຽວກັບ PPA: '%s' ໄດ້."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:112
+#, python-format
+msgid "failed to remove PPA: '%s'"
+msgstr "ການລຶບ PPA: '%s' ລົ້ມເຫຼວ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:131
+#, python-format
+msgid "failed to remove repository: '%s'"
+msgstr "ການລຶບຄັງເກັບ: '%s' ລົ້ມເຫຼວ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:138
+msgid "Adding PPAs is not supported"
+msgstr "ບໍ່ຮອງຮັບການເພີ່ມ PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:145
+#, python-format
+msgid "Cannot add PPA: '%s'."
+msgstr "ບໍ່ສາມາດເພີ່ມ PPA: '%s' ໄດ້."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:149
+msgid "Adding private PPAs is not supported currently"
+msgstr "ປັດຈຸບັນນີ້ຍັງບໍ່ຮອງຮັບການເພີ່ມ PPA ສ່ວນຕົວ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:152
+msgid "You are about to add the following PPA:"
+msgstr "ທ່ານກຳລັງຈະເພີ່ມ PPA ຕໍ່ໄປນີ້:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:179
+#: usr/lib/linuxmint/mintSources/mintSources.py:1354
+#: usr/lib/linuxmint/mintSources/mintSources.py:1417
+msgid "Malformed input, repository not added."
+msgstr "ຂໍ້ມູນທີ່ປ້ອນເຂົ້າບໍ່ຖືກຕ້ອງ, ຄັງເກັບບໍ່ໄດ້ຖືກເພີ່ມ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:182
+msgid "Repository already exists."
+msgstr "ຄັງເກັບນີ້ມີຢູ່ແລ້ວ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:251
+msgid "Connection timed out, check your connection or try again later."
+msgstr "ໝົດເວລາການເຊື່ອມຕໍ່, ກວດສອບການເຊື່ອມຕໍ່ຂອງທ່ານ ຫຼື ລອງໃໝ່ໃນພາຍຫຼັງ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:253
+msgid "Failed to establish a secure connection."
+msgstr "ລົ້ມເຫຼວໃນການສ້າງການເຊື່ອມຕໍ່ທີ່ປອດໄພ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:255
+#, python-format
+msgid "Failed to download the PPA: %s."
+msgstr "ການດາວໂຫຼດ PPA: %s ລົ້ມເຫຼວ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:264
+#: usr/lib/linuxmint/mintSources/mintSources.py:268
+msgid "No supported PPA of this name was found."
+msgstr "ບໍ່ພົບ PPA ທີ່ມີຊື່ນີ້ທີ່ຮອງຮັບ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:276
+#, python-format
+msgid "This PPA does not support %s"
+msgstr "PPA ນີ້ບໍ່ຮອງຮັບ %s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:376
+msgid "CD-ROM (Installation Disc)"
+msgstr "CD-ROM (ແຜ່ນຕິດຕັ້ງ)"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:378
+msgid "Local Repository"
+msgstr "ຄັງເກັບໃນເຄື່ອງ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:458
+msgid ""
+"Linux Mint uses Romeo to publish packages which are not tested. Once these "
+"packages are tested, they are then moved to the official repositories. "
+"Unless you are participating in beta-testing, you should not enable this "
+"repository. Are you sure you want to enable Romeo?"
+msgstr ""
+"Linux Mint ໃຊ້ Romeo ເພື່ອເຜີຍແຜ່ແພັກເກັດທີ່ຍັງບໍ່ທັນໄດ້ທົດສອບ. "
+"ເມື່ອແພັກເກັດເຫຼົ່ານີ້ຖືກທົດສອບແລ້ວ, ມັນຈະຖືກຍ້າຍໄປທີ່ຄັງເກັບທາງການ. "
+"ຖ້າທ່ານບໍ່ໄດ້ເຂົ້າຮ່ວມໃນການທົດສອບເບຕ້າ, ທ່ານບໍ່ຄວນເປີດໃຊ້ຄັງເກັບນີ້. "
+"ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການເປີດໃຊ້ Romeo?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:490
+msgid "Select a mirror"
+msgstr "ເລືອກເຊີບເວີສຳຮອງ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:502
+msgid "Country"
+msgstr "ປະເທດ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:508
+msgid "Mirror"
+msgstr "ເຊີບເວີສຳຮອງ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:513
+msgid "Speed"
+msgstr "ຄວາມໄວ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:544
+msgid "Worldwide"
+msgstr "ທົ່ວໂລກ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:631
+#: usr/lib/linuxmint/mintSources/mintSources.py:645
+msgid "kB/s"
+msgstr "kB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:634
+msgid "MB/s"
+msgstr "MB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:637
+msgid "GB/s"
+msgstr "GB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:685
+msgid "Obsolete"
+msgstr "ລ້າສະໄໝ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:688
+msgid "Unreachable"
+msgstr "ເຂົ້າບໍ່ເຖິງ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:830 generate_desktop_files:25
+#: generate_desktop_files:53
+msgid "Software Sources"
+msgstr "ແຫຼ່ງຊອບແວ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:850
+msgid "Backported packages"
+msgstr "ແພັກເກັດທີ່ຖືກນຳກັບມາໃຊ້"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:852
+msgid "Unstable packages"
+msgstr "ແພັກເກັດທີ່ບໍ່ສະຖຽນ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:865
+msgid "Main"
+msgstr "ຫຼັກ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:866
+msgid "Base"
+msgstr "ພື້ນຖານ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:909
+#: usr/lib/linuxmint/mintSources/mintSources.py:934
+msgid "Enabled"
+msgstr "ເປີດໃຊ້ງານ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:915
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
+msgid "PPA"
+msgstr "PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:940
+msgid "Repository"
+msgstr "ຄັງເກັບ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:957
+msgid "Key"
+msgstr "ຄີ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1072
+msgid "There is no more residual configuration on the system."
+msgstr "ບໍ່ມີການຕັ້ງຄ່າທີ່ຕົກຄ້າງຢູ່ໃນລະບົບອີກແລ້ວ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1076
+msgid "The problem was fixed. Please reload the cache."
+msgstr "ບັນຫາໄດ້ຖືກແກ້ໄຂແລ້ວ. ກະລຸນາໂຫຼດແຄດຄືນໃໝ່."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1118
+msgid "Duplicate entries were removed. Please reload the cache."
+msgstr "ລາຍການທີ່ຊ້ຳກັນໄດ້ຖືກລຶບອອກແລ້ວ. ກະລຸນາໂຫຼດແຄດຄືນໃໝ່."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1124
+msgid "No duplicate entries were found."
+msgstr "ບໍ່ພົບລາຍການທີ່ຊ້ຳກັນ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1133
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr ""
+"ເກີດຂໍ້ຜິດພາດກັບການຕັ້ງຄ່າ APT ຂອງທ່ານ, ທ່ານອາດຈະຕ້ອງໂຫຼດແຄດຄືນໃໝ່ກ່ອນ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1245
+msgid "All missing keys were successfully added."
+msgstr "ຄີທີ່ຂາດຫາຍໄປທັງໝົດໄດ້ຖືກເພີ່ມສຳເລັດແລ້ວ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1247
+msgid "Not all missing keys could be found."
+msgstr "ບໍ່ສາມາດຊອກຫາຄີທີ່ຂາດຫາຍໄປທັງໝົດໄດ້."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1250
+msgid "Keys were added for the following repositories:"
+msgstr "ຄີໄດ້ຖືກເພີ່ມໃຫ້ກັບຄັງເກັບຕໍ່ໄປນີ້:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1254
+msgid "Keys are still missing for the following repositories:"
+msgstr "ຍັງຂາດຄີສຳລັບຄັງເກັບຕໍ່ໄປນີ້:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1255
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories or PPAs."
+msgstr ""
+"ເພີ່ມຄີທີ່ຍັງຂາດຫາຍໄປດ້ວຍຕົນເອງ ຫຼື ລຶບຄັງເກັບ ຫຼື PPA ທີ່ກ່ຽວຂ້ອງອອກ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1263
+msgid "Please reload the cache."
+msgstr "ກະລຸນາໂຫຼດແຄດຄືນໃໝ່."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1268
+msgid "No missing keys were found."
+msgstr "ບໍ່ພົບຄີທີ່ຂາດຫາຍໄປ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1304
+msgid "Open.."
+msgstr "ເປີດ.."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1307
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1308
+msgid "Open"
+msgstr "ເປີດ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1318
+msgid ""
+"Please enter the fingerprint of the public key you want to download from "
+"keyserver.ubuntu.com:"
+msgstr ""
+"ກະລຸນາປ້ອນລາຍນິ້ວມືຂອງຄີສາທາລະນະທີ່ທ່ານຕ້ອງການດາວໂຫຼດຈາກ "
+"keyserver.ubuntu.com:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1325
+msgid "Are you sure you want to permanently remove the selected keys?"
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບຄີທີ່ເລືອກອອກຢ່າງຖາວອນ?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1349
+msgid "Please enter the name of the repository you want to add:"
+msgstr "ກະລຸນາປ້ອນຊື່ຂອງຄັງເກັບທີ່ທ່ານຕ້ອງການເພີ່ມ:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1375
+#: usr/lib/linuxmint/mintSources/mintSources.py:1438
+msgid ""
+"This repository is already configured, you cannot add it a second time."
+msgstr "ຄັງເກັບນີ້ໄດ້ຖືກຕັ້ງຄ່າແລ້ວ, ທ່ານບໍ່ສາມາດເພີ່ມມັນເປັນຄັ້ງທີສອງ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1386
+msgid "Please enter the name or the URL of the PPA you want to add:"
+msgstr "ກະລຸນາປ້ອນຊື່ ຫຼື URL ຂອງ PPA ທີ່ທ່ານຕ້ອງການເພີ່ມ:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1395
+msgid "The name of the PPA you entered isn't formatted correctly."
+msgstr "ຊື່ຂອງ PPA ທີ່ທ່ານປ້ອນບໍ່ຖືກຕ້ອງຕາມຮູບແບບ."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1448
+msgid ""
+"Are you sure you want to permanently remove the selected repositories?"
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບຄັງເກັບທີ່ເລືອກອອກຢ່າງຖາວອນ?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1461
+msgid "Are you sure you want to permanently remove the selected PPAs?"
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບ PPAs ທີ່ເລືອກອອກຢ່າງຖາວອນ?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1522
+msgid ""
+"The content of this PPA is not available. Please refresh the cache and try "
+"again."
+msgstr ""
+"ເນື້ອຫາຂອງ PPA ນີ້ບໍ່ສາມາດໃຊ້ໄດ້. ກະລຸນາໂຫຼດແຄດຄືນໃໝ່ ແລະ ລອງອີກຄັ້ງ."
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:82
+#, python-format
+msgid "version %s already installed"
+msgstr "ເວີຊັ່ນ %s ໄດ້ຕິດຕັ້ງແລ້ວ"
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:85
+msgid "already installed"
+msgstr "ຕິດຕັ້ງແລ້ວ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:112
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
+msgid "Foreign packages"
+msgstr "ແພັກເກັດຈາກພາຍນອກ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:119
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
+msgid "Downgrade"
+msgstr "ຫຼຸດເວີຊັ່ນ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:120
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
+msgid ""
+"The version of the following packages doesn't match the one from the "
+"repositories:"
+msgstr "ເວີຊັ່ນຂອງແພັກເກັດຕໍ່ໄປນີ້ບໍ່ກົງກັບເວີຊັ່ນຈາກຄັງເກັບ:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:122
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
+msgid "Remove"
+msgstr "ລຶບ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:123
+msgid ""
+"The packages below are installed on your computer but not present in the "
+"repositories:"
+msgstr ""
+"ແພັກເກັດຂ້າງລຸ່ມນີ້ຖືກຕິດຕັ້ງຢູ່ໃນຄອມພິວເຕີຂອງທ່ານແຕ່ບໍ່ມີຢູ່ໃນຄັງເກັບ:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:128
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:275
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
+msgid "Select All"
+msgstr "ເລືອກທັງໝົດ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:146
+msgid "Package"
+msgstr "ແພັກເກັດ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:151
+msgid "Installed version"
+msgstr "ເວີຊັ່ນທີ່ຕິດຕັ້ງ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:157
+msgid "Repository version"
+msgstr "ເວີຊັ່ນໃນຄັງເກັບ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:278
+msgid "Clear"
+msgstr "ລ້າງ"
+
+#: usr/bin/add-apt-repository:19
+msgid "Error: must run as root"
+msgstr "ຜິດພາດ: ຕ້ອງແລ່ນໃນຖານະ root"
+
+#: usr/bin/add-apt-repository:23
+msgid "Error: need a repository as argument"
+msgstr "ຜິດພາດ: ຕ້ອງມີຄັງເກັບເປັນອາກິວເມນ"
+
+#: generate_desktop_files:25
+msgid "Configure the sources for installable software and updates"
+msgstr "ກຳນົດຄ່າແຫຼ່ງທີ່ມາຂອງຊອບແວທີ່ສາມາດຕິດຕັ້ງໄດ້ ແລະ ການອັບເດດ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
+msgid "Warning"
+msgstr "ຄຳເຕືອນ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
+msgid ""
+"Review the information below very carefully before validating the command."
+msgstr "ກວດສອບຂໍ້ມູນຂ້າງລຸ່ມນີ້ຢ່າງລະມັດລະວັງກ່ອນທີ່ຈະຢືນຢັນຄຳສັ່ງ."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
+msgid "Mirrors"
+msgstr "ເຊີບເວີສຳຮອງ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
+msgid "Optional Sources"
+msgstr "ແຫຼ່ງທີ່ມາເພີ່ມເຕີມ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
+msgid "Source code repositories"
+msgstr "ຄັງເກັບລະຫັດຕົ້ນສະບັບ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
+msgid "Debug symbols"
+msgstr "ສັນຍາລັກດີບັກ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
+msgid "Restore the default settings"
+msgstr "ກູ້ຄືນການຕັ້ງຄ່າເລີ່ມຕົ້ນ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
+msgid "Official Repositories"
+msgstr "ຄັງເກັບທາງການ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
+msgid "Add"
+msgstr "ເພີ່ມ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+msgid "Browse..."
+msgstr "ເບິ່ງ..."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
+msgid "PPAs"
+msgstr "PPAs"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+msgid "Additional Repositories"
+msgstr "ຄັງເກັບເພີ່ມເຕີມ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+msgid "Import"
+msgstr "ນຳເຂົ້າ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
+msgid "Download"
+msgstr "ດາວໂຫຼດ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
+msgid "Authentication Keys"
+msgstr "ຄີຢືນຢັນຕົວຕົນ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
+msgid "Fix MergeList problems"
+msgstr "ແກ້ໄຂບັນຫາ MergeList"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
+msgid "Purge residual configuration"
+msgstr "ລ້າງການຕັ້ງຄ່າທີ່ຕົກຄ້າງ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
+msgid "Remove duplicate entries"
+msgstr "ລຶບລາຍການທີ່ຊ້ຳກັນ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
+msgid "Add missing keys"
+msgstr "ເພີ່ມຄີທີ່ຂາດຫາຍໄປ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
+msgid "Remove foreign packages"
+msgstr "ລຶບແພັກເກັດຈາກພາຍນອກ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+msgid "Downgrade foreign packages"
+msgstr "ຫຼຸດເວີຊັ່ນແພັກເກັດຈາກພາຍນອກ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+msgid "Maintenance"
+msgstr "ການບຳລຸງຮັກສາ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+msgid "Click here to update the APT cache"
+msgstr "ກົດທີ່ນີ້ເພື່ອອັບເດດແຄດ APT"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
+msgid "Updating cache..."
+msgstr "ກຳລັງອັບເດດແຄດ..."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+msgid "Error"
+msgstr "ຜິດພາດ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+msgid "Select Mirror"
+msgstr "ເລືອກເຊີບເວີສຳຮອງ"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
+msgid "Apply"
+msgstr "ນຳໃຊ້"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:34
+msgid ""
+"This PPA provides the following packages. Please select the ones you want to "
+"install."
+msgstr "PPA ນີ້ສະໜອງແພັກເກັດຕໍ່ໄປນີ້. ກະລຸນາເລືອກອັນທີ່ທ່ານຕ້ອງການຕິດຕັ້ງ."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:35
+msgid "Install"
+msgstr "ຕິດຕັ້ງ"

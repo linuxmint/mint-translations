@@ -7,152 +7,152 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-11-27 14:27+0000\n"
+"POT-Creation-Date: 2025-12-11 14:26+0000\n"
 "PO-Revision-Date: 2025-03-03 22:34+0000\n"
 "Last-Translator: 爽自由 <coby2023t@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-08-26 15:18+0000\n"
-"X-Generator: Launchpad (build 919009172d854f2b8e4e8262db447f12f11d25eb)\n"
+"X-Launchpad-Export-Date: 2025-12-12 13:26+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:37
 msgid "Backups"
 msgstr "備份"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:173
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:239 generate_desktop_files:24
-#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:170
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
 msgid "Backup Tool"
 msgstr "備份工具"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:898
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:212
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:885
 msgid "About"
 msgstr "關於"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:222
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:217
 msgid "Quit"
 msgstr "結束"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:263
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:256
 #, python-format
 msgid "%s is not located in your home directory."
 msgstr "%s 不在您的家目錄裡。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:303
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:319
 msgid "Please choose a directory."
 msgstr "請選擇一個目錄。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:306
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:322
 msgid "You do not have the permission to write in the selected directory."
 msgstr "您在選取的目錄中沒有寫入權限。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:382
 msgid "Please choose a backup file."
 msgstr "請選擇一個備份檔案。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:374
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:390
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr "備份檔可能太舊或者它是由不同的工具建立的。請手動將它解壓縮。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:383
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:399
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr "開啟備份檔案時發生錯誤：%s。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:397
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:413
 msgid "No packages need to be installed."
 msgstr "沒有需要安裝的軟體包。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:404
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:420
 msgid "Please select packages to install."
 msgstr "請選擇要安裝的軟體包。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:458
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
 msgstr "略過 %s，因為不支援命名的管道。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:483
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:499
 msgid "Backing up:"
 msgstr "備份中:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:491
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:507
 msgid "Calculating..."
 msgstr "計算中..."
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:495
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:599
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:511
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:615
 msgid "The following errors occurred:"
 msgstr "發生下列錯誤："
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:501
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:517
 msgid "The backup was aborted."
 msgstr "備份已中止。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:505
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:521
 #, python-format
 msgid "Your files were successfully saved in %s."
 msgstr "您的檔案已成功的儲存於 %s。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:546
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:562
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr "警告：詮釋資料檔案無法儲存。這次備份將不能用於還原。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:573
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:589
 #, python-format
 msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr "警告：部分檔案無法儲存。全部 %(total)d 檔案中只有 %(archived)d 檔案完成備份。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:588
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:604
 msgid "Restoring:"
 msgstr "還原中:"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:605
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:621
 msgid "The restoration was aborted."
 msgstr "還原作業已中止。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:609
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:625
 msgid "Your files were successfully restored."
 msgstr "您的檔案已成功還原。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:697
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:713
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr "警告：全部 %(total)d 檔案中只有 %(number)d 檔案還原。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:722
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:738
 msgid "The list below shows the applications you installed."
 msgstr "底下的列表顯示了您所安裝的程式。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:766
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 #, python-format
 msgid "Your software selection was saved in %s"
 msgstr "您的軟體選擇已儲存於 %s"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:782
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:798
 msgid "The selected file is not a valid software selection."
 msgstr "選取的檔案不是有效的軟體選擇。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:787
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:830
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:803
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:846
 msgid "An error occurred while reading the file."
 msgstr "讀取檔案時發生錯誤。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:812
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:828
 msgid "Could not locate the package."
 msgstr "無法定位軟體包。"
 
-#: usr/lib/linuxmint/mintbackup/mintbackup.py:900 generate_desktop_files:24
-#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:887 generate_desktop_files:24
+#: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:36
 msgid "Backup apps and files"
 msgstr "備份 App 與檔案"
 
@@ -223,24 +223,28 @@ msgid "Include directories"
 msgstr "包含資料夾"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid "Include all"
+msgstr ""
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid ""
 "These files and folders usually contain temporary data or preferences for "
 "your applications."
 msgstr "這些檔案與資料夾通常會包含您應用程式的暫存資料或偏好設定。"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please wait while your files are being backed up."
 msgstr "請稍候，您的檔案正在備份中。"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Please select the backup to restore:"
 msgstr "請選擇要還原的備份︰"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid "Overwrite existing files?"
 msgstr "是否覆蓋現有的檔案？"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:21
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
@@ -248,7 +252,7 @@ msgstr ""
 "不，只還原缺少的檔案。\n"
 "<small>這個選項是安全的，不會影響到您現有的檔案。</small>"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:23
 msgid ""
 "Yes, overwrite changes and restore the content of any existing files.\n"
 "<small>Use this option with caution. The changes you made to the files since "
@@ -257,29 +261,29 @@ msgstr ""
 "是，覆蓋所有變更，還原任何現有檔案的內容。\n"
 "<small>請小心使用這個選項。所有您在備份後所做的變更都會消失。</small>"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid "Please wait while your files are being restored."
 msgstr "請稍候，您的檔案正在還原中。"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr "下面列出您使用軟體管理員安裝的應用程式。"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Please select the applications you want to save."
 msgstr "請選擇您想要儲存的應用程式。"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Select all"
 msgstr "全部選取"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
 msgid "Deselect all"
 msgstr "取消全部選取"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
 msgid ""
 "Note: If you want to save the complete list of all installed packages on the "
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
@@ -287,19 +291,19 @@ msgid ""
 msgstr ""
 "注意︰如果您想要儲存所有安裝在系統中軟體包的列表，請在終端機中使用指令「dpkg --get-selections > mylist.list」。"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Please select a saved software selection (.list file):"
 msgstr "請選擇要儲存的軟體選項 (.list 檔案)︰"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Select the packages you want to install."
 msgstr "選擇您想要安裝的軟體包。"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "Refresh"
 msgstr "重新整理"
 
-#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "All the packages in your software selection are installed."
 msgstr "所有您的軟體選項中的軟體包都已安裝。"
 
