@@ -8,24 +8,24 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-11-26 10:25+0000\n"
-"PO-Revision-Date: 2025-11-07 12:48+0000\n"
+"PO-Revision-Date: 2025-12-14 13:40+0000\n"
 "Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:26+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:34+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 
 #: usr/bin/cinnamon-remove-application:33 usr/bin/mint-remove-application:33
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
-msgstr "פריט תפריט זה לא מסומך לחבילה כלשהי. האם להסירו מהתפריט?"
+msgstr "פריט תפריט זה אינו קשור לאף חבילה. להסיר אותו מהתפריט בכל מקרה?"
 
 #: usr/bin/cinnamon-remove-application:78 usr/bin/mint-remove-application:78
 msgid "The following packages will be removed:"
-msgstr "החבילות הבאות תוסרנה:"
+msgstr "תתבצע הסרה של החבילות הבאות:"
 
 #: usr/bin/cinnamon-remove-application:85 usr/bin/mint-remove-application:85
 msgid "Packages to be removed"
@@ -34,12 +34,12 @@ msgstr "חבילות להסרה"
 #: usr/bin/cinnamon-remove-application:146 usr/bin/mint-remove-application:146
 #, python-format
 msgid "Cannot remove package %s as it is required by a system package."
-msgstr "לא ניתן להסיר חבילה %s כי היא דרושהלחבילת מערכת."
+msgstr "לא ניתן להסיר את החבילה %s מכיוון שהיא נחוצה לחבילת מערכת."
 
 #: usr/bin/cinnamon-remove-application:152 usr/bin/mint-remove-application:152
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
-msgstr "חבילה %s תלויוה בחבילות הבאות:"
+msgstr "החבילה %s נחוצה לחבילות הבאות:"
 
 #: usr/bin/mint-remove-flatpak:59
 msgid "Removing"
@@ -52,7 +52,7 @@ msgstr "התקנה"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:40
 msgid "Reinstall"
-msgstr "התקנה חוזרת"
+msgstr "התקנה מחדש"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:41
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:120
@@ -74,7 +74,7 @@ msgstr "שנמוך"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:45
 msgid "Skip upgrade"
-msgstr "דילוג על שדרוג"
+msgstr "דילוג על השדרוג"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:61
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:145
@@ -84,33 +84,33 @@ msgstr "נא לעיין ברשימת השינויים שלהלן."
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:68
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:155
 msgid "Additional software will be installed"
-msgstr "תוכנה נוספת תותקן"
+msgstr "תוכנה נוספת שתותקן"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:70
 msgid "Additional software will be re-installed"
-msgstr "תוכנה נוספת תותקן שוב"
+msgstr "תוכנה נוספת שתותקן מחדש"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:72
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:157
 msgid "Additional software will be removed"
-msgstr "תוכנה נוספת תוסר"
+msgstr "תוכנה נוספת שתוסר"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:74
 msgid "Additional software will be purged"
-msgstr "תוכנה נוספת תטוהר"
+msgstr "תוכנה נוספת שתטוהר"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:76
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:159
 msgid "Additional software will be upgraded"
-msgstr "תוכנה נוספת תשודרג"
+msgstr "תוכנה נוספת שתשודרג"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:78
 msgid "Additional software will be downgraded"
-msgstr "תוכנה נוספת תשונמך"
+msgstr "תוכנה נוספת שתשונמך"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:80
 msgid "Updates will be skipped"
-msgstr "עדכונים ידולגו"
+msgstr "עדכונים שידולגו"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:88
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:168
@@ -121,13 +121,13 @@ msgstr "נדרשים שינויים נוספים"
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:174
 #, python-format
 msgid "%s will be downloaded in total."
-msgstr "סך כל הורדה %s."
+msgstr "תתבצע הורדה של %s בסך הכול."
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:97
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:178
 #, python-format
 msgid "%s of disk space will be freed."
-msgstr "%s מנפח הכונן ישוחררו."
+msgstr "יתבצע פינוי של %s משטח הכונן."
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:101
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:182
@@ -137,11 +137,11 @@ msgstr "%s נוספים מנפח הכונן ינוצלו."
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:106
 msgid "Flatpaks"
-msgstr "פלטפק"
+msgstr "חבילות Flatpak"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:251
 msgid "Flatpak"
-msgstr "פלטפק"
+msgstr "Flatpak"
 
 #: usr/lib/python3/dist-packages/mintcommon/installer/dialogs.py:324
 msgid "An error occurred"

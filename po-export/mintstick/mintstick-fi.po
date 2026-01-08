@@ -8,43 +8,43 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2025-08-19 15:08+0000\n"
-"Last-Translator: Kimmo Kujansuu <Unknown>\n"
+"PO-Revision-Date: 2025-12-16 14:50+0000\n"
+"Last-Translator: Hiiri522 <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:28+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:39+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
-msgstr "Alustus onnistui."
+msgstr "USB-muistitikun alustus onnistui."
 
 #: lib/mintstick.py:315
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Tapahtui virhe luodessa osiota kohteeseen %s."
+msgstr "Osion luominen kohteeseen %s epäonnistui."
 
 #: lib/mintstick.py:317 lib/mintstick.py:427
 msgid "Authentication Error."
-msgstr "Todennusvirhe."
+msgstr "Todennusvirhe"
 
 #: lib/mintstick.py:322 lib/mintstick.py:433
 msgid "An error occurred."
-msgstr "Tapahtui virhe."
+msgstr "Tapahtui jokin virhe."
 
 #: lib/mintstick.py:420
 msgid "The image was successfully written."
-msgstr "Kirjoittaminen onnistui."
+msgstr "Levykuvan kirjoitus USB-muistitikulle onnistui."
 
 #: lib/mintstick.py:423
 msgid "Not enough space on the USB stick."
-msgstr "USB-tikulla ei ole riittävästi tilaa."
+msgstr "USB-muistitikulla ei ole riittävästi tilaa."
 
 #: lib/mintstick.py:425
 msgid "An error occured while copying the image."
-msgstr "Kopioinnissa tapahtui virhe."
+msgstr "Levykuvan kopioinnissa USB-muistitikulle tapahtui virhe."
 
 #: lib/verify.py:54
 msgid "bytes"
@@ -52,7 +52,7 @@ msgstr "tavua"
 
 #: lib/verify.py:54
 msgid "KB"
-msgstr "kt"
+msgstr "Kt"
 
 #: lib/verify.py:54
 msgid "MB"
@@ -68,7 +68,7 @@ msgstr "Tt"
 
 #: lib/verify.py:87
 msgid "ISO images"
-msgstr "ISO-levykuvat"
+msgstr "ISO-levykuva"
 
 #: lib/verify.py:91
 msgid "Checksum files"
@@ -105,11 +105,11 @@ msgstr "Tarkistussumma ei täsmää. Lataa ISO-levykuva uudelleen."
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
-msgstr "Summatiedostoa ei voitu ladata. Tarkista verkko--osoite."
+msgstr "Summatiedostoa ei voitu ladata. Tarkista, onko verkko-osoite oikein."
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
-msgstr "GPG-tiedostoa ei voitu ladata. Tarkista verkko-osoite."
+msgstr "GPG-tiedostoa ei voitu ladata. Tarkista, onko verkko-osoite oikein."
 
 #: lib/verify.py:243
 msgid "The sums file could not be checked."
@@ -142,7 +142,7 @@ msgstr "Avainta ei löydy palvelimelta."
 
 #: lib/verify.py:299 lib/verify.py:305
 msgid "Everything looks good!"
-msgstr "Kaikki näyttää olevan kunnossa!"
+msgstr "Kaikki kunnossa!"
 
 #: lib/verify.py:300
 msgid "This is an official ISO image."
@@ -171,16 +171,16 @@ msgstr "Tapahtui virhe"
 
 #: lib/verify.py:327
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr "ISO-levykuvan SHA256 on virheellinen."
+msgstr "ISO-levykuvan SHA256-summa on virheellinen."
 
 #: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
-msgstr "SHA256-tiedosto ei sisällä summia tälle ISO-levykuvalle."
+msgstr "SHA256-summatiedosto ei sisällä summia tälle ISO-levykuvalle."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
 msgid "USB Image Writer"
-msgstr "USB-levykuvan kirjoittaja"
+msgstr "Kirjoita levykuva muistitikulle"
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: generate_additional_files.py:67 share/mintstick/mintstick.ui.h:39
@@ -218,7 +218,7 @@ msgstr "Tarkista levykuvan aitous"
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
-msgstr "Tämä poistaa kaikki tiedot USB-tikulta. Haluatko jatkaa?"
+msgstr "Kaikki tiedostot poistuvat USB-tikulta. Haluatko varmasti jatkaa?"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid "USB stick:"
@@ -254,25 +254,25 @@ msgid ""
 "  + Supports Linux file permissions.\n"
 "  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
-"FAT32 \n"
-"  + Yhteensopiva kaikkialla.\n"
-"  - Ei voi käsitellä suurempia tiedostoja kuin 4Gt.\n"
+"FAT32\n"
+"  + Yhteensopiva kaikkien käyttöjärjestelmien kanssa.\n"
+"  - Ei osaa käsitellä tiedostoja, joiden koko on yli 4 Gt.\n"
 "\n"
-"exFat\n"
-"  + Yhteensopiva melkein kaikkialla.\n"
-"  + Voi käsitellä suurempia tiedostoja kuin 4Gt.\n"
-"  - Ei yhtä hyvin yhteensopiva kuin FAT32.\n"
+"exFAT\n"
+"  + Yhteensopiva melkein kaikkien käyttöjärjestelmien kanssa.\n"
+"  + Osaa käsitellä tiedostoja, joiden koko on yli 4 Gt.\n"
+"  - Ei yhteensopiva kaikkien käyttöjärjestelmien kanssa.\n"
 "\n"
-"NTFS \n"
+"NTFS\n"
 "  + Yhteensopiva Windowsin kanssa.\n"
-"  - Yhteensopimaton Macin ja useimpien laitteistojen kanssa.\n"
-"  - Ajoittain yhteensopimaton Linuxin kanssa (NTFS on omistettua ja "
-"takaisinmallinnettuna).\n"
+"  - Yhteensopimaton mm. macOS:n kanssa.\n"
+"  - Ajoittain yhteensopimaton Linuxin kanssa (NTFS on suljettu ja "
+"päinvastaisesti suunniteltu).\n"
 "\n"
-"EXT4 \n"
-"  + Moderni, vakaa, nopea, journaloitu.\n"
-"  + Tukee Linuxin tiedostolupia.\n"
-"  - Yhteensopimaton Windowsin, Macin ja useimpien laitteistojen kanssa.\n"
+"EXT4\n"
+"  + Moderni, vakaa, nopea ja laajalti yhteensopiva.\n"
+"  + Yhteensopiva Linuxin tiedostolupien kanssa.\n"
+"  - Yhteensopimaton Windowsin, macOS:n ym. käyttöjärjestelmien kanssa.\n"
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
@@ -308,7 +308,9 @@ msgstr "Tämä ISO näyttää olevan Windows-levykuva."
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
-msgstr "Windows-levykuvat vaativat erityiskäsittelyä."
+msgstr ""
+"Windows-levykuvat vaativat erityiskäsittelyä, joka ei onnistu tällä "
+"ohjelmalla."
 
 #: share/mintstick/mintstick.ui.h:37
 msgid "More information"
@@ -324,7 +326,7 @@ msgstr "Asema:"
 
 #: share/mintstick/verify.ui.h:3
 msgid "SHA256sum:"
-msgstr "SHA256 summa:"
+msgstr "SHA256-summa:"
 
 #: share/mintstick/verify.ui.h:4
 msgid "Size:"
@@ -332,7 +334,7 @@ msgstr "Koko:"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr "SHA256 summatiedosto:"
+msgstr "SHA256-summatiedosto:"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
@@ -340,7 +342,7 @@ msgstr "GPG-allekirjoitettu tiedosto:"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
-msgstr "Osoitteet"
+msgstr "URL-osoitteet"
 
 #: share/mintstick/verify.ui.h:9
 msgid "SHA256 sums file"
@@ -356,7 +358,7 @@ msgstr "Paikalliset tiedostot"
 
 #: share/mintstick/verify.ui.h:12
 msgid "SHA256 sum"
-msgstr "SHA256 summa"
+msgstr "SHA256-summa"
 
 #: share/mintstick/verify.ui.h:13
 msgid "Check"
@@ -372,4 +374,4 @@ msgstr "Takaisin"
 
 #: share/mintstick/verify.ui.h:16
 msgid "ISO Verification"
-msgstr "ISO aitouden vahvistus"
+msgstr "ISO-levykuvan aitouden vahvistus"

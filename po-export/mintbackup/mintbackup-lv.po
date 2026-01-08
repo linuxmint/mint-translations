@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-12-11 14:26+0000\n"
-"PO-Revision-Date: 2025-12-11 17:08+0000\n"
+"PO-Revision-Date: 2025-12-25 11:21+0000\n"
 "Last-Translator: Klavs Petersons <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:26+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:34+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"Language: lv\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:37
 msgid "Backups"
@@ -39,27 +40,27 @@ msgstr "Iziet"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:256
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr "%s neatrodas jūsu sākumdirektorijā."
+msgstr "%s nav atrodams tavā mājas direktorijā."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:319
 msgid "Please choose a directory."
-msgstr "Lūdzu, izvēlieties direktoriju."
+msgstr "Lūdzu, izvēlies direktoriju."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:322
 msgid "You do not have the permission to write in the selected directory."
-msgstr "Jums nav rakstīšanas atļaujas izvēlētajā direktorijā."
+msgstr "Tev nav rakstīšanas atļaujas izvēlētajā direktorijā."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:382
 msgid "Please choose a backup file."
-msgstr "Lūdzu, izvēlieties dublējuma failu."
+msgstr "Lūdzu, izvēlies dublējuma failu."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:390
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
-"Šis dublējuma fails ir vai nu pārāk vecs, vai arī tas ir izveidots ar citu "
-"rīku. Lūdzu, izkopējiet to manuāli."
+"Šis dublējuma fails ir pārāk vecs vai ir izveidots, izmantojot citu rīku. "
+"Lūdzu, izvelc to manuāli."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:399
 #, python-format
@@ -72,12 +73,12 @@ msgstr "Nav jāinstalē neviena pakotne."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:420
 msgid "Please select packages to install."
-msgstr "Lūdzu, atlasiet instalējamās pakotnes."
+msgstr "Lūdzu, atlasi instalējamās pakotnes."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:474
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr "Izlaižu %s jo tas netiek atbalstīts."
+msgstr "Izlaižu %s jo signālu kanāli netiek atbalstīti."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:499
 msgid "Backing up:"
@@ -99,7 +100,7 @@ msgstr "Dublēšana tika pārtraukta."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:521
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr "Jūsu faili tika veiksmīgi saglabāti %s."
+msgstr "Tavi faili tika veiksmīgi saglabāti iekš %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:562
 msgid ""
@@ -120,7 +121,7 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:604
 msgid "Restoring:"
-msgstr "Notiek atjaunošana"
+msgstr "Notiek atjaunošana:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:621
 msgid "The restoration was aborted."
@@ -128,7 +129,7 @@ msgstr "Atjaunošana tika pārtraukta."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:625
 msgid "Your files were successfully restored."
-msgstr "Jūsu faili tika veiksmīgi atjaunoti."
+msgstr "Tavi faili tika veiksmīgi atjaunoti."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:713
 #, python-format
@@ -168,7 +169,7 @@ msgstr "Personīgie dati"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr "Jūsu faili, iestatījumi un sākumdirektorija saturs"
+msgstr "Tavi faili, iestatījumi un sākumdirektorija saturs"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
@@ -176,7 +177,7 @@ msgstr "Atjaunot..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr "Dublēt tūlīt"
+msgstr "Veikt dublējumu tagad..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
@@ -188,15 +189,15 @@ msgstr "Datorā instalēto lietojumprogrammu saraksts"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr "Lūdzu, atlasiet vietu, kur vēlaties saglabāt dublējuma failu:"
+msgstr "Lūdzu, atlasi vietu, kurā vēlies saglabāt dublējuma failu:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
-"Lūdzu, pievienojiet failus vai direktorijus tālāk norādītajam sarakstam, lai "
-"tos izslēgtu no dublējuma."
+"Lūdzu, pievieno failus vai direktorijus tālāk norādītajam sarakstam, lai tos "
+"izslēgtu no dublējuma."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -223,7 +224,7 @@ msgid ""
 "If you want to include some of them in the backup, please add them to the "
 "list below."
 msgstr ""
-"Ja vēlaties iekļaut dažus no tiem dublējumā, lūdzu, pievienojiet tos zemāk "
+"Ja vēlies iekļaut dažus no tiem dublējumā, lūdzu, pievieno tos zemāk "
 "esošajam sarakstam."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
@@ -248,11 +249,11 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please wait while your files are being backed up."
-msgstr "Lūdzu, uzgaidiet, kamēr notiek failu dublēšana."
+msgstr "Lūdzu, uzgaidi, kamēr notiek failu dublēšana."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Please select the backup to restore:"
-msgstr "Lūdzu, izvēlieties atjaunojamo dublējumu:"
+msgstr "Lūdzu, izvēlies atjaunojamo dublējumu:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid "Overwrite existing files?"
@@ -275,12 +276,12 @@ msgid ""
 msgstr ""
 "Jā, pārrakstīt izmaiņas un atjaunot esošo failu saturu.\n"
 "\n"
-"<small>Izmantojiet šo opciju ar piesardzību. Izmaiņas, kas veiktas failos "
-"kopš dublējuma izveides, tiks zaudētas.</small>"
+"<small>Izmanto šo opciju ar piesardzību. Izmaiņas, kas veiktas failos kopš "
+"dublējuma izveides, tiks zaudētas.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid "Please wait while your files are being restored."
-msgstr "Lūdzu, uzgaidiet, kamēr tiek atjaunoti faili."
+msgstr "Lūdzu, uzgaidi, kamēr tiek atjaunoti faili."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid ""
@@ -308,24 +309,24 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"Piezīme. Ja vēlaties saglabāt visu sistēmā instalēto pakotņu pilnu sarakstu, "
-"izmantojiet komandu 'dpkg --get-selections > mylist.list' terminālī."
+"Piezīme. Ja vēlies saglabāt visu sistēmā instalēto pakotņu pilnu sarakstu, "
+"izmanto komandu 'dpkg --get-selections > mylist.list' terminālī."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Please select a saved software selection (.list file):"
-msgstr "Lūdzu, izvēlieties saglabāto programmatūras izvēli (.list failu):"
+msgstr "Lūdzu, izvēlies saglabāto programmatūras izvēli (.list failu):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Select the packages you want to install."
-msgstr "Atlasiet pakotnes, kuras vēlaties instalēt."
+msgstr "Atlasi pakotnes, kuras vēlies instalēt."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
 msgid "Refresh"
-msgstr "Atjaunināt"
+msgstr "Atsvaidzināt"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "All the packages in your software selection are installed."
-msgstr "Ir instalētas visas programmatūras atlasē iekļautās pakotnes."
+msgstr "Visas tavas izvēlētās programmatūru pakotnes ir instalētas."
 
 #~ msgid "Invalid path"
 #~ msgstr "Nederīgs ceļš"

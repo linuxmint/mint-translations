@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-07-28 13:01+0200\n"
-"PO-Revision-Date: 2025-09-09 18:37+0000\n"
+"PO-Revision-Date: 2025-12-23 18:36+0000\n"
 "Last-Translator: Klavs Petersons <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:25+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:34+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"Language: lv\n"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:84
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:86
@@ -53,9 +54,8 @@ msgid ""
 "Cannot process this file while there are active operations.\n"
 "Please try again after they finish."
 msgstr ""
-"Šo failu nevar apstrādāt, kamēr ir aktīvas darbības.\n"
-"\n"
-"Lūdzu, mēģiniet vēlreiz, kad tās būs pabeigtas."
+"Nevar apstrādāt šo failu, kamēr notiek aktīvas darbības.\n"
+"Lūdzu, mēģini vēlreiz, kad tās būs pabeigtas."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:757
 msgid "The Flatpak repo you are trying to add already exists."
@@ -67,14 +67,14 @@ msgstr "Radās kļūda, mēģinot pievienot Flatpak repozitoriju."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:773
 msgid "Flatpak support is not currently available. Try installing flatpak."
-msgstr "Flatpak atbalsts pašlaik nav pieejams. Mēģiniet instalēt flatpak."
+msgstr "Flatpak atbalsts pašlaik nav pieejams. Mēģini instalēt flatpak."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:792
 msgid ""
 "Flatpak support is not currently available. Try installing flatpak and "
 "gir1.2-flatpak-1.0."
 msgstr ""
-"Flatpak atbalsts pašlaik nav pieejams. Mēģiniet instalēt flatpak un gir1.2-"
+"Flatpak atbalsts pašlaik nav pieejams. Mēģini instalēt flatpak un gir1.2-"
 "flatpak-1.0."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:828
@@ -108,7 +108,7 @@ msgstr "Par"
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1363
 #: resources/mintinstall.glade.h:15
 msgid "Top Rated"
-msgstr "Augstāk novērtētais"
+msgstr "Augsti novērtēts"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1411
 #: resources/mintinstall.glade.h:13
@@ -126,7 +126,7 @@ msgid "%d task running"
 msgid_plural "%d tasks running"
 msgstr[0] "%d uzdevums darbojas"
 msgstr[1] "%d uzdevumi darbojas"
-msgstr[2] "%d uzdevumi darbojas"
+msgstr[2] "%d uzdevumu darbojas"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:1691
 msgid "No screenshots available"
@@ -137,9 +137,8 @@ msgid ""
 "There are currently active operations.\n"
 "Are you sure you want to quit?"
 msgstr ""
-"Pašlaik tiek veiktas aktīvas darbības.\n"
-"\n"
-"Vai esat pārliecināts, ka vēlaties iziet?"
+"Pašlaik notiek aktīvas darbības.\n"
+"Vai tiešām vēlies iziet?"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2044
 msgid "Installed Applications"
@@ -167,7 +166,7 @@ msgstr "Tērzēšana"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2066
 msgid "File sharing"
-msgstr "Failu dalīšana"
+msgstr "Failu koplietošana"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2072
 msgid "Sound and video"
@@ -195,7 +194,7 @@ msgstr "Zīmēšana"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2089
 msgid "Photography"
-msgstr "Fotogrāfija"
+msgstr "Fotografēšana"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2091
 msgid "Publishing"
@@ -207,7 +206,7 @@ msgstr "Skenēšana"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2095
 msgid "Viewers"
-msgstr "Skatīkļi"
+msgstr "Skatītāji"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2100
 msgid "Office"
@@ -247,7 +246,7 @@ msgstr "Piederumi"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2131
 msgid "System tools"
-msgstr "sistēmas rīki"
+msgstr "Sistēmas rīki"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2138
 msgid "Fonts"
@@ -313,7 +312,7 @@ msgid ""
 msgstr ""
 "Nav parādāmu pakotņu.\n"
 "\n"
-"Tas var norādīt uz problēmu - mēģiniet atsvaidzināt kešatmiņu."
+"Tas var norādīt uz problēmu - mēģini atsvaidzināt kešatmiņu."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2761
 #: resources/mintinstall.glade.h:21
@@ -322,7 +321,7 @@ msgstr "Sistēmas pakotne"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2761
 msgid "Your system's package manager"
-msgstr "Jūsu sistēmas pakotņu pārvaldnieks"
+msgstr "Tavas sistēmas pakotņu pārvaldnieks"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2773
 #, python-format
@@ -355,7 +354,7 @@ msgid "%d Review"
 msgid_plural "%d Reviews"
 msgstr[0] "%d Atsauksme"
 msgstr[1] "%d Atsauksmes"
-msgstr[2] "%d Atsauksmes"
+msgstr[2] "%d Atsauksmju"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:2941
 #, python-format
@@ -368,7 +367,7 @@ msgid ""
 "Unable to communicate with servers. Check your Internet connection and try "
 "again."
 msgstr ""
-"Nevar sazināties ar serveriem. Pārbaudiet interneta savienojumu un mēģiniet "
+"Nevar sazināties ar serveriem. Pārbaudi interneta savienojumu un mēģini "
 "vēlreiz."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3029
@@ -416,7 +415,7 @@ msgstr "Nav pieejams"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3063
 msgid "Please use apt-get to install this package."
-msgstr "Lūdzu, izmantojiet apt-get, lai instalētu šo pakotni."
+msgstr "Lūdzu, izmanto apt-get, lai instalētu šo pakotni."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3065
 msgid "Use apt-get to remove this package."
@@ -424,11 +423,11 @@ msgstr "Izmantojiet apt-get, lai noņemtu šo pakotni."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3069
 msgid "Try again"
-msgstr "Mēģiniet vēlreiz"
+msgstr "Mēģini vēlreiz"
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3072
 msgid "Something went wrong. Click to try again."
-msgstr "Kaut kas nogāja greizi. Noklikšķiniet, lai mēģinātu vēlreiz."
+msgstr "Kaut kas nogāja greizi. Noklikšķini, lai mēģinātu vēlreiz."
 
 #: usr/lib/linuxmint/mintinstall/mintinstall.py:3098
 #, python-format
@@ -469,7 +468,7 @@ msgstr "Rādīt nepārbaudītus Flatpaks (nav ieteicams)"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:55
 msgid "List all types"
-msgstr "Uzskaitīt visus veidus"
+msgstr "Uzskaitīt visus tipus"
 
 #: usr/lib/linuxmint/mintinstall/prefs.py:56
 msgid "Only list the Flatpak"
@@ -485,7 +484,7 @@ msgstr "Ja programmai ir vairāki formāti:"
 
 #: generate_desktop_files:25 generate_desktop_files:36
 msgid "Install new applications"
-msgstr "Instalēt jaunas programmas"
+msgstr "Instalēt jaunas lietojumprogrammas"
 
 #: resources/mintinstall.glade.h:1
 msgid "Unverified Flatpaks represent a huge security risk"
@@ -509,19 +508,19 @@ msgstr ""
 
 #: resources/mintinstall.glade.h:4
 msgid "Package types"
-msgstr "Pakotņu veidi"
+msgstr "Pakotņu tipi"
 
 #: resources/mintinstall.glade.h:5
 msgid "System"
-msgstr "Sistēmas"
+msgstr "Sistēma"
 
 #: resources/mintinstall.glade.h:6
 msgid ""
 "System packages are managed by your Linux distribution and use shared "
 "libraries and resources."
 msgstr ""
-"Sistēmas pakotnes pārvalda jūsu Linux distribūciju, un tās izmanto "
-"koplietojamas bibliotēkas un resursus."
+"Sistēmas pakotnes pārvalda jūsu Linux distribūcija, un izmanto koplietošanas "
+"bibliotēkas un resursus."
 
 #: resources/mintinstall.glade.h:7
 msgid ""
@@ -541,7 +540,7 @@ msgid ""
 "from your Linux distribution. They usually provide the most up to date "
 "version."
 msgstr ""
-"Flatpaks uztur un atjaunina tieši to īpašnieks, un jūsu Linux distribūcija "
+"Flatpakus uztur un atjaunina tieši to īpašnieks, un tava Linux distribūcija "
 "to nekontrolē. Tie parasti nodrošina visjaunāko versiju."
 
 #: resources/mintinstall.glade.h:10
@@ -550,13 +549,13 @@ msgid ""
 "distribution, but by the Flatpak maintainer. It's essential you trust the "
 "maintainer before installing a Flatpak."
 msgstr ""
-"Tie aizņem vairāk vietas diskā. To drošību negarantē jūsu Linux "
+"Tās aizņem vairāk diska vietas. To drošību negarantē tava Linux "
 "distribūcija, bet gan Flatpak uzturētājs. Pirms Flatpak instalēšanas ir "
-"svarīgi uzticēties uzturētājam."
+"svarīgi, lai tu uzticētos uzturētājam."
 
 #: resources/mintinstall.glade.h:11
 msgid "Loading, please wait"
-msgstr "Ielādējas, lūdzu, uzgaidiet"
+msgstr "Notiek ielāde, lūdzu, uzgaidi"
 
 #: resources/mintinstall.glade.h:12
 msgid "Generating cache, one moment"
@@ -576,11 +575,11 @@ msgstr "Palaist"
 
 #: resources/mintinstall.glade.h:20
 msgid "Please be patient. This can take some time..."
-msgstr "Lūdzu, esiet pacietīgs. Tas var aizņemt kādu laiku..."
+msgstr "Lūdzu, esi pacietīgs. Tas var aizņemt kādu laiku..."
 
 #: resources/mintinstall.glade.h:22
 msgid "Name:"
-msgstr "Nosaukums"
+msgstr "Nosaukums:"
 
 #: resources/mintinstall.glade.h:23
 msgid "Version:"
@@ -588,7 +587,7 @@ msgstr "Versija:"
 
 #: resources/mintinstall.glade.h:24
 msgid "Size:"
-msgstr "Lielums:"
+msgstr "Izmērs:"
 
 #: resources/mintinstall.glade.h:25
 msgid "Branch:"
@@ -596,15 +595,15 @@ msgstr "Atzars:"
 
 #: resources/mintinstall.glade.h:26
 msgid "Remote:"
-msgstr "Attālināti:"
+msgstr "Attālināts:"
 
 #: resources/mintinstall.glade.h:29
 msgid "Details"
-msgstr "Sīkāka informācija"
+msgstr "Detaļas"
 
 #: resources/mintinstall.glade.h:30
 msgid "Reviews"
-msgstr "Apskati"
+msgstr "Atsauksmes"
 
 #: resources/mintinstall.glade.h:31
 msgid "Optional components"
@@ -612,7 +611,7 @@ msgstr "Papildus komponenti"
 
 #: resources/mintinstall.glade.h:32
 msgid "Searching software repositories, one moment"
-msgstr "Programmatūras repozitoriju meklēšana, vienu mirkli"
+msgstr "Meklē programmatūras repozitorijus, vienu mirkli"
 
 #: resources/mintinstall.glade.h:33
 msgid "Limit search to current listing"
