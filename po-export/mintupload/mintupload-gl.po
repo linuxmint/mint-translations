@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2019-10-20 14:24+0000\n"
-"Last-Translator: Alberto Gómez <Unknown>\n"
+"PO-Revision-Date: 2026-10-31 00:48+0000\n"
+"Last-Translator: Calq Calquera <Unknown>\n"
 "Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:33+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:49+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -30,7 +30,7 @@ msgstr "Xestor de envíos"
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr "%(percentage)s de %(number)d files - Enviando a %(service)s"
+msgstr "%(percentage)s de %(number)d ficheiros - Enviando a %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:45
 #: usr/lib/linuxmint/mintupload/mintupload.py:141
@@ -89,7 +89,8 @@ msgstr "Enviando 1 ficheiro a %(service)s"
 msgid ""
 "%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
 msgstr ""
-"%(size_so_far)s de %(total_size)s - %(time_remaining)s restan (%(speed)s/sec)"
+"%(size_so_far)s de %(total_size)s - Tempo restante: %(time_remaining)s "
+"(%(speed)s/s)"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:161
 #, python-format
@@ -159,7 +160,7 @@ msgstr "GiB"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:135
 msgid "File larger than service's maximum"
-msgstr "O ficheiro é máis grande que o máximo do servizo"
+msgstr "O ficheiro supera o tamaño máximo permitido polo servizo"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:145
 msgid "Could not get available space"
@@ -172,12 +173,12 @@ msgstr "O ficheiro é máis grande que o espazo dispoñíbel do servizo"
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:173
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:315
 msgid "File uploaded successfully."
-msgstr "O ficheiro enviouse correctamente"
+msgstr "O ficheiro enviouse correctamente."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:191
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:267
 msgid "connection successfully established"
-msgstr "Estableceuse a conexión correctamente"
+msgstr "— conexión establecida correctamente"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:202
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:233
@@ -297,13 +298,15 @@ msgstr "Nome de máquina ou enderezo IP, predeterminado: "
 #: usr/lib/linuxmint/mintupload/upload-manager.py:224
 #: usr/lib/linuxmint/mintupload/upload-manager.py:225
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
-msgstr "Porto remoto, os predeterminados son 21 para FTP, 22 para SFTP e SCP"
+msgstr ""
+"Porto remoto. Valores predeterminados: 21 para FTP e 22 para SFTP e SCP"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:228
 #: usr/lib/linuxmint/mintupload/upload-manager.py:229
 msgid "Username, defaults to your local username"
 msgstr ""
-"Nome de usuario, como predeterminado úsase o seu nome de usuario local"
+"Nome de usuario. De maneira predeterminada, utilízase o seu nome de usuario "
+"local"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:232
 #: usr/lib/linuxmint/mintupload/upload-manager.py:233
@@ -311,13 +314,13 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
-"Contrasinal, predeterminado: conexión SCP sen contrasinal, conexión FTP sen "
-"ningunha cadea, e usaranse as chaves en ~/.ssh para as conexións SFTP"
+"Contrasinal. Valores predeterminados: conexión SCP sen contrasinal, conexión "
+"FTP cun contrasinal baleiro e uso das chaves de ~/.ssh para as conexións SFTP"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236
 #: usr/lib/linuxmint/mintupload/upload-manager.py:237
 msgid "Timestamp format (strftime). By default:"
-msgstr "Formato da marca de tempo (strftime). Predeterminado:"
+msgstr "Formato da marca de tempo (strftime). Valor predeterminado:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:240
 #: usr/lib/linuxmint/mintupload/upload-manager.py:241
@@ -325,8 +328,8 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
-"Directorio ao que enviar. <TIMESTAMP> substitúese pola marca de tempo "
-"actual, segundo o formato especificado. O predeterminado é:"
+"Directorio de destino do envío. <TIMESTAMP> substitúese pola marca de tempo "
+"actual segundo o formato especificado. Valor predeterminado: «.»"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"

@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2017-11-17 03:28+0000\n"
-"Last-Translator: kristian <kristianm24@gmail.com>\n"
+"PO-Revision-Date: 2026-09-16 23:09+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:33+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:49+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: sv\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -30,13 +31,13 @@ msgstr "Uppladdningshanterare"
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr "%(percentage)s av %(number)d filer - Laddar upp till %(service)s"
+msgstr "%(percentage)s av %(number)d filer – laddar upp till %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:45
 #: usr/lib/linuxmint/mintupload/mintupload.py:141
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr "%(percentage)s av 1 fil - Laddar upp till %(service)s"
+msgstr "%(percentage)s av 1 fil – laddar upp till %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:81
 #, python-format
@@ -46,7 +47,7 @@ msgstr "Uppladdningen till '%(service)s' avbröts"
 #: usr/lib/linuxmint/mintupload/mintupload.py:93
 #, python-format
 msgid "Upload to '%s' failed: "
-msgstr "Uppladdning till '%s' failed: "
+msgstr "Uppladdning till '%s' misslyckades: "
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:99
 #, python-format
@@ -89,7 +90,7 @@ msgstr "Laddar upp 1 fil till %(service)s"
 msgid ""
 "%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
 msgstr ""
-"%(size_so_far)s av %(total_size)s - %(time_remaining)s kvar (%(speed)s/sec)"
+"%(size_so_far)s av %(total_size)s – %(time_remaining)s kvar (%(speed)s/s)"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:161
 #, python-format
@@ -163,7 +164,7 @@ msgstr "Filens storlek överskrider maxgränsen"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:145
 msgid "Could not get available space"
-msgstr "Kunde ej få tillgängligt diskutrymme"
+msgstr "Kunde inte hämta tillgängligt diskutrymme"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:148
 msgid "File larger than service's available space"
@@ -177,7 +178,7 @@ msgstr "Uppladdning slutförd."
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:191
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:267
 msgid "connection successfully established"
-msgstr "Anslutning etablerad"
+msgstr "Anslutningen upprättades"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:202
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:233
@@ -300,7 +301,7 @@ msgstr "Fjärranslutningsport, standard är 21 för FTP, 22 för SFTP och SCP"
 #: usr/lib/linuxmint/mintupload/upload-manager.py:228
 #: usr/lib/linuxmint/mintupload/upload-manager.py:229
 msgid "Username, defaults to your local username"
-msgstr "Användarnamn, förvalt som ditt lokala användarnamn"
+msgstr "Användarnamn; ditt lokala användarnamn används som standard"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:232
 #: usr/lib/linuxmint/mintupload/upload-manager.py:233
@@ -308,13 +309,13 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
-"Lösenord, förvalt: lösenordsfri SCP-anslutning, null-sträng FTP-anslutning, "
-"~/.ssh nycklar för SFTP-anslutning"
+"Lösenord. Standard: lösenordsfri SCP-anslutning, FTP-anslutning med tom "
+"sträng och ~/.ssh-nycklar för SFTP-anslutningar"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236
 #: usr/lib/linuxmint/mintupload/upload-manager.py:237
 msgid "Timestamp format (strftime). By default:"
-msgstr "Tidsstämpel format (strftime). Förvalt:"
+msgstr "Tidsstämpelformat (strftime). Standard:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:240
 #: usr/lib/linuxmint/mintupload/upload-manager.py:241
@@ -322,8 +323,8 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
-"Mapp att ladda upp till. <TIMESTAMP> är överskriven med nuvarande "
-"tidsstämpel, enligt gällande format för tidsstämpel. Förvalt:"
+"Mapp att ladda upp till. <TIMESTAMP> ersätts med den aktuella tidsstämpeln "
+"enligt angivet tidsstämpelformat. Standard:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"
@@ -331,7 +332,7 @@ msgstr "Kunde inte spara ändringarna i konfigurationen"
 
 #: generate_desktop_files:27 generate_desktop_files:41
 msgid "Define upload services"
-msgstr "Definera uppladdningstjänster"
+msgstr "Konfigurera uppladdningstjänster"
 
 #~ msgid "This service requires a password or private key."
 #~ msgstr "Tjänsten kräver ett lösenord eller en privat nyckel."

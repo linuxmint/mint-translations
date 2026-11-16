@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-05-30 13:56+0100\n"
-"PO-Revision-Date: 2023-05-30 21:56+0000\n"
-"Last-Translator: Jan-Olof Svensson <jan-olof.svensson@abc.se>\n"
+"PO-Revision-Date: 2026-09-24 08:58+0000\n"
+"Last-Translator: Troken <Unknown>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:34+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:50+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: sv\n"
 
 #: usr/share/help/C/mintdesktop/wms.page:8(name)
 #: usr/share/help/C/mintdesktop/index.page:6(name)
@@ -79,8 +80,8 @@ msgid ""
 "If Metacity is not installed already, you can install it with <cmd>apt "
 "install metacity</cmd>."
 msgstr ""
-"Om Metacity inte är installerad så kan du installera den med kommandot "
-"<cmd>apt install metacity</cmd>"
+"Om Metacity inte redan är installerat kan du installera det med <cmd>apt "
+"install metacity</cmd>."
 
 #: usr/share/help/C/mintdesktop/wms.page:33(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:177
@@ -158,10 +159,9 @@ msgid ""
 "managers such as Marco, Metacity or Xfwm4. In Xfce, using Xfwm4+Compton is "
 "known to reduce screen tearing."
 msgstr ""
-"Compton är ett program som hanterar skrivbordseffekter. Det kan användas i "
-"tillsammans med fönsterhanterare så som Marco, Metacity eller Xfwm4. "
-"Använder man Compton med Xfvm4 i Xfce kan det reducera visuella "
-"felaktigheter (screen tearing)."
+"Compton är en kompositionshanterare. Det kan användas tillsammans med "
+"fönsterhanterare som Marco, Metacity eller Xfwm4. I Xfce är Xfwm4+Compton "
+"känt för att minska bildflimmer."
 
 #: usr/share/help/C/mintdesktop/wms.page:53(p)
 msgid ""
@@ -196,7 +196,7 @@ msgstr "Skrivbordsinställningar"
 
 #: usr/share/help/C/mintdesktop/index.page:16(p)
 msgid "Welcome to Desktop Settings."
-msgstr "Välkommen till Skrivbordsinställningar"
+msgstr "Välkommen till Skrivbordsinställningar."
 
 #: usr/share/help/C/mintdesktop/index.page:19(title)
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:95
@@ -205,13 +205,13 @@ msgstr "Fönster"
 
 #: usr/share/help/C/mintdesktop/index.page:20(p)
 msgid "The Windows section lets you choose a window manager."
-msgstr "I sektionen Fönster kan du välja fönsterhanterare."
+msgstr "I avsnittet Fönster kan du välja en fönsterhanterare."
 
 #: usr/share/help/C/mintdesktop/index.page:22(p)
 msgid ""
 "Within the operating system, the <gui>window manager</gui> is the part which "
 "is responsible for:"
-msgstr "I ett operativsystem har <gui>fönster hanteraren</gui> hand om:"
+msgstr "I operativsystemet ansvarar <gui>fönsterhanteraren</gui> för:"
 
 #: usr/share/help/C/mintdesktop/index.page:24(p)
 msgid "Windows borders, title bars and window buttons"
@@ -219,7 +219,7 @@ msgstr "Fönsterkanter, titelfält och fönsterknappar."
 
 #: usr/share/help/C/mintdesktop/index.page:25(p)
 msgid "Window events (moving, resizing, focusing windows)"
-msgstr "Fönster-händelser (flytta, storleksändring, fokus)"
+msgstr "Fönsterhändelser (flytta, ändra storlek och fokusera fönster)"
 
 #: usr/share/help/C/mintdesktop/index.page:26(p)
 msgid "Compositing (shadows, animations, effects, GPU rendering)"
@@ -236,7 +236,7 @@ msgstr "Fördelar"
 #: usr/share/help/C/mintdesktop/compositing.page:22(p)
 msgid "Better look &amp; feel: Window animations, shadows and transparency."
 msgstr ""
-"Bättre utseende &amp; känsla: Fönster-animationer, skuggor och transparens."
+"Bättre utseende och känsla: Fönsteranimationer, skuggor och transparens."
 
 #: usr/share/help/C/mintdesktop/compositing.page:25(p)
 msgid ""
@@ -274,6 +274,7 @@ msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Carl-Uno Olsson https://launchpad.net/~carl-uno\n"
+"  Daniel Nylander https://launchpad.net/~yeager\n"
 "  Gustav https://launchpad.net/~info-gustavholm\n"
 "  Jan-Olof Svensson https://launchpad.net/~jan-olof-svensson\n"
 "  Mazen Harake https://launchpad.net/~mazenh\n"
@@ -316,7 +317,7 @@ msgstr "Nätverk"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:138
 msgid "Trash"
-msgstr "Skräp"
+msgstr "Papperskorg"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:139
 msgid "Mounted Volumes"
@@ -365,7 +366,7 @@ msgstr "Openbox + Compton"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:181
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
 msgid "Awesome"
-msgstr "Toppen"
+msgstr "Awesome"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:183
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:191
@@ -385,14 +386,14 @@ msgstr ""
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:196
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:200
 msgid "Traditional style (Right)"
-msgstr "Traditionellt utseende (Höger)"
+msgstr "Traditionell stil (höger)"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:189
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:193
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:201
 msgid "Mac style (Left)"
-msgstr "Mac-stil (Vänster)"
+msgstr "Mac-stil (vänster)"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:197
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:205
@@ -446,7 +447,7 @@ msgstr "Knapplayout:"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:206
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:214
 msgid "Buttons layout (CSD windows):"
-msgstr "Knapputförande (CSD-fönster):"
+msgstr "Knapplayout (CSD-fönster):"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:210
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:218
@@ -463,7 +464,7 @@ msgstr "Inställningar för Mutter"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:226
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:225
 msgid "Place new windows in the center of the screen"
-msgstr "Placera nytt fönster mitt på skärmen"
+msgstr "Placera nya fönster mitt på skärmen"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:218
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:227
@@ -511,7 +512,7 @@ msgstr "Ändra inställningar för Compiz"
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:243
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:242
 msgid "Reset Compiz settings"
-msgstr "Återställning av Compiz"
+msgstr "Återställ Compiz-inställningar"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:255
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:260
@@ -611,7 +612,7 @@ msgstr "Program"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:297
 msgid "Let applications decide"
-msgstr "Låt programmet välja"
+msgstr "Låt programmen välja"
 
 #: usr/lib/linuxmint/mintdesktop/mintdesktop.py:298
 msgid "Prefer light mode"

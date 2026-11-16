@@ -1,0 +1,538 @@
+# Afrikaans translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-26 13:40+0000\n"
+"PO-Revision-Date: 2026-10-07 13:12+0000\n"
+"Last-Translator: Stéfan Driaan Turvey <Unknown>\n"
+"Language-Team: Afrikaans <af@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:54+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:75
+msgid "You are about to remove the following PPA:"
+msgstr "U staan op die punt om die volgende PPA te verwyder:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:78
+#: usr/lib/linuxmint/mintSources/mintSources.py:144
+#, python-format
+msgid " More info: %s"
+msgstr " Meer inligting: %s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:82
+#: usr/lib/linuxmint/mintSources/mintSources.py:148
+msgid "Press Enter to continue or Ctrl+C to cancel"
+msgstr "Druk Enter om voort te gaan of Ctrl+C om te kanselleer"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
+#: usr/lib/linuxmint/mintSources/mintSources.py:152
+msgid "Unable to prompt for response.  Please run with -y"
+msgstr "Kan nie vir 'n antwoord vra nie.  Voer asseblief met -y uit"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:90
+msgid "Cancelling..."
+msgstr "Kanselleer tans..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:93
+#, python-format
+msgid "Cannot get info about PPA: '%s'."
+msgstr "Kan nie inligting oor PPA kry nie: '%s'."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:101
+#, python-format
+msgid "failed to remove PPA: '%s'"
+msgstr "kon nie PPA verwyder nie: '%s'"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:120
+#, python-format
+msgid "failed to remove repository: '%s'"
+msgstr "kon nie bewaarplek verwyder nie: '%s'"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:127
+msgid "Adding PPAs is not supported"
+msgstr "Die byvoeging van PPA's word nie ondersteun nie"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:134
+#, python-format
+msgid "Cannot add PPA: '%s'."
+msgstr "Kan nie PPA byvoeg nie: '%s'."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:138
+msgid "Adding private PPAs is not supported currently"
+msgstr "Die byvoeging van private PPA's word tans nie ondersteun nie"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:141
+msgid "You are about to add the following PPA:"
+msgstr "U staan op die punt om die volgende PPA by te voeg:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:168
+#: usr/lib/linuxmint/mintSources/mintSources.py:1482
+#: usr/lib/linuxmint/mintSources/mintSources.py:1545
+msgid "Malformed input, repository not added."
+msgstr "Misvormde invoer, bewaarplek nie bygevoeg nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:171
+msgid "Repository already exists."
+msgstr "Bewaarplek bestaan reeds."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:267
+msgid "Connection timed out, check your connection or try again later."
+msgstr "Verbinding het uitgetel, gaan u verbinding na of probeer later weer."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:269
+msgid "Failed to establish a secure connection."
+msgstr "Kon nie 'n veilige verbinding tot stand bring nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:271
+#, python-format
+msgid "Failed to download the PPA: %s."
+msgstr "Kon nie die PPA aflaai nie: %s."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:280
+#: usr/lib/linuxmint/mintSources/mintSources.py:284
+msgid "No supported PPA of this name was found."
+msgstr "Geen ondersteunde PPA met hierdie naam is gevind nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:292
+#, python-format
+msgid "This PPA does not support %s"
+msgstr "Hierdie PPA ondersteun nie %s nie"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:413
+#, python-format
+msgid "Used by: %s"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:433
+msgid "CD-ROM (Installation Disc)"
+msgstr "CD-ROM (installasieskyf)"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:435
+msgid "Local Repository"
+msgstr "Plaaslike bewaarplek"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:516
+msgid ""
+"Linux Mint uses Romeo to publish packages which are not tested. Once these "
+"packages are tested, they are then moved to the official repositories. "
+"Unless you are participating in beta-testing, you should not enable this "
+"repository. Are you sure you want to enable Romeo?"
+msgstr ""
+"Linux Mint gebruik Romeo om pakkette te publiseer wat nie getoets is nie. "
+"Sodra hierdie pakkette getoets is, word hulle na die amptelike bewaarplekke "
+"geskuif. Tensy u aan beta-toetsing deelneem, moet u nie hierdie bewaarplek "
+"aktiveer nie. Is u seker dat u Romeo wil aktiveer?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:548
+msgid "Select a mirror"
+msgstr "Kies 'n spieël"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:563
+msgid "Country"
+msgstr "Land"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:569
+msgid "Mirror"
+msgstr "Spieël"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:574
+msgid "Speed"
+msgstr "Spoed"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:607
+msgid "Worldwide"
+msgstr "Wêreldwyd"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:683
+#: usr/lib/linuxmint/mintSources/mintSources.py:697
+msgid "kB/s"
+msgstr "kB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:686
+msgid "MB/s"
+msgstr "MB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:689
+msgid "GB/s"
+msgstr "GB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:754
+msgid "Obsolete"
+msgstr "Verouderd"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:757
+msgid "Unreachable"
+msgstr "Onbereikbaar"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:922 generate_desktop_files:25
+#: generate_desktop_files:53
+msgid "Software Sources"
+msgstr "Sagtewarebronne"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:942
+msgid "Backported packages"
+msgstr "Teruggeporteerde pakkette"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:944
+msgid "Unstable packages"
+msgstr "Onstabiele pakkette"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:957
+msgid "Main"
+msgstr "Hoof"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:958
+msgid "Base"
+msgstr "Basis"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1001
+#: usr/lib/linuxmint/mintSources/mintSources.py:1026
+msgid "Enabled"
+msgstr "Geaktiveer"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1007
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:43
+msgid "PPA"
+msgstr "PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1032
+msgid "Repository"
+msgstr "Bewaarplek"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1049
+msgid "Key"
+msgstr "Sleutel"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1164
+msgid "There is no more residual configuration on the system."
+msgstr "Daar is nie meer oorblywende opstelling op die stelsel nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1168
+msgid "The problem was fixed. Please reload the cache."
+msgstr "Die probleem is reggestel. Herlaai asseblief die kas."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1210
+msgid "Duplicate entries were removed. Please reload the cache."
+msgstr "Duplikaatinskrywings is verwyder. Herlaai asseblief die kas."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1216
+msgid "No duplicate entries were found."
+msgstr "Geen duplikaatinskrywings is gevind nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1225
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr "Fout met u APT-opstelling, u moet dalk eers die kas herlaai."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1334
+msgid "All missing keys were successfully added."
+msgstr "Alle ontbrekende sleutels is suksesvol bygevoeg."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1336
+msgid "Not all missing keys could be found."
+msgstr "Nie alle ontbrekende sleutels kon gevind word nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1339
+msgid "Keys were added for the following repositories:"
+msgstr "Sleutels is bygevoeg vir die volgende bewaarplekke:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1343
+msgid "Keys are still missing for the following repositories:"
+msgstr "Sleutels ontbreek steeds vir die volgende bewaarplekke:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1344
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories or PPAs."
+msgstr ""
+"Voeg die oorblywende ontbrekende sleutel(s) handmatig by of verwyder die "
+"ooreenstemmende bewaarplekke of PPA's."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1352
+msgid "Please reload the cache."
+msgstr "Herlaai asseblief die kas."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1357
+msgid "No missing keys were found."
+msgstr "Geen ontbrekende sleutels is gevind nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1403
+msgid "Open.."
+msgstr "Maak oop.."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1406
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
+msgid "Cancel"
+msgstr "Kanselleer"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1407
+msgid "Open"
+msgstr "Maak oop"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1411
+msgid "Key files"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1419
+msgid "All files"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1436
+msgid "No key could be imported from this file."
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1443
+msgid ""
+"Please enter the fingerprint of the public key you want to download from "
+"keyserver.ubuntu.com:"
+msgstr ""
+"Voer asseblief die vingerafdruk in van die publieke sleutel wat u van "
+"keyserver.ubuntu.com wil aflaai:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1450
+msgid "Are you sure you want to permanently remove the selected keys?"
+msgstr "Is u seker dat u die geselekteerde sleutels permanent wil verwyder?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1477
+msgid "Please enter the name of the repository you want to add:"
+msgstr "Voer asseblief die naam in van die bewaarplek wat u wil byvoeg:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1503
+#: usr/lib/linuxmint/mintSources/mintSources.py:1566
+msgid ""
+"This repository is already configured, you cannot add it a second time."
+msgstr ""
+"Hierdie bewaarplek is reeds opgestel, u kan dit nie 'n tweede keer byvoeg "
+"nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1514
+msgid "Please enter the name or the URL of the PPA you want to add:"
+msgstr "Voer asseblief die naam of die URL in van die PPA wat u wil byvoeg:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1523
+msgid "The name of the PPA you entered isn't formatted correctly."
+msgstr ""
+"Die naam van die PPA wat u ingevoer het, is nie korrek geformateer nie."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1576
+msgid ""
+"Are you sure you want to permanently remove the selected repositories?"
+msgstr ""
+"Is u seker dat u die geselekteerde bewaarplekke permanent wil verwyder?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1589
+msgid "Are you sure you want to permanently remove the selected PPAs?"
+msgstr "Is u seker dat u die geselekteerde PPA's permanent wil verwyder?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1650
+msgid ""
+"The content of this PPA is not available. Please refresh the cache and try "
+"again."
+msgstr ""
+"Die inhoud van hierdie PPA is nie beskikbaar nie. Verfris asseblief die kas "
+"en probeer weer."
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:80
+#, python-format
+msgid "version %s already installed"
+msgstr "weergawe %s is reeds geïnstalleer"
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:83
+msgid "already installed"
+msgstr "reeds geïnstalleer"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:112
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
+msgid "Foreign packages"
+msgstr "Vreemde pakkette"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:119
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
+msgid "Downgrade"
+msgstr "Gradeer af"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:120
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
+msgid ""
+"The version of the following packages doesn't match the one from the "
+"repositories:"
+msgstr ""
+"Die weergawe van die volgende pakkette stem nie ooreen met dié van die "
+"bewaarplekke nie:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:122
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
+msgid "Remove"
+msgstr "Verwyder"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:123
+msgid ""
+"The packages below are installed on your computer but not present in the "
+"repositories:"
+msgstr ""
+"Die pakkette hieronder is op u rekenaar geïnstalleer maar is nie in die "
+"bewaarplekke teenwoordig nie:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:128
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:273
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
+msgid "Select All"
+msgstr "Kies alles"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:146
+msgid "Package"
+msgstr "Pakket"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:151
+msgid "Installed version"
+msgstr "Geïnstalleerde weergawe"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:157
+msgid "Repository version"
+msgstr "Bewaarplekweergawe"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:276
+msgid "Clear"
+msgstr "Maak skoon"
+
+#: usr/bin/add-apt-repository:19
+msgid "Error: must run as root"
+msgstr "Fout: moet as root uitgevoer word"
+
+#: usr/bin/add-apt-repository:23
+msgid "Error: need a repository as argument"
+msgstr "Fout: benodig 'n bewaarplek as argument"
+
+#: generate_desktop_files:25
+msgid "Configure the sources for installable software and updates"
+msgstr "Stel die bronne vir installeerbare sagteware en opdaterings op"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
+msgid "Warning"
+msgstr "Waarskuwing"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
+msgid ""
+"Review the information below very carefully before validating the command."
+msgstr ""
+"Gaan die inligting hieronder baie noukeurig na voordat u die opdrag bevestig."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
+msgid "Mirrors"
+msgstr "Spieëls"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
+msgid "Optional Sources"
+msgstr "Opsionele bronne"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
+msgid "Source code repositories"
+msgstr "Bronkode-bewaarplekke"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
+msgid "Debug symbols"
+msgstr "Ontfoutingssimbole"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
+msgid "Restore the default settings"
+msgstr "Herstel die verstekinstellings"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
+msgid "Official Repositories"
+msgstr "Amptelike bewaarplekke"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
+msgid "Add"
+msgstr "Voeg by"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+msgid "Browse..."
+msgstr "Blaai..."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
+msgid "PPAs"
+msgstr "PPA's"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+msgid "Additional Repositories"
+msgstr "Bykomende bewaarplekke"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+msgid "Import"
+msgstr "Voer in"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
+msgid "Download"
+msgstr "Laai af"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
+msgid "Authentication Keys"
+msgstr "Verifikasiesleutels"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
+msgid "Fix MergeList problems"
+msgstr "Herstel MergeList-probleme"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
+msgid "Purge residual configuration"
+msgstr "Suiwer oorblywende opstelling"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
+msgid "Remove duplicate entries"
+msgstr "Verwyder duplikaatinskrywings"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
+msgid "Add missing keys"
+msgstr "Voeg ontbrekende sleutels by"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
+msgid "Remove foreign packages"
+msgstr "Verwyder vreemde pakkette"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+msgid "Downgrade foreign packages"
+msgstr "Gradeer vreemde pakkette af"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+msgid "Maintenance"
+msgstr "Instandhouding"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+msgid "Click here to update the APT cache"
+msgstr "Klik hier om die APT-kas op te dateer"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
+msgid "Updating cache..."
+msgstr "Dateer kas tans op..."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+msgid "Error"
+msgstr "Fout"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+msgid "Select Mirror"
+msgstr "Kies spieël"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
+msgid "Apply"
+msgstr "Pas toe"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:34
+msgid ""
+"This PPA provides the following packages. Please select the ones you want to "
+"install."
+msgstr ""
+"Hierdie PPA verskaf die volgende pakkette. Kies asseblief dié wat u wil "
+"installeer."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:35
+msgid "Install"
+msgstr "Installeer"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2025-05-11 10:16+0000\n"
+"PO-Revision-Date: 2026-11-13 00:09+0000\n"
 "Last-Translator: InfoLibre <david.vantyghem@laposte.net>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:39+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:55+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
@@ -44,7 +44,7 @@ msgstr "La clé USB manque d’espace."
 
 #: lib/mintstick.py:425
 msgid "An error occured while copying the image."
-msgstr "Une erreur s'est produite lors de la copie de l’image."
+msgstr "Une erreur s’est produite lors de la copie de l’image."
 
 #: lib/verify.py:54
 msgid "bytes"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
-msgstr "Le fichier des sommes n'a pas pu être téléchargé. Vérifiez l'URL."
+msgstr "Le fichier des sommes n’a pas pu être téléchargé. Vérifiez l’URL."
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
@@ -133,7 +133,7 @@ msgstr "Le fichier des sommes SHA256 n’est pas signé."
 #: lib/verify.py:273
 #, python-format
 msgid "Signed by: %s"
-msgstr "Signé par : %s"
+msgstr "Signé par : %s"
 
 #: lib/verify.py:287
 msgid "Unknown signature"
@@ -153,7 +153,7 @@ msgstr "C’est une image ISO officielle."
 
 #: lib/verify.py:306
 msgid "This ISO image is verified by a trusted signature."
-msgstr "Cette image ISO est confirmée par une signature de confiance."
+msgstr "Cette image ISO a été vérifiée à l’aide d’une signature fiable."
 
 #: lib/verify.py:309
 msgid "If you trust the signature you can trust the ISO."
@@ -166,7 +166,7 @@ msgstr "La signature n’est pas fiable."
 
 #: lib/verify.py:311
 msgid "This ISO image is verified by an untrusted signature."
-msgstr "Cette image ISO est confimée par une signature non fiable."
+msgstr "Cette image ISO a été vérifiée à l’aide d’une signature non fiable."
 
 #: lib/verify.py:316
 msgid "An error occurred"
@@ -212,11 +212,11 @@ msgstr "Formater"
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:32
 #: share/mintstick/verify.ui.h:7
 msgid "Verify"
-msgstr "Confirmer"
+msgstr "Vérifier"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr "Confirmer l’authenticité et l’intégrité de l’image"
+msgstr "Vérifier l’authenticité et l’intégrité de l’image"
 
 #: generate_additional_files.py:115 generate_additional_files.py:144
 msgid ""
@@ -227,7 +227,7 @@ msgstr ""
 
 #: share/mintstick/mintstick.ui.h:1
 msgid "USB stick:"
-msgstr "Clé USB :"
+msgstr "Clé USB :"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid "Filesystem:"
@@ -261,11 +261,11 @@ msgid ""
 msgstr ""
 "FAT32\n"
 "   + Reconnu partout.\n"
-"   - La taille maximale des fichiers est 4 Go.\n"
+"   - Ne prend pas en charge les fichiers de plus de 4 Go.\n"
 "\n"
 "exFAT\n"
 "   + Reconnu presque partout.\n"
-"   - La taille maximale des fichiers est supérieure à 4 Go.\n"
+"   + Prend en charge les fichiers de plus de 4 Go.\n"
 "   - Pas aussi compatible que FAT32.\n"
 "\n"
 "NTFS\n"
@@ -294,7 +294,7 @@ msgstr "Clé USB"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "ISO image:"
-msgstr "Image ISO  :"
+msgstr "Image ISO :"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select an image"
@@ -310,7 +310,7 @@ msgstr "Écrire"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "This ISO looks like a Windows image."
-msgstr "Cet ISO semble être à une image Windows."
+msgstr "Cette image ISO semble être une image Windows."
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
@@ -330,7 +330,7 @@ msgstr "Volume :"
 
 #: share/mintstick/verify.ui.h:3
 msgid "SHA256sum:"
-msgstr "Somme SHA256  :"
+msgstr "Somme SHA256 :"
 
 #: share/mintstick/verify.ui.h:4
 msgid "Size:"
@@ -338,11 +338,11 @@ msgstr "Taille :"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr "Fichier des sommes SHA256  :"
+msgstr "Fichier des sommes SHA256 :"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
-msgstr "Fichier signé avec GPG  :"
+msgstr "Fichier signé avec GPG :"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
@@ -366,7 +366,7 @@ msgstr "Somme SHA256"
 
 #: share/mintstick/verify.ui.h:13
 msgid "Check"
-msgstr "Confirmer"
+msgstr "Vérifier"
 
 #: share/mintstick/verify.ui.h:14
 msgid "Checksum"
@@ -378,4 +378,4 @@ msgstr "Revenir en arrière"
 
 #: share/mintstick/verify.ui.h:16
 msgid "ISO Verification"
-msgstr "Confirmation de l’ISO"
+msgstr "Vérification de l’image ISO"

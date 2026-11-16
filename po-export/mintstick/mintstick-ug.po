@@ -1,0 +1,379 @@
+# Uyghur translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2023-11-27 14:33+0000\n"
+"PO-Revision-Date: 2026-06-30 05:09+0000\n"
+"Last-Translator: Abduqadir Abliz <Unknown>\n"
+"Language-Team: Uyghur <ug@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:55+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: ug\n"
+
+#: lib/mintstick.py:312
+msgid "The USB stick was formatted successfully."
+msgstr "USB ساقلىغۇچ مۇۋەپپەقىيەتلىك پىچىلدى."
+
+#: lib/mintstick.py:315
+#, python-format
+msgid "An error occured while creating a partition on %s."
+msgstr "%s دا رايون قۇرۇۋاتقاندا خاتالىق كۆرۈلدى."
+
+#: lib/mintstick.py:317 lib/mintstick.py:427
+msgid "Authentication Error."
+msgstr "كىملىك دەلىللەش خاتالىقى."
+
+#: lib/mintstick.py:322 lib/mintstick.py:433
+msgid "An error occurred."
+msgstr "خاتالىق كۆرۈلدى."
+
+#: lib/mintstick.py:420
+msgid "The image was successfully written."
+msgstr "تەسۋىر مۇۋەپپەقىيەتلىك يېزىلدى."
+
+#: lib/mintstick.py:423
+msgid "Not enough space on the USB stick."
+msgstr "USB ساقلىغۇچتا يېتەرلىك بوشلۇق يوق."
+
+#: lib/mintstick.py:425
+msgid "An error occured while copying the image."
+msgstr "تەسۋىرنى كۆچۈرۈۋاتقاندا خاتالىق كۆرۈلدى."
+
+#: lib/verify.py:54
+msgid "bytes"
+msgstr "بايت"
+
+#: lib/verify.py:54
+msgid "KB"
+msgstr "KB"
+
+#: lib/verify.py:54
+msgid "MB"
+msgstr "MB"
+
+#: lib/verify.py:54
+msgid "GB"
+msgstr "GB"
+
+#: lib/verify.py:54
+msgid "TB"
+msgstr "TB"
+
+#: lib/verify.py:87
+msgid "ISO images"
+msgstr "ISO تەسۋىر"
+
+#: lib/verify.py:91
+msgid "Checksum files"
+msgstr "مۇكەممەللىك يىغىندا ھۆججىتى"
+
+#: lib/verify.py:95
+msgid "GPG signatures"
+msgstr "GPG ئىمزا"
+
+#: lib/verify.py:107 lib/verify.py:108 lib/verify.py:109
+msgid "Calculating..."
+msgstr "ھېسابلاۋاتىدۇ..."
+
+#: lib/verify.py:167
+msgid "No volume ID found"
+msgstr "ھېچقانداق دىسكا كىملىكى بايقالمىدى"
+
+#: lib/verify.py:208
+msgid "The checksum is correct"
+msgstr "مۇكەممەللىك يىغىندىسى توغرا"
+
+#: lib/verify.py:209
+msgid ""
+"The checksum is correct but the authenticity of the sum was not verified."
+msgstr "مۇكەممەللىك يىغىندىسى توغرا ئەمما يىغىندا دەلىللەش ئىسپاتلانمىغان."
+
+#: lib/verify.py:211
+msgid "Checksum mismatch"
+msgstr "مۇكەممەللىك يىغىندا ماس كەلمىدى"
+
+#: lib/verify.py:212
+msgid "Download the ISO image again. Its checksum does not match."
+msgstr ""
+"ISO تەسۋىرنى قايتا چۈشۈرىدۇ. ئۇنىڭ مۇكەممەللىك يىغىندىسى ماس كەلمىدى."
+
+#: lib/verify.py:223
+msgid "The sums file could not be downloaded. Check the URL."
+msgstr "يىغىندا ھۆججەتنى چۈشۈرگىلى بولمىدى. تور ئادرېسىنى تەكشۈرۈڭ."
+
+#: lib/verify.py:232
+msgid "The gpg file could not be downloaded. Check the URL."
+msgstr "gpg ھۆججەتنى چۈشۈرگىلى بولمىدى. تور ئادرېسىنى تەكشۈرۈڭ."
+
+#: lib/verify.py:243
+msgid "The sums file could not be checked."
+msgstr "يىغىندا ھۆججەتنى تەكشۈرگىلى بولمىدى."
+
+#: lib/verify.py:250
+msgid "The gpg file could not be checked."
+msgstr "gpg ھۆججەتنى تەكشۈرگىلى بولمىدى."
+
+#: lib/verify.py:260
+msgid "Integrity check failed"
+msgstr "مۇكەممەللىكنى تەكشۈرەلمىدى"
+
+#: lib/verify.py:269
+msgid "The SHA256 sums file is not signed."
+msgstr "SHA256 يىغىندا ھۆججەتكە ئىمزا قويۇلمىغان."
+
+#: lib/verify.py:273
+#, python-format
+msgid "Signed by: %s"
+msgstr "ئىمزا قويغۇچى: %s"
+
+#: lib/verify.py:287
+msgid "Unknown signature"
+msgstr "نامەلۇم ئىمزا"
+
+#: lib/verify.py:288
+msgid "Key not found on keyserver."
+msgstr "ئاچقۇچ مۇلازىمېتىردا ئاچقۇچ تېپىلمىدى."
+
+#: lib/verify.py:299 lib/verify.py:305
+msgid "Everything looks good!"
+msgstr "ھەممە ئىش جايىدا كۆرۈنۈۋاتىدۇ!"
+
+#: lib/verify.py:300
+msgid "This is an official ISO image."
+msgstr "بۇ رەسمىي ISO تەسۋىرى."
+
+#: lib/verify.py:306
+msgid "This ISO image is verified by a trusted signature."
+msgstr "بۇ ISO تەسۋىر ئىشەنچلىك ئىمزادا دەلىللەنگەن."
+
+#: lib/verify.py:309
+msgid "If you trust the signature you can trust the ISO."
+msgstr "ئەگەر ئىمزاغا ئىشەنسىڭىز ISO غا ئىشەنسىڭىز بولىدۇ."
+
+#: lib/verify.py:310
+msgid "Untrusted signature"
+msgstr "ئىشەنچسىز ئىمزا"
+
+#: lib/verify.py:311
+msgid "This ISO image is verified by an untrusted signature."
+msgstr "بۇ ISO تەسۋىر ئىشەنچسىز ئىمزادا دەلىللەنگەن."
+
+#: lib/verify.py:316
+msgid "An error occurred"
+msgstr "خاتالىق كۆرۈلدى"
+
+#: lib/verify.py:327
+msgid "The SHA256 sum of the ISO image is incorrect."
+msgstr "ISO تەسۋىرنىڭ SHA256 يىغىندىسى ناتوغرا."
+
+#: lib/verify.py:328
+msgid "The SHA256 sums file does not contain sums for this ISO image."
+msgstr ""
+"SHA256 يىغىندا ھۆججىتى بۇ ISO تەسۋىرنىڭ يىغىندىسىنى ئۆز ئىچىگە ئالمىغان."
+
+#: generate_additional_files.py:22 generate_additional_files.py:34
+#: share/mintstick/mintstick.ui.h:38
+msgid "USB Image Writer"
+msgstr "USB تەسۋىر يازغۇچ"
+
+#: generate_additional_files.py:22 generate_additional_files.py:34
+#: generate_additional_files.py:67 share/mintstick/mintstick.ui.h:39
+msgid "Make a bootable USB stick"
+msgstr "قوزغىلىدىغان USB ساقلىغۇچ ياسايدۇ"
+
+#: generate_additional_files.py:46 generate_additional_files.py:58
+#: share/mintstick/mintstick.ui.h:27
+msgid "USB Stick Formatter"
+msgstr "USB ساقلىغۇچ پىچقۇچ"
+
+#: generate_additional_files.py:46 generate_additional_files.py:58
+#: generate_additional_files.py:77 share/mintstick/mintstick.ui.h:28
+msgid "Format a USB stick"
+msgstr "USB ساقلىغۇچنى پىچ"
+
+#: generate_additional_files.py:67
+msgid "Make bootable USB stick"
+msgstr "قوزغىلىدىغان USB ساقلىغۇچ ياسا"
+
+#: generate_additional_files.py:77 share/mintstick/mintstick.ui.h:26
+msgid "Format"
+msgstr "پىچىم"
+
+#: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:32
+#: share/mintstick/verify.ui.h:7
+msgid "Verify"
+msgstr "دەلىللە"
+
+#: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
+msgid "Verify the authenticity and integrity of the image"
+msgstr "تەسۋىرنىڭ ئىشەنچلىكلىكى ۋە مۇكەممەللىكىنى دەلىللەيدۇ"
+
+#: generate_additional_files.py:115 generate_additional_files.py:144
+msgid ""
+"This will destroy all data on the USB stick, are you sure you want to "
+"proceed?"
+msgstr ""
+"بۇ مەشغۇلات USB ساقلىغۇچتىكى ھەممە سانلىق مەلۇماتنى ۋەيران قىلىدۇ، راستتىنلا "
+"داۋاملاشتۇرامسىز؟"
+
+#: share/mintstick/mintstick.ui.h:1
+msgid "USB stick:"
+msgstr "USB ساقلىغۇچ:"
+
+#: share/mintstick/mintstick.ui.h:2
+msgid "Filesystem:"
+msgstr "ھۆججەت سىستېمىسى:"
+
+#: share/mintstick/mintstick.ui.h:3
+msgid "Select a USB stick"
+msgstr "USB ساقلىغۇچ تاللىنىدۇ"
+
+#: share/mintstick/mintstick.ui.h:4
+msgid ""
+"FAT32 \n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
+"\n"
+"NTFS \n"
+"  + Compatible with Windows.\n"
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
+"reverse engineered).\n"
+"\n"
+"EXT4 \n"
+"  + Modern, stable, fast, journalized.\n"
+"  + Supports Linux file permissions.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
+msgstr ""
+"FAT32 \n"
+"  + ھەر قانداق جايدا ماسلىشىدۇ.\n"
+"  -   4GB دىن چوڭ ھۆججەتنى بىر تەرەپ قىلالمايدۇ.\n"
+"\n"
+"exFAT\n"
+"  + ئاساسەن ھەر قانداق جايدا ماسلىشىدۇ.\n"
+"  + 4GB دىن چوڭ ھۆججەتنى بىر تەرەپ قىلالايدۇ.\n"
+"  -  FAT32 دەك ماسلىشىشچان ئەمەس.\n"
+"\n"
+"NTFS \n"
+"  + Windows بىلەن ماسلىشىدۇ.\n"
+"  -  Mac ۋە باشقا قاتتىق دېتال ئۈسكۈنىسى بىلەن ماسلاشمايدۇ.\n"
+"  -  بەزىدە Linux بىلەن ماسلىشىش مەسىلىسى بار (NTFS مەخسۇس ئىشلىتىلىدۇ ۋە "
+"تەتۈر ئىنژېنېرلىق ئارقىلىق لايىھەلەنگەن).\n"
+"\n"
+"EXT4 \n"
+"  + زامانىۋى، مۇقىم، تېز، كۈندىلىك خاتىرىسى بار.\n"
+"  + Linux ھۆججەت ئىجازىتىنى قوللايدۇ.\n"
+"  -  Windows، Mac ۋە باشقا كۆپ قىسىم قاتتىق دېتال بىلەن ماسلاشمايدۇ.\n"
+
+#: share/mintstick/mintstick.ui.h:23
+msgid "Volume label:"
+msgstr "دىسكا ئەن:"
+
+#: share/mintstick/mintstick.ui.h:24
+msgid "Choose a name for your USB Stick"
+msgstr "USB ساقلىغۇچقا ئات تاللىنىدۇ"
+
+#: share/mintstick/mintstick.ui.h:25
+msgid "USB Stick"
+msgstr "USB ساقلىغۇچ"
+
+#: share/mintstick/mintstick.ui.h:29
+msgid "ISO image:"
+msgstr "ISO تەسۋىر:"
+
+#: share/mintstick/mintstick.ui.h:30
+msgid "Select an image"
+msgstr "تەسۋىر تاللىنىدۇ"
+
+#: share/mintstick/mintstick.ui.h:31
+msgid "Select Image"
+msgstr "تەسۋىر تاللا"
+
+#: share/mintstick/mintstick.ui.h:34
+msgid "Write"
+msgstr "ياز"
+
+#: share/mintstick/mintstick.ui.h:35
+msgid "This ISO looks like a Windows image."
+msgstr "بۇ ISO قارىماققا Windows تەسۋىرىدەك قىلىدۇ."
+
+#: share/mintstick/mintstick.ui.h:36
+msgid "Windows images require special processing."
+msgstr "Windows تەسۋىرى ئۈچۈن ئالاھىدە جەريان زۆرۈر."
+
+#: share/mintstick/mintstick.ui.h:37
+msgid "More information"
+msgstr "تېخىمۇ كۆپ ئۇچۇر"
+
+#: share/mintstick/verify.ui.h:1
+msgid "ISO:"
+msgstr "ISO:"
+
+#: share/mintstick/verify.ui.h:2
+msgid "Volume:"
+msgstr "دىسكا:"
+
+#: share/mintstick/verify.ui.h:3
+msgid "SHA256sum:"
+msgstr "SHA256sum:"
+
+#: share/mintstick/verify.ui.h:4
+msgid "Size:"
+msgstr "چوڭلۇقى:"
+
+#: share/mintstick/verify.ui.h:5
+msgid "SHA256 sums file:"
+msgstr "SHA256 يىغىندا ھۆججەت:"
+
+#: share/mintstick/verify.ui.h:6
+msgid "GPG signed file:"
+msgstr "GPG ئىمزالىق ھۆججەت:"
+
+#: share/mintstick/verify.ui.h:8
+msgid "URLs"
+msgstr "تور ئادرېس"
+
+#: share/mintstick/verify.ui.h:9
+msgid "SHA256 sums file"
+msgstr "SHA256 يىغىندا ھۆججەت"
+
+#: share/mintstick/verify.ui.h:10
+msgid "GPG signed file"
+msgstr "GPG ئىمزالىق ھۆججەت"
+
+#: share/mintstick/verify.ui.h:11
+msgid "Local files"
+msgstr "يەرلىك ھۆججەت"
+
+#: share/mintstick/verify.ui.h:12
+msgid "SHA256 sum"
+msgstr "SHA256 يىغىندىسى"
+
+#: share/mintstick/verify.ui.h:13
+msgid "Check"
+msgstr "تەكشۈر"
+
+#: share/mintstick/verify.ui.h:14
+msgid "Checksum"
+msgstr "مۇكەممەللىك يىغىندىسى"
+
+#: share/mintstick/verify.ui.h:15
+msgid "Go back"
+msgstr "قايت"
+
+#: share/mintstick/verify.ui.h:16
+msgid "ISO Verification"
+msgstr "ISO دەلىللەش"

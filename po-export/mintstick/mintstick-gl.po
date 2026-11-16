@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2019-10-20 13:41+0000\n"
-"Last-Translator: Alberto Gómez <Unknown>\n"
+"PO-Revision-Date: 2026-10-30 16:39+0000\n"
+"Last-Translator: Calq Calquera <Unknown>\n"
 "Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:39+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:55+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: gl\n"
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
@@ -24,7 +25,7 @@ msgstr "A memoria USB foi formatada correctamente."
 #: lib/mintstick.py:315
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Produciuse un erro ao crear a partición en %s."
+msgstr "Produciuse un erro ao crear unha partición en %s."
 
 #: lib/mintstick.py:317 lib/mintstick.py:427
 msgid "Authentication Error."
@@ -36,7 +37,7 @@ msgstr "Produciuse un erro."
 
 #: lib/mintstick.py:420
 msgid "The image was successfully written."
-msgstr "A imaxe grabouse correctamente."
+msgstr "A imaxe escribiuse correctamente."
 
 #: lib/mintstick.py:423
 msgid "Not enough space on the USB stick."
@@ -48,133 +49,142 @@ msgstr "Produciuse un erro ao copiar a imaxe."
 
 #: lib/verify.py:54
 msgid "bytes"
-msgstr ""
+msgstr "bytes"
 
 #: lib/verify.py:54
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: lib/verify.py:54
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: lib/verify.py:54
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: lib/verify.py:54
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: lib/verify.py:87
 msgid "ISO images"
-msgstr ""
+msgstr "Imaxes ISO"
 
 #: lib/verify.py:91
 msgid "Checksum files"
-msgstr ""
+msgstr "Ficheiros de sumas de comprobación"
 
 #: lib/verify.py:95
 msgid "GPG signatures"
-msgstr ""
+msgstr "Sinaturas GPG"
 
 #: lib/verify.py:107 lib/verify.py:108 lib/verify.py:109
 msgid "Calculating..."
-msgstr ""
+msgstr "Calculando..."
 
 #: lib/verify.py:167
 msgid "No volume ID found"
-msgstr ""
+msgstr "Non se atopou ningún identificador de volume"
 
 #: lib/verify.py:208
 msgid "The checksum is correct"
-msgstr ""
+msgstr "A suma de comprobación é correcta"
 
 #: lib/verify.py:209
 msgid ""
 "The checksum is correct but the authenticity of the sum was not verified."
 msgstr ""
+"A suma de comprobación é correcta, pero non se verificou a súa autenticidade."
 
 #: lib/verify.py:211
 msgid "Checksum mismatch"
-msgstr ""
+msgstr "As sumas de comprobación non coinciden"
 
 #: lib/verify.py:212
 msgid "Download the ISO image again. Its checksum does not match."
 msgstr ""
+"Descargue de novo a imaxe ISO. A súa suma de comprobación non coincide."
 
 #: lib/verify.py:223
 msgid "The sums file could not be downloaded. Check the URL."
 msgstr ""
+"Non se puido descargar o ficheiro de sumas de comprobación. Comprobe o "
+"enderezo URL."
 
 #: lib/verify.py:232
 msgid "The gpg file could not be downloaded. Check the URL."
 msgstr ""
+"Non se puido descargar o ficheiro da sinatura GPG. Comprobe o enderezo URL."
 
 #: lib/verify.py:243
 msgid "The sums file could not be checked."
-msgstr ""
+msgstr "Non se puido comprobar o ficheiro de sumas de comprobación."
 
 #: lib/verify.py:250
 msgid "The gpg file could not be checked."
-msgstr ""
+msgstr "Non se puido comprobar o ficheiro da sinatura GPG."
 
 #: lib/verify.py:260
 msgid "Integrity check failed"
-msgstr ""
+msgstr "Fallou a comprobación de integridade"
 
 #: lib/verify.py:269
 msgid "The SHA256 sums file is not signed."
-msgstr ""
+msgstr "O ficheiro de sumas de comprobación SHA-256 non está asinado."
 
 #: lib/verify.py:273
 #, python-format
 msgid "Signed by: %s"
-msgstr ""
+msgstr "Asinado por: %s"
 
 #: lib/verify.py:287
 msgid "Unknown signature"
-msgstr ""
+msgstr "Sinatura descoñecida"
 
 #: lib/verify.py:288
 msgid "Key not found on keyserver."
-msgstr ""
+msgstr "Non se atopou a chave no servidor de chaves."
 
 #: lib/verify.py:299 lib/verify.py:305
 msgid "Everything looks good!"
-msgstr ""
+msgstr "Todo parece correcto!"
 
 #: lib/verify.py:300
 msgid "This is an official ISO image."
-msgstr ""
+msgstr "Esta é unha imaxe ISO oficial."
 
 #: lib/verify.py:306
 msgid "This ISO image is verified by a trusted signature."
-msgstr ""
+msgstr "Esta imaxe ISO foi verificada mediante unha sinatura de confianza."
 
 #: lib/verify.py:309
 msgid "If you trust the signature you can trust the ISO."
-msgstr ""
+msgstr "Se confía na sinatura, pode confiar na imaxe ISO."
 
 #: lib/verify.py:310
 msgid "Untrusted signature"
-msgstr ""
+msgstr "Sinatura sen confianza establecida"
 
 #: lib/verify.py:311
 msgid "This ISO image is verified by an untrusted signature."
 msgstr ""
+"Esta imaxe ISO foi verificada mediante unha sinatura sen confianza "
+"establecida."
 
 #: lib/verify.py:316
 msgid "An error occurred"
-msgstr ""
+msgstr "Produciuse un erro"
 
 #: lib/verify.py:327
 msgid "The SHA256 sum of the ISO image is incorrect."
-msgstr ""
+msgstr "A suma de comprobación SHA-256 da imaxe ISO é incorrecta."
 
 #: lib/verify.py:328
 msgid "The SHA256 sums file does not contain sums for this ISO image."
 msgstr ""
+"O ficheiro de sumas de comprobación SHA-256 non contén ningunha suma para "
+"esta imaxe ISO."
 
 #: generate_additional_files.py:22 generate_additional_files.py:34
 #: share/mintstick/mintstick.ui.h:38
@@ -207,18 +217,19 @@ msgstr "Formatar"
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:32
 #: share/mintstick/verify.ui.h:7
 msgid "Verify"
-msgstr ""
+msgstr "Verificar"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr ""
+msgstr "Verificar a autenticidade e a integridade da imaxe"
 
 #: generate_additional_files.py:115 generate_additional_files.py:144
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
 msgstr ""
-"Isto destruirá todos os datos da memoria USB, confirma que quere continuar?"
+"Esta operación destruirá todos os datos da memoria USB. Seguro que quere "
+"continuar?"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid "USB stick:"
@@ -226,7 +237,7 @@ msgstr "Memoria USB:"
 
 #: share/mintstick/mintstick.ui.h:2
 msgid "Filesystem:"
-msgstr ""
+msgstr "Sistema de ficheiros:"
 
 #: share/mintstick/mintstick.ui.h:3
 msgid "Select a USB stick"
@@ -255,25 +266,24 @@ msgid ""
 "  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
 "FAT32\n"
-"  +  Compatible en tódalas situacións\n"
-"  - Non soporta arquivos de máis de 4GB.\n"
+"  + Compatible en todas as plataformas.\n"
+"  - Non admite ficheiros de máis de 4 GB.\n"
 "\n"
-"exFAT \n"
-"  +Compatible en case tódalas situacións.\n"
-"  - Soporra arquivos de máis de 4 GB.\n"
+"exFAT\n"
+"  + Compatible en case todas as plataformas.\n"
+"  + Admite ficheiros de máis de 4 GB.\n"
 "  - Non é tan compatible coma FAT32.\n"
 "\n"
-"NTFS \n"
+"NTFS\n"
 "  + Compatible con Windows.\n"
-"  - Non compatible con Mac nin coa maioría de dispositivos de hardware.\n"
-"  - Problemas ocasionais de compatibilidade con Linux (NTFS é propietario e "
-"empregado mediante enxeñería inversa)\n"
+"  - Non é compatible con Mac nin coa maioría dos dispositivos.\n"
+"  - Pode presentar problemas ocasionais de compatibilidade con Linux (NTFS é "
+"propietario e foi obxecto de enxeñaría inversa).\n"
 "\n"
 "EXT4\n"
-"  + Moderno, estable, rápido, periodizado.\n"
-"  + Soporta permisos de arquivo de Linux.\n"
-"  - Non compatible con Windows, Mac nin coa maioría de dispositivos de "
-"hardware.\n"
+"  + Moderno, estábel, rápido e con rexistro de transaccións.\n"
+"  + Admite os permisos de ficheiros de Linux.\n"
+"  - Non é compatible con Windows, Mac nin coa maioría dos dispositivos.\n"
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
@@ -289,7 +299,7 @@ msgstr "Memoria USB"
 
 #: share/mintstick/mintstick.ui.h:29
 msgid "ISO image:"
-msgstr ""
+msgstr "Imaxe ISO:"
 
 #: share/mintstick/mintstick.ui.h:30
 msgid "Select an image"
@@ -305,72 +315,72 @@ msgstr "Escribir"
 
 #: share/mintstick/mintstick.ui.h:35
 msgid "This ISO looks like a Windows image."
-msgstr ""
+msgstr "Esta imaxe ISO parece ser unha imaxe de Windows."
 
 #: share/mintstick/mintstick.ui.h:36
 msgid "Windows images require special processing."
-msgstr ""
+msgstr "As imaxes de Windows requiren un tratamento especial."
 
 #: share/mintstick/mintstick.ui.h:37
 msgid "More information"
-msgstr ""
+msgstr "Máis información"
 
 #: share/mintstick/verify.ui.h:1
 msgid "ISO:"
-msgstr ""
+msgstr "ISO:"
 
 #: share/mintstick/verify.ui.h:2
 msgid "Volume:"
-msgstr ""
+msgstr "Volume:"
 
 #: share/mintstick/verify.ui.h:3
 msgid "SHA256sum:"
-msgstr ""
+msgstr "Suma de comprobación SHA-256:"
 
 #: share/mintstick/verify.ui.h:4
 msgid "Size:"
-msgstr ""
+msgstr "Tamaño:"
 
 #: share/mintstick/verify.ui.h:5
 msgid "SHA256 sums file:"
-msgstr ""
+msgstr "Ficheiro de sumas de comprobación SHA-256:"
 
 #: share/mintstick/verify.ui.h:6
 msgid "GPG signed file:"
-msgstr ""
+msgstr "Ficheiro da sinatura GPG:"
 
 #: share/mintstick/verify.ui.h:8
 msgid "URLs"
-msgstr ""
+msgstr "Enderezos URL"
 
 #: share/mintstick/verify.ui.h:9
 msgid "SHA256 sums file"
-msgstr ""
+msgstr "Ficheiro de sumas de comprobación SHA-256"
 
 #: share/mintstick/verify.ui.h:10
 msgid "GPG signed file"
-msgstr ""
+msgstr "Ficheiro da sinatura GPG"
 
 #: share/mintstick/verify.ui.h:11
 msgid "Local files"
-msgstr ""
+msgstr "Ficheiros locais"
 
 #: share/mintstick/verify.ui.h:12
 msgid "SHA256 sum"
-msgstr ""
+msgstr "Suma de comprobación SHA-256"
 
 #: share/mintstick/verify.ui.h:13
 msgid "Check"
-msgstr ""
+msgstr "Comprobar"
 
 #: share/mintstick/verify.ui.h:14
 msgid "Checksum"
-msgstr ""
+msgstr "Suma de comprobación"
 
 #: share/mintstick/verify.ui.h:15
 msgid "Go back"
-msgstr ""
+msgstr "Volver"
 
 #: share/mintstick/verify.ui.h:16
 msgid "ISO Verification"
-msgstr ""
+msgstr "Verificación de imaxes ISO"

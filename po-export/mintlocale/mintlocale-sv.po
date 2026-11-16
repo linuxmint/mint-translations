@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-13 13:07+0100\n"
-"PO-Revision-Date: 2019-11-13 19:48+0000\n"
-"Last-Translator: Jan-Olof Svensson <jan-olof.svensson@abc.se>\n"
+"PO-Revision-Date: 2026-09-16 23:09+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:39+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:56+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: sv\n"
 
 #: usr/lib/linuxmint/mintlocale/add.py:43
 msgid "Add a New Language"
@@ -36,11 +37,11 @@ msgstr "XIM"
 
 #: usr/lib/linuxmint/mintlocale/im.py:191
 msgid "None"
-msgstr "Inga"
+msgstr "Ingen"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:71
 msgid "Install / Remove Languages"
-msgstr "Installera / Ta bort språk"
+msgstr "Installera eller ta bort språk"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:217
 msgid "Some language packs are missing"
@@ -48,7 +49,7 @@ msgstr "Vissa språkpaket saknas"
 
 #: usr/lib/linuxmint/mintlocale/install_remove.py:221
 msgid "Fully installed"
-msgstr "Fullt installerat"
+msgstr "Fullständigt installerat"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:311
 msgid "Language Settings"
@@ -60,7 +61,7 @@ msgstr "Verkställ för hela systemet"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:337
 msgid "Install / Remove Languages..."
-msgstr "Installera / Ta bort språk..."
+msgstr "Installera eller ta bort språk…"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:350
 msgid "Language"
@@ -68,7 +69,7 @@ msgstr "Språk"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:350
 msgid "Language, interface..."
-msgstr "Språk, gränssnitt..."
+msgstr "Språk och gränssnitt…"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Region"
@@ -76,7 +77,7 @@ msgstr "Region"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:355
 msgid "Numbers, currency, addresses, measurement..."
-msgstr "Tal, valuta, adresser, mått..."
+msgstr "Tal, valuta, adresser och måttenheter…"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Time format"
@@ -84,13 +85,13 @@ msgstr "Tidsformat"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:360
 msgid "Date and time..."
-msgstr "Datum och tid..."
+msgstr "Datum och tid…"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:477
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:478
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:479
 msgid "No locale defined"
-msgstr "Ingen plats definieras"
+msgstr "Ingen språkinställning har angetts"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:566
 msgid "Language:"
@@ -98,7 +99,7 @@ msgstr "Språk:"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:567
 msgid "Region:"
-msgstr "Område:"
+msgstr "Region:"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:568
 msgid "Time format:"
@@ -106,7 +107,7 @@ msgstr "Tidsformat:"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:569
 msgid "System locale"
-msgstr "Systemspråk"
+msgstr "Systemets språkinställning"
 
 #: usr/lib/linuxmint/mintlocale/mintlocale.py:573
 msgid "Language support"
@@ -178,14 +179,14 @@ msgstr "- Logga ut och logga sedan in igen."
 msgid ""
 "- Right-click the Fcitx applet in the system tray and choose \"Configure\"."
 msgstr ""
-"- Högerklicka på Fcitx-appen i systempanelen och välj \"Inställningar\"."
+"- Högerklicka på Fcitx-ikonen i systemfältet och välj \"Konfigurera\"."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:11
 msgid ""
 "- In the Fcitx configuration screen, add the <b>Pinyin</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- På inställningssidan för Fcitx: lägg till <b>Pinyin</b> som "
+"- I Fcitx konfigurationsfönster lägger du till <b>Pinyin</b> som "
 "inmatningsmetod (avmarkera vid behov \"Visa endast aktuellt språk\")."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:12
@@ -198,8 +199,7 @@ msgstr "- Ange \"Fcitx\" som ramverk för inmatningsmetoden."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:14
 msgid "Note: SunPinyin can also be used (either with Fcitx or IBus)."
-msgstr ""
-"Kommentar: SunPinyin kan också användas (antingen med Fcitx eller IBus)."
+msgstr "Obs! SunPinyin kan också användas, antingen med Fcitx eller IBus."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:15
 msgid "Simplified Chinese"
@@ -211,8 +211,7 @@ msgstr "Gör så här för att skriva på traditionell kinesiska:"
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:17
 msgid "Note: Chewing can also be used (either with Fcitx or IBus)."
-msgstr ""
-"Kommentar: Chewing kan också användas (antingen med Fcitx eller IBus)."
+msgstr "Obs! Chewing kan också användas, antingen med Fcitx eller IBus."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:18
 msgid "Traditional Chinese"
@@ -227,12 +226,12 @@ msgid ""
 "- In the Fcitx configuration screen, add the <b>Mozc</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- På inställningssidan för Fcitx: lägg till <b>Mozc</b> som inmatningsmetod "
-"(avmarkera vid behov \"Visa endast aktuellt språk\")."
+"- I Fcitx konfigurationsfönster lägger du till <b>Mozc</b> som "
+"inmatningsmetod (avmarkera vid behov \"Visa endast aktuellt språk\")."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:21
 msgid "Note: Mozc can also be used with the IBus input method."
-msgstr "Kommentar: Mozc kan också användas med IBus som ramverk."
+msgstr "Obs! Mozc kan också användas med IBus som ramverk."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:22
 msgid "Japanese"
@@ -247,12 +246,12 @@ msgid ""
 "- In the Fcitx configuration screen, add the <b>Hangul</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- På inställningssidan för Fcitx: lägg till <b>Hangul</b> som "
+"- I Fcitx konfigurationsfönster lägger du till <b>Hangul</b> som "
 "inmatningsmetod (avmarkera vid behov \"Visa endast aktuellt språk\")."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:25
 msgid "Note: Hangul can also be used with the IBus input method."
-msgstr "Kommentar: hangul kan också användas med IBus som ramverk."
+msgstr "Obs! Hangul kan också användas med IBus som ramverk."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:26
 msgid "Korean"
@@ -267,16 +266,16 @@ msgid ""
 "- In the Fcitx configuration screen, add the <b>Thai</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- På inställningssidan för Fcitx: lägg till <b>Thai</b> som inmatningsmetod "
-"(avmarkera vid behov \"Visa endast aktuellt språk\")."
+"- I Fcitx konfigurationsfönster lägger du till <b>Thai</b> som "
+"inmatningsmetod (avmarkera vid behov \"Visa endast aktuellt språk\")."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:29
 msgid ""
 "Note: You can also use iBus or define a Thai keyboard layout without using "
 "any input method."
 msgstr ""
-"Kommentar: Du kan också använda IBus eller definiera ett thailändskt "
-"tangentbord utan att ange någon inmatningsmetod."
+"Obs! Du kan också använda IBus eller ange en thailändsk tangentbordslayout "
+"utan att använda någon inmatningsmetod."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:30
 msgid "Thai"
@@ -291,12 +290,12 @@ msgid ""
 "- In the Fcitx configuration screen, add the <b>Unikey</b> input method "
 "(uncheck \"Only Show Current Language\" if necessary)."
 msgstr ""
-"- På inställningssidan för Fcitx: lägg till <b>Unikey</b> som "
+"- I Fcitx konfigurationsfönster lägger du till <b>Unikey</b> som "
 "inmatningsmetod (avmarkera vid behov \"Visa endast aktuellt språk\")."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:33
 msgid "Note: Unikey can also be used with the IBus input method."
-msgstr "Kommentar: Unikey kan också användas med IBus som ramverk."
+msgstr "Obs! Unikey kan också användas med IBus som ramverk."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:34
 msgid "Vietnamese"
@@ -314,22 +313,22 @@ msgstr "- Ange <b>IBus</b> som ramverk för inmatningsmetoden."
 msgid ""
 "- Right-click the IBus applet in the system tray and choose \"Preferences\"."
 msgstr ""
-"- Högerklicka på IBus-appen i systempanelen och välj \"Inställningar\"."
+"- Högerklicka på IBus-ikonen i systemfältet och välj \"Inställningar\"."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:38
 msgid ""
 "- In the IBus configuration screen, add the <b>Telugu</b> input method."
 msgstr ""
-"- På inställningssidan för IBus: lägg till <b>Telugu</b> som inmatningsmetod."
+"- I IBus konfigurationsfönster lägger du till <b>Telugu</b> som "
+"inmatningsmetod."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:39
 msgid "- Switch between input methods with <b>Super+Space</b>."
-msgstr ""
-"- Växla mellan inmatningsmetoderna med <b>Flaggtangenten+Mellanslag</b>."
+msgstr "- Växla mellan inmatningsmetoderna med <b>Super+Mellanslag</b>."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:40
 msgid "Note: Telugu can also be used with Fcitx."
-msgstr "Kommentar: Telugu kan också användas med Fcitx."
+msgstr "Obs! Telugu kan också användas med Fcitx."
 
 #: usr/share/linuxmint/mintlocale/im.ui.h:41
 msgid "Telugu"
@@ -340,12 +339,12 @@ msgid ""
 "<b><small>Note: Installing or upgrading language packs can trigger the "
 "installation of additional languages</small></b>"
 msgstr ""
-"OBS: Installera eller uppgradera språkpaketen kan orsaka installation av "
-"ytterligare språk"
+"<b><small>Obs! Installation eller uppgradering av språkpaket kan utlösa "
+"installation av ytterligare språk</small></b>"
 
 #: usr/share/linuxmint/mintlocale/install_remove.ui.h:2
 msgid "Add..."
-msgstr "Lägg till..."
+msgstr "Lägg till…"
 
 #: usr/share/linuxmint/mintlocale/install_remove.ui.h:3
 msgid "Add a new language"

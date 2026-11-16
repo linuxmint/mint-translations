@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-12-11 14:26+0000\n"
-"PO-Revision-Date: 2023-11-28 07:51+0000\n"
-"Last-Translator: Vasilis Kosmidis <Unknown>\n"
+"PO-Revision-Date: 2026-10-13 18:10+0000\n"
+"Last-Translator: Dimitris Spentzos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:34+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:51+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 "Language: el\n"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:37
@@ -26,12 +26,12 @@ msgstr "Αντίγραφα ασφαλείας"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:232 generate_desktop_files:24
 #: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:35
 msgid "Backup Tool"
-msgstr "Εργαλείο Αντιγράφων Ασφαλείας"
+msgstr "Εργαλείο αντιγράφων ασφαλείας"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:212
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:885
 msgid "About"
-msgstr "Σχετικά"
+msgstr "Πληροφορίες"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:217
 msgid "Quit"
@@ -40,11 +40,11 @@ msgstr "Έξοδος"
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:256
 #, python-format
 msgid "%s is not located in your home directory."
-msgstr "To %s δεν βρίσκεται στον οικείο κατάλογο σας"
+msgstr "Το «%s» δεν βρίσκεται στον προσωπικό σας φάκελο."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:319
 msgid "Please choose a directory."
-msgstr "Παρακαλούμε επιλέξτε έναν κατάλογο"
+msgstr "Επιλέξτε έναν κατάλογο."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:322
 msgid "You do not have the permission to write in the selected directory."
@@ -52,38 +52,39 @@ msgstr "Δεν έχετε δικαιώματα εγγραφής στον επι�
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:382
 msgid "Please choose a backup file."
-msgstr "Παρακαλώ επιλέξτε ένα αρχείο αντίγραφο ασφαλείας"
+msgstr "Επιλέξτε ένα αρχείο αντιγράφου ασφαλείας."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:390
 msgid ""
 "This backup file is either too old or it was created with a different tool. "
 "Please extract it manually."
 msgstr ""
-"Αυτό το αρχείο αντίγραφο ασφαλείας είτε είναι πολύ παλιό, είτε δημιουργήθηκε "
-"με ένα διαφορετικό εργαλείο. Παρακαλούμε εξάγετέ το χειροκίνητα."
+"Αυτό το αρχείο αντιγράφου ασφαλείας είτε είναι πολύ παλιό είτε δημιουργήθηκε "
+"με κάποιο άλλο εργαλείο. Αποσυμπιέστε το χειροκίνητα."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:399
 #, python-format
 msgid "An error occurred while opening the backup file: %s."
 msgstr ""
-"Ένα σφάλμα προέκυψε κατά το άνοιγμα του αρχείου αντιγράφου ασφαλείας: %s"
+"Προέκυψε σφάλμα κατά το άνοιγμα του αρχείου αντιγράφου ασφαλείας: %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:413
 msgid "No packages need to be installed."
-msgstr "Δεν χρειάζεται να εγκατασταθούν άλλα πακέτα."
+msgstr "Δεν απαιτείται εγκατάσταση πακέτων."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:420
 msgid "Please select packages to install."
-msgstr "Παρακαλούμε επιλέξτε τα πακέτα προς εγκατάσταση"
+msgstr "Επιλέξτε πακέτα προς εγκατάσταση."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:474
 #, python-format
 msgid "Skipping %s because named pipes are not supported."
-msgstr "Το %s θα παραλειφθεί επειδή δεν υποστηρίζονται ονομασμένοι σωλήνες."
+msgstr ""
+"Το «%s» θα παραλειφθεί επειδή δεν υποστηρίζονται ονομασμένοι σωλήνες."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:499
 msgid "Backing up:"
-msgstr "Δημιουργία αντιγράφου:"
+msgstr "Δημιουργία αντιγράφου ασφαλείας:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:507
 msgid "Calculating..."
@@ -92,24 +93,24 @@ msgstr "Υπολογισμός..."
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:511
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:615
 msgid "The following errors occurred:"
-msgstr "Τα ακόλουθα σφάλματα προέκυψαν:"
+msgstr "Προέκυψαν τα ακόλουθα σφάλματα:"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:517
 msgid "The backup was aborted."
-msgstr "Το αντίγραφο ασφαλείας ματαιώθηκε."
+msgstr "Η δημιουργία του αντιγράφου ασφαλείας ματαιώθηκε."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:521
 #, python-format
 msgid "Your files were successfully saved in %s."
-msgstr "Τα αρχεία σας επιτυχώς αποθηκεύτηκαν στο %s"
+msgstr "Τα αρχεία σας αποθηκεύτηκαν με επιτυχία στο %s."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:562
 msgid ""
 "Warning: The meta file could not be saved. This backup will not be accepted "
 "for restoration."
 msgstr ""
-"Προειδοποίηση: Δεν ήταν δυνατή η αποθήκευση του αρχείου meta. Αυτό το "
-"αντίγραφο ασφαλείας δεν θα γίνει δεκτό για αποκατάσταση."
+"Προειδοποίηση: Δεν ήταν δυνατή η αποθήκευση του αρχείου μεταδεδομένων. Αυτό "
+"το αντίγραφο ασφαλείας δεν θα γίνει δεκτό για ανάκτηση των δεδομένων."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:589
 #, python-format
@@ -117,8 +118,8 @@ msgid ""
 "Warning: Some files were not saved. Only %(archived)d files were backed up "
 "out of %(total)d."
 msgstr ""
-"Προειδοποίηση: Μερικά αρχεία δεν σώθηκαν. Μόνο %(archived)d από τα %(total)d "
-"αρχεία έχουν αντιγραφεί."
+"Προειδοποίηση: Ορισμένα αρχεία δεν αποθηκεύτηκαν. Δημιουργήθηκε αντίγραφο "
+"ασφαλείας μόνο για %(archived)d από τα %(total)d αρχεία."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:604
 msgid "Restoring:"
@@ -136,8 +137,8 @@ msgstr "Η επαναφορά των αρχείων ολοκληρώθηκε ε�
 #, python-format
 msgid "Warning: Only %(number)d files were restored out of %(total)d."
 msgstr ""
-"Προειδοποίηση: Μόνο %(number)d από τα %(total)d αρχεία επαναφέρθηκαν "
-"επιτυχώς."
+"Προειδοποίηση: Έγινε επιτυχής επαναφορά μόνο %(number)d αρχείων από τα "
+"%(total)d."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:738
 msgid "The list below shows the applications you installed."
@@ -146,16 +147,16 @@ msgstr "Η παρακάτω λίστα δείχνει τις εφαρμογές 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:782
 #, python-format
 msgid "Your software selection was saved in %s"
-msgstr "Η επιλογή του λογισμικού σας αποθηκεύτηκε στο %s"
+msgstr "Η συλλογή λογισμικού αποθηκεύτηκε στο %s"
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:798
 msgid "The selected file is not a valid software selection."
-msgstr "Το επιλεγμένο αρχείο δεν είναι μια έγκυρη επιλογή λογισμικού."
+msgstr "Το επιλεγμένο αρχείο δεν είναι έγκυρη συλλογή λογισμικού."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:803
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:846
 msgid "An error occurred while reading the file."
-msgstr "Ένα σφάλμα προέκυψε κατά το διάβασμα του αρχείου."
+msgstr "Προέκυψε σφάλμα κατά την ανάγνωση του αρχείου."
 
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:828
 msgid "Could not locate the package."
@@ -164,15 +165,16 @@ msgstr "Δεν είναι δυνατός ο εντοπισμός του πακέ
 #: usr/lib/linuxmint/mintbackup/mintbackup.py:887 generate_desktop_files:24
 #: generate_desktop_files:39 usr/share/linuxmint/mintbackup/mintbackup.ui.h:36
 msgid "Backup apps and files"
-msgstr "Δημιουργία αντιγράφων ασφαλείας εφαρμογών και αρχείων"
+msgstr "Δημιουργήστε αντίγραφα ασφαλείας για εφαρμογές και αρχεία"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
 msgid "Personal data"
-msgstr "Δεδομένα χρήστη"
+msgstr "Προσωπικά δεδομένα"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
 msgid "Your files, settings and the content of your home directory"
-msgstr "Τα αρχεία, οι ρυθμίσεις και το περιεχόμενο του αρχικού καταλόγου σας"
+msgstr ""
+"Τα αρχεία, οι ρυθμίσεις και τα περιεχόμενα του προσωπικού φακέλου σας"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
 msgid "Restore..."
@@ -180,11 +182,11 @@ msgstr "Επαναφορά..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
 msgid "Back Up Now..."
-msgstr "Δημιουργία Αντιγράφου Τώρα..."
+msgstr "Δημιουργία αντιγράφου ασφαλείας..."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
 msgid "Software selection"
-msgstr "Επιλογή λογισμικού"
+msgstr "Συλλογή λογισμικού"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
 msgid "The list of applications installed on your computer"
@@ -192,16 +194,15 @@ msgstr "Η λίστα των εφαρμογών που είναι εγκατεσ
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
 msgid "Please select where you want to save the backup file:"
-msgstr ""
-"Παρακαλούμε επιλέξτε πού θέλετε να αποθηκευτεί το αρχείο αντίγραφο ασφαλείας:"
+msgstr "Επιλέξτε πού θέλετε να αποθηκευτεί το αρχείο αντιγράφου ασφαλείας:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
 msgid ""
 "Please add files or directories to the list below to exclude them from the "
 "backup."
 msgstr ""
-"Παρακαλούμε προσθέστε αρχεία ή καταλόγους στη λίστα παρακάτω που θα "
-"εξαιρεθούν από το αντίγραφο ασφαλείας."
+"Προσθέστε αρχεία ή φακέλους που θα εξαιρεθούν από το αντίγραφο ασφαλείας "
+"στην παρακάτω λίστα."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
 msgid "Exclude files"
@@ -213,15 +214,15 @@ msgstr "Εξαίρεση φακέλων"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
 msgid "Remove"
-msgstr "Κατάργηση"
+msgstr "Αφαίρεση"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
 msgid ""
 "Hidden files and hidden folders located at the root of your home directory "
 "are not included by default."
 msgstr ""
-"Τα κρυφά αρχεία και οι κρυμμένοι φάκελοι που βρίσκονται στη ρίζα του αρχικού "
-"καταλόγου σας δεν περιλαμβάνονται από προεπιλογή."
+"Τα κρυμμένα αρχεία και οι κρυμμένοι φάκελοι που βρίσκονται στη ρίζα του "
+"προσωπικού φακέλου σας δεν περιλαμβάνονται από προεπιλογή."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
 msgid ""
@@ -229,7 +230,7 @@ msgid ""
 "list below."
 msgstr ""
 "Εάν θέλετε να συμπεριλάβετε μερικά από αυτά στο αντίγραφο ασφαλείας, "
-"παρακαλούμε προσθέστε τα στην παρακάτω λίστα."
+"προσθέστε τα στην παρακάτω λίστα."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
 msgid "Include files"
@@ -241,7 +242,7 @@ msgstr "Συμπερίληψη φακέλων"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
 msgid "Include all"
-msgstr ""
+msgstr "Συμπερίληψη όλων"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
 msgid ""
@@ -253,22 +254,22 @@ msgstr ""
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
 msgid "Please wait while your files are being backed up."
-msgstr "Παρακαλούμε περιμένετε όσο τα αρχεία σας αντιγράφονται ασφαλώς."
+msgstr "Περιμένετε όσο δημιουργείται αντίγραφο ασφαλείας των αρχείων σας."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
 msgid "Please select the backup to restore:"
-msgstr "Παρακαλούμε επιλέξτε το αντίγραφο ασφαλείας για επαναφορά:"
+msgstr "Επιλέξτε το αντίγραφο ασφαλείας προς επαναφορά:"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
 msgid "Overwrite existing files?"
-msgstr "Να αντικατασταθούν τα υπάρχοντα αρχεία;"
+msgstr "Αντικατάσταση των υπαρχόντων αρχείων;"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:21
 msgid ""
 "No, only restore missing files.\n"
 "<small>This option is safe and does not affect your existing files.</small>"
 msgstr ""
-"Όχι, επανάφερε μόνο τα αρχεία που λείπουν.\n"
+"Όχι, να ανακτηθούν μόνο τα αρχεία που λείπουν.\n"
 "<small>Αυτή η επιλογή είναι ασφαλής και δεν επηρεάζει τα υπάρχοντα αρχεία "
 "σας.</small>"
 
@@ -278,26 +279,26 @@ msgid ""
 "<small>Use this option with caution. The changes you made to the files since "
 "the backup will be lost.</small>"
 msgstr ""
-"Ναι, να αντικατασταθούν οι αλλαγές και να επαναφερθεί το περιεχόμενο από "
-"οποιοδήποτε υπάρχον αρχείο.\n"
-"<small>Χρησιμοποιήστε αυτήν την επιλογή με σύνεση. Οι αλλαγές που κάνατε στα "
-"αρχεία μετά τη λήψη του αντιγράφου ασφαλείας θα χαθούν</small>"
+"Όχι, να αντικατασταθούν οι αλλαγές και να γίνει επαναφορά του περιεχομένου "
+"όλων των υπαρχόντων αρχείων.\n"
+"<small>Χρησιμοποιήστε αυτήν την επιλογή με σύνεση. Θα χαθούν όλες οι αλλαγές "
+"που κάνατε στα αρχεία μετά τη δημιουργία του αντιγράφου ασφαλείας.</small>"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
 msgid "Please wait while your files are being restored."
-msgstr "Παρακαλούμε περιμένετε όσο τα αρχεία σας επαναφέρονται."
+msgstr "Περιμένετε όσο γίνεται επαναφορά των αρχείων σας."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
 msgid ""
 "The list below shows the applications you installed with the Software "
 "Manager."
 msgstr ""
-"Η παρακάτω λίστα δείχνει τις εφαρμογές που εγκαταστήσατε με το Διαχειριστή "
-"Λογισμικού"
+"Η παρακάτω λίστα δείχνει τις εφαρμογές που εγκαταστήσατε με τη Διαχείριση "
+"λογισμικού"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
 msgid "Please select the applications you want to save."
-msgstr "Παρακαλούμε επιλέξτε τις εφαρμογές που θέλετε να σώσετε."
+msgstr "Επιλέξτε τις εφαρμογές που θέλετε να αποθηκεύσετε."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
 msgid "Select all"
@@ -313,14 +314,13 @@ msgid ""
 "system, please use the command 'dpkg --get-selections > mylist.list' in a "
 "terminal."
 msgstr ""
-"Σημείωση: Αν θέλετε να σώσετε μια πλήρη λίστα από όλα τα εγκαταστημένα "
-"πακέτα στο σύστημα σας, παρακαλούμε χρησιμοποιείστε την εντολή 'dpkg --get-"
-"selections > mylist.list' στο τερματικό."
+"Σημείωση: Εάν θέλετε να αποθηκεύσετε την πλήρη λίστα με όλα τα εγκαταστημένα "
+"πακέτα του συστήματός σας, χρησιμοποιείστε την εντολή «dpkg --get-selections "
+"> mylist.list» σε ένα τερματικό."
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
 msgid "Please select a saved software selection (.list file):"
-msgstr ""
-"Παρακαλούμε επιλέξτε μία αποθηκευμένη επιλογή  λογισμικού (αρχείο .list)"
+msgstr "Επιλέξτε μια αποθηκευμένη συλλογή λογισμικού (αρχείο .list):"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
 msgid "Select the packages you want to install."
@@ -332,7 +332,7 @@ msgstr "Ανανέωση"
 
 #: usr/share/linuxmint/mintbackup/mintbackup.ui.h:34
 msgid "All the packages in your software selection are installed."
-msgstr "Όλα τα πακέτα στην επιλογή λογισμικού σας είναι εγκατεστημένα."
+msgstr "Όλα τα πακέτα στη συλλογή λογισμικού σας έχουν εγκατασταθεί."
 
 #~ msgid "Backup successful"
 #~ msgstr "Επιτυχές αντίγραφο ασφαλείας"

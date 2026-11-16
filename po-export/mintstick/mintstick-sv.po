@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-27 14:33+0000\n"
-"PO-Revision-Date: 2022-10-02 13:35+0000\n"
-"Last-Translator: Jan-Olof Svensson <jan-olof.svensson@abc.se>\n"
+"PO-Revision-Date: 2026-09-16 23:09+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:39+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:55+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: sv\n"
 
 #: lib/mintstick.py:312
 msgid "The USB stick was formatted successfully."
@@ -24,7 +25,7 @@ msgstr "USB-minnet har framgångsrikt formaterats."
 #: lib/mintstick.py:315
 #, python-format
 msgid "An error occured while creating a partition on %s."
-msgstr "Ett fel uppstod vid skapande av ny partion på %s."
+msgstr "Ett fel uppstod vid skapande av en ny partition på %s."
 
 #: lib/mintstick.py:317 lib/mintstick.py:427
 msgid "Authentication Error."
@@ -80,7 +81,7 @@ msgstr "GPG-signaturer"
 
 #: lib/verify.py:107 lib/verify.py:108 lib/verify.py:109
 msgid "Calculating..."
-msgstr "Beräknar..."
+msgstr "Beräknar…"
 
 #: lib/verify.py:167
 msgid "No volume ID found"
@@ -139,7 +140,7 @@ msgstr "Okänd signatur"
 
 #: lib/verify.py:288
 msgid "Key not found on keyserver."
-msgstr "Hittade inte nyckeln på nyckelservern."
+msgstr "Nyckeln hittades inte på nyckelservern."
 
 #: lib/verify.py:299 lib/verify.py:305
 msgid "Everything looks good!"
@@ -163,7 +164,7 @@ msgstr "Ej betrodd signatur"
 
 #: lib/verify.py:311
 msgid "This ISO image is verified by an untrusted signature."
-msgstr "ISO-avbilden har bekräftats med en otillförlitlig signatur."
+msgstr "ISO-avbilden har verifierats med en icke-betrodd signatur."
 
 #: lib/verify.py:316
 msgid "An error occurred"
@@ -213,15 +214,14 @@ msgstr "Verifiera"
 
 #: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
 msgid "Verify the authenticity and integrity of the image"
-msgstr "Bekräfta avbildens äkthet och integritet."
+msgstr "Verifiera avbildens äkthet och integritet."
 
 #: generate_additional_files.py:115 generate_additional_files.py:144
 msgid ""
 "This will destroy all data on the USB stick, are you sure you want to "
 "proceed?"
 msgstr ""
-"Detta kommer att radera allt som är lagrat på USB-minnet, är du säker på att "
-"du vill fortsätta?"
+"Detta raderar all data på USB-minnet. Är du säker på att du vill fortsätta?"
 
 #: share/mintstick/mintstick.ui.h:1
 msgid "USB stick:"
@@ -258,28 +258,28 @@ msgid ""
 "  -  Not compatible with Windows, Mac and most hardware devices.\n"
 msgstr ""
 "FAT32 \n"
-"  + Fungerar med alla system.\n"
+"  + Kompatibelt överallt.\n"
 "  - Kan inte hantera filer som är större än 4 GB.\n"
 "\n"
 "exFAT\n"
-"  + Fungerar med de flesta system.\n"
+"  + Kompatibelt nästan överallt.\n"
 "  + Kan hantera filer som är större än 4 GB.\n"
-"  - Inte lika vanligt som FAT32.\n"
+"  - Inte lika kompatibelt som FAT32.\n"
 "\n"
 "NTFS \n"
-"  + Fungerar med Windows.\n"
-"  - Fungerar inte med Mac och de flesta inbyggda system.\n"
-"  - Passar inte riktigt ihop med Linux (NTFS har stängd källkod vilket ger "
-"problem).\n"
+"  + Kompatibelt med Windows.\n"
+"  - Inte kompatibelt med Mac och de flesta maskinvaruenheter.\n"
+"  - Ibland kompatibilitetsproblem med Linux (NTFS är proprietärt och "
+"baklängeskonstruerat).\n"
 "\n"
 "EXT4 \n"
-"  + Ett modernt, snabbt och stabilt så kallat journalförande filsystem.\n"
-"  + Har fullt stöd för rättigheter med mera i Linux.\n"
-"  - Fungerar inte med Windows, Mac och de flesta inbyggda system.\n"
+"  + Modernt, stabilt, snabbt och journalförande.\n"
+"  + Stöd för Linux-filrättigheter.\n"
+"  - Inte kompatibelt med Windows, Mac och de flesta maskinvaruenheter.\n"
 
 #: share/mintstick/mintstick.ui.h:23
 msgid "Volume label:"
-msgstr "Volymens text:"
+msgstr "Volymetikett:"
 
 #: share/mintstick/mintstick.ui.h:24
 msgid "Choose a name for your USB Stick"
