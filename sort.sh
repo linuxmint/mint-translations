@@ -3,7 +3,34 @@ import os
 
 MINT_PROJECTS = ["mintbackup", "mint-common", "mintdesktop", "mintinstall", "mintlocale", "mintmenu", "mintnanny", "mintsources", "mintstick", "mintupload", "mintwelcome"]
 CINNAMON_PROJECTS = ["cinnamon", "cinnamon-control-center", "cinnamon-session", "cinnamon-settings-daemon", "cinnamon-screensaver", "nemo", "nemo-extensions"]
-SIMPLE_PO_PROJECTS = ["folder-color-switcher", "pix", "xed", "xplayer", "xreader", "xviewer", "xapp", "slick-greeter", "slideshow-mint", "xfce4-xapp-status-plugin", "mintubiquity", "nvidia-prime-applet", "warpinator", "timeshift", "sticky", "gnome-online-accounts-gtk", "captain", "aptkit", "fingwit", "python-xapp"]
+SIMPLE_PO_PROJECTS = [\
+    "aptkit", \
+    "captain", \
+    "clockenstein", \
+    "fingwit", \
+    "folder-color-switcher", \
+    "gnome-online-accounts-gtk", \
+    "mintubiquity", \
+    "nvidia-prime-applet", \
+    "pix", \
+    "python-xapp", \
+    "slick-greeter", \
+    "slideshow-mint", \
+    "sticky", \
+    "superlight", \
+    "timeshift", \
+    "unfold", \
+    "velocitty", \
+    "warpinator", \
+    "xapp", \
+    "xdg-desktop-portal-xapp", \
+    "xed", \
+    "xepub", \
+    "xfce4-xapp-status-plugin", \
+    "xplayer", \
+    "xreader", \
+    "xviewer" \
+]
 
 os.system("./clean.sh")
 

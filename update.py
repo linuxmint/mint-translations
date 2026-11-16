@@ -5,7 +5,7 @@ import sys
 from git import Repo
 
 SKIP = ["linuxmint-installation-guide", "mintubiquity", "slideshow-mint"]
-XAPP_PROJECTS = ["fingwit"]
+XAPP_PROJECTS = ["fingwit", "velocitty", "clockenstein", "xepub", "unfold", "superlight", "gnome-online-accounts-gtk"]
 CURR_DIR = os.getcwd()
 FOREIGN_DIR = os.path.join(CURR_DIR, "po-export/FOREIGN")
 WORKING_DIR = os.path.expanduser("~/Sandbox/translations/")
