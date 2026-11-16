@@ -6,6 +6,7 @@ from git import Repo
 
 SKIP = ["linuxmint-installation-guide", "mintubiquity", "slideshow-mint"]
 XAPP_PROJECTS = ["fingwit", "velocitty", "clockenstein", "xepub", "unfold", "superlight", "gnome-online-accounts-gtk"]
+CUSTOM_REMOTES = {"mintchat": "git@gitlab.com:linuxmint/pins/mint/mintchat.git"}
 CURR_DIR = os.getcwd()
 FOREIGN_DIR = os.path.join(CURR_DIR, "po-export/FOREIGN")
 WORKING_DIR = os.path.expanduser("~/Sandbox/translations/")
@@ -33,7 +34,9 @@ def clone_or_reset(repo_name, parent_path):
         os.system("git pull origin master")
     else:
         # clone repository from github
-        if repo_name in XAPP_PROJECTS:
+        if repo_name in CUSTOM_REMOTES:
+            os.system("git clone %s" % CUSTOM_REMOTES[repo_name])
+        elif repo_name in XAPP_PROJECTS:
             os.system("git clone git@github.com:xapp-project/%s.git" % repo_name)
         else:
             os.system("git clone git@github.com:linuxmint/%s.git" % repo_name)
