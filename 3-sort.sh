@@ -32,7 +32,7 @@ SIMPLE_PO_PROJECTS = [\
     "xviewer" \
 ]
 
-os.system("./clean.sh")
+os.system("./1-clean.sh")
 
 os.chdir("po-export")
 

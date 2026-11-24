@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+import subprocess
 import sys
 from git import Repo
 
@@ -8,7 +9,8 @@ SKIP = ["linuxmint-installation-guide", "mintubiquity", "slideshow-mint"]
 XAPP_PROJECTS = ["fingwit", "velocitty", "clockenstein", "xepub", "unfold", "superlight", "gnome-online-accounts-gtk"]
 CUSTOM_REMOTES = {"mintchat": "git@gitlab.com:linuxmint/pins/mint/mintchat.git"}
 CURR_DIR = os.getcwd()
-FOREIGN_DIR = os.path.join(CURR_DIR, "po-export/FOREIGN")
+PO_DIR = os.path.join(CURR_DIR, "po-export")
+FOREIGN_DIR = os.path.join(PO_DIR, "FOREIGN")
 WORKING_DIR = os.path.expanduser("~/Sandbox/translations/")
 os.system("mkdir -p '%s'" % WORKING_DIR)
 os.system("rm -rf '%s/*'" % WORKING_DIR)
@@ -77,11 +79,60 @@ def copy_translations(repo_name):
     input()
     os.system(f"rm -rf '{FOREIGN_DIR}/{repo_name}'")
 
-os.chdir(FOREIGN_DIR)
-for project in sorted(os.listdir()):
-    if project in SKIP:
+def generate_files(repo_name):
+    generate_scripts = []
+    for filename in sorted(os.listdir()):
+        if filename.startswith("generate_"):
+            generate_scripts.append(filename)
+    if len(generate_scripts) == 0:
+        notify(repo_name.upper(), "No generate_ scripts, skipping.")
+        return
+    for script in generate_scripts:
+        os.system(f"./{script}")
+    if subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True).stdout == "":
+        notify(repo_name.upper(), "No changes, skipping.")
+        return
+    os.system("git commit -a -m 'l10n: Update files'")
+    os.system("git dch")
+    os.system("smerge ./")
+    os.system("gnome-terminal &")
+    notify(repo_name.upper(), "Press a key when ready to continue...")
+    input()
+
+# Foreign projects: copy their translations into their repositories
+if os.path.exists(FOREIGN_DIR):
+    os.chdir(FOREIGN_DIR)
+    for project in sorted(os.listdir()):
+        if project in SKIP:
+            continue
+        notify(project.upper(), "Updating translations...")
+        clone_or_reset(project, WORKING_DIR)
+        copy_translations(project)
+
+# Whatever is left in FOREIGN needs manual work
+while os.path.exists(FOREIGN_DIR):
+    notify("FOREIGN", "Left in po-export/FOREIGN: %s\n\n        Handle them, remove po-export/FOREIGN and press a key..." % ", ".join(sorted(os.listdir(FOREIGN_DIR))))
+    input()
+
+# Build and install mint-translations, the native projects read its .mo files
+os.chdir(CURR_DIR)
+while True:
+    version = subprocess.run(["dpkg-parsechangelog", "-S", "Version"], capture_output=True, text=True).stdout.strip()
+    installed = subprocess.run(["dpkg-query", "-W", "-f=${Version}", "mint-translations"], capture_output=True, text=True).stdout.strip()
+    if version != installed:
+        break
+    notify("MINT-TRANSLATIONS", f"Version {version} is already installed. Bump it with dch and press a key...")
+    input()
+notify("MINT-TRANSLATIONS", f"Building and installing {version}...")
+os.system("dpkg-buildpackage -b -us -uc")
+if os.system(f"sudo dpkg -i ../mint-translations_{version}_all.deb") != 0:
+    sys.exit(f"Could not install mint-translations {version}.")
+
+# Native projects: regenerate the files which use their translations
+for project in sorted(os.listdir(PO_DIR)):
+    if not os.path.isdir(os.path.join(PO_DIR, project)):
         continue
-    notify(project.upper(), "Updating translations...")
+    notify(project.upper(), "Generating l10n files...")
     clone_or_reset(project, WORKING_DIR)
-    copy_translations(project)
+    generate_files(project)
 
