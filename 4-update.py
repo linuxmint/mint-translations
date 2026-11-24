@@ -4,6 +4,8 @@ import os
 import subprocess
 import sys
 from git import Repo
+from rich.console import Console
+from rich.markup import escape
 
 SKIP = ["linuxmint-installation-guide", "mintubiquity", "slideshow-mint"]
 XAPP_PROJECTS = ["fingwit", "velocitty", "clockenstein", "xepub", "unfold", "superlight", "gnome-online-accounts-gtk"]
@@ -15,15 +17,17 @@ WORKING_DIR = os.path.expanduser("~/Sandbox/translations/")
 os.system("mkdir -p '%s'" % WORKING_DIR)
 os.system("rm -rf '%s/*'" % WORKING_DIR)
 
-def notify(message, submessage):
-    print(f"""
-        ========================================
-        {message}
-        ========================================
+console = Console(highlight=False)
 
-        {submessage}
+def title(text):
+    console.print()
+    console.rule(f"[bold green]{escape(text)}")
 
-    """)
+def info(text):
+    console.print(f"[cyan]{escape(text)}")
+
+def wait(text):
+    console.input(f"[bold yellow]{escape(text)}[/] ")
 
 def clone_or_reset(repo_name, parent_path):
     os.chdir(parent_path)
@@ -50,7 +54,7 @@ def copy_translations(repo_name):
     os.system(f"cp -R {FOREIGN_DIR}/{repo_name}/*.po {repo_path}/po/")
     repo = Repo(repo_path)
     if os.path.exists("po/LINGUAS"):
-        notify(repo_name.upper(), "Generate po/LINGUAS...")
+        info("Generating po/LINGUAS...")
         os.system("rm po/LINGUAS")
         for filename in sorted(os.listdir("po")):
             if filename.endswith(".po"):
@@ -63,7 +67,7 @@ def copy_translations(repo_name):
         if filename.startswith("generate_"):
             generate_scripts.append(filename)
     if len(generate_scripts) > 0:
-        notify(repo_name.upper(), "Generating l10n files...")
+        info("Generating l10n files...")
         os.system("rm -rf ../*.deb")
         os.system("dpkg-buildpackage")
         os.system("git checkout -f")
@@ -74,9 +78,8 @@ def copy_translations(repo_name):
         os.system("git commit -a -m 'l10n: Update files'")
     os.system("git dch")
     os.system("smerge ./")
-    os.system("gnome-terminal &")
-    notify(repo_name.upper(), "Press a key when ready to continue...")
-    input()
+    os.system("velocitty &")
+    wait("Press Enter when ready to continue...")
     os.system(f"rm -rf '{FOREIGN_DIR}/{repo_name}'")
 
 def generate_files(repo_name):
@@ -85,54 +88,56 @@ def generate_files(repo_name):
         if filename.startswith("generate_"):
             generate_scripts.append(filename)
     if len(generate_scripts) == 0:
-        notify(repo_name.upper(), "No generate_ scripts, skipping.")
+        info("No generate_ scripts, skipping.")
         return
+    info("Generating l10n files...")
     for script in generate_scripts:
         os.system(f"./{script}")
     if subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True).stdout == "":
-        notify(repo_name.upper(), "No changes, skipping.")
+        info("No changes, skipping.")
         return
     os.system("git commit -a -m 'l10n: Update files'")
     os.system("git dch")
     os.system("smerge ./")
-    os.system("gnome-terminal &")
-    notify(repo_name.upper(), "Press a key when ready to continue...")
-    input()
+    os.system("velocitty &")
+    wait("Press Enter when ready to continue...")
 
 # Foreign projects: copy their translations into their repositories
 if os.path.exists(FOREIGN_DIR):
-    os.chdir(FOREIGN_DIR)
-    for project in sorted(os.listdir()):
-        if project in SKIP:
-            continue
-        notify(project.upper(), "Updating translations...")
+    projects = [project for project in sorted(os.listdir(FOREIGN_DIR)) if project not in SKIP]
+    for index, project in enumerate(projects, start=1):
+        title(f"{project} ({index}/{len(projects)})")
+        info("Updating translations...")
         clone_or_reset(project, WORKING_DIR)
         copy_translations(project)
 
 # Whatever is left in FOREIGN needs manual work
 while os.path.exists(FOREIGN_DIR):
-    notify("FOREIGN", "Left in po-export/FOREIGN: %s\n\n        Handle them, remove po-export/FOREIGN and press a key..." % ", ".join(sorted(os.listdir(FOREIGN_DIR))))
-    input()
+    title("FOREIGN")
+    console.print("[bold red]Left in po-export/FOREIGN, needs manual work:")
+    for project in sorted(os.listdir(FOREIGN_DIR)):
+        console.print(f"  • {escape(project)}")
+    wait("Handle them, remove po-export/FOREIGN and press Enter...")
 
 # Build and install mint-translations, the native projects read its .mo files
 os.chdir(CURR_DIR)
+title("mint-translations")
 while True:
     version = subprocess.run(["dpkg-parsechangelog", "-S", "Version"], capture_output=True, text=True).stdout.strip()
     installed = subprocess.run(["dpkg-query", "-W", "-f=${Version}", "mint-translations"], capture_output=True, text=True).stdout.strip()
     if version != installed:
         break
-    notify("MINT-TRANSLATIONS", f"Version {version} is already installed. Bump it with dch and press a key...")
-    input()
-notify("MINT-TRANSLATIONS", f"Building and installing {version}...")
+    wait(f"Version {version} is already installed. Bump it with dch and press Enter...")
+info(f"Building and installing {version}...")
 os.system("dpkg-buildpackage -b -us -uc")
 if os.system(f"sudo dpkg -i ../mint-translations_{version}_all.deb") != 0:
-    sys.exit(f"Could not install mint-translations {version}.")
+    console.print(f"[bold red]Could not install mint-translations {escape(version)}.")
+    sys.exit(1)
 
 # Native projects: regenerate the files which use their translations
-for project in sorted(os.listdir(PO_DIR)):
-    if not os.path.isdir(os.path.join(PO_DIR, project)):
-        continue
-    notify(project.upper(), "Generating l10n files...")
+projects = [project for project in sorted(os.listdir(PO_DIR)) if os.path.isdir(os.path.join(PO_DIR, project))]
+for index, project in enumerate(projects, start=1):
+    title(f"{project} ({index}/{len(projects)})")
     clone_or_reset(project, WORKING_DIR)
     generate_files(project)
 

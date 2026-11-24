@@ -2,6 +2,11 @@
 
 import os
 
+from rich.console import Console
+from rich.markup import escape
+
+console = Console(highlight=False)
+
 os.chdir("po-export")
 
 # Remove templates
@@ -14,7 +19,7 @@ for locale in FORBIDDEN_LOCALES:
         for file in files:
             if file.endswith('%s.po' % locale):
                 fullpath = os.path.join(root, file)
-                print ("%s deleted! (forbidden locale)." % fullpath)
+                console.print(f"[red]Deleted[/red] {escape(fullpath)} (forbidden locale)")
                 os.unlink(fullpath)
 
 WEIRD_CHARACTERS = {}
@@ -36,6 +41,6 @@ for root, dirs, files in os.walk("."):
                         found_weird_character = True
                         content = content.replace(character, WEIRD_CHARACTERS[character])
             if found_weird_character:
-                print ("Found weird character in", path)
+                console.print(f"[yellow]Fixed weird characters in[/yellow] {escape(path)}")
                 with open(path, "w") as fh:
                     fh.write(content)
