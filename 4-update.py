@@ -6,6 +6,7 @@ import sys
 from git import Repo
 from rich.console import Console
 from rich.markup import escape
+from rich.prompt import Prompt
 
 SKIP = ["linuxmint-installation-guide", "mintubiquity", "slideshow-mint"]
 XAPP_PROJECTS = ["fingwit", "velocitty", "clockenstein", "xepub", "unfold", "superlight", "gnome-online-accounts-gtk"]
@@ -127,7 +128,10 @@ while True:
     installed = subprocess.run(["dpkg-query", "-W", "-f=${Version}", "mint-translations"], capture_output=True, text=True).stdout.strip()
     if version != installed:
         break
-    wait(f"Version {version} is already installed. Bump it with dch and press Enter...")
+    console.print(f"[bold yellow]Version {escape(version)} is already installed.")
+    answer = Prompt.ask("Bump it with dch and retry, or ignore and reinstall it", choices=["retry", "ignore"], default="retry", console=console)
+    if answer == "ignore":
+        break
 info(f"Building and installing {version}...")
 os.system("dpkg-buildpackage -b -us -uc")
 if os.system(f"sudo dpkg -i ../mint-translations_{version}_all.deb") != 0:
