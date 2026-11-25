@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-07 12:31+0100\n"
-"PO-Revision-Date: 2023-05-10 12:26+0000\n"
-"Last-Translator: Ourania J. Banti <Unknown>\n"
+"PO-Revision-Date: 2026-11-21 15:03+0000\n"
+"Last-Translator: Dimitris Spentzos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2026-11-16 11:49+0000\n"
-"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"X-Launchpad-Export-Date: 2026-11-24 11:49+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:28
 #: usr/lib/linuxmint/mintupload/upload-manager.py:28
@@ -24,43 +24,43 @@ msgstr ""
 #: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
 #: generate_desktop_files:41
 msgid "Upload Manager"
-msgstr "Διαχειριστής Αποστολής Αρχείων"
+msgstr "Διαχείριση μεταφορτώσεων"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:43
 #: usr/lib/linuxmint/mintupload/mintupload.py:138
 #, python-format
 msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
-msgstr "%(percentage)s από %(number)d αρχεία - Αποστολή στο %(service)s"
+msgstr "%(percentage)s από %(number)d αρχεία - Μεταφόρτωση στο %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:45
 #: usr/lib/linuxmint/mintupload/mintupload.py:141
 #, python-format
 msgid "%(percentage)s of 1 file - Uploading to %(service)s"
-msgstr "%(percentage)s από ένα αρχείο - Αποστολή στο %(service)s"
+msgstr "%(percentage)s από ένα αρχείο - Μεταφόρτωση στο %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:81
 #, python-format
 msgid "The upload to '%(service)s' was cancelled"
-msgstr "Η αποστολή προς το '%(service)s' ακυρώθηκε"
+msgstr "Η μεταφόρτωση στο «%(service)s» ακυρώθηκε"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:93
 #, python-format
 msgid "Upload to '%s' failed: "
-msgstr "Η αποστολή προς το '%s' απέτυχε: "
+msgstr "Η μεταφόρτωση στο «%s» απέτυχε: "
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:99
 #, python-format
 msgid "Successfully uploaded %(number)d files to '%(service)s'"
-msgstr "Τα αρχεία %(number)d στάλθηκαν επιτυχώς στο '%(service)s'"
+msgstr "Έγινε επιτυχής μεταφόρτωση %(number)d αρχείων στο «%(service)s»"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:101
 #, python-format
 msgid "Successfully uploaded 1 file to '%(service)s'"
-msgstr "Ένα αρχείο στάλθηκε επιτυχώς στο '%(service)s'"
+msgstr "Έγινε επιτυχής μεταφόρτωση ενός αρχείου στο «%(service)s»"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:112
 msgid "Do you want to cancel this upload?"
-msgstr "Επιθυμείτε την ακύρωση της αποστολής;"
+msgstr "Θέλετε να ακυρώσετε αυτήν τη μεταφόρτωση;"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:113
 msgid "Cancel"
@@ -68,16 +68,16 @@ msgstr "Aκύρωση"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:114
 msgid "Run in the background"
-msgstr "Λειτουργία στο παρασκήνιο"
+msgstr "Εκτέλεση στο παρασκήνιο"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:117
 msgid "Cancel upload?"
-msgstr "Ακύρωση αποστολής;"
+msgstr "Ακύρωση μεταφόρτωσης;"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:137
 #, python-format
 msgid "Uploading %(number)d files to %(service)s"
-msgstr "Αποστολή %(number)d αρχείων στο %(service)s"
+msgstr "Μεταφόρτωση %(number)d αρχείων στο %(service)s"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:140
 #, python-format
@@ -89,8 +89,8 @@ msgstr "Μεταφόρτωση ενός αρχείου στο %(service)s"
 msgid ""
 "%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
 msgstr ""
-"%(size_so_far)s από %(total_size)s - %(time_remaining)s απομένει "
-"(%(speed)s/sec)"
+"%(size_so_far)s από %(total_size)s - Υπολειπόμενος χρόνος: "
+"%(time_remaining)s (%(speed)s/δευτ.)"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:161
 #, python-format
@@ -106,7 +106,7 @@ msgstr "B"
 #: usr/lib/linuxmint/mintupload/mintupload.py:190
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:95
 msgid "KB"
-msgstr "kB"
+msgstr "KB"
 
 #: usr/lib/linuxmint/mintupload/mintupload.py:192
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:95
@@ -148,7 +148,7 @@ msgstr "Άγνωστη υπηρεσία: %s"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:93
 msgid "KiB"
-msgstr "kiB"
+msgstr "KiB"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:93
 msgid "MiB"
@@ -160,34 +160,34 @@ msgstr "GiB"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:135
 msgid "File larger than service's maximum"
-msgstr "Το αρχείο είναι μεγαλύτερο από το επιτρεπτό"
+msgstr "Το αρχείο είναι μεγαλύτερο από το μέγιστο όριο της υπηρεσίας"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:145
 msgid "Could not get available space"
-msgstr "Ανεπιτυχής έλεγχος του διαθέσιμου χώρου"
+msgstr "Δεν ήταν δυνατός ο έλεγχος του διαθέσιμου χώρου"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:148
 msgid "File larger than service's available space"
-msgstr "Το αρχείο είναι μεγαλύτερο από τον διαθέσιμο στην υπηρεσία χώρο"
+msgstr "Το αρχείο είναι μεγαλύτερο από τον διαθέσιμο χώρο στην υπηρεσία"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:173
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:315
 msgid "File uploaded successfully."
-msgstr "Το αρχείο εστάλη επιτυχώς"
+msgstr "Έγινε επιτυχής μεταφόρτωση του αρχείου."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:191
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:267
 msgid "connection successfully established"
-msgstr "επιτυχής εδραίωση επικοινωνίας"
+msgstr "επιτυχής πραγματοποίηση σύνδεσης"
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:202
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:233
 msgid "Uploading the file..."
-msgstr "Αποστολή αρχείου..."
+msgstr "Μεταφόρτωση αρχείου..."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:275
 msgid "This service requires a password."
-msgstr "Η υπηρεσία απαιτεί συνθηματικό."
+msgstr "Η υπηρεσία απαιτεί κωδικό πρόσβασης."
 
 #: usr/lib/linuxmint/mintupload/mintupload_core.py:308
 msgid "URL:"
@@ -198,14 +198,14 @@ msgstr "Διεύθυνση URL:"
 #, python-format
 msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
 msgstr ""
-"Το %(1)s δεν έχει ορισθεί στο αρχείο ρυθμίσεων που βρίσκεται στο %(2)s ή στο "
+"Το %(1)s δεν έχει οριστεί στο αρχείο ρυθμίσεων που βρίσκεται στο %(2)s ή στο "
 "%(3)s"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:27
 #: usr/lib/linuxmint/mintupload/file-uploader.py:30
 #: usr/lib/linuxmint/mintupload/upload-manager.py:35
 msgid "Upload services"
-msgstr "Υπηρεσίες αποστολής"
+msgstr "Υπηρεσίες μεταφόρτωσης"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:50
 msgid "Services:"
@@ -213,16 +213,16 @@ msgstr "Υπηρεσίες:"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:64
 msgid "Upload manager..."
-msgstr "Διαχειριστής αποστολής αρχείων..."
+msgstr "Διαχείριση μεταφορτώσεων..."
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:73
 msgid "Quit"
-msgstr "Τερματισμός"
+msgstr "Έξοδος"
 
 #: usr/lib/linuxmint/mintupload/file-uploader.py:126
 #, python-format
 msgid "Drag &amp; Drop here to upload to %s"
-msgstr "Σύρτε αρχεία εδώ για να τα αποστείλετε στο %s"
+msgstr "Σύρετε και αποθέστε αρχεία εδώ για μεταφόρτωση στο %s"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:53
 msgid "_File"
@@ -239,11 +239,11 @@ msgstr "_Βοήθεια"
 #: usr/lib/linuxmint/mintupload/upload-manager.py:67
 #: usr/lib/linuxmint/mintupload/upload-manager.py:78
 msgid "About"
-msgstr "Περί"
+msgstr "Πληροφορίες"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:120
 msgid "<b>Please enter a name for the new upload service:</b>"
-msgstr "<b>Παρακαλώ εισάγετε ένα όνομα για την νέα υπηρεσία αποστολής:</b>"
+msgstr "<b>Εισαγάγετε ένα όνομα για τη νέα υπηρεσία μεταφόρτωσης:</b>"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:124
 msgid "Service name:"
@@ -257,7 +257,7 @@ msgstr ""
 #: usr/lib/linuxmint/mintupload/upload-manager.py:204
 #, python-format
 msgid "%s Properties"
-msgstr "%s Ιδιότητες"
+msgstr "Ιδιότητες του «%s»"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:207
 msgid "Check connection"
@@ -269,7 +269,7 @@ msgstr "Τύπος:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:213
 msgid "Host:"
-msgstr "Όνομα συστήματος:"
+msgstr "Διακομιστής:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:214
 msgid "Port:"
@@ -281,7 +281,7 @@ msgstr "Χρήστης:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:216
 msgid "Password:"
-msgstr "Συνθηματικό:"
+msgstr "Κωδικός πρόσβασης:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:217
 msgid "Timestamp:"
@@ -294,18 +294,17 @@ msgstr "Διαδρομή:"
 #: usr/lib/linuxmint/mintupload/upload-manager.py:220
 #: usr/lib/linuxmint/mintupload/upload-manager.py:221
 msgid "Hostname or IP address, default: "
-msgstr "Όνομα ή διεύθυνση υπολογιστή, προκαθορισμένο: "
+msgstr "Όνομα διακομιστή ή διεύθυνση IP, προεπιλογή: "
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:224
 #: usr/lib/linuxmint/mintupload/upload-manager.py:225
 msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
-msgstr ""
-"Απομακρυσμένη θύρα, προκαθορισμένες είναι η 21 για FTP, 22 για SFTP και SCP"
+msgstr "Απομακρυσμένη θύρα, προεπιλογές: 21 για FTP, 22 για SFTP και SCP"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:228
 #: usr/lib/linuxmint/mintupload/upload-manager.py:229
 msgid "Username, defaults to your local username"
-msgstr "Όνομα χρήστη, προεπιλεγμένο είναι το όνομα του τοπικού χρήστη"
+msgstr "Όνομα χρήστη, προεπιλογή: τοπικό όνομα χρήστη"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:232
 #: usr/lib/linuxmint/mintupload/upload-manager.py:233
@@ -313,13 +312,13 @@ msgid ""
 "Password, by default: password-less SCP connection, null-string FTP "
 "connection, ~/.ssh keys used for SFTP connections"
 msgstr ""
-"Συνθηματικό, προεπιλογές: Σύνδεση SCP χωρίς συνθηματικό, σύνδεση FTP κενού "
-"αλφαριθμητικού, σύνδεση SFTP με χρήση κλειδιών  ~/.ssh"
+"Κωδικός πρόσβασης, προεπιλογές: σύνδεση SCP χωρίς κωδικό πρόσβασης, σύνδεση "
+"FTP με κενό αλφαριθμητικό, συνδέσεις SFTP με χρήση κλειδιών ~/.ssh"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:236
 #: usr/lib/linuxmint/mintupload/upload-manager.py:237
 msgid "Timestamp format (strftime). By default:"
-msgstr "Μορφότυπο χρονοσήμανσης (strftime). Προεπιλεγμένη:"
+msgstr "Μορφή χρονικής σήμανσης (strftime). Προεπιλογή:"
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:240
 #: usr/lib/linuxmint/mintupload/upload-manager.py:241
@@ -327,17 +326,16 @@ msgid ""
 "Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
 "following the timestamp format given. By default: ."
 msgstr ""
-"Φάκελος προορισμού. Το <TIMESTAMP> αντικαθίσταται με την τρέχουσα χρονική "
-"σήμανση, ακολουθώντας την μορφή που έχει οριστεί για τη χρονική σήμανση. "
-"Προεπιλογή: ."
+"Φάκελος μεταφόρτωσης. Το <TIMESTAMP> αντικαθίσταται με την τρέχουσα χρονική "
+"σήμανση, ακολουθώντας τη μορφή που έχει οριστεί. Προεπιλογή: ."
 
 #: usr/lib/linuxmint/mintupload/upload-manager.py:314
 msgid "Could not save configuration change"
-msgstr "Δεν ήταν εφικτό να αποθηκευτεί η αλλαγή στις ρυθμίσεις"
+msgstr "Δεν ήταν δυνατή η αποθήκευση της αλλαγής των ρυθμίσεων"
 
 #: generate_desktop_files:27 generate_desktop_files:41
 msgid "Define upload services"
-msgstr "Καθορίστε τις υπηρεσίες αποστολής"
+msgstr "Καθορίστε τις υπηρεσίες μεταφόρτωσης"
 
 #~ msgid "File Uploader"
 #~ msgstr "Αποστολή Αρχείων"
